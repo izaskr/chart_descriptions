@@ -37,16 +37,16 @@
 	</text>
 	<annotations>
 		<events>
-			<label from="1-2" id="0" name="topic" text="gender pay gap" to="1-4" type="event"/>
-			<label from="1-6" id="1" name="y_axis_highest_value" text="greatest" to="1-6" type="event"/>
-			<label from="1-9" id="2" name="y_axis_inferred_value_add" text="10" to="1-9" type="event"/>
-			<label from="1-10" id="3" name="y_axis" text="%" to="1-10" type="event"/>
-			<label from="1-13" id="4" name="x_axis_label_highest_value" text="UK" to="1-13" type="event"/>
-			<label from="1-14" id="5" name="y_x_comparison" text="than" to="1-14" type="event"/>
-			<label from="1-16" id="6" name="x_axis_label_least_value" text="Germany" to="1-16" type="event"/>
-			<label from="2-1" id="0" name="x_axis_label_Scnd_highest_value" text="Spain" to="2-1" type="event"/>
-			<label from="2-4" id="1" name="y_axis_inferred_value_add" text="halfway" to="2-4" type="event"/>
-			<label from="2-8" id="2" name="x_axis" text="countries" to="2-8" type="event"/>
+			<label from="1-2" id="1" name="topic" text="gender pay gap" to="1-4" type="event"/>
+			<label from="1-6" id="2" name="y_axis_highest_value" text="greatest" to="1-6" type="event"/>
+			<label from="1-9" id="3" name="y_axis_inferred_value_add" text="10" to="1-9" type="event"/>
+			<label from="1-10" id="4" name="y_axis" text="%" to="1-10" type="event"/>
+			<label from="1-13" id="5" name="x_axis_label_highest_value" text="UK" to="1-13" type="event"/>
+			<label from="1-14" id="6" name="y_x_comparison" text="than" to="1-14" type="event"/>
+			<label from="1-16" id="7" name="x_axis_label_least_value" text="Germany" to="1-16" type="event"/>
+			<label from="2-1" id="8" name="x_axis_label_Scnd_highest_value" text="Spain" to="2-1" type="event"/>
+			<label from="2-4" id="9" name="y_axis_inferred_value_add" text="halfway" to="2-4" type="event"/>
+			<label from="2-8" id="10" name="x_axis" text="countries" to="2-8" type="event"/>
 		</events>
 	</annotations>
 </story>

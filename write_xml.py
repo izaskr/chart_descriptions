@@ -322,16 +322,17 @@ def write_xml(d):
 
 	#print(label_bound)
 
-
+	c = 0
 	for i_sent, triplets in label_bound.items():
 		if i_sent > 1:
 			prev_boundary = boundaries[i_sent-2]
 		for n,(label, start, end, text_str) in enumerate(triplets):
+			c +=1
 			if i_sent == 1:
 				from_value = str(i_sent)+"-"+str(start)
 				to_value = str(i_sent)+"-"+str(end)
 			else:
-				print(sentence_lengths, i_sent)
+				#print(sentence_lengths, i_sent)
 				start2 = start - prev_boundary
 				from_value = str(i_sent)+"-"+str(start2)
 				end2 = end - prev_boundary
@@ -341,14 +342,14 @@ def write_xml(d):
 			add_label = ET.SubElement(events, "label")
 			add_label.set("from", from_value)
 			add_label.set("to", to_value)
-			add_label.set("id", str(n))
+			add_label.set("id", str(c))
 			add_label.set("name", label[1:-1])
 			add_label.set("text", text_str)
 			add_label.set("type", "event")
 
 	s = prettify(story)
 
-	myfile = open("story_paygap_4.xml", "w", encoding="utf-8") # TODO change name given title (arg) and ID
+	myfile = open("test_story_paygap_4.xml", "w", encoding="utf-8") # TODO change name given title (arg) and ID
 	myfile.write(s)
 	myfile.close()
 				
