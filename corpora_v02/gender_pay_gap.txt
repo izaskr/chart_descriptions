@@ -315,7 +315,7 @@ the
 UK   <x_axis_label_highest_value>
 than   <y_x_comparison>
 in
-Germany and Spain    <y_x_comparison_rest>
+Germany and Spain    <x_axis_labels_rest>
 .
 It
 is
