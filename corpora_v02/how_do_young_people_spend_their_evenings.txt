@@ -441,8 +441,9 @@ people    <topic_related_property>
 20    <y_axis_3rd_highest_val>
 %    <y_axis>
 of
-evening    <topic_related_object>
-time is spent with families    <x_axis_label_3rd_highest_value>
+evening time   <topic_related_object>
+is
+spent with families    <x_axis_label_3rd_highest_value>
 and
 just    <y_axis_least_value>
 10    <y_axis_least_value_val>
@@ -516,7 +517,9 @@ whilst    <y_x_comparison_rest>
 20    <y_axis_3rd_highest_val>
 %    <y_axis>
 of
-time is spent with families    <x_axis_label_3rd_highest_value>
+time
+is
+spent with families    <x_axis_label_3rd_highest_value>
 "
 
 
@@ -689,7 +692,7 @@ activity
 is
 reading book    <x_axis_label_least_value>
 (
-~
+~    <y_axis_approx>
 10    <y_axis_least_value_val>
 %    <y_axis>
 )
@@ -739,7 +742,6 @@ evenings    <topic_related_object>
 
 "
 The percentage of young people who spend their evening doing different activities   <topic>
-
 .
 \\n    <separator>
 \\n    <separator>

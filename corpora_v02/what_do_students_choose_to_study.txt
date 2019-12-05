@@ -630,7 +630,7 @@ to
 study    <topic_related_property>
 stem    <x_axis_label_highest_value>
 with
-more    <y_axis_trend_up>
+more    <y_axis_approx>
 than
 double    <y_axis_inferred_value_mul>
 the

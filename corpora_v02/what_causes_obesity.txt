@@ -505,7 +505,8 @@ to
 genetic factors    <x_axis_label_Scnd_highest_value>
 ,
 and
-just under    <y_axis_approx>
+just
+under    <y_axis_approx>
 10    <y_axis_least_value_val>
 %    <y_axis>
 of

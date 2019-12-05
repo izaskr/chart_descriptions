@@ -43,14 +43,11 @@ with
 however
 maths    <x_axis_label_least_value>
 has
-only
+only   <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis>
 ,
-a
-rather
-large
-difference
+a rather large difference    <interpretation>
 .
 Arts    <x_axis_label_Scnd_highest_value>
 follows    <order_Scnd>
@@ -224,7 +221,7 @@ are
 in
 Mathematics    <x_axis_label_least_value>
 with
-just
+just    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis>
 ,
@@ -384,7 +381,7 @@ computer science    <x_axis_label_4th_highest_value>
 and
 maths    <x_axis_label_least_value>
 (
-just
+just    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis>
 )
@@ -475,9 +472,7 @@ This
 graph
 shows
 the
-percentage    <y_axis>
-of
-women per University Department    <topic>
+percentage of women per University Department    <topic>
 .
 The
 largest    <y_axis_highest_value>
@@ -519,9 +514,7 @@ Computer Science, Maths and Engineering    <x_axis_labels_rest>
 This
 graph
 shows
-percentages    <y_axis>
-of
-women in different university departments    <topic>
+percentages of women in different university departments    <topic>
 .
 Literature    <x_axis_label_highest_value>
 departments    <x_axis>
@@ -601,8 +594,7 @@ with
 engineering    <x_axis_label_3rd_highest_value>
 and
 computer science    <x_axis_label_4th_highest_value>
-in
-between
+in between <other_operation>
 "
 
 
@@ -750,7 +742,7 @@ represented
 department    <x_axis>
 for
 women    <topic_related_property>
-only
+only    <y_axis_least_value>
 making
 up
 10    <y_axis_least_value_val>
@@ -824,7 +816,7 @@ representation    <topic_related_property>
 of
 women    <topic_related_property>
 at
-only
+only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis>
 .

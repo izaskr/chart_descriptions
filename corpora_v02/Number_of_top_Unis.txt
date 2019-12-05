@@ -55,7 +55,7 @@ drastically   <y_axis_trend>
 behind    <y_axis_trend_down>
 with
 under    <y_axis_approx>
-10    <y_axis_inferred_value_approx>
+10    <y_axis_inferred_least_value_approx>
 %    <y_axis_inferred_label>
 .
 Europe    <x_axis_label_Scnd_highest_value>
@@ -126,7 +126,7 @@ similarly    <y_axis_trend>
 low    <y_axis_least_value>
 at
 about    <y_axis_approx>
-5/6    <y_axis_inferred_value_approx>
+5/6    <y_axis_inferred_least_value_approx>
 %    <y_axis_inferred_label>
 .
 "
@@ -489,7 +489,7 @@ are
 joint    <y_axis_trend>
 last    <y_axis_least_value>
 with
-6    <y_axis_inferred_value_approx>
+6    <y_axis_inferred_least_value_approx>
 each
 .
 "
@@ -572,7 +572,7 @@ Australia    <x_axis_label_least_value>
 the country    <interpretation> 
 )
 have
-3    <y_axis_inferred_value_approx>
+3    <y_axis_inferred_least_value_approx>
 %    <y_axis_inferred_label>
 each
 .
@@ -679,7 +679,7 @@ and
 australia    <x_axis_label_least_value>
 tying    <y_axis_trend>
 with
-4    <y_axis_inferred_value_approx>
+4    <y_axis_inferred_least_value_approx>
 each
 .
 this shows that america and europe combined have more than 80% of the top 100 universities    <interpretation>
@@ -755,7 +755,7 @@ while    <y_x_comparison>
 Africa    <x_axis_label_least_value>
 only    <y_axis_least_value>
 has
-4    <y_axis_inferred_value_approx>
+4    <y_axis_inferred_least_value_approx>
 .
 "
 

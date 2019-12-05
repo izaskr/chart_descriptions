@@ -48,7 +48,7 @@ is
 the
 least    <y_axis_least_value>
 with
-less    <y_axis_trend_down>
+less    <y_axis_approx>
 than
 20    <y_axis_least_value_val>
 %    <y_axis>
@@ -63,16 +63,16 @@ Insurance    <x_axis_label_3rd_highest_value>
 has
 only
 a
-quarter    <y_axis_inferred_value_mul>
+quarter    <y_axis_3rd_highest_val>
 of
 women    <topic_related_property>
 representation    <topic_related_property>
 with
 financial groups    <x_axis_label_Scnd_highest_value>
 a
-little    <y_axis_trend>
-over    <y_axis_trend_up>
-half    <y_axis_inferred_value_mul>
+little
+over    <y_axis_approx>
+half    <y_axis_inferred_Scnd_highest_value_approx>
 .
 "
 
@@ -326,8 +326,7 @@ staff
 .
 This
 is
-3    <y_axis_inferred_value_mul>
-times
+3 times    <y_axis_inferred_value_mul>
 higher    <y_axis_trend_up>
 than
 in
@@ -393,9 +392,9 @@ within
 financial groups    <x_axis_label_Scnd_highest_value>
 ,
 just
-less    <y_axis_trend_down>
+less    <y_axis_approx>
 than
-30    <y_axis_least_value_val_approx>
+30    <y_axis_inferred_least_value_approx>
 %    <y_axis>
 in
 insurance    <x_axis_label_3rd_highest_value>
@@ -524,7 +523,7 @@ shows
 %    <y_axis>
 ,
 Insurance    <x_axis_label_3rd_highest_value>
-22    <y_axis_3rd_highest_val>
+22    <y_axis_inferred_3rd_highest_value_approx>
 %    <y_axis>
 ,
 and
@@ -616,7 +615,7 @@ with
 ,
 Insurance    <x_axis_label_3rd_highest_value>
 with
-35    <y_axis_3rd_highest_val>
+35    <y_axis_inferred_3rd_highest_value_approx>
 %    <y_axis>
 and
 Tech    <x_axis_label_least_value>
@@ -785,7 +784,7 @@ Insurance    <x_axis_label_3rd_highest_value>
 and
 Tech    <x_axis_label_least_value>
 are
-only
+only    <y_axis_least_value>
 represented
 by
 25    <y_axis_3rd_highest_val>
@@ -857,7 +856,7 @@ at
 and
 Tech    <x_axis_label_least_value>
 at
-only
+only    <y_axis_least_value>
 20    <y_axis_least_value_val>
 %    <y_axis>
 "

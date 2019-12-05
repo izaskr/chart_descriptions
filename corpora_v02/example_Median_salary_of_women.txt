@@ -41,7 +41,7 @@ women    <topic_related_object>
 is
 rising    <y_axis_trend_up>
 by
-about
+about    <y_axis_approx>
 2    <y_axis_inferred_value_add>
 -
 3    <y_axis_inferred_value_add>
@@ -74,7 +74,7 @@ a
 cost
 rate
 of
-approximately    <y_axis_trend>
+approximately    <y_axis_approx>
 $    <y_axis_inferred_label>
 5,000    <y_axis_inferred_value_add>
 per

@@ -145,7 +145,7 @@ the
 UK    <x_axis_label_highest_value>
 with
 approximately    <y_axis_approx>
-17    <y_axis_inferred_value_approx>
+17    <y_axis_inferred_highest_value_approx>
 %    <y_axis>
 .
 Secondly   <order_Scnd>
@@ -197,7 +197,7 @@ a
 percentage    <y_axis>
 of
 over    <y_axis_approx>
-14    <y_axis_inferred_value_approx>
+14    <y_axis_inferred_highest_value_approx>
 .
 Spain    <x_axis_label_Scnd_highest_value>
 has
@@ -237,7 +237,7 @@ the
 biggest    <y_axis_highest_value>
 gender pay gap    <topic>
 (
-13    <y_axis_inferred_value_approx>
+13    <y_axis_inferred_highest_value_approx>
 %    <y_axis>
 )
 ,
@@ -280,7 +280,7 @@ pay   <topic_related_property>
 gap    <y_axis>
 with
 over    <y_axis_approx>
-14    <y_axis_inferred_value_approx>
+14    <y_axis_inferred_highest_value_approx>
 %    <y_axis>
 difference
 .
@@ -330,8 +330,7 @@ is
 10    <y_axis_Scnd_highest_val>
 %    <y_axis>
 and
-3    <y_axis_inferred_value_mul>
-times
+3 times    <y_axis_inferred_value_mul>
 that
 in
 Germany    <x_axis_label_least_value>
@@ -397,7 +396,7 @@ the
 UK    <x_axis_label_highest_value>
 at
 over    <y_axis_approx>
-14    <y_axis_inferred_value_approx>
+14    <y_axis_inferred_highest_value_approx>
 percent    <y_axis_inferred_label>
 ,
 and
@@ -428,7 +427,7 @@ is
 the
 UK    <x_axis_label_highest_value>
 with
-16    <y_axis_inferred_value_approx>
+16    <y_axis_inferred_highest_value_approx>
 %    <y_axis>
 ,
 followed    <order_Scnd>
@@ -441,7 +440,7 @@ and
 lastly    <final_label_left>
 Germany    <x_axis_label_least_value>
 at
-6    <y_axis_least_value_val_approx>
+6    <y_axis_inferred_least_value_approx>
 %    <y_axis>
 "
 
@@ -507,7 +506,7 @@ Spain    <x_axis_label_Scnd_highest_value>
 and
 just
 over    <y_axis_approx>
-14    <y_axis_inferred_value_approx>
+14    <y_axis_inferred_highest_value_approx>
 %    <y_axis>
 in
 the
@@ -531,7 +530,7 @@ the
 UK    <x_axis_label_highest_value>
 at
 over    <y_axis_approx>
-14    <y_axis_inferred_value_approx>
+14    <y_axis_inferred_highest_value_approx>
 %    <y_axis>
 ,
 the
@@ -672,7 +671,7 @@ of
 a
 gap    <y_axis>
 with
-16    <y_axis_inferred_value_approx>
+16    <y_axis_inferred_highest_value_approx>
 %    <y_axis>
 ,
 followed    <order_Scnd>

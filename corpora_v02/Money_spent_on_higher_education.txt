@@ -51,7 +51,7 @@ on
 higher education    <topic_related_object>
 at
 over    <y_axis_approx>
-300    <y_axis_inferred_value_approx>
+300    <y_axis_inferred_highest_value_approx>
 million dollars    <y_axis_inferred_label>
 but
 Africa    <x_axis_label_least_value>
@@ -153,9 +153,9 @@ a
 cost
 of
 just
-over    <y_axis_inferred_value_approx>
+over    <y_axis_approx>
 £    <y_axis_inferred_label>
-300,000,000    <y_axis_inferred_value_approx>
+300,000,000    <y_axis_inferred_highest_value_approx>
 .
 The
 amount    <y_axis>
@@ -216,7 +216,7 @@ Asia    <x_axis_label_3rd_highest_value>
 spending
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-300,000,000     <y_axis_inferred_value_approx>
+300,000,000     <y_axis_inferred_highest_value_approx>
 "
 
 
@@ -235,7 +235,7 @@ higher education    <topic_related_object>
 spending
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-300     <y_axis_inferred_value_approx>
+300     <y_axis_inferred_highest_value_approx>
 million    <y_axis_inferred_label>
 ,
 North America    <x_axis_label_Scnd_highest_value>
@@ -281,7 +281,7 @@ the
 most    <y_axis_highest_value>
 with
 over    <y_axis_approx>
-300    <y_axis_inferred_value_approx>
+300    <y_axis_inferred_highest_value_approx>
 million dollars    <y_axis_inferred_label>
 .
 Africa    <x_axis_label_least_value>
@@ -309,15 +309,14 @@ other
 continents    <x_axis>
 .
 At
-325    <y_axis_inferred_value_approx>
+325    <y_axis_inferred_highest_value_approx>
 million dollars    <y_axis_inferred_label>
 ,
 this
 is
-more    <y_axis_trend_up>
+more    <y_axis_approx>
 than
-3    <y_axis_inferred_value_mul>
-times
+3 times    <y_axis_inferred_value_mul>
 higher    <y_axis_trend_up>
 than
 Europe    <x_axis_label_3rd_highest_value>
@@ -325,9 +324,8 @@ at
 100    <y_axis_3rd_highest_val>
 million dollars    <y_axis_inferred_label>
 and
-over    <y_axis_trend>
-6    <y_axis_inferred_value_mul>
-times
+over    <y_axis_approx>
+6 times    <y_axis_inferred_value_mul>
 higher    <y_axis_trend_up>
 than
 Africa    <x_axis_label_least_value>
@@ -362,8 +360,8 @@ the
 most    <y_axis_highest_value>
 at
 just
-over
-300    <y_axis_highest_value_val>
+over    <y_axis_approx>
+300    <y_axis_inferred_highest_value_approx>
 million dollars    <y_axis_inferred_label>
 with
 Africa    <x_axis_label_least_value>
@@ -394,7 +392,7 @@ on
 higher education    <topic_related_object>
 with
 over    <y_axis_approx>
-300    <y_axis_inferred_value_approx>
+300    <y_axis_inferred_highest_value_approx>
 million dollar    <y_axis_inferred_label>
 spent
 in
@@ -495,7 +493,7 @@ the
 most    <y_axis_highest_value>
 ,
 $    <y_axis_inferred_label>
-300    <y_axis_inferred_value_approx>
+300    <y_axis_inferred_highest_value_approx>
 million    <y_axis_inferred_label>
 ,
 while    <y_x_comparison_rest>
@@ -540,7 +538,7 @@ in
 at
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-300    <y_axis_inferred_value_approx>
+300    <y_axis_inferred_highest_value_approx>
 million dollar    <y_axis_inferred_label>
 ,
 followed    <order_Scnd>
@@ -596,7 +594,7 @@ being
 asia    <x_axis_label_highest_value>
 with
 over    <y_axis_approx>
-300    <y_axis_inferred_value_approx>
+300    <y_axis_inferred_highest_value_approx>
 million dollar    <y_axis_inferred_label>
 follows    <order_Scnd>
 by
@@ -635,8 +633,7 @@ on
 higher education    <topic_related_object>
 compared    <x_axis_comparison>
 to
-other
-continents    <x_axis>
+other continents    <x_axis_labels_rest>
 "
 
 
@@ -743,8 +740,7 @@ much
 as
 Europe    <x_axis_label_3rd_highest_value>
 and
-four    <y_axis_inferred_value_mul>
-times
+four times    <y_axis_inferred_value_mul>
 as
 much
 Africa    <x_axis_label_least_value>
@@ -792,7 +788,7 @@ Africa    <x_axis_label_least_value>
 
 
 "
-325    <y_axis_highest_value_val>
+325    <y_axis_inferred_highest_value_approx>
 Million dollars    <y_axis_inferred_label>
 spent
 on

@@ -1,6 +1,6 @@
 "
 This
-chart   
+chart
 shows
 the     
 average annual salary for software engineers relative to their degree    <topic>
@@ -55,7 +55,7 @@ earn
 the
 highest     <y_axis_highest_value>
 with
-over
+over    <y_axis_approx>
 20000    <y_axis_inferred_value_add>
 more    <y_axis_trend_up>
 than
@@ -245,7 +245,7 @@ a
 median    <topic_related_property>
 salary    <y_axis>
 of
-over    <y_axis_trend>
+over    <y_axis_approx>
 $60,000    <y_axis_inferred_highest_value>
 .
 Masters    <x_axis_label_Scnd_highest_value>
@@ -281,7 +281,7 @@ least    <y_axis_least_value>
 , 
 earning
 just
-over    <y_axis_trend>
+over    <y_axis_approx>
 $    <y_axis_inferred_label>
 30,000    <y_axis_least_value_val>
 on
@@ -321,7 +321,7 @@ is
 a
 difference
 of
-about
+about    <y_axis_approx>
 $    <y_axis_inferred_label>
 30,000    <y_axis_inferred_value_add>
 between
@@ -392,7 +392,6 @@ there
 is
 an
 approximately    <y_axis_approx>
-Â
 £
 20,000    <y_axis_inferred_value_add>
 salary    <y_axis>
@@ -412,7 +411,6 @@ but
 only
 an
 approximate    <y_axis_approx>
-Â
 £
 10,000    <y_axis_inferred_value_add>
 difference
@@ -617,10 +615,10 @@ with
 a
 PhD    <x_axis_label_highest_value>
 earn
-over
+over    <y_axis_approx>
 $    <y_axis_inferred_label>
 60,000    <y_axis_inferred_highest_value>
-about
+about    <y_axis_approx>
 $    <y_axis_inferred_label>
 10,000    <y_axis_inferred_value_add>
 per
@@ -637,7 +635,7 @@ who
 in
 turn
 earn
-about
+about    <y_axis_approx>
 $    <y_axis_inferred_label>
 10,000    <y_axis_inferred_value_add>
 per
@@ -657,7 +655,7 @@ earn
 the
 least    <y_axis_least_value>
 at
-about
+about    <y_axis_approx>
 $    <y_axis_inferred_label>
 35,000    <y_axis_least_value_val>
 per
@@ -708,7 +706,7 @@ Phd    <x_axis_label_highest_value>
 look
 to
 earn
-over
+over    <y_axis_approx>
 60,000    <y_axis_inferred_highest_value>
 ,
 followed    <order_Scnd>
@@ -719,7 +717,7 @@ with
 \\n    <separator>
 bachelors    <x_axis_label_3rd_highest_value>
 with
-over
+over    <y_axis_approx>
 40,000    <y_axis_inferred_3rd_highest_value>
 and
 no degree    <x_axis_label_least_value>
@@ -811,7 +809,7 @@ bachelors    <x_axis_label_3rd_highest_value>
 Non-degree    <x_axis_label_least_value>
 holders
 earn
-about
+about    <y_axis_approx>
 half    <y_axis_inferred_value_mul>
 what
 PhD    <x_axis_label_highest_value>
