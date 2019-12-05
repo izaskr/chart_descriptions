@@ -83,7 +83,7 @@ subjects    <x_axis>
 
 "
 Exactly
-half    <y_axis_inferred_value_mul>
+half    <y_axis_highest_value_val>
 of
 all
 these
@@ -102,8 +102,8 @@ studied
 with
 philosophy    <x_axis_label_least_value>
 exactly
-half    <y_axis_inferred_value_mul>
-again
+10    <y_axis_least_value_val>
+%    <y_axis>
 .
 These figures are unlikely to be accurate as they are too precise    <interpretation>
 .
@@ -230,10 +230,7 @@ study    <topic_related_property>
 each
 .
 Philosophy    <x_axis_label_least_value>
-brings
-up
-the
-rear    <y_axis_least_value>    
+brings up the rear    <y_axis_least_value>    
 ,
 with
 10    <y_axis_least_value_val>
@@ -264,7 +261,8 @@ students choosing different areas of university subjects    <topic>
 choose
 a
 STEM    <x_axis_label_highest_value>
--related
+-
+related
 subject    <x_axis>
 ;
 20    <y_axis_Scnd_highest_val>
@@ -276,7 +274,7 @@ literature    <x_axis_label_Scnd_highest_value>
 %    <y_axis>
 choose
 medicine    <x_axis_label_Scnd_highest_value>    
-and`
+and
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis>
@@ -487,7 +485,7 @@ graph
 shows
 which subjects students choose to study    <topic>
 .
-Half    <y_axis_inferred_value_mul>
+Half    <y_axis_highest_value_val>
 of
 students    <topic_related_object>
 go
@@ -496,16 +494,16 @@ STEM    <x_axis_label_highest_value>
 fields    <x_axis>
 ,
 a
-fifth    <y_axis_inferred_value_mul>
+fifth    <y_axis_Scnd_highest_val>
 choose
 Literature    <x_axis_label_Scnd_highest_value>
 ,
 another
-fifth    <y_axis_inferred_value_mul>
+fifth    <y_axis_Scnd_highest_val>
 Medicine    <x_axis_label_Scnd_highest_value>
 ,
 and
-1 in ten    <y_axis_inferred_value_mul>
+1 in ten    <y_axis_least_value_val>
 choose
 Philosophy    <x_axis_label_least_value>
 .
@@ -525,7 +523,7 @@ the
 STEM    <x_axis_label_highest_value>
 subjects    <x_axis>
 ,
-less    <y_axis_trend>
+less    <y_axis_approx>
 than
 half    <y_axis_inferred_value_mul>
 that
@@ -653,7 +651,7 @@ students    <topic_related_object>
 pick
 STEM    <x_axis_label_highest_value>
 at
-approx
+approx    <y_axis_approx>
 50    <y_axis_highest_value_val>
 %    <y_axis>
 ,
@@ -689,18 +687,18 @@ displays
 the percentage of students in different types of department    <topic>
 .
 The
-modal
-category
+modal    <y_axis_highest_value>
+category    <x_axis>
 is
 STEM    <x_axis_label_highest_value>
 .
-It is unclear where other departments like History or Social Science fit
+It is unclear where other departments like History or Social Science fit    <interpretation>
 .
 Philosophy    <x_axis_label_least_value>
 is
 the
 smallest    <y_axis_least_value>
-category
+category    <x_axis>
 -
 but this in unsurprising as it is one subject compared to the conglomeration of STEM subjects    <interpretation>
 .
