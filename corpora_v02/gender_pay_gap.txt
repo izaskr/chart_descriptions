@@ -108,7 +108,7 @@ Germany   <x_axis_label_least_value>
 Spain    <x_axis_label_Scnd_highest_value>
 is
 exactly
-halfway    <y_axis_inferred_value_add>
+halfway    <other_operation>
 between
 the
 two
