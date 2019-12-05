@@ -17,14 +17,14 @@ Australia    <x_axis_label_least_value>
 have
 a
 very    <y_axis_trend> 
-small    <y_axis_trend>
+small    <y_axis_trend_down>
 amount    <y_axis_inferred_label>
 whilst    <y_x_comparison_rest>
 Asia, Europe and America    <x_axis_labels_rest>
 have
 a
 much    <y_axis_trend>
-higher    <y_axis_trend>
+higher    <y_axis_trend_up>
 amount    <y_axis_inferred_label>
 "
 
@@ -50,9 +50,9 @@ with
 Australia    <x_axis_label_least_value>
 and
 Africa    <x_axis_label_least_value>
-falling    <y_axis_trend>
+falling    <y_axis_trend_down>
 drastically   <y_axis_trend>
-behind    <y_axis_trend>
+behind    <y_axis_trend_down>
 with
 under    <y_axis_approx>
 10    <y_axis_inferred_value_approx>
@@ -74,7 +74,7 @@ retrospectively
 "
 There
 are
-more   <y_axis_trend>
+more   <y_axis_trend_up>
 top   <topic_related_property>
 universities    <topic_related_object>
 in
@@ -126,7 +126,7 @@ similarly    <y_axis_trend>
 low    <y_axis_least_value>
 at
 about    <y_axis_approx>
-5/6    <y_axis_least_value_val>
+5/6    <y_axis_inferred_value_approx>
 %    <y_axis_inferred_label>
 .
 "
@@ -316,7 +316,7 @@ each
 
 
 "
-Half    <y_axis_inferred_value_mul>
+Half    <y_axis_highest_value_val>
 of
 the
 top   <topic_related_property>
@@ -336,7 +336,7 @@ Europe   <x_axis_label_Scnd_highest_value>
 .
 Asia, Africa and Australia    <x_axis_labels_rest>   
 have
-fewer    <y_axis_trend>
+fewer    <y_axis_trend_down>
 .
 Asia    <x_axis_label_3rd_highest_value>
 with
@@ -375,7 +375,7 @@ America    <x_axis_label_highest_value>
 has
 the
 highest    <y_axis_highest_value>
-number    <y_axis_inferred_label>
+number    <y_axis>
 of
 top    <topic_related_property>
 100    <topic_related_property>
@@ -441,7 +441,7 @@ Africa    <x_axis_label_least_value>
 have
 the
 lowest    <y_axis_least_value>
-number    <y_axis_inferred_label>
+number    <y_axis>
 of
 universities    <topic_related_object>
 in
@@ -496,7 +496,7 @@ each
 
 
 "
-Half    <y_axis_inferred_value_mul>
+Half    <y_axis_highest_value_val>
 of
 the
 worlds    <x_axis>
@@ -521,7 +521,7 @@ the
 top    <topic_related_property>
 universities    <topic_related_object>
 and
-African    <x_axis_label_least_value>
+Africa    <x_axis_label_least_value>
 and
 Australia    <x_axis_label_least_value>
 contribute
@@ -529,7 +529,7 @@ the
 lowest    <y_axis_least_value>
 amount    <y_axis_inferred_label>
 with
-just
+just    <y_axis_least_value>
 5    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 each
@@ -544,7 +544,7 @@ graph
 shows
 how many of the world's top universities are on each continent    <topic>
 .
-Half    <y_axis_inferred_value_mul>
+Half    <y_axis_highest_value_val>
 of
 them
 are
@@ -746,7 +746,7 @@ The data presumably comes from a ranking source but this information is not prov
 .
 America    <x_axis_label_highest_value>
 has
-half    <y_axis_inferred_value_mul>
+half    <y_axis_highest_value_val>
 the
 top    <topic_related_property>
 universities    <topic_related_object>
