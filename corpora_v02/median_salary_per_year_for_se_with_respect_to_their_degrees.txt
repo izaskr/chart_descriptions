@@ -569,7 +569,7 @@ of
 $    <y_axis_inferred_label>
 52,000    <y_axis_inferred_Scnd_highest_value>
 ,
-whilst
+whilst    <y_x_comparison>
 a
 BSc    <x_axis_label_3rd_highest_value>
 gets

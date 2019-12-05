@@ -324,7 +324,7 @@ than
 half    <y_axis_inferred_value_mul>
 women    <topic_related_property>
 ,
-while
+while    <y_x_comparison_rest>
 computer science    <x_axis_label_4th_highest_value>
 and
 engineering    <x_axis_label_3rd_highest_value>
