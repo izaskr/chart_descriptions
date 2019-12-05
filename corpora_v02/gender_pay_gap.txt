@@ -57,9 +57,9 @@ gap    <y_axis>
 .
 Spain    <x_axis_label_Scnd_highest_value>
 has
-10    <y_axis_Scnd_highest_val>
+10    <y_axis_inferred_value_add>
 %    <y_axis>
-lower    <y_x_comparison>
+lower    <y_axis_trend_down>
 than
 the
 UK    <x_axis_label_highest_value>
