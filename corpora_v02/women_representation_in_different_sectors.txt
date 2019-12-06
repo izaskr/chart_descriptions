@@ -345,7 +345,7 @@ are
 also
 low    <y_axis_trend_down>
 at
-25    <y_axis_least_value_val>
+25    <y_axis_3rd_highest_val>
 %    <y_axis>
 but
 higher    <y_axis_trend_up>
