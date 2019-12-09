@@ -69,7 +69,15 @@ only
 15000    <y_axis_inferred_value_add>
 behind    <y_axis_trend_down>
 Phd    <x_axis_label_highest_value>
-but shows more studies are needed for higher salaries    <interpretation>
+but
+shows
+more    <x_axis_up>
+studies    <x_axis>
+are
+needed
+for
+higher    <slope_up>
+salaries    <y_axis>
 .
 "
 
@@ -98,7 +106,7 @@ There
 is
 an
 equal
-increase    <y_axis_trend_up>
+increase    <slope_up>
 between
 engineers    <topic_related_object>
 '
@@ -124,7 +132,7 @@ salaries    <y_axis>
 by
 approximately    <y_axis_approx>
 10    <y_axis_inferred_value_mul>
-%
+%    <??>
 .
 "
 
@@ -145,7 +153,7 @@ the
 lowest    <y_axis_least_value>
 at
 30    <y_axis_least_value_val>
-%    <y_axis>
+%    <??>
 ,
 those
 with
@@ -156,7 +164,7 @@ come
 in
 at
 45    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <??>
 .
 With
 a
@@ -170,7 +178,7 @@ salary    <y_axis>
 is
 at
 55    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <??>
 and
 finally    <final_label_left>
 ,
@@ -185,7 +193,7 @@ highest    <y_axis_highest_value>
 level
 of
 65    <y_axis_highest_value_val>
-%    <y_axis>
+%    <??>
 .
 "
 
@@ -223,7 +231,29 @@ a
 masters    <x_axis_label_Scnd_highest_value>
 degree    <x_axis>
 -
-therefore we can take from this graph that the higher the level of education, the higher the salary Software Engineers earn per year    <interpretation>
+therefore
+we
+can
+take
+from
+this
+graph
+that
+the
+higher    <x_axis_up>
+the
+level
+of
+education    <x_axis>
+,
+the
+higher    <slope_up>
+the
+salary    <y_axis>
+Software Engineers    <topic_related_object>
+earn
+per
+year
 "
 
 
@@ -342,7 +372,7 @@ a
 trend
 that
 the
-higher    <y_axis_trend_up>
+higher    <x_axis_up>
 the
 qualifications    <x_axis>
 held
@@ -350,7 +380,7 @@ by
 software engineer    <topic_related_object>
 ,
 the
-greater    <y_axis_trend_up>
+greater    <slope_up>
 the
 salary    <y_axis>
 they
@@ -360,7 +390,7 @@ Those
 with
 no degree    <x_axis_label_least_value>
 receive
-almost
+almost    <y_axis_approx>
 half    <y_axis_inferred_value_mul>
 of
 the
@@ -448,7 +478,21 @@ with
 lesser    <x_axis_trend_down>
 degrees    <x_axis>
 .
-The chart demonstrates that the higher the degree, the more money earned on average    <interpretation>
+The
+chart
+demonstrates
+that
+the
+higher    <x_axis_up>
+the
+degree    <x_axis>
+,
+the
+more    <slope_up>
+money    <y_axis>
+earned
+on
+average
 .
 "
 
@@ -518,7 +562,7 @@ PhD    <x_axis_label_highest_value>
 courses    <x_axis>
 earn
 significantly    <y_axis_trend>
-more    <y_axis_trend_up>
+more    <slope_up??>
 than
 those
 with
@@ -602,14 +646,14 @@ salary    <y_axis>
 a
 software engineer    <topic_related_object>
 earns
-increases    <y_axis_trend_up>
+increases    <slope_up>
 as
 the
 level
 of
 their
 degree    <x_axis>
-rises    <x_axis_trend_up>
+rises    <x_axis_up>
 .
 Those
 with
@@ -724,19 +768,35 @@ and
 no degree    <x_axis_label_least_value>
 30,000    <y_axis_inferred_least_value_approx>
 .
-showing that evidence indicates that the high education you have completed the higher your wage salary will be     <interpretation>
+showing
+that
+evidence
+indicates
+that
+the
+higher    <x_axis_up>
+education    <x_axis>
+you
+have
+completed
+the
+higher    <slope_up>
+your
+wage salary    <y_axis>
+will
+be
 "
 
 
 
 "
 The
-higher    <x_axis_trend_up>
+higher    <x_axis_up>
 level
 of
 education    <x_axis>
 the
-higher    <y_axis_trend_up>
+higher    <slope_up>
 the
 salary    <y_axis>
 "
@@ -779,7 +839,24 @@ no degree    <x_axis_label_least_value>
 earn
 34,000    <y_axis_inferred_least_value_approx>
 .
-This corresponds with what you would expect that those with a better education and more knowledge earn more    <interpretation>
+This
+corresponds
+with
+what
+you
+would
+expect
+that
+those
+with
+a
+better    <x_axis_up>
+education    <x_axis>
+and
+more
+knowledge
+earn    <y_axis>
+more    <slope_up>
 "
 
 
@@ -827,7 +904,7 @@ Software engineers    <topic_related_object>
 who
 achieved
 a
-higher    <x_axis_trend_up>
+higher    <x_axis_up>
 degree    <x_axis>
 of
 further
@@ -838,7 +915,7 @@ degree    <x_axis>
 qualification
 earn
 a
-higher    <y_axis_trend_up>
+higher    <slope_up>
 salary    <y_axis>
 .
 "

@@ -20,7 +20,7 @@ year on year    <x_axis_trend>
 salaries    <y_axis>
 are
 slowly    <y_axis_trend>
-increasing    <y_axis_trend_up>
+increasing    <slope_up>
 .
 "
 
@@ -30,8 +30,8 @@ increasing    <y_axis_trend_up>
 The
 chart
 shows
-every
-5    <x_axis_inferred_value>
+every    <every>
+5    <slope_x_value>
 years    <x_axis>
 the
 median    <topic_related_property>
@@ -39,13 +39,13 @@ salary    <y_axis>
 of
 women    <topic_related_object>
 is
-rising    <y_axis_trend_up>
+rising    <slope_up>
 by
 about    <y_axis_approx>
-2    <y_axis_inferred_value_add>
+2    <y_axis_inferred_value_add?>
 -
-3    <y_axis_inferred_value_add>
-%    <y_axis_inferred_label>
+3    <y_axis_inferred_value_add?>
+%    <y_axis_inferred_label?>
 a
 year    <x_axis>
 .
@@ -59,7 +59,7 @@ salary    <y_axis>
 of
 woman    <topic_related_object>
 has
-gone up    <y_axis_trend_up>
+gone up    <slope_up>
 year on year    <x_axis_trend>
 "
 
@@ -68,7 +68,7 @@ year on year    <x_axis_trend>
 "
 The
 median salary of women    <topic>
-grows    <y_axis_trend_up>
+grows    <slope_up>
 at
 a
 cost
@@ -76,9 +76,9 @@ rate
 of
 approximately    <y_axis_approx>
 $    <y_axis_inferred_label>
-5,000    <y_axis_inferred_value_add>
+5,000    <slope_y_value>
 per
-5    <x_axis_inferred_value>
+5    <slope_x_value>
 years    <x_axis>
 .
 A  logical conclusion would be a few decades ago women did nover , this would not be a reality    <interpretation>
@@ -136,11 +136,11 @@ This
 shows
 an
 increase    <y_axis_trend_up>
-every
-5    <x_axis_inferred_value>
+every    <every>
+5    <slope_x_value>
 years    <x_axis>
 of
-5    <y_axis_inferred_value_add>
+5    <slope_y_value>
 %
 .
 "
@@ -155,9 +155,9 @@ that
 the
 median salaries of women    <topic>
 has
-risen    <y_axis_trend_up>
+risen    <slope_up>
 each
-half decade    <x_axis_inferred_value>
+half decade    <x_interval>
 ,
 with
 2015    <x_axis_label_highest_value>
@@ -183,9 +183,9 @@ salary    <y_axis>
 has
 been
 tranding    <y_axis_trend>
-upwards    <y_axis_trend_up>
+upwards    <slope_up>
 ,
-rising    <y_axis_trend_up>
+rising    <slope_up>
 from
 40,000    <y_axis_least_value_val>
 in
@@ -221,7 +221,7 @@ shows
 a
 trend    <y_axis_trend>
 of
-increasing    <y_axis_trend_up>
+increasing    <slope_up>
 average    <topic_related_property>
 salary    <y_axis>
 of
@@ -239,19 +239,19 @@ is
 gradually    <y_axis_trend>
 and
 steadily    <y_axis_trend>
-rising    <y_axis_trend_up>
-every
-5    <x_axis_inferred_value>
+rising    <slope_up>
+every    <every>
+5    <x_interval>
 years    <x_axis>
 .
 In
 the
 last    <x_diff_first_last_numeric_label>
-15    <x_axis_inferred_value>
+15    <x_interval>
 years    <x_axis>
 it
 has
-risen    <y_axis_trend_up>
+risen    <slope_up>
 15,000    <y_axis_inferred_value_add>
 dollars    <y_axis_inferred_label>
 .
@@ -274,7 +274,7 @@ been
 quite   <y_axis_trend>
 a
 small    <y_axis_trend>
-increase    <y_axis_trend_up>
+increase    <slope_up>
 between    <x_axis_range_start>
 2000    <x_axis_label_least_value>
 and    <x_axis_range_end>
@@ -291,7 +291,7 @@ that
 the
 median salary for women    <topic>
 has
-increased    <y_axis_trend_up>
+increased    <slope_up>
 continualy    <y_axis_trend>
 since    <x_axis_period>
 2000    <x_axis_label_least_value>
@@ -322,8 +322,8 @@ Chart
 shows
 the
 Median Salary of woman    <topic>
-every
-5    <x_axis_inferred_value>
+every    <every>
+5    <x_interval>
 years    <x_axis>
 between    <x_axis_range_start>
 2000    <x_axis_label_least_value>
@@ -336,7 +336,7 @@ shows
 it
 has
 steadily    <y_axis_trend>
-indreased    <y_axis_trend_up>
+indreased    <slope_up>
 .
 In
 2000    <x_axis_label_least_value>
@@ -371,7 +371,7 @@ k    <y_axis_inferred_label>
 The
 median salary for women    <topic>
 has
-risen    <y_axis_trend_up>
+risen    <slope_up>
 steadily    <y_axis_trend>
 from    <x_axis_range_start>
 2000    <x_axis_label_least_value>
@@ -383,10 +383,10 @@ on
 average    <topic_related_property>
 a
 $    <y_axis_inferred_label>
-5,000    <y_axis_inferred_value_add>
+5,000    <slope_y_value>
 increase    <y_axis_trend_up>
-every
-5    <x_axis_inferred_value>
+every    <every>
+5    <slope_x_value>
 years    <x_axis>
 .
 "
@@ -402,8 +402,8 @@ in
 1000s    <y_axis_inferred_label>
 of
 dollars    <y_axis_inferred_label>
-every
-five    <x_axis_inferred_value>
+every    <every>
+five    <x_interval>
 years    <x_axis>
 between    <x_axis_range_start>
 the
@@ -426,7 +426,7 @@ from    <x_axis_range_start>
 2015    <x_axis_label_highest_value>
 the 
 median salary of women    <topic>
-rose    <y_axis_trend_up>
+rose    <slope_up>
 consistently    <y_axis_trend>
 from
 $    <y_axis_inferred_label>
@@ -451,7 +451,7 @@ the
 median salary for women    <topic>
 has
 been
-increasing    <y_axis_trend_up>
+increasing    <slope_up>
 at
 a
 constant rate    <y_axis_trend>
@@ -506,7 +506,7 @@ the
 graph
 shows
 an
-increase    <y_axis_trend_up>
+increase    <slope_up>
 in
 median    <topic_related_property>
 salary    <y_axis>
@@ -519,13 +519,13 @@ time goes on    <x_axis_trend>
 The
 average salary for woman    <topic>
 has
-grown    <y_axis_trend_up>
+grown    <slope_up>
 since    <x_axis_period>
 2000    <x_axis_label_least_value>
 by
 at
 least    <y_axis_trend>
-10    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add?>
 %
 "
 
@@ -551,7 +551,7 @@ the
 median    <topic_related_property>
 salary    <y_axis>
 has
-increased    <y_axis_trend_up>
+increased    <slope_up>
 it
 was
 40,000    <y_axis_least_value_val>
@@ -586,7 +586,7 @@ earnings    <y_axis>
 have
 been
 steadily    <y_axis_trend>
-increasing    <y_axis_trend_up>
+increasing    <slope_up>
 over this time    <x_axis_trend>
 .
 "
@@ -598,10 +598,10 @@ The
 Median salary for women    <topic>
 appears
 to
-increase    <y_axis_trend_up>
+increase    <slope_up>
 by
-1000    <y_axis_inferred_value_add>
-every
+1000    <slope_y_value>
+every    <slope_x_value>
 year    <x_axis>
 .
 "
@@ -625,9 +625,8 @@ is
 done
 by
 looking
-every    <x_axis_period>
-half    <x_axis_inferred_value>
-decade
+every    <every>
+half decade    <x_interval>
 from    <x_axis_range_start>
 the
 year    <x_axis>
@@ -663,7 +662,7 @@ saw
 women    <topic_related_object>
 median    <topic_related_property>
 pay    <y_axis>
-rise    <y_axis_trend_up>
+rise    <slope_up>
 to    
 53    <y_axis_inferred_highest_value_approx>
 k    <y_axis_inferred_label>
@@ -693,6 +692,6 @@ see
 it
 has
 been
-rising    <y_axis_trend_up>
+rising    <slope_up>
 steadily    <y_axis_trend>
 "
