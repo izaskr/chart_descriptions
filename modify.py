@@ -11,12 +11,12 @@ def add_info(filename):
 
 	for i,k in enumerate(data): # iterate over each plot, k are dictionaries with where the value is a list len 1
 		title = k["general_figure_info"]["title"]["text"]
-		new = {"x_is_ordered":False, "x_order":[], "order": None, "x_is_temporal":False, "x_is_ratio":False}
+		new = {"x_is_ordered":False, "x_order":[], "order": None, "x_is_temporal":False, "x_is_ratio":False, "y_order_as_x":[]}
 		if title == 'Median Salary of Women Per Year':
-			new = {"x_is_ordered":True, "x_order":['2000', '2005', '2010', '2015'], "order":"ascending", "x_is_temporal":True, "x_is_ratio":True}
+			new = {"x_is_ordered":True, "x_order":['2000', '2005', '2010', '2015'], "order":"ascending", "x_is_temporal":True, "x_is_ratio":True, "y_order_as_x":[40, 45, 50, 55]}
 
 		if title == 'Median Salary Per Year For Software Engineers with Respect to their Degree':
-			new = {"x_is_ordered":True, "x_order":['No Degree','Bachelor', 'Master', 'PhD'], "order":"ascending","x_is_temporal":False, "x_is_ratio":False} # in the original, x is given as ['Bachelor', 'Master', 'PhD','No Degree']
+			new = {"x_is_ordered":True, "x_order":['No Degree','Bachelor', 'Master', 'PhD'], "order":"ascending","x_is_temporal":False, "x_is_ratio":False, "y_order_as_x":[35, 45, 55, 65]} # in the original, x is given as ['Bachelor', 'Master', 'PhD','No Degree']
 
 		k["models"][0]["x_order_info"] = new
 
