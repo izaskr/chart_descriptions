@@ -11,12 +11,12 @@ def add_info(filename):
 
 	for i,k in enumerate(data): # iterate over each plot, k are dictionaries with where the value is a list len 1
 		title = k["general_figure_info"]["title"]["text"]
-		new = {"x_is_ordered":False, "x_order":[], "order": None, "x_is_temporal":False}
+		new = {"x_is_ordered":False, "x_order":[], "order": None, "x_is_temporal":False, "x_is_ratio":False}
 		if title == 'Median Salary of Women Per Year':
-			new = {"x_is_ordered":True, "x_order":['2000', '2005', '2010', '2015'], "order":"ascending", "x_is_temporal":True}
+			new = {"x_is_ordered":True, "x_order":['2000', '2005', '2010', '2015'], "order":"ascending", "x_is_temporal":True, "x_is_ratio":True}
 
 		if title == 'Median Salary Per Year For Software Engineers with Respect to their Degree':
-			new = {"x_is_ordered":True, "x_order":['No Degree','Bachelor', 'Master', 'PhD'], "order":"ascending","x_is_temporal":True} # in the original, x is given as ['Bachelor', 'Master', 'PhD','No Degree']
+			new = {"x_is_ordered":True, "x_order":['No Degree','Bachelor', 'Master', 'PhD'], "order":"ascending","x_is_temporal":False, "x_is_ratio":False} # in the original, x is given as ['Bachelor', 'Master', 'PhD','No Degree']
 
 		k["models"][0]["x_order_info"] = new
 
@@ -26,11 +26,11 @@ def write_file(jsonvar,name):
 	with open(name, 'w') as json_file:  
 		json.dump(jsonvar, json_file)
 
-new_data = add_info("original_data/train1_annotations.json")
-write_file(new_data, "train1_annotations2.json")
+new_data = add_info("original_data_json/train1_annotations.json")
+write_file(new_data, "train1_annotations3.json")
 
-new_data = add_info("original_data/val1_annotations.json")
-write_file(new_data, "val1_annotations2.json")
+new_data = add_info("original_data_json/val1_annotations.json")
+write_file(new_data, "val1_annotations3.json")
 
-new_data = add_info("original_data/val2_annotations.json")
-write_file(new_data, "val2_annotations2.json")
+new_data = add_info("original_data_json/val2_annotations.json")
+write_file(new_data, "val2_annotations3.json")
