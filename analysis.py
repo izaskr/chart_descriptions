@@ -2,16 +2,27 @@
 import json
 import numpy as np
 import argparse
+import sys
 from itertools import combinations
+import mord
+from sklearn.linear_model import LogisticRegression
 
 parser = argparse.ArgumentParser()
 #parser.add_argument("-data", required=True)
-parser.add_argument("-labeled_file", required=True)
+parser.add_argument("-labeled_file", required=True, help="labeled file with chart descriptions")
+parser.add_argument("-show", required=True, nargs="+", help="write one or both: info (this will show info extracted from chart json), map (this will show the mapped values from json given labels in the labeled_file)")
 args = vars(parser.parse_args())
 
 annotations = args["labeled_file"]
+show = args["show"]
+show_info, show_mapping = False, False
+if "info" in show: show_info = True
+if "map" in show: show_mapping = True
+if set(show).issubset({"info","map"}) == False: sys.exit("Use 'info' and/or 'map' as value for -show")
+
 
 version_dir = "corpora_v01/" # Rudy's version
+#version_dir = "corpora_v02" # Iza's relabeled
 descriptions_files = ["Money_spent_on_higher_education.txt", 
          "Number_of_top_Unis.txt",
          "gender_pay_gap.txt",
@@ -57,8 +68,11 @@ def get_x_y(filename):
 		plot_type = k["type"] # "vbar_categorical"
 		y_axis_unit_name = k["general_figure_info"]["y_axis"]["label"]["text"] # label of y from the plot
 		x_axis_label_name = k["general_figure_info"]["x_axis"]["label"]["text"]
+		x_major_ticks = k["general_figure_info"]["x_axis"]["major_ticks"]["values"][:-(len(x))] # why double
+		len_yt = int(len(k["general_figure_info"]["y_axis"]["major_ticks"]["values"]) / 2)
+		y_major_ticks = k["general_figure_info"]["y_axis"]["major_ticks"]["values"][:-len_yt]
 
-		xy[i+1] = {"title":title, "x":x, "y":y, "type":plot_type, "x_order_info": x_order_info, "y_axis_unit_name":y_axis_unit_name, "x_axis_label_name": x_axis_label_name}
+		xy[i+1] = {"title":title, "x":x, "y":y, "type":plot_type, "x_order_info": x_order_info, "y_axis_unit_name":y_axis_unit_name, "x_axis_label_name": x_axis_label_name, "x_major_ticks":x_major_ticks,"y_major_ticks":y_major_ticks}
 
 
 	return xy
@@ -136,7 +150,18 @@ def get_stat_info(data):
 	differences = {"plus":plus, "times":times}
 
 	results = {"differences": differences, "label_name_pairs_x": label_name_pairs_x, "label_value_pairs_y": label_value_pairs_y, "misc": misc,"y_axis_unit_name": data["y_axis_unit_name"],"x_axis_label_name": data["x_axis_label_name"]}
-	print(data["title"], x, y)
+	if show_info:
+		print(data["title"])
+		print("x categories \t", x)
+		print("y values \t", y)
+		print("x major ticks", data["x_major_ticks"])
+		print("y major ticks", data["y_major_ticks"])
+		print("y axis unit \t", data["y_axis_unit_name"])
+		print("x axis name \t", data["x_axis_label_name"])
+		print("differences ADD", differences["plus"])
+		print("differences MUL", differences["times"])
+		print("category count", misc["<x_axis_label_count>"])
+		print("x_order_info", data["x_order_info"])
 	#return data["title"], data["x_order_info"],differences, label_name_pairs_x,label_value_pairs_y, misc
 	return results
 
@@ -321,9 +346,9 @@ d = {}
 for i, d in data_ext.items():
 	if d["title"] == title:
 		corpus = d
-
+#print(corpus)
 results = get_stat_info(corpus)
-
-analyze_coverage(annotations, results)
+if show_mapping:
+	analyze_coverage(annotations, results)
 
 
