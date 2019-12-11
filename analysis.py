@@ -5,7 +5,7 @@ import argparse
 import sys
 from itertools import combinations
 import mord
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LinearRegression
 
 parser = argparse.ArgumentParser()
 #parser.add_argument("-data", required=True)
@@ -21,8 +21,8 @@ if "map" in show: show_mapping = True
 if set(show).issubset({"info","map"}) == False: sys.exit("Use 'info' and/or 'map' as value for -show")
 
 
-version_dir = "corpora_v01/" # Rudy's version
-#version_dir = "corpora_v02" # Iza's relabeled
+#version_dir = "corpora_v01/" # Rudy's version
+version_dir = "corpora_v02" # Iza's relabeled
 descriptions_files = ["Money_spent_on_higher_education.txt", 
          "Number_of_top_Unis.txt",
          "gender_pay_gap.txt",
@@ -150,6 +150,28 @@ def get_stat_info(data):
 	differences = {"plus":plus, "times":times}
 
 	results = {"differences": differences, "label_name_pairs_x": label_name_pairs_x, "label_value_pairs_y": label_value_pairs_y, "misc": misc,"y_axis_unit_name": data["y_axis_unit_name"],"x_axis_label_name": data["x_axis_label_name"]}
+
+	slope = None
+	# linear regression: x is ratio
+	if data["x_order_info"]["x_is_ordered"] and data["x_order_info"]["x_is_ratio"]:
+		x_reshape = np.asarray([int(c) for c in x]).reshape(-1,1)
+		y_order_as_x = np.asarray(data["x_order_info"]["y_order_as_x"])
+		lr = LinearRegression().fit(x_reshape,y_order_as_x)
+		slope = lr.coef_[0]
+		
+
+	# ordered logistic regression: x is ordinal
+	if data["x_order_info"]["x_is_ordered"] and data["x_order_info"]["x_is_ratio"] == False:
+		x_dummy_coding = np.asarray([i for i in range(len(x))]).reshape(-1,1)
+		y_order_as_x = np.asarray(data["x_order_info"]["y_order_as_x"])
+		olr = mord.OrdinalRidge(alpha=0.001,fit_intercept=True,normalize=False, copy_X=True,max_iter=None,tol=0.001,solver="auto")
+		olr.fit(x_dummy_coding,y_order_as_x)
+		slope = olr.coef_[0]
+		#print(slope)
+
+		
+
+
 	if show_info:
 		print(data["title"])
 		print("x categories \t", x)
@@ -162,6 +184,8 @@ def get_stat_info(data):
 		print("differences MUL", differences["times"])
 		print("category count", misc["<x_axis_label_count>"])
 		print("x_order_info", data["x_order_info"])
+		if slope:
+			print("slope of regression line", slope)
 	#return data["title"], data["x_order_info"],differences, label_name_pairs_x,label_value_pairs_y, misc
 	return results
 
@@ -336,7 +360,7 @@ def analyze_coverage(annotations, calculated):
 
 
 
-data = descriptions_files_json[annotations][0] + "_annotations2.json"
+data = descriptions_files_json[annotations][0] + "_annotations3.json"
 
 data_ext = get_x_y(data)
 
