@@ -1,0 +1,28 @@
+Second batch of data collection: 3 new scenarios, 3 old scenarios with new plots, 1 undecided
+10 plots all together
+
+First batch has 10 plots, 7 of these have % as units of the y axis, so we need to balance this
+
+
+Scenario ideas for the second batch: 
+- number of rockets launched to space per year in 4 years by USA
+- age groups, social media usage, see https://www.digitalinformationworld.com/2019/01/how-much-time-do-people-spend-social-media-infographic.html 
+- stock value per weekday, see https://www.nasdaq.com/market-activity/stocks/msft 
+- average age at first marriage (UK?) https://qz.com/1602272/the-average-age-for-marriage-in-the-uk-is-now-over-30/
+- (downward trend) percentage fo U.S. adults who oppose same-sex marriage https://qz.com/1602272/the-average-age-for-marriage-in-the-uk-is-now-over-30/
+    https://www.pewresearch.org/fact-tank/2019/06/24/same-sex-marriage/
+- (intervals) No interest in politics by age https://www.bbc.com/news/uk-politics-26271935
+- (downward slope) age demographics  https://www.pewresearch.org/fact-tank/2019/07/30/most-common-age-among-us-racial-ethnic-groups/
+- Religious Restrictionsworldwide https://www.pewforum.org/2019/07/15/a-closer-look-at-how-religious-restrictions-have-risen-around-the-world/
+
+
+TODO:
+- what scenarios from the first batch should we reuse
+- properties of the first batch to spot imbalances
+
+- Data showing downward trends
+- Ordered data involving ranges/intervals (eg. years on x-axis)
+
+
+CONSIDER:
+- effects of large numbers (eg data involving millions and beyond)
