@@ -76,7 +76,8 @@ rate
 of
 approximately    <y_axis_approx>
 $    <y_axis_inferred_label>
-5,000    <slope_y_value>
+5    <slope_y_value>
+,000    <y_magnitude>
 per
 5    <slope_x_value>
 years    <x_axis>
@@ -166,7 +167,8 @@ s
 median    <topic_related_property>
 salary    <y_axis>
 being
-15000    <y_axis_inferred_value_add>
+15    <y_axis_inferred_value_add>
+000    <y_magnitude>
 higher    <y_axis_trend_up>
 than
 in
@@ -187,20 +189,24 @@ upwards    <slope_up>
 ,
 rising    <slope_up>
 from
-40,000    <y_axis_least_value_val>
+40    <y_axis_least_value_val>
+,000    <y_magnitude>
 in
 2000    <x_axis_label_least_value>
 to
-45,000    <y_axis_3rd_highest_val>
+45    <y_axis_3rd_highest_val>
+,000    <y_magnitude>
 in
 2005    <x_axis_label_3rd_highest_value>
 ,
-50,000    <y_axis_Scnd_highest_val>
+50    <y_axis_Scnd_highest_val>
+,000    <y_magnitude>
 in
 2010    <x_axis_label_Scnd_highest_value>
 ,
 to
-55,000    <y_axis_highest_value_val>
+55    <y_axis_highest_value_val>
+,000    <y_magnitude>
 in
 2015    <x_axis_label_highest_value>
 "
@@ -252,7 +258,8 @@ years    <x_axis>
 it
 has
 risen    <slope_up>
-15,000    <y_axis_inferred_value_add>
+15    <y_axis_inferred_value_add>
+,000    <y_magnitude>
 dollars    <y_axis_inferred_label>
 .
 "
@@ -303,14 +310,16 @@ salary    <y_axis>
 for
 women    <topic_related_object>
 over    <y_axis_approx>
-50,000    <y_axis_inferred_highest_value_approx>
+50    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 dollars    <y_axis_inferred_label>
 in
 2015    <x_axis_label_highest_value>
 ,
 compared    <y_x_comparison>
 to
-40,000    <y_axis_least_value_val>
+40    <y_axis_least_value_val>
+,000    <y_magnitude>
 in
 2000    <x_axis_label_least_value>
 .
@@ -344,18 +353,18 @@ the
 salary    <y_axis>
 was
 40    <y_axis_least_value_val>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 ,
 2005    <x_axis_label_3rd_highest_value>
 it
 was
 42    <y_axis_inferred_3rd_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 ,
 2010    <x_axis_label_Scnd_highest_value>
 was
 50    <y_axis_Scnd_highest_val>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 and
 finally    <final_label_left>
 in
@@ -363,7 +372,7 @@ in
 it
 was
 52    <y_axis_inferred_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 "
 
 
@@ -383,7 +392,8 @@ on
 average    <topic_related_property>
 a
 $    <y_axis_inferred_label>
-5,000    <slope_y_value>
+5    <slope_y_value>
+,000    <y_magnitude>
 increase    <y_axis_trend_up>
 every    <every>
 5    <slope_x_value>
@@ -399,7 +409,7 @@ shows
 the
 median annual salary of women    <topic>
 in
-1000s    <y_axis_inferred_label>
+1000s    <y_magnitude>
 of
 dollars    <y_axis_inferred_label>
 every    <every>
@@ -430,13 +440,15 @@ rose    <slope_up>
 consistently    <y_axis_trend>
 from
 $    <y_axis_inferred_label>
-40,000    <y_axis_least_value_val>
+40    <y_axis_least_value_val>
+,000    <y_magnitude>
 in
 2000    <x_axis_label_least_value>
 to
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-50,000    <y_axis_inferred_highest_value_approx>
+50    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 in
 2015    <x_axis_label_highest_value>
 "
@@ -481,23 +493,27 @@ median    <topic_related_property>
 was
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-56,000    <y_axis_inferred_highest_value_approx>
+56    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 ,
 followed    <order_Scnd>
 by
 2010    <x_axis_label_Scnd_highest_value>
 with
 $    <y_axis_inferred_label>
-50,000    <y_axis_Scnd_highest_val>
+50    <y_axis_Scnd_highest_val>
+,000    <y_magnitude>
 ,
 2005    <x_axis_label_3rd_highest_value>
 with
 $    <y_axis_inferred_label>
-44,000    <y_axis_inferred_3rd_highest_value_approx>
+44    <y_axis_inferred_3rd_highest_value_approx>
+,000    <y_magnitude>
 and
 2000    <x_axis_label_least_value>
 $    <y_axis_inferred_label>
-40,000    <y_axis_least_value_val>
+40    <y_axis_least_value_val>
+,000    <y_magnitude>
 .
 as
 a
@@ -554,13 +570,15 @@ has
 increased    <slope_up>
 it
 was
-40,000    <y_axis_least_value_val>
+40    <y_axis_least_value_val>
+,000    <y_magnitude>
 in
 2000    <x_axis_label_least_value>
 and
 is
 now
-56,000    <y_axis_inferred_highest_value_approx>
+56    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 in
 2015    <x_axis_label_highest_value>
 .
@@ -600,7 +618,8 @@ appears
 to
 increase    <slope_up>
 by
-1000    <slope_y_value>
+1    <slope_y_value>
+000    <y_magnitude>
 every    <slope_x_value>
 year    <x_axis>
 .
@@ -635,22 +654,26 @@ to    <x_axis_range_end>
 2015    <x_axis_label_highest_value>
 .
 $    <y_axis_inferred_label>
-40000    <y_axis_least_value_val>
+40    <y_axis_least_value_val>
+000    <y_magnitude>
 -
 2000    <x_axis_label_least_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
-42000    <y_axis_inferred_3rd_highest_value_approx>
+42    <y_axis_inferred_3rd_highest_value_approx>
+000    <y_magnitude>
 -
 2005    <x_axis_label_3rd_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
-50000    <y_axis_Scnd_highest_val>
+50    <y_axis_Scnd_highest_val>
+000    <y_magnitude>
 -
 2010    <x_axis_label_Scnd_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
-52000    <y_axis_inferred_highest_value_approx>
+52    <y_axis_inferred_highest_value_approx>
+000    <y_magnitude>
 -
 2015    <x_axis_label_highest_value>
 "
@@ -665,11 +688,11 @@ pay    <y_axis>
 rise    <slope_up>
 to    
 53    <y_axis_inferred_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 ,
 from    <y_x_comparison_rest>
 50    <y_axis_Scnd_highest_val>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 in
 2010    <x_axis_label_Scnd_highest_value>
 .
@@ -678,10 +701,10 @@ it
 was
 at
 45    <y_axis_3rd_highest_val>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 from
 40    <y_axis_least_value_val>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 in
 2000    <x_axis_label_least_value>
 ,
