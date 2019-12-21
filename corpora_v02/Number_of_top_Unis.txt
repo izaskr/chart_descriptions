@@ -83,7 +83,7 @@ than
 anywhere else    <x_axis_labels_rest>
 in
 the
-world    <x_axis>
+world
 .
 "
 
@@ -323,7 +323,7 @@ top   <topic_related_property>
 universities    <topic_related_object>
 in
 the
-world    <x_axis>
+world
 are
 in
 America    <x_axis_label_highest_value>
@@ -499,7 +499,7 @@ each
 Half    <y_axis_highest_value_val>
 of
 the
-worlds    <x_axis>
+worlds
 top    <topic_related_property>
 universities    <topic_related_object>
 are
@@ -766,7 +766,7 @@ has
 %    <y_axis_inferred_label>
 of
 the
-world    <x_axis>
+world
 '
 s
 top    <topic_related_property>
@@ -800,7 +800,7 @@ to
 %    <y_axis_inferred_label>
 of
 the
-world    <x_axis>
+world
 '
 s
 top    <topic_related_property>
