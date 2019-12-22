@@ -56,7 +56,8 @@ the
 highest     <y_axis_highest_value>
 with
 over    <y_axis_approx>
-20000    <y_axis_inferred_value_add>
+20    <y_axis_inferred_value_add>
+000    <y_magnitude>
 more    <y_axis_trend_up>
 than
 no degrees    <x_axis_label_least_value>
@@ -66,7 +67,8 @@ bachelor    <x_axis_label_3rd_highest_value>
 Masters    <x_axis_label_Scnd_highest_value>
 is
 only
-15000    <y_axis_inferred_value_add>
+15    <y_axis_inferred_value_add>
+000    <y_magnitude>
 behind    <y_axis_trend_down>
 Phd    <x_axis_label_highest_value>
 but
@@ -277,7 +279,8 @@ salary    <y_axis>
 of
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-60,000    <y_axis_inferred_highest_value_approx>
+60    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 .
 Masters    <x_axis_label_Scnd_highest_value>
 degree    <x_axis>
@@ -288,7 +291,8 @@ earning
 on
 average    <topic_related_property>
 $    <y_axis_inferred_label>
-55,000    <y_axis_Scnd_highest_val>
+55    <y_axis_Scnd_highest_val>
+,000    <y_magnitude>
 .
 Then
 comes
@@ -298,7 +302,8 @@ graduates
 ,
 earning
 $    <y_axis_inferred_label>
-45,000    <y_axis_3rd_highest_val>
+45    <y_axis_3rd_highest_val>
+,000    <y_magnitude>
 on
 average    <topic_related_property>
 .
@@ -314,7 +319,8 @@ earning
 just
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-30,000    <y_axis_inferred_least_value_approx>
+30    <y_axis_inferred_least_value_approx>
+,000    <y_magnitude>
 on
 average    <topic_related_property>
 .
@@ -354,7 +360,8 @@ difference
 of
 about    <y_axis_approx>
 $    <y_axis_inferred_label>
-30,000    <y_axis_inferred_value_add>
+30    <y_axis_inferred_value_add>
+,000    <y_magnitude>
 between
 these
 average
@@ -424,7 +431,8 @@ is
 an
 approximately    <y_axis_approx>
 £
-20,000    <y_axis_inferred_value_add>
+20    <y_axis_inferred_value_add>
+,000    <y_magnitude>
 salary    <y_axis>
 difference
 between    <x_axis_comparison>
@@ -443,7 +451,8 @@ only
 an
 approximate    <y_axis_approx>
 £
-10,000    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add>
+,000    <y_magnitude>
 difference
 between    <x_axis_comparison>
 those
@@ -510,7 +519,7 @@ largest    <y_axis_highest_value>
 salary    <y_axis>
 of
 62    <y_axis_inferred_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 are
 those
 with
@@ -520,7 +529,7 @@ PhD    <x_axis_label_highest_value>
 followed    <order_Scnd>
 by
 52    <y_axis_inferred_Scnd_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 for
 those
 with
@@ -528,7 +537,7 @@ a
 Masters    <x_axis_label_Scnd_highest_value>
 ,
 42    <y_axis_inferred_3rd_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 for
 those
 with
@@ -539,7 +548,7 @@ and
 the
 smallest    <y_axis_least_value>
 32    <y_axis_inferred_least_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 for
 those
 with
@@ -581,7 +590,8 @@ median    <topic_related_property>
 annual
 salary    <y_axis>
 in
-$1000s    <y_axis_inferred_label>
+$    <y_axis_inferred_label>
+1000s    <y_magnitude>
 for
 software engineers    <topic_related_object>
 with
@@ -600,7 +610,8 @@ the
 most    <y_axis_highest_value>
 at
 $    <y_axis_inferred_label>
-62,000    <y_axis_inferred_highest_value_approx>
+62    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 .
 A
 master's    <x_axis_label_Scnd_highest_value>
@@ -610,14 +621,16 @@ average
 earnings    <y_axis>
 of
 $    <y_axis_inferred_label>
-52,000    <y_axis_inferred_Scnd_highest_value_approx>
+52    <y_axis_inferred_Scnd_highest_value_approx>
+,000    <y_magnitude>
 ,
 whilst    <y_x_comparison>
 a
 BSc    <x_axis_label_3rd_highest_value>
 gets
 $    <y_axis_inferred_label>
-42,000    <y_axis_inferred_3rd_highest_value_approx>
+42    <y_axis_inferred_3rd_highest_value_approx>
+,000    <y_magnitude>
 on
 average
 .
@@ -629,7 +642,8 @@ a
 salary    <y_axis>
 of
 $    <y_axis_inferred_label>
-30,000    <y_axis_inferred_least_value_approx>
+30    <y_axis_inferred_least_value_approx>
+,000    <y_magnitude>
 .
 "
 
@@ -662,10 +676,12 @@ PhD    <x_axis_label_highest_value>
 earn
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-60,000    <y_axis_inferred_highest_value_approx>
+60    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 about    <y_axis_approx>
 $    <y_axis_inferred_label>
-10,000    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add>
+,000    <y_magnitude>
 per
 year
 more    <y_axis_trend_up>
@@ -682,7 +698,8 @@ turn
 earn
 about    <y_axis_approx>
 $    <y_axis_inferred_label>
-10,000    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add>
+,000    <y_magnitude>
 per
 year
 more    <y_axis_trend_up>
@@ -702,7 +719,8 @@ least    <y_axis_least_value>
 at
 about    <y_axis_approx>
 $    <y_axis_inferred_label>
-35,000    <y_axis_least_value_val>
+35    <y_axis_least_value_val>
+,000    <y_magnitude>
 per
 year
 .
@@ -752,21 +770,25 @@ look
 to
 earn
 over    <y_axis_approx>
-60,000    <y_axis_inferred_highest_value_approx>
+60    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 ,
 followed    <order_Scnd>
 by
 masters    <x_axis_label_Scnd_highest_value>
 with
-50,000    <y_axis_inferred_Scnd_highest_value_approx>
+50    <y_axis_inferred_Scnd_highest_value_approx>
+,000    <y_magnitude>
 \\n    <separator>
 bachelors    <x_axis_label_3rd_highest_value>
 with
 over    <y_axis_approx>
-40,000    <y_axis_inferred_3rd_highest_value_approx>
+40    <y_axis_inferred_3rd_highest_value_approx>
+,000    <y_magnitude>
 and
 no degree    <x_axis_label_least_value>
-30,000    <y_axis_inferred_least_value_approx>
+30    <y_axis_inferred_least_value_approx>
+,000    <y_magnitude>
 .
 showing
 that
@@ -818,17 +840,20 @@ earn
 the
 most    <y_axis_highest_value>
 with
-64,000    <y_axis_inferred_highest_value_approx>
+64    <y_axis_inferred_highest_value_approx>
+,000    <y_magnitude>
 ,
 then
 Masters    <x_axis_label_Scnd_highest_value>
 at
-54,000    <y_axis_inferred_Scnd_highest_value_approx>
+54    <y_axis_inferred_Scnd_highest_value_approx>
+,000    <y_magnitude>
 ,
 then
 Bachelor    <x_axis_label_3rd_highest_value>
 at
-44,000    <y_axis_inferred_3rd_highest_value_approx>
+44    <y_axis_inferred_3rd_highest_value_approx>
+,000    <y_magnitude>
 and
 those
 in
@@ -837,7 +862,8 @@ field
 with
 no degree    <x_axis_label_least_value>
 earn
-34,000    <y_axis_inferred_least_value_approx>
+34    <y_axis_inferred_least_value_approx>
+,000    <y_magnitude>
 .
 This
 corresponds
@@ -927,25 +953,29 @@ The
 average salary of a software engineer base on their level    <topic>
 .
 $    <y_axis_inferred_label>
-45000    <y_axis_3rd_highest_val>
+45    <y_axis_3rd_highest_val>
+000    <y_magnitude>
 for
 a
 BA/Bsc    <x_axis_label_3rd_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
-55000    <y_axis_Scnd_highest_val>
+55    <y_axis_Scnd_highest_val>
+000    <y_magnitude>
 for
 a
 MA/Msc    <x_axis_label_Scnd_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
-65000    <y_axis_highest_value_val>
+65    <y_axis_highest_value_val>
+000    <y_magnitude>
 for
 a
 PhD    <x_axis_label_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
-35000    <y_axis_least_value_val>
+35    <y_axis_least_value_val>
+000    <y_magnitude>
 for
 No degree    <x_axis_label_least_value>
 "
@@ -954,7 +984,7 @@ No degree    <x_axis_label_least_value>
 
 "
 63    <y_axis_inferred_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 is
 median    <topic_related_property>
 salary    <y_axis>
@@ -966,13 +996,13 @@ a
 PhD    <x_axis_label_highest_value>
 ,
 56    <y_axis_inferred_Scnd_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 for
 a
 masters    <x_axis_label_Scnd_highest_value>
 ,
 44    <y_axis_inferred_3rd_highest_value_approx>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 for
 a
 bachelor    <x_axis_label_3rd_highest_value>
@@ -981,7 +1011,7 @@ degree    <x_axis>
 but
 only    <y_axis_least_value>
 35    <y_axis_least_value_val>
-k    <y_axis_inferred_label>
+k    <y_magnitude>
 with
 no degree    <x_axis_label_least_value>
 "
