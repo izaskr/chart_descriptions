@@ -52,13 +52,15 @@ higher education    <topic_related_object>
 at
 over    <y_axis_approx>
 300    <y_axis_inferred_highest_value_approx>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 but
 Africa    <x_axis_label_least_value>
 only    <y_axis_least_value>
 spend
 50    <y_axis_least_value_val>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 .
 Europe    <x_axis_label_3rd_highest_value>
 only
@@ -68,7 +70,8 @@ that
 compared    <y_x_comparison>
 with
 200    <y_axis_Scnd_highest_val>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 of
 that
 with
@@ -99,7 +102,8 @@ least    <y_axis_least_value>
 amount    <y_axis>
 at
 50    <y_axis_least_value_val>
-Mdollars    <y_axis_inferred_label>
+M    <y_magnitude>
+dollars    <y_axis_inferred_label>
 .
 This
 is
@@ -155,7 +159,8 @@ of
 just
 over    <y_axis_approx>
 £    <y_axis_inferred_label>
-300,000,000    <y_axis_inferred_highest_value_approx>
+300    <y_axis_inferred_highest_value_approx>
+,000,000    <y_magnitude>
 .
 The
 amount    <y_axis>
@@ -163,7 +168,8 @@ spent
 in
 North America    <x_axis_label_Scnd_highest_value>
 was
-200,000,000    <y_axis_Scnd_highest_val>
+200    <y_axis_Scnd_highest_val>
+,000,000    <y_magnitude>
 .
 In
 Europe    <x_axis_label_3rd_highest_value>
@@ -172,7 +178,8 @@ the
 cost
 was
 £    <y_axis_inferred_label>
-100,000,000    <y_axis_3rd_highest_val>
+100    <y_axis_3rd_highest_val>
+,000,000    <y_magnitude>
 and
 finally    <final_label_left>
 Africa    <x_axis_label_least_value>
@@ -180,7 +187,8 @@ came
 in
 at
 £    <y_axis_inferred_label>
-50,000,000    <y_axis_least_value_val>
+50    <y_axis_least_value_val>
+,000,000    <y_magnitude>
 .
 "
 
@@ -209,14 +217,16 @@ lowest     <y_axis_least_value>
 spend
 of
 $    <y_axis_inferred_label>
-50,000,000     <y_axis_least_value_val>
+50     <y_axis_least_value_val>
+,000,000    <y_magnitude>
 compared    <y_x_comparison>
 to
 Asia    <x_axis_label_3rd_highest_value>
 spending
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
-300,000,000     <y_axis_inferred_highest_value_approx>
+300     <y_axis_inferred_highest_value_approx>
+,000,000    <y_magnitude>
 "
 
 
@@ -236,7 +246,7 @@ spending
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
 300     <y_axis_inferred_highest_value_approx>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 ,
 North America    <x_axis_label_Scnd_highest_value>
 is
@@ -245,7 +255,7 @@ is
 spending
 $    <y_axis_inferred_label>
 200    <y_axis_Scnd_highest_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 .
 Europe    <x_axis_label_3rd_highest_value>
 is
@@ -254,7 +264,7 @@ is
 spending
 $    <y_axis_inferred_label>
 100    <y_axis_3rd_highest_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 ,
 and
 Africa    <x_axis_label_least_value>
@@ -263,7 +273,7 @@ Africa    <x_axis_label_least_value>
 spending
 $    <y_axis_inferred_label>
 50    <y_axis_least_value_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 .
 "
 
@@ -282,7 +292,8 @@ most    <y_axis_highest_value>
 with
 over    <y_axis_approx>
 300    <y_axis_inferred_highest_value_approx>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 .
 Africa    <x_axis_label_least_value>
 spent
@@ -290,7 +301,8 @@ the
 least    <y_axis_least_value>
 with
 50    <y_axis_least_value_val>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 .
 "
 
@@ -310,7 +322,8 @@ continents    <x_axis>
 .
 At
 325    <y_axis_inferred_highest_value_approx>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 ,
 this
 is
@@ -322,7 +335,8 @@ than
 Europe    <x_axis_label_3rd_highest_value>
 at
 100    <y_axis_3rd_highest_val>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 and
 over    <y_axis_approx>
 6 times    <y_axis_inferred_value_mul>
@@ -331,7 +345,8 @@ than
 Africa    <x_axis_label_least_value>
 at
 50    <y_axis_least_value_val>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 .
 North America    <x_axis_label_Scnd_highest_value>
 spends
@@ -341,7 +356,8 @@ highest
 amount    <y_axis>
 with
 200    <y_axis_Scnd_highest_val>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 .
 "
 
@@ -362,7 +378,8 @@ at
 just
 over    <y_axis_approx>
 300    <y_axis_inferred_highest_value_approx>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 with
 Africa    <x_axis_label_least_value>
 spending
@@ -370,7 +387,8 @@ the
 least    <y_axis_least_value>
 a
 50    <y_axis_least_value_val>
-million dollars    <y_axis_inferred_label>
+million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 .
 "
 
@@ -393,7 +411,8 @@ higher education    <topic_related_object>
 with
 over    <y_axis_approx>
 300    <y_axis_inferred_highest_value_approx>
-million dollar    <y_axis_inferred_label>
+million    <y_magnitude>
+dollar    <y_axis_inferred_label>
 spent
 in
 2010    <topic_related_property>
@@ -403,12 +422,12 @@ by
 North America    <x_axis_label_Scnd_highest_value>
 at
 200    <y_axis_Scnd_highest_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 and    <order_3rd>
 Europe    <x_axis_label_3rd_highest_value>
 at
 100    <y_axis_3rd_highest_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 .
 Africa    <x_axis_label_least_value>
 spent
@@ -416,7 +435,7 @@ the
 least    <y_axis_least_value>
 at
 50    <y_axis_least_value_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 .
 This could be due to the economic situation in each respective continent, and also due to societal norms and values. In Asia , there is a lot of emphasis placed on the value of having a good education, which explains why more is spent on higher education in Asia than any other continent.    <interpretation>
 "
@@ -440,26 +459,26 @@ in
 Asia    <x_axis_label_highest_value>
 at
 320    <y_axis_highest_value_val>
-m    <y_axis_inferred_label>
+m    <y_magnitude>
 ,
 followed    <order_Scnd>
 by
 N America    <x_axis_label_Scnd_highest_value>
 at
 200    <y_axis_Scnd_highest_val>
-m    <y_axis_inferred_label>
+m    <y_magnitude>
 ,
 then    <order_3rd>
 Europe    <x_axis_label_3rd_highest_value>
 at
 100    <y_axis_3rd_highest_val>
-m    <y_axis_inferred_label>
+m    <y_magnitude>
 and
 finally    <final_label_left>
 Africa    <x_axis_label_least_value>
 at
 50    <y_axis_least_value_val>
-m    <y_axis_inferred_label>
+m    <y_magnitude>
 "
 
 
@@ -494,12 +513,12 @@ most    <y_axis_highest_value>
 ,
 $    <y_axis_inferred_label>
 300    <y_axis_inferred_highest_value_approx>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 ,
 while    <y_x_comparison_rest>
 $    <y_axis_inferred_label>
 200    <y_axis_Scnd_highest_val>
-million     <y_axis_inferred_label>
+million    <y_magnitude>
 was
 spent
 in
@@ -507,14 +526,14 @@ North America    <x_axis_label_Scnd_highest_value>
 ,
 $    <y_axis_inferred_label>
 100    <y_axis_3rd_highest_val>
-m    <y_axis_inferred_label>
+m    <y_magnitude>
 in
 Europe    <x_axis_label_3rd_highest_value>
 ,
 and
 $    <y_axis_inferred_label>
 50    <y_axis_least_value_val>
-m    <y_axis_inferred_label>
+m    <y_magnitude>
 in
 Africa    <x_axis_label_least_value>
 .
@@ -539,7 +558,8 @@ at
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
 300    <y_axis_inferred_highest_value_approx>
-million dollar    <y_axis_inferred_label>
+million    <y_magnitude>
+dollar    <y_axis_inferred_label>
 ,
 followed    <order_Scnd>
 by
@@ -555,7 +575,8 @@ least    <y_axis_least_value>
 at
 $    <y_axis_inferred_label>
 50    <y_axis_least_value_val>
-million dollar    <y_axis_inferred_label>
+million    <y_magnitude>
+dollar    <y_axis_inferred_label>
 "
 
 
@@ -595,22 +616,26 @@ asia    <x_axis_label_highest_value>
 with
 over    <y_axis_approx>
 300    <y_axis_inferred_highest_value_approx>
-million dollar    <y_axis_inferred_label>
+million    <y_magnitude>
+dollar    <y_axis_inferred_label>
 follows    <order_Scnd>
 by
 north america    <x_axis_label_Scnd_highest_value>
 was
-200,000    <y_axis_Scnd_highest_val>
+200    <y_axis_Scnd_highest_val>
+,000,000    <y_magnitude>
 dollars    <y_axis_inferred_label>
 ,
 the
 UK    <x_axis_label_3rd_highest_value>
 with
-100,000    <y_axis_3rd_highest_val>
+100    <y_axis_3rd_highest_val>
+,000,000    <y_magnitude>
 and    <order_4th>
 africa    <x_axis_label_least_value>
 with
-50,000    <y_axis_least_value_val>
+50    <y_axis_least_value_val>
+,000,000    <y_magnitude>
 dollars    <y_axis_inferred_label>
 .
 giving the idea that money spent on higher education is reflective on the GDP of the country    <interpretation>
@@ -654,26 +679,26 @@ the
 most    <y_axis_highest_value>
 with
 320    <y_axis_highest_value_val>
-million     <y_axis_inferred_label>
+million    <y_magnitude>
 ,
 followed    <order_Scnd>
 by
 North America    <x_axis_label_Scnd_highest_value>
 with
 200    <y_axis_Scnd_highest_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 ,
 Europe    <x_axis_label_3rd_highest_value>
 with
 100    <y_axis_3rd_highest_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 spent
 and
 lastly    <final_label_left>
 Africa    <x_axis_label_least_value>
 with
 50    <y_axis_least_value_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 .
 You expect Africa to be last due to poverty and lack of access to education.    <interpretation>
 "
@@ -763,25 +788,25 @@ despite the title at the bottom saying countries    <interpretation>
 \\n    <separator>
 $    <y_axis_inferred_label>
 200    <y_axis_Scnd_highest_val>
-Million    <y_axis_inferred_label>
+Million    <y_magnitude>
 -
 North America    <x_axis_label_Scnd_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
 100    <y_axis_3rd_highest_val>
-Million     <y_axis_inferred_label>
+Million    <y_magnitude>
 -
 Europe    <x_axis_label_3rd_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
 320    <y_axis_highest_value_val>
-Million     <y_axis_inferred_label>
+Million    <y_magnitude>
 -
 Asia    <x_axis_label_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
 50    <y_axis_least_value_val>
-Million    <y_axis_inferred_label>
+Million    <y_magnitude>
 -
 Africa    <x_axis_label_least_value>
 "
@@ -789,7 +814,8 @@ Africa    <x_axis_label_least_value>
 
 "
 325    <y_axis_inferred_highest_value_approx>
-Million dollars    <y_axis_inferred_label>
+Million    <y_magnitude>
+dollars    <y_axis_inferred_label>
 spent
 on
 HE    <topic_related_object>
@@ -808,7 +834,7 @@ Europe    <x_axis_label_3rd_highest_value>
 but
 only    <y_axis_least_value>
 50    <y_axis_least_value_val>
-million    <y_axis_inferred_label>
+million    <y_magnitude>
 in
 Africa    <x_axis_label_least_value>
 "
