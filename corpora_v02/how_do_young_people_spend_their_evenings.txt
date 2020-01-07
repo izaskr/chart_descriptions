@@ -228,7 +228,7 @@ watch TV    <x_axis_label_highest_value>
 go out    <x_axis_label_Scnd_highest_value>
 .
 The
-rest    <x_axis_labels_rest>
+rest
 with
 spend time with family    <x_axis_label_3rd_highest_value>
 (

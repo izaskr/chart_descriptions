@@ -87,9 +87,12 @@ women    <topic_related_property>
 represented
 in
 Law Firms    <x_axis_label_highest_value>
+,
+which
+is
+more
 than
-any other    <x_axis_labels_rest>
-sector    <x_axis>
+any other sector    <x_axis_labels_rest>
 .
 "
 

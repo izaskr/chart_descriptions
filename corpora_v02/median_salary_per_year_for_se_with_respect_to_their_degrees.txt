@@ -96,10 +96,7 @@ terms
 of
 salary    <y_axis>
 than
-those    <x_axis_labels_rest>
-who
-do
-not
+those who do not    <x_axis_labels_rest>
 "
 
 

@@ -634,8 +634,7 @@ more    <y_axis_approx>
 than
 double    <y_axis_inferred_value_mul>
 the
-other    <x_axis_labels_rest>
-subjects    <x_axis>
+other subjects    <x_axis_labels_rest>
 "
 
 
