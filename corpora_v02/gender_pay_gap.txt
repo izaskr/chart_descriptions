@@ -101,7 +101,7 @@ about
 in
 the
 UK    <x_axis_label_highest_value>
-than    <y_x_comparison>
+than
 in
 Germany   <x_axis_label_least_value>
 .
@@ -313,7 +313,7 @@ higher   <y_axis_highest_value>
 in
 the
 UK   <x_axis_label_highest_value>
-than   <y_x_comparison>
+than
 in
 Germany and Spain    <x_axis_labels_rest>
 .
@@ -641,7 +641,7 @@ highest    <y_axis_highest_value>
 gender pay gap   <topic>
 which
 is
-more    <y_axis_trend_up>
+more    <y_axis_approx>
 than
 double    <y_axis_inferred_value_mul>
 the

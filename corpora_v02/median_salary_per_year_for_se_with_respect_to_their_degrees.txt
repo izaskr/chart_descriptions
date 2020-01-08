@@ -90,7 +90,8 @@ who
 have
 a
 PHD    <x_axis_label_highest_value>
-do well    <y_axis_trend_up>
+do
+better    <y_axis_trend_up>
 in
 terms
 of
@@ -568,7 +569,7 @@ PhD    <x_axis_label_highest_value>
 courses    <x_axis>
 earn
 significantly    <y_axis_trend>
-more    <slope_up??>
+more    <y_axis_trend_up>
 than
 those
 with
