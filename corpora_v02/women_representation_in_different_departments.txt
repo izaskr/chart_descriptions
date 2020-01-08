@@ -21,7 +21,11 @@ higher   <y_axis_trend_up>
 female    <topic_related_property>
 representation   <topic_related_property>
 than
-computer science, mathematics and engineering    <x_axis_labels_rest>
+computer science    <x_axis_label_4th_highest_value>
+,
+mathematics    <x_axis_label_least_value>
+and
+engineering    <x_axis_label_3rd_highest_value>
 .
 "
 
@@ -485,7 +489,11 @@ Arts    <x_axis_label_Scnd_highest_value>
 ,
 followed    <order_rest>
 by
-Engineering, computer science then Maths    <x_axis_labels_rest>
+Engineering    <x_axis_label_3rd_highest_value>
+,
+computer science    <x_axis_label_4th_highest_value>
+then
+Maths    <x_axis_label_least_value>
 "
 
 
@@ -505,7 +513,11 @@ are
 significantly    <y_axis_trend>
 under-represented    <y_axis_trend_down>
 in
-Computer Science, Maths and Engineering    <x_axis_labels_rest>
+Computer Science    <x_axis_label_4th_highest_value>
+,
+Maths    <x_axis_label_least_value>
+and
+Engineering    <x_axis_label_3rd_highest_value>
 .
 "
 
@@ -769,7 +781,11 @@ representation    <topic_related_property>
 ,
 compared    <x_axis_comparison>
 to
-Mathematics, Engineering and Computer Science    <x_axis_labels_rest>
+Mathematics    <x_axis_label_least_value>
+,
+Engineering    <x_axis_label_3rd_highest_value>
+and
+Computer Science    <x_axis_label_4th_highest_value>
 .
 "
 

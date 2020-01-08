@@ -20,7 +20,11 @@ very    <y_axis_trend>
 small    <y_axis_trend_down>
 amount    <y_axis_inferred_label>
 whilst    <y_x_comparison_rest>
-Asia, Europe and America    <x_axis_labels_rest>
+Asia    <x_axis_label_3rd_highest_value>
+,
+Europe    <x_axis_label_Scnd_highest_value>
+and
+America    <x_axis_label_highest_value>
 have
 a
 much    <y_axis_trend>
@@ -334,7 +338,11 @@ are
 in
 Europe   <x_axis_label_Scnd_highest_value>
 .
-Asia, Africa and Australia    <x_axis_labels_rest>   
+Asia    <x_axis_label_3rd_highest_value>
+,
+Africa    <x_axis_label_least_value>
+and
+Australia    <x_axis_label_least_value>
 have
 fewer    <y_axis_trend_down>
 .
