@@ -525,7 +525,7 @@ subjects    <x_axis>
 ,
 less    <y_axis_approx>
 than
-half    <y_axis_inferred_value_mul>
+half    <y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 that
 number
 -
@@ -632,7 +632,7 @@ stem    <x_axis_label_highest_value>
 with
 more    <y_axis_approx>
 than
-double    <y_axis_inferred_value_mul>
+double    <y_axis_inferred_value_mul_v1=highest_v2=Scnd>
 the
 other subjects    <x_axis_labels_rest>
 "

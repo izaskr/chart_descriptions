@@ -120,7 +120,7 @@ Insurance    <x_axis_label_3rd_highest_value>
 is
 just
 over    <y_axis_trend_up>
-one-third    <y_axis_inferred_value_mul>
+one-third    <y_axis_inferred_value_mul_v1=3rd_v2=highest>
 of
 those
 working
@@ -135,14 +135,14 @@ have
 ,
 which
 is
-half    <y_axis_inferred_value_mul>
+half    <y_axis_inferred_value_mul_v1=least_v2=Scnd>
 of
 those
 working
 in
 Finance    <x_axis_label_Scnd_highest_value>
 and
-one-third    <y_axis_inferred_value_mul>
+one-third    <y_axis_inferred_value_mul_v1=least_v2=highest>
 of
 those
 in
@@ -329,7 +329,7 @@ staff
 .
 This
 is
-3 times    <y_axis_inferred_value_mul>
+3 times    <y_axis_inferred_value_mul_v1=highest_v2=least>
 higher    <y_axis_trend_up>
 than
 in
@@ -688,7 +688,7 @@ and
 tech    <x_axis_label_least_value>
 by
 nearly
-double    <y_axis_inferred_value_mul>
+double    <y_axis_inferred_value_mul_v1=Scnd_v2=least>
 "
 
 

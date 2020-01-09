@@ -173,7 +173,7 @@ shows
 that
 Fast Food   <x_axis_label_highest_value>
 is
-twice   <y_axis_inferred_value_mul>
+twice   <y_axis_inferred_value_mul_v1=highest_v2=Scnd>
 as
 likely
 as
@@ -289,7 +289,7 @@ cases
 .
 It
 is
-double    <y_axis_inferred_value_mul>
+double    <y_axis_inferred_value_mul_v1=highest_v2=Scnd>
 the
 next    <order_Scnd>
 highest
@@ -300,7 +300,7 @@ on
 30    <y_axis_Scnd_highest_val>
 %    <y_axis>
 and
-6 times    <y_axis_inferred_value_mul>
+6 times    <y_axis_inferred_value_mul_v1=highest_v2=least>
 lack of exercise    <x_axis_label_least_value>
 which
 only    <y_axis_least_value>
