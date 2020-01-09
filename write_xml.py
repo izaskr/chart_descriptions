@@ -14,12 +14,13 @@ import xml.etree.ElementTree as ET
 
 parser = argparse.ArgumentParser()
 #parser.add_argument("-data", required=True)
-parser.add_argument("-labeled_file", required=True, help="file with annotated description")
+#parser.add_argument("-labeled_file", required=True, help="file with annotated description")
+parser.add_argument("-labeled_file", required=False, help="file with annotated description")
 #parser.add_argument("-img_id", required=True, help="int denoting graph id")
 #parser.add_argument("-csv", required=True, help="csv file from Prolific")
 args = vars(parser.parse_args())
 
-annotations = args["labeled_file"]
+
 
 nlp_web = spacy.load("en_core_web_sm") # used only for tokenization
 nlp = English()  # just the language with no model
@@ -27,7 +28,7 @@ sentencizer = nlp.create_pipe("sentencizer")
 nlp.add_pipe(sentencizer)
 
 
-version_dir = "corpora_v01/" # Rudy's version
+version_dir = "corpora_v02/" # Rudy's version
 descriptions_files = ["Money_spent_on_higher_education.txt", 
          "Number_of_top_Unis.txt",
          "gender_pay_gap.txt",
@@ -38,6 +39,26 @@ descriptions_files = ["Money_spent_on_higher_education.txt",
          "what_do_students_choose_to_study.txt",
          "median_salary_per_year_for_se_with_respect_to_their_degrees.txt",
          "example_Median_salary_of_women.txt"]
+
+descriptions_files = ["Money_spent_on_higher_education.txt", 
+         "Number_of_top_Unis.txt",
+         "gender_pay_gap.txt",
+         "women_representation_in_different_departments.txt",
+         "women_representation_in_different_sectors.txt",
+         "what_causes_obesity.txt",
+         "how_do_young_people_spend_their_evenings.txt",
+         "what_do_students_choose_to_study.txt",
+         "median_salary_per_year_for_se_with_respect_to_their_degrees.txt",
+         "example_Median_salary_of_women.txt"]
+
+description_files_order = ["gender_pay_gap.txt", "example_Median_salary_of_women.txt",
+   "how_do_young_people_spend_their_evenings.txt", "median_salary_per_year_for_se_with_respect_to_their_degrees.txt",
+   "Money_spent_on_higher_education.txt", "Number_of_top_Unis.txt", "what_causes_obesity.txt", 
+   "what_do_students_choose_to_study.txt", 
+   "women_representation_in_different_departments.txt", "women_representation_in_different_sectors.txt"]
+
+topic_image_id = [("gender_paygap", "01", "nominal"), ("salary_women", "02", "interval"), ("evenings", "03", "nominal"), ("salary_se_degree", "04", "ordinal"), ("money_he", "05", "nominal"), ("top_unis", "06", "nominal"), ("obesity_cause", "07", "nominal"), ("study_prog", "08", "nominal"), ("women_dept", "09", "nominal"), ("women_sect", "10", "nominal") ]
+
 
 # descriptions_files_json is a dict, where the keys are files names (as given by Rudy) with descriptions, and the values are tuples - its first element is the name of the json file with raw plot data, its second element is the title of the plot (it's unique for each plot)
 descriptions_files_json = {"Money_spent_on_higher_education.txt":("train1","Money Spent on Higher Education in Year 2010"), 
@@ -252,20 +273,6 @@ def collect_parse(annotations, calculated):
 	return for_xml
 
 
-data = descriptions_files_json[annotations][0] + "_annotations2.json"
-
-data_ext = get_x_y(data)
-
-title = descriptions_files_json[annotations][1]
-
-d = {}
-for i, d in data_ext.items():
-	if d["title"] == title:
-		corpus = d
-
-results = get_stat_info(corpus)
-
-for_xml = collect_parse(annotations, results)
 
 
 def prettify(elem):
@@ -276,89 +283,141 @@ def prettify(elem):
 	return reparsed.toprettyxml(indent="\t")
 
 
-def write_xml(d):
+def make_xml_tree():
 	""" d is a dictionary, indices as keys, dict as values with keys desc_tokens, doc_tokens, desc_labels """
-	i, j, k = 0, 0, 0
+
+	main_root = ET.Element("summaries")
+
+	for tri in zip(description_files_order, topic_image_id):
+		annotations = tri[0]
+		chart_topic, chart_id, chart_x_type = tri[1][0], tri[1][1], tri[1][2]
+
+		data = descriptions_files_json[annotations][0] + "_annotations3.json"
+		data_ext = get_x_y(data)
+		title = descriptions_files_json[annotations][1]
+		d = {}
+		for i, d in data_ext.items():
+			if d["title"] == title:
+				corpus = d
+
+		results = get_stat_info(corpus)
+		for_xml = collect_parse(annotations, results)
+
+
+		desc_ids = list(for_xml.keys())
+		#print(desc_ids)
+
+		topic_root = ET.SubElement(main_root,"topic")
+		topic_root.set("topic", chart_topic)
+		topic_root.set("topic_id", chart_id) # the name of the bar chart image file
+		topic_root.set("scenario", chart_x_type)
+
+		for story_id in desc_ids: # iterate over all descriptions of a single chart
+			d1 = for_xml[story_id]
+
+			str_story_id = str(story_id)
+			if story_id < 10:
+				str_story_id = "0" + str_story_id
+
+			topic_story_id = chart_id + "-" + str_story_id
+			i, j, k = 0, 0, 0
+
+			story = ET.SubElement(topic_root, "story")
+		
+			story.set("story_id", topic_story_id)
+
+			text = ET.SubElement(story, "text")
+			content = ET.SubElement(text, "content")
+
+			content.text = " ".join(d1["desc_tokens"])
+			sentences = ET.SubElement(text, "sentences")
+
+			doc = nlp(" ".join(d1["desc_tokens"]))
+			label_info = d1["desc_labels"]
 	
-	d1 = d[4] # starts with 1 TODO make it universal
-
-	story = ET.Element("story")
-	text = ET.SubElement(story, "text")
-	content = ET.SubElement(text, "content")
-
-	content.text = " ".join(d1["desc_tokens"])
-	sentences = ET.SubElement(text, "sentences")
-
-	doc = nlp(" ".join(d1["desc_tokens"]))
-	label_info = d1["desc_labels"]
-	
-	boundaries = []
-	sentence_lengths = []
-	for sent in doc.sents:
-		i += 1 # sentence index
-		j = 0 # index for tokens within a single sentence
-		add_sent = ET.SubElement(sentences, "sentence")
-		add_sent.set("id", str(i))
-		for token in sent:
-			k += 1 # index for tokens within the entire description
-			j += 1
-			add_token = ET.SubElement(add_sent, "token")
-			add_token.set("content", token.text)
-			add_token.set("id", str(i)+"-"+str(j))
-		boundaries.append(k) # last token index of a sentence, starting with 1
-		sentence_lengths.append(j)
+			boundaries = []
+			sentence_lengths = []
+			for sent in doc.sents:
+				i += 1 # sentence index
+				j = 0 # index for tokens within a single sentence
+				add_sent = ET.SubElement(sentences, "sentence")
+				add_sent.set("id", topic_story_id + "-" + str(i))
+				for token in sent:
+					k += 1 # index for tokens within the entire description
+					j += 1
+					add_token = ET.SubElement(add_sent, "token")
+					add_token.set("content", token.text)
+					add_token.set("content_fix", token.text)
+					add_token.set("id", topic_story_id + "-" + str(i)+"-"+str(j))
+				boundaries.append(k) # last token index of a sentence, starting with 1
+				sentence_lengths.append(j)
 
 
-	annotations = ET.SubElement(story, "annotations")
-	events = ET.SubElement(annotations, "events")
+			annotations = ET.SubElement(story, "annotations")
+			events = ET.SubElement(annotations, "events")
 
-	label_bound = {i:[] for i in range(1,len(boundaries)+1)}
+			label_bound = {i:[] for i in range(1,len(boundaries)+1)}
 
-	for (label, start, end, text_str) in label_info:
-		for n,boundary in enumerate(boundaries):
-			if end <= boundary:
-				label_bound[n+1].append((label, start,end, text_str))
-				break
+			for (label, start, end, text_str) in label_info:
+				for n,boundary in enumerate(boundaries):
+					if end <= boundary:
+						label_bound[n+1].append((label, start,end, text_str))
+						break
 
-	#print(label_bound)
+			#print(label_bound)
 
-	c = 0
-	for i_sent, triplets in label_bound.items():
-		if i_sent > 1:
-			prev_boundary = boundaries[i_sent-2]
-		for n,(label, start, end, text_str) in enumerate(triplets):
-			c +=1
-			if i_sent == 1:
-				from_value = str(i_sent)+"-"+str(start)
-				to_value = str(i_sent)+"-"+str(end)
-			else:
-				#print(sentence_lengths, i_sent)
-				start2 = start - prev_boundary
-				from_value = str(i_sent)+"-"+str(start2)
-				end2 = end - prev_boundary
-				to_value = str(i_sent)+"-"+str(end2)
-				#print("old start, new start, old end, new end, len prev", start, start2, end, end2, sentence_lengths[i_sent-1])
+			c = 0
+			for i_sent, triplets in label_bound.items():
+				if i_sent > 1:
+					prev_boundary = boundaries[i_sent-2]
+				for n,(label, start, end, text_str) in enumerate(triplets):
+					c +=1
+					if i_sent == 1:
+						from_value = str(i_sent)+"-"+str(start)
+						to_value = str(i_sent)+"-"+str(end)
+					else:
+						#print(sentence_lengths, i_sent)
+						start2 = start - prev_boundary
+						from_value = str(i_sent)+"-"+str(start2)
+						end2 = end - prev_boundary
+						to_value = str(i_sent)+"-"+str(end2)
+						#print("old start, new start, old end, new end, len prev", start, start2, end, end2, sentence_lengths[i_sent-1])
 			
-			add_label = ET.SubElement(events, "label")
-			add_label.set("from", from_value)
-			add_label.set("to", to_value)
-			add_label.set("id", str(c))
-			add_label.set("name", label[1:-1])
-			add_label.set("text", text_str)
-			add_label.set("type", "event")
+					add_label = ET.SubElement(events, "label")
+					add_label.set("from", topic_story_id + "-" + from_value)
+					add_label.set("to", topic_story_id + "-" + to_value)
+					add_label.set("id", topic_story_id + "-" + str(c)) # label id
+					add_label.set("name", label[1:-1])
+					add_label.set("text", text_str)
+					add_label.set("type", "event")
 
-	s = prettify(story)
+	#s = prettify(story)
+	s = prettify(main_root)
 
-	myfile = open("test_story_paygap_4.xml", "w", encoding="utf-8") # TODO change name given title (arg) and ID
+	return s
+
+
+
+
+def save_into_file(xml_populated, name_out):
+	myfile = open(name_out+".xml", "w", encoding="utf-8") # TODO change name given title (arg) and ID
 	myfile.write(s)
 	myfile.close()
-				
-
 	return None
 
-write_xml(for_xml)
-	
 
+
+
+if __name__ == "__main__":
+
+	# annotations is the CLI argument - name of labeled file
+	# annotations = args["labeled_file"]
+
+	s = make_xml_tree() # xml subtree for a single chart
+
+	# add s to S
+
+	save_into_file(s, version_dir+"chart_summaries_b01")
 
 
 
