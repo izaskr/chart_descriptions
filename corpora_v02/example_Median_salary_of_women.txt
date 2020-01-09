@@ -167,7 +167,7 @@ s
 median    <topic_related_property>
 salary    <y_axis>
 being
-15    <y_axis_inferred_value_add>
+15    <y_axis_inferred_value_add_v1=highest_v2=least>
 000    <y_magnitude>
 higher    <y_axis_trend_up>
 than
@@ -258,7 +258,7 @@ years    <x_axis>
 it
 has
 risen    <slope_up>
-15    <y_axis_inferred_value_add>
+15    <y_axis_inferred_value_add_v1=highest_v2=least>
 ,000    <y_magnitude>
 dollars    <y_axis_inferred_label>
 .

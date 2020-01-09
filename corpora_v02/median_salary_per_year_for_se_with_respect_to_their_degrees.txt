@@ -2,7 +2,7 @@
 This
 chart
 shows
-the     
+the
 average annual salary for software engineers relative to their degree    <topic>
 .
 We
@@ -56,7 +56,7 @@ the
 highest     <y_axis_highest_value>
 with
 over    <y_axis_approx>
-20    <y_axis_inferred_value_add>
+20    <y_axis_inferred_value_add_v1=highest_v2=3rd>
 000    <y_magnitude>
 more    <y_axis_trend_up>
 than
@@ -67,7 +67,7 @@ bachelor    <x_axis_label_3rd_highest_value>
 Masters    <x_axis_label_Scnd_highest_value>
 is
 only
-15    <y_axis_inferred_value_add>
+15    <y_axis_inferred_value_add_v1=Scnd_v2=highest>
 000    <y_magnitude>
 behind    <y_axis_trend_down>
 Phd    <x_axis_label_highest_value>
@@ -131,8 +131,8 @@ s
 salaries    <y_axis>
 by
 approximately    <y_axis_approx>
-10    <y_axis_inferred_value_mul>
-%    <??>
+10    <y_axis_inferred_value_add_v1=least_v2=3rd>
+,000    <y_magnitude>
 .
 "
 
@@ -326,7 +326,8 @@ average    <topic_related_property>
 
 
 
-"This
+"
+This
 charts
 shows
 the
@@ -358,7 +359,7 @@ difference
 of
 about    <y_axis_approx>
 $    <y_axis_inferred_label>
-30    <y_axis_inferred_value_add>
+30    <y_axis_inferred_value_add_v1=highest_v2=least>
 ,000    <y_magnitude>
 between
 these
@@ -396,7 +397,7 @@ with
 no degree    <x_axis_label_least_value>
 receive
 almost    <y_axis_approx>
-half    <y_axis_inferred_value_mul>
+half    <y_axis_inferred_value_mul_v1=least_v2=highest>
 of
 the
 salary    <y_axis>
@@ -429,7 +430,7 @@ is
 an
 approximately    <y_axis_approx>
 £
-20    <y_axis_inferred_value_add>
+20    <y_axis_inferred_value_add_v1=highest_v2=3rd>
 ,000    <y_magnitude>
 salary    <y_axis>
 difference
@@ -449,7 +450,7 @@ only
 an
 approximate    <y_axis_approx>
 £
-10    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add_v1=3rd_v2=least>
 ,000    <y_magnitude>
 difference
 between    <x_axis_comparison>
@@ -676,9 +677,10 @@ over    <y_axis_approx>
 $    <y_axis_inferred_label>
 60    <y_axis_inferred_highest_value_approx>
 ,000    <y_magnitude>
+,
 about    <y_axis_approx>
 $    <y_axis_inferred_label>
-10    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add_v1=highest_v2=Scnd>
 ,000    <y_magnitude>
 per
 year
@@ -696,7 +698,7 @@ turn
 earn
 about    <y_axis_approx>
 $    <y_axis_inferred_label>
-10    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 ,000    <y_magnitude>
 per
 year
@@ -912,7 +914,7 @@ Non-degree    <x_axis_label_least_value>
 holders
 earn
 about    <y_axis_approx>
-half    <y_axis_inferred_value_mul>
+half    <y_axis_inferred_value_mul_v1=least_v2=highest>
 what
 PhD    <x_axis_label_highest_value>
 holders

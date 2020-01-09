@@ -51,7 +51,7 @@ Only    <y_axis_least_value>
 %    <y_axis>
 read a book     <x_axis_label_least_value>
 with
-double      <y_axis_inferred_value_mul>
+double      <y_axis_inferred_value_mul_v1=3rd_v2=least>
 that
 spending time with family   <x_axis_label_3rd_highest_value>
 .
@@ -100,7 +100,7 @@ evening    <topic_related_object>
 spend time with their family    <x_axis_label_3rd_highest_value>
 ,
 exactly
-half    <y_axis_inferred_value_mul>
+half    <y_axis_inferred_value_mul_v1=3rd_v2=highest>
 of
 those
 watching TV    <x_axis_label_highest_value>

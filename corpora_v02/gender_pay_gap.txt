@@ -57,7 +57,7 @@ gap    <y_axis>
 .
 Spain    <x_axis_label_Scnd_highest_value>
 has
-10    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add_v1=Scnd_v2=highest>
 %    <y_axis>
 lower    <y_axis_trend_down>
 than
@@ -96,7 +96,7 @@ is
 greatest    <y_axis_highest_value>
 by
 about
-10    <y_axis_inferred_value_add>
+10    <y_axis_inferred_value_add_v1=highest_v2=least>
 %    <y_axis>
 in
 the
@@ -319,7 +319,7 @@ Germany and Spain    <x_axis_labels_rest>
 .
 It
 is
-1/3    <y_axis_inferred_value_mul>
+1/3    <y_axis_inferred_value_mul_v1=highest_v2=Scnd>
 higher    <y_axis_trend_up>
 than
 that
@@ -330,7 +330,7 @@ is
 10    <y_axis_Scnd_highest_val>
 %    <y_axis>
 and
-3 times    <y_axis_inferred_value_mul>
+3 times    <y_axis_inferred_value_mul_v1=highest_v2=least>
 that
 in
 Germany    <x_axis_label_least_value>
@@ -460,7 +460,7 @@ just
 .
 Spain    <x_axis_label_Scnd_highest_value>
 is
-double    <y_axis_inferred_value_mul>
+double    <y_axis_inferred_value_mul_v1=Scnd_v2=least>
 that
 at
 10    <y_axis_Scnd_highest_val>
@@ -643,7 +643,7 @@ which
 is
 more    <y_axis_approx>
 than
-double    <y_axis_inferred_value_mul>
+double    <y_axis_inferred_value_mul_v1=highest_v2=least>
 the
 lowest    <y_axis_least_value>
 of

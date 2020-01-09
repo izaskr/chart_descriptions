@@ -65,7 +65,7 @@ dollars    <y_axis_inferred_label>
 Europe    <x_axis_label_3rd_highest_value>
 only
 spend
-double    <y_axis_inferred_value_mul>
+double    <y_axis_inferred_value_mul_v1=Scnd_v2=3rd>
 that
 compared    <y_x_comparison>
 with
@@ -108,7 +108,7 @@ dollars    <y_axis_inferred_label>
 This
 is
 exactly
-half    <y_axis_inferred_value_mul>
+half    <y_axis_inferred_value_mul_v1=least_v2=3rd>
 of
 what
 is
@@ -123,7 +123,7 @@ Europe    <x_axis_label_3rd_highest_value>
 .
 North America    <x_axis_label_Scnd_highest_value>
 is
-twice    <y_axis_inferred_value_mul>
+twice    <y_axis_inferred_value_mul_v1=Scnd_v2=3rd>
 that
 of
 Europe    <x_axis_label_3rd_highest_value>
@@ -131,8 +131,8 @@ Europe    <x_axis_label_3rd_highest_value>
 and
 Asia    <x_axis_label_highest_value>
 about
-120    <y_axis_inferred_value_mul>
-%
+120    <y_axis_inferred_value_add_v1=highest_v2=Scnd>
+M    <y_magnitude>
 more    <y_axis_trend_up>
 than
 N America    <x_axis_label_Scnd_highest_value>
@@ -329,7 +329,7 @@ this
 is
 more    <y_axis_approx>
 than
-3 times    <y_axis_inferred_value_mul>
+3 times    <y_axis_inferred_value_mul_v1=highest_v2=3rd>
 higher    <y_axis_trend_up>
 than
 Europe    <x_axis_label_3rd_highest_value>
@@ -339,7 +339,7 @@ million    <y_magnitude>
 dollars    <y_axis_inferred_label>
 and
 over    <y_axis_approx>
-6 times    <y_axis_inferred_value_mul>
+6 times    <y_axis_inferred_value_mul_v1=highest_v2=least>
 higher    <y_axis_trend_up>
 than
 Africa    <x_axis_label_least_value>
@@ -759,13 +759,13 @@ amount    <y_axis>
 on
 higher education     <topic_related_object>
 -
-twice    <y_axis_inferred_value_mul>
+twice    <y_axis_inferred_value_mul_v1=Scnd_v2=3rd>
 as
 much
 as
 Europe    <x_axis_label_3rd_highest_value>
 and
-four times    <y_axis_inferred_value_mul>
+four times    <y_axis_inferred_value_mul_v1=Scnd_v2=least>
 as
 much
 Africa    <x_axis_label_least_value>
