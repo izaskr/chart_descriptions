@@ -103,20 +103,20 @@ years    <x_axis>
 .
 The
 highest    <y_axis_highest_value>
-percentage    <y_axis>
+salary    <y_axis>
 is
 in
 2015    <x_axis_label_highest_value>
 with
 55    <y_axis_highest_value_val>
-%
+%    <y_magnitude>
 ,
 this
 is
 above    <y_axis_trend_up>
 the
 50    <y_axis_Scnd_highest_val>
-%
+%    <y_magnitude>
 in
 2010    <x_axis_label_Scnd_highest_value>
 .
@@ -126,12 +126,12 @@ the
 median    <topic_related_property>
 was
 45    <y_axis_3rd_highest_val>
-%
+%    <y_magnitude>
 and
 in
 2000    <x_axis_label_least_value>
 40    <y_axis_least_value_val>
-%
+%    <y_magnitude>
 .
 This
 shows
@@ -142,7 +142,7 @@ every    <every>
 years    <x_axis>
 of
 5    <slope_y_value>
-%
+%    <y_magnitude>
 .
 "
 
@@ -542,7 +542,7 @@ by
 at
 least    <y_axis_trend>
 10    <y_axis_inferred_value_add?>
-%
+%    <y_axis_inferred_label?>
 "
 
 
