@@ -153,7 +153,7 @@ the
 lowest    <y_axis_least_value>
 at
 30    <y_axis_least_value_val>
-%    <??>
+%    <y_magnitude>
 ,
 those
 with
@@ -164,7 +164,7 @@ come
 in
 at
 45    <y_axis_3rd_highest_val>
-%    <??>
+%    <y_magnitude>
 .
 With
 a
@@ -178,7 +178,7 @@ salary    <y_axis>
 is
 at
 55    <y_axis_Scnd_highest_val>
-%    <??>
+%    <y_magnitude>
 and
 finally    <final_label_left>
 ,
@@ -193,7 +193,7 @@ highest    <y_axis_highest_value>
 level
 of
 65    <y_axis_highest_value_val>
-%    <??>
+%    <y_magnitude>
 .
 "
 
@@ -429,7 +429,7 @@ there
 is
 an
 approximately    <y_axis_approx>
-£
+£    <y_axis_inferred_label>
 20    <y_axis_inferred_value_add_v1=highest_v2=3rd>
 ,000    <y_magnitude>
 salary    <y_axis>
@@ -449,7 +449,7 @@ but
 only
 an
 approximate    <y_axis_approx>
-£
+£    <y_axis_inferred_label>
 10    <y_axis_inferred_value_add_v1=3rd_v2=least>
 ,000    <y_magnitude>
 difference
