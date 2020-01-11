@@ -604,7 +604,7 @@
 				<sentences>
 					<sentence id="01-10-1">
 						<token content="This" content_fix="This" id="01-10-1-1"/>
-						<token content="chat" content_fix="chat" id="01-10-1-2"/>
+						<token content="chat" content_fix="chart" id="01-10-1-2"/>
 						<token content="looks" content_fix="looks" id="01-10-1-3"/>
 						<token content="at" content_fix="at" id="01-10-1-4"/>
 						<token content="the" content_fix="the" id="01-10-1-5"/>
@@ -1487,7 +1487,7 @@
 						<token content="the" content_fix="the" id="02-01-1-3"/>
 						<token content="average" content_fix="average" id="02-01-1-4"/>
 						<token content="salary" content_fix="salary" id="02-01-1-5"/>
-						<token content="earnt" content_fix="earnt" id="02-01-1-6"/>
+						<token content="earnt" content_fix="earned" id="02-01-1-6"/>
 						<token content="by" content_fix="by" id="02-01-1-7"/>
 						<token content="women" content_fix="women" id="02-01-1-8"/>
 						<token content="between" content_fix="between" id="02-01-1-9"/>
@@ -1518,7 +1518,7 @@
 			</text>
 			<annotations>
 				<events>
-					<label from="02-01-1-4" id="02-01-1" name="topic" text="average salary earnt by women" to="02-01-1-8" type="event"/>
+					<label from="02-01-1-4" id="02-01-1" name="topic" text="average salary earned by women" to="02-01-1-8" type="event"/>
 					<label from="02-01-1-9" id="02-01-2" name="x_axis_range_start" text="between" to="02-01-1-9" type="event"/>
 					<label from="02-01-1-11" id="02-01-3" name="x_axis" text="years" to="02-01-1-11" type="event"/>
 					<label from="02-01-1-13" id="02-01-4" name="x_axis_label_least_value" text="2000" to="02-01-1-13" type="event"/>
@@ -1837,7 +1837,7 @@
 						<token content="salary" content_fix="salary" id="02-07-1-5"/>
 						<token content="has" content_fix="has" id="02-07-1-6"/>
 						<token content="been" content_fix="been" id="02-07-1-7"/>
-						<token content="tranding" content_fix="tranding" id="02-07-1-8"/>
+						<token content="tranding" content_fix="trending" id="02-07-1-8"/>
 						<token content="upwards" content_fix="upwards" id="02-07-1-9"/>
 						<token content="," content_fix="," id="02-07-1-10"/>
 						<token content="rising" content_fix="rising" id="02-07-1-11"/>
@@ -1874,7 +1874,7 @@
 					<label from="02-07-1-1" id="02-07-1" name="topic_related_object" text="Women" to="02-07-1-1" type="event"/>
 					<label from="02-07-1-4" id="02-07-2" name="topic_related_property" text="median" to="02-07-1-4" type="event"/>
 					<label from="02-07-1-5" id="02-07-3" name="y_axis" text="salary" to="02-07-1-5" type="event"/>
-					<label from="02-07-1-8" id="02-07-4" name="y_axis_trend" text="tranding" to="02-07-1-8" type="event"/>
+					<label from="02-07-1-8" id="02-07-4" name="y_axis_trend" text="trending" to="02-07-1-8" type="event"/>
 					<label from="02-07-1-9" id="02-07-5" name="slope_up" text="upwards" to="02-07-1-9" type="event"/>
 					<label from="02-07-1-11" id="02-07-6" name="slope_up" text="rising" to="02-07-1-11" type="event"/>
 					<label from="02-07-1-13" id="02-07-7" name="y_axis_least_value_val" text="40" to="02-07-1-13" type="event"/>
@@ -2083,7 +2083,7 @@
 						<token content="women" content_fix="women" id="02-11-1-9"/>
 						<token content="has" content_fix="has" id="02-11-1-10"/>
 						<token content="increased" content_fix="increased" id="02-11-1-11"/>
-						<token content="continualy" content_fix="continualy" id="02-11-1-12"/>
+						<token content="continualy" content_fix="continually" id="02-11-1-12"/>
 						<token content="since" content_fix="since" id="02-11-1-13"/>
 						<token content="2000" content_fix="2000" id="02-11-1-14"/>
 						<token content="," content_fix="," id="02-11-1-15"/>
@@ -2116,7 +2116,7 @@
 				<events>
 					<label from="02-11-1-6" id="02-11-1" name="topic" text="median salary for women" to="02-11-1-9" type="event"/>
 					<label from="02-11-1-11" id="02-11-2" name="slope_up" text="increased" to="02-11-1-11" type="event"/>
-					<label from="02-11-1-12" id="02-11-3" name="y_axis_trend" text="continualy" to="02-11-1-12" type="event"/>
+					<label from="02-11-1-12" id="02-11-3" name="y_axis_trend" text="continually" to="02-11-1-12" type="event"/>
 					<label from="02-11-1-13" id="02-11-4" name="x_axis_period" text="since" to="02-11-1-13" type="event"/>
 					<label from="02-11-1-14" id="02-11-5" name="x_axis_label_least_value" text="2000" to="02-11-1-14" type="event"/>
 					<label from="02-11-1-18" id="02-11-6" name="topic_related_property" text="average" to="02-11-1-18" type="event"/>
@@ -2162,7 +2162,7 @@
 						<token content="it" content_fix="it" id="02-12-2-4"/>
 						<token content="has" content_fix="has" id="02-12-2-5"/>
 						<token content="steadily" content_fix="steadily" id="02-12-2-6"/>
-						<token content="indreased" content_fix="indreased" id="02-12-2-7"/>
+						<token content="indreased" content_fix="increased" id="02-12-2-7"/>
 						<token content="." content_fix="." id="02-12-2-8"/>
 					</sentence>
 					<sentence id="02-12-3">
@@ -2206,7 +2206,7 @@
 					<label from="02-12-1-13" id="02-12-7" name="x_axis_range_end" text="to" to="02-12-1-13" type="event"/>
 					<label from="02-12-1-14" id="02-12-8" name="x_axis_label_highest_value" text="2015" to="02-12-1-14" type="event"/>
 					<label from="02-12-2-6" id="02-12-9" name="y_axis_trend" text="steadily" to="02-12-2-6" type="event"/>
-					<label from="02-12-2-7" id="02-12-10" name="slope_up" text="indreased" to="02-12-2-7" type="event"/>
+					<label from="02-12-2-7" id="02-12-10" name="slope_up" text="increased" to="02-12-2-7" type="event"/>
 					<label from="02-12-3-2" id="02-12-11" name="x_axis_label_least_value" text="2000" to="02-12-3-2" type="event"/>
 					<label from="02-12-3-4" id="02-12-12" name="y_axis" text="salary" to="02-12-3-4" type="event"/>
 					<label from="02-12-3-6" id="02-12-13" name="y_axis_least_value_val" text="40" to="02-12-3-6" type="event"/>
@@ -4051,7 +4051,7 @@
 						<token content="be" content_fix="be" id="03-17-2-3"/>
 						<token content="the" content_fix="the" id="03-17-2-4"/>
 						<token content="least" content_fix="least" id="03-17-2-5"/>
-						<token content="poplar" content_fix="poplar" id="03-17-2-6"/>
+						<token content="poplar" content_fix="popular" id="03-17-2-6"/>
 						<token content="as" content_fix="as" id="03-17-2-7"/>
 						<token content="it" content_fix="it" id="03-17-2-8"/>
 						<token content="is" content_fix="is" id="03-17-2-9"/>
@@ -4087,7 +4087,7 @@
 					<label from="03-17-1-40" id="03-17-15" name="x_axis_label_least_value" text="reading" to="03-17-1-40" type="event"/>
 					<label from="03-17-1-42" id="03-17-16" name="y_axis_least_value_val" text="10" to="03-17-1-42" type="event"/>
 					<label from="03-17-1-43" id="03-17-17" name="y_axis" text="%" to="03-17-1-43" type="event"/>
-					<label from="03-17-2-1" id="03-17-18" name="interpretation" text="reading may be the least poplar as it is considered a older hobby and a more feminine hobby" to="03-17-2-18" type="event"/>
+					<label from="03-17-2-1" id="03-17-18" name="interpretation" text="reading may be the least popular as it is considered a older hobby and a more feminine hobby" to="03-17-2-18" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -8169,7 +8169,7 @@
 						<token content="and" content_fix="and" id="06-02-2-6"/>
 						<token content="20" content_fix="20" id="06-02-2-7"/>
 						<token content="%" content_fix="%" id="06-02-2-8"/>
-						<token content="retrospectively" content_fix="retrospectively" id="06-02-2-9"/>
+						<token content="retrospectively" content_fix="respectively" id="06-02-2-9"/>
 						<token content="." content_fix="." id="06-02-2-10"/>
 					</sentence>
 				</sentences>
@@ -10069,7 +10069,7 @@
 				<sentences>
 					<sentence id="07-06-1">
 						<token content="The" content_fix="The" id="07-06-1-1"/>
-						<token content="chat" content_fix="chat" id="07-06-1-2"/>
+						<token content="chat" content_fix="chart" id="07-06-1-2"/>
 						<token content="shows" content_fix="shows" id="07-06-1-3"/>
 						<token content="that" content_fix="that" id="07-06-1-4"/>
 						<token content="Fast" content_fix="Fast" id="07-06-1-5"/>
