@@ -1624,8 +1624,8 @@
 						<token content="approximately" content_fix="approximately" id="02-04-1-12"/>
 						<token content="$" content_fix="$" id="02-04-1-13"/>
 						<token content="5" content_fix="5" id="02-04-1-14"/>
-						<token content="," content_fix="," id="02-04-1-15"/>
-						<token content="000" content_fix="000" id="02-04-1-16"/>
+						<token content=",000" content_fix=",000" id="02-04-1-15"/>
+						<token content="," content_fix="," id="02-04-1-16"/>
 						<token content="per" content_fix="per" id="02-04-1-17"/>
 						<token content="5" content_fix="5" id="02-04-1-18"/>
 						<token content="years" content_fix="years" id="02-04-1-19"/>
@@ -1671,7 +1671,7 @@
 		</story>
 		<story story_id="02-05">
 			<text>
-				<content>This graph represents the median salary of women from the years 2000 - 2015 . The highest percentage is in 2015 with 55 % , this is above the 50 % in 2010 . In 2005 the median was 45 % and in 2000 40 % . This shows an increase every 5 years of 5 % .</content>
+				<content>This graph represents the median salary of women from the years 2000 - 2015 . The highest salary is in 2015 with 55 % , this is above the 50 % in 2010 . In 2005 the median was 45 % and in 2000 40 % . This shows an increase every 5 years of 5 % .</content>
 				<sentences>
 					<sentence id="02-05-1">
 						<token content="This" content_fix="This" id="02-05-1-1"/>
@@ -1693,20 +1693,20 @@
 					<sentence id="02-05-2">
 						<token content="The" content_fix="The" id="02-05-2-1"/>
 						<token content="highest" content_fix="highest" id="02-05-2-2"/>
-						<token content="percentage" content_fix="percentage" id="02-05-2-3"/>
+						<token content="salary" content_fix="salary" id="02-05-2-3"/>
 						<token content="is" content_fix="is" id="02-05-2-4"/>
 						<token content="in" content_fix="in" id="02-05-2-5"/>
 						<token content="2015" content_fix="2015" id="02-05-2-6"/>
 						<token content="with" content_fix="with" id="02-05-2-7"/>
 						<token content="55" content_fix="55" id="02-05-2-8"/>
-						<token content="%" content_fix="%" id="02-05-2-9"/>
+						<token content="%" content_fix=",000" id="02-05-2-9"/>
 						<token content="," content_fix="," id="02-05-2-10"/>
 						<token content="this" content_fix="this" id="02-05-2-11"/>
 						<token content="is" content_fix="is" id="02-05-2-12"/>
 						<token content="above" content_fix="above" id="02-05-2-13"/>
 						<token content="the" content_fix="the" id="02-05-2-14"/>
 						<token content="50" content_fix="50" id="02-05-2-15"/>
-						<token content="%" content_fix="%" id="02-05-2-16"/>
+						<token content="%" content_fix=",000" id="02-05-2-16"/>
 						<token content="in" content_fix="in" id="02-05-2-17"/>
 						<token content="2010" content_fix="2010" id="02-05-2-18"/>
 						<token content="." content_fix="." id="02-05-2-19"/>
@@ -1718,12 +1718,12 @@
 						<token content="median" content_fix="median" id="02-05-3-4"/>
 						<token content="was" content_fix="was" id="02-05-3-5"/>
 						<token content="45" content_fix="45" id="02-05-3-6"/>
-						<token content="%" content_fix="%" id="02-05-3-7"/>
+						<token content="%" content_fix=",000" id="02-05-3-7"/>
 						<token content="and" content_fix="and" id="02-05-3-8"/>
 						<token content="in" content_fix="in" id="02-05-3-9"/>
 						<token content="2000" content_fix="2000" id="02-05-3-10"/>
 						<token content="40" content_fix="40" id="02-05-3-11"/>
-						<token content="%" content_fix="%" id="02-05-3-12"/>
+						<token content="%" content_fix=",000" id="02-05-3-12"/>
 						<token content="." content_fix="." id="02-05-3-13"/>
 					</sentence>
 					<sentence id="02-05-4">
@@ -1736,7 +1736,7 @@
 						<token content="years" content_fix="years" id="02-05-4-7"/>
 						<token content="of" content_fix="of" id="02-05-4-8"/>
 						<token content="5" content_fix="5" id="02-05-4-9"/>
-						<token content="%" content_fix="%" id="02-05-4-10"/>
+						<token content="%" content_fix=",000" id="02-05-4-10"/>
 						<token content="." content_fix="." id="02-05-4-11"/>
 					</sentence>
 				</sentences>
@@ -1750,22 +1750,27 @@
 					<label from="02-05-1-13" id="02-05-5" name="x_axis_range_end" text="-" to="02-05-1-13" type="event"/>
 					<label from="02-05-1-14" id="02-05-6" name="x_axis_label_highest_value" text="2015" to="02-05-1-14" type="event"/>
 					<label from="02-05-2-2" id="02-05-7" name="y_axis_highest_value" text="highest" to="02-05-2-2" type="event"/>
-					<label from="02-05-2-3" id="02-05-8" name="y_axis" text="percentage" to="02-05-2-3" type="event"/>
+					<label from="02-05-2-3" id="02-05-8" name="y_axis" text="salary" to="02-05-2-3" type="event"/>
 					<label from="02-05-2-6" id="02-05-9" name="x_axis_label_highest_value" text="2015" to="02-05-2-6" type="event"/>
 					<label from="02-05-2-8" id="02-05-10" name="y_axis_highest_value_val" text="55" to="02-05-2-8" type="event"/>
-					<label from="02-05-2-13" id="02-05-11" name="y_axis_trend_up" text="above" to="02-05-2-13" type="event"/>
-					<label from="02-05-2-15" id="02-05-12" name="y_axis_Scnd_highest_val" text="50" to="02-05-2-15" type="event"/>
-					<label from="02-05-2-18" id="02-05-13" name="x_axis_label_Scnd_highest_value" text="2010" to="02-05-2-18" type="event"/>
-					<label from="02-05-3-2" id="02-05-14" name="x_axis_label_3rd_highest_value" text="2005" to="02-05-3-2" type="event"/>
-					<label from="02-05-3-4" id="02-05-15" name="topic_related_property" text="median" to="02-05-3-4" type="event"/>
-					<label from="02-05-3-6" id="02-05-16" name="y_axis_3rd_highest_val" text="45" to="02-05-3-6" type="event"/>
-					<label from="02-05-3-10" id="02-05-17" name="x_axis_label_least_value" text="2000" to="02-05-3-10" type="event"/>
-					<label from="02-05-3-11" id="02-05-18" name="y_axis_least_value_val" text="40" to="02-05-3-11" type="event"/>
-					<label from="02-05-4-4" id="02-05-19" name="y_axis_trend_up" text="increase" to="02-05-4-4" type="event"/>
-					<label from="02-05-4-5" id="02-05-20" name="every" text="every" to="02-05-4-5" type="event"/>
-					<label from="02-05-4-6" id="02-05-21" name="slope_x_value" text="5" to="02-05-4-6" type="event"/>
-					<label from="02-05-4-7" id="02-05-22" name="x_axis" text="years" to="02-05-4-7" type="event"/>
-					<label from="02-05-4-9" id="02-05-23" name="slope_y_value" text="5" to="02-05-4-9" type="event"/>
+					<label from="02-05-2-9" id="02-05-11" name="y_magnitude" text=",000" to="02-05-2-9" type="event"/>
+					<label from="02-05-2-13" id="02-05-12" name="y_axis_trend_up" text="above" to="02-05-2-13" type="event"/>
+					<label from="02-05-2-15" id="02-05-13" name="y_axis_Scnd_highest_val" text="50" to="02-05-2-15" type="event"/>
+					<label from="02-05-2-16" id="02-05-14" name="y_magnitude" text=",000" to="02-05-2-16" type="event"/>
+					<label from="02-05-2-18" id="02-05-15" name="x_axis_label_Scnd_highest_value" text="2010" to="02-05-2-18" type="event"/>
+					<label from="02-05-3-2" id="02-05-16" name="x_axis_label_3rd_highest_value" text="2005" to="02-05-3-2" type="event"/>
+					<label from="02-05-3-4" id="02-05-17" name="topic_related_property" text="median" to="02-05-3-4" type="event"/>
+					<label from="02-05-3-6" id="02-05-18" name="y_axis_3rd_highest_val" text="45" to="02-05-3-6" type="event"/>
+					<label from="02-05-3-7" id="02-05-19" name="y_magnitude" text=",000" to="02-05-3-7" type="event"/>
+					<label from="02-05-3-10" id="02-05-20" name="x_axis_label_least_value" text="2000" to="02-05-3-10" type="event"/>
+					<label from="02-05-3-11" id="02-05-21" name="y_axis_least_value_val" text="40" to="02-05-3-11" type="event"/>
+					<label from="02-05-3-12" id="02-05-22" name="y_magnitude" text=",000" to="02-05-3-12" type="event"/>
+					<label from="02-05-4-4" id="02-05-23" name="y_axis_trend_up" text="increase" to="02-05-4-4" type="event"/>
+					<label from="02-05-4-5" id="02-05-24" name="every" text="every" to="02-05-4-5" type="event"/>
+					<label from="02-05-4-6" id="02-05-25" name="slope_x_value" text="5" to="02-05-4-6" type="event"/>
+					<label from="02-05-4-7" id="02-05-26" name="x_axis" text="years" to="02-05-4-7" type="event"/>
+					<label from="02-05-4-9" id="02-05-27" name="slope_y_value" text="5" to="02-05-4-9" type="event"/>
+					<label from="02-05-4-10" id="02-05-28" name="y_magnitude" text=",000" to="02-05-4-10" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -1838,27 +1843,27 @@
 						<token content="rising" content_fix="rising" id="02-07-1-11"/>
 						<token content="from" content_fix="from" id="02-07-1-12"/>
 						<token content="40" content_fix="40" id="02-07-1-13"/>
-						<token content="," content_fix="," id="02-07-1-14"/>
-						<token content="000" content_fix="000" id="02-07-1-15"/>
+						<token content=",000" content_fix=",000" id="02-07-1-14"/>
+						<token content="," content_fix="," id="02-07-1-15"/>
 						<token content="in" content_fix="in" id="02-07-1-16"/>
 						<token content="2000" content_fix="2000" id="02-07-1-17"/>
 						<token content="to" content_fix="to" id="02-07-1-18"/>
 						<token content="45" content_fix="45" id="02-07-1-19"/>
-						<token content="," content_fix="," id="02-07-1-20"/>
-						<token content="000" content_fix="000" id="02-07-1-21"/>
+						<token content=",000" content_fix=",000" id="02-07-1-20"/>
+						<token content="," content_fix="," id="02-07-1-21"/>
 						<token content="in" content_fix="in" id="02-07-1-22"/>
 						<token content="2005" content_fix="2005" id="02-07-1-23"/>
 						<token content="," content_fix="," id="02-07-1-24"/>
 						<token content="50" content_fix="50" id="02-07-1-25"/>
-						<token content="," content_fix="," id="02-07-1-26"/>
-						<token content="000" content_fix="000" id="02-07-1-27"/>
+						<token content=",000" content_fix=",000" id="02-07-1-26"/>
+						<token content="," content_fix="," id="02-07-1-27"/>
 						<token content="in" content_fix="in" id="02-07-1-28"/>
 						<token content="2010" content_fix="2010" id="02-07-1-29"/>
 						<token content="," content_fix="," id="02-07-1-30"/>
 						<token content="to" content_fix="to" id="02-07-1-31"/>
 						<token content="55" content_fix="55" id="02-07-1-32"/>
-						<token content="," content_fix="," id="02-07-1-33"/>
-						<token content="000" content_fix="000" id="02-07-1-34"/>
+						<token content=",000" content_fix=",000" id="02-07-1-33"/>
+						<token content="," content_fix="," id="02-07-1-34"/>
 						<token content="in" content_fix="in" id="02-07-1-35"/>
 						<token content="2015" content_fix="2015" id="02-07-1-36"/>
 					</sentence>
@@ -1987,8 +1992,8 @@
 						<token content="has" content_fix="has" id="02-09-2-7"/>
 						<token content="risen" content_fix="risen" id="02-09-2-8"/>
 						<token content="15" content_fix="15" id="02-09-2-9"/>
-						<token content="," content_fix="," id="02-09-2-10"/>
-						<token content="000" content_fix="000" id="02-09-2-11"/>
+						<token content=",000" content_fix=",000" id="02-09-2-10"/>
+						<token content="," content_fix="," id="02-09-2-11"/>
 						<token content="dollars" content_fix="dollars" id="02-09-2-12"/>
 						<token content="." content_fix="." id="02-09-2-13"/>
 					</sentence>
@@ -2090,8 +2095,8 @@
 						<token content="women" content_fix="women" id="02-11-1-21"/>
 						<token content="over" content_fix="over" id="02-11-1-22"/>
 						<token content="50" content_fix="50" id="02-11-1-23"/>
-						<token content="," content_fix="," id="02-11-1-24"/>
-						<token content="000" content_fix="000" id="02-11-1-25"/>
+						<token content=",000" content_fix=",000" id="02-11-1-24"/>
+						<token content="," content_fix="," id="02-11-1-25"/>
 						<token content="dollars" content_fix="dollars" id="02-11-1-26"/>
 						<token content="in" content_fix="in" id="02-11-1-27"/>
 						<token content="2015" content_fix="2015" id="02-11-1-28"/>
@@ -2099,8 +2104,8 @@
 						<token content="compared" content_fix="compared" id="02-11-1-30"/>
 						<token content="to" content_fix="to" id="02-11-1-31"/>
 						<token content="40" content_fix="40" id="02-11-1-32"/>
-						<token content="," content_fix="," id="02-11-1-33"/>
-						<token content="000" content_fix="000" id="02-11-1-34"/>
+						<token content=",000" content_fix=",000" id="02-11-1-33"/>
+						<token content="," content_fix="," id="02-11-1-34"/>
 						<token content="in" content_fix="in" id="02-11-1-35"/>
 						<token content="2000" content_fix="2000" id="02-11-1-36"/>
 						<token content="." content_fix="." id="02-11-1-37"/>
@@ -2243,8 +2248,8 @@
 						<token content="a" content_fix="a" id="02-13-1-17"/>
 						<token content="$" content_fix="$" id="02-13-1-18"/>
 						<token content="5" content_fix="5" id="02-13-1-19"/>
-						<token content="," content_fix="," id="02-13-1-20"/>
-						<token content="000" content_fix="000" id="02-13-1-21"/>
+						<token content=",000" content_fix=",000" id="02-13-1-20"/>
+						<token content="," content_fix="," id="02-13-1-21"/>
 						<token content="increase" content_fix="increase" id="02-13-1-22"/>
 						<token content="every" content_fix="every" id="02-13-1-23"/>
 						<token content="5" content_fix="5" id="02-13-1-24"/>
@@ -2343,16 +2348,16 @@
 						<token content="from" content_fix="from" id="02-15-1-16"/>
 						<token content="$" content_fix="$" id="02-15-1-17"/>
 						<token content="40" content_fix="40" id="02-15-1-18"/>
-						<token content="," content_fix="," id="02-15-1-19"/>
-						<token content="000" content_fix="000" id="02-15-1-20"/>
+						<token content=",000" content_fix=",000" id="02-15-1-19"/>
+						<token content="," content_fix="," id="02-15-1-20"/>
 						<token content="in" content_fix="in" id="02-15-1-21"/>
 						<token content="2000" content_fix="2000" id="02-15-1-22"/>
 						<token content="to" content_fix="to" id="02-15-1-23"/>
 						<token content="over" content_fix="over" id="02-15-1-24"/>
 						<token content="$" content_fix="$" id="02-15-1-25"/>
 						<token content="50" content_fix="50" id="02-15-1-26"/>
-						<token content="," content_fix="," id="02-15-1-27"/>
-						<token content="000" content_fix="000" id="02-15-1-28"/>
+						<token content=",000" content_fix=",000" id="02-15-1-27"/>
+						<token content="," content_fix="," id="02-15-1-28"/>
 						<token content="in" content_fix="in" id="02-15-1-29"/>
 						<token content="2015" content_fix="2015" id="02-15-1-30"/>
 					</sentence>
@@ -2447,8 +2452,8 @@
 						<token content="over" content_fix="over" id="02-17-1-15"/>
 						<token content="$" content_fix="$" id="02-17-1-16"/>
 						<token content="56" content_fix="56" id="02-17-1-17"/>
-						<token content="," content_fix="," id="02-17-1-18"/>
-						<token content="000" content_fix="000" id="02-17-1-19"/>
+						<token content=",000" content_fix=",000" id="02-17-1-18"/>
+						<token content="," content_fix="," id="02-17-1-19"/>
 						<token content="," content_fix="," id="02-17-1-20"/>
 						<token content="followed" content_fix="followed" id="02-17-1-21"/>
 						<token content="by" content_fix="by" id="02-17-1-22"/>
@@ -2456,21 +2461,21 @@
 						<token content="with" content_fix="with" id="02-17-1-24"/>
 						<token content="$" content_fix="$" id="02-17-1-25"/>
 						<token content="50" content_fix="50" id="02-17-1-26"/>
-						<token content="," content_fix="," id="02-17-1-27"/>
-						<token content="000" content_fix="000" id="02-17-1-28"/>
+						<token content=",000" content_fix=",000" id="02-17-1-27"/>
+						<token content="," content_fix="," id="02-17-1-28"/>
 						<token content="," content_fix="," id="02-17-1-29"/>
 						<token content="2005" content_fix="2005" id="02-17-1-30"/>
 						<token content="with" content_fix="with" id="02-17-1-31"/>
 						<token content="$" content_fix="$" id="02-17-1-32"/>
 						<token content="44" content_fix="44" id="02-17-1-33"/>
-						<token content="," content_fix="," id="02-17-1-34"/>
-						<token content="000" content_fix="000" id="02-17-1-35"/>
+						<token content=",000" content_fix=",000" id="02-17-1-34"/>
+						<token content="," content_fix="," id="02-17-1-35"/>
 						<token content="and" content_fix="and" id="02-17-1-36"/>
 						<token content="2000" content_fix="2000" id="02-17-1-37"/>
 						<token content="$" content_fix="$" id="02-17-1-38"/>
 						<token content="40" content_fix="40" id="02-17-1-39"/>
-						<token content="," content_fix="," id="02-17-1-40"/>
-						<token content="000" content_fix="000" id="02-17-1-41"/>
+						<token content=",000" content_fix=",000" id="02-17-1-40"/>
+						<token content="," content_fix="," id="02-17-1-41"/>
 						<token content="." content_fix="." id="02-17-1-42"/>
 					</sentence>
 					<sentence id="02-17-2">
@@ -2552,6 +2557,7 @@
 					<label from="02-18-1-9" id="02-18-4" name="x_axis_label_least_value" text="2000" to="02-18-1-9" type="event"/>
 					<label from="02-18-1-12" id="02-18-5" name="y_axis_trend" text="least" to="02-18-1-12" type="event"/>
 					<label from="02-18-1-13" id="02-18-6" name="y_axis_inferred_value_add?" text="10" to="02-18-1-13" type="event"/>
+					<label from="02-18-1-14" id="02-18-7" name="y_axis_inferred_label?" text="%" to="02-18-1-14" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -2590,16 +2596,16 @@
 						<token content="it" content_fix="it" id="02-19-2-9"/>
 						<token content="was" content_fix="was" id="02-19-2-10"/>
 						<token content="40" content_fix="40" id="02-19-2-11"/>
-						<token content="," content_fix="," id="02-19-2-12"/>
-						<token content="000" content_fix="000" id="02-19-2-13"/>
+						<token content=",000" content_fix=",000" id="02-19-2-12"/>
+						<token content="," content_fix="," id="02-19-2-13"/>
 						<token content="in" content_fix="in" id="02-19-2-14"/>
 						<token content="2000" content_fix="2000" id="02-19-2-15"/>
 						<token content="and" content_fix="and" id="02-19-2-16"/>
 						<token content="is" content_fix="is" id="02-19-2-17"/>
 						<token content="now" content_fix="now" id="02-19-2-18"/>
 						<token content="56" content_fix="56" id="02-19-2-19"/>
-						<token content="," content_fix="," id="02-19-2-20"/>
-						<token content="000" content_fix="000" id="02-19-2-21"/>
+						<token content=",000" content_fix=",000" id="02-19-2-20"/>
+						<token content="," content_fix="," id="02-19-2-21"/>
 						<token content="in" content_fix="in" id="02-19-2-22"/>
 						<token content="2015" content_fix="2015" id="02-19-2-23"/>
 						<token content="." content_fix="." id="02-19-2-24"/>
@@ -4750,8 +4756,8 @@
 						<token content="by" content_fix="by" id="04-04-2-13"/>
 						<token content="approximately" content_fix="approximately" id="04-04-2-14"/>
 						<token content="10" content_fix="10" id="04-04-2-15"/>
-						<token content="," content_fix="," id="04-04-2-16"/>
-						<token content="000" content_fix="000" id="04-04-2-17"/>
+						<token content=",000" content_fix=",000" id="04-04-2-16"/>
+						<token content="," content_fix="," id="04-04-2-17"/>
 						<token content="." content_fix="." id="04-04-2-18"/>
 					</sentence>
 				</sentences>
@@ -4807,7 +4813,7 @@
 						<token content="lowest" content_fix="lowest" id="04-05-2-7"/>
 						<token content="at" content_fix="at" id="04-05-2-8"/>
 						<token content="30" content_fix="30" id="04-05-2-9"/>
-						<token content="%" content_fix=",000" id="04-05-2-10"/>
+						<token content="%" content_fix="k" id="04-05-2-10"/>
 						<token content="," content_fix="," id="04-05-2-11"/>
 						<token content="those" content_fix="those" id="04-05-2-12"/>
 						<token content="with" content_fix="with" id="04-05-2-13"/>
@@ -4818,7 +4824,7 @@
 						<token content="in" content_fix="in" id="04-05-2-18"/>
 						<token content="at" content_fix="at" id="04-05-2-19"/>
 						<token content="45" content_fix="45" id="04-05-2-20"/>
-						<token content="%" content_fix=",000" id="04-05-2-21"/>
+						<token content="%" content_fix="k" id="04-05-2-21"/>
 						<token content="." content_fix="." id="04-05-2-22"/>
 					</sentence>
 					<sentence id="04-05-3">
@@ -4834,7 +4840,7 @@
 						<token content="is" content_fix="is" id="04-05-3-10"/>
 						<token content="at" content_fix="at" id="04-05-3-11"/>
 						<token content="55" content_fix="55" id="04-05-3-12"/>
-						<token content="%" content_fix=",000" id="04-05-3-13"/>
+						<token content="%" content_fix="k" id="04-05-3-13"/>
 						<token content="and" content_fix="and" id="04-05-3-14"/>
 						<token content="finally" content_fix="finally" id="04-05-3-15"/>
 						<token content="," content_fix="," id="04-05-3-16"/>
@@ -4849,7 +4855,7 @@
 						<token content="level" content_fix="level" id="04-05-3-25"/>
 						<token content="of" content_fix="of" id="04-05-3-26"/>
 						<token content="65" content_fix="65" id="04-05-3-27"/>
-						<token content="%" content_fix=",000" id="04-05-3-28"/>
+						<token content="%" content_fix="k" id="04-05-3-28"/>
 						<token content="." content_fix="." id="04-05-3-29"/>
 					</sentence>
 				</sentences>
@@ -4860,22 +4866,22 @@
 					<label from="04-05-2-3" id="04-05-2" name="x_axis_label_least_value" text="no degree" to="04-05-2-4" type="event"/>
 					<label from="04-05-2-7" id="04-05-3" name="y_axis_least_value" text="lowest" to="04-05-2-7" type="event"/>
 					<label from="04-05-2-9" id="04-05-4" name="y_axis_least_value_val" text="30" to="04-05-2-9" type="event"/>
-					<label from="04-05-2-10" id="04-05-5" name="y_magnitude" text=",000" to="04-05-2-10" type="event"/>
+					<label from="04-05-2-10" id="04-05-5" name="y_magnitude" text="k" to="04-05-2-10" type="event"/>
 					<label from="04-05-2-15" id="04-05-6" name="x_axis_label_3rd_highest_value" text="Bachelors" to="04-05-2-15" type="event"/>
 					<label from="04-05-2-16" id="04-05-7" name="x_axis" text="degree" to="04-05-2-16" type="event"/>
 					<label from="04-05-2-20" id="04-05-8" name="y_axis_3rd_highest_val" text="45" to="04-05-2-20" type="event"/>
-					<label from="04-05-2-21" id="04-05-9" name="y_magnitude" text=",000" to="04-05-2-21" type="event"/>
+					<label from="04-05-2-21" id="04-05-9" name="y_magnitude" text="k" to="04-05-2-21" type="event"/>
 					<label from="04-05-3-3" id="04-05-10" name="x_axis_label_Scnd_highest_value" text="masters" to="04-05-3-3" type="event"/>
 					<label from="04-05-3-4" id="04-05-11" name="x_axis" text="degree" to="04-05-3-4" type="event"/>
 					<label from="04-05-3-7" id="04-05-12" name="topic_related_object" text="engineers" to="04-05-3-7" type="event"/>
 					<label from="04-05-3-9" id="04-05-13" name="y_axis" text="salary" to="04-05-3-9" type="event"/>
 					<label from="04-05-3-12" id="04-05-14" name="y_axis_Scnd_highest_val" text="55" to="04-05-3-12" type="event"/>
-					<label from="04-05-3-13" id="04-05-15" name="y_magnitude" text=",000" to="04-05-3-13" type="event"/>
+					<label from="04-05-3-13" id="04-05-15" name="y_magnitude" text="k" to="04-05-3-13" type="event"/>
 					<label from="04-05-3-15" id="04-05-16" name="final_label_left" text="finally" to="04-05-3-15" type="event"/>
 					<label from="04-05-3-20" id="04-05-17" name="x_axis_label_highest_value" text="PHD" to="04-05-3-20" type="event"/>
 					<label from="04-05-3-24" id="04-05-18" name="y_axis_highest_value" text="highest" to="04-05-3-24" type="event"/>
 					<label from="04-05-3-27" id="04-05-19" name="y_axis_highest_value_val" text="65" to="04-05-3-27" type="event"/>
-					<label from="04-05-3-28" id="04-05-20" name="y_magnitude" text=",000" to="04-05-3-28" type="event"/>
+					<label from="04-05-3-28" id="04-05-20" name="y_magnitude" text="k" to="04-05-3-28" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -4995,8 +5001,8 @@
 						<token content="over" content_fix="over" id="04-07-1-18"/>
 						<token content="$" content_fix="$" id="04-07-1-19"/>
 						<token content="60" content_fix="60" id="04-07-1-20"/>
-						<token content="," content_fix="," id="04-07-1-21"/>
-						<token content="000" content_fix="000" id="04-07-1-22"/>
+						<token content=",000" content_fix=",000" id="04-07-1-21"/>
+						<token content="," content_fix="," id="04-07-1-22"/>
 						<token content="." content_fix="." id="04-07-1-23"/>
 					</sentence>
 					<sentence id="04-07-2">
@@ -5010,8 +5016,8 @@
 						<token content="average" content_fix="average" id="04-07-2-8"/>
 						<token content="$" content_fix="$" id="04-07-2-9"/>
 						<token content="55" content_fix="55" id="04-07-2-10"/>
-						<token content="," content_fix="," id="04-07-2-11"/>
-						<token content="000" content_fix="000" id="04-07-2-12"/>
+						<token content=",000" content_fix=",000" id="04-07-2-11"/>
+						<token content="," content_fix="," id="04-07-2-12"/>
 						<token content="." content_fix="." id="04-07-2-13"/>
 					</sentence>
 					<sentence id="04-07-3">
@@ -5024,8 +5030,8 @@
 						<token content="earning" content_fix="earning" id="04-07-3-7"/>
 						<token content="$" content_fix="$" id="04-07-3-8"/>
 						<token content="45" content_fix="45" id="04-07-3-9"/>
-						<token content="," content_fix="," id="04-07-3-10"/>
-						<token content="000" content_fix="000" id="04-07-3-11"/>
+						<token content=",000" content_fix=",000" id="04-07-3-10"/>
+						<token content="," content_fix="," id="04-07-3-11"/>
 						<token content="on" content_fix="on" id="04-07-3-12"/>
 						<token content="average" content_fix="average" id="04-07-3-13"/>
 						<token content="." content_fix="." id="04-07-3-14"/>
@@ -5045,8 +5051,8 @@
 						<token content="over" content_fix="over" id="04-07-4-12"/>
 						<token content="$" content_fix="$" id="04-07-4-13"/>
 						<token content="30" content_fix="30" id="04-07-4-14"/>
-						<token content="," content_fix="," id="04-07-4-15"/>
-						<token content="000" content_fix="000" id="04-07-4-16"/>
+						<token content=",000" content_fix=",000" id="04-07-4-15"/>
+						<token content="," content_fix="," id="04-07-4-16"/>
 						<token content="on" content_fix="on" id="04-07-4-17"/>
 						<token content="average" content_fix="average" id="04-07-4-18"/>
 						<token content="." content_fix="." id="04-07-4-19"/>
@@ -5144,8 +5150,8 @@
 						<token content="about" content_fix="about" id="04-08-3-6"/>
 						<token content="$" content_fix="$" id="04-08-3-7"/>
 						<token content="30" content_fix="30" id="04-08-3-8"/>
-						<token content="," content_fix="," id="04-08-3-9"/>
-						<token content="000" content_fix="000" id="04-08-3-10"/>
+						<token content=",000" content_fix=",000" id="04-08-3-9"/>
+						<token content="," content_fix="," id="04-08-3-10"/>
 						<token content="between" content_fix="between" id="04-08-3-11"/>
 						<token content="these" content_fix="these" id="04-08-3-12"/>
 						<token content="average" content_fix="average" id="04-08-3-13"/>
@@ -5272,8 +5278,8 @@
 						<token content="approximately" content_fix="approximately" id="04-10-2-8"/>
 						<token content="£" content_fix="$" id="04-10-2-9"/>
 						<token content="20" content_fix="20" id="04-10-2-10"/>
-						<token content="," content_fix="," id="04-10-2-11"/>
-						<token content="000" content_fix="000" id="04-10-2-12"/>
+						<token content=",000" content_fix=",000" id="04-10-2-11"/>
+						<token content="," content_fix="," id="04-10-2-12"/>
 						<token content="salary" content_fix="salary" id="04-10-2-13"/>
 						<token content="difference" content_fix="difference" id="04-10-2-14"/>
 						<token content="between" content_fix="between" id="04-10-2-15"/>
@@ -5293,8 +5299,8 @@
 						<token content="approximate" content_fix="approximate" id="04-10-2-29"/>
 						<token content="£" content_fix="$" id="04-10-2-30"/>
 						<token content="10" content_fix="10" id="04-10-2-31"/>
-						<token content="," content_fix="," id="04-10-2-32"/>
-						<token content="000" content_fix="000" id="04-10-2-33"/>
+						<token content=",000" content_fix=",000" id="04-10-2-32"/>
+						<token content="," content_fix="," id="04-10-2-33"/>
 						<token content="difference" content_fix="difference" id="04-10-2-34"/>
 						<token content="between" content_fix="between" id="04-10-2-35"/>
 						<token content="those" content_fix="those" id="04-10-2-36"/>
@@ -5557,35 +5563,34 @@
 						<token content="at" content_fix="at" id="04-14-2-8"/>
 						<token content="$" content_fix="$" id="04-14-2-9"/>
 						<token content="62" content_fix="62" id="04-14-2-10"/>
-						<token content="," content_fix="," id="04-14-2-11"/>
-						<token content="000" content_fix="000" id="04-14-2-12"/>
+						<token content=",000" content_fix=",000" id="04-14-2-11"/>
+						<token content="," content_fix="," id="04-14-2-12"/>
 						<token content="." content_fix="." id="04-14-2-13"/>
 					</sentence>
 					<sentence id="04-14-3">
 						<token content="A" content_fix="A" id="04-14-3-1"/>
-						<token content="master" content_fix="master" id="04-14-3-2"/>
-						<token content="'s" content_fix="'s" id="04-14-3-3"/>
-						<token content="degree" content_fix="degree" id="04-14-3-4"/>
-						<token content="gets" content_fix="gets" id="04-14-3-5"/>
-						<token content="average" content_fix="average" id="04-14-3-6"/>
-						<token content="earnings" content_fix="earnings" id="04-14-3-7"/>
-						<token content="of" content_fix="of" id="04-14-3-8"/>
-						<token content="$" content_fix="$" id="04-14-3-9"/>
-						<token content="52" content_fix="52" id="04-14-3-10"/>
+						<token content="master's" content_fix="master's" id="04-14-3-2"/>
+						<token content="degree" content_fix="degree" id="04-14-3-3"/>
+						<token content="gets" content_fix="gets" id="04-14-3-4"/>
+						<token content="average" content_fix="average" id="04-14-3-5"/>
+						<token content="earnings" content_fix="earnings" id="04-14-3-6"/>
+						<token content="of" content_fix="of" id="04-14-3-7"/>
+						<token content="$" content_fix="$" id="04-14-3-8"/>
+						<token content="52" content_fix="52" id="04-14-3-9"/>
+						<token content=",000" content_fix=",000" id="04-14-3-10"/>
 						<token content="," content_fix="," id="04-14-3-11"/>
-						<token content="000" content_fix="000" id="04-14-3-12"/>
-						<token content="," content_fix="," id="04-14-3-13"/>
-						<token content="whilst" content_fix="whilst" id="04-14-3-14"/>
-						<token content="a" content_fix="a" id="04-14-3-15"/>
-						<token content="BSc" content_fix="BSc" id="04-14-3-16"/>
-						<token content="gets" content_fix="gets" id="04-14-3-17"/>
-						<token content="$" content_fix="$" id="04-14-3-18"/>
-						<token content="42" content_fix="42" id="04-14-3-19"/>
+						<token content="," content_fix="," id="04-14-3-12"/>
+						<token content="whilst" content_fix="whilst" id="04-14-3-13"/>
+						<token content="a" content_fix="a" id="04-14-3-14"/>
+						<token content="BSc" content_fix="BSc" id="04-14-3-15"/>
+						<token content="gets" content_fix="gets" id="04-14-3-16"/>
+						<token content="$" content_fix="$" id="04-14-3-17"/>
+						<token content="42" content_fix="42" id="04-14-3-18"/>
+						<token content=",000" content_fix=",000" id="04-14-3-19"/>
 						<token content="," content_fix="," id="04-14-3-20"/>
-						<token content="000" content_fix="000" id="04-14-3-21"/>
-						<token content="on" content_fix="on" id="04-14-3-22"/>
-						<token content="average" content_fix="average" id="04-14-3-23"/>
-						<token content="." content_fix="." id="04-14-3-24"/>
+						<token content="on" content_fix="on" id="04-14-3-21"/>
+						<token content="average" content_fix="average" id="04-14-3-22"/>
+						<token content="." content_fix="." id="04-14-3-23"/>
 					</sentence>
 					<sentence id="04-14-4">
 						<token content="Those" content_fix="Those" id="04-14-4-1"/>
@@ -5598,8 +5603,8 @@
 						<token content="of" content_fix="of" id="04-14-4-8"/>
 						<token content="$" content_fix="$" id="04-14-4-9"/>
 						<token content="30" content_fix="30" id="04-14-4-10"/>
-						<token content="," content_fix="," id="04-14-4-11"/>
-						<token content="000" content_fix="000" id="04-14-4-12"/>
+						<token content=",000" content_fix=",000" id="04-14-4-11"/>
+						<token content="," content_fix="," id="04-14-4-12"/>
 						<token content="." content_fix="." id="04-14-4-13"/>
 					</sentence>
 				</sentences>
@@ -5628,11 +5633,11 @@
 					<label from="04-14-3-15" id="04-14-20" name="y_axis_inferred_label" text="$" to="04-14-3-15" type="event"/>
 					<label from="04-14-3-16" id="04-14-21" name="y_axis_inferred_3rd_highest_value_approx" text="42" to="04-14-3-16" type="event"/>
 					<label from="04-14-3-17" id="04-14-22" name="y_magnitude" text=",000" to="04-14-3-17" type="event"/>
-					<label from="04-14-3-23" id="04-14-23" name="x_axis_label_least_value" text="no degree" to="04-14-3-24" type="event"/>
-					<label from="04-14-4-3" id="04-14-24" name="y_axis" text="salary" to="04-14-4-3" type="event"/>
-					<label from="04-14-4-5" id="04-14-25" name="y_axis_inferred_label" text="$" to="04-14-4-5" type="event"/>
-					<label from="04-14-4-6" id="04-14-26" name="y_axis_inferred_least_value_approx" text="30" to="04-14-4-6" type="event"/>
-					<label from="04-14-4-7" id="04-14-27" name="y_magnitude" text=",000" to="04-14-4-7" type="event"/>
+					<label from="04-14-4-0" id="04-14-23" name="x_axis_label_least_value" text="no degree" to="04-14-4-1" type="event"/>
+					<label from="04-14-4-4" id="04-14-24" name="y_axis" text="salary" to="04-14-4-4" type="event"/>
+					<label from="04-14-4-6" id="04-14-25" name="y_axis_inferred_label" text="$" to="04-14-4-6" type="event"/>
+					<label from="04-14-4-7" id="04-14-26" name="y_axis_inferred_least_value_approx" text="30" to="04-14-4-7" type="event"/>
+					<label from="04-14-4-8" id="04-14-27" name="y_magnitude" text=",000" to="04-14-4-8" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -5671,14 +5676,14 @@
 						<token content="over" content_fix="over" id="04-15-2-6"/>
 						<token content="$" content_fix="$" id="04-15-2-7"/>
 						<token content="60" content_fix="60" id="04-15-2-8"/>
-						<token content="," content_fix="," id="04-15-2-9"/>
-						<token content="000" content_fix="000" id="04-15-2-10"/>
+						<token content=",000" content_fix=",000" id="04-15-2-9"/>
+						<token content="," content_fix="," id="04-15-2-10"/>
 						<token content="," content_fix="," id="04-15-2-11"/>
 						<token content="about" content_fix="about" id="04-15-2-12"/>
 						<token content="$" content_fix="$" id="04-15-2-13"/>
 						<token content="10" content_fix="10" id="04-15-2-14"/>
-						<token content="," content_fix="," id="04-15-2-15"/>
-						<token content="000" content_fix="000" id="04-15-2-16"/>
+						<token content=",000" content_fix=",000" id="04-15-2-15"/>
+						<token content="," content_fix="," id="04-15-2-16"/>
 						<token content="per" content_fix="per" id="04-15-2-17"/>
 						<token content="year" content_fix="year" id="04-15-2-18"/>
 						<token content="more" content_fix="more" id="04-15-2-19"/>
@@ -5696,8 +5701,8 @@
 						<token content="about" content_fix="about" id="04-15-2-31"/>
 						<token content="$" content_fix="$" id="04-15-2-32"/>
 						<token content="10" content_fix="10" id="04-15-2-33"/>
-						<token content="," content_fix="," id="04-15-2-34"/>
-						<token content="000" content_fix="000" id="04-15-2-35"/>
+						<token content=",000" content_fix=",000" id="04-15-2-34"/>
+						<token content="," content_fix="," id="04-15-2-35"/>
 						<token content="per" content_fix="per" id="04-15-2-36"/>
 						<token content="year" content_fix="year" id="04-15-2-37"/>
 						<token content="more" content_fix="more" id="04-15-2-38"/>
@@ -5721,8 +5726,8 @@
 						<token content="about" content_fix="about" id="04-15-3-9"/>
 						<token content="$" content_fix="$" id="04-15-3-10"/>
 						<token content="35" content_fix="35" id="04-15-3-11"/>
-						<token content="," content_fix="," id="04-15-3-12"/>
-						<token content="000" content_fix="000" id="04-15-3-13"/>
+						<token content=",000" content_fix=",000" id="04-15-3-12"/>
+						<token content="," content_fix="," id="04-15-3-13"/>
 						<token content="per" content_fix="per" id="04-15-3-14"/>
 						<token content="year" content_fix="year" id="04-15-3-15"/>
 						<token content="." content_fix="." id="04-15-3-16"/>
@@ -5852,29 +5857,29 @@
 						<token content="earn" content_fix="earn" id="04-17-1-23"/>
 						<token content="over" content_fix="over" id="04-17-1-24"/>
 						<token content="60" content_fix="60" id="04-17-1-25"/>
-						<token content="," content_fix="," id="04-17-1-26"/>
-						<token content="000" content_fix="000" id="04-17-1-27"/>
+						<token content=",000" content_fix=",000" id="04-17-1-26"/>
+						<token content="," content_fix="," id="04-17-1-27"/>
 						<token content="," content_fix="," id="04-17-1-28"/>
 						<token content="followed" content_fix="followed" id="04-17-1-29"/>
 						<token content="by" content_fix="by" id="04-17-1-30"/>
 						<token content="masters" content_fix="masters" id="04-17-1-31"/>
 						<token content="with" content_fix="with" id="04-17-1-32"/>
 						<token content="50" content_fix="50" id="04-17-1-33"/>
-						<token content="," content_fix="," id="04-17-1-34"/>
-						<token content="000" content_fix="000" id="04-17-1-35"/>
+						<token content=",000" content_fix=",000" id="04-17-1-34"/>
+						<token content="," content_fix="," id="04-17-1-35"/>
 						<token content="\\n" content_fix="\\n" id="04-17-1-36"/>
 						<token content="bachelors" content_fix="bachelors" id="04-17-1-37"/>
 						<token content="with" content_fix="with" id="04-17-1-38"/>
 						<token content="over" content_fix="over" id="04-17-1-39"/>
 						<token content="40" content_fix="40" id="04-17-1-40"/>
-						<token content="," content_fix="," id="04-17-1-41"/>
-						<token content="000" content_fix="000" id="04-17-1-42"/>
+						<token content=",000" content_fix=",000" id="04-17-1-41"/>
+						<token content="," content_fix="," id="04-17-1-42"/>
 						<token content="and" content_fix="and" id="04-17-1-43"/>
 						<token content="no" content_fix="no" id="04-17-1-44"/>
 						<token content="degree" content_fix="degree" id="04-17-1-45"/>
 						<token content="30" content_fix="30" id="04-17-1-46"/>
-						<token content="," content_fix="," id="04-17-1-47"/>
-						<token content="000" content_fix="000" id="04-17-1-48"/>
+						<token content=",000" content_fix=",000" id="04-17-1-47"/>
+						<token content="," content_fix="," id="04-17-1-48"/>
 						<token content="." content_fix="." id="04-17-1-49"/>
 					</sentence>
 					<sentence id="04-17-2">
@@ -5983,22 +5988,22 @@
 						<token content="most" content_fix="most" id="04-19-2-7"/>
 						<token content="with" content_fix="with" id="04-19-2-8"/>
 						<token content="64" content_fix="64" id="04-19-2-9"/>
-						<token content="," content_fix="," id="04-19-2-10"/>
-						<token content="000" content_fix="000" id="04-19-2-11"/>
+						<token content=",000" content_fix=",000" id="04-19-2-10"/>
+						<token content="," content_fix="," id="04-19-2-11"/>
 						<token content="," content_fix="," id="04-19-2-12"/>
 						<token content="then" content_fix="then" id="04-19-2-13"/>
 						<token content="Masters" content_fix="Masters" id="04-19-2-14"/>
 						<token content="at" content_fix="at" id="04-19-2-15"/>
 						<token content="54" content_fix="54" id="04-19-2-16"/>
-						<token content="," content_fix="," id="04-19-2-17"/>
-						<token content="000" content_fix="000" id="04-19-2-18"/>
+						<token content=",000" content_fix=",000" id="04-19-2-17"/>
+						<token content="," content_fix="," id="04-19-2-18"/>
 						<token content="," content_fix="," id="04-19-2-19"/>
 						<token content="then" content_fix="then" id="04-19-2-20"/>
 						<token content="Bachelor" content_fix="Bachelor" id="04-19-2-21"/>
 						<token content="at" content_fix="at" id="04-19-2-22"/>
 						<token content="44" content_fix="44" id="04-19-2-23"/>
-						<token content="," content_fix="," id="04-19-2-24"/>
-						<token content="000" content_fix="000" id="04-19-2-25"/>
+						<token content=",000" content_fix=",000" id="04-19-2-24"/>
+						<token content="," content_fix="," id="04-19-2-25"/>
 						<token content="and" content_fix="and" id="04-19-2-26"/>
 						<token content="those" content_fix="those" id="04-19-2-27"/>
 						<token content="in" content_fix="in" id="04-19-2-28"/>
@@ -6009,8 +6014,8 @@
 						<token content="degree" content_fix="degree" id="04-19-2-33"/>
 						<token content="earn" content_fix="earn" id="04-19-2-34"/>
 						<token content="34" content_fix="34" id="04-19-2-35"/>
-						<token content="," content_fix="," id="04-19-2-36"/>
-						<token content="000" content_fix="000" id="04-19-2-37"/>
+						<token content=",000" content_fix=",000" id="04-19-2-36"/>
+						<token content="," content_fix="," id="04-19-2-37"/>
 						<token content="." content_fix="." id="04-19-2-38"/>
 					</sentence>
 					<sentence id="04-19-3">
@@ -6099,18 +6104,16 @@
 						<token content="." content_fix="." id="04-20-2-16"/>
 					</sentence>
 					<sentence id="04-20-3">
-						<token content="Non" content_fix="Non" id="04-20-3-1"/>
-						<token content="-" content_fix="-" id="04-20-3-2"/>
-						<token content="degree" content_fix="degree" id="04-20-3-3"/>
-						<token content="holders" content_fix="holders" id="04-20-3-4"/>
-						<token content="earn" content_fix="earn" id="04-20-3-5"/>
-						<token content="about" content_fix="about" id="04-20-3-6"/>
-						<token content="half" content_fix="half" id="04-20-3-7"/>
-						<token content="what" content_fix="what" id="04-20-3-8"/>
-						<token content="PhD" content_fix="PhD" id="04-20-3-9"/>
-						<token content="holders" content_fix="holders" id="04-20-3-10"/>
-						<token content="do" content_fix="do" id="04-20-3-11"/>
-						<token content="." content_fix="." id="04-20-3-12"/>
+						<token content="Non-degree" content_fix="Non-degree" id="04-20-3-1"/>
+						<token content="holders" content_fix="holders" id="04-20-3-2"/>
+						<token content="earn" content_fix="earn" id="04-20-3-3"/>
+						<token content="about" content_fix="about" id="04-20-3-4"/>
+						<token content="half" content_fix="half" id="04-20-3-5"/>
+						<token content="what" content_fix="what" id="04-20-3-6"/>
+						<token content="PhD" content_fix="PhD" id="04-20-3-7"/>
+						<token content="holders" content_fix="holders" id="04-20-3-8"/>
+						<token content="do" content_fix="do" id="04-20-3-9"/>
+						<token content="." content_fix="." id="04-20-3-10"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -6194,32 +6197,28 @@
 						<token content="000" content_fix="000" id="04-22-2-3"/>
 						<token content="for" content_fix="for" id="04-22-2-4"/>
 						<token content="a" content_fix="a" id="04-22-2-5"/>
-						<token content="BA" content_fix="BA" id="04-22-2-6"/>
-						<token content="/" content_fix="/" id="04-22-2-7"/>
-						<token content="Bsc" content_fix="Bsc" id="04-22-2-8"/>
-						<token content="\\n" content_fix="\\n" id="04-22-2-9"/>
-						<token content="$" content_fix="$" id="04-22-2-10"/>
-						<token content="55" content_fix="55" id="04-22-2-11"/>
-						<token content="000" content_fix="000" id="04-22-2-12"/>
-						<token content="for" content_fix="for" id="04-22-2-13"/>
-						<token content="a" content_fix="a" id="04-22-2-14"/>
-						<token content="MA" content_fix="MA" id="04-22-2-15"/>
-						<token content="/" content_fix="/" id="04-22-2-16"/>
-						<token content="Msc" content_fix="Msc" id="04-22-2-17"/>
-						<token content="\\n" content_fix="\\n" id="04-22-2-18"/>
-						<token content="$" content_fix="$" id="04-22-2-19"/>
-						<token content="65" content_fix="65" id="04-22-2-20"/>
-						<token content="000" content_fix="000" id="04-22-2-21"/>
-						<token content="for" content_fix="for" id="04-22-2-22"/>
-						<token content="a" content_fix="a" id="04-22-2-23"/>
-						<token content="PhD" content_fix="PhD" id="04-22-2-24"/>
-						<token content="\\n" content_fix="\\n" id="04-22-2-25"/>
-						<token content="$" content_fix="$" id="04-22-2-26"/>
-						<token content="35" content_fix="35" id="04-22-2-27"/>
-						<token content="000" content_fix="000" id="04-22-2-28"/>
-						<token content="for" content_fix="for" id="04-22-2-29"/>
-						<token content="No" content_fix="No" id="04-22-2-30"/>
-						<token content="degree" content_fix="degree" id="04-22-2-31"/>
+						<token content="BA/Bsc" content_fix="BA/Bsc" id="04-22-2-6"/>
+						<token content="\\n" content_fix="\\n" id="04-22-2-7"/>
+						<token content="$" content_fix="$" id="04-22-2-8"/>
+						<token content="55" content_fix="55" id="04-22-2-9"/>
+						<token content="000" content_fix="000" id="04-22-2-10"/>
+						<token content="for" content_fix="for" id="04-22-2-11"/>
+						<token content="a" content_fix="a" id="04-22-2-12"/>
+						<token content="MA/Msc" content_fix="MA/Msc" id="04-22-2-13"/>
+						<token content="\\n" content_fix="\\n" id="04-22-2-14"/>
+						<token content="$" content_fix="$" id="04-22-2-15"/>
+						<token content="65" content_fix="65" id="04-22-2-16"/>
+						<token content="000" content_fix="000" id="04-22-2-17"/>
+						<token content="for" content_fix="for" id="04-22-2-18"/>
+						<token content="a" content_fix="a" id="04-22-2-19"/>
+						<token content="PhD" content_fix="PhD" id="04-22-2-20"/>
+						<token content="\\n" content_fix="\\n" id="04-22-2-21"/>
+						<token content="$" content_fix="$" id="04-22-2-22"/>
+						<token content="35" content_fix="35" id="04-22-2-23"/>
+						<token content="000" content_fix="000" id="04-22-2-24"/>
+						<token content="for" content_fix="for" id="04-22-2-25"/>
+						<token content="No" content_fix="No" id="04-22-2-26"/>
+						<token content="degree" content_fix="degree" id="04-22-2-27"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -6619,9 +6618,8 @@
 						<token content="over" content_fix="over" id="05-05-2-13"/>
 						<token content="£" content_fix="$" id="05-05-2-14"/>
 						<token content="300" content_fix="300" id="05-05-2-15"/>
-						<token content="," content_fix="," id="05-05-2-16"/>
-						<token content="000,000" content_fix="000,000" id="05-05-2-17"/>
-						<token content="." content_fix="." id="05-05-2-18"/>
+						<token content=",000,000" content_fix=",000,000" id="05-05-2-16"/>
+						<token content="." content_fix="." id="05-05-2-17"/>
 					</sentence>
 					<sentence id="05-05-3">
 						<token content="The" content_fix="The" id="05-05-3-1"/>
@@ -6632,9 +6630,8 @@
 						<token content="America" content_fix="America" id="05-05-3-6"/>
 						<token content="was" content_fix="was" id="05-05-3-7"/>
 						<token content="200" content_fix="200" id="05-05-3-8"/>
-						<token content="," content_fix="," id="05-05-3-9"/>
-						<token content="000,000" content_fix="000,000" id="05-05-3-10"/>
-						<token content="." content_fix="." id="05-05-3-11"/>
+						<token content=",000,000" content_fix=",000,000" id="05-05-3-9"/>
+						<token content="." content_fix="." id="05-05-3-10"/>
 					</sentence>
 					<sentence id="05-05-4">
 						<token content="In" content_fix="In" id="05-05-4-1"/>
@@ -6645,19 +6642,17 @@
 						<token content="was" content_fix="was" id="05-05-4-6"/>
 						<token content="£" content_fix="$" id="05-05-4-7"/>
 						<token content="100" content_fix="100" id="05-05-4-8"/>
-						<token content="," content_fix="," id="05-05-4-9"/>
-						<token content="000,000" content_fix="000,000" id="05-05-4-10"/>
-						<token content="and" content_fix="and" id="05-05-4-11"/>
-						<token content="finally" content_fix="finally" id="05-05-4-12"/>
-						<token content="Africa" content_fix="Africa" id="05-05-4-13"/>
-						<token content="came" content_fix="came" id="05-05-4-14"/>
-						<token content="in" content_fix="in" id="05-05-4-15"/>
-						<token content="at" content_fix="at" id="05-05-4-16"/>
-						<token content="£" content_fix="$" id="05-05-4-17"/>
-						<token content="50" content_fix="50" id="05-05-4-18"/>
-						<token content="," content_fix="," id="05-05-4-19"/>
-						<token content="000,000" content_fix="000,000" id="05-05-4-20"/>
-						<token content="." content_fix="." id="05-05-4-21"/>
+						<token content=",000,000" content_fix=",000,000" id="05-05-4-9"/>
+						<token content="and" content_fix="and" id="05-05-4-10"/>
+						<token content="finally" content_fix="finally" id="05-05-4-11"/>
+						<token content="Africa" content_fix="Africa" id="05-05-4-12"/>
+						<token content="came" content_fix="came" id="05-05-4-13"/>
+						<token content="in" content_fix="in" id="05-05-4-14"/>
+						<token content="at" content_fix="at" id="05-05-4-15"/>
+						<token content="£" content_fix="$" id="05-05-4-16"/>
+						<token content="50" content_fix="50" id="05-05-4-17"/>
+						<token content=",000,000" content_fix=",000,000" id="05-05-4-18"/>
+						<token content="." content_fix="." id="05-05-4-19"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -6671,19 +6666,19 @@
 					<label from="05-05-2-14" id="05-05-6" name="y_axis_inferred_label" text="$" to="05-05-2-14" type="event"/>
 					<label from="05-05-2-15" id="05-05-7" name="y_axis_inferred_highest_value_approx" text="300" to="05-05-2-15" type="event"/>
 					<label from="05-05-2-16" id="05-05-8" name="y_magnitude" text=",000,000" to="05-05-2-16" type="event"/>
-					<label from="05-05-3-1" id="05-05-9" name="y_axis" text="amount" to="05-05-3-1" type="event"/>
-					<label from="05-05-3-4" id="05-05-10" name="x_axis_label_Scnd_highest_value" text="North America" to="05-05-3-5" type="event"/>
-					<label from="05-05-3-7" id="05-05-11" name="y_axis_Scnd_highest_val" text="200" to="05-05-3-7" type="event"/>
-					<label from="05-05-3-8" id="05-05-12" name="y_magnitude" text=",000,000" to="05-05-3-8" type="event"/>
-					<label from="05-05-3-11" id="05-05-13" name="x_axis_label_3rd_highest_value" text="Europe" to="05-05-3-11" type="event"/>
-					<label from="05-05-4-5" id="05-05-14" name="y_axis_inferred_label" text="$" to="05-05-4-5" type="event"/>
-					<label from="05-05-4-6" id="05-05-15" name="y_axis_3rd_highest_val" text="100" to="05-05-4-6" type="event"/>
-					<label from="05-05-4-7" id="05-05-16" name="y_magnitude" text=",000,000" to="05-05-4-7" type="event"/>
-					<label from="05-05-4-9" id="05-05-17" name="final_label_left" text="finally" to="05-05-4-9" type="event"/>
-					<label from="05-05-4-10" id="05-05-18" name="x_axis_label_least_value" text="Africa" to="05-05-4-10" type="event"/>
-					<label from="05-05-4-14" id="05-05-19" name="y_axis_inferred_label" text="$" to="05-05-4-14" type="event"/>
-					<label from="05-05-4-15" id="05-05-20" name="y_axis_least_value_val" text="50" to="05-05-4-15" type="event"/>
-					<label from="05-05-4-16" id="05-05-21" name="y_magnitude" text=",000,000" to="05-05-4-16" type="event"/>
+					<label from="05-05-3-2" id="05-05-9" name="y_axis" text="amount" to="05-05-3-2" type="event"/>
+					<label from="05-05-3-5" id="05-05-10" name="x_axis_label_Scnd_highest_value" text="North America" to="05-05-3-6" type="event"/>
+					<label from="05-05-3-8" id="05-05-11" name="y_axis_Scnd_highest_val" text="200" to="05-05-3-8" type="event"/>
+					<label from="05-05-3-9" id="05-05-12" name="y_magnitude" text=",000,000" to="05-05-3-9" type="event"/>
+					<label from="05-05-4-2" id="05-05-13" name="x_axis_label_3rd_highest_value" text="Europe" to="05-05-4-2" type="event"/>
+					<label from="05-05-4-7" id="05-05-14" name="y_axis_inferred_label" text="$" to="05-05-4-7" type="event"/>
+					<label from="05-05-4-8" id="05-05-15" name="y_axis_3rd_highest_val" text="100" to="05-05-4-8" type="event"/>
+					<label from="05-05-4-9" id="05-05-16" name="y_magnitude" text=",000,000" to="05-05-4-9" type="event"/>
+					<label from="05-05-4-11" id="05-05-17" name="final_label_left" text="finally" to="05-05-4-11" type="event"/>
+					<label from="05-05-4-12" id="05-05-18" name="x_axis_label_least_value" text="Africa" to="05-05-4-12" type="event"/>
+					<label from="05-05-4-16" id="05-05-19" name="y_axis_inferred_label" text="$" to="05-05-4-16" type="event"/>
+					<label from="05-05-4-17" id="05-05-20" name="y_axis_least_value_val" text="50" to="05-05-4-17" type="event"/>
+					<label from="05-05-4-18" id="05-05-21" name="y_magnitude" text=",000,000" to="05-05-4-18" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -6724,17 +6719,15 @@
 						<token content="of" content_fix="of" id="05-06-2-6"/>
 						<token content="$" content_fix="$" id="05-06-2-7"/>
 						<token content="50" content_fix="50" id="05-06-2-8"/>
-						<token content="," content_fix="," id="05-06-2-9"/>
-						<token content="000,000" content_fix="000,000" id="05-06-2-10"/>
-						<token content="compared" content_fix="compared" id="05-06-2-11"/>
-						<token content="to" content_fix="to" id="05-06-2-12"/>
-						<token content="Asia" content_fix="Asia" id="05-06-2-13"/>
-						<token content="spending" content_fix="spending" id="05-06-2-14"/>
-						<token content="over" content_fix="over" id="05-06-2-15"/>
-						<token content="$" content_fix="$" id="05-06-2-16"/>
-						<token content="300" content_fix="300" id="05-06-2-17"/>
-						<token content="," content_fix="," id="05-06-2-18"/>
-						<token content="000,000" content_fix="000,000" id="05-06-2-19"/>
+						<token content=",000,000" content_fix=",000,000" id="05-06-2-9"/>
+						<token content="compared" content_fix="compared" id="05-06-2-10"/>
+						<token content="to" content_fix="to" id="05-06-2-11"/>
+						<token content="Asia" content_fix="Asia" id="05-06-2-12"/>
+						<token content="spending" content_fix="spending" id="05-06-2-13"/>
+						<token content="over" content_fix="over" id="05-06-2-14"/>
+						<token content="$" content_fix="$" id="05-06-2-15"/>
+						<token content="300" content_fix="300" id="05-06-2-16"/>
+						<token content=",000,000" content_fix=",000,000" id="05-06-2-17"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -7586,24 +7579,21 @@
 						<token content="america" content_fix="america" id="05-17-1-27"/>
 						<token content="was" content_fix="was" id="05-17-1-28"/>
 						<token content="200" content_fix="200" id="05-17-1-29"/>
-						<token content="," content_fix="," id="05-17-1-30"/>
-						<token content="000,000" content_fix="000,000" id="05-17-1-31"/>
-						<token content="dollars" content_fix="dollars" id="05-17-1-32"/>
-						<token content="," content_fix="," id="05-17-1-33"/>
-						<token content="the" content_fix="the" id="05-17-1-34"/>
-						<token content="UK" content_fix="UK" id="05-17-1-35"/>
-						<token content="with" content_fix="with" id="05-17-1-36"/>
-						<token content="100" content_fix="100" id="05-17-1-37"/>
-						<token content="," content_fix="," id="05-17-1-38"/>
-						<token content="000,000" content_fix="000,000" id="05-17-1-39"/>
-						<token content="and" content_fix="and" id="05-17-1-40"/>
-						<token content="africa" content_fix="africa" id="05-17-1-41"/>
-						<token content="with" content_fix="with" id="05-17-1-42"/>
-						<token content="50" content_fix="50" id="05-17-1-43"/>
-						<token content="," content_fix="," id="05-17-1-44"/>
-						<token content="000,000" content_fix="000,000" id="05-17-1-45"/>
-						<token content="dollars" content_fix="dollars" id="05-17-1-46"/>
-						<token content="." content_fix="." id="05-17-1-47"/>
+						<token content=",000,000" content_fix=",000,000" id="05-17-1-30"/>
+						<token content="dollars" content_fix="dollars" id="05-17-1-31"/>
+						<token content="," content_fix="," id="05-17-1-32"/>
+						<token content="the" content_fix="the" id="05-17-1-33"/>
+						<token content="UK" content_fix="UK" id="05-17-1-34"/>
+						<token content="with" content_fix="with" id="05-17-1-35"/>
+						<token content="100" content_fix="100" id="05-17-1-36"/>
+						<token content=",000,000" content_fix=",000,000" id="05-17-1-37"/>
+						<token content="and" content_fix="and" id="05-17-1-38"/>
+						<token content="africa" content_fix="africa" id="05-17-1-39"/>
+						<token content="with" content_fix="with" id="05-17-1-40"/>
+						<token content="50" content_fix="50" id="05-17-1-41"/>
+						<token content=",000,000" content_fix=",000,000" id="05-17-1-42"/>
+						<token content="dollars" content_fix="dollars" id="05-17-1-43"/>
+						<token content="." content_fix="." id="05-17-1-44"/>
 					</sentence>
 					<sentence id="05-17-2">
 						<token content="giving" content_fix="giving" id="05-17-2-1"/>
@@ -7649,7 +7639,7 @@
 					<label from="05-17-1-41" id="05-17-18" name="y_axis_least_value_val" text="50" to="05-17-1-41" type="event"/>
 					<label from="05-17-1-42" id="05-17-19" name="y_magnitude" text=",000,000" to="05-17-1-42" type="event"/>
 					<label from="05-17-1-43" id="05-17-20" name="y_axis_inferred_label" text="dollars" to="05-17-1-43" type="event"/>
-					<label from="05-17-2--2" id="05-17-21" name="interpretation" text="giving the idea that money spent on higher education is reflective on the GDP of the country" to="05-17-2-14" type="event"/>
+					<label from="05-17-2-1" id="05-17-21" name="interpretation" text="giving the idea that money spent on higher education is reflective on the GDP of the country" to="05-17-2-17" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -10549,26 +10539,24 @@
 						<token content="of" content_fix="of" id="07-13-1-4"/>
 						<token content="obesity" content_fix="obesity" id="07-13-1-5"/>
 						<token content="is" content_fix="is" id="07-13-1-6"/>
-						<token content="over" content_fix="over" id="07-13-1-7"/>
-						<token content="-" content_fix="-" id="07-13-1-8"/>
-						<token content="consumption" content_fix="consumption" id="07-13-1-9"/>
-						<token content="of" content_fix="of" id="07-13-1-10"/>
-						<token content="fast" content_fix="fast" id="07-13-1-11"/>
-						<token content="food" content_fix="food" id="07-13-1-12"/>
-						<token content="with" content_fix="with" id="07-13-1-13"/>
-						<token content="60" content_fix="60" id="07-13-1-14"/>
-						<token content="%" content_fix="%" id="07-13-1-15"/>
-						<token content="of" content_fix="of" id="07-13-1-16"/>
-						<token content="obesity" content_fix="obesity" id="07-13-1-17"/>
-						<token content="cases" content_fix="cases" id="07-13-1-18"/>
-						<token content="being" content_fix="being" id="07-13-1-19"/>
-						<token content="related" content_fix="related" id="07-13-1-20"/>
-						<token content="to" content_fix="to" id="07-13-1-21"/>
-						<token content="this" content_fix="this" id="07-13-1-22"/>
-						<token content="type" content_fix="type" id="07-13-1-23"/>
-						<token content="of" content_fix="of" id="07-13-1-24"/>
-						<token content="diet" content_fix="diet" id="07-13-1-25"/>
-						<token content="." content_fix="." id="07-13-1-26"/>
+						<token content="over-consumption" content_fix="over-consumption" id="07-13-1-7"/>
+						<token content="of" content_fix="of" id="07-13-1-8"/>
+						<token content="fast" content_fix="fast" id="07-13-1-9"/>
+						<token content="food" content_fix="food" id="07-13-1-10"/>
+						<token content="with" content_fix="with" id="07-13-1-11"/>
+						<token content="60" content_fix="60" id="07-13-1-12"/>
+						<token content="%" content_fix="%" id="07-13-1-13"/>
+						<token content="of" content_fix="of" id="07-13-1-14"/>
+						<token content="obesity" content_fix="obesity" id="07-13-1-15"/>
+						<token content="cases" content_fix="cases" id="07-13-1-16"/>
+						<token content="being" content_fix="being" id="07-13-1-17"/>
+						<token content="related" content_fix="related" id="07-13-1-18"/>
+						<token content="to" content_fix="to" id="07-13-1-19"/>
+						<token content="this" content_fix="this" id="07-13-1-20"/>
+						<token content="type" content_fix="type" id="07-13-1-21"/>
+						<token content="of" content_fix="of" id="07-13-1-22"/>
+						<token content="diet" content_fix="diet" id="07-13-1-23"/>
+						<token content="." content_fix="." id="07-13-1-24"/>
 					</sentence>
 					<sentence id="07-13-2">
 						<token content="Genetics" content_fix="Genetics" id="07-13-2-1"/>
@@ -10609,14 +10597,14 @@
 					<label from="07-13-1-12" id="07-13-5" name="y_axis_highest_value_val" text="60" to="07-13-1-12" type="event"/>
 					<label from="07-13-1-13" id="07-13-6" name="y_axis" text="%" to="07-13-1-13" type="event"/>
 					<label from="07-13-1-15" id="07-13-7" name="topic_related_object" text="obesity" to="07-13-1-15" type="event"/>
-					<label from="07-13-1-25" id="07-13-8" name="x_axis_label_Scnd_highest_value" text="Genetics" to="07-13-1-25" type="event"/>
-					<label from="07-13-2-3" id="07-13-9" name="y_axis_trend" text="significant" to="07-13-2-3" type="event"/>
-					<label from="07-13-2-8" id="07-13-10" name="y_axis_Scnd_highest_val" text="30" to="07-13-2-8" type="event"/>
-					<label from="07-13-2-9" id="07-13-11" name="y_axis" text="%" to="07-13-2-9" type="event"/>
-					<label from="07-13-3--1" id="07-13-12" name="x_axis_label_least_value" text="Lack of exercise" to="07-13-3-1" type="event"/>
-					<label from="07-13-3-5" id="07-13-13" name="y_axis_least_value" text="just" to="07-13-3-5" type="event"/>
-					<label from="07-13-3-6" id="07-13-14" name="y_axis_least_value_val" text="10" to="07-13-3-6" type="event"/>
-					<label from="07-13-3-7" id="07-13-15" name="y_axis" text="%" to="07-13-3-7" type="event"/>
+					<label from="07-13-2-1" id="07-13-8" name="x_axis_label_Scnd_highest_value" text="Genetics" to="07-13-2-1" type="event"/>
+					<label from="07-13-2-5" id="07-13-9" name="y_axis_trend" text="significant" to="07-13-2-5" type="event"/>
+					<label from="07-13-2-10" id="07-13-10" name="y_axis_Scnd_highest_val" text="30" to="07-13-2-10" type="event"/>
+					<label from="07-13-2-11" id="07-13-11" name="y_axis" text="%" to="07-13-2-11" type="event"/>
+					<label from="07-13-3-1" id="07-13-12" name="x_axis_label_least_value" text="Lack of exercise" to="07-13-3-3" type="event"/>
+					<label from="07-13-3-7" id="07-13-13" name="y_axis_least_value" text="just" to="07-13-3-7" type="event"/>
+					<label from="07-13-3-8" id="07-13-14" name="y_axis_least_value_val" text="10" to="07-13-3-8" type="event"/>
+					<label from="07-13-3-9" id="07-13-15" name="y_axis" text="%" to="07-13-3-9" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -13611,17 +13599,15 @@
 						<token content="but" content_fix="but" id="09-13-1-11"/>
 						<token content="are" content_fix="are" id="09-13-1-12"/>
 						<token content="significantly" content_fix="significantly" id="09-13-1-13"/>
-						<token content="under" content_fix="under" id="09-13-1-14"/>
-						<token content="-" content_fix="-" id="09-13-1-15"/>
-						<token content="represented" content_fix="represented" id="09-13-1-16"/>
-						<token content="in" content_fix="in" id="09-13-1-17"/>
-						<token content="Computer" content_fix="Computer" id="09-13-1-18"/>
-						<token content="Science" content_fix="Science" id="09-13-1-19"/>
-						<token content="," content_fix="," id="09-13-1-20"/>
-						<token content="Maths" content_fix="Maths" id="09-13-1-21"/>
-						<token content="and" content_fix="and" id="09-13-1-22"/>
-						<token content="Engineering" content_fix="Engineering" id="09-13-1-23"/>
-						<token content="." content_fix="." id="09-13-1-24"/>
+						<token content="under-represented" content_fix="under-represented" id="09-13-1-14"/>
+						<token content="in" content_fix="in" id="09-13-1-15"/>
+						<token content="Computer" content_fix="Computer" id="09-13-1-16"/>
+						<token content="Science" content_fix="Science" id="09-13-1-17"/>
+						<token content="," content_fix="," id="09-13-1-18"/>
+						<token content="Maths" content_fix="Maths" id="09-13-1-19"/>
+						<token content="and" content_fix="and" id="09-13-1-20"/>
+						<token content="Engineering" content_fix="Engineering" id="09-13-1-21"/>
+						<token content="." content_fix="." id="09-13-1-22"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -14604,16 +14590,14 @@
 						<token content="is" content_fix="is" id="10-04-2-2"/>
 						<token content="just" content_fix="just" id="10-04-2-3"/>
 						<token content="over" content_fix="over" id="10-04-2-4"/>
-						<token content="one" content_fix="one" id="10-04-2-5"/>
-						<token content="-" content_fix="-" id="10-04-2-6"/>
-						<token content="third" content_fix="third" id="10-04-2-7"/>
-						<token content="of" content_fix="of" id="10-04-2-8"/>
-						<token content="those" content_fix="those" id="10-04-2-9"/>
-						<token content="working" content_fix="working" id="10-04-2-10"/>
-						<token content="in" content_fix="in" id="10-04-2-11"/>
-						<token content="the" content_fix="the" id="10-04-2-12"/>
-						<token content="Law" content_fix="Law" id="10-04-2-13"/>
-						<token content="." content_fix="." id="10-04-2-14"/>
+						<token content="one-third" content_fix="one-third" id="10-04-2-5"/>
+						<token content="of" content_fix="of" id="10-04-2-6"/>
+						<token content="those" content_fix="those" id="10-04-2-7"/>
+						<token content="working" content_fix="working" id="10-04-2-8"/>
+						<token content="in" content_fix="in" id="10-04-2-9"/>
+						<token content="the" content_fix="the" id="10-04-2-10"/>
+						<token content="Law" content_fix="Law" id="10-04-2-11"/>
+						<token content="." content_fix="." id="10-04-2-12"/>
 					</sentence>
 					<sentence id="10-04-3">
 						<token content="Technical" content_fix="Technical" id="10-04-3-1"/>
@@ -14631,14 +14615,12 @@
 						<token content="in" content_fix="in" id="10-04-3-13"/>
 						<token content="Finance" content_fix="Finance" id="10-04-3-14"/>
 						<token content="and" content_fix="and" id="10-04-3-15"/>
-						<token content="one" content_fix="one" id="10-04-3-16"/>
-						<token content="-" content_fix="-" id="10-04-3-17"/>
-						<token content="third" content_fix="third" id="10-04-3-18"/>
-						<token content="of" content_fix="of" id="10-04-3-19"/>
-						<token content="those" content_fix="those" id="10-04-3-20"/>
-						<token content="in" content_fix="in" id="10-04-3-21"/>
-						<token content="Law" content_fix="Law" id="10-04-3-22"/>
-						<token content="." content_fix="." id="10-04-3-23"/>
+						<token content="one-third" content_fix="one-third" id="10-04-3-16"/>
+						<token content="of" content_fix="of" id="10-04-3-17"/>
+						<token content="those" content_fix="those" id="10-04-3-18"/>
+						<token content="in" content_fix="in" id="10-04-3-19"/>
+						<token content="Law" content_fix="Law" id="10-04-3-20"/>
+						<token content="." content_fix="." id="10-04-3-21"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -14657,13 +14639,13 @@
 					<label from="10-04-2-4" id="10-04-11" name="y_axis_trend_up" text="over" to="10-04-2-4" type="event"/>
 					<label from="10-04-2-5" id="10-04-12" name="y_axis_inferred_value_mul_v1=3rd_v2=highest" text="one-third" to="10-04-2-5" type="event"/>
 					<label from="10-04-2-11" id="10-04-13" name="x_axis_label_highest_value" text="Law" to="10-04-2-11" type="event"/>
-					<label from="10-04-2-13" id="10-04-14" name="x_axis_label_least_value" text="Technical firms" to="10-04-2-14" type="event"/>
-					<label from="10-04-3-2" id="10-04-15" name="y_axis_least_value_val" text="20" to="10-04-3-2" type="event"/>
-					<label from="10-04-3-3" id="10-04-16" name="y_axis" text="%" to="10-04-3-3" type="event"/>
-					<label from="10-04-3-7" id="10-04-17" name="y_axis_inferred_value_mul_v1=least_v2=Scnd" text="half" to="10-04-3-7" type="event"/>
-					<label from="10-04-3-12" id="10-04-18" name="x_axis_label_Scnd_highest_value" text="Finance" to="10-04-3-12" type="event"/>
-					<label from="10-04-3-14" id="10-04-19" name="y_axis_inferred_value_mul_v1=least_v2=highest" text="one-third" to="10-04-3-14" type="event"/>
-					<label from="10-04-3-18" id="10-04-20" name="x_axis_label_highest_value" text="Law" to="10-04-3-18" type="event"/>
+					<label from="10-04-3-1" id="10-04-14" name="x_axis_label_least_value" text="Technical firms" to="10-04-3-2" type="event"/>
+					<label from="10-04-3-4" id="10-04-15" name="y_axis_least_value_val" text="20" to="10-04-3-4" type="event"/>
+					<label from="10-04-3-5" id="10-04-16" name="y_axis" text="%" to="10-04-3-5" type="event"/>
+					<label from="10-04-3-9" id="10-04-17" name="y_axis_inferred_value_mul_v1=least_v2=Scnd" text="half" to="10-04-3-9" type="event"/>
+					<label from="10-04-3-14" id="10-04-18" name="x_axis_label_Scnd_highest_value" text="Finance" to="10-04-3-14" type="event"/>
+					<label from="10-04-3-16" id="10-04-19" name="y_axis_inferred_value_mul_v1=least_v2=highest" text="one-third" to="10-04-3-16" type="event"/>
+					<label from="10-04-3-20" id="10-04-20" name="x_axis_label_highest_value" text="Law" to="10-04-3-20" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -15270,23 +15252,19 @@
 						<token content="Women" content_fix="Women" id="10-13-1-1"/>
 						<token content="are" content_fix="are" id="10-13-1-2"/>
 						<token content="moderately" content_fix="moderately" id="10-13-1-3"/>
-						<token content="over" content_fix="over" id="10-13-1-4"/>
-						<token content="-" content_fix="-" id="10-13-1-5"/>
-						<token content="represented" content_fix="represented" id="10-13-1-6"/>
-						<token content="in" content_fix="in" id="10-13-1-7"/>
-						<token content="Law" content_fix="Law" id="10-13-1-8"/>
-						<token content="Firms" content_fix="Firms" id="10-13-1-9"/>
-						<token content="but" content_fix="but" id="10-13-1-10"/>
-						<token content="and" content_fix="and" id="10-13-1-11"/>
-						<token content="significantly" content_fix="significantly" id="10-13-1-12"/>
-						<token content="under" content_fix="under" id="10-13-1-13"/>
-						<token content="-" content_fix="-" id="10-13-1-14"/>
-						<token content="represented" content_fix="represented" id="10-13-1-15"/>
-						<token content="in" content_fix="in" id="10-13-1-16"/>
-						<token content="Tech" content_fix="Tech" id="10-13-1-17"/>
-						<token content="and" content_fix="and" id="10-13-1-18"/>
-						<token content="Insurance" content_fix="Insurance" id="10-13-1-19"/>
-						<token content="." content_fix="." id="10-13-1-20"/>
+						<token content="over-represented" content_fix="over-represented" id="10-13-1-4"/>
+						<token content="in" content_fix="in" id="10-13-1-5"/>
+						<token content="Law" content_fix="Law" id="10-13-1-6"/>
+						<token content="Firms" content_fix="Firms" id="10-13-1-7"/>
+						<token content="but" content_fix="but" id="10-13-1-8"/>
+						<token content="and" content_fix="and" id="10-13-1-9"/>
+						<token content="significantly" content_fix="significantly" id="10-13-1-10"/>
+						<token content="under-represented" content_fix="under-represented" id="10-13-1-11"/>
+						<token content="in" content_fix="in" id="10-13-1-12"/>
+						<token content="Tech" content_fix="Tech" id="10-13-1-13"/>
+						<token content="and" content_fix="and" id="10-13-1-14"/>
+						<token content="Insurance" content_fix="Insurance" id="10-13-1-15"/>
+						<token content="." content_fix="." id="10-13-1-16"/>
 					</sentence>
 				</sentences>
 			</text>
