@@ -252,7 +252,7 @@ years    <x_axis>
 .
 In
 the
-last    <x_diff_first_last_numeric_label>
+last
 15    <x_interval>
 years    <x_axis>
 it

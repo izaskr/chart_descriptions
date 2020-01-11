@@ -2008,13 +2008,12 @@
 					<label from="02-09-1-13" id="02-09-5" name="every" text="every" to="02-09-1-13" type="event"/>
 					<label from="02-09-1-14" id="02-09-6" name="x_interval" text="5" to="02-09-1-14" type="event"/>
 					<label from="02-09-1-15" id="02-09-7" name="x_axis" text="years" to="02-09-1-15" type="event"/>
-					<label from="02-09-2-3" id="02-09-8" name="x_diff_first_last_numeric_label" text="last" to="02-09-2-3" type="event"/>
-					<label from="02-09-2-4" id="02-09-9" name="x_interval" text="15" to="02-09-2-4" type="event"/>
-					<label from="02-09-2-5" id="02-09-10" name="x_axis" text="years" to="02-09-2-5" type="event"/>
-					<label from="02-09-2-8" id="02-09-11" name="slope_up" text="risen" to="02-09-2-8" type="event"/>
-					<label from="02-09-2-9" id="02-09-12" name="y_axis_inferred_value_add_v1=highest_v2=least" text="15" to="02-09-2-9" type="event"/>
-					<label from="02-09-2-10" id="02-09-13" name="y_magnitude" text=",000" to="02-09-2-10" type="event"/>
-					<label from="02-09-2-11" id="02-09-14" name="y_axis_inferred_label" text="dollars" to="02-09-2-11" type="event"/>
+					<label from="02-09-2-4" id="02-09-8" name="x_interval" text="15" to="02-09-2-4" type="event"/>
+					<label from="02-09-2-5" id="02-09-9" name="x_axis" text="years" to="02-09-2-5" type="event"/>
+					<label from="02-09-2-8" id="02-09-10" name="slope_up" text="risen" to="02-09-2-8" type="event"/>
+					<label from="02-09-2-9" id="02-09-11" name="y_axis_inferred_value_add_v1=highest_v2=least" text="15" to="02-09-2-9" type="event"/>
+					<label from="02-09-2-10" id="02-09-12" name="y_magnitude" text=",000" to="02-09-2-10" type="event"/>
+					<label from="02-09-2-11" id="02-09-13" name="y_axis_inferred_label" text="dollars" to="02-09-2-11" type="event"/>
 				</events>
 			</annotations>
 		</story>
