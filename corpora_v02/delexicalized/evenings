@@ -1,0 +1,690 @@
+''
+This
+chart
+shows
+how+young+people+spend+their+evenings	<topic>
+.
+We
+can
+see
+that
+a
+high	<y_axis_highest_value>
+proportion
+XHIGHEST	<x_axis_label_highest_value>
+or
+XSECOND	<x_axis_label_Scnd_highest_value>
+whilst	<x_axis_comparison>
+a
+much
+smaller	<y_axis_least_value>
+proportion
+XTHIRD	<x_axis_label_3rd_highest_value>
+or
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+Most	<y_axis_highest_value>
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+their
+evening	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+doing
+this
+compared	<y_x_comparison>
+with
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+.
+Only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+with
+MULTHIRDLEAST	<y_axis_inferred_value_mul_v1=3rd_v2=least>
+that
+XTHIRD	<x_axis_label_3rd_highest_value>
+.
+<end_of_description>
+Most	<y_axis_highest_value>
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+their
+evenings	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+<end_of_description>
+A
+high	<y_axis_highest_value>
+YLABEL	<y_axis>
+of
+young	<topic_related_property>
+people	<topic_related_property>
+XHIGHEST	<x_axis_label_highest_value>
+(
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+)
+;
+this+figure+presumably+applies+to+pre-internet+days	<interpretation>
+.
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+for
+the
+evening	<topic_related_object>
+.
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+,
+exactly
+MULTHIRDHIGHEST	<y_axis_inferred_value_mul_v1=3rd_v2=highest>
+of
+those
+XHIGHEST	<x_axis_label_highest_value>
+,
+so+they+are+not+watching+TV+with+their+families+in+this+case	<interpretation>
+.
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+This
+graph
+represents
+how+young+people+spend+their+leisure+time+in+the+evenings	<topic>
+.
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+spend
+their
+evenings	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+,
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+,
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+are
+XLEAST	<x_axis_label_least_value>
+whilst	<y_x_comparison_rest>
+30
+YLABEL	<y_axis>
+are
+XSECOND	<x_axis_label_Scnd_highest_value>
+.
+<end_of_description>
+The
+chart
+shows
+that
+the
+majority	<y_axis_highest_value>
+of
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+their
+evenings	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+.
+XLEAST	<x_axis_label_least_value>
+is
+the
+least	<y_axis_least_value>
+popular
+way
+for
+young	<topic_related_property>
+people	<topic_related_property>
+to
+spend
+their
+time
+<end_of_description>
+the
+table
+shows
+that
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+young	<topic_related_property>
+people	<topic_related_property>
+XHIGHEST	<x_axis_label_highest_value>
+in
+the
+evenings	<topic_related_object>
+,
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+,
+and
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+This
+chart
+shows
+how+young+people+spend+their+evenings	<topic>
+by
+YLABEL	<y_axis>
+.
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+XHIGHEST	<x_axis_label_highest_value>
+,
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+.
+The
+rest
+with
+XTHIRD	<x_axis_label_3rd_highest_value>
+(
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+)
+or
+XLEAST	<x_axis_label_least_value>
+(
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+)
+.
+<end_of_description>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+their
+evenings	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+,
+with
+XSECOND	<x_axis_label_Scnd_highest_value>
+close
+behind
+on
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+Only
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+a
+disappointing
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+This
+graphs
+shows
+how
+young+people+spend+their+evenings	<topic>
+.
+It
+highlights
+that
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+people	<topic_related_property>
+spend
+evenings	<topic_related_object>
+XLEAST	<x_axis_label_least_value>
+.
+The
+most	<y_axis_highest_value>
+popular
+option
+is
+XHIGHEST	<x_axis_label_highest_value>
+with
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+people	<topic_related_property>
+spending
+their
+evenings	<topic_related_object>
+doing
+that
+.
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+of
+people	<topic_related_property>
+XSECOND	<x_axis_label_Scnd_highest_value>
+and
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+.
+<end_of_description>
+This
+chart
+demonstrates
+how+young+people+spend+their+evenings	<topic>
+.
+The
+most	<y_axis_highest_value>
+popular
+activity
+is
+XHIGHEST	<x_axis_label_highest_value>
+,
+with
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+young	<topic_related_property>
+people	<topic_related_property>
+doing
+this
+,
+while	<y_x_comparison_rest>
+XSECOND	<x_axis_label_Scnd_highest_value>
+is
+second	<order_Scnd>
+most	<y_axis_highest_value>
+popular
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+XTHIRD	<x_axis_label_3rd_highest_value>
+third	<order_3rd>
+at
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+.
+The
+least	<y_axis_least_value>
+popular
+activity
+is
+XLEAST	<x_axis_label_least_value>
+,
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+The
+chart
+shows
+what+young+people+do+in+the+evenings	<topic>
+.
+The
+largest	<y_axis_highest_value>
+YLABEL	<y_axis>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+XHIGHEST	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+that
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+then	<order_3rd>
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+the
+smallest	<y_axis_least_value>
+group
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+and
+XSECOND	<x_axis_label_Scnd_highest_value>
+are
+the
+most	<y_axis_highest_value>
+popular
+evening	<topic_related_object>
+activities
+for
+young	<topic_related_property>
+people	<topic_related_property>
+.
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+of
+evening+time	<topic_related_object>
+is
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+just	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+time
+is
+spent
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+This
+graph
+shows
+how+young+people+spend+their+evenings	<topic>
+.
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+them
+XHIGHEST	<x_axis_label_highest_value>
+,
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+,
+and
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+This
+shows
+that
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+their
+evenings	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+.
+Just	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+whilst	<y_x_comparison_rest>
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+of
+time
+is
+XTHIRD	<x_axis_label_3rd_highest_value>
+<end_of_description>
+This
+graph
+shows
+how+young+people+spend+their+evenings	<topic>
+.
+The
+highest	<y_axis_highest_value>
+YLABEL	<y_axis>
+is
+spent
+XHIGHEST	<x_axis_label_highest_value>
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+finally	<final_label_left>
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+this
+graph
+shows
+how+young+people+spend+their+evenings	<topic>
+,
+most	<y_axis_highest_value>
+young	<topic_related_property>
+people	<topic_related_property>
+(
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+)
+choose
+XHIGHEST	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+(
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+)
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+(
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+)
+or
+XLEAST	<x_axis_label_least_value>
+(
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+)
+.
+reading+may+be+the+least+popular+as+it+is+considered+a+older+hobby+and+a+more+feminine+hobby	<interpretation>
+.
+<end_of_description>
+Young	<topic_related_property>
+people	<topic_related_property>
+are
+more	<x_axis_comparison>
+likely
+to
+XHIGHEST	<x_axis_label_highest_value>
+and
+XSECOND	<x_axis_label_Scnd_highest_value>
+rather
+than
+XLEAST	<x_axis_label_least_value>
+<end_of_description>
+This
+graph
+shows
+the
+activities+young+people+undertake+in+the+evenings	<topic>
+.
+Most	<y_axis_highest_value>
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+their
+evenings	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+this
+accounts
+for
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+.
+The
+next	<order_Scnd>
+most	<y_axis_highest_value>
+common
+activity
+is
+XSECOND	<x_axis_label_Scnd_highest_value>
+with
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+,
+then	<order_3rd>
+XTHIRD	<x_axis_label_3rd_highest_value>
+at
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+and
+lastly	<final_label_left>
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+young	<topic_related_property>
+people	<topic_related_property>
+XLEAST	<x_axis_label_least_value>
+in
+the
+evening	<topic_related_object>
+.
+The+lack+of+book+reading+is+probably+due+to+more+technology+being+ready+accessible	<interpretation>
+<end_of_description>
+This
+bar
+chart
+shows
+how+young+people+spend+their+evenings	<topic>
+.
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+their
+evenings	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+(
+the+most+common+activity	<interpretation>
+)
+,
+while	<y_x_comparison>
+the
+least	<y_axis_least_value>
+common
+activity
+is
+XLEAST	<x_axis_label_least_value>
+(
+~	<y_axis_approx>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+)
+.
+it+is+unclear+if+young+people+could+say+that+they+do+more+than+one+of+these+things	<interpretation>
+.
+<end_of_description>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+their
+evenings	<topic_related_object>
+XHIGHEST	<x_axis_label_highest_value>
+,
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+prefer
+to
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+choose
+to
+spend
+time
+XLEAST	<x_axis_label_least_value>
+in
+the
+evenings	<topic_related_object>
+<end_of_description>
+The+percentage+of+young+people+who+spend+their+evening+doing+different+activities	<topic>
+.
+\\n	<separator>
+\\n	<separator>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+XHIGHEST	<x_axis_label_highest_value>
+\\n	<separator>
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+\\n	<separator>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+\\n	<separator>
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+is
+how
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+young	<topic_related_property>
+people	<topic_related_property>
+spend
+their
+evenings	<topic_related_object>
+,
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+<end_of_description>

@@ -9,6 +9,8 @@ import argparse
 from itertools import combinations
 import spacy
 from spacy.lang.en import English
+from spacy.tokenizer import Tokenizer
+from spacy.attrs import ORTH, NORM
 from xml.dom.minidom import parseString
 import xml.etree.ElementTree as ET
 
@@ -23,9 +25,17 @@ args = vars(parser.parse_args())
 
 
 nlp_web = spacy.load("en_core_web_sm") # used only for tokenization
+
 nlp = English()  # just the language with no model
+
+#nlp.add_pipe(tokenizer)
 sentencizer = nlp.create_pipe("sentencizer")
 nlp.add_pipe(sentencizer)
+
+# just the tokenizer, rule for ,000 be treated as a single token, not split
+tokenizer = Tokenizer(nlp.vocab)
+case_000 = [{ORTH: ",000"} ]#, {ORTH: "BB", NORM: ", 000"}]
+tokenizer.add_special_case(",000", case_000)
 
 
 version_dir = "corpora_v02/" # Rudy's version
@@ -178,20 +188,6 @@ def get_stat_info(data):
 	return results
 
 
-def is_int(s):
-	try: 
-		int(s)
-		return True
-	except ValueError:
-		return False
-
-def is_float(s): # currently not used, because it returns True for "6" although I'd like a False here
-	try:
-		float(s)
-		return True
-	except ValueError:
-		return False
-
 
 
 
@@ -245,8 +241,12 @@ def collect_parse(annotations, calculated):
 					i_token += 1
 
 					temp = " ".join(line2[:-1])
-					temp_doc = nlp_web(temp)
+					#temp_doc = nlp_web(temp) # old?
+					temp_doc = tokenizer(temp)
 					temp_tokens = [t.text for t in temp_doc]
+					if temp_tokens == [",","000"]: # TOKENIZER EXCEPTION
+
+						temp_tokens = [",000"]
 					temp_join = " ".join(temp_tokens)
 					i_end = i_token + len(temp_tokens) - 1
 					desc_tokens += temp_tokens
@@ -258,10 +258,14 @@ def collect_parse(annotations, calculated):
 
 			if len(line2) == 1 and line2[0] == '"' and previous_line_empty == False:
 				if desc_tokens:
+
 					desc = " ".join(desc_tokens)
-					doc = nlp(desc)
-					#for sent in doc.sents:
+
+					#doc = nlp(desc) # TODO this is where ,000 is split into , and 000 old?
+					doc = tokenizer(desc)
+
 					doc_tokens = [t.text for t in doc]
+
 					#print(desc_tokens,"\n" , "\n", doc_tokens, "\n \n", desc_labels, "\n",desc, "\n", len(desc_tokens), len(doc))
 
 					for_xml[i_desc] = {"desc_tokens":desc_tokens,"doc_tokens":doc_tokens,"desc_labels":desc_labels}
@@ -335,15 +339,19 @@ def make_xml_tree():
 			doc = nlp(" ".join(d1["desc_tokens"]))
 			label_info = d1["desc_labels"]
 	
-			boundaries = []
+			boundaries = [] # list of sentence-final-token indices
 			sentence_lengths = []
 			for sent in doc.sents:
-				i += 1 # sentence index
-				j = 0 # index for tokens within a single sentence
+				i += 1 # sentence index, starting with 1
+				j = 0 # index for tokens within a single sentence, starting with 1
 				add_sent = ET.SubElement(sentences, "sentence")
 				add_sent.set("id", topic_story_id + "-" + str(i))
-				for token in sent:
-					k += 1 # index for tokens within the entire description
+
+				# ADD FIX: the tokenizer inherent to the sentencizer cannot be adapted for ,000
+				tokens = tokenizer(sent.text) # str
+
+				for token in tokens:
+					k += 1 # index for tokens within the entire description, starting with 1
 					j += 1
 					add_token = ET.SubElement(add_sent, "token")
 					add_token.set("content", token.text)
@@ -368,9 +376,13 @@ def make_xml_tree():
 
 			c = 0
 			for i_sent, triplets in label_bound.items():
+			# i_sent is the sentence index: within a description
+			# triplets: a list of tuples (label, start_id, end_id) where id is according to entire desc.
+				
 				if i_sent > 1:
 					prev_boundary = boundaries[i_sent-2]
 				for n,(label, start, end, text_str) in enumerate(triplets):
+
 					c +=1
 					if i_sent == 1:
 						from_value = str(i_sent)+"-"+str(start)
@@ -381,8 +393,10 @@ def make_xml_tree():
 						from_value = str(i_sent)+"-"+str(start2)
 						end2 = end - prev_boundary
 						to_value = str(i_sent)+"-"+str(end2)
-						#print("old start, new start, old end, new end, len prev", start, start2, end, end2, sentence_lengths[i_sent-1])
-			
+
+						
+						if start2 == 0 or start2 == -1:
+							print(i_sent,triplets, prev_boundary, boundaries)
 					add_label = ET.SubElement(events, "label")
 					add_label.set("from", topic_story_id + "-" + from_value)
 					add_label.set("to", topic_story_id + "-" + to_value)
@@ -400,7 +414,7 @@ def make_xml_tree():
 
 
 def save_into_file(xml_populated, name_out):
-	myfile = open(name_out+".xml", "w", encoding="utf-8") # TODO change name given title (arg) and ID
+	myfile = open(name_out+".xml", "w", encoding="utf-8") 
 	myfile.write(s)
 	myfile.close()
 	return None
@@ -417,7 +431,7 @@ if __name__ == "__main__":
 
 	# add s to S
 
-	save_into_file(s, version_dir+"chart_summaries_b01")
+	save_into_file(s, version_dir+"chart_summaries_b01_toktest2")
 
 
 

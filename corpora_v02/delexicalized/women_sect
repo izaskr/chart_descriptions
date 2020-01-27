@@ -1,0 +1,795 @@
+''
+This
+chart
+shows
+the+female+representation+in+various+employment+sectors	<topic>
+.
+We
+can
+see
+that
+XHIGHEST	<x_axis_label_highest_value>
+have
+the
+highest	<y_axis_highest_value>
+female	<topic_related_property>
+representation	<topic_related_property>
+out
+of
+the
+COUNT	<x_axis_labels_count>
+XLABEL	<x_axis>
+and
+XLEAST	<x_axis_label_least_value>
+has
+the
+lowest	<y_axis_least_value>
+.
+<end_of_description>
+The
+chart
+shows
+that
+the
+XLABEL	<x_axis>
+with
+most	<y_axis_highest_value>
+women	<topic_related_property>
+representation	<topic_related_property>
+is
+XHIGHEST	<x_axis_label_highest_value>
+.
+however
+XLEAST	<x_axis_label_least_value>
+is
+the
+least	<y_axis_least_value>
+with
+less	<y_axis_approx>
+than
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+women	<topic_related_property>
+represented
+in
+the
+XLABEL	<x_axis>
+.
+XTHIRD	<x_axis_label_3rd_highest_value>
+has
+only
+a
+YTHIRD	<y_axis_3rd_highest_val>
+of
+women	<topic_related_property>
+representation	<topic_related_property>
+with
+XSECOND	<x_axis_label_Scnd_highest_value>
+a
+little
+over	<y_axis_approx>
+YSECONDAPPROX	<y_axis_inferred_Scnd_highest_value_approx>
+.
+<end_of_description>
+There
+are
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+women	<topic_related_property>
+represented
+in
+XHIGHEST	<x_axis_label_highest_value>
+,
+which
+is
+more
+than
+any+other+sector	<x_axis_labels_rest>
+.
+<end_of_description>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+women	<topic_related_property>
+work
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+in
+the
+XSECOND	<x_axis_label_Scnd_highest_value>
+XLABEL	<x_axis>
+.
+XTHIRD	<x_axis_label_3rd_highest_value>
+is
+just
+over	<y_axis_trend_up>
+MULTHIRDHIGHEST	<y_axis_inferred_value_mul_v1=3rd_v2=highest>
+of
+those
+working
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+.
+XLEAST	<x_axis_label_least_value>
+have
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+,
+which
+is
+MULLEASTSECOND	<y_axis_inferred_value_mul_v1=least_v2=Scnd>
+of
+those
+working
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+and
+MULLEASTHIGHEST	<y_axis_inferred_value_mul_v1=least_v2=highest>
+of
+those
+in
+XHIGHEST	<x_axis_label_highest_value>
+.
+<end_of_description>
+The
+graph
+shows
+how+women+are+represented+across+different+work+sectors	<topic>
+.
+The
+highest	<y_axis_highest_value>
+YLABEL	<y_axis>
+of
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+is
+at
+XHIGHEST	<x_axis_label_highest_value>
+.
+\\n	<separator>
+This
+is
+then
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+XTHIRD	<x_axis_label_3rd_highest_value>
+is
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+and
+then	<final_label_left>
+XLEAST	<x_axis_label_least_value>
+is
+the
+smallest	<y_axis_least_value>
+representation	<topic_related_property>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+The
+chart
+shows
+that
+women	<topic_related_property>
+representation	<topic_related_property>
+is
+highest	<y_axis_highest_value>
+in
+XHIGHEST	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+.
+The
+XLABEL	<x_axis>
+with
+the
+lowest	<y_axis_least_value>
+YUNIT	<y_axis_inferred_label>
+of
+women	<topic_related_property>
+representation	<topic_related_property>
+is
+XLEAST	<x_axis_label_least_value>
+,
+followed	<order_3rd>
+by
+XTHIRD	<x_axis_label_3rd_highest_value>
+.
+<end_of_description>
+The
+table
+shows
+that
+women	<topic_related_property>
+are
+most	<y_axis_highest_value>
+well
+represented
+in
+XHIGHEST	<x_axis_label_highest_value>
+(
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+)
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+(
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+)
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+(
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+)
+,
+and
+XLEAST	<x_axis_label_least_value>
+(
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+)
+.
+<end_of_description>
+This
+charts
+shows
+the
+YLABEL	<y_axis>
+of
+women+in+different+work+sectors	<topic>
+.
+In
+XHIGHEST	<x_axis_label_highest_value>
+,
+there
+are
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+women	<topic_related_property>
+,
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+there
+are
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+and
+in
+XLEAST	<x_axis_label_least_value>
+only
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+More	<y_axis_trend_up>
+woman	<topic_related_property>
+than
+men	<topic_related_object>
+are
+found
+in
+XHIGHEST	<x_axis_label_highest_value>
+-
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+all
+staff
+.
+This
+is
+MULHIGHESTLEAST	<y_axis_inferred_value_mul_v1=highest_v2=least>
+higher	<y_axis_trend_up>
+than
+in
+XLEAST	<x_axis_label_least_value>
+where
+only
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+are
+woman	<topic_related_property>
+.
+YUNIT	<y_axis_inferred_label>
+in
+XTHIRD	<x_axis_label_3rd_highest_value>
+are
+also
+low	<y_axis_trend_down>
+at
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+but
+higher	<y_axis_trend_up>
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+The
+chart
+shows
+the
+YLABEL	<y_axis>
+of
+women+represented+in+different+sectors	<topic>
+.
+It
+shows
+us
+that
+they
+are
+most	<y_axis_highest_value>
+represented
+within
+XHIGHEST	<x_axis_label_highest_value>
+,
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+.
+They
+are
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+represented
+within
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+just
+less	<y_axis_approx>
+than
+YLEASTAPPROX	<y_axis_inferred_least_value_approx>
+YLABEL	<y_axis>
+in
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+in
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+This
+chart
+shows
+what
+YLABEL	<y_axis>
+of
+women+are+employed+in+different+sectors	<topic>
+.
+The
+chart
+shows
+that
+in
+XHIGHEST	<x_axis_label_highest_value>
+,
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+the
+workforce
+is
+female	<topic_related_property>
+,
+compared	<y_x_comparison_rest>
+to
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+in
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+in
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+The
+graph
+shows
+the
+YLABEL	<y_axis>
+of
+women+represented+in+various+employment+sectors	<topic>
+.
+The
+largest	<y_axis_highest_value>
+is
+in
+XHIGHEST	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+the
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+then	<order_3rd>
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+lastly	<final_label_left>
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+Women	<topic_related_property>
+are
+moderately	<y_axis_trend>
+over-represented	<y_axis_trend_up>
+in
+XHIGHEST	<x_axis_label_highest_value>
+but
+and
+significantly	<y_axis_trend>
+under-represented	<y_axis_trend_down>
+in
+XLEAST	<x_axis_label_least_value>
+and
+XTHIRD	<x_axis_label_3rd_highest_value>
+.
+<end_of_description>
+This
+graph
+shows
+YLABEL	<y_axis>
+representation+of+women+in+different+economic/employment+sectors	<topic>
+.
+XHIGHEST	<x_axis_label_highest_value>
+has
+a
+YUNIT	<y_axis_inferred_label>
+of
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+(unclear+if+this+mean+60%+of+people+in+law+firms+are+women)	<interpretation>
+.
+XSECOND	<x_axis_label_Scnd_highest_value>
+shows
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+YTHIRDAPPROX	<y_axis_inferred_3rd_highest_value_approx>
+YLABEL	<y_axis>
+,
+and
+XLEAST	<x_axis_label_least_value>
+XLABEL	<x_axis>
+have
+the
+lowest	<y_axis_least_value>
+representation	<topic_related_property>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+This
+graph
+shows
+that
+women	<topic_related_property>
+are
+least	<y_axis_least_value>
+represented
+in
+the
+XLEAST	<x_axis_label_least_value>
+XLABEL	<x_axis>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+They
+are
+slightly
+better	<y_axis_trend_up>
+represented
+in
+the
+XTHIRD	<x_axis_label_3rd_highest_value>
+XLABEL	<x_axis>
+at
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+and
+better	<y_axis_trend_up>
+again
+in
+the
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+almost
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+They
+are
+well
+represented	<topic_related_property>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+in
+XHIGHEST	<x_axis_label_highest_value>
+.
+<end_of_description>
+This
+graph
+shows
+the
+representation+of+women+in+different+work+sectors	<topic>
+.
+XHIGHEST	<x_axis_label_highest_value>
+have
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+female	<topic_related_property>
+representation	<topic_related_property>
+followed	<order_rest>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+with
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+with
+YTHIRDAPPROX	<y_axis_inferred_3rd_highest_value_approx>
+YLABEL	<y_axis>
+and
+XLEAST	<x_axis_label_least_value>
+with
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+this
+graph
+shows
+women+representation+the+different+sectors	<topic>
+for
+example
+XHIGHEST	<x_axis_label_highest_value>
+have
+more	<y_axis_trend_up>
+mens
+representation	<topic_related_property>
+that
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+or
+XLEAST	<x_axis_label_least_value>
+.
+XLEAST	<x_axis_label_least_value>
+has
+a
+very	<y_axis_trend>
+low	<y_axis_least_value>
+YLABEL	<y_axis>
+of
+women	<topic_related_property>
+in
+their
+XLABEL	<x_axis>
+with
+on
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+compared	<y_x_comparison>
+to
+XHIGHEST	<x_axis_label_highest_value>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+<end_of_description>
+Women	<topic_related_property>
+are
+more	<x_axis_comparison>
+likely
+to
+represents
+XHIGHEST	<x_axis_label_highest_value>
+and
+XSECOND	<x_axis_label_Scnd_highest_value>
+than
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+XLEAST	<x_axis_label_least_value>
+by
+nearly
+MULSECONDLEAST	<y_axis_inferred_value_mul_v1=Scnd_v2=least>
+<end_of_description>
+This
+chart
+displays
+information
+of
+women's+representation+in+different+sectors	<topic>
+.
+XHIGHEST	<x_axis_label_highest_value>
+have
+the
+highest	<y_axis_highest_value>
+YUNIT	<y_axis_inferred_label>
+of
+women	<topic_related_property>
+employed
+with
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+and
+XLEAST	<x_axis_label_least_value>
+has
+the
+lowest	<y_axis_least_value>
+with
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+women	<topic_related_property>
+.
+<end_of_description>
+This
+graph
+presents
+the
+YLABEL	<y_axis>
+of
+women+working+in+different+sectors	<topic>
+.
+XHIGHEST	<x_axis_label_highest_value>
+have
+the
+highest	<y_axis_highest_value>
+proportion
+of
+women	<topic_related_property>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+and	<order_3rd>
+XTHIRD	<x_axis_label_3rd_highest_value>
+.
+XLEAST	<x_axis_label_least_value>
+has
+the
+lowest	<y_axis_least_value>
+proportion
+of
+women	<topic_related_property>
+represented
+-
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+are
+made
+up
+of
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+women	<topic_related_property>
+and
+XSECOND	<x_axis_label_Scnd_highest_value>
+are
+made
+up
+of
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+women	<topic_related_property>
+.
+XTHIRD	<x_axis_label_3rd_highest_value>
+and
+XLEAST	<x_axis_label_least_value>
+are
+only	<y_axis_least_value>
+represented
+by
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+and
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+women	<topic_related_property>
+respectively
+.
+<end_of_description>
+This
+graph
+shows
+the
+YLABEL	<y_axis>
+of
+women+in+the+workforce+in+different+sectors+of+industry	<topic>
+.
+\\n	<separator>
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+\\n	<separator>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+in
+XLEAST	<x_axis_label_least_value>
+\\n	<separator>
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+in
+XTHIRD	<x_axis_label_3rd_highest_value>
+\\n	<separator>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+in
+XHIGHEST	<x_axis_label_highest_value>
+<end_of_description>
+Largest	<y_axis_highest_value>
+representation	<topic_related_property>
+of
+women	<topic_related_property>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+in
+XHIGHEST	<x_axis_label_highest_value>
+XLABEL	<x_axis>
+,
+then	<order_rest>
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+at
+YTHIRD	<y_axis_3rd_highest_val>
+YLABEL	<y_axis>
+and
+XLEAST	<x_axis_label_least_value>
+at
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+<end_of_description>

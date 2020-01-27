@@ -1,0 +1,726 @@
+''
+This
+chart
+shows
+the
+gender+pay+gap	<topic>
+between
+BARNAMES	<x_axis_labels>
+.
+We
+can
+see
+that
+the
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+biggest	<y_axis_highest_value>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+and
+XLEAST	<x_axis_label_least_value>
+has
+the
+smallest	<y_axis_least_value>
+.
+<end_of_description>
+Surprisingly
+the
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+largest	<y_axis_highest_value>
+YLABEL	<y_axis>
+in
+gender	<topic_related_property>
+pay	<topic_related_property>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+while	<y_x_comparison>
+XLEAST	<x_axis_label_least_value>
+has
+a
+mere	<y_axis_trend>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+YLABEL	<y_axis>
+.
+XSECOND	<x_axis_label_Scnd_highest_value>
+has
+ADDSECONDHIGHEST	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+YLABEL	<y_axis>
+lower	<y_axis_trend_down>
+than
+the
+XHIGHEST	<x_axis_label_highest_value>
+'
+s
+despite+its+poor+Maternity+packages	<interpretation>
+.
+<end_of_description>
+There
+is
+a
+wider	<y_axis_trend>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+than
+XLEAST	<x_axis_label_least_value>
+or
+XSECOND	<x_axis_label_Scnd_highest_value>
+<end_of_description>
+The
+gender+pay+gap	<topic>
+is
+greatest	<y_axis_highest_value>
+by
+about
+ADDHIGHESTLEAST	<y_axis_inferred_value_add_v1=highest_v2=least>
+YLABEL	<y_axis>
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+than
+in
+XLEAST	<x_axis_label_least_value>
+.
+XSECOND	<x_axis_label_Scnd_highest_value>
+is
+exactly
+halfway	<other_operation>
+between
+the
+two
+XLABEL	<x_axis>
+.
+<end_of_description>
+This
+graph
+represents
+how
+the
+gender+pay+gap	<topic>
+varies
+across
+several
+European
+XLABEL	<x_axis>
+.
+Currently
+,
+the
+largest	<y_axis_highest_value>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+between
+male+and+female	<topic_related_property>
+workers
+is
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+with
+approximately	<y_axis_approx>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YLABEL	<y_axis>
+.
+Secondly	<order_Scnd>
+,
+the
+YLABEL	<y_axis>
+which
+is
+the
+largest
+is
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+just
+under	<y_axis_trend>
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+Finally	<final_label_left>
+XLEAST	<x_axis_label_least_value>
+has
+the
+smallest	<y_axis_least_value>
+YLABEL	<y_axis>
+with
+approximately	<y_axis_approx>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+This
+chart
+shows
+that
+the
+biggest	<y_axis_highest_value>
+Gender+Pay+Gap	<topic>
+is
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+with
+a
+YLABEL	<y_axis>
+of
+over	<y_axis_approx>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+.
+XSECOND	<x_axis_label_Scnd_highest_value>
+has
+a
+Gender+Pay+Gap	<topic>
+of
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+XLEAST	<x_axis_label_least_value>
+is
+the
+lowest	<y_axis_least_value>
+of
+the
+COUNT	<x_axis_labels_count>
+with
+a
+Gender+Pay+Gap	<topic>
+of
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+<end_of_description>
+the
+table
+shows
+that
+the
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+biggest	<y_axis_highest_value>
+gender+pay+gap	<topic>
+(
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YLABEL	<y_axis>
+)
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+(
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+)
+and
+XLEAST	<x_axis_label_least_value>
+(
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+)
+.
+<end_of_description>
+This
+chart
+shows
+the
+gender+pay+gap	<topic>
+,
+by
+YLABEL	<y_axis>
+between
+BARNAMES	<x_axis_labels>
+.
+The
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+largest	<y_axis_highest_value>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+with
+over	<y_axis_approx>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YLABEL	<y_axis>
+difference
+.
+XLEAST	<x_axis_label_least_value>
+has
+the
+smallest	<y_axis_least_value>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+with
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+difference
+in
+pay	<topic_related_property>
+between
+men+and+women	<topic_related_property>
+.
+<end_of_description>
+The
+gender+pay+gap	<topic>
+is
+much
+higher	<y_axis_highest_value>
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+than
+in
+Germany+and+Spain	<x_axis_labels_rest>
+.
+It
+is
+MULHIGHESTSECOND	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+higher	<y_axis_trend_up>
+than
+that
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+which
+is
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+MULHIGHESTLEAST	<y_axis_inferred_value_mul_v1=highest_v2=least>
+that
+in
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+This
+chart
+looks
+at
+the
+YLABEL	<y_axis>
+gender+pay+gap	<topic>
+in
+BARNAMES	<x_axis_labels>
+.
+The
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+largest	<y_axis_highest_value>
+gender	<topic_related_property>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+with
+XLEAST	<x_axis_label_least_value>
+having
+the
+lowest	<y_axis_least_value>
+.
+<end_of_description>
+This
+chart
+depicts
+the
+gender+pay+gap	<topic>
+in
+COUNT	<x_axis_labels_count>
+different
+XLABEL	<x_axis>
+:
+BARNAMES	<x_axis_labels>
+.
+The
+chart
+shows
+that
+the
+gender	<topic_related_property>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+is
+largest	<y_axis_highest_value>
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+at
+over	<y_axis_approx>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YUNIT	<y_axis_inferred_label>
+,
+and
+smallest	<y_axis_least_value>
+in
+XLEAST	<x_axis_label_least_value>
+at
+YLEAST	<y_axis_least_value_val>
+YUNIT	<y_axis_inferred_label>
+.
+<end_of_description>
+This
+chart
+shows
+the
+gender+pay+gap	<topic>
+of
+COUNT	<x_axis_labels_count>
+XLABEL	<x_axis>
+.
+The
+largest	<y_axis_highest_value>
+is
+the
+XHIGHEST	<x_axis_label_highest_value>
+with
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YLABEL	<y_axis>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+lastly	<final_label_left>
+XLEAST	<x_axis_label_least_value>
+at
+YLEASTAPPROX	<y_axis_inferred_least_value_approx>
+YLABEL	<y_axis>
+<end_of_description>
+XLEAST	<x_axis_label_least_value>
+has
+the
+lowest	<y_axis_least_value>
+gender	<topic_related_property>
+paygap	<topic_related_property>
+of
+just
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+XSECOND	<x_axis_label_Scnd_highest_value>
+is
+MULSECONDLEAST	<y_axis_inferred_value_mul_v1=Scnd_v2=least>
+that
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+the
+XHIGHEST	<x_axis_label_highest_value>
+is
+behind
+with
+the
+largest	<y_axis_highest_value>
+inequality
+of
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+This
+graph
+shows
+a
+gender+pay+gap	<topic>
+in
+BARNAMES	<x_axis_labels>
+.
+the
+YLABEL	<y_axis>
+is
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+in
+XLEAST	<x_axis_label_least_value>
+,
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+and
+just
+over	<y_axis_approx>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YLABEL	<y_axis>
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+.
+<end_of_description>
+This
+graph
+shows
+that
+the
+gender+pay+gap	<topic>
+is
+largest	<y_axis_highest_value>
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+at
+over	<y_axis_approx>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YLABEL	<y_axis>
+,
+the
+next	<order_Scnd>
+highest
+is
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+XLEAST	<x_axis_label_least_value>
+has
+the
+lowest	<y_axis_least_value>
+YLABEL	<y_axis>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+<end_of_description>
+The
+graph
+indicates
+the
+gender+pay+gap	<topic>
+as
+a
+YLABEL	<y_axis>
+,
+comparing
+the
+BARNAMES	<x_axis_labels>
+.
+The
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+largest	<y_axis_highest_value>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+and
+then
+XLEAST	<x_axis_label_least_value>
+has
+the
+smallest	<y_axis_least_value>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+.
+<end_of_description>
+this
+chart
+shows
+the
+gender+pay+gap	<topic>
+across
+COUNT	<x_axis_labels_count>
+european
+XLABEL	<x_axis>
+,
+the
+lowest	<y_axis_least_value>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+being
+XLEAST	<x_axis_label_least_value>
+with
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+,
+XSECOND	<x_axis_label_Scnd_highest_value>
+with
+YSECOND	<y_axis_Scnd_highest_val>
+YUNIT	<y_axis_inferred_label>
+and
+the
+XHIGHEST	<x_axis_label_highest_value>
+having
+the
+biggest	<y_axis_highest_value>
+pay	<topic_related_property>
+YLABEL	<y_axis>
+with
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+<end_of_description>
+The
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+highest	<y_axis_highest_value>
+gender+pay+gap	<topic>
+which
+is
+more	<y_axis_approx>
+than
+MULHIGHESTLEAST	<y_axis_inferred_value_mul_v1=highest_v2=least>
+the
+lowest	<y_axis_least_value>
+of
+XLEAST	<x_axis_label_least_value>
+<end_of_description>
+This
+chart
+displays
+the
+gender+pay+gap	<topic>
+in
+COUNT	<x_axis_labels_count>
+XLABEL	<x_axis>
+.
+The
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+highest	<y_axis_highest_value>
+YLABEL	<y_axis>
+of
+a
+YLABEL	<y_axis>
+with
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YLABEL	<y_axis>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+lastly	<final_label_left>
+XLEAST	<x_axis_label_least_value>
+with
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+This
+bar
+chart
+shows
+the
+gender+pay+gap	<topic>
+in
+COUNT	<x_axis_labels_count>
+XLABEL	<x_axis>
+,
+;
+BARNAMES	<x_axis_labels>
+.
+It
+is
+displayed
+as
+a
+YLABEL	<y_axis>
+,
+and
+the
+XHIGHEST	<x_axis_label_highest_value>
+has
+a
+higher	<y_axis_highest_value>
+YLABEL	<y_axis>
+.
+However+it+is+not+clear+what+the+percentage+is+of,+or+which+gender+is+favoured+in+the+pay+gap+from+the+graph+labels+itself	<interpretation>
+.
+<end_of_description>
+The
+gender+pay+gap	<topic>
+is
+highest	<y_axis_highest_value>
+in
+the
+XHIGHEST	<x_axis_label_highest_value>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+XLEAST	<x_axis_label_least_value>
+has
+the
+lowest	<y_axis_least_value>
+gender+pay+gap	<topic>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+<end_of_description>
+It
+is
+the
+YLABEL	<y_axis>
+difference
+in
+pay	<topic_related_property>
+between
+men+and+women	<topic_related_property>
+in
+COUNT	<x_axis_labels_count>
+different
+XLABEL	<x_axis>
+.
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+for
+XLEAST	<x_axis_label_least_value>
+\\n	<separator>
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+for
+XSECOND	<x_axis_label_Scnd_highest_value>
+\\n	<separator>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+for
+The
+XHIGHEST	<x_axis_label_highest_value>
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+has
+the
+largest	<y_axis_highest_value>
+gender+pay+gap	<topic>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+whilst	<y_x_comparison_rest>
+XSECOND	<x_axis_label_Scnd_highest_value>
+is
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+XLEAST	<x_axis_label_least_value>
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+<end_of_description>

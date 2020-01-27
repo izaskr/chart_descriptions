@@ -3,7 +3,7 @@
 	<topic scenario="nominal" topic="gender_paygap" topic_id="01">
 		<story story_id="01-01">
 			<text>
-				<content>This chart shows the gender pay gap between Germany , Spain and the UK . We can see that the UK has the biggest pay gap , followed by Spain and Germany has the smallest .</content>
+				<content>This chart shows the gender pay gap between Germany, Spain and the UK . We can see that the UK has the biggest pay gap , followed by Spain and Germany has the smallest .</content>
 				<sentences>
 					<sentence id="01-01-1">
 						<token content="This" content_fix="This" id="01-01-1-1"/>
@@ -14,13 +14,12 @@
 						<token content="pay" content_fix="pay" id="01-01-1-6"/>
 						<token content="gap" content_fix="gap" id="01-01-1-7"/>
 						<token content="between" content_fix="between" id="01-01-1-8"/>
-						<token content="Germany" content_fix="Germany" id="01-01-1-9"/>
-						<token content="," content_fix="," id="01-01-1-10"/>
-						<token content="Spain" content_fix="Spain" id="01-01-1-11"/>
-						<token content="and" content_fix="and" id="01-01-1-12"/>
-						<token content="the" content_fix="the" id="01-01-1-13"/>
-						<token content="UK" content_fix="UK" id="01-01-1-14"/>
-						<token content="." content_fix="." id="01-01-1-15"/>
+						<token content="Germany," content_fix="Germany," id="01-01-1-9"/>
+						<token content="Spain" content_fix="Spain" id="01-01-1-10"/>
+						<token content="and" content_fix="and" id="01-01-1-11"/>
+						<token content="the" content_fix="the" id="01-01-1-12"/>
+						<token content="UK" content_fix="UK" id="01-01-1-13"/>
+						<token content="." content_fix="." id="01-01-1-14"/>
 					</sentence>
 					<sentence id="01-01-2">
 						<token content="We" content_fix="We" id="01-01-2-1"/>
@@ -50,7 +49,7 @@
 			<annotations>
 				<events>
 					<label from="01-01-1-5" id="01-01-1" name="topic" text="gender pay gap" to="01-01-1-7" type="event"/>
-					<label from="01-01-1-9" id="01-01-2" name="x_axis_labels" text="Germany , Spain and the UK" to="01-01-1-14" type="event"/>
+					<label from="01-01-1-9" id="01-01-2" name="x_axis_labels" text="Germany, Spain and the UK" to="01-01-1-13" type="event"/>
 					<label from="01-01-2-6" id="01-01-3" name="x_axis_label_highest_value" text="UK" to="01-01-2-6" type="event"/>
 					<label from="01-01-2-9" id="01-01-4" name="y_axis_highest_value" text="biggest" to="01-01-2-9" type="event"/>
 					<label from="01-01-2-10" id="01-01-5" name="topic_related_property" text="pay" to="01-01-2-10" type="event"/>
@@ -454,7 +453,7 @@
 		</story>
 		<story story_id="01-08">
 			<text>
-				<content>This chart shows the gender pay gap , by percentage between Germany , Spain and the UK . The UK has the largest pay gap with over 14 % difference . Germany has the smallest pay gap with only 5 % difference in pay between men and women .</content>
+				<content>This chart shows the gender pay gap , by percentage between Germany, Spain and the UK . The UK has the largest pay gap with over 14 % difference . Germany has the smallest pay gap with only 5 % difference in pay between men and women .</content>
 				<sentences>
 					<sentence id="01-08-1">
 						<token content="This" content_fix="This" id="01-08-1-1"/>
@@ -468,13 +467,12 @@
 						<token content="by" content_fix="by" id="01-08-1-9"/>
 						<token content="percentage" content_fix="percentage" id="01-08-1-10"/>
 						<token content="between" content_fix="between" id="01-08-1-11"/>
-						<token content="Germany" content_fix="Germany" id="01-08-1-12"/>
-						<token content="," content_fix="," id="01-08-1-13"/>
-						<token content="Spain" content_fix="Spain" id="01-08-1-14"/>
-						<token content="and" content_fix="and" id="01-08-1-15"/>
-						<token content="the" content_fix="the" id="01-08-1-16"/>
-						<token content="UK" content_fix="UK" id="01-08-1-17"/>
-						<token content="." content_fix="." id="01-08-1-18"/>
+						<token content="Germany," content_fix="Germany," id="01-08-1-12"/>
+						<token content="Spain" content_fix="Spain" id="01-08-1-13"/>
+						<token content="and" content_fix="and" id="01-08-1-14"/>
+						<token content="the" content_fix="the" id="01-08-1-15"/>
+						<token content="UK" content_fix="UK" id="01-08-1-16"/>
+						<token content="." content_fix="." id="01-08-1-17"/>
 					</sentence>
 					<sentence id="01-08-2">
 						<token content="The" content_fix="The" id="01-08-2-1"/>
@@ -517,7 +515,7 @@
 				<events>
 					<label from="01-08-1-5" id="01-08-1" name="topic" text="gender pay gap" to="01-08-1-7" type="event"/>
 					<label from="01-08-1-10" id="01-08-2" name="y_axis" text="percentage" to="01-08-1-10" type="event"/>
-					<label from="01-08-1-12" id="01-08-3" name="x_axis_labels" text="Germany , Spain and the UK" to="01-08-1-17" type="event"/>
+					<label from="01-08-1-12" id="01-08-3" name="x_axis_labels" text="Germany, Spain and the UK" to="01-08-1-16" type="event"/>
 					<label from="01-08-2-2" id="01-08-4" name="x_axis_label_highest_value" text="UK" to="01-08-2-2" type="event"/>
 					<label from="01-08-2-5" id="01-08-5" name="y_axis_highest_value" text="largest" to="01-08-2-5" type="event"/>
 					<label from="01-08-2-6" id="01-08-6" name="topic_related_property" text="pay" to="01-08-2-6" type="event"/>
@@ -600,7 +598,7 @@
 		</story>
 		<story story_id="01-10">
 			<text>
-				<content>This chat looks at the percentage gender pay gap in UK , Spain and Germany . The UK has the largest gender pay gap with Germany having the lowest .</content>
+				<content>This chat looks at the percentage gender pay gap in UK, Spain and Germany . The UK has the largest gender pay gap with Germany having the lowest .</content>
 				<sentences>
 					<sentence id="01-10-1">
 						<token content="This" content_fix="This" id="01-10-1-1"/>
@@ -613,12 +611,11 @@
 						<token content="pay" content_fix="pay" id="01-10-1-8"/>
 						<token content="gap" content_fix="gap" id="01-10-1-9"/>
 						<token content="in" content_fix="in" id="01-10-1-10"/>
-						<token content="UK" content_fix="UK" id="01-10-1-11"/>
-						<token content="," content_fix="," id="01-10-1-12"/>
-						<token content="Spain" content_fix="Spain" id="01-10-1-13"/>
-						<token content="and" content_fix="and" id="01-10-1-14"/>
-						<token content="Germany" content_fix="Germany" id="01-10-1-15"/>
-						<token content="." content_fix="." id="01-10-1-16"/>
+						<token content="UK," content_fix="UK," id="01-10-1-11"/>
+						<token content="Spain" content_fix="Spain" id="01-10-1-12"/>
+						<token content="and" content_fix="and" id="01-10-1-13"/>
+						<token content="Germany" content_fix="Germany" id="01-10-1-14"/>
+						<token content="." content_fix="." id="01-10-1-15"/>
 					</sentence>
 					<sentence id="01-10-2">
 						<token content="The" content_fix="The" id="01-10-2-1"/>
@@ -642,7 +639,7 @@
 				<events>
 					<label from="01-10-1-6" id="01-10-1" name="y_axis" text="percentage" to="01-10-1-6" type="event"/>
 					<label from="01-10-1-7" id="01-10-2" name="topic" text="gender pay gap" to="01-10-1-9" type="event"/>
-					<label from="01-10-1-11" id="01-10-3" name="x_axis_labels" text="UK , Spain and Germany" to="01-10-1-15" type="event"/>
+					<label from="01-10-1-11" id="01-10-3" name="x_axis_labels" text="UK, Spain and Germany" to="01-10-1-14" type="event"/>
 					<label from="01-10-2-2" id="01-10-4" name="x_axis_label_highest_value" text="UK" to="01-10-2-2" type="event"/>
 					<label from="01-10-2-5" id="01-10-5" name="y_axis_highest_value" text="largest" to="01-10-2-5" type="event"/>
 					<label from="01-10-2-6" id="01-10-6" name="topic_related_property" text="gender" to="01-10-2-6" type="event"/>
@@ -655,7 +652,7 @@
 		</story>
 		<story story_id="01-11">
 			<text>
-				<content>This chart depicts the gender pay gap in three different countries : Germany , Spain and the UK . The chart shows that the gender pay gap is largest in the UK at over 14 percent , and smallest in Germany at 5 percent .</content>
+				<content>This chart depicts the gender pay gap in three different countries : Germany, Spain and the UK . The chart shows that the gender pay gap is largest in the UK at over 14 percent , and smallest in Germany at 5 percent .</content>
 				<sentences>
 					<sentence id="01-11-1">
 						<token content="This" content_fix="This" id="01-11-1-1"/>
@@ -670,13 +667,12 @@
 						<token content="different" content_fix="different" id="01-11-1-10"/>
 						<token content="countries" content_fix="countries" id="01-11-1-11"/>
 						<token content=":" content_fix=":" id="01-11-1-12"/>
-						<token content="Germany" content_fix="Germany" id="01-11-1-13"/>
-						<token content="," content_fix="," id="01-11-1-14"/>
-						<token content="Spain" content_fix="Spain" id="01-11-1-15"/>
-						<token content="and" content_fix="and" id="01-11-1-16"/>
-						<token content="the" content_fix="the" id="01-11-1-17"/>
-						<token content="UK" content_fix="UK" id="01-11-1-18"/>
-						<token content="." content_fix="." id="01-11-1-19"/>
+						<token content="Germany," content_fix="Germany," id="01-11-1-13"/>
+						<token content="Spain" content_fix="Spain" id="01-11-1-14"/>
+						<token content="and" content_fix="and" id="01-11-1-15"/>
+						<token content="the" content_fix="the" id="01-11-1-16"/>
+						<token content="UK" content_fix="UK" id="01-11-1-17"/>
+						<token content="." content_fix="." id="01-11-1-18"/>
 					</sentence>
 					<sentence id="01-11-2">
 						<token content="The" content_fix="The" id="01-11-2-1"/>
@@ -713,7 +709,7 @@
 					<label from="01-11-1-5" id="01-11-1" name="topic" text="gender pay gap" to="01-11-1-7" type="event"/>
 					<label from="01-11-1-9" id="01-11-2" name="x_axis_labels_count" text="three" to="01-11-1-9" type="event"/>
 					<label from="01-11-1-11" id="01-11-3" name="x_axis" text="countries" to="01-11-1-11" type="event"/>
-					<label from="01-11-1-13" id="01-11-4" name="x_axis_labels" text="Germany , Spain and the UK" to="01-11-1-18" type="event"/>
+					<label from="01-11-1-13" id="01-11-4" name="x_axis_labels" text="Germany, Spain and the UK" to="01-11-1-17" type="event"/>
 					<label from="01-11-2-6" id="01-11-5" name="topic_related_property" text="gender" to="01-11-2-6" type="event"/>
 					<label from="01-11-2-7" id="01-11-6" name="topic_related_property" text="pay" to="01-11-2-7" type="event"/>
 					<label from="01-11-2-8" id="01-11-7" name="y_axis" text="gap" to="01-11-2-8" type="event"/>
@@ -853,7 +849,7 @@
 		</story>
 		<story story_id="01-14">
 			<text>
-				<content>This graph shows a gender pay gap in Germany , Spain and the UK . the gap is 5 % in Germany , 10 % in Spain and just over 14 % in the UK .</content>
+				<content>This graph shows a gender pay gap in Germany, Spain and the UK . the gap is 5 % in Germany , 10 % in Spain and just over 14 % in the UK .</content>
 				<sentences>
 					<sentence id="01-14-1">
 						<token content="This" content_fix="This" id="01-14-1-1"/>
@@ -864,13 +860,12 @@
 						<token content="pay" content_fix="pay" id="01-14-1-6"/>
 						<token content="gap" content_fix="gap" id="01-14-1-7"/>
 						<token content="in" content_fix="in" id="01-14-1-8"/>
-						<token content="Germany" content_fix="Germany" id="01-14-1-9"/>
-						<token content="," content_fix="," id="01-14-1-10"/>
-						<token content="Spain" content_fix="Spain" id="01-14-1-11"/>
-						<token content="and" content_fix="and" id="01-14-1-12"/>
-						<token content="the" content_fix="the" id="01-14-1-13"/>
-						<token content="UK" content_fix="UK" id="01-14-1-14"/>
-						<token content="." content_fix="." id="01-14-1-15"/>
+						<token content="Germany," content_fix="Germany," id="01-14-1-9"/>
+						<token content="Spain" content_fix="Spain" id="01-14-1-10"/>
+						<token content="and" content_fix="and" id="01-14-1-11"/>
+						<token content="the" content_fix="the" id="01-14-1-12"/>
+						<token content="UK" content_fix="UK" id="01-14-1-13"/>
+						<token content="." content_fix="." id="01-14-1-14"/>
 					</sentence>
 					<sentence id="01-14-2">
 						<token content="the" content_fix="the" id="01-14-2-1"/>
@@ -900,7 +895,7 @@
 			<annotations>
 				<events>
 					<label from="01-14-1-5" id="01-14-1" name="topic" text="gender pay gap" to="01-14-1-7" type="event"/>
-					<label from="01-14-1-9" id="01-14-2" name="x_axis_labels" text="Germany , Spain and the UK" to="01-14-1-14" type="event"/>
+					<label from="01-14-1-9" id="01-14-2" name="x_axis_labels" text="Germany, Spain and the UK" to="01-14-1-13" type="event"/>
 					<label from="01-14-2-2" id="01-14-3" name="y_axis" text="gap" to="01-14-2-2" type="event"/>
 					<label from="01-14-2-4" id="01-14-4" name="y_axis_least_value_val" text="5" to="01-14-2-4" type="event"/>
 					<label from="01-14-2-5" id="01-14-5" name="y_axis" text="%" to="01-14-2-5" type="event"/>
@@ -982,7 +977,7 @@
 		</story>
 		<story story_id="01-16">
 			<text>
-				<content>The graph indicates the gender pay gap as a percentage , comparing the UK , Spain an Germany . The UK has the largest pay gap , followed by Spain and then Germany has the smallest pay gap .</content>
+				<content>The graph indicates the gender pay gap as a percentage , comparing the UK, Spain an Germany . The UK has the largest pay gap , followed by Spain and then Germany has the smallest pay gap .</content>
 				<sentences>
 					<sentence id="01-16-1">
 						<token content="The" content_fix="The" id="01-16-1-1"/>
@@ -998,12 +993,11 @@
 						<token content="," content_fix="," id="01-16-1-11"/>
 						<token content="comparing" content_fix="comparing" id="01-16-1-12"/>
 						<token content="the" content_fix="the" id="01-16-1-13"/>
-						<token content="UK" content_fix="UK" id="01-16-1-14"/>
-						<token content="," content_fix="," id="01-16-1-15"/>
-						<token content="Spain" content_fix="Spain" id="01-16-1-16"/>
-						<token content="an" content_fix="an" id="01-16-1-17"/>
-						<token content="Germany" content_fix="Germany" id="01-16-1-18"/>
-						<token content="." content_fix="." id="01-16-1-19"/>
+						<token content="UK," content_fix="UK," id="01-16-1-14"/>
+						<token content="Spain" content_fix="Spain" id="01-16-1-15"/>
+						<token content="an" content_fix="an" id="01-16-1-16"/>
+						<token content="Germany" content_fix="Germany" id="01-16-1-17"/>
+						<token content="." content_fix="." id="01-16-1-18"/>
 					</sentence>
 					<sentence id="01-16-2">
 						<token content="The" content_fix="The" id="01-16-2-1"/>
@@ -1033,7 +1027,7 @@
 				<events>
 					<label from="01-16-1-5" id="01-16-1" name="topic" text="gender pay gap" to="01-16-1-7" type="event"/>
 					<label from="01-16-1-10" id="01-16-2" name="y_axis" text="percentage" to="01-16-1-10" type="event"/>
-					<label from="01-16-1-14" id="01-16-3" name="x_axis_labels" text="UK , Spain an Germany" to="01-16-1-18" type="event"/>
+					<label from="01-16-1-14" id="01-16-3" name="x_axis_labels" text="UK, Spain an Germany" to="01-16-1-17" type="event"/>
 					<label from="01-16-2-2" id="01-16-4" name="x_axis_label_highest_value" text="UK" to="01-16-2-2" type="event"/>
 					<label from="01-16-2-5" id="01-16-5" name="y_axis_highest_value" text="largest" to="01-16-2-5" type="event"/>
 					<label from="01-16-2-6" id="01-16-6" name="topic_related_property" text="pay" to="01-16-2-6" type="event"/>
@@ -1223,7 +1217,7 @@
 		</story>
 		<story story_id="01-20">
 			<text>
-				<content>This bar chart shows the gender pay gap in three countries , ; Germany , Span and the UK . It is displayed as a percentage , and the UK has a higher percentage . However it is not clear what the percentage is of , or which gender is favoured in the pay gap from the graph labels itself .</content>
+				<content>This bar chart shows the gender pay gap in three countries , ; Germany, Span and the UK . It is displayed as a percentage , and the UK has a higher percentage . However it is not clear what the percentage is of, or which gender is favoured in the pay gap from the graph labels itself .</content>
 				<sentences>
 					<sentence id="01-20-1">
 						<token content="This" content_fix="This" id="01-20-1-1"/>
@@ -1239,13 +1233,12 @@
 						<token content="countries" content_fix="countries" id="01-20-1-11"/>
 						<token content="," content_fix="," id="01-20-1-12"/>
 						<token content=";" content_fix=";" id="01-20-1-13"/>
-						<token content="Germany" content_fix="Germany" id="01-20-1-14"/>
-						<token content="," content_fix="," id="01-20-1-15"/>
-						<token content="Span" content_fix="Span" id="01-20-1-16"/>
-						<token content="and" content_fix="and" id="01-20-1-17"/>
-						<token content="the" content_fix="the" id="01-20-1-18"/>
-						<token content="UK" content_fix="UK" id="01-20-1-19"/>
-						<token content="." content_fix="." id="01-20-1-20"/>
+						<token content="Germany," content_fix="Germany," id="01-20-1-14"/>
+						<token content="Span" content_fix="Span" id="01-20-1-15"/>
+						<token content="and" content_fix="and" id="01-20-1-16"/>
+						<token content="the" content_fix="the" id="01-20-1-17"/>
+						<token content="UK" content_fix="UK" id="01-20-1-18"/>
+						<token content="." content_fix="." id="01-20-1-19"/>
 					</sentence>
 					<sentence id="01-20-2">
 						<token content="It" content_fix="It" id="01-20-2-1"/>
@@ -1274,23 +1267,22 @@
 						<token content="the" content_fix="the" id="01-20-3-7"/>
 						<token content="percentage" content_fix="percentage" id="01-20-3-8"/>
 						<token content="is" content_fix="is" id="01-20-3-9"/>
-						<token content="of" content_fix="of" id="01-20-3-10"/>
-						<token content="," content_fix="," id="01-20-3-11"/>
-						<token content="or" content_fix="or" id="01-20-3-12"/>
-						<token content="which" content_fix="which" id="01-20-3-13"/>
-						<token content="gender" content_fix="gender" id="01-20-3-14"/>
-						<token content="is" content_fix="is" id="01-20-3-15"/>
-						<token content="favoured" content_fix="favoured" id="01-20-3-16"/>
-						<token content="in" content_fix="in" id="01-20-3-17"/>
-						<token content="the" content_fix="the" id="01-20-3-18"/>
-						<token content="pay" content_fix="pay" id="01-20-3-19"/>
-						<token content="gap" content_fix="gap" id="01-20-3-20"/>
-						<token content="from" content_fix="from" id="01-20-3-21"/>
-						<token content="the" content_fix="the" id="01-20-3-22"/>
-						<token content="graph" content_fix="graph" id="01-20-3-23"/>
-						<token content="labels" content_fix="labels" id="01-20-3-24"/>
-						<token content="itself" content_fix="itself" id="01-20-3-25"/>
-						<token content="." content_fix="." id="01-20-3-26"/>
+						<token content="of," content_fix="of," id="01-20-3-10"/>
+						<token content="or" content_fix="or" id="01-20-3-11"/>
+						<token content="which" content_fix="which" id="01-20-3-12"/>
+						<token content="gender" content_fix="gender" id="01-20-3-13"/>
+						<token content="is" content_fix="is" id="01-20-3-14"/>
+						<token content="favoured" content_fix="favoured" id="01-20-3-15"/>
+						<token content="in" content_fix="in" id="01-20-3-16"/>
+						<token content="the" content_fix="the" id="01-20-3-17"/>
+						<token content="pay" content_fix="pay" id="01-20-3-18"/>
+						<token content="gap" content_fix="gap" id="01-20-3-19"/>
+						<token content="from" content_fix="from" id="01-20-3-20"/>
+						<token content="the" content_fix="the" id="01-20-3-21"/>
+						<token content="graph" content_fix="graph" id="01-20-3-22"/>
+						<token content="labels" content_fix="labels" id="01-20-3-23"/>
+						<token content="itself" content_fix="itself" id="01-20-3-24"/>
+						<token content="." content_fix="." id="01-20-3-25"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -1299,12 +1291,12 @@
 					<label from="01-20-1-6" id="01-20-1" name="topic" text="gender pay gap" to="01-20-1-8" type="event"/>
 					<label from="01-20-1-10" id="01-20-2" name="x_axis_labels_count" text="three" to="01-20-1-10" type="event"/>
 					<label from="01-20-1-11" id="01-20-3" name="x_axis" text="countries" to="01-20-1-11" type="event"/>
-					<label from="01-20-1-14" id="01-20-4" name="x_axis_labels" text="Germany , Span and the UK" to="01-20-1-19" type="event"/>
+					<label from="01-20-1-14" id="01-20-4" name="x_axis_labels" text="Germany, Span and the UK" to="01-20-1-18" type="event"/>
 					<label from="01-20-2-6" id="01-20-5" name="y_axis" text="percentage" to="01-20-2-6" type="event"/>
 					<label from="01-20-2-10" id="01-20-6" name="x_axis_label_highest_value" text="UK" to="01-20-2-10" type="event"/>
 					<label from="01-20-2-13" id="01-20-7" name="y_axis_highest_value" text="higher" to="01-20-2-13" type="event"/>
 					<label from="01-20-2-14" id="01-20-8" name="y_axis" text="percentage" to="01-20-2-14" type="event"/>
-					<label from="01-20-3-1" id="01-20-9" name="interpretation" text="However it is not clear what the percentage is of , or which gender is favoured in the pay gap from the graph labels itself" to="01-20-3-25" type="event"/>
+					<label from="01-20-3-1" id="01-20-9" name="interpretation" text="However it is not clear what the percentage is of, or which gender is favoured in the pay gap from the graph labels itself" to="01-20-3-24" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -1625,11 +1617,10 @@
 						<token content="$" content_fix="$" id="02-04-1-13"/>
 						<token content="5" content_fix="5" id="02-04-1-14"/>
 						<token content=",000" content_fix=",000" id="02-04-1-15"/>
-						<token content="," content_fix="," id="02-04-1-16"/>
-						<token content="per" content_fix="per" id="02-04-1-17"/>
-						<token content="5" content_fix="5" id="02-04-1-18"/>
-						<token content="years" content_fix="years" id="02-04-1-19"/>
-						<token content="." content_fix="." id="02-04-1-20"/>
+						<token content="per" content_fix="per" id="02-04-1-16"/>
+						<token content="5" content_fix="5" id="02-04-1-17"/>
+						<token content="years" content_fix="years" id="02-04-1-18"/>
+						<token content="." content_fix="." id="02-04-1-19"/>
 					</sentence>
 					<sentence id="02-04-2">
 						<token content="A" content_fix="A" id="02-04-2-1"/>
@@ -1665,7 +1656,7 @@
 					<label from="02-04-1-15" id="02-04-6" name="y_magnitude" text=",000" to="02-04-1-15" type="event"/>
 					<label from="02-04-1-17" id="02-04-7" name="slope_x_value" text="5" to="02-04-1-17" type="event"/>
 					<label from="02-04-1-18" id="02-04-8" name="x_axis" text="years" to="02-04-1-18" type="event"/>
-					<label from="02-04-2-0" id="02-04-9" name="interpretation" text="A logical conclusion would be a few decades ago women did nover , this would not be a reality" to="02-04-2-18" type="event"/>
+					<label from="02-04-2-1" id="02-04-9" name="interpretation" text="A logical conclusion would be a few decades ago women did nover , this would not be a reality" to="02-04-2-19" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -1844,28 +1835,24 @@
 						<token content="from" content_fix="from" id="02-07-1-12"/>
 						<token content="40" content_fix="40" id="02-07-1-13"/>
 						<token content=",000" content_fix=",000" id="02-07-1-14"/>
-						<token content="," content_fix="," id="02-07-1-15"/>
-						<token content="in" content_fix="in" id="02-07-1-16"/>
-						<token content="2000" content_fix="2000" id="02-07-1-17"/>
-						<token content="to" content_fix="to" id="02-07-1-18"/>
-						<token content="45" content_fix="45" id="02-07-1-19"/>
-						<token content=",000" content_fix=",000" id="02-07-1-20"/>
-						<token content="," content_fix="," id="02-07-1-21"/>
-						<token content="in" content_fix="in" id="02-07-1-22"/>
-						<token content="2005" content_fix="2005" id="02-07-1-23"/>
-						<token content="," content_fix="," id="02-07-1-24"/>
-						<token content="50" content_fix="50" id="02-07-1-25"/>
-						<token content=",000" content_fix=",000" id="02-07-1-26"/>
+						<token content="in" content_fix="in" id="02-07-1-15"/>
+						<token content="2000" content_fix="2000" id="02-07-1-16"/>
+						<token content="to" content_fix="to" id="02-07-1-17"/>
+						<token content="45" content_fix="45" id="02-07-1-18"/>
+						<token content=",000" content_fix=",000" id="02-07-1-19"/>
+						<token content="in" content_fix="in" id="02-07-1-20"/>
+						<token content="2005" content_fix="2005" id="02-07-1-21"/>
+						<token content="," content_fix="," id="02-07-1-22"/>
+						<token content="50" content_fix="50" id="02-07-1-23"/>
+						<token content=",000" content_fix=",000" id="02-07-1-24"/>
+						<token content="in" content_fix="in" id="02-07-1-25"/>
+						<token content="2010" content_fix="2010" id="02-07-1-26"/>
 						<token content="," content_fix="," id="02-07-1-27"/>
-						<token content="in" content_fix="in" id="02-07-1-28"/>
-						<token content="2010" content_fix="2010" id="02-07-1-29"/>
-						<token content="," content_fix="," id="02-07-1-30"/>
-						<token content="to" content_fix="to" id="02-07-1-31"/>
-						<token content="55" content_fix="55" id="02-07-1-32"/>
-						<token content=",000" content_fix=",000" id="02-07-1-33"/>
-						<token content="," content_fix="," id="02-07-1-34"/>
-						<token content="in" content_fix="in" id="02-07-1-35"/>
-						<token content="2015" content_fix="2015" id="02-07-1-36"/>
+						<token content="to" content_fix="to" id="02-07-1-28"/>
+						<token content="55" content_fix="55" id="02-07-1-29"/>
+						<token content=",000" content_fix=",000" id="02-07-1-30"/>
+						<token content="in" content_fix="in" id="02-07-1-31"/>
+						<token content="2015" content_fix="2015" id="02-07-1-32"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -1894,7 +1881,7 @@
 		</story>
 		<story story_id="02-08">
 			<text>
-				<content>This charts shows the average median salary of women per year in 2000 , 2005 , 2010 and 2015 . The chart shows a trend of increasing average salary of women . However it does n't show how this relates to inflation .</content>
+				<content>This charts shows the average median salary of women per year in 2000, 2005, 2010 and 2015 . The chart shows a trend of increasing average salary of women . However it doesn't show how this relates to inflation .</content>
 				<sentences>
 					<sentence id="02-08-1">
 						<token content="This" content_fix="This" id="02-08-1-1"/>
@@ -1909,14 +1896,12 @@
 						<token content="per" content_fix="per" id="02-08-1-10"/>
 						<token content="year" content_fix="year" id="02-08-1-11"/>
 						<token content="in" content_fix="in" id="02-08-1-12"/>
-						<token content="2000" content_fix="2000" id="02-08-1-13"/>
-						<token content="," content_fix="," id="02-08-1-14"/>
-						<token content="2005" content_fix="2005" id="02-08-1-15"/>
-						<token content="," content_fix="," id="02-08-1-16"/>
-						<token content="2010" content_fix="2010" id="02-08-1-17"/>
-						<token content="and" content_fix="and" id="02-08-1-18"/>
-						<token content="2015" content_fix="2015" id="02-08-1-19"/>
-						<token content="." content_fix="." id="02-08-1-20"/>
+						<token content="2000," content_fix="2000," id="02-08-1-13"/>
+						<token content="2005," content_fix="2005," id="02-08-1-14"/>
+						<token content="2010" content_fix="2010" id="02-08-1-15"/>
+						<token content="and" content_fix="and" id="02-08-1-16"/>
+						<token content="2015" content_fix="2015" id="02-08-1-17"/>
+						<token content="." content_fix="." id="02-08-1-18"/>
 					</sentence>
 					<sentence id="02-08-2">
 						<token content="The" content_fix="The" id="02-08-2-1"/>
@@ -1935,28 +1920,27 @@
 					<sentence id="02-08-3">
 						<token content="However" content_fix="However" id="02-08-3-1"/>
 						<token content="it" content_fix="it" id="02-08-3-2"/>
-						<token content="does" content_fix="does" id="02-08-3-3"/>
-						<token content="n't" content_fix="n't" id="02-08-3-4"/>
-						<token content="show" content_fix="show" id="02-08-3-5"/>
-						<token content="how" content_fix="how" id="02-08-3-6"/>
-						<token content="this" content_fix="this" id="02-08-3-7"/>
-						<token content="relates" content_fix="relates" id="02-08-3-8"/>
-						<token content="to" content_fix="to" id="02-08-3-9"/>
-						<token content="inflation" content_fix="inflation" id="02-08-3-10"/>
-						<token content="." content_fix="." id="02-08-3-11"/>
+						<token content="doesn't" content_fix="doesn't" id="02-08-3-3"/>
+						<token content="show" content_fix="show" id="02-08-3-4"/>
+						<token content="how" content_fix="how" id="02-08-3-5"/>
+						<token content="this" content_fix="this" id="02-08-3-6"/>
+						<token content="relates" content_fix="relates" id="02-08-3-7"/>
+						<token content="to" content_fix="to" id="02-08-3-8"/>
+						<token content="inflation" content_fix="inflation" id="02-08-3-9"/>
+						<token content="." content_fix="." id="02-08-3-10"/>
 					</sentence>
 				</sentences>
 			</text>
 			<annotations>
 				<events>
 					<label from="02-08-1-5" id="02-08-1" name="topic" text="average median salary of women per year" to="02-08-1-11" type="event"/>
-					<label from="02-08-1-13" id="02-08-2" name="x_axis_labels" text="2000 , 2005 , 2010 and 2015" to="02-08-1-19" type="event"/>
+					<label from="02-08-1-13" id="02-08-2" name="x_axis_labels" text="2000, 2005, 2010 and 2015" to="02-08-1-17" type="event"/>
 					<label from="02-08-2-5" id="02-08-3" name="y_axis_trend" text="trend" to="02-08-2-5" type="event"/>
 					<label from="02-08-2-7" id="02-08-4" name="slope_up" text="increasing" to="02-08-2-7" type="event"/>
 					<label from="02-08-2-8" id="02-08-5" name="topic_related_property" text="average" to="02-08-2-8" type="event"/>
 					<label from="02-08-2-9" id="02-08-6" name="y_axis" text="salary" to="02-08-2-9" type="event"/>
 					<label from="02-08-2-11" id="02-08-7" name="topic_related_object" text="women" to="02-08-2-11" type="event"/>
-					<label from="02-08-3-1" id="02-08-8" name="interpretation" text="However it does n't show how this relates to inflation" to="02-08-3-10" type="event"/>
+					<label from="02-08-3-1" id="02-08-8" name="interpretation" text="However it doesn't show how this relates to inflation" to="02-08-3-9" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -1993,9 +1977,8 @@
 						<token content="risen" content_fix="risen" id="02-09-2-8"/>
 						<token content="15" content_fix="15" id="02-09-2-9"/>
 						<token content=",000" content_fix=",000" id="02-09-2-10"/>
-						<token content="," content_fix="," id="02-09-2-11"/>
-						<token content="dollars" content_fix="dollars" id="02-09-2-12"/>
-						<token content="." content_fix="." id="02-09-2-13"/>
+						<token content="dollars" content_fix="dollars" id="02-09-2-11"/>
+						<token content="." content_fix="." id="02-09-2-12"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -2095,19 +2078,17 @@
 						<token content="over" content_fix="over" id="02-11-1-22"/>
 						<token content="50" content_fix="50" id="02-11-1-23"/>
 						<token content=",000" content_fix=",000" id="02-11-1-24"/>
-						<token content="," content_fix="," id="02-11-1-25"/>
-						<token content="dollars" content_fix="dollars" id="02-11-1-26"/>
-						<token content="in" content_fix="in" id="02-11-1-27"/>
-						<token content="2015" content_fix="2015" id="02-11-1-28"/>
-						<token content="," content_fix="," id="02-11-1-29"/>
-						<token content="compared" content_fix="compared" id="02-11-1-30"/>
-						<token content="to" content_fix="to" id="02-11-1-31"/>
-						<token content="40" content_fix="40" id="02-11-1-32"/>
-						<token content=",000" content_fix=",000" id="02-11-1-33"/>
-						<token content="," content_fix="," id="02-11-1-34"/>
-						<token content="in" content_fix="in" id="02-11-1-35"/>
-						<token content="2000" content_fix="2000" id="02-11-1-36"/>
-						<token content="." content_fix="." id="02-11-1-37"/>
+						<token content="dollars" content_fix="dollars" id="02-11-1-25"/>
+						<token content="in" content_fix="in" id="02-11-1-26"/>
+						<token content="2015" content_fix="2015" id="02-11-1-27"/>
+						<token content="," content_fix="," id="02-11-1-28"/>
+						<token content="compared" content_fix="compared" id="02-11-1-29"/>
+						<token content="to" content_fix="to" id="02-11-1-30"/>
+						<token content="40" content_fix="40" id="02-11-1-31"/>
+						<token content=",000" content_fix=",000" id="02-11-1-32"/>
+						<token content="in" content_fix="in" id="02-11-1-33"/>
+						<token content="2000" content_fix="2000" id="02-11-1-34"/>
+						<token content="." content_fix="." id="02-11-1-35"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -2248,12 +2229,11 @@
 						<token content="$" content_fix="$" id="02-13-1-18"/>
 						<token content="5" content_fix="5" id="02-13-1-19"/>
 						<token content=",000" content_fix=",000" id="02-13-1-20"/>
-						<token content="," content_fix="," id="02-13-1-21"/>
-						<token content="increase" content_fix="increase" id="02-13-1-22"/>
-						<token content="every" content_fix="every" id="02-13-1-23"/>
-						<token content="5" content_fix="5" id="02-13-1-24"/>
-						<token content="years" content_fix="years" id="02-13-1-25"/>
-						<token content="." content_fix="." id="02-13-1-26"/>
+						<token content="increase" content_fix="increase" id="02-13-1-21"/>
+						<token content="every" content_fix="every" id="02-13-1-22"/>
+						<token content="5" content_fix="5" id="02-13-1-23"/>
+						<token content="years" content_fix="years" id="02-13-1-24"/>
+						<token content="." content_fix="." id="02-13-1-25"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -2348,17 +2328,15 @@
 						<token content="$" content_fix="$" id="02-15-1-17"/>
 						<token content="40" content_fix="40" id="02-15-1-18"/>
 						<token content=",000" content_fix=",000" id="02-15-1-19"/>
-						<token content="," content_fix="," id="02-15-1-20"/>
-						<token content="in" content_fix="in" id="02-15-1-21"/>
-						<token content="2000" content_fix="2000" id="02-15-1-22"/>
-						<token content="to" content_fix="to" id="02-15-1-23"/>
-						<token content="over" content_fix="over" id="02-15-1-24"/>
-						<token content="$" content_fix="$" id="02-15-1-25"/>
-						<token content="50" content_fix="50" id="02-15-1-26"/>
-						<token content=",000" content_fix=",000" id="02-15-1-27"/>
-						<token content="," content_fix="," id="02-15-1-28"/>
-						<token content="in" content_fix="in" id="02-15-1-29"/>
-						<token content="2015" content_fix="2015" id="02-15-1-30"/>
+						<token content="in" content_fix="in" id="02-15-1-20"/>
+						<token content="2000" content_fix="2000" id="02-15-1-21"/>
+						<token content="to" content_fix="to" id="02-15-1-22"/>
+						<token content="over" content_fix="over" id="02-15-1-23"/>
+						<token content="$" content_fix="$" id="02-15-1-24"/>
+						<token content="50" content_fix="50" id="02-15-1-25"/>
+						<token content=",000" content_fix=",000" id="02-15-1-26"/>
+						<token content="in" content_fix="in" id="02-15-1-27"/>
+						<token content="2015" content_fix="2015" id="02-15-1-28"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -2453,29 +2431,25 @@
 						<token content="56" content_fix="56" id="02-17-1-17"/>
 						<token content=",000" content_fix=",000" id="02-17-1-18"/>
 						<token content="," content_fix="," id="02-17-1-19"/>
-						<token content="," content_fix="," id="02-17-1-20"/>
-						<token content="followed" content_fix="followed" id="02-17-1-21"/>
-						<token content="by" content_fix="by" id="02-17-1-22"/>
-						<token content="2010" content_fix="2010" id="02-17-1-23"/>
-						<token content="with" content_fix="with" id="02-17-1-24"/>
-						<token content="$" content_fix="$" id="02-17-1-25"/>
-						<token content="50" content_fix="50" id="02-17-1-26"/>
-						<token content=",000" content_fix=",000" id="02-17-1-27"/>
-						<token content="," content_fix="," id="02-17-1-28"/>
-						<token content="," content_fix="," id="02-17-1-29"/>
-						<token content="2005" content_fix="2005" id="02-17-1-30"/>
-						<token content="with" content_fix="with" id="02-17-1-31"/>
-						<token content="$" content_fix="$" id="02-17-1-32"/>
-						<token content="44" content_fix="44" id="02-17-1-33"/>
-						<token content=",000" content_fix=",000" id="02-17-1-34"/>
-						<token content="," content_fix="," id="02-17-1-35"/>
-						<token content="and" content_fix="and" id="02-17-1-36"/>
-						<token content="2000" content_fix="2000" id="02-17-1-37"/>
-						<token content="$" content_fix="$" id="02-17-1-38"/>
-						<token content="40" content_fix="40" id="02-17-1-39"/>
-						<token content=",000" content_fix=",000" id="02-17-1-40"/>
-						<token content="," content_fix="," id="02-17-1-41"/>
-						<token content="." content_fix="." id="02-17-1-42"/>
+						<token content="followed" content_fix="followed" id="02-17-1-20"/>
+						<token content="by" content_fix="by" id="02-17-1-21"/>
+						<token content="2010" content_fix="2010" id="02-17-1-22"/>
+						<token content="with" content_fix="with" id="02-17-1-23"/>
+						<token content="$" content_fix="$" id="02-17-1-24"/>
+						<token content="50" content_fix="50" id="02-17-1-25"/>
+						<token content=",000" content_fix=",000" id="02-17-1-26"/>
+						<token content="," content_fix="," id="02-17-1-27"/>
+						<token content="2005" content_fix="2005" id="02-17-1-28"/>
+						<token content="with" content_fix="with" id="02-17-1-29"/>
+						<token content="$" content_fix="$" id="02-17-1-30"/>
+						<token content="44" content_fix="44" id="02-17-1-31"/>
+						<token content=",000" content_fix=",000" id="02-17-1-32"/>
+						<token content="and" content_fix="and" id="02-17-1-33"/>
+						<token content="2000" content_fix="2000" id="02-17-1-34"/>
+						<token content="$" content_fix="$" id="02-17-1-35"/>
+						<token content="40" content_fix="40" id="02-17-1-36"/>
+						<token content=",000" content_fix=",000" id="02-17-1-37"/>
+						<token content="." content_fix="." id="02-17-1-38"/>
 					</sentence>
 					<sentence id="02-17-2">
 						<token content="as" content_fix="as" id="02-17-2-1"/>
@@ -2519,10 +2493,10 @@
 					<label from="02-17-1-35" id="02-17-19" name="y_axis_inferred_label" text="$" to="02-17-1-35" type="event"/>
 					<label from="02-17-1-36" id="02-17-20" name="y_axis_least_value_val" text="40" to="02-17-1-36" type="event"/>
 					<label from="02-17-1-37" id="02-17-21" name="y_magnitude" text=",000" to="02-17-1-37" type="event"/>
-					<label from="02-17-2-4" id="02-17-22" name="slope_up" text="increase" to="02-17-2-4" type="event"/>
-					<label from="02-17-2-6" id="02-17-23" name="topic_related_property" text="median" to="02-17-2-6" type="event"/>
-					<label from="02-17-2-7" id="02-17-24" name="y_axis" text="salary" to="02-17-2-7" type="event"/>
-					<label from="02-17-2-9" id="02-17-25" name="x_axis_trend" text="time goes on" to="02-17-2-11" type="event"/>
+					<label from="02-17-2-8" id="02-17-22" name="slope_up" text="increase" to="02-17-2-8" type="event"/>
+					<label from="02-17-2-10" id="02-17-23" name="topic_related_property" text="median" to="02-17-2-10" type="event"/>
+					<label from="02-17-2-11" id="02-17-24" name="y_axis" text="salary" to="02-17-2-11" type="event"/>
+					<label from="02-17-2-13" id="02-17-25" name="x_axis_trend" text="time goes on" to="02-17-2-15" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -2596,18 +2570,16 @@
 						<token content="was" content_fix="was" id="02-19-2-10"/>
 						<token content="40" content_fix="40" id="02-19-2-11"/>
 						<token content=",000" content_fix=",000" id="02-19-2-12"/>
-						<token content="," content_fix="," id="02-19-2-13"/>
-						<token content="in" content_fix="in" id="02-19-2-14"/>
-						<token content="2000" content_fix="2000" id="02-19-2-15"/>
-						<token content="and" content_fix="and" id="02-19-2-16"/>
-						<token content="is" content_fix="is" id="02-19-2-17"/>
-						<token content="now" content_fix="now" id="02-19-2-18"/>
-						<token content="56" content_fix="56" id="02-19-2-19"/>
-						<token content=",000" content_fix=",000" id="02-19-2-20"/>
-						<token content="," content_fix="," id="02-19-2-21"/>
-						<token content="in" content_fix="in" id="02-19-2-22"/>
-						<token content="2015" content_fix="2015" id="02-19-2-23"/>
-						<token content="." content_fix="." id="02-19-2-24"/>
+						<token content="in" content_fix="in" id="02-19-2-13"/>
+						<token content="2000" content_fix="2000" id="02-19-2-14"/>
+						<token content="and" content_fix="and" id="02-19-2-15"/>
+						<token content="is" content_fix="is" id="02-19-2-16"/>
+						<token content="now" content_fix="now" id="02-19-2-17"/>
+						<token content="56" content_fix="56" id="02-19-2-18"/>
+						<token content=",000" content_fix=",000" id="02-19-2-19"/>
+						<token content="in" content_fix="in" id="02-19-2-20"/>
+						<token content="2015" content_fix="2015" id="02-19-2-21"/>
+						<token content="." content_fix="." id="02-19-2-22"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -3037,7 +3009,7 @@
 		</story>
 		<story story_id="03-04">
 			<text>
-				<content>A high percentage of young people watch TV ( 40 % ) ; this figure presumably applies to pre - internet days . 30 % go out for the evening . 20 % spend time with their family , exactly half of those watching TV , so they are not watching TV with their families in this case . 10 % read a book .</content>
+				<content>A high percentage of young people watch TV ( 40 % ) ; this figure presumably applies to pre-internet days . 30 % go out for the evening . 20 % spend time with their family , exactly half of those watching TV , so they are not watching TV with their families in this case . 10 % read a book .</content>
 				<sentences>
 					<sentence id="03-04-1">
 						<token content="A" content_fix="A" id="03-04-1-1"/>
@@ -3058,11 +3030,9 @@
 						<token content="presumably" content_fix="presumably" id="03-04-1-16"/>
 						<token content="applies" content_fix="applies" id="03-04-1-17"/>
 						<token content="to" content_fix="to" id="03-04-1-18"/>
-						<token content="pre" content_fix="pre" id="03-04-1-19"/>
-						<token content="-" content_fix="-" id="03-04-1-20"/>
-						<token content="internet" content_fix="internet" id="03-04-1-21"/>
-						<token content="days" content_fix="days" id="03-04-1-22"/>
-						<token content="." content_fix="." id="03-04-1-23"/>
+						<token content="pre-internet" content_fix="pre-internet" id="03-04-1-19"/>
+						<token content="days" content_fix="days" id="03-04-1-20"/>
+						<token content="." content_fix="." id="03-04-1-21"/>
 					</sentence>
 					<sentence id="03-04-2">
 						<token content="30" content_fix="30" id="03-04-2-1"/>
@@ -3123,7 +3093,7 @@
 					<label from="03-04-1-7" id="03-04-5" name="x_axis_label_highest_value" text="watch TV" to="03-04-1-8" type="event"/>
 					<label from="03-04-1-10" id="03-04-6" name="y_axis_highest_value_val" text="40" to="03-04-1-10" type="event"/>
 					<label from="03-04-1-11" id="03-04-7" name="y_axis" text="%" to="03-04-1-11" type="event"/>
-					<label from="03-04-1-14" id="03-04-8" name="interpretation" text="this figure presumably applies to pre - internet days" to="03-04-1-22" type="event"/>
+					<label from="03-04-1-14" id="03-04-8" name="interpretation" text="this figure presumably applies to pre-internet days" to="03-04-1-20" type="event"/>
 					<label from="03-04-2-1" id="03-04-9" name="y_axis_Scnd_highest_val" text="30" to="03-04-2-1" type="event"/>
 					<label from="03-04-2-2" id="03-04-10" name="y_axis" text="%" to="03-04-2-2" type="event"/>
 					<label from="03-04-2-3" id="03-04-11" name="x_axis_label_Scnd_highest_value" text="go out" to="03-04-2-4" type="event"/>
@@ -4756,8 +4726,7 @@
 						<token content="approximately" content_fix="approximately" id="04-04-2-14"/>
 						<token content="10" content_fix="10" id="04-04-2-15"/>
 						<token content=",000" content_fix=",000" id="04-04-2-16"/>
-						<token content="," content_fix="," id="04-04-2-17"/>
-						<token content="." content_fix="." id="04-04-2-18"/>
+						<token content="." content_fix="." id="04-04-2-17"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -5001,8 +4970,7 @@
 						<token content="$" content_fix="$" id="04-07-1-19"/>
 						<token content="60" content_fix="60" id="04-07-1-20"/>
 						<token content=",000" content_fix=",000" id="04-07-1-21"/>
-						<token content="," content_fix="," id="04-07-1-22"/>
-						<token content="." content_fix="." id="04-07-1-23"/>
+						<token content="." content_fix="." id="04-07-1-22"/>
 					</sentence>
 					<sentence id="04-07-2">
 						<token content="Masters" content_fix="Masters" id="04-07-2-1"/>
@@ -5016,8 +4984,7 @@
 						<token content="$" content_fix="$" id="04-07-2-9"/>
 						<token content="55" content_fix="55" id="04-07-2-10"/>
 						<token content=",000" content_fix=",000" id="04-07-2-11"/>
-						<token content="," content_fix="," id="04-07-2-12"/>
-						<token content="." content_fix="." id="04-07-2-13"/>
+						<token content="." content_fix="." id="04-07-2-12"/>
 					</sentence>
 					<sentence id="04-07-3">
 						<token content="Then" content_fix="Then" id="04-07-3-1"/>
@@ -5030,10 +4997,9 @@
 						<token content="$" content_fix="$" id="04-07-3-8"/>
 						<token content="45" content_fix="45" id="04-07-3-9"/>
 						<token content=",000" content_fix=",000" id="04-07-3-10"/>
-						<token content="," content_fix="," id="04-07-3-11"/>
-						<token content="on" content_fix="on" id="04-07-3-12"/>
-						<token content="average" content_fix="average" id="04-07-3-13"/>
-						<token content="." content_fix="." id="04-07-3-14"/>
+						<token content="on" content_fix="on" id="04-07-3-11"/>
+						<token content="average" content_fix="average" id="04-07-3-12"/>
+						<token content="." content_fix="." id="04-07-3-13"/>
 					</sentence>
 					<sentence id="04-07-4">
 						<token content="Finally" content_fix="Finally" id="04-07-4-1"/>
@@ -5051,10 +5017,9 @@
 						<token content="$" content_fix="$" id="04-07-4-13"/>
 						<token content="30" content_fix="30" id="04-07-4-14"/>
 						<token content=",000" content_fix=",000" id="04-07-4-15"/>
-						<token content="," content_fix="," id="04-07-4-16"/>
-						<token content="on" content_fix="on" id="04-07-4-17"/>
-						<token content="average" content_fix="average" id="04-07-4-18"/>
-						<token content="." content_fix="." id="04-07-4-19"/>
+						<token content="on" content_fix="on" id="04-07-4-16"/>
+						<token content="average" content_fix="average" id="04-07-4-17"/>
+						<token content="." content_fix="." id="04-07-4-18"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -5069,27 +5034,27 @@
 					<label from="04-07-1-19" id="04-07-7" name="y_axis_inferred_label" text="$" to="04-07-1-19" type="event"/>
 					<label from="04-07-1-20" id="04-07-8" name="y_axis_inferred_highest_value_approx" text="60" to="04-07-1-20" type="event"/>
 					<label from="04-07-1-21" id="04-07-9" name="y_magnitude" text=",000" to="04-07-1-21" type="event"/>
-					<label from="04-07-1-23" id="04-07-10" name="x_axis_label_Scnd_highest_value" text="Masters" to="04-07-1-23" type="event"/>
-					<label from="04-07-2-1" id="04-07-11" name="x_axis" text="degree" to="04-07-2-1" type="event"/>
-					<label from="04-07-2-4" id="04-07-12" name="order_Scnd" text="2nd" to="04-07-2-4" type="event"/>
-					<label from="04-07-2-7" id="04-07-13" name="topic_related_property" text="average" to="04-07-2-7" type="event"/>
-					<label from="04-07-2-8" id="04-07-14" name="y_axis_inferred_label" text="$" to="04-07-2-8" type="event"/>
-					<label from="04-07-2-9" id="04-07-15" name="y_axis_Scnd_highest_val" text="55" to="04-07-2-9" type="event"/>
-					<label from="04-07-2-10" id="04-07-16" name="y_magnitude" text=",000" to="04-07-2-10" type="event"/>
-					<label from="04-07-3-1" id="04-07-17" name="x_axis_label_3rd_highest_value" text="Bachelors" to="04-07-3-1" type="event"/>
-					<label from="04-07-3-2" id="04-07-18" name="x_axis" text="Degree" to="04-07-3-2" type="event"/>
-					<label from="04-07-3-6" id="04-07-19" name="y_axis_inferred_label" text="$" to="04-07-3-6" type="event"/>
-					<label from="04-07-3-7" id="04-07-20" name="y_axis_3rd_highest_val" text="45" to="04-07-3-7" type="event"/>
-					<label from="04-07-3-8" id="04-07-21" name="y_magnitude" text=",000" to="04-07-3-8" type="event"/>
-					<label from="04-07-3-10" id="04-07-22" name="topic_related_property" text="average" to="04-07-3-10" type="event"/>
-					<label from="04-07-3-12" id="04-07-23" name="final_label_left" text="Finally" to="04-07-3-12" type="event"/>
-					<label from="04-07-4-1" id="04-07-24" name="x_axis_label_least_value" text="no degree" to="04-07-4-2" type="event"/>
-					<label from="04-07-4-5" id="04-07-25" name="y_axis_least_value" text="least" to="04-07-4-5" type="event"/>
-					<label from="04-07-4-9" id="04-07-26" name="y_axis_approx" text="over" to="04-07-4-9" type="event"/>
-					<label from="04-07-4-10" id="04-07-27" name="y_axis_inferred_label" text="$" to="04-07-4-10" type="event"/>
-					<label from="04-07-4-11" id="04-07-28" name="y_axis_inferred_least_value_approx" text="30" to="04-07-4-11" type="event"/>
-					<label from="04-07-4-12" id="04-07-29" name="y_magnitude" text=",000" to="04-07-4-12" type="event"/>
-					<label from="04-07-4-14" id="04-07-30" name="topic_related_property" text="average" to="04-07-4-14" type="event"/>
+					<label from="04-07-2-1" id="04-07-10" name="x_axis_label_Scnd_highest_value" text="Masters" to="04-07-2-1" type="event"/>
+					<label from="04-07-2-2" id="04-07-11" name="x_axis" text="degree" to="04-07-2-2" type="event"/>
+					<label from="04-07-2-5" id="04-07-12" name="order_Scnd" text="2nd" to="04-07-2-5" type="event"/>
+					<label from="04-07-2-8" id="04-07-13" name="topic_related_property" text="average" to="04-07-2-8" type="event"/>
+					<label from="04-07-2-9" id="04-07-14" name="y_axis_inferred_label" text="$" to="04-07-2-9" type="event"/>
+					<label from="04-07-2-10" id="04-07-15" name="y_axis_Scnd_highest_val" text="55" to="04-07-2-10" type="event"/>
+					<label from="04-07-2-11" id="04-07-16" name="y_magnitude" text=",000" to="04-07-2-11" type="event"/>
+					<label from="04-07-3-3" id="04-07-17" name="x_axis_label_3rd_highest_value" text="Bachelors" to="04-07-3-3" type="event"/>
+					<label from="04-07-3-4" id="04-07-18" name="x_axis" text="Degree" to="04-07-3-4" type="event"/>
+					<label from="04-07-3-8" id="04-07-19" name="y_axis_inferred_label" text="$" to="04-07-3-8" type="event"/>
+					<label from="04-07-3-9" id="04-07-20" name="y_axis_3rd_highest_val" text="45" to="04-07-3-9" type="event"/>
+					<label from="04-07-3-10" id="04-07-21" name="y_magnitude" text=",000" to="04-07-3-10" type="event"/>
+					<label from="04-07-3-12" id="04-07-22" name="topic_related_property" text="average" to="04-07-3-12" type="event"/>
+					<label from="04-07-4-1" id="04-07-23" name="final_label_left" text="Finally" to="04-07-4-1" type="event"/>
+					<label from="04-07-4-4" id="04-07-24" name="x_axis_label_least_value" text="no degree" to="04-07-4-5" type="event"/>
+					<label from="04-07-4-8" id="04-07-25" name="y_axis_least_value" text="least" to="04-07-4-8" type="event"/>
+					<label from="04-07-4-12" id="04-07-26" name="y_axis_approx" text="over" to="04-07-4-12" type="event"/>
+					<label from="04-07-4-13" id="04-07-27" name="y_axis_inferred_label" text="$" to="04-07-4-13" type="event"/>
+					<label from="04-07-4-14" id="04-07-28" name="y_axis_inferred_least_value_approx" text="30" to="04-07-4-14" type="event"/>
+					<label from="04-07-4-15" id="04-07-29" name="y_magnitude" text=",000" to="04-07-4-15" type="event"/>
+					<label from="04-07-4-17" id="04-07-30" name="topic_related_property" text="average" to="04-07-4-17" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -5150,12 +5115,11 @@
 						<token content="$" content_fix="$" id="04-08-3-7"/>
 						<token content="30" content_fix="30" id="04-08-3-8"/>
 						<token content=",000" content_fix=",000" id="04-08-3-9"/>
-						<token content="," content_fix="," id="04-08-3-10"/>
-						<token content="between" content_fix="between" id="04-08-3-11"/>
-						<token content="these" content_fix="these" id="04-08-3-12"/>
-						<token content="average" content_fix="average" id="04-08-3-13"/>
-						<token content="earnings" content_fix="earnings" id="04-08-3-14"/>
-						<token content="." content_fix="." id="04-08-3-15"/>
+						<token content="between" content_fix="between" id="04-08-3-10"/>
+						<token content="these" content_fix="these" id="04-08-3-11"/>
+						<token content="average" content_fix="average" id="04-08-3-12"/>
+						<token content="earnings" content_fix="earnings" id="04-08-3-13"/>
+						<token content="." content_fix="." id="04-08-3-14"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -5278,38 +5242,36 @@
 						<token content="£" content_fix="$" id="04-10-2-9"/>
 						<token content="20" content_fix="20" id="04-10-2-10"/>
 						<token content=",000" content_fix=",000" id="04-10-2-11"/>
-						<token content="," content_fix="," id="04-10-2-12"/>
-						<token content="salary" content_fix="salary" id="04-10-2-13"/>
-						<token content="difference" content_fix="difference" id="04-10-2-14"/>
-						<token content="between" content_fix="between" id="04-10-2-15"/>
-						<token content="those" content_fix="those" id="04-10-2-16"/>
-						<token content="with" content_fix="with" id="04-10-2-17"/>
-						<token content="a" content_fix="a" id="04-10-2-18"/>
-						<token content="bachelor" content_fix="bachelor" id="04-10-2-19"/>
-						<token content="degree" content_fix="degree" id="04-10-2-20"/>
-						<token content="and" content_fix="and" id="04-10-2-21"/>
-						<token content="those" content_fix="those" id="04-10-2-22"/>
-						<token content="with" content_fix="with" id="04-10-2-23"/>
-						<token content="a" content_fix="a" id="04-10-2-24"/>
-						<token content="Phd" content_fix="Phd" id="04-10-2-25"/>
-						<token content="but" content_fix="but" id="04-10-2-26"/>
-						<token content="only" content_fix="only" id="04-10-2-27"/>
-						<token content="an" content_fix="an" id="04-10-2-28"/>
-						<token content="approximate" content_fix="approximate" id="04-10-2-29"/>
-						<token content="£" content_fix="$" id="04-10-2-30"/>
-						<token content="10" content_fix="10" id="04-10-2-31"/>
-						<token content=",000" content_fix=",000" id="04-10-2-32"/>
-						<token content="," content_fix="," id="04-10-2-33"/>
-						<token content="difference" content_fix="difference" id="04-10-2-34"/>
-						<token content="between" content_fix="between" id="04-10-2-35"/>
-						<token content="those" content_fix="those" id="04-10-2-36"/>
-						<token content="with" content_fix="with" id="04-10-2-37"/>
-						<token content="a" content_fix="a" id="04-10-2-38"/>
-						<token content="degree" content_fix="degree" id="04-10-2-39"/>
-						<token content="and" content_fix="and" id="04-10-2-40"/>
-						<token content="those" content_fix="those" id="04-10-2-41"/>
-						<token content="without" content_fix="without" id="04-10-2-42"/>
-						<token content="." content_fix="." id="04-10-2-43"/>
+						<token content="salary" content_fix="salary" id="04-10-2-12"/>
+						<token content="difference" content_fix="difference" id="04-10-2-13"/>
+						<token content="between" content_fix="between" id="04-10-2-14"/>
+						<token content="those" content_fix="those" id="04-10-2-15"/>
+						<token content="with" content_fix="with" id="04-10-2-16"/>
+						<token content="a" content_fix="a" id="04-10-2-17"/>
+						<token content="bachelor" content_fix="bachelor" id="04-10-2-18"/>
+						<token content="degree" content_fix="degree" id="04-10-2-19"/>
+						<token content="and" content_fix="and" id="04-10-2-20"/>
+						<token content="those" content_fix="those" id="04-10-2-21"/>
+						<token content="with" content_fix="with" id="04-10-2-22"/>
+						<token content="a" content_fix="a" id="04-10-2-23"/>
+						<token content="Phd" content_fix="Phd" id="04-10-2-24"/>
+						<token content="but" content_fix="but" id="04-10-2-25"/>
+						<token content="only" content_fix="only" id="04-10-2-26"/>
+						<token content="an" content_fix="an" id="04-10-2-27"/>
+						<token content="approximate" content_fix="approximate" id="04-10-2-28"/>
+						<token content="£" content_fix="$" id="04-10-2-29"/>
+						<token content="10" content_fix="10" id="04-10-2-30"/>
+						<token content=",000" content_fix=",000" id="04-10-2-31"/>
+						<token content="difference" content_fix="difference" id="04-10-2-32"/>
+						<token content="between" content_fix="between" id="04-10-2-33"/>
+						<token content="those" content_fix="those" id="04-10-2-34"/>
+						<token content="with" content_fix="with" id="04-10-2-35"/>
+						<token content="a" content_fix="a" id="04-10-2-36"/>
+						<token content="degree" content_fix="degree" id="04-10-2-37"/>
+						<token content="and" content_fix="and" id="04-10-2-38"/>
+						<token content="those" content_fix="those" id="04-10-2-39"/>
+						<token content="without" content_fix="without" id="04-10-2-40"/>
+						<token content="." content_fix="." id="04-10-2-41"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -5563,8 +5525,7 @@
 						<token content="$" content_fix="$" id="04-14-2-9"/>
 						<token content="62" content_fix="62" id="04-14-2-10"/>
 						<token content=",000" content_fix=",000" id="04-14-2-11"/>
-						<token content="," content_fix="," id="04-14-2-12"/>
-						<token content="." content_fix="." id="04-14-2-13"/>
+						<token content="." content_fix="." id="04-14-2-12"/>
 					</sentence>
 					<sentence id="04-14-3">
 						<token content="A" content_fix="A" id="04-14-3-1"/>
@@ -5578,18 +5539,16 @@
 						<token content="52" content_fix="52" id="04-14-3-9"/>
 						<token content=",000" content_fix=",000" id="04-14-3-10"/>
 						<token content="," content_fix="," id="04-14-3-11"/>
-						<token content="," content_fix="," id="04-14-3-12"/>
-						<token content="whilst" content_fix="whilst" id="04-14-3-13"/>
-						<token content="a" content_fix="a" id="04-14-3-14"/>
-						<token content="BSc" content_fix="BSc" id="04-14-3-15"/>
-						<token content="gets" content_fix="gets" id="04-14-3-16"/>
-						<token content="$" content_fix="$" id="04-14-3-17"/>
-						<token content="42" content_fix="42" id="04-14-3-18"/>
-						<token content=",000" content_fix=",000" id="04-14-3-19"/>
-						<token content="," content_fix="," id="04-14-3-20"/>
-						<token content="on" content_fix="on" id="04-14-3-21"/>
-						<token content="average" content_fix="average" id="04-14-3-22"/>
-						<token content="." content_fix="." id="04-14-3-23"/>
+						<token content="whilst" content_fix="whilst" id="04-14-3-12"/>
+						<token content="a" content_fix="a" id="04-14-3-13"/>
+						<token content="BSc" content_fix="BSc" id="04-14-3-14"/>
+						<token content="gets" content_fix="gets" id="04-14-3-15"/>
+						<token content="$" content_fix="$" id="04-14-3-16"/>
+						<token content="42" content_fix="42" id="04-14-3-17"/>
+						<token content=",000" content_fix=",000" id="04-14-3-18"/>
+						<token content="on" content_fix="on" id="04-14-3-19"/>
+						<token content="average" content_fix="average" id="04-14-3-20"/>
+						<token content="." content_fix="." id="04-14-3-21"/>
 					</sentence>
 					<sentence id="04-14-4">
 						<token content="Those" content_fix="Those" id="04-14-4-1"/>
@@ -5603,8 +5562,7 @@
 						<token content="$" content_fix="$" id="04-14-4-9"/>
 						<token content="30" content_fix="30" id="04-14-4-10"/>
 						<token content=",000" content_fix=",000" id="04-14-4-11"/>
-						<token content="," content_fix="," id="04-14-4-12"/>
-						<token content="." content_fix="." id="04-14-4-13"/>
+						<token content="." content_fix="." id="04-14-4-12"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -5621,22 +5579,22 @@
 					<label from="04-14-2-9" id="04-14-9" name="y_axis_inferred_label" text="$" to="04-14-2-9" type="event"/>
 					<label from="04-14-2-10" id="04-14-10" name="y_axis_inferred_highest_value_approx" text="62" to="04-14-2-10" type="event"/>
 					<label from="04-14-2-11" id="04-14-11" name="y_magnitude" text=",000" to="04-14-2-11" type="event"/>
-					<label from="04-14-3-1" id="04-14-12" name="x_axis_label_Scnd_highest_value" text="master's" to="04-14-3-1" type="event"/>
-					<label from="04-14-3-2" id="04-14-13" name="x_axis" text="degree" to="04-14-3-2" type="event"/>
-					<label from="04-14-3-5" id="04-14-14" name="y_axis" text="earnings" to="04-14-3-5" type="event"/>
-					<label from="04-14-3-7" id="04-14-15" name="y_axis_inferred_label" text="$" to="04-14-3-7" type="event"/>
-					<label from="04-14-3-8" id="04-14-16" name="y_axis_inferred_Scnd_highest_value_approx" text="52" to="04-14-3-8" type="event"/>
-					<label from="04-14-3-9" id="04-14-17" name="y_magnitude" text=",000" to="04-14-3-9" type="event"/>
-					<label from="04-14-3-11" id="04-14-18" name="y_x_comparison" text="whilst" to="04-14-3-11" type="event"/>
-					<label from="04-14-3-13" id="04-14-19" name="x_axis_label_3rd_highest_value" text="BSc" to="04-14-3-13" type="event"/>
-					<label from="04-14-3-15" id="04-14-20" name="y_axis_inferred_label" text="$" to="04-14-3-15" type="event"/>
-					<label from="04-14-3-16" id="04-14-21" name="y_axis_inferred_3rd_highest_value_approx" text="42" to="04-14-3-16" type="event"/>
-					<label from="04-14-3-17" id="04-14-22" name="y_magnitude" text=",000" to="04-14-3-17" type="event"/>
-					<label from="04-14-4-0" id="04-14-23" name="x_axis_label_least_value" text="no degree" to="04-14-4-1" type="event"/>
-					<label from="04-14-4-4" id="04-14-24" name="y_axis" text="salary" to="04-14-4-4" type="event"/>
-					<label from="04-14-4-6" id="04-14-25" name="y_axis_inferred_label" text="$" to="04-14-4-6" type="event"/>
-					<label from="04-14-4-7" id="04-14-26" name="y_axis_inferred_least_value_approx" text="30" to="04-14-4-7" type="event"/>
-					<label from="04-14-4-8" id="04-14-27" name="y_magnitude" text=",000" to="04-14-4-8" type="event"/>
+					<label from="04-14-3-2" id="04-14-12" name="x_axis_label_Scnd_highest_value" text="master's" to="04-14-3-2" type="event"/>
+					<label from="04-14-3-3" id="04-14-13" name="x_axis" text="degree" to="04-14-3-3" type="event"/>
+					<label from="04-14-3-6" id="04-14-14" name="y_axis" text="earnings" to="04-14-3-6" type="event"/>
+					<label from="04-14-3-8" id="04-14-15" name="y_axis_inferred_label" text="$" to="04-14-3-8" type="event"/>
+					<label from="04-14-3-9" id="04-14-16" name="y_axis_inferred_Scnd_highest_value_approx" text="52" to="04-14-3-9" type="event"/>
+					<label from="04-14-3-10" id="04-14-17" name="y_magnitude" text=",000" to="04-14-3-10" type="event"/>
+					<label from="04-14-3-12" id="04-14-18" name="y_x_comparison" text="whilst" to="04-14-3-12" type="event"/>
+					<label from="04-14-3-14" id="04-14-19" name="x_axis_label_3rd_highest_value" text="BSc" to="04-14-3-14" type="event"/>
+					<label from="04-14-3-16" id="04-14-20" name="y_axis_inferred_label" text="$" to="04-14-3-16" type="event"/>
+					<label from="04-14-3-17" id="04-14-21" name="y_axis_inferred_3rd_highest_value_approx" text="42" to="04-14-3-17" type="event"/>
+					<label from="04-14-3-18" id="04-14-22" name="y_magnitude" text=",000" to="04-14-3-18" type="event"/>
+					<label from="04-14-4-3" id="04-14-23" name="x_axis_label_least_value" text="no degree" to="04-14-4-4" type="event"/>
+					<label from="04-14-4-7" id="04-14-24" name="y_axis" text="salary" to="04-14-4-7" type="event"/>
+					<label from="04-14-4-9" id="04-14-25" name="y_axis_inferred_label" text="$" to="04-14-4-9" type="event"/>
+					<label from="04-14-4-10" id="04-14-26" name="y_axis_inferred_least_value_approx" text="30" to="04-14-4-10" type="event"/>
+					<label from="04-14-4-11" id="04-14-27" name="y_magnitude" text=",000" to="04-14-4-11" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -5677,41 +5635,38 @@
 						<token content="60" content_fix="60" id="04-15-2-8"/>
 						<token content=",000" content_fix=",000" id="04-15-2-9"/>
 						<token content="," content_fix="," id="04-15-2-10"/>
-						<token content="," content_fix="," id="04-15-2-11"/>
-						<token content="about" content_fix="about" id="04-15-2-12"/>
-						<token content="$" content_fix="$" id="04-15-2-13"/>
-						<token content="10" content_fix="10" id="04-15-2-14"/>
-						<token content=",000" content_fix=",000" id="04-15-2-15"/>
-						<token content="," content_fix="," id="04-15-2-16"/>
-						<token content="per" content_fix="per" id="04-15-2-17"/>
-						<token content="year" content_fix="year" id="04-15-2-18"/>
-						<token content="more" content_fix="more" id="04-15-2-19"/>
-						<token content="than" content_fix="than" id="04-15-2-20"/>
-						<token content="those" content_fix="those" id="04-15-2-21"/>
-						<token content="with" content_fix="with" id="04-15-2-22"/>
-						<token content="a" content_fix="a" id="04-15-2-23"/>
-						<token content="masters" content_fix="masters" id="04-15-2-24"/>
-						<token content="degree" content_fix="degree" id="04-15-2-25"/>
-						<token content="," content_fix="," id="04-15-2-26"/>
-						<token content="who" content_fix="who" id="04-15-2-27"/>
-						<token content="in" content_fix="in" id="04-15-2-28"/>
-						<token content="turn" content_fix="turn" id="04-15-2-29"/>
-						<token content="earn" content_fix="earn" id="04-15-2-30"/>
-						<token content="about" content_fix="about" id="04-15-2-31"/>
-						<token content="$" content_fix="$" id="04-15-2-32"/>
-						<token content="10" content_fix="10" id="04-15-2-33"/>
-						<token content=",000" content_fix=",000" id="04-15-2-34"/>
-						<token content="," content_fix="," id="04-15-2-35"/>
-						<token content="per" content_fix="per" id="04-15-2-36"/>
-						<token content="year" content_fix="year" id="04-15-2-37"/>
-						<token content="more" content_fix="more" id="04-15-2-38"/>
-						<token content="than" content_fix="than" id="04-15-2-39"/>
-						<token content="those" content_fix="those" id="04-15-2-40"/>
-						<token content="with" content_fix="with" id="04-15-2-41"/>
-						<token content="a" content_fix="a" id="04-15-2-42"/>
-						<token content="bachelor" content_fix="bachelor" id="04-15-2-43"/>
-						<token content="degree" content_fix="degree" id="04-15-2-44"/>
-						<token content="." content_fix="." id="04-15-2-45"/>
+						<token content="about" content_fix="about" id="04-15-2-11"/>
+						<token content="$" content_fix="$" id="04-15-2-12"/>
+						<token content="10" content_fix="10" id="04-15-2-13"/>
+						<token content=",000" content_fix=",000" id="04-15-2-14"/>
+						<token content="per" content_fix="per" id="04-15-2-15"/>
+						<token content="year" content_fix="year" id="04-15-2-16"/>
+						<token content="more" content_fix="more" id="04-15-2-17"/>
+						<token content="than" content_fix="than" id="04-15-2-18"/>
+						<token content="those" content_fix="those" id="04-15-2-19"/>
+						<token content="with" content_fix="with" id="04-15-2-20"/>
+						<token content="a" content_fix="a" id="04-15-2-21"/>
+						<token content="masters" content_fix="masters" id="04-15-2-22"/>
+						<token content="degree" content_fix="degree" id="04-15-2-23"/>
+						<token content="," content_fix="," id="04-15-2-24"/>
+						<token content="who" content_fix="who" id="04-15-2-25"/>
+						<token content="in" content_fix="in" id="04-15-2-26"/>
+						<token content="turn" content_fix="turn" id="04-15-2-27"/>
+						<token content="earn" content_fix="earn" id="04-15-2-28"/>
+						<token content="about" content_fix="about" id="04-15-2-29"/>
+						<token content="$" content_fix="$" id="04-15-2-30"/>
+						<token content="10" content_fix="10" id="04-15-2-31"/>
+						<token content=",000" content_fix=",000" id="04-15-2-32"/>
+						<token content="per" content_fix="per" id="04-15-2-33"/>
+						<token content="year" content_fix="year" id="04-15-2-34"/>
+						<token content="more" content_fix="more" id="04-15-2-35"/>
+						<token content="than" content_fix="than" id="04-15-2-36"/>
+						<token content="those" content_fix="those" id="04-15-2-37"/>
+						<token content="with" content_fix="with" id="04-15-2-38"/>
+						<token content="a" content_fix="a" id="04-15-2-39"/>
+						<token content="bachelor" content_fix="bachelor" id="04-15-2-40"/>
+						<token content="degree" content_fix="degree" id="04-15-2-41"/>
+						<token content="." content_fix="." id="04-15-2-42"/>
 					</sentence>
 					<sentence id="04-15-3">
 						<token content="Those" content_fix="Those" id="04-15-3-1"/>
@@ -5726,10 +5681,9 @@
 						<token content="$" content_fix="$" id="04-15-3-10"/>
 						<token content="35" content_fix="35" id="04-15-3-11"/>
 						<token content=",000" content_fix=",000" id="04-15-3-12"/>
-						<token content="," content_fix="," id="04-15-3-13"/>
-						<token content="per" content_fix="per" id="04-15-3-14"/>
-						<token content="year" content_fix="year" id="04-15-3-15"/>
-						<token content="." content_fix="." id="04-15-3-16"/>
+						<token content="per" content_fix="per" id="04-15-3-13"/>
+						<token content="year" content_fix="year" id="04-15-3-14"/>
+						<token content="." content_fix="." id="04-15-3-15"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -5760,12 +5714,12 @@
 					<label from="04-15-2-35" id="04-15-23" name="y_axis_trend_up" text="more" to="04-15-2-35" type="event"/>
 					<label from="04-15-2-40" id="04-15-24" name="x_axis_label_3rd_highest_value" text="bachelor" to="04-15-2-40" type="event"/>
 					<label from="04-15-2-41" id="04-15-25" name="x_axis" text="degree" to="04-15-2-41" type="event"/>
-					<label from="04-15-3-0" id="04-15-26" name="x_axis_label_least_value" text="no degree" to="04-15-3-1" type="event"/>
-					<label from="04-15-3-4" id="04-15-27" name="y_axis_least_value" text="least" to="04-15-3-4" type="event"/>
-					<label from="04-15-3-6" id="04-15-28" name="y_axis_approx" text="about" to="04-15-3-6" type="event"/>
-					<label from="04-15-3-7" id="04-15-29" name="y_axis_inferred_label" text="$" to="04-15-3-7" type="event"/>
-					<label from="04-15-3-8" id="04-15-30" name="y_axis_least_value_val" text="35" to="04-15-3-8" type="event"/>
-					<label from="04-15-3-9" id="04-15-31" name="y_magnitude" text=",000" to="04-15-3-9" type="event"/>
+					<label from="04-15-3-3" id="04-15-26" name="x_axis_label_least_value" text="no degree" to="04-15-3-4" type="event"/>
+					<label from="04-15-3-7" id="04-15-27" name="y_axis_least_value" text="least" to="04-15-3-7" type="event"/>
+					<label from="04-15-3-9" id="04-15-28" name="y_axis_approx" text="about" to="04-15-3-9" type="event"/>
+					<label from="04-15-3-10" id="04-15-29" name="y_axis_inferred_label" text="$" to="04-15-3-10" type="event"/>
+					<label from="04-15-3-11" id="04-15-30" name="y_axis_least_value_val" text="35" to="04-15-3-11" type="event"/>
+					<label from="04-15-3-12" id="04-15-31" name="y_magnitude" text=",000" to="04-15-3-12" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -5858,28 +5812,24 @@
 						<token content="60" content_fix="60" id="04-17-1-25"/>
 						<token content=",000" content_fix=",000" id="04-17-1-26"/>
 						<token content="," content_fix="," id="04-17-1-27"/>
-						<token content="," content_fix="," id="04-17-1-28"/>
-						<token content="followed" content_fix="followed" id="04-17-1-29"/>
-						<token content="by" content_fix="by" id="04-17-1-30"/>
-						<token content="masters" content_fix="masters" id="04-17-1-31"/>
-						<token content="with" content_fix="with" id="04-17-1-32"/>
-						<token content="50" content_fix="50" id="04-17-1-33"/>
-						<token content=",000" content_fix=",000" id="04-17-1-34"/>
-						<token content="," content_fix="," id="04-17-1-35"/>
-						<token content="\\n" content_fix="\\n" id="04-17-1-36"/>
-						<token content="bachelors" content_fix="bachelors" id="04-17-1-37"/>
-						<token content="with" content_fix="with" id="04-17-1-38"/>
-						<token content="over" content_fix="over" id="04-17-1-39"/>
-						<token content="40" content_fix="40" id="04-17-1-40"/>
-						<token content=",000" content_fix=",000" id="04-17-1-41"/>
-						<token content="," content_fix="," id="04-17-1-42"/>
-						<token content="and" content_fix="and" id="04-17-1-43"/>
-						<token content="no" content_fix="no" id="04-17-1-44"/>
-						<token content="degree" content_fix="degree" id="04-17-1-45"/>
-						<token content="30" content_fix="30" id="04-17-1-46"/>
-						<token content=",000" content_fix=",000" id="04-17-1-47"/>
-						<token content="," content_fix="," id="04-17-1-48"/>
-						<token content="." content_fix="." id="04-17-1-49"/>
+						<token content="followed" content_fix="followed" id="04-17-1-28"/>
+						<token content="by" content_fix="by" id="04-17-1-29"/>
+						<token content="masters" content_fix="masters" id="04-17-1-30"/>
+						<token content="with" content_fix="with" id="04-17-1-31"/>
+						<token content="50" content_fix="50" id="04-17-1-32"/>
+						<token content=",000" content_fix=",000" id="04-17-1-33"/>
+						<token content="\\n" content_fix="\\n" id="04-17-1-34"/>
+						<token content="bachelors" content_fix="bachelors" id="04-17-1-35"/>
+						<token content="with" content_fix="with" id="04-17-1-36"/>
+						<token content="over" content_fix="over" id="04-17-1-37"/>
+						<token content="40" content_fix="40" id="04-17-1-38"/>
+						<token content=",000" content_fix=",000" id="04-17-1-39"/>
+						<token content="and" content_fix="and" id="04-17-1-40"/>
+						<token content="no" content_fix="no" id="04-17-1-41"/>
+						<token content="degree" content_fix="degree" id="04-17-1-42"/>
+						<token content="30" content_fix="30" id="04-17-1-43"/>
+						<token content=",000" content_fix=",000" id="04-17-1-44"/>
+						<token content="." content_fix="." id="04-17-1-45"/>
 					</sentence>
 					<sentence id="04-17-2">
 						<token content="showing" content_fix="showing" id="04-17-2-1"/>
@@ -5922,10 +5872,10 @@
 					<label from="04-17-1-41" id="04-17-15" name="x_axis_label_least_value" text="no degree" to="04-17-1-42" type="event"/>
 					<label from="04-17-1-43" id="04-17-16" name="y_axis_inferred_least_value_approx" text="30" to="04-17-1-43" type="event"/>
 					<label from="04-17-1-44" id="04-17-17" name="y_magnitude" text=",000" to="04-17-1-44" type="event"/>
-					<label from="04-17-2-3" id="04-17-18" name="x_axis_up" text="higher" to="04-17-2-3" type="event"/>
-					<label from="04-17-2-4" id="04-17-19" name="x_axis" text="education" to="04-17-2-4" type="event"/>
-					<label from="04-17-2-9" id="04-17-20" name="slope_up" text="higher" to="04-17-2-9" type="event"/>
-					<label from="04-17-2-11" id="04-17-21" name="y_axis" text="wage salary" to="04-17-2-12" type="event"/>
+					<label from="04-17-2-7" id="04-17-18" name="x_axis_up" text="higher" to="04-17-2-7" type="event"/>
+					<label from="04-17-2-8" id="04-17-19" name="x_axis" text="education" to="04-17-2-8" type="event"/>
+					<label from="04-17-2-13" id="04-17-20" name="slope_up" text="higher" to="04-17-2-13" type="event"/>
+					<label from="04-17-2-15" id="04-17-21" name="y_axis" text="wage salary" to="04-17-2-16" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -5989,33 +5939,29 @@
 						<token content="64" content_fix="64" id="04-19-2-9"/>
 						<token content=",000" content_fix=",000" id="04-19-2-10"/>
 						<token content="," content_fix="," id="04-19-2-11"/>
-						<token content="," content_fix="," id="04-19-2-12"/>
-						<token content="then" content_fix="then" id="04-19-2-13"/>
-						<token content="Masters" content_fix="Masters" id="04-19-2-14"/>
-						<token content="at" content_fix="at" id="04-19-2-15"/>
-						<token content="54" content_fix="54" id="04-19-2-16"/>
-						<token content=",000" content_fix=",000" id="04-19-2-17"/>
-						<token content="," content_fix="," id="04-19-2-18"/>
-						<token content="," content_fix="," id="04-19-2-19"/>
-						<token content="then" content_fix="then" id="04-19-2-20"/>
-						<token content="Bachelor" content_fix="Bachelor" id="04-19-2-21"/>
-						<token content="at" content_fix="at" id="04-19-2-22"/>
-						<token content="44" content_fix="44" id="04-19-2-23"/>
-						<token content=",000" content_fix=",000" id="04-19-2-24"/>
-						<token content="," content_fix="," id="04-19-2-25"/>
-						<token content="and" content_fix="and" id="04-19-2-26"/>
-						<token content="those" content_fix="those" id="04-19-2-27"/>
-						<token content="in" content_fix="in" id="04-19-2-28"/>
-						<token content="the" content_fix="the" id="04-19-2-29"/>
-						<token content="field" content_fix="field" id="04-19-2-30"/>
-						<token content="with" content_fix="with" id="04-19-2-31"/>
-						<token content="no" content_fix="no" id="04-19-2-32"/>
-						<token content="degree" content_fix="degree" id="04-19-2-33"/>
-						<token content="earn" content_fix="earn" id="04-19-2-34"/>
-						<token content="34" content_fix="34" id="04-19-2-35"/>
-						<token content=",000" content_fix=",000" id="04-19-2-36"/>
-						<token content="," content_fix="," id="04-19-2-37"/>
-						<token content="." content_fix="." id="04-19-2-38"/>
+						<token content="then" content_fix="then" id="04-19-2-12"/>
+						<token content="Masters" content_fix="Masters" id="04-19-2-13"/>
+						<token content="at" content_fix="at" id="04-19-2-14"/>
+						<token content="54" content_fix="54" id="04-19-2-15"/>
+						<token content=",000" content_fix=",000" id="04-19-2-16"/>
+						<token content="," content_fix="," id="04-19-2-17"/>
+						<token content="then" content_fix="then" id="04-19-2-18"/>
+						<token content="Bachelor" content_fix="Bachelor" id="04-19-2-19"/>
+						<token content="at" content_fix="at" id="04-19-2-20"/>
+						<token content="44" content_fix="44" id="04-19-2-21"/>
+						<token content=",000" content_fix=",000" id="04-19-2-22"/>
+						<token content="and" content_fix="and" id="04-19-2-23"/>
+						<token content="those" content_fix="those" id="04-19-2-24"/>
+						<token content="in" content_fix="in" id="04-19-2-25"/>
+						<token content="the" content_fix="the" id="04-19-2-26"/>
+						<token content="field" content_fix="field" id="04-19-2-27"/>
+						<token content="with" content_fix="with" id="04-19-2-28"/>
+						<token content="no" content_fix="no" id="04-19-2-29"/>
+						<token content="degree" content_fix="degree" id="04-19-2-30"/>
+						<token content="earn" content_fix="earn" id="04-19-2-31"/>
+						<token content="34" content_fix="34" id="04-19-2-32"/>
+						<token content=",000" content_fix=",000" id="04-19-2-33"/>
+						<token content="." content_fix="." id="04-19-2-34"/>
 					</sentence>
 					<sentence id="04-19-3">
 						<token content="This" content_fix="This" id="04-19-3-1"/>
@@ -6055,10 +6001,10 @@
 					<label from="04-19-2-29" id="04-19-12" name="x_axis_label_least_value" text="no degree" to="04-19-2-30" type="event"/>
 					<label from="04-19-2-32" id="04-19-13" name="y_axis_inferred_least_value_approx" text="34" to="04-19-2-32" type="event"/>
 					<label from="04-19-2-33" id="04-19-14" name="y_magnitude" text=",000" to="04-19-2-33" type="event"/>
-					<label from="04-19-3-8" id="04-19-15" name="x_axis_up" text="better" to="04-19-3-8" type="event"/>
-					<label from="04-19-3-9" id="04-19-16" name="x_axis" text="education" to="04-19-3-9" type="event"/>
-					<label from="04-19-3-13" id="04-19-17" name="y_axis" text="earn" to="04-19-3-13" type="event"/>
-					<label from="04-19-3-14" id="04-19-18" name="slope_up" text="more" to="04-19-3-14" type="event"/>
+					<label from="04-19-3-12" id="04-19-15" name="x_axis_up" text="better" to="04-19-3-12" type="event"/>
+					<label from="04-19-3-13" id="04-19-16" name="x_axis" text="education" to="04-19-3-13" type="event"/>
+					<label from="04-19-3-17" id="04-19-17" name="y_axis" text="earn" to="04-19-3-17" type="event"/>
+					<label from="04-19-3-18" id="04-19-18" name="slope_up" text="more" to="04-19-3-18" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -6487,7 +6433,7 @@
 		</story>
 		<story story_id="05-04">
 			<text>
-				<content>Africa spends the least amount at 50 M dollars . This is exactly half of what is spent in the next lowest continent , Europe . North America is twice that of Europe , and Asia about 120 M more than N America . However , these figures need to be associated with population figures to make sense .</content>
+				<content>Africa spends the least amount at 50 M dollars . This is exactly half of what is spent in the next lowest continent , Europe . North America is twice that of Europe , and Asia about 120 M more than N America . However, these figures need to be associated with population figures to make sense .</content>
 				<sentences>
 					<sentence id="05-04-1">
 						<token content="Africa" content_fix="Africa" id="05-04-1-1"/>
@@ -6540,21 +6486,20 @@
 						<token content="." content_fix="." id="05-04-3-18"/>
 					</sentence>
 					<sentence id="05-04-4">
-						<token content="However" content_fix="However" id="05-04-4-1"/>
-						<token content="," content_fix="," id="05-04-4-2"/>
-						<token content="these" content_fix="these" id="05-04-4-3"/>
-						<token content="figures" content_fix="figures" id="05-04-4-4"/>
-						<token content="need" content_fix="need" id="05-04-4-5"/>
-						<token content="to" content_fix="to" id="05-04-4-6"/>
-						<token content="be" content_fix="be" id="05-04-4-7"/>
-						<token content="associated" content_fix="associated" id="05-04-4-8"/>
-						<token content="with" content_fix="with" id="05-04-4-9"/>
-						<token content="population" content_fix="population" id="05-04-4-10"/>
-						<token content="figures" content_fix="figures" id="05-04-4-11"/>
-						<token content="to" content_fix="to" id="05-04-4-12"/>
-						<token content="make" content_fix="make" id="05-04-4-13"/>
-						<token content="sense" content_fix="sense" id="05-04-4-14"/>
-						<token content="." content_fix="." id="05-04-4-15"/>
+						<token content="However," content_fix="However," id="05-04-4-1"/>
+						<token content="these" content_fix="these" id="05-04-4-2"/>
+						<token content="figures" content_fix="figures" id="05-04-4-3"/>
+						<token content="need" content_fix="need" id="05-04-4-4"/>
+						<token content="to" content_fix="to" id="05-04-4-5"/>
+						<token content="be" content_fix="be" id="05-04-4-6"/>
+						<token content="associated" content_fix="associated" id="05-04-4-7"/>
+						<token content="with" content_fix="with" id="05-04-4-8"/>
+						<token content="population" content_fix="population" id="05-04-4-9"/>
+						<token content="figures" content_fix="figures" id="05-04-4-10"/>
+						<token content="to" content_fix="to" id="05-04-4-11"/>
+						<token content="make" content_fix="make" id="05-04-4-12"/>
+						<token content="sense" content_fix="sense" id="05-04-4-13"/>
+						<token content="." content_fix="." id="05-04-4-14"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -6578,7 +6523,7 @@
 					<label from="05-04-3-13" id="05-04-16" name="y_magnitude" text="M" to="05-04-3-13" type="event"/>
 					<label from="05-04-3-14" id="05-04-17" name="y_axis_trend_up" text="more" to="05-04-3-14" type="event"/>
 					<label from="05-04-3-16" id="05-04-18" name="x_axis_label_Scnd_highest_value" text="N America" to="05-04-3-17" type="event"/>
-					<label from="05-04-4-1" id="05-04-19" name="interpretation" text="However , these figures need to be associated with population figures to make sense" to="05-04-4-14" type="event"/>
+					<label from="05-04-4-1" id="05-04-19" name="interpretation" text="However, these figures need to be associated with population figures to make sense" to="05-04-4-13" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -6683,7 +6628,7 @@
 		</story>
 		<story story_id="05-06">
 			<text>
-				<content>The chart shows that there is more money spent on Higher Education in Asia than North America , Europe and Africa . Africa has the lowest spend of $ 50 ,000,000 compared to Asia spending over $ 300 ,000,000</content>
+				<content>The chart shows that there is more money spent on Higher Education in Asia than North America, Europe and Africa . Africa has the lowest spend of $ 50 ,000,000 compared to Asia spending over $ 300 ,000,000</content>
 				<sentences>
 					<sentence id="05-06-1">
 						<token content="The" content_fix="The" id="05-06-1-1"/>
@@ -6702,12 +6647,11 @@
 						<token content="Asia" content_fix="Asia" id="05-06-1-14"/>
 						<token content="than" content_fix="than" id="05-06-1-15"/>
 						<token content="North" content_fix="North" id="05-06-1-16"/>
-						<token content="America" content_fix="America" id="05-06-1-17"/>
-						<token content="," content_fix="," id="05-06-1-18"/>
-						<token content="Europe" content_fix="Europe" id="05-06-1-19"/>
-						<token content="and" content_fix="and" id="05-06-1-20"/>
-						<token content="Africa" content_fix="Africa" id="05-06-1-21"/>
-						<token content="." content_fix="." id="05-06-1-22"/>
+						<token content="America," content_fix="America," id="05-06-1-17"/>
+						<token content="Europe" content_fix="Europe" id="05-06-1-18"/>
+						<token content="and" content_fix="and" id="05-06-1-19"/>
+						<token content="Africa" content_fix="Africa" id="05-06-1-20"/>
+						<token content="." content_fix="." id="05-06-1-21"/>
 					</sentence>
 					<sentence id="05-06-2">
 						<token content="Africa" content_fix="Africa" id="05-06-2-1"/>
@@ -6736,7 +6680,7 @@
 					<label from="05-06-1-8" id="05-06-2" name="y_axis" text="money" to="05-06-1-8" type="event"/>
 					<label from="05-06-1-11" id="05-06-3" name="topic_related_object" text="Higher Education" to="05-06-1-12" type="event"/>
 					<label from="05-06-1-14" id="05-06-4" name="x_axis_label_highest_value" text="Asia" to="05-06-1-14" type="event"/>
-					<label from="05-06-1-16" id="05-06-5" name="x_axis_labels_rest" text="North America , Europe and Africa" to="05-06-1-21" type="event"/>
+					<label from="05-06-1-16" id="05-06-5" name="x_axis_labels_rest" text="North America, Europe and Africa" to="05-06-1-20" type="event"/>
 					<label from="05-06-2-1" id="05-06-6" name="x_axis_label_least_value" text="Africa" to="05-06-2-1" type="event"/>
 					<label from="05-06-2-4" id="05-06-7" name="y_axis_least_value" text="lowest" to="05-06-2-4" type="event"/>
 					<label from="05-06-2-7" id="05-06-8" name="y_axis_inferred_label" text="$" to="05-06-2-7" type="event"/>
@@ -7063,7 +7007,7 @@
 		</story>
 		<story story_id="05-11">
 			<text>
-				<content>This chart shows how much money is spend ( in millions of dollars ) on higher education in different continents . By far , Asia spends the most on higher education with over 300 million dollar spent in 2010 , followed by North America at 200 million and Europe at 100 million . Africa spent the least at 50 million . This could be due to the economic situation in each respective continent , and also due to societal norms and values . In Asia , there is a lot of emphasis placed on the value of having a good education , which explains why more is spent on higher education in Asia than any other continent .</content>
+				<content>This chart shows how much money is spend (in millions of dollars) on higher education in different continents . By far , Asia spends the most on higher education with over 300 million dollar spent in 2010 , followed by North America at 200 million and Europe at 100 million . Africa spent the least at 50 million . This could be due to the economic situation in each respective continent, and also due to societal norms and values. In Asia , there is a lot of emphasis placed on the value of having a good education, which explains why more is spent on higher education in Asia than any other continent.</content>
 				<sentences>
 					<sentence id="05-11-1">
 						<token content="This" content_fix="This" id="05-11-1-1"/>
@@ -7074,19 +7018,17 @@
 						<token content="money" content_fix="money" id="05-11-1-6"/>
 						<token content="is" content_fix="is" id="05-11-1-7"/>
 						<token content="spend" content_fix="spend" id="05-11-1-8"/>
-						<token content="(" content_fix="(" id="05-11-1-9"/>
-						<token content="in" content_fix="in" id="05-11-1-10"/>
-						<token content="millions" content_fix="millions" id="05-11-1-11"/>
-						<token content="of" content_fix="of" id="05-11-1-12"/>
-						<token content="dollars" content_fix="dollars" id="05-11-1-13"/>
-						<token content=")" content_fix=")" id="05-11-1-14"/>
-						<token content="on" content_fix="on" id="05-11-1-15"/>
-						<token content="higher" content_fix="higher" id="05-11-1-16"/>
-						<token content="education" content_fix="education" id="05-11-1-17"/>
-						<token content="in" content_fix="in" id="05-11-1-18"/>
-						<token content="different" content_fix="different" id="05-11-1-19"/>
-						<token content="continents" content_fix="continents" id="05-11-1-20"/>
-						<token content="." content_fix="." id="05-11-1-21"/>
+						<token content="(in" content_fix="(in" id="05-11-1-9"/>
+						<token content="millions" content_fix="millions" id="05-11-1-10"/>
+						<token content="of" content_fix="of" id="05-11-1-11"/>
+						<token content="dollars)" content_fix="dollars)" id="05-11-1-12"/>
+						<token content="on" content_fix="on" id="05-11-1-13"/>
+						<token content="higher" content_fix="higher" id="05-11-1-14"/>
+						<token content="education" content_fix="education" id="05-11-1-15"/>
+						<token content="in" content_fix="in" id="05-11-1-16"/>
+						<token content="different" content_fix="different" id="05-11-1-17"/>
+						<token content="continents" content_fix="continents" id="05-11-1-18"/>
+						<token content="." content_fix="." id="05-11-1-19"/>
 					</sentence>
 					<sentence id="05-11-2">
 						<token content="By" content_fix="By" id="05-11-2-1"/>
@@ -7144,17 +7086,15 @@
 						<token content="in" content_fix="in" id="05-11-4-9"/>
 						<token content="each" content_fix="each" id="05-11-4-10"/>
 						<token content="respective" content_fix="respective" id="05-11-4-11"/>
-						<token content="continent" content_fix="continent" id="05-11-4-12"/>
-						<token content="," content_fix="," id="05-11-4-13"/>
-						<token content="and" content_fix="and" id="05-11-4-14"/>
-						<token content="also" content_fix="also" id="05-11-4-15"/>
-						<token content="due" content_fix="due" id="05-11-4-16"/>
-						<token content="to" content_fix="to" id="05-11-4-17"/>
-						<token content="societal" content_fix="societal" id="05-11-4-18"/>
-						<token content="norms" content_fix="norms" id="05-11-4-19"/>
-						<token content="and" content_fix="and" id="05-11-4-20"/>
-						<token content="values" content_fix="values" id="05-11-4-21"/>
-						<token content="." content_fix="." id="05-11-4-22"/>
+						<token content="continent," content_fix="continent," id="05-11-4-12"/>
+						<token content="and" content_fix="and" id="05-11-4-13"/>
+						<token content="also" content_fix="also" id="05-11-4-14"/>
+						<token content="due" content_fix="due" id="05-11-4-15"/>
+						<token content="to" content_fix="to" id="05-11-4-16"/>
+						<token content="societal" content_fix="societal" id="05-11-4-17"/>
+						<token content="norms" content_fix="norms" id="05-11-4-18"/>
+						<token content="and" content_fix="and" id="05-11-4-19"/>
+						<token content="values." content_fix="values." id="05-11-4-20"/>
 					</sentence>
 					<sentence id="05-11-5">
 						<token content="In" content_fix="In" id="05-11-5-1"/>
@@ -7174,30 +7114,28 @@
 						<token content="having" content_fix="having" id="05-11-5-15"/>
 						<token content="a" content_fix="a" id="05-11-5-16"/>
 						<token content="good" content_fix="good" id="05-11-5-17"/>
-						<token content="education" content_fix="education" id="05-11-5-18"/>
-						<token content="," content_fix="," id="05-11-5-19"/>
-						<token content="which" content_fix="which" id="05-11-5-20"/>
-						<token content="explains" content_fix="explains" id="05-11-5-21"/>
-						<token content="why" content_fix="why" id="05-11-5-22"/>
-						<token content="more" content_fix="more" id="05-11-5-23"/>
-						<token content="is" content_fix="is" id="05-11-5-24"/>
-						<token content="spent" content_fix="spent" id="05-11-5-25"/>
-						<token content="on" content_fix="on" id="05-11-5-26"/>
-						<token content="higher" content_fix="higher" id="05-11-5-27"/>
-						<token content="education" content_fix="education" id="05-11-5-28"/>
-						<token content="in" content_fix="in" id="05-11-5-29"/>
-						<token content="Asia" content_fix="Asia" id="05-11-5-30"/>
-						<token content="than" content_fix="than" id="05-11-5-31"/>
-						<token content="any" content_fix="any" id="05-11-5-32"/>
-						<token content="other" content_fix="other" id="05-11-5-33"/>
-						<token content="continent" content_fix="continent" id="05-11-5-34"/>
-						<token content="." content_fix="." id="05-11-5-35"/>
+						<token content="education," content_fix="education," id="05-11-5-18"/>
+						<token content="which" content_fix="which" id="05-11-5-19"/>
+						<token content="explains" content_fix="explains" id="05-11-5-20"/>
+						<token content="why" content_fix="why" id="05-11-5-21"/>
+						<token content="more" content_fix="more" id="05-11-5-22"/>
+						<token content="is" content_fix="is" id="05-11-5-23"/>
+						<token content="spent" content_fix="spent" id="05-11-5-24"/>
+						<token content="on" content_fix="on" id="05-11-5-25"/>
+						<token content="higher" content_fix="higher" id="05-11-5-26"/>
+						<token content="education" content_fix="education" id="05-11-5-27"/>
+						<token content="in" content_fix="in" id="05-11-5-28"/>
+						<token content="Asia" content_fix="Asia" id="05-11-5-29"/>
+						<token content="than" content_fix="than" id="05-11-5-30"/>
+						<token content="any" content_fix="any" id="05-11-5-31"/>
+						<token content="other" content_fix="other" id="05-11-5-32"/>
+						<token content="continent." content_fix="continent." id="05-11-5-33"/>
 					</sentence>
 				</sentences>
 			</text>
 			<annotations>
 				<events>
-					<label from="05-11-1-4" id="05-11-1" name="topic" text="how much money is spend ( in millions of dollars ) on higher education in different continents" to="05-11-1-20" type="event"/>
+					<label from="05-11-1-4" id="05-11-1" name="topic" text="how much money is spend (in millions of dollars) on higher education in different continents" to="05-11-1-18" type="event"/>
 					<label from="05-11-2-4" id="05-11-2" name="x_axis_label_highest_value" text="Asia" to="05-11-2-4" type="event"/>
 					<label from="05-11-2-7" id="05-11-3" name="y_axis_highest_value" text="most" to="05-11-2-7" type="event"/>
 					<label from="05-11-2-9" id="05-11-4" name="topic_related_object" text="higher education" to="05-11-2-10" type="event"/>
@@ -7218,13 +7156,13 @@
 					<label from="05-11-3-4" id="05-11-19" name="y_axis_least_value" text="least" to="05-11-3-4" type="event"/>
 					<label from="05-11-3-6" id="05-11-20" name="y_axis_least_value_val" text="50" to="05-11-3-6" type="event"/>
 					<label from="05-11-3-7" id="05-11-21" name="y_magnitude" text="million" to="05-11-3-7" type="event"/>
-					<label from="05-11-5--21" id="05-11-22" name="interpretation" text="This could be due to the economic situation in each respective continent , and also due to societal norms and values . In Asia , there is a lot of emphasis placed on the value of having a good education , which explains why more is spent on higher education in Asia than any other continent ." to="05-11-5-35" type="event"/>
+					<label from="05-11-4-1" id="05-11-22" name="interpretation" text="This could be due to the economic situation in each respective continent, and also due to societal norms and values. In Asia , there is a lot of emphasis placed on the value of having a good education, which explains why more is spent on higher education in Asia than any other continent." to="05-11-5-33" type="event"/>
 				</events>
 			</annotations>
 		</story>
 		<story story_id="05-12">
 			<text>
-				<content>This charts shows the Money ( per million dollars ) spent on Higher Education in 2010 across different continents . The highest spend was in Asia at 320 m , followed by N America at 200 m , then Europe at 100 m and finally Africa at 50 m</content>
+				<content>This charts shows the Money (per million dollars) spent on Higher Education in 2010 across different continents . The highest spend was in Asia at 320 m , followed by N America at 200 m , then Europe at 100 m and finally Africa at 50 m</content>
 				<sentences>
 					<sentence id="05-12-1">
 						<token content="This" content_fix="This" id="05-12-1-1"/>
@@ -7232,21 +7170,19 @@
 						<token content="shows" content_fix="shows" id="05-12-1-3"/>
 						<token content="the" content_fix="the" id="05-12-1-4"/>
 						<token content="Money" content_fix="Money" id="05-12-1-5"/>
-						<token content="(" content_fix="(" id="05-12-1-6"/>
-						<token content="per" content_fix="per" id="05-12-1-7"/>
-						<token content="million" content_fix="million" id="05-12-1-8"/>
-						<token content="dollars" content_fix="dollars" id="05-12-1-9"/>
-						<token content=")" content_fix=")" id="05-12-1-10"/>
-						<token content="spent" content_fix="spent" id="05-12-1-11"/>
-						<token content="on" content_fix="on" id="05-12-1-12"/>
-						<token content="Higher" content_fix="Higher" id="05-12-1-13"/>
-						<token content="Education" content_fix="Education" id="05-12-1-14"/>
-						<token content="in" content_fix="in" id="05-12-1-15"/>
-						<token content="2010" content_fix="2010" id="05-12-1-16"/>
-						<token content="across" content_fix="across" id="05-12-1-17"/>
-						<token content="different" content_fix="different" id="05-12-1-18"/>
-						<token content="continents" content_fix="continents" id="05-12-1-19"/>
-						<token content="." content_fix="." id="05-12-1-20"/>
+						<token content="(per" content_fix="(per" id="05-12-1-6"/>
+						<token content="million" content_fix="million" id="05-12-1-7"/>
+						<token content="dollars)" content_fix="dollars)" id="05-12-1-8"/>
+						<token content="spent" content_fix="spent" id="05-12-1-9"/>
+						<token content="on" content_fix="on" id="05-12-1-10"/>
+						<token content="Higher" content_fix="Higher" id="05-12-1-11"/>
+						<token content="Education" content_fix="Education" id="05-12-1-12"/>
+						<token content="in" content_fix="in" id="05-12-1-13"/>
+						<token content="2010" content_fix="2010" id="05-12-1-14"/>
+						<token content="across" content_fix="across" id="05-12-1-15"/>
+						<token content="different" content_fix="different" id="05-12-1-16"/>
+						<token content="continents" content_fix="continents" id="05-12-1-17"/>
+						<token content="." content_fix="." id="05-12-1-18"/>
 					</sentence>
 					<sentence id="05-12-2">
 						<token content="The" content_fix="The" id="05-12-2-1"/>
@@ -7283,8 +7219,8 @@
 			</text>
 			<annotations>
 				<events>
-					<label from="05-12-1-5" id="05-12-1" name="topic" text="Money ( per million dollars ) spent on Higher Education in 2010" to="05-12-1-16" type="event"/>
-					<label from="05-12-1-19" id="05-12-2" name="x_axis" text="continents" to="05-12-1-19" type="event"/>
+					<label from="05-12-1-5" id="05-12-1" name="topic" text="Money (per million dollars) spent on Higher Education in 2010" to="05-12-1-14" type="event"/>
+					<label from="05-12-1-17" id="05-12-2" name="x_axis" text="continents" to="05-12-1-17" type="event"/>
 					<label from="05-12-2-2" id="05-12-3" name="y_axis_highest_value" text="highest" to="05-12-2-2" type="event"/>
 					<label from="05-12-2-6" id="05-12-4" name="x_axis_label_highest_value" text="Asia" to="05-12-2-6" type="event"/>
 					<label from="05-12-2-8" id="05-12-5" name="y_axis_highest_value_val" text="320" to="05-12-2-8" type="event"/>
@@ -7306,7 +7242,7 @@
 		</story>
 		<story story_id="05-13">
 			<text>
-				<content>Asia spends significantly more money on education than North America , Europe and Africa .</content>
+				<content>Asia spends significantly more money on education than North America, Europe and Africa .</content>
 				<sentences>
 					<sentence id="05-13-1">
 						<token content="Asia" content_fix="Asia" id="05-13-1-1"/>
@@ -7318,12 +7254,11 @@
 						<token content="education" content_fix="education" id="05-13-1-7"/>
 						<token content="than" content_fix="than" id="05-13-1-8"/>
 						<token content="North" content_fix="North" id="05-13-1-9"/>
-						<token content="America" content_fix="America" id="05-13-1-10"/>
-						<token content="," content_fix="," id="05-13-1-11"/>
-						<token content="Europe" content_fix="Europe" id="05-13-1-12"/>
-						<token content="and" content_fix="and" id="05-13-1-13"/>
-						<token content="Africa" content_fix="Africa" id="05-13-1-14"/>
-						<token content="." content_fix="." id="05-13-1-15"/>
+						<token content="America," content_fix="America," id="05-13-1-10"/>
+						<token content="Europe" content_fix="Europe" id="05-13-1-11"/>
+						<token content="and" content_fix="and" id="05-13-1-12"/>
+						<token content="Africa" content_fix="Africa" id="05-13-1-13"/>
+						<token content="." content_fix="." id="05-13-1-14"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -7334,7 +7269,7 @@
 					<label from="05-13-1-4" id="05-13-3" name="y_axis_trend_up" text="more" to="05-13-1-4" type="event"/>
 					<label from="05-13-1-5" id="05-13-4" name="y_axis" text="money" to="05-13-1-5" type="event"/>
 					<label from="05-13-1-7" id="05-13-5" name="topic_related_object" text="education" to="05-13-1-7" type="event"/>
-					<label from="05-13-1-9" id="05-13-6" name="x_axis_labels_rest" text="North America , Europe and Africa" to="05-13-1-14" type="event"/>
+					<label from="05-13-1-9" id="05-13-6" name="x_axis_labels_rest" text="North America, Europe and Africa" to="05-13-1-13" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -7495,7 +7430,7 @@
 		</story>
 		<story story_id="05-16">
 			<text>
-				<content>This graphs compares higher education spending between North America , Europe , Asia and Africa . Asia spent the most , followed by North America , Europe and Africa .</content>
+				<content>This graphs compares higher education spending between North America, Europe, Asia and Africa . Asia spent the most , followed by North America, Europe and Africa .</content>
 				<sentences>
 					<sentence id="05-16-1">
 						<token content="This" content_fix="This" id="05-16-1-1"/>
@@ -7506,14 +7441,12 @@
 						<token content="spending" content_fix="spending" id="05-16-1-6"/>
 						<token content="between" content_fix="between" id="05-16-1-7"/>
 						<token content="North" content_fix="North" id="05-16-1-8"/>
-						<token content="America" content_fix="America" id="05-16-1-9"/>
-						<token content="," content_fix="," id="05-16-1-10"/>
-						<token content="Europe" content_fix="Europe" id="05-16-1-11"/>
-						<token content="," content_fix="," id="05-16-1-12"/>
-						<token content="Asia" content_fix="Asia" id="05-16-1-13"/>
-						<token content="and" content_fix="and" id="05-16-1-14"/>
-						<token content="Africa" content_fix="Africa" id="05-16-1-15"/>
-						<token content="." content_fix="." id="05-16-1-16"/>
+						<token content="America," content_fix="America," id="05-16-1-9"/>
+						<token content="Europe," content_fix="Europe," id="05-16-1-10"/>
+						<token content="Asia" content_fix="Asia" id="05-16-1-11"/>
+						<token content="and" content_fix="and" id="05-16-1-12"/>
+						<token content="Africa" content_fix="Africa" id="05-16-1-13"/>
+						<token content="." content_fix="." id="05-16-1-14"/>
 					</sentence>
 					<sentence id="05-16-2">
 						<token content="Asia" content_fix="Asia" id="05-16-2-1"/>
@@ -7524,23 +7457,22 @@
 						<token content="followed" content_fix="followed" id="05-16-2-6"/>
 						<token content="by" content_fix="by" id="05-16-2-7"/>
 						<token content="North" content_fix="North" id="05-16-2-8"/>
-						<token content="America" content_fix="America" id="05-16-2-9"/>
-						<token content="," content_fix="," id="05-16-2-10"/>
-						<token content="Europe" content_fix="Europe" id="05-16-2-11"/>
-						<token content="and" content_fix="and" id="05-16-2-12"/>
-						<token content="Africa" content_fix="Africa" id="05-16-2-13"/>
-						<token content="." content_fix="." id="05-16-2-14"/>
+						<token content="America," content_fix="America," id="05-16-2-9"/>
+						<token content="Europe" content_fix="Europe" id="05-16-2-10"/>
+						<token content="and" content_fix="and" id="05-16-2-11"/>
+						<token content="Africa" content_fix="Africa" id="05-16-2-12"/>
+						<token content="." content_fix="." id="05-16-2-13"/>
 					</sentence>
 				</sentences>
 			</text>
 			<annotations>
 				<events>
 					<label from="05-16-1-4" id="05-16-1" name="topic_related_object" text="higher education" to="05-16-1-5" type="event"/>
-					<label from="05-16-1-8" id="05-16-2" name="x_axis_labels" text="North America , Europe , Asia and Africa" to="05-16-1-15" type="event"/>
+					<label from="05-16-1-8" id="05-16-2" name="x_axis_labels" text="North America, Europe, Asia and Africa" to="05-16-1-13" type="event"/>
 					<label from="05-16-2-1" id="05-16-3" name="x_axis_label_highest_value" text="Asia" to="05-16-2-1" type="event"/>
 					<label from="05-16-2-4" id="05-16-4" name="y_axis_highest_value" text="most" to="05-16-2-4" type="event"/>
 					<label from="05-16-2-6" id="05-16-5" name="y_x_comparison_rest" text="followed" to="05-16-2-6" type="event"/>
-					<label from="05-16-2-8" id="05-16-6" name="x_axis_labels_rest" text="North America , Europe and Africa" to="05-16-2-13" type="event"/>
+					<label from="05-16-2-8" id="05-16-6" name="x_axis_labels_rest" text="North America, Europe and Africa" to="05-16-2-12" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -7680,7 +7612,7 @@
 		</story>
 		<story story_id="05-19">
 			<text>
-				<content>This chart shows the amount of dollars ( millions ) that was spent on higher education in different continents . Asia spent the most with 320 million , followed by North America with 200 million , Europe with 100 million spent and lastly Africa with 50 million . You expect Africa to be last due to poverty and lack of access to education .</content>
+				<content>This chart shows the amount of dollars (millions) that was spent on higher education in different continents . Asia spent the most with 320 million , followed by North America with 200 million , Europe with 100 million spent and lastly Africa with 50 million . You expect Africa to be last due to poverty and lack of access to education.</content>
 				<sentences>
 					<sentence id="05-19-1">
 						<token content="This" content_fix="This" id="05-19-1-1"/>
@@ -7690,19 +7622,17 @@
 						<token content="amount" content_fix="amount" id="05-19-1-5"/>
 						<token content="of" content_fix="of" id="05-19-1-6"/>
 						<token content="dollars" content_fix="dollars" id="05-19-1-7"/>
-						<token content="(" content_fix="(" id="05-19-1-8"/>
-						<token content="millions" content_fix="millions" id="05-19-1-9"/>
-						<token content=")" content_fix=")" id="05-19-1-10"/>
-						<token content="that" content_fix="that" id="05-19-1-11"/>
-						<token content="was" content_fix="was" id="05-19-1-12"/>
-						<token content="spent" content_fix="spent" id="05-19-1-13"/>
-						<token content="on" content_fix="on" id="05-19-1-14"/>
-						<token content="higher" content_fix="higher" id="05-19-1-15"/>
-						<token content="education" content_fix="education" id="05-19-1-16"/>
-						<token content="in" content_fix="in" id="05-19-1-17"/>
-						<token content="different" content_fix="different" id="05-19-1-18"/>
-						<token content="continents" content_fix="continents" id="05-19-1-19"/>
-						<token content="." content_fix="." id="05-19-1-20"/>
+						<token content="(millions)" content_fix="(millions)" id="05-19-1-8"/>
+						<token content="that" content_fix="that" id="05-19-1-9"/>
+						<token content="was" content_fix="was" id="05-19-1-10"/>
+						<token content="spent" content_fix="spent" id="05-19-1-11"/>
+						<token content="on" content_fix="on" id="05-19-1-12"/>
+						<token content="higher" content_fix="higher" id="05-19-1-13"/>
+						<token content="education" content_fix="education" id="05-19-1-14"/>
+						<token content="in" content_fix="in" id="05-19-1-15"/>
+						<token content="different" content_fix="different" id="05-19-1-16"/>
+						<token content="continents" content_fix="continents" id="05-19-1-17"/>
+						<token content="." content_fix="." id="05-19-1-18"/>
 					</sentence>
 					<sentence id="05-19-2">
 						<token content="Asia" content_fix="Asia" id="05-19-2-1"/>
@@ -7749,15 +7679,14 @@
 						<token content="of" content_fix="of" id="05-19-3-12"/>
 						<token content="access" content_fix="access" id="05-19-3-13"/>
 						<token content="to" content_fix="to" id="05-19-3-14"/>
-						<token content="education" content_fix="education" id="05-19-3-15"/>
-						<token content="." content_fix="." id="05-19-3-16"/>
+						<token content="education." content_fix="education." id="05-19-3-15"/>
 					</sentence>
 				</sentences>
 			</text>
 			<annotations>
 				<events>
-					<label from="05-19-1-5" id="05-19-1" name="topic" text="amount of dollars ( millions ) that was spent on higher education" to="05-19-1-16" type="event"/>
-					<label from="05-19-1-19" id="05-19-2" name="x_axis" text="continents" to="05-19-1-19" type="event"/>
+					<label from="05-19-1-5" id="05-19-1" name="topic" text="amount of dollars (millions) that was spent on higher education" to="05-19-1-14" type="event"/>
+					<label from="05-19-1-17" id="05-19-2" name="x_axis" text="continents" to="05-19-1-17" type="event"/>
 					<label from="05-19-2-1" id="05-19-3" name="x_axis_label_highest_value" text="Asia" to="05-19-2-1" type="event"/>
 					<label from="05-19-2-4" id="05-19-4" name="y_axis_highest_value" text="most" to="05-19-2-4" type="event"/>
 					<label from="05-19-2-6" id="05-19-5" name="y_axis_highest_value_val" text="320" to="05-19-2-6" type="event"/>
@@ -7773,13 +7702,13 @@
 					<label from="05-19-2-24" id="05-19-15" name="x_axis_label_least_value" text="Africa" to="05-19-2-24" type="event"/>
 					<label from="05-19-2-26" id="05-19-16" name="y_axis_least_value_val" text="50" to="05-19-2-26" type="event"/>
 					<label from="05-19-2-27" id="05-19-17" name="y_magnitude" text="million" to="05-19-2-27" type="event"/>
-					<label from="05-19-3-1" id="05-19-18" name="interpretation" text="You expect Africa to be last due to poverty and lack of access to education ." to="05-19-3-16" type="event"/>
+					<label from="05-19-3-1" id="05-19-18" name="interpretation" text="You expect Africa to be last due to poverty and lack of access to education." to="05-19-3-15" type="event"/>
 				</events>
 			</annotations>
 		</story>
 		<story story_id="05-20">
 			<text>
-				<content>This graph presents money spent on higher education in the year 2010 by different continents . It might be total money spent , it is not clear . Asia seems to spend the most , compared to Africa which spends the least .</content>
+				<content>This graph presents money spent on higher education in the year 2010 by different continents . It might be total money spent, it is not clear . Asia seems to spend the most , compared to Africa which spends the least .</content>
 				<sentences>
 					<sentence id="05-20-1">
 						<token content="This" content_fix="This" id="05-20-1-1"/>
@@ -7805,13 +7734,12 @@
 						<token content="be" content_fix="be" id="05-20-2-3"/>
 						<token content="total" content_fix="total" id="05-20-2-4"/>
 						<token content="money" content_fix="money" id="05-20-2-5"/>
-						<token content="spent" content_fix="spent" id="05-20-2-6"/>
-						<token content="," content_fix="," id="05-20-2-7"/>
-						<token content="it" content_fix="it" id="05-20-2-8"/>
-						<token content="is" content_fix="is" id="05-20-2-9"/>
-						<token content="not" content_fix="not" id="05-20-2-10"/>
-						<token content="clear" content_fix="clear" id="05-20-2-11"/>
-						<token content="." content_fix="." id="05-20-2-12"/>
+						<token content="spent," content_fix="spent," id="05-20-2-6"/>
+						<token content="it" content_fix="it" id="05-20-2-7"/>
+						<token content="is" content_fix="is" id="05-20-2-8"/>
+						<token content="not" content_fix="not" id="05-20-2-9"/>
+						<token content="clear" content_fix="clear" id="05-20-2-10"/>
+						<token content="." content_fix="." id="05-20-2-11"/>
 					</sentence>
 					<sentence id="05-20-3">
 						<token content="Asia" content_fix="Asia" id="05-20-3-1"/>
@@ -7835,7 +7763,7 @@
 			<annotations>
 				<events>
 					<label from="05-20-1-4" id="05-20-1" name="topic" text="money spent on higher education in the year 2010 by different continents" to="05-20-1-15" type="event"/>
-					<label from="05-20-2-1" id="05-20-2" name="interpretation" text="It might be total money spent , it is not clear" to="05-20-2-11" type="event"/>
+					<label from="05-20-2-1" id="05-20-2" name="interpretation" text="It might be total money spent, it is not clear" to="05-20-2-10" type="event"/>
 					<label from="05-20-3-1" id="05-20-3" name="x_axis_label_highest_value" text="Asia" to="05-20-3-1" type="event"/>
 					<label from="05-20-3-6" id="05-20-4" name="y_axis_highest_value" text="most" to="05-20-3-6" type="event"/>
 					<label from="05-20-3-8" id="05-20-5" name="y_x_comparison" text="compared" to="05-20-3-8" type="event"/>
@@ -8725,7 +8653,7 @@
 		</story>
 		<story story_id="06-10">
 			<text>
-				<content>The graph highlights the number of top 100 universities in a number of continents , namely , America , Africa , Australia , Europe and Asia . It shows that America has the highest number of top 100 universities with Africa and Australia having equally the least . Europe had 30 of the top 100 universities and Asia has 20 .</content>
+				<content>The graph highlights the number of top 100 universities in a number of continents , namely , America, Africa, Australia, Europe and Asia . It shows that America has the highest number of top 100 universities with Africa and Australia having equally the least . Europe had 30 of the top 100 universities and Asia has 20 .</content>
 				<sentences>
 					<sentence id="06-10-1">
 						<token content="The" content_fix="The" id="06-10-1-1"/>
@@ -8745,16 +8673,13 @@
 						<token content="," content_fix="," id="06-10-1-15"/>
 						<token content="namely" content_fix="namely" id="06-10-1-16"/>
 						<token content="," content_fix="," id="06-10-1-17"/>
-						<token content="America" content_fix="America" id="06-10-1-18"/>
-						<token content="," content_fix="," id="06-10-1-19"/>
-						<token content="Africa" content_fix="Africa" id="06-10-1-20"/>
-						<token content="," content_fix="," id="06-10-1-21"/>
-						<token content="Australia" content_fix="Australia" id="06-10-1-22"/>
-						<token content="," content_fix="," id="06-10-1-23"/>
-						<token content="Europe" content_fix="Europe" id="06-10-1-24"/>
-						<token content="and" content_fix="and" id="06-10-1-25"/>
-						<token content="Asia" content_fix="Asia" id="06-10-1-26"/>
-						<token content="." content_fix="." id="06-10-1-27"/>
+						<token content="America," content_fix="America," id="06-10-1-18"/>
+						<token content="Africa," content_fix="Africa," id="06-10-1-19"/>
+						<token content="Australia," content_fix="Australia," id="06-10-1-20"/>
+						<token content="Europe" content_fix="Europe" id="06-10-1-21"/>
+						<token content="and" content_fix="and" id="06-10-1-22"/>
+						<token content="Asia" content_fix="Asia" id="06-10-1-23"/>
+						<token content="." content_fix="." id="06-10-1-24"/>
 					</sentence>
 					<sentence id="06-10-2">
 						<token content="It" content_fix="It" id="06-10-2-1"/>
@@ -8799,7 +8724,7 @@
 			<annotations>
 				<events>
 					<label from="06-10-1-5" id="06-10-1" name="topic" text="number of top 100 universities in a number of continents" to="06-10-1-14" type="event"/>
-					<label from="06-10-1-18" id="06-10-2" name="x_axis_labels" text="America , Africa , Australia , Europe and Asia" to="06-10-1-26" type="event"/>
+					<label from="06-10-1-18" id="06-10-2" name="x_axis_labels" text="America, Africa, Australia, Europe and Asia" to="06-10-1-23" type="event"/>
 					<label from="06-10-2-4" id="06-10-3" name="x_axis_label_highest_value" text="America" to="06-10-2-4" type="event"/>
 					<label from="06-10-2-7" id="06-10-4" name="y_axis_highest_value" text="highest" to="06-10-2-7" type="event"/>
 					<label from="06-10-2-8" id="06-10-5" name="y_axis" text="number" to="06-10-2-8" type="event"/>
@@ -8821,7 +8746,7 @@
 		</story>
 		<story story_id="06-11">
 			<text>
-				<content>This chart shows the number of top 100 universities in each continent . America has the most top 100 universities at 50 , while Europe is 2nd at 30 and Asia 3rd at 20 . Australia and Africa have the lowest number of universities in the top 100 at 5 each . This could be interpreted as there being better education in America , however the data could also be inaccurate , as the Top 100 Universities list is made by an American company , therefore may be bias towards American institutions .</content>
+				<content>This chart shows the number of top 100 universities in each continent . America has the most top 100 universities at 50 , while Europe is 2nd at 30 and Asia 3rd at 20 . Australia and Africa have the lowest number of universities in the top 100 at 5 each . This could be interpreted as there being better education in America, however the data could also be inaccurate, as the Top 100 Universities list is made by an American company, therefore may be bias towards American institutions .</content>
 				<sentences>
 					<sentence id="06-11-1">
 						<token content="This" content_fix="This" id="06-11-1-1"/>
@@ -8892,37 +8817,34 @@
 						<token content="better" content_fix="better" id="06-11-4-8"/>
 						<token content="education" content_fix="education" id="06-11-4-9"/>
 						<token content="in" content_fix="in" id="06-11-4-10"/>
-						<token content="America" content_fix="America" id="06-11-4-11"/>
-						<token content="," content_fix="," id="06-11-4-12"/>
-						<token content="however" content_fix="however" id="06-11-4-13"/>
-						<token content="the" content_fix="the" id="06-11-4-14"/>
-						<token content="data" content_fix="data" id="06-11-4-15"/>
-						<token content="could" content_fix="could" id="06-11-4-16"/>
-						<token content="also" content_fix="also" id="06-11-4-17"/>
-						<token content="be" content_fix="be" id="06-11-4-18"/>
-						<token content="inaccurate" content_fix="inaccurate" id="06-11-4-19"/>
-						<token content="," content_fix="," id="06-11-4-20"/>
-						<token content="as" content_fix="as" id="06-11-4-21"/>
-						<token content="the" content_fix="the" id="06-11-4-22"/>
-						<token content="Top" content_fix="Top" id="06-11-4-23"/>
-						<token content="100" content_fix="100" id="06-11-4-24"/>
-						<token content="Universities" content_fix="Universities" id="06-11-4-25"/>
-						<token content="list" content_fix="list" id="06-11-4-26"/>
-						<token content="is" content_fix="is" id="06-11-4-27"/>
-						<token content="made" content_fix="made" id="06-11-4-28"/>
-						<token content="by" content_fix="by" id="06-11-4-29"/>
-						<token content="an" content_fix="an" id="06-11-4-30"/>
-						<token content="American" content_fix="American" id="06-11-4-31"/>
-						<token content="company" content_fix="company" id="06-11-4-32"/>
-						<token content="," content_fix="," id="06-11-4-33"/>
-						<token content="therefore" content_fix="therefore" id="06-11-4-34"/>
-						<token content="may" content_fix="may" id="06-11-4-35"/>
-						<token content="be" content_fix="be" id="06-11-4-36"/>
-						<token content="bias" content_fix="bias" id="06-11-4-37"/>
-						<token content="towards" content_fix="towards" id="06-11-4-38"/>
-						<token content="American" content_fix="American" id="06-11-4-39"/>
-						<token content="institutions" content_fix="institutions" id="06-11-4-40"/>
-						<token content="." content_fix="." id="06-11-4-41"/>
+						<token content="America," content_fix="America," id="06-11-4-11"/>
+						<token content="however" content_fix="however" id="06-11-4-12"/>
+						<token content="the" content_fix="the" id="06-11-4-13"/>
+						<token content="data" content_fix="data" id="06-11-4-14"/>
+						<token content="could" content_fix="could" id="06-11-4-15"/>
+						<token content="also" content_fix="also" id="06-11-4-16"/>
+						<token content="be" content_fix="be" id="06-11-4-17"/>
+						<token content="inaccurate," content_fix="inaccurate," id="06-11-4-18"/>
+						<token content="as" content_fix="as" id="06-11-4-19"/>
+						<token content="the" content_fix="the" id="06-11-4-20"/>
+						<token content="Top" content_fix="Top" id="06-11-4-21"/>
+						<token content="100" content_fix="100" id="06-11-4-22"/>
+						<token content="Universities" content_fix="Universities" id="06-11-4-23"/>
+						<token content="list" content_fix="list" id="06-11-4-24"/>
+						<token content="is" content_fix="is" id="06-11-4-25"/>
+						<token content="made" content_fix="made" id="06-11-4-26"/>
+						<token content="by" content_fix="by" id="06-11-4-27"/>
+						<token content="an" content_fix="an" id="06-11-4-28"/>
+						<token content="American" content_fix="American" id="06-11-4-29"/>
+						<token content="company," content_fix="company," id="06-11-4-30"/>
+						<token content="therefore" content_fix="therefore" id="06-11-4-31"/>
+						<token content="may" content_fix="may" id="06-11-4-32"/>
+						<token content="be" content_fix="be" id="06-11-4-33"/>
+						<token content="bias" content_fix="bias" id="06-11-4-34"/>
+						<token content="towards" content_fix="towards" id="06-11-4-35"/>
+						<token content="American" content_fix="American" id="06-11-4-36"/>
+						<token content="institutions" content_fix="institutions" id="06-11-4-37"/>
+						<token content="." content_fix="." id="06-11-4-38"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -8950,7 +8872,7 @@
 					<label from="06-11-3-12" id="06-11-20" name="topic_related_property" text="top" to="06-11-3-12" type="event"/>
 					<label from="06-11-3-13" id="06-11-21" name="topic_related_property" text="100" to="06-11-3-13" type="event"/>
 					<label from="06-11-3-15" id="06-11-22" name="y_axis_least_value_val" text="5" to="06-11-3-15" type="event"/>
-					<label from="06-11-4-1" id="06-11-23" name="interpretation" text="This could be interpreted as there being better education in America , however the data could also be inaccurate , as the Top 100 Universities list is made by an American company , therefore may be bias towards American institutions" to="06-11-4-40" type="event"/>
+					<label from="06-11-4-1" id="06-11-23" name="interpretation" text="This could be interpreted as there being better education in America, however the data could also be inaccurate, as the Top 100 Universities list is made by an American company, therefore may be bias towards American institutions" to="06-11-4-37" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -9098,7 +9020,7 @@
 		</story>
 		<story story_id="06-14">
 			<text>
-				<content>This graph shows how many of the world 's top universities are on each continent . Half of them are in america . europe comes next with 30 % , followed by Asia with 20 % . Africa and Australia ( the country ) have 3 % each .</content>
+				<content>This graph shows how many of the world's top universities are on each continent . Half of them are in america . europe comes next with 30 % , followed by Asia with 20 % . Africa and Australia ( the country ) have 3 % each .</content>
 				<sentences>
 					<sentence id="06-14-1">
 						<token content="This" content_fix="This" id="06-14-1-1"/>
@@ -9108,15 +9030,14 @@
 						<token content="many" content_fix="many" id="06-14-1-5"/>
 						<token content="of" content_fix="of" id="06-14-1-6"/>
 						<token content="the" content_fix="the" id="06-14-1-7"/>
-						<token content="world" content_fix="world" id="06-14-1-8"/>
-						<token content="'s" content_fix="'s" id="06-14-1-9"/>
-						<token content="top" content_fix="top" id="06-14-1-10"/>
-						<token content="universities" content_fix="universities" id="06-14-1-11"/>
-						<token content="are" content_fix="are" id="06-14-1-12"/>
-						<token content="on" content_fix="on" id="06-14-1-13"/>
-						<token content="each" content_fix="each" id="06-14-1-14"/>
-						<token content="continent" content_fix="continent" id="06-14-1-15"/>
-						<token content="." content_fix="." id="06-14-1-16"/>
+						<token content="world's" content_fix="world's" id="06-14-1-8"/>
+						<token content="top" content_fix="top" id="06-14-1-9"/>
+						<token content="universities" content_fix="universities" id="06-14-1-10"/>
+						<token content="are" content_fix="are" id="06-14-1-11"/>
+						<token content="on" content_fix="on" id="06-14-1-12"/>
+						<token content="each" content_fix="each" id="06-14-1-13"/>
+						<token content="continent" content_fix="continent" id="06-14-1-14"/>
+						<token content="." content_fix="." id="06-14-1-15"/>
 					</sentence>
 					<sentence id="06-14-2">
 						<token content="Half" content_fix="Half" id="06-14-2-1"/>
@@ -9161,7 +9082,7 @@
 			</text>
 			<annotations>
 				<events>
-					<label from="06-14-1-4" id="06-14-1" name="topic" text="how many of the world 's top universities are on each continent" to="06-14-1-15" type="event"/>
+					<label from="06-14-1-4" id="06-14-1" name="topic" text="how many of the world's top universities are on each continent" to="06-14-1-14" type="event"/>
 					<label from="06-14-2-1" id="06-14-2" name="y_axis_highest_value_val" text="Half" to="06-14-2-1" type="event"/>
 					<label from="06-14-2-6" id="06-14-3" name="x_axis_label_highest_value" text="america" to="06-14-2-6" type="event"/>
 					<label from="06-14-3-1" id="06-14-4" name="x_axis_label_Scnd_highest_value" text="europe" to="06-14-3-1" type="event"/>
@@ -9312,7 +9233,7 @@
 		</story>
 		<story story_id="06-17">
 			<text>
-				<content>this graph shows the top 100 universities in each country leading is america with 50 , europe with 30 , asia with 20 and africa and australia tying with 4 each . this shows that america and europe combined have more than 80 % of the top 100 universities</content>
+				<content>this graph shows the top 100 universities in each country leading is america with 50 , europe with 30 , asia with 20 and africa and australia tying with 4 each . this shows that america and europe combined have more than 80% of the top 100 universities</content>
 				<sentences>
 					<sentence id="06-17-1">
 						<token content="this" content_fix="this" id="06-17-1-1"/>
@@ -9359,13 +9280,12 @@
 						<token content="have" content_fix="have" id="06-17-2-8"/>
 						<token content="more" content_fix="more" id="06-17-2-9"/>
 						<token content="than" content_fix="than" id="06-17-2-10"/>
-						<token content="80" content_fix="80" id="06-17-2-11"/>
-						<token content="%" content_fix="%" id="06-17-2-12"/>
-						<token content="of" content_fix="of" id="06-17-2-13"/>
-						<token content="the" content_fix="the" id="06-17-2-14"/>
-						<token content="top" content_fix="top" id="06-17-2-15"/>
-						<token content="100" content_fix="100" id="06-17-2-16"/>
-						<token content="universities" content_fix="universities" id="06-17-2-17"/>
+						<token content="80%" content_fix="80%" id="06-17-2-11"/>
+						<token content="of" content_fix="of" id="06-17-2-12"/>
+						<token content="the" content_fix="the" id="06-17-2-13"/>
+						<token content="top" content_fix="top" id="06-17-2-14"/>
+						<token content="100" content_fix="100" id="06-17-2-15"/>
+						<token content="universities" content_fix="universities" id="06-17-2-16"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -9383,7 +9303,7 @@
 					<label from="06-17-1-27" id="06-17-10" name="x_axis_label_least_value" text="australia" to="06-17-1-27" type="event"/>
 					<label from="06-17-1-28" id="06-17-11" name="y_axis_trend" text="tying" to="06-17-1-28" type="event"/>
 					<label from="06-17-1-30" id="06-17-12" name="y_axis_inferred_least_value_approx" text="4" to="06-17-1-30" type="event"/>
-					<label from="06-17-2-1" id="06-17-13" name="interpretation" text="this shows that america and europe combined have more than 80 % of the top 100 universities" to="06-17-2-17" type="event"/>
+					<label from="06-17-2-1" id="06-17-13" name="interpretation" text="this shows that america and europe combined have more than 80% of the top 100 universities" to="06-17-2-16" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -10183,7 +10103,7 @@
 		</story>
 		<story story_id="07-08">
 			<text>
-				<content>This chart shows causes of obesity by percentage . 60 % of obesity cases are caused by fast food ; 30 % are genetic and 10 % are due to lack of exercise . Unfortunately the chart does n't show the cases where more than one of these causes may have played an influence on why someone is obese .</content>
+				<content>This chart shows causes of obesity by percentage . 60 % of obesity cases are caused by fast food ; 30 % are genetic and 10 % are due to lack of exercise . Unfortunately the chart doesn't show the cases where more than one of these causes may have played an influence on why someone is obese .</content>
 				<sentences>
 					<sentence id="07-08-1">
 						<token content="This" content_fix="This" id="07-08-1-1"/>
@@ -10227,29 +10147,28 @@
 						<token content="Unfortunately" content_fix="Unfortunately" id="07-08-3-1"/>
 						<token content="the" content_fix="the" id="07-08-3-2"/>
 						<token content="chart" content_fix="chart" id="07-08-3-3"/>
-						<token content="does" content_fix="does" id="07-08-3-4"/>
-						<token content="n't" content_fix="n't" id="07-08-3-5"/>
-						<token content="show" content_fix="show" id="07-08-3-6"/>
-						<token content="the" content_fix="the" id="07-08-3-7"/>
-						<token content="cases" content_fix="cases" id="07-08-3-8"/>
-						<token content="where" content_fix="where" id="07-08-3-9"/>
-						<token content="more" content_fix="more" id="07-08-3-10"/>
-						<token content="than" content_fix="than" id="07-08-3-11"/>
-						<token content="one" content_fix="one" id="07-08-3-12"/>
-						<token content="of" content_fix="of" id="07-08-3-13"/>
-						<token content="these" content_fix="these" id="07-08-3-14"/>
-						<token content="causes" content_fix="causes" id="07-08-3-15"/>
-						<token content="may" content_fix="may" id="07-08-3-16"/>
-						<token content="have" content_fix="have" id="07-08-3-17"/>
-						<token content="played" content_fix="played" id="07-08-3-18"/>
-						<token content="an" content_fix="an" id="07-08-3-19"/>
-						<token content="influence" content_fix="influence" id="07-08-3-20"/>
-						<token content="on" content_fix="on" id="07-08-3-21"/>
-						<token content="why" content_fix="why" id="07-08-3-22"/>
-						<token content="someone" content_fix="someone" id="07-08-3-23"/>
-						<token content="is" content_fix="is" id="07-08-3-24"/>
-						<token content="obese" content_fix="obese" id="07-08-3-25"/>
-						<token content="." content_fix="." id="07-08-3-26"/>
+						<token content="doesn't" content_fix="doesn't" id="07-08-3-4"/>
+						<token content="show" content_fix="show" id="07-08-3-5"/>
+						<token content="the" content_fix="the" id="07-08-3-6"/>
+						<token content="cases" content_fix="cases" id="07-08-3-7"/>
+						<token content="where" content_fix="where" id="07-08-3-8"/>
+						<token content="more" content_fix="more" id="07-08-3-9"/>
+						<token content="than" content_fix="than" id="07-08-3-10"/>
+						<token content="one" content_fix="one" id="07-08-3-11"/>
+						<token content="of" content_fix="of" id="07-08-3-12"/>
+						<token content="these" content_fix="these" id="07-08-3-13"/>
+						<token content="causes" content_fix="causes" id="07-08-3-14"/>
+						<token content="may" content_fix="may" id="07-08-3-15"/>
+						<token content="have" content_fix="have" id="07-08-3-16"/>
+						<token content="played" content_fix="played" id="07-08-3-17"/>
+						<token content="an" content_fix="an" id="07-08-3-18"/>
+						<token content="influence" content_fix="influence" id="07-08-3-19"/>
+						<token content="on" content_fix="on" id="07-08-3-20"/>
+						<token content="why" content_fix="why" id="07-08-3-21"/>
+						<token content="someone" content_fix="someone" id="07-08-3-22"/>
+						<token content="is" content_fix="is" id="07-08-3-23"/>
+						<token content="obese" content_fix="obese" id="07-08-3-24"/>
+						<token content="." content_fix="." id="07-08-3-25"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -10267,7 +10186,7 @@
 					<label from="07-08-2-17" id="07-08-10" name="y_axis_least_value_val" text="10" to="07-08-2-17" type="event"/>
 					<label from="07-08-2-18" id="07-08-11" name="y_axis" text="%" to="07-08-2-18" type="event"/>
 					<label from="07-08-2-22" id="07-08-12" name="x_axis_label_least_value" text="lack of exercise" to="07-08-2-24" type="event"/>
-					<label from="07-08-3-1" id="07-08-13" name="interpretation" text="Unfortunately the chart does n't show the cases where more than one of these causes may have played an influence on why someone is obese" to="07-08-3-25" type="event"/>
+					<label from="07-08-3-1" id="07-08-13" name="interpretation" text="Unfortunately the chart doesn't show the cases where more than one of these causes may have played an influence on why someone is obese" to="07-08-3-24" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -11176,7 +11095,7 @@
 	<topic scenario="nominal" topic="study_prog" topic_id="08">
 		<story story_id="08-01">
 			<text>
-				<content>This chart show what subjects students choose to study . We can see that a high percentage choose STEM whilst a much lower percentage choose literature , philosophy or medicine .</content>
+				<content>This chart show what subjects students choose to study . We can see that a high percentage choose STEM whilst a much lower percentage choose literature, philosophy or medicine .</content>
 				<sentences>
 					<sentence id="08-01-1">
 						<token content="This" content_fix="This" id="08-01-1-1"/>
@@ -11206,12 +11125,11 @@
 						<token content="lower" content_fix="lower" id="08-01-2-13"/>
 						<token content="percentage" content_fix="percentage" id="08-01-2-14"/>
 						<token content="choose" content_fix="choose" id="08-01-2-15"/>
-						<token content="literature" content_fix="literature" id="08-01-2-16"/>
-						<token content="," content_fix="," id="08-01-2-17"/>
-						<token content="philosophy" content_fix="philosophy" id="08-01-2-18"/>
-						<token content="or" content_fix="or" id="08-01-2-19"/>
-						<token content="medicine" content_fix="medicine" id="08-01-2-20"/>
-						<token content="." content_fix="." id="08-01-2-21"/>
+						<token content="literature," content_fix="literature," id="08-01-2-16"/>
+						<token content="philosophy" content_fix="philosophy" id="08-01-2-17"/>
+						<token content="or" content_fix="or" id="08-01-2-18"/>
+						<token content="medicine" content_fix="medicine" id="08-01-2-19"/>
+						<token content="." content_fix="." id="08-01-2-20"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -11225,7 +11143,7 @@
 					<label from="08-01-2-12" id="08-01-6" name="y_axis_trend" text="much" to="08-01-2-12" type="event"/>
 					<label from="08-01-2-13" id="08-01-7" name="y_axis_least_value" text="lower" to="08-01-2-13" type="event"/>
 					<label from="08-01-2-14" id="08-01-8" name="y_axis" text="percentage" to="08-01-2-14" type="event"/>
-					<label from="08-01-2-16" id="08-01-9" name="x_axis_labels_rest" text="literature , philosophy or medicine" to="08-01-2-20" type="event"/>
+					<label from="08-01-2-16" id="08-01-9" name="x_axis_labels_rest" text="literature, philosophy or medicine" to="08-01-2-19" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -11976,7 +11894,7 @@
 		</story>
 		<story story_id="08-13">
 			<text>
-				<content>Stem is the most popular subject for students to study and account for 50 % of choices . Literature , medicine and philosophy are significantly lower .</content>
+				<content>Stem is the most popular subject for students to study and account for 50 % of choices . Literature, medicine and philosophy are significantly lower .</content>
 				<sentences>
 					<sentence id="08-13-1">
 						<token content="Stem" content_fix="Stem" id="08-13-1-1"/>
@@ -11999,15 +11917,14 @@
 						<token content="." content_fix="." id="08-13-1-18"/>
 					</sentence>
 					<sentence id="08-13-2">
-						<token content="Literature" content_fix="Literature" id="08-13-2-1"/>
-						<token content="," content_fix="," id="08-13-2-2"/>
-						<token content="medicine" content_fix="medicine" id="08-13-2-3"/>
-						<token content="and" content_fix="and" id="08-13-2-4"/>
-						<token content="philosophy" content_fix="philosophy" id="08-13-2-5"/>
-						<token content="are" content_fix="are" id="08-13-2-6"/>
-						<token content="significantly" content_fix="significantly" id="08-13-2-7"/>
-						<token content="lower" content_fix="lower" id="08-13-2-8"/>
-						<token content="." content_fix="." id="08-13-2-9"/>
+						<token content="Literature," content_fix="Literature," id="08-13-2-1"/>
+						<token content="medicine" content_fix="medicine" id="08-13-2-2"/>
+						<token content="and" content_fix="and" id="08-13-2-3"/>
+						<token content="philosophy" content_fix="philosophy" id="08-13-2-4"/>
+						<token content="are" content_fix="are" id="08-13-2-5"/>
+						<token content="significantly" content_fix="significantly" id="08-13-2-6"/>
+						<token content="lower" content_fix="lower" id="08-13-2-7"/>
+						<token content="." content_fix="." id="08-13-2-8"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -12020,9 +11937,9 @@
 					<label from="08-13-1-10" id="08-13-5" name="topic_related_property" text="study" to="08-13-1-10" type="event"/>
 					<label from="08-13-1-14" id="08-13-6" name="y_axis_highest_value_val" text="50" to="08-13-1-14" type="event"/>
 					<label from="08-13-1-15" id="08-13-7" name="y_axis" text="%" to="08-13-1-15" type="event"/>
-					<label from="08-13-2-1" id="08-13-8" name="x_axis_labels_rest" text="Literature , medicine and philosophy" to="08-13-2-5" type="event"/>
-					<label from="08-13-2-7" id="08-13-9" name="y_axis_trend" text="significantly" to="08-13-2-7" type="event"/>
-					<label from="08-13-2-8" id="08-13-10" name="y_axis_trend_down" text="lower" to="08-13-2-8" type="event"/>
+					<label from="08-13-2-1" id="08-13-8" name="x_axis_labels_rest" text="Literature, medicine and philosophy" to="08-13-2-4" type="event"/>
+					<label from="08-13-2-6" id="08-13-9" name="y_axis_trend" text="significantly" to="08-13-2-6" type="event"/>
+					<label from="08-13-2-7" id="08-13-10" name="y_axis_trend_down" text="lower" to="08-13-2-7" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -13419,7 +13336,7 @@
 		</story>
 		<story story_id="09-11">
 			<text>
-				<content>This chart demonstrates how many women are in each university department . 70 % of people in the literature department are female , compared to 60 % in Arts , 30 % in Engineering , 20 % in computer science and 10 % in Maths . This may be because there is less emphasis placed on encouraging women into STEM subjects , and there are and underrepresentation of women in this area .</content>
+				<content>This chart demonstrates how many women are in each university department . 70 % of people in the literature department are female , compared to 60 % in Arts , 30 % in Engineering , 20 % in computer science and 10 % in Maths . This may be because there is less emphasis placed on encouraging women into STEM subjects, and there are and underrepresentation of women in this area .</content>
 				<sentences>
 					<sentence id="09-11-1">
 						<token content="This" content_fix="This" id="09-11-1-1"/>
@@ -13486,19 +13403,18 @@
 						<token content="women" content_fix="women" id="09-11-3-12"/>
 						<token content="into" content_fix="into" id="09-11-3-13"/>
 						<token content="STEM" content_fix="STEM" id="09-11-3-14"/>
-						<token content="subjects" content_fix="subjects" id="09-11-3-15"/>
-						<token content="," content_fix="," id="09-11-3-16"/>
-						<token content="and" content_fix="and" id="09-11-3-17"/>
-						<token content="there" content_fix="there" id="09-11-3-18"/>
-						<token content="are" content_fix="are" id="09-11-3-19"/>
-						<token content="and" content_fix="and" id="09-11-3-20"/>
-						<token content="underrepresentation" content_fix="underrepresentation" id="09-11-3-21"/>
-						<token content="of" content_fix="of" id="09-11-3-22"/>
-						<token content="women" content_fix="women" id="09-11-3-23"/>
-						<token content="in" content_fix="in" id="09-11-3-24"/>
-						<token content="this" content_fix="this" id="09-11-3-25"/>
-						<token content="area" content_fix="area" id="09-11-3-26"/>
-						<token content="." content_fix="." id="09-11-3-27"/>
+						<token content="subjects," content_fix="subjects," id="09-11-3-15"/>
+						<token content="and" content_fix="and" id="09-11-3-16"/>
+						<token content="there" content_fix="there" id="09-11-3-17"/>
+						<token content="are" content_fix="are" id="09-11-3-18"/>
+						<token content="and" content_fix="and" id="09-11-3-19"/>
+						<token content="underrepresentation" content_fix="underrepresentation" id="09-11-3-20"/>
+						<token content="of" content_fix="of" id="09-11-3-21"/>
+						<token content="women" content_fix="women" id="09-11-3-22"/>
+						<token content="in" content_fix="in" id="09-11-3-23"/>
+						<token content="this" content_fix="this" id="09-11-3-24"/>
+						<token content="area" content_fix="area" id="09-11-3-25"/>
+						<token content="." content_fix="." id="09-11-3-26"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -13523,7 +13439,7 @@
 					<label from="09-11-2-30" id="09-11-17" name="y_axis_least_value_val" text="10" to="09-11-2-30" type="event"/>
 					<label from="09-11-2-31" id="09-11-18" name="y_axis" text="%" to="09-11-2-31" type="event"/>
 					<label from="09-11-2-33" id="09-11-19" name="x_axis_label_least_value" text="Maths" to="09-11-2-33" type="event"/>
-					<label from="09-11-3-1" id="09-11-20" name="interpretation" text="This may be because there is less emphasis placed on encouraging women into STEM subjects , and there are and underrepresentation of women in this area" to="09-11-3-26" type="event"/>
+					<label from="09-11-3-1" id="09-11-20" name="interpretation" text="This may be because there is less emphasis placed on encouraging women into STEM subjects, and there are and underrepresentation of women in this area" to="09-11-3-25" type="event"/>
 				</events>
 			</annotations>
 		</story>
@@ -15282,7 +15198,7 @@
 		</story>
 		<story story_id="10-14">
 			<text>
-				<content>This graph shows percentage representation of women in different economic / employment sectors . Law firms has a figure of 60 % ( unclear if this mean 60 % of people in law firms are women ) . Financial groups shows 40 % , Insurance 22 % , and Tech firms have the lowest representation at 20 % .</content>
+				<content>This graph shows percentage representation of women in different economic/employment sectors . Law firms has a figure of 60 % (unclear if this mean 60% of people in law firms are women) . Financial groups shows 40 % , Insurance 22 % , and Tech firms have the lowest representation at 20 % .</content>
 				<sentences>
 					<sentence id="10-14-1">
 						<token content="This" content_fix="This" id="10-14-1-1"/>
@@ -15294,11 +15210,9 @@
 						<token content="women" content_fix="women" id="10-14-1-7"/>
 						<token content="in" content_fix="in" id="10-14-1-8"/>
 						<token content="different" content_fix="different" id="10-14-1-9"/>
-						<token content="economic" content_fix="economic" id="10-14-1-10"/>
-						<token content="/" content_fix="/" id="10-14-1-11"/>
-						<token content="employment" content_fix="employment" id="10-14-1-12"/>
-						<token content="sectors" content_fix="sectors" id="10-14-1-13"/>
-						<token content="." content_fix="." id="10-14-1-14"/>
+						<token content="economic/employment" content_fix="economic/employment" id="10-14-1-10"/>
+						<token content="sectors" content_fix="sectors" id="10-14-1-11"/>
+						<token content="." content_fix="." id="10-14-1-12"/>
 					</sentence>
 					<sentence id="10-14-2">
 						<token content="Law" content_fix="Law" id="10-14-2-1"/>
@@ -15309,22 +15223,19 @@
 						<token content="of" content_fix="of" id="10-14-2-6"/>
 						<token content="60" content_fix="60" id="10-14-2-7"/>
 						<token content="%" content_fix="%" id="10-14-2-8"/>
-						<token content="(" content_fix="(" id="10-14-2-9"/>
-						<token content="unclear" content_fix="unclear" id="10-14-2-10"/>
-						<token content="if" content_fix="if" id="10-14-2-11"/>
-						<token content="this" content_fix="this" id="10-14-2-12"/>
-						<token content="mean" content_fix="mean" id="10-14-2-13"/>
-						<token content="60" content_fix="60" id="10-14-2-14"/>
-						<token content="%" content_fix="%" id="10-14-2-15"/>
-						<token content="of" content_fix="of" id="10-14-2-16"/>
-						<token content="people" content_fix="people" id="10-14-2-17"/>
-						<token content="in" content_fix="in" id="10-14-2-18"/>
-						<token content="law" content_fix="law" id="10-14-2-19"/>
-						<token content="firms" content_fix="firms" id="10-14-2-20"/>
-						<token content="are" content_fix="are" id="10-14-2-21"/>
-						<token content="women" content_fix="women" id="10-14-2-22"/>
-						<token content=")" content_fix=")" id="10-14-2-23"/>
-						<token content="." content_fix="." id="10-14-2-24"/>
+						<token content="(unclear" content_fix="(unclear" id="10-14-2-9"/>
+						<token content="if" content_fix="if" id="10-14-2-10"/>
+						<token content="this" content_fix="this" id="10-14-2-11"/>
+						<token content="mean" content_fix="mean" id="10-14-2-12"/>
+						<token content="60%" content_fix="60%" id="10-14-2-13"/>
+						<token content="of" content_fix="of" id="10-14-2-14"/>
+						<token content="people" content_fix="people" id="10-14-2-15"/>
+						<token content="in" content_fix="in" id="10-14-2-16"/>
+						<token content="law" content_fix="law" id="10-14-2-17"/>
+						<token content="firms" content_fix="firms" id="10-14-2-18"/>
+						<token content="are" content_fix="are" id="10-14-2-19"/>
+						<token content="women)" content_fix="women)" id="10-14-2-20"/>
+						<token content="." content_fix="." id="10-14-2-21"/>
 					</sentence>
 					<sentence id="10-14-3">
 						<token content="Financial" content_fix="Financial" id="10-14-3-1"/>
@@ -15354,12 +15265,12 @@
 			<annotations>
 				<events>
 					<label from="10-14-1-4" id="10-14-1" name="y_axis" text="percentage" to="10-14-1-4" type="event"/>
-					<label from="10-14-1-5" id="10-14-2" name="topic" text="representation of women in different economic / employment sectors" to="10-14-1-13" type="event"/>
+					<label from="10-14-1-5" id="10-14-2" name="topic" text="representation of women in different economic/employment sectors" to="10-14-1-11" type="event"/>
 					<label from="10-14-2-1" id="10-14-3" name="x_axis_label_highest_value" text="Law firms" to="10-14-2-2" type="event"/>
 					<label from="10-14-2-5" id="10-14-4" name="y_axis_inferred_label" text="figure" to="10-14-2-5" type="event"/>
 					<label from="10-14-2-7" id="10-14-5" name="y_axis_highest_value_val" text="60" to="10-14-2-7" type="event"/>
 					<label from="10-14-2-8" id="10-14-6" name="y_axis" text="%" to="10-14-2-8" type="event"/>
-					<label from="10-14-2-9" id="10-14-7" name="interpretation" text="( unclear if this mean 60 % of people in law firms are women )" to="10-14-2-23" type="event"/>
+					<label from="10-14-2-9" id="10-14-7" name="interpretation" text="(unclear if this mean 60% of people in law firms are women)" to="10-14-2-20" type="event"/>
 					<label from="10-14-3-1" id="10-14-8" name="x_axis_label_Scnd_highest_value" text="Financial groups" to="10-14-3-2" type="event"/>
 					<label from="10-14-3-4" id="10-14-9" name="y_axis_Scnd_highest_val" text="40" to="10-14-3-4" type="event"/>
 					<label from="10-14-3-5" id="10-14-10" name="y_axis" text="%" to="10-14-3-5" type="event"/>
@@ -15649,7 +15560,7 @@
 		</story>
 		<story story_id="10-19">
 			<text>
-				<content>This chart displays information of women 's representation in different sectors . Law firms have the highest number of women employed with 60 % and tech has the lowest with 20 % of women .</content>
+				<content>This chart displays information of women's representation in different sectors . Law firms have the highest number of women employed with 60 % and tech has the lowest with 20 % of women .</content>
 				<sentences>
 					<sentence id="10-19-1">
 						<token content="This" content_fix="This" id="10-19-1-1"/>
@@ -15657,13 +15568,12 @@
 						<token content="displays" content_fix="displays" id="10-19-1-3"/>
 						<token content="information" content_fix="information" id="10-19-1-4"/>
 						<token content="of" content_fix="of" id="10-19-1-5"/>
-						<token content="women" content_fix="women" id="10-19-1-6"/>
-						<token content="'s" content_fix="'s" id="10-19-1-7"/>
-						<token content="representation" content_fix="representation" id="10-19-1-8"/>
-						<token content="in" content_fix="in" id="10-19-1-9"/>
-						<token content="different" content_fix="different" id="10-19-1-10"/>
-						<token content="sectors" content_fix="sectors" id="10-19-1-11"/>
-						<token content="." content_fix="." id="10-19-1-12"/>
+						<token content="women's" content_fix="women's" id="10-19-1-6"/>
+						<token content="representation" content_fix="representation" id="10-19-1-7"/>
+						<token content="in" content_fix="in" id="10-19-1-8"/>
+						<token content="different" content_fix="different" id="10-19-1-9"/>
+						<token content="sectors" content_fix="sectors" id="10-19-1-10"/>
+						<token content="." content_fix="." id="10-19-1-11"/>
 					</sentence>
 					<sentence id="10-19-2">
 						<token content="Law" content_fix="Law" id="10-19-2-1"/>
@@ -15694,7 +15604,7 @@
 			</text>
 			<annotations>
 				<events>
-					<label from="10-19-1-6" id="10-19-1" name="topic" text="women 's representation in different sectors" to="10-19-1-11" type="event"/>
+					<label from="10-19-1-6" id="10-19-1" name="topic" text="women's representation in different sectors" to="10-19-1-10" type="event"/>
 					<label from="10-19-2-1" id="10-19-2" name="x_axis_label_highest_value" text="Law firms" to="10-19-2-2" type="event"/>
 					<label from="10-19-2-5" id="10-19-3" name="y_axis_highest_value" text="highest" to="10-19-2-5" type="event"/>
 					<label from="10-19-2-6" id="10-19-4" name="y_axis_inferred_label" text="number" to="10-19-2-6" type="event"/>

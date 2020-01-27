@@ -1,0 +1,644 @@
+''
+This
+shows
+the
+average+salary+earned+by+women	<topic>
+XSTART	<x_axis_range_start>
+the
+XLABEL	<x_axis>
+of
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+.
+We
+can
+see
+that
+year+on+year	<x_axis_trend>
+,
+YLABEL	<y_axis>
+are
+slowly	<y_axis_trend>
+increasing	<slope_up>
+.
+<end_of_description>
+The
+chart
+shows
+every	<every>
+SLOPEX	<slope_x_value>
+XLABEL	<x_axis>
+the
+median	<topic_related_property>
+YLABEL	<y_axis>
+of
+women	<topic_related_object>
+is
+rising	<slope_up>
+by
+about	<y_axis_approx>
+2	<y_axis_inferred_value_add?>
+-
+3	<y_axis_inferred_value_add?>
+%	<y_axis_inferred_label?>
+a
+XLABEL	<x_axis>
+.
+<end_of_description>
+The
+YLABEL	<y_axis>
+of
+woman	<topic_related_object>
+has
+gone+up	<slope_up>
+year+on+year	<x_axis_trend>
+<end_of_description>
+The
+median+salary+of+women	<topic>
+grows	<slope_up>
+at
+a
+cost
+rate
+of
+approximately	<y_axis_approx>
+YUNIT	<y_axis_inferred_label>
+SLOPEY	<slope_y_value>
+YMAG	<y_magnitude>
+per
+SLOPEX	<slope_x_value>
+XLABEL	<x_axis>
+.
+A+logical+conclusion+would+be+a+few+decades+ago+women+did+nover+,+this+would+not+be+a+reality	<interpretation>
+.
+<end_of_description>
+This
+graph
+represents
+the
+median+salary+of+women	<topic>
+XSTART	<x_axis_range_start>
+the
+XLABEL	<x_axis>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+.
+The
+highest	<y_axis_highest_value>
+YLABEL	<y_axis>
+is
+in
+XHIGHEST	<x_axis_label_highest_value>
+with
+YHIGHEST	<y_axis_highest_value_val>
+YMAG	<y_magnitude>
+,
+this
+is
+above	<y_axis_trend_up>
+the
+YSECOND	<y_axis_Scnd_highest_val>
+YMAG	<y_magnitude>
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+.
+In
+XTHIRD	<x_axis_label_3rd_highest_value>
+the
+median	<topic_related_property>
+was
+YTHIRD	<y_axis_3rd_highest_val>
+YMAG	<y_magnitude>
+and
+in
+XLEAST	<x_axis_label_least_value>
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+.
+This
+shows
+an
+increase	<y_axis_trend_up>
+every	<every>
+SLOPEX	<slope_x_value>
+XLABEL	<x_axis>
+of
+SLOPEY	<slope_y_value>
+YMAG	<y_magnitude>
+.
+<end_of_description>
+The
+graph
+shows
+that
+the
+median+salaries+of+women	<topic>
+has
+risen	<slope_up>
+each
+INTERVAL	<x_interval>
+,
+with
+XHIGHEST	<x_axis_label_highest_value>
+'
+s
+median	<topic_related_property>
+YLABEL	<y_axis>
+being
+ADDHIGHESTLEAST	<y_axis_inferred_value_add_v1=highest_v2=least>
+YMAG	<y_magnitude>
+higher	<y_axis_trend_up>
+than
+in
+XLEAST	<x_axis_label_least_value>
+<end_of_description>
+Women	<topic_related_object>
+'
+s
+median	<topic_related_property>
+YLABEL	<y_axis>
+has
+been
+trending	<y_axis_trend>
+upwards	<slope_up>
+,
+rising	<slope_up>
+from
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+in
+XLEAST	<x_axis_label_least_value>
+to
+YTHIRD	<y_axis_3rd_highest_val>
+YMAG	<y_magnitude>
+in
+XTHIRD	<x_axis_label_3rd_highest_value>
+,
+YSECOND	<y_axis_Scnd_highest_val>
+YMAG	<y_magnitude>
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+to
+YHIGHEST	<y_axis_highest_value_val>
+YMAG	<y_magnitude>
+in
+XHIGHEST	<x_axis_label_highest_value>
+<end_of_description>
+This
+charts
+shows
+the
+average+median+salary+of+women+per+year	<topic>
+in
+BARNAMES	<x_axis_labels>
+.
+The
+chart
+shows
+a
+trend	<y_axis_trend>
+of
+increasing	<slope_up>
+average	<topic_related_property>
+YLABEL	<y_axis>
+of
+women	<topic_related_object>
+.
+However+it+doesn't+show+how+this+relates+to+inflation	<interpretation>
+.
+<end_of_description>
+The
+median+salary+of+women+per+year	<topic>
+is
+gradually	<y_axis_trend>
+and
+steadily	<y_axis_trend>
+rising	<slope_up>
+every	<every>
+INTERVAL	<x_interval>
+XLABEL	<x_axis>
+.
+In
+the
+last
+INTERVAL	<x_interval>
+XLABEL	<x_axis>
+it
+has
+risen	<slope_up>
+ADDHIGHESTLEAST	<y_axis_inferred_value_add_v1=highest_v2=least>
+YMAG	<y_magnitude>
+YUNIT	<y_axis_inferred_label>
+.
+<end_of_description>
+This
+chart
+shows
+the
+median+salary+of+women+per+year	<topic>
+.
+It
+shows
+that
+there
+has
+been
+quite	<y_axis_trend>
+a
+small	<y_axis_trend>
+increase	<slope_up>
+XSTART	<x_axis_range_start>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+.
+<end_of_description>
+This
+chart
+shows
+that
+the
+median+salary+for+women	<topic>
+has
+increased	<slope_up>
+continually	<y_axis_trend>
+since	<x_axis_period>
+XLEAST	<x_axis_label_least_value>
+,
+with
+the
+average	<topic_related_property>
+YLABEL	<y_axis>
+for
+women	<topic_related_object>
+over	<y_axis_approx>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YMAG	<y_magnitude>
+YUNIT	<y_axis_inferred_label>
+in
+XHIGHEST	<x_axis_label_highest_value>
+,
+compared	<y_x_comparison>
+to
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+in
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+Chart
+shows
+the
+Median+Salary+of+woman	<topic>
+every	<every>
+INTERVAL	<x_interval>
+XLABEL	<x_axis>
+XSTART	<x_axis_range_start>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+.
+The
+charts
+shows
+it
+has
+steadily	<y_axis_trend>
+increased	<slope_up>
+.
+In
+XLEAST	<x_axis_label_least_value>
+the
+YLABEL	<y_axis>
+was
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+it
+was
+YTHIRDAPPROX	<y_axis_inferred_3rd_highest_value_approx>
+YMAG	<y_magnitude>
+,
+XSECOND	<x_axis_label_Scnd_highest_value>
+was
+YSECOND	<y_axis_Scnd_highest_val>
+YMAG	<y_magnitude>
+and
+finally	<final_label_left>
+in
+XHIGHEST	<x_axis_label_highest_value>
+it
+was
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YMAG	<y_magnitude>
+<end_of_description>
+The
+median+salary+for+women	<topic>
+has
+risen	<slope_up>
+steadily	<y_axis_trend>
+XSTART	<x_axis_range_start>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+,
+with
+on
+average	<topic_related_property>
+a
+YUNIT	<y_axis_inferred_label>
+SLOPEY	<slope_y_value>
+YMAG	<y_magnitude>
+increase	<y_axis_trend_up>
+every	<every>
+SLOPEX	<slope_x_value>
+XLABEL	<x_axis>
+.
+<end_of_description>
+This
+graph
+shows
+the
+median+annual+salary+of+women	<topic>
+in
+YMAG	<y_magnitude>
+of
+YUNIT	<y_axis_inferred_label>
+every	<every>
+INTERVAL	<x_interval>
+XLABEL	<x_axis>
+XSTART	<x_axis_range_start>
+the
+XLABEL	<x_axis>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+.
+<end_of_description>
+This
+graph
+shows
+that
+XSTART	<x_axis_range_start>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+the
+median+salary+of+women	<topic>
+rose	<slope_up>
+consistently	<y_axis_trend>
+from
+YUNIT	<y_axis_inferred_label>
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+in
+XLEAST	<x_axis_label_least_value>
+to
+over	<y_axis_approx>
+YUNIT	<y_axis_inferred_label>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YMAG	<y_magnitude>
+in
+XHIGHEST	<x_axis_label_highest_value>
+<end_of_description>
+This
+graph
+illustrates
+that
+the
+median+salary+for+women	<topic>
+has
+been
+increasing	<slope_up>
+at
+a
+constant+rate	<y_axis_trend>
+from
+the
+XLABEL	<x_axis>
+XLEAST	<x_axis_label_least_value>
+up
+to
+the
+XLABEL	<x_axis>
+XHIGHEST	<x_axis_label_highest_value>
+.
+<end_of_description>
+chart
+shows
+median+salary+of+women+per+year	<topic>
+showing
+in
+XHIGHEST	<x_axis_label_highest_value>
+YLABEL	<y_axis>
+median	<topic_related_property>
+was
+over	<y_axis_approx>
+YUNIT	<y_axis_inferred_label>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YMAG	<y_magnitude>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+with
+YUNIT	<y_axis_inferred_label>
+YSECOND	<y_axis_Scnd_highest_val>
+YMAG	<y_magnitude>
+,
+XTHIRD	<x_axis_label_3rd_highest_value>
+with
+YUNIT	<y_axis_inferred_label>
+YTHIRDAPPROX	<y_axis_inferred_3rd_highest_value_approx>
+YMAG	<y_magnitude>
+and
+XLEAST	<x_axis_label_least_value>
+YUNIT	<y_axis_inferred_label>
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+.
+as
+a
+rebut
+the
+graph
+shows
+an
+increase	<slope_up>
+in
+median	<topic_related_property>
+YLABEL	<y_axis>
+as
+time+goes+on	<x_axis_trend>
+<end_of_description>
+The
+average+salary+for+woman	<topic>
+has
+grown	<slope_up>
+since	<x_axis_period>
+XLEAST	<x_axis_label_least_value>
+by
+at
+least	<y_axis_trend>
+10	<y_axis_inferred_value_add?>
+%	<y_axis_inferred_label?>
+<end_of_description>
+This
+chart
+shows
+the
+median+salary+of+women+per+year	<topic>
+XSTART	<x_axis_range_start>
+the
+XLABEL	<x_axis>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+.
+Over
+the
+XLABEL	<x_axis>
+the
+median	<topic_related_property>
+YLABEL	<y_axis>
+has
+increased	<slope_up>
+it
+was
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+in
+XLEAST	<x_axis_label_least_value>
+and
+is
+now
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YMAG	<y_magnitude>
+in
+XHIGHEST	<x_axis_label_highest_value>
+.
+<end_of_description>
+This
+graph
+presents
+the
+median+salary+of+women	<topic>
+XSTART	<x_axis_range_start>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+.
+Women	<topic_related_object>
+'
+s
+YLABEL	<y_axis>
+have
+been
+steadily	<y_axis_trend>
+increasing	<slope_up>
+over+this+time	<x_axis_trend>
+.
+<end_of_description>
+The
+Median+salary+for+women	<topic>
+appears
+to
+increase	<slope_up>
+by
+SLOPEY	<slope_y_value>
+YMAG	<y_magnitude>
+SLOPEX	<slope_x_value>
+XLABEL	<x_axis>
+.
+<end_of_description>
+This
+graph
+shows
+how
+the
+median+salary+of+women	<topic>
+has
+changed
+over
+time
+.
+This
+is
+done
+by
+looking
+every	<every>
+INTERVAL	<x_interval>
+XSTART	<x_axis_range_start>
+the
+XLABEL	<x_axis>
+XLEAST	<x_axis_label_least_value>
+XEND	<x_axis_range_end>
+XHIGHEST	<x_axis_label_highest_value>
+.
+YUNIT	<y_axis_inferred_label>
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+-
+XLEAST	<x_axis_label_least_value>
+\\n	<separator>
+YUNIT	<y_axis_inferred_label>
+YTHIRDAPPROX	<y_axis_inferred_3rd_highest_value_approx>
+YMAG	<y_magnitude>
+-
+XTHIRD	<x_axis_label_3rd_highest_value>
+\\n	<separator>
+YUNIT	<y_axis_inferred_label>
+YSECOND	<y_axis_Scnd_highest_val>
+YMAG	<y_magnitude>
+-
+XSECOND	<x_axis_label_Scnd_highest_value>
+\\n	<separator>
+YUNIT	<y_axis_inferred_label>
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YMAG	<y_magnitude>
+-
+XHIGHEST	<x_axis_label_highest_value>
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+saw
+women	<topic_related_object>
+median	<topic_related_property>
+YLABEL	<y_axis>
+rise	<slope_up>
+to
+YHIGHESTAPPROX	<y_axis_inferred_highest_value_approx>
+YMAG	<y_magnitude>
+,
+from	<y_x_comparison_rest>
+YSECOND	<y_axis_Scnd_highest_val>
+YMAG	<y_magnitude>
+in
+XSECOND	<x_axis_label_Scnd_highest_value>
+.
+XTHIRD	<x_axis_label_3rd_highest_value>
+it
+was
+at
+YTHIRD	<y_axis_3rd_highest_val>
+YMAG	<y_magnitude>
+from
+YLEAST	<y_axis_least_value_val>
+YMAG	<y_magnitude>
+in
+XLEAST	<x_axis_label_least_value>
+,
+so
+you
+can
+see
+it
+has
+been
+rising	<slope_up>
+steadily	<y_axis_trend>
+<end_of_description>

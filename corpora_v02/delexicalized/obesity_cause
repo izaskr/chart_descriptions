@@ -1,0 +1,689 @@
+''
+The
+chart
+shows
+what+causes+obesity	<topic>
+.
+We
+can
+see
+that
+XHIGHEST	<x_axis_label_highest_value>
+accounts
+for
+a
+high	<y_axis_highest_value>
+YLABEL	<y_axis>
+of
+this
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+whilst	<y_x_comparison_rest>
+XSECOND	<x_axis_label_Scnd_highest_value>
+follows	<order_Scnd>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+XLEAST	<x_axis_label_least_value>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+is
+the
+major	<y_axis_highest_value>
+cause	<topic_related_property>
+of
+obesity	<topic_related_object>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+with
+XLEAST	<x_axis_label_least_value>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+but
+XSECOND	<x_axis_label_Scnd_highest_value>
+is
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+of
+leading
+causes	<topic_related_property>
+.
+<end_of_description>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+XHIGHEST	<x_axis_label_highest_value>
+causes	<topic_related_property>
+obesity	<topic_related_object>
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+is
+the
+major	<y_axis_highest_value>
+cause	<topic_related_property>
+of
+obesity	<topic_related_object>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+.
+XSECOND	<x_axis_label_Scnd_highest_value>
+plays
+a
+significant	<y_axis_trend>
+role
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+XLEAST	<x_axis_label_least_value>
+is
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+The
+chart
+represents
+what
+the+main+causes+of+obesity	<topic>
+are
+and
+the
+bar
+chart
+shows
+the
+following
+COUNT	<x_axis_labels_count>
+areas
+.
+The
+largest	<y_axis_highest_value>
+cause	<topic_related_property>
+is
+due
+to
+the
+intake
+of
+XHIGHEST	<x_axis_label_highest_value>
+.
+This
+contributes
+to
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+the
+cause	<topic_related_property>
+.
+This
+is
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+finally	<final_label_left>
+a
+XLEAST	<x_axis_label_least_value>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+The
+chart
+shows
+that
+XHIGHEST	<x_axis_label_highest_value>
+is
+MULHIGHESTSECOND	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+as
+likely
+as
+XSECOND	<x_axis_label_Scnd_highest_value>
+to
+cause	<topic_related_property>
+obesity	<topic_related_object>
+.
+It
+also
+shows
+that
+XLEAST	<x_axis_label_least_value>
+is
+only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+likely
+to
+cause	<topic_related_property>
+obesity	<topic_related_object>
+.
+<end_of_description>
+The
+table
+shows
+that
+the
+leading	<y_axis_highest_value>
+cause	<topic_related_property>
+of
+Obesity	<topic_related_object>
+is
+XHIGHEST	<x_axis_label_highest_value>
+(
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+)
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+(
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+)
+and
+finally	<final_label_left>
+XLEAST	<x_axis_label_least_value>
+(
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+)
+.
+<end_of_description>
+This
+chart
+shows
+causes+of+obesity	<topic>
+by
+YLABEL	<y_axis>
+.
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+obesity	<topic_related_object>
+cases
+are
+caused
+by
+XHIGHEST	<x_axis_label_highest_value>
+;
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+are
+XSECOND	<x_axis_label_Scnd_highest_value>
+and
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+are
+due
+to
+XLEAST	<x_axis_label_least_value>
+.
+Unfortunately+the+chart+doesn't+show+the+cases+where+more+than+one+of+these+causes+may+have+played+an+influence+on+why+someone+is+obese	<interpretation>
+.
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+is
+the
+highest	<y_axis_highest_value>
+cause	<topic_related_property>
+of
+obesity	<topic_related_object>
+with
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+cases
+.
+It
+is
+MULHIGHESTSECOND	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+the
+next	<order_Scnd>
+highest
+cause	<topic_related_property>
+-
+XSECOND	<x_axis_label_Scnd_highest_value>
+on
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+MULHIGHESTLEAST	<y_axis_inferred_value_mul_v1=highest_v2=least>
+XLEAST	<x_axis_label_least_value>
+which
+only	<y_axis_least_value>
+causes
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+cases
+.
+<end_of_description>
+This
+graph
+highlights
+the+causes+of+obesity	<topic>
+.
+It
+indicates
+that
+XHIGHEST	<x_axis_label_highest_value>
+is
+a
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+cause
+of
+obesity	<topic_related_object>
+whilst	<y_x_comparison_rest>
+a
+XLEAST	<x_axis_label_least_value>
+is
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+the
+cause
+.
+XSECOND	<x_axis_label_Scnd_highest_value>
+causes
+amount
+for
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+This
+chart
+shows
+that
+XHIGHEST	<x_axis_label_highest_value>
+is
+the
+most	<y_axis_highest_value>
+likely
+cause	<topic_related_property>
+of
+obesity	<topic_related_object>
+on
+average
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+factors
+,
+and
+is
+least	<y_axis_least_value>
+likely
+to
+be
+caused
+by
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+Graph
+shows
+the+causes+of+Obesity	<topic>
+by
+YLABEL	<y_axis>
+.
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+is
+caused
+by
+XHIGHEST	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+the
+smallest	<y_axis_least_value>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+is
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+The
+primary	<y_axis_highest_value>
+cause	<topic_related_property>
+of
+obesity	<topic_related_object>
+is
+over-consumption
+of
+XHIGHEST	<x_axis_label_highest_value>
+with
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+obesity	<topic_related_object>
+cases
+being
+related
+to
+this
+type
+of
+diet
+.
+XSECOND	<x_axis_label_Scnd_highest_value>
+also
+contributes
+to
+significant	<y_axis_trend>
+amount
+of
+cases
+by
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+.
+XLEAST	<x_axis_label_least_value>
+is
+contributes
+to
+just	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+cases
+.
+<end_of_description>
+This
+is
+a
+graph
+showing
+different
+causes	<topic_related_property>
+of
+obesity	<topic_related_object>
+.
+It
+shows
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+it
+'
+s
+caused
+by
+XHIGHEST	<x_axis_label_highest_value>
+,
+a
+YSECOND	<y_axis_Scnd_highest_val>
+of
+it
+is
+due
+to
+XSECOND	<x_axis_label_Scnd_highest_value>
+,
+and
+just
+under	<y_axis_approx>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+of
+obesity	<topic_related_object>
+is
+due
+to
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+This
+graph
+shows
+that
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+obesity	<topic_related_object>
+is
+caused	<topic_related_property>
+by
+XHIGHEST	<x_axis_label_highest_value>
+.
+Only	<y_axis_least_value>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+is
+caused	<topic_related_property>
+by
+XLEAST	<x_axis_label_least_value>
+whilst	<y_x_comparison_rest>
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+is
+XSECOND	<x_axis_label_Scnd_highest_value>
+<end_of_description>
+This
+graphs
+illustrates
+the+causes+of+obesity	<topic>
+.
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+obesity	<topic_related_object>
+is
+caused	<topic_related_property>
+by
+XHIGHEST	<x_axis_label_highest_value>
+,
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+and
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+by
+XLEAST	<x_axis_label_least_value>
+.
+<end_of_description>
+this
+graph
+shows
+the+causes+of+obesity	<topic>
+,
+the
+greatest	<y_axis_highest_value>
+contributer
+is
+XHIGHEST	<x_axis_label_highest_value>
+with
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+follows	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+with
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+XLEAST	<x_axis_label_least_value>
+making
+up
+the
+remaining
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+is
+the
+highest	<y_axis_highest_value>
+factors
+in
+causing	<topic_related_property>
+obesity	<topic_related_object>
+<end_of_description>
+This
+chart
+displays
+causes+of+obesity	<topic>
+.
+The
+highest	<y_axis_highest_value>
+YLABEL	<y_axis>
+of
+obesity	<topic_related_object>
+cases
+would
+be
+because
+of
+XHIGHEST	<x_axis_label_highest_value>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+then
+XLEAST	<x_axis_label_least_value>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+.
+<end_of_description>
+This
+graph
+shows
+COUNT	<x_axis_labels_count>
+potential
+causes	<topic_related_property>
+of
+obesity	<topic_related_object>
+,
+and
+breaks
+down
+their
+relative
+contribution
+.
+XHIGHEST	<x_axis_label_highest_value>
+emerges
+as
+the
+most	<y_axis_highest_value>
+important
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+.
+XLEAST	<x_axis_label_least_value>
+is
+comparatively	<y_axis_trend>
+unimportant	<y_axis_least_value>
+to
+these
+other
+two
+factors
+.
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+is
+the
+leading	<y_axis_highest_value>
+cause	<topic_related_property>
+of
+obesity	<topic_related_object>
+at
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+,
+followed	<order_Scnd>
+by
+XSECOND	<x_axis_label_Scnd_highest_value>
+at
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+and
+a
+XLEAST	<x_axis_label_least_value>
+at
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+<end_of_description>
+This
+graph
+shows
+what+causes+obesity	<topic>
+or
+is
+a
+factor
+in
+someone
+becoming
+obese
+.
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+XHIGHEST	<x_axis_label_highest_value>
+\\n	<separator>
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+XSECOND	<x_axis_label_Scnd_highest_value>
+\\n	<separator>
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+XLEAST	<x_axis_label_least_value>
+<end_of_description>
+XHIGHEST	<x_axis_label_highest_value>
+causes	<topic_related_property>
+YHIGHEST	<y_axis_highest_value_val>
+YLABEL	<y_axis>
+of
+obesity	<topic_related_object>
+,
+XSECOND	<x_axis_label_Scnd_highest_value>
+some	<y_axis_approx>
+YSECOND	<y_axis_Scnd_highest_val>
+YLABEL	<y_axis>
+whilst	<y_x_comparison_rest>
+XLEAST	<x_axis_label_least_value>
+contributes
+the
+other
+YLEAST	<y_axis_least_value_val>
+YLABEL	<y_axis>
+<end_of_description>
