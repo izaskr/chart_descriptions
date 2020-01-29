@@ -237,38 +237,80 @@ def compare_bar_order(tes):
 	sub_yorder2 = ["x_axis_label_highest_value", "x_axis_label_Scnd_highest_value", "x_axis_label_3rd_highest_value", "x_axis_label_4th_highest_value", "x_axis_label_5th_highest_value", "x_axis_label_least_value"]
 	sub_xorder = ["firstX", "secondX", "thirdX", "fourthX", "fifthX","lastX"]
 
+	topics_elength_counter = {}
+	# for each topic and its stories
 	for topic, sequences in tes.items():
 		plot_info = get_plot_info(topic)
+		# replace entity label names with shorter names
 		replace_y = lambda x: [[sub_yorder[x2] for x2 in x1] for x1 in x]
 		sequences_y = replace_y(sequences)
 
 
 		x_plot = plot_info["x"]
 		y_plot = plot_info["y"]
-		consider_xorder = sub_xorder[:len(x_plot)-1]
+		consider_xorder = sub_xorder[:len(x_plot)-1] # sequence of labels for X order starting with first bar
 		consider_xorder.append("lastX")
-		consider_yorder = sub_yorder2[:len(x_plot)-1]
+
+		consider_yorder = sub_yorder2[:len(x_plot)-1] # sequence of labels for Y order starting with highest
 		consider_yorder.append("x_axis_label_least_value")
-		#print(consider_xorder)
+
+		# list of triplets (bar height, bar name, bar order on X) sorted by descending heights
 		pairs_sorted = sorted(list(zip(y_plot, x_plot, consider_xorder)), reverse=True)
 
-		#print(pairs_sorted)
 
-		print("\t")
+		#print("\t")
 		if topic == "top_unis" and topic == "study_prog":
-			pass
+			break
 			# topic: top_unis, study_prog have two bars of the same height
 		#print(list(zip(pairs_sorted, sub_yorder2)))
+
+		# get corresponding pairs for each bar: its height (largest, second...) and its order on X axis
 		get_oxy_mapping = lambda a, b: {j:i[-1] for i,j in zip (a,b)}
 		oxy_map = get_oxy_mapping(pairs_sorted, consider_yorder)
-		#print(pairs_sorted)
-		#print(oxy_map)
+
+		# replace the entity labels given their bar heights given their order on X
 		replace_x = lambda x: [[oxy_map[x2] for x2 in x1] for x1 in x]
 		sequences_x = replace_x(sequences)
-		print(sequences_x)
-		#lambda a,b: {
+		#print(sequences_y)
+		#print(sequences_x)
 
-		#sequences_x = 
+		# analyze order of appearance
+		sequences_yx = list(zip(sequences_y, sequences_x)) # list of tuples of lists
+		#lengths = {i:0 for i in range(1,15)}
+		topics_elength_counter[topic] = {}
+
+		for sequence in sequences_yx:
+			within_story_yx = list(zip(sequence[0], sequence[1]))
+			#print(within_story_yx)
+			#if sequence[0] == len(x_plot):
+			if len(within_story_yx) in topics_elength_counter[topic]:
+				topics_elength_counter[topic][len(within_story_yx)].append(within_story_yx)
+			if len(within_story_yx) not in topics_elength_counter[topic]:
+				topics_elength_counter[topic][len(within_story_yx)] = []
+				topics_elength_counter[topic][len(within_story_yx)].append(within_story_yx)
+
+	freq_len, freq_seq, k = -1, [], 0 # the most frequent length / number of occurring entities
+	freq_len2, freq_seq2, k2 = -1, [], 0
+	for t_name,a in topics_elength_counter.items():
+		print(t_name)
+
+		keys_val_lengths = lambda x: {k: len(v) for k,v in x.items()}
+		kvl = keys_val_lengths(a) # useful info: number of entities: number of stories with this no. entities
+		keymax = max(kvl, key=kvl.get) # get number of entities that is most frequent
+		print(keymax) 
+
+		# continue with keymax: a[keymax] - analyze its frequency distribution given the order in the story
+
+		#for length_e,seqs in a.items():
+			#print("\t",length_e,seqs, len(seqs))
+
+		#keymax = max(a, key=len(a.get))
+		
+				
+				
+		
+
+		
 		
 		
 #a, b, c
