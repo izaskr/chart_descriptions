@@ -17,6 +17,9 @@ import xml.etree.ElementTree as ET
 from string import punctuation
 from collections import defaultdict, Counter
 import json
+import matplotlib
+import matplotlib.pyplot as plt
+import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-xml", required=False, help="xml corpus with chart summaries and labels", default="corpora_v02/chart_summaries_b01.xml")
@@ -291,24 +294,105 @@ def compare_bar_order(tes):
 
 	freq_len, freq_seq, k = -1, [], 0 # the most frequent length / number of occurring entities
 	freq_len2, freq_seq2, k2 = -1, [], 0
-	for t_name,a in topics_elength_counter.items():
+	for t_name, a in topics_elength_counter.items():
 		print(t_name)
 
 		keys_val_lengths = lambda x: {k: len(v) for k,v in x.items()}
 		kvl = keys_val_lengths(a) # useful info: number of entities: number of stories with this no. entities
 		keymax = max(kvl, key=kvl.get) # get number of entities that is most frequent
-		print(keymax) 
+		#print(keymax,a[keymax]) 
 
 		# continue with keymax: a[keymax] - analyze its frequency distribution given the order in the story
-
-		#for length_e,seqs in a.items():
-			#print("\t",length_e,seqs, len(seqs))
-
-		#keymax = max(a, key=len(a.get))
 		
-				
-				
+		counter_i = {} # each topic its own dict; order index as key, counter dict as value (entity as key)
+		entities = set()
+		for i in range(keymax): # order indices
+			counter_i[i] = {}
+			for story_entities in a[keymax]: # a[keymax] is a list of lists of tuples
+				current_ent = story_entities[i]
+				entities.add(current_ent)
+				if current_ent in counter_i[i]:
+					counter_i[i][current_ent] += 1
+				if current_ent not in counter_i[i]:
+					counter_i[i][current_ent] = 1
+
+		#print(counter_i)
+		#print("\n")
+		counter_i2 = {e:{v:0 for v in range(len(counter_i))} for e in entities} #{ (l1,l2): {0:2, 1:10,3:0}, (l... } 
+		for ent in entities:
+			for k in range(len(counter_i2)):
+				if ent in counter_i[k]:
+					counter_i2[ent][k] = counter_i[k][ent]
+			
+		#print(counter_i2)
+
+		# plot these stats
+		plot_labels = [k+1 for k in counter_i]
+		x_plot = np.arange(1,len(counter_i)+1)  # the label locations
+		width = 0.6
+		fig, ax = plt.subplots()
+		for label_tuple, d in counter_i2.items():
+			current_x = list(d.keys()) # the indices
+			current_y = list(d.values()) # the counts
+			#print(current_x)
+			_ = ax.bar(x_plot, current_y, width/len(x_plot),label=" ".join(label_tuple))
+			x_plot = [x + width/len(x_plot) for x in x_plot]
+
+		ax.set_ylabel('Counts')
+		ax.set_title(t_name)
+		ax.set_xticks(plot_labels)
+		ax.set_xticklabels(plot_labels)
+		ax.legend()
+		fig.tight_layout()
+
+		plt.show()
+
+
+		"""
+		plot_labels = [k+1 for k in counter_i]
+		frequencies, names = [],[]
+		### plot info
+		x_plot = np.arange(len(plot_labels))  # the label locations
+		#print(x_plot)
+		width = 0.6  # the width of the bars
+		fig, ax = plt.subplots()
+		###
+		ks = [0,1,2,3,4,5]
+		for i in range(len(counter_i)):
+			#print(i, "i")
+			d = counter_i[i]
+			counts, pairs = [], []
+			# {('secondY', 'secondX'): 3, ('firstY', 'fourthX'): 12, ('fourthY', 'firstX'): 1}
+			for pair, count in d.items():
+				#print(" ".join(pair), count)
+				counts.append(count)
+				pairs.append(" ".join(pair))
+			frequencies.append(counts)
+			names.append(pairs)
+		print(frequencies)
+		last_x = x_plot
+		for i,cc in enumerate(counts):
+			
+			_ = ax.bar(last_x, cc, width/len(x_plot))
+			last_x = [x + width/len(x_plot) for x in last_x]
+			
+
+
+		#rects1 = ax.bar(x - width/2, men_means, width, label='Men')
+		#rects2 = ax.bar(x + width/2, women_means, width, label='Women')
+
+		# Add some text for labels, title and custom x-axis tick labels, etc.
 		
+		ax.set_ylabel('Counts')
+		ax.set_title(t_name)
+		ax.set_xticks(x_plot)
+		ax.set_xticklabels(plot_labels)
+		ax.legend()
+		fig.tight_layout()
+
+		plt.show()
+		"""
+
 
 		
 		
