@@ -348,63 +348,6 @@ def compare_bar_order(tes):
 		plt.show()
 
 
-		"""
-		plot_labels = [k+1 for k in counter_i]
-		frequencies, names = [],[]
-		### plot info
-		x_plot = np.arange(len(plot_labels))  # the label locations
-		#print(x_plot)
-		width = 0.6  # the width of the bars
-		fig, ax = plt.subplots()
-		###
-		ks = [0,1,2,3,4,5]
-		for i in range(len(counter_i)):
-			#print(i, "i")
-			d = counter_i[i]
-			counts, pairs = [], []
-			# {('secondY', 'secondX'): 3, ('firstY', 'fourthX'): 12, ('fourthY', 'firstX'): 1}
-			for pair, count in d.items():
-				#print(" ".join(pair), count)
-				counts.append(count)
-				pairs.append(" ".join(pair))
-			frequencies.append(counts)
-			names.append(pairs)
-		print(frequencies)
-		last_x = x_plot
-		for i,cc in enumerate(counts):
-			
-			_ = ax.bar(last_x, cc, width/len(x_plot))
-			last_x = [x + width/len(x_plot) for x in last_x]
-			
-
-
-		#rects1 = ax.bar(x - width/2, men_means, width, label='Men')
-		#rects2 = ax.bar(x + width/2, women_means, width, label='Women')
-
-		# Add some text for labels, title and custom x-axis tick labels, etc.
-		
-		ax.set_ylabel('Counts')
-		ax.set_title(t_name)
-		ax.set_xticks(x_plot)
-		ax.set_xticklabels(plot_labels)
-		ax.legend()
-		fig.tight_layout()
-
-		plt.show()
-		"""
-
-
-		
-		
-		
-#a, b, c
-#5, 2, 3
-#highest, least, second
-
-# highest: firstX
-# least: secondX
-# second: lastX
-
 
 if __name__ == "__main__":
 
