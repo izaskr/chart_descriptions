@@ -107,6 +107,10 @@ def get_basics(corpus):
 
 
 	entities = {"x_axis_label_least_value", "x_axis_label_4th_highest_value", "x_axis_label_3rd_highest_value", "x_axis_label_Scnd_highest_value", "x_axis_label_highest_value"}
+
+	# TODO
+	#relations = {"y_axis_least_value_val", "y_axis_Scnd_highest_val", "y_axis_highest_value_val", "y_axis_3rd_highest_val", "y_axis_inferred_highest_value_approx", "x_axis_label_4th_highest_value", "y_axis_inferred_least_value_approx", "y_axis_4th_highest_val", "y_axis_inferred_3rd_highest_value_approx", "y_axis_inferred_Scnd_highest_value_approx", "y_axis_inferred_value_mul_v1=highest_v2=least", "y_axis_inferred_value_mul_v1=highest_v2=Scnd", "y_axis_inferred_value_add_v1=highest_v2=least", "y_axis_inferred_value_mul_v1=least_v2=highest", "y_axis_inferred_value_mul_v1=Scnd_v2=least", "y_axis_inferred_value_mul_v1=Scnd_v2=3rd", "y_axis_inferred_value_mul_v1=3rd_v2=highest", "y_axis_inferred_value_add_v1=highest_v2=Scnd","y_axis_inferred_value_add_v1=highest_v2=3rd", "y_axis_inferred_value_add_v1=Scnd_v2=highest", "y_axis_inferred_value_mul_v1=least_v2=Scnd", "y_axis_inferred_value_mul_v1=least_v2=3rd","y_axis_inferred_value_mul_v1=highest_v2=3rd", "y_axis_inferred_value_mul_v1=Scnd_v2=highest","y_axis_inferred_value_mul_v1=4th_v2=Scnd", "y_axis_inferred_value_mul_v1=3rd_v2=least","y_axis_inferred_value_mul_v1=3rd_v2=Scnd", "y_axis_inferred_value_add_v1=least_v2=3rd","y_axis_inferred_value_add_v1=Scnd_v2=3rd", "y_axis_inferred_value_add_v1=3rd_v2=least"} # i did not include the ?> labels and <other_operation>
+
 	topic_entity_seq = {}
 
 	for topic in root:
@@ -248,7 +252,6 @@ def compare_bar_order(tes):
 		replace_y = lambda x: [[sub_yorder[x2] for x2 in x1] for x1 in x]
 		sequences_y = replace_y(sequences)
 
-
 		x_plot = plot_info["x"]
 		y_plot = plot_info["y"]
 		consider_xorder = sub_xorder[:len(x_plot)-1] # sequence of labels for X order starting with first bar
@@ -260,7 +263,6 @@ def compare_bar_order(tes):
 		# list of triplets (bar height, bar name, bar order on X) sorted by descending heights
 		pairs_sorted = sorted(list(zip(y_plot, x_plot, consider_xorder)), reverse=True)
 
-
 		#print("\t")
 		if topic == "top_unis" and topic == "study_prog":
 			break
@@ -269,7 +271,7 @@ def compare_bar_order(tes):
 
 		# get corresponding pairs for each bar: its height (largest, second...) and its order on X axis
 		get_oxy_mapping = lambda a, b: {j:i[-1] for i,j in zip (a,b)}
-		oxy_map = get_oxy_mapping(pairs_sorted, consider_yorder)
+		oxy_map = get_oxy_mapping(pairs_sorted, consider_yorder) # mapping as a dictionary
 
 		# replace the entity labels given their bar heights given their order on X
 		replace_x = lambda x: [[oxy_map[x2] for x2 in x1] for x1 in x]
@@ -295,15 +297,37 @@ def compare_bar_order(tes):
 	freq_len, freq_seq, k = -1, [], 0 # the most frequent length / number of occurring entities
 	freq_len2, freq_seq2, k2 = -1, [], 0
 	for t_name, a in topics_elength_counter.items():
-		print(t_name)
+		print("- - - - ",t_name)
 
 		keys_val_lengths = lambda x: {k: len(v) for k,v in x.items()}
 		kvl = keys_val_lengths(a) # useful info: number of entities: number of stories with this no. entities
 		keymax = max(kvl, key=kvl.get) # get number of entities that is most frequent
-		#print(keymax,a[keymax]) 
+		print("\t First N:",keymax,", number of such stories:" ,len(a[keymax])) # a[keymax]
+
+		# to analyze the second most frequent N of entities, remove keymax and recalculate
+		a.pop(keymax)
+		kvl = keys_val_lengths(a) # new
+		keymax = max(kvl, key=kvl.get) # new
+		print("\t Second N:", keymax,", number of such stories:", len(a[keymax])) # a[keymax]
+
+		#if len(a) > 1:
+		#	a.pop(keymax)
+		#	kvl = keys_val_lengths(a) # new
+		#	keymax = max(kvl, key=kvl.get) # new
+		#	print("\t Third N:", keymax,", number of such stories:", len(a[keymax])) # a[keymax]
 
 		# continue with keymax: a[keymax] - analyze its frequency distribution given the order in the story
-		
+
+		# in case only one or no entity is referred to
+		if keymax == 0:
+			continue # skip the plotting part, continue from the top of the loop with a new topic
+
+		info_topic = get_plot_info(t_name)
+		no_bars = len(info_topic["x"])
+		if keymax > no_bars:
+			print("N > bars",no_bars, keymax, )
+			for q in a[keymax]: print(q)
+
 		counter_i = {} # each topic its own dict; order index as key, counter dict as value (entity as key)
 		entities = set()
 		for i in range(keymax): # order indices
@@ -318,15 +342,18 @@ def compare_bar_order(tes):
 
 		#print(counter_i)
 		#print("\n")
+		
 		counter_i2 = {e:{v:0 for v in range(len(counter_i))} for e in entities} #{ (l1,l2): {0:2, 1:10,3:0}, (l... } 
 		for ent in entities:
-			for k in range(len(counter_i2)):
+			for k in range(len(counter_i)):
+				#print(k, counter_i)
 				if ent in counter_i[k]:
 					counter_i2[ent][k] = counter_i[k][ent]
 			
 		#print(counter_i2)
 
 		# plot these stats
+		
 		plot_labels = [k+1 for k in counter_i]
 		x_plot = np.arange(1,len(counter_i)+1)  # the label locations
 		width = 0.6
@@ -339,13 +366,19 @@ def compare_bar_order(tes):
 			x_plot = [x + width/len(x_plot) for x in x_plot]
 
 		ax.set_ylabel('Counts')
-		ax.set_title(t_name)
+		ax.set_xlabel('Index of appearance')
+		info_topic = get_plot_info(t_name)
+		no_bars = len(info_topic["x"])
+		s = " ".join([t_name+":", str(no_bars) ,"bars in total,", "most often mention ",str(len(x_plot)), "entities"])
+		ax.set_title(s)
 		ax.set_xticks(plot_labels)
 		ax.set_xticklabels(plot_labels)
 		ax.legend()
 		fig.tight_layout()
 
 		plt.show()
+		
+		
 
 
 

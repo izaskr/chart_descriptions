@@ -1,0 +1,18 @@
+The plots in this folder show a distribution of entities given their order of appearance.
+Entities are bars from the bar charts.
+
+1*_MbNe.png --> M is the total number of bars in the chart, N is the number of entities that is most frequent in the summaries. 1 indicates that the plot concerns the most frequent N.
+
+A glace at these index/frequency plots shows that
+
+* the first mentioned bar is usually the one that is the highest (fistY), regardless of its position on the X (firstX, second X, ...), and then followed by the secondY, thirdY etc.
+* alternatively, the summary will first mention the leastY or the firstX. These two narration options are less frequent.
+* 
+
+2*_MbNe.png shows this appearance distribution for the second most frequent N.
+* for most charts, N2 is quite smaller than N1 (N1 is usually larger by 10)
+* when N2 = 1, the entity mentioned is the highest bar. In charts: money_he, obesity_cause and study_prog
+* an interesting case is when no entities are mentioned. This in 4 summaries of the chart showing salary of women in  4 time periods (span of 15 years).
+* one case where N2 > bar_count (only for salary_SE_degree). Here a single entity was mentioned twice: either leastY or firstY, so the lowest or heighest bar.
+
+
