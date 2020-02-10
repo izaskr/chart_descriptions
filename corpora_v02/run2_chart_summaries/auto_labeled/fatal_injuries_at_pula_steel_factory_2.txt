@@ -1,0 +1,1357 @@
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+Factory
+between	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+.
+There
+were
+30	<y_axis_highest_value_val>
+fatal
+injuries
+in
+2012	<x_axis_label_highest_value>
+,
+dropping
+to	<x_axis_range_end>
+25	<y_axis_Scnd_highest_val>
+in
+2013	<x_axis_label_Scnd_highest_value>
+.
+In
+2014	<x_axis_label_3rd_highest_value>
+there
+was
+another
+decrease
+with
+16	<y_axis_3rd_highest_val>
+fatal
+injuries
+.
+The
+figure
+in
+2015	<x_axis_label_4th_highest_value>
+dropped
+slightly
+to	<x_axis_range_end>
+15	<y_axis_4th_highest_val>
+and	<x_axis_range_end>
+there
+was
+another
+drop
+in
+2016	<x_axis_label_least_value>
+when
+the
+figure
+was
+12.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+number
+of
+fatal
+injuries
+in
+the
+Pula
+steel
+factory
+for
+a
+number
+of
+years.\\n\\nThe
+number
+of
+fatalities
+in
+2012	<x_axis_label_highest_value>
+was
+30	<y_axis_highest_value_val>
+,
+this
+dropped
+to	<x_axis_range_end>
+25	<y_axis_Scnd_highest_val>
+in
+2013	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+decreased
+to	<x_axis_range_end>
+16	<y_axis_3rd_highest_val>
+in
+2014	<x_axis_label_3rd_highest_value>
+.
+In
+2015	<x_axis_label_4th_highest_value>
+,
+15	<y_axis_4th_highest_val>
+fatalities
+were
+recorded
+,
+whilst	<y_x_comparison_rest>
+in
+2016	<x_axis_label_least_value>
+the
+number
+in
+fatalities
+dropped
+to	<x_axis_range_end>
+12.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+number
+of
+fatal
+injuries
+at
+the
+Pula
+steel
+factory
+,
+from	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+.
+There
+has
+been
+a
+steady
+decline
+each
+year
+,
+from	<x_axis_range_start>
+30	<y_axis_highest_value_val>
+in
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+12	<y_axis_least_value_val>
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+Factory
+from	<x_axis_range_start>
+year
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+2016.\\n\\nFrom
+the
+chart
+you
+will
+see
+that
+the
+number
+of
+injuries
+were
+30	<y_axis_highest_value_val>
+,
+at
+their
+highest
+in
+2012	<x_axis_label_highest_value>
+.
+ 
+The
+fatal
+injuries
+slowly	<y_axis_trend>
+declined
+over	<y_axis_approx>
+the
+next	<order_Scnd>
+3	<y_axis_inferred_value_add_v1=4th_v2=least>
+-	<x_axis_range_end>
+4	<y_axis_inferred_value_add_v1=3rd_v2=least>
+years
+to	<x_axis_range_end>
+12	<y_axis_least_value_val>
+in
+2016	<x_axis_label_least_value>
+.
+ 
+This
+has
+reduced
+by
+over	<y_axis_approx>
+50
+%	<y_axis_inferred_label>
+compared	<y_x_comparison>
+to	<x_axis_range_end>
+the
+year
+2012.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+number
+of
+fatal
+inquires
+that
+has
+occurred
+at
+the
+Pula
+Steel
+Factory
+.
+ 
+The
+signifant
+results
+show
+that
+the
+number
+of
+fatal
+injuries
+has
+been
+declining
+from	<x_axis_range_start>
+year
+2012	<x_axis_label_highest_value>
+up
+to	<x_axis_range_end>
+year
+2016	<x_axis_label_least_value>
+.
+ 
+There
+were
+30	<y_axis_highest_value_val>
+fatal
+injuries
+in
+2012	<x_axis_label_highest_value>
+,
+25	<y_axis_Scnd_highest_val>
+in
+2013	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+quite	<y_axis_trend>
+a
+large
+drop
+in
+2014	<x_axis_label_3rd_highest_value>
+with
+16	<y_axis_3rd_highest_val>
+fatal
+injuries
+.
+ 
+In
+2015	<x_axis_label_4th_highest_value>
+there
+were
+similar
+fatal
+injuries
+to	<x_axis_range_end>
+the
+previous
+year
+with
+15	<y_axis_4th_highest_val>
+and	<x_axis_range_end>
+12	<y_axis_least_value_val>
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+Factorybetween
+2012	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+.
+The
+fatality
+rate
+has
+fallen
+each
+year
+.
+There
+were
+30	<y_axis_highest_value_val>
+fatalities
+in
+2012	<x_axis_label_highest_value>
+,
+25	<y_axis_Scnd_highest_val>
+in
+2013	<x_axis_label_Scnd_highest_value>
+,
+16	<y_axis_3rd_highest_val>
+in
+2014	<x_axis_label_3rd_highest_value>
+,
+15	<y_axis_4th_highest_val>
+in
+2015	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+12	<y_axis_least_value_val>
+ 
+in
+2016	<x_axis_label_least_value>
+.
+The
+biggest
+drop
+was
+between	<x_axis_range_start>
+2013	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+2014.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+factory
+from	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+-	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+.
+\\nIn
+2012	<x_axis_label_highest_value>
+there
+were
+30	<y_axis_highest_value_val>
+fatal
+injuries
+.
+25	<y_axis_Scnd_highest_val>
+were
+recorded
+in
+2013	<x_axis_label_Scnd_highest_value>
+.
+It
+decreased
+further
+in
+2014	<x_axis_label_3rd_highest_value>
+at
+16	<y_axis_3rd_highest_val>
+.
+In
+2015	<x_axis_label_4th_highest_value>
+there
+was
+just
+a
+slight
+drop
+at
+15	<y_axis_4th_highest_val>
+fatal
+injuries
+.
+However
+in
+2016	<x_axis_label_least_value>
+it
+shows
+the
+lowest
+number
+of
+injuries
+at
+12.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+shows
+the
+number
+of
+fatal
+injuries
+at
+pula
+Steele
+factory
+from	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+.
+The
+highest
+is
+2012	<x_axis_label_highest_value>
+with
+the
+number
+at
+30	<y_axis_highest_value_val>
+gradually	<y_axis_trend>
+decreasing
+to	<x_axis_range_end>
+about	<y_axis_approx>
+13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+factory
+was
+decreasing
+from	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+.
+The
+number
+of
+injuries
+decreased
+most
+dramatically
+in
+2014	<x_axis_label_3rd_highest_value>
+,
+with
+9	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
+less	<y_axis_approx>
+injuries
+occurring
+in
+that
+year.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+number
+of
+fatal
+injuries
+at
+Pula
+Steel
+Factory
+.
+In
+2012	<x_axis_label_highest_value>
+there
+was
+30	<y_axis_highest_value_val>
+fatalities
+.
+This
+decreased
+by
+16.6
+%	<y_axis_inferred_label>
+by
+2013	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+then	<order_3rd>
+there
+was
+a
+massive
+drop
+of
+36
+%	<y_axis_inferred_label>
+in
+2014	<x_axis_label_3rd_highest_value>
+.
+In
+2015	<x_axis_label_4th_highest_value>
+the
+fatality
+number
+decreased
+by
+1	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+and	<x_axis_range_end>
+then	<order_3rd>
+in
+2016	<x_axis_label_least_value>
+there
+was
+a
+further
+20
+%	<y_axis_inferred_label>
+drop
+.
+ 
+It
+is
+clear
+from	<x_axis_range_start>
+the
+chart
+the
+the
+number
+of
+fatal
+injuries
+have
+decreased
+every
+year
+andfrom
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+there
+was
+a
+60
+%	<y_axis_inferred_label>
+decrease.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+the
+number
+of
+fatal
+injuries
+in
+the
+pula
+steel
+factory
+.
+The
+number
+of
+fatalities
+in
+1012
+was
+30	<y_axis_highest_value_val>
+.
+This
+has
+decrease
+significantly	<y_axis_trend>
+to	<x_axis_range_end>
+13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+factory
+has
+decreased
+since
+2012	<x_axis_label_highest_value>
+,
+arriving
+to	<x_axis_range_end>
+12	<y_axis_least_value_val>
+for
+the
+year
+2016	<x_axis_label_least_value>
+.
+The
+statistics
+show
+the
+following
+numbers
+in
+the
+following
+years
+2012	<x_axis_label_highest_value>
+,
+30	<y_axis_highest_value_val>
+people
+.
+In
+2013	<x_axis_label_Scnd_highest_value>
+25	<y_axis_Scnd_highest_val>
+,
+2014	<x_axis_label_3rd_highest_value>
+16	<y_axis_3rd_highest_val>
+,
+2015	<x_axis_label_4th_highest_value>
+was
+15.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+measures
+the
+number
+of
+fatal
+injuries
+at
+Pula
+Steel
+factory
+over	<y_axis_approx>
+a
+4	<y_axis_inferred_value_add_v1=3rd_v2=least>
+year
+period
+.
+\\n\\nIt
+shows
+that
+there
+was
+a
+steady
+decline
+in
+injuries
+from	<x_axis_range_start>
+30	<y_axis_highest_value_val>
+people
+being
+fatally
+injured
+in
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+12	<y_axis_least_value_val>
+people
+being
+injured
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+number
+of
+fatalities
+in
+the
+Pula
+Steel
+Factory
+.
+The
+trend	<y_axis_trend>
+decreases
+from	<x_axis_range_start>
+30	<y_axis_highest_value_val>
+in
+2020
+to	<x_axis_range_end>
+13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
+in
+2016	<x_axis_label_least_value>
+,
+with
+an
+average
+decrease
+of
+5	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+per
+year.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+bar
+chart
+shows
+the
+Number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+Factory
+between	<x_axis_range_start>
+years
+2012	<x_axis_label_highest_value>
+-	<x_axis_range_end>
+2016.\\nIn
+2012	<x_axis_label_highest_value>
+it
+was
+highest
+at
+30	<y_axis_highest_value_val>
+fatalities
+across
+the
+year
+.
+In
+2013	<x_axis_label_Scnd_highest_value>
+it
+lowered
+to	<x_axis_range_end>
+25	<y_axis_Scnd_highest_val>
+fatalities
+,
+in
+2014	<x_axis_label_3rd_highest_value>
+it
+hit
+just
+above	<y_axis_trend_up>
+15	<y_axis_4th_highest_val>
+fataliies
+.
+In
+2015	<x_axis_label_4th_highest_value>
+it
+hit
+15	<y_axis_4th_highest_val>
+,
+and	<x_axis_range_end>
+in
+2016	<x_axis_label_least_value>
+it
+hit
+13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
+fatalities.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+number
+of
+fatal
+injuries
+at
+the
+pula
+street
+factory.\\nThe
+highest
+number
+was
+30	<y_axis_highest_value_val>
+in
+2012	<x_axis_label_highest_value>
+which
+decreased
+to	<x_axis_range_end>
+25	<y_axis_Scnd_highest_val>
+in
+2013	<x_axis_label_Scnd_highest_value>
+,
+16	<y_axis_3rd_highest_val>
+in
+2014	<x_axis_label_3rd_highest_value>
+,
+15	<y_axis_4th_highest_val>
+in
+2015	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+the
+lowest
+figure
+was
+13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+is
+a
+chart
+based
+on
+the
+Number
+of
+Fatal
+Injuries
+at
+the
+Pila
+Steel
+Factory
+between	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+-	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+.
+In
+2012	<x_axis_label_highest_value>
+the
+number
+of
+Fatal
+injuries
+was
+at
+its
+highest
+with
+30	<y_axis_highest_value_val>
+instances
+.
+Each
+year
+from	<x_axis_range_start>
+2013	<x_axis_label_Scnd_highest_value>
+-	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+has
+dramatically
+reduced
+year
+on
+year
+.
+In
+2016	<x_axis_label_least_value>
+it
+'s
+at
+its
+lowest
+with
+approximately	<y_axis_approx>
+12	<y_axis_least_value_val>
+fatal
+injuries.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+factory
+across
+5	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+years
+from	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+-	<x_axis_range_end>
+2016.\\n\\nThere
+is
+a
+downward
+trend	<y_axis_trend>
+in
+the
+number
+of
+fatalities
+,
+falling	<y_axis_trend_down>
+from	<x_axis_range_start>
+30	<y_axis_highest_value_val>
+in
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+12	<y_axis_least_value_val>
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+number
+of
+fatal
+injuries
+per
+year
+at
+the
+Pula
+steel
+factory
+from	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+2016	<x_axis_label_least_value>
+.
+\\nFrom
+the
+chart
+we
+see
+that
+the
+highest
+number
+of
+fatal
+injuries
+at
+the
+Pula
+steel
+factory
+is
+from	<x_axis_range_start>
+2012	<x_axis_label_highest_value>
+.
+We
+can
+see
+that
+there
+is
+a
+gradual
+decrease
+year
+on
+year
+with
+ 
+the
+lowest
+number
+of
+fatal
+injuries
+at
+the
+Pula
+steel
+factory
+is
+from	<x_axis_range_start>
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"this
+chart
+shows
+the
+number
+of
+fatal
+injuries
+at
+the
+pula
+steel
+factory
+has
+decreased
+over	<y_axis_approx>
+4	<y_axis_inferred_value_add_v1=3rd_v2=least>
+years
+.
+In
+2012	<x_axis_label_highest_value>
+,
+there
+were
+30	<y_axis_highest_value_val>
+fatal
+injuries
+and	<x_axis_range_end>
+this
+has
+reduced
+year
+by
+year
+,
+too
+12	<y_axis_least_value_val>
+fatal
+injuries
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Number
+of
+fatal
+injuries
+at
+the
+pula
+steel
+factory
+.
+ 
+30	<y_axis_highest_value_val>
+in
+2012	<x_axis_label_highest_value>
+,
+25	<y_axis_Scnd_highest_val>
+in
+2013	<x_axis_label_Scnd_highest_value>
+,
+16	<y_axis_3rd_highest_val>
+in
+2014	<x_axis_label_3rd_highest_value>
+,
+15	<y_axis_4th_highest_val>
+in
+2015	<x_axis_label_4th_highest_value>
+,
+12	<y_axis_least_value_val>
+in
+2016\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+number
+o
+fatal
+injuries
+at
+the
+Pula
+Steel
+Factory
+showed
+a
+decrease
+over	<y_axis_approx>
+time
+.
+Its
+highest
+recorded
+point
+being
+in
+2012	<x_axis_label_highest_value>
+where
+there
+were
+30	<y_axis_highest_value_val>
+fatal
+injuries
+recorded
+.
+As
+time
+went
+on
+,
+the
+number
+dropped
+significantly	<y_axis_trend>
+having
+13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
+fatal
+injuries
+recorded
+in
+2016.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+bar
+chart
+shows
+the
+number
+of
+fatal
+injuries
+at
+the
+Pula
+Steel
+Factory
+.
+It
+shows
+that
+over	<y_axis_approx>
+a
+5	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+year
+period
+,
+the
+number
+of
+fatal
+injuries
+got
+progressively
+lower	<y_axis_trend_down>
+.
+In
+2012	<x_axis_label_highest_value>
+there
+were
+30	<y_axis_highest_value_val>
+fatal
+injuries
+.
+In
+2013	<x_axis_label_Scnd_highest_value>
+there
+were
+25	<y_axis_Scnd_highest_val>
+fatal
+injuries
+.
+In
+2014	<x_axis_label_3rd_highest_value>
+there
+were
+approximately	<y_axis_approx>
+16	<y_axis_3rd_highest_val>
+fatal
+injuries
+.
+In
+2015	<x_axis_label_4th_highest_value>
+there
+were
+15	<y_axis_4th_highest_val>
+injuries
+and	<x_axis_range_end>
+in
+2016	<x_axis_label_least_value>
+there
+were
+approximately	<y_axis_approx>
+12	<y_axis_least_value_val>
+injuries.\
+"
+"
+
+
+<end_of_description>

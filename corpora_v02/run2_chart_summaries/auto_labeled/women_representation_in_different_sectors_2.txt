@@ -1,0 +1,1265 @@
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+percentage
+of
+women
+representation
+in
+different
+sectors
+in
+Benoni
+.
+In
+the
+financial
+groups
+the
+percentage
+of
+women
+representation
+was
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+.
+In
+the
+Tech	<x_axis_label_Scnd_highest_value>
+group
+this
+figure
+was
+higher	<y_axis_trend_up>
+at
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+The
+percentage
+for
+the
+Insurance	<x_axis_label_highest_value>
+sector
+was
+even
+higher	<y_axis_trend_up>
+at
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+though
+the
+percentage
+for
+the
+Law
+Firms
+sector
+was
+lower	<y_axis_trend_down>
+at
+35%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+representation
+of
+women
+in
+different
+sectors
+in
+Benoni.\\n\\nIn
+Financial
+Groups
+,
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+of
+the
+workers
+were
+female
+.
+In
+Tech	<x_axis_label_Scnd_highest_value>
+,
+that
+number
+increases	<slope_up>
+to	<x_axis_range_end>
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+also
+in
+Insurance	<x_axis_label_highest_value>
+which
+has
+64
+%	<y_axis_inferred_label>
+of
+its
+workers
+are
+female
+.
+Law Firms	<x_axis_label_least_value>
+are
+the
+lowest
+representation
+of
+women
+,
+at
+36%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+percentage
+of
+women
+represented
+in
+different
+sectors
+in
+Benoni
+.
+We
+can
+see
+that
+there
+are
+less	<y_axis_approx>
+women
+than
+men
+working
+in
+law firms	<x_axis_label_least_value>
+,
+and	<x_axis_range_end>
+an
+equal
+amount
+of
+men
+and	<x_axis_range_end>
+women
+in
+financial groups	<x_axis_label_3rd_highest_value>
+.
+However
+there
+are
+a
+higher	<y_axis_trend_up>
+percentage
+of
+women
+working
+in
+tech	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+insurance.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+percentage
+of
+women
+represented
+in
+different
+sectors
+in
+Benoni.\\n\\nFrom
+the
+chart
+we
+see
+that
+highest
+percentage
+of
+women
+are
+in
+the
+insurance	<x_axis_label_highest_value>
+sector
+at
+65%.\\n\\nThe
+lowest
+representation
+is
+in
+Law Firms	<x_axis_label_least_value>
+at
+35	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+followed	<order_Scnd>
+behind	<y_axis_trend_down>
+by
+financial groups	<x_axis_label_3rd_highest_value>
+at
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+then	<order_3rd>
+not
+far
+behind	<y_axis_trend_down>
+by
+Tech	<x_axis_label_Scnd_highest_value>
+sector.\\n\\nThere
+is
+a
+large
+percentage
+difference
+in
+representation
+between	<x_axis_range_start>
+insurance	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+law
+firms.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+women
+representation
+in
+different
+sectors
+in
+Benoni.\\n\\nThere
+is
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+of
+women
+representation
+in
+the
+Financial
+Groups
+.
+ 
+61
+%	<y_axis_inferred_label>
+in
+Tech	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+63
+%	<y_axis_inferred_label>
+in
+Insurance\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+percentage
+of
+female
+representation
+in
+different
+work
+sectors
+in
+Benoni
+.
+Insursnce
+is
+the
+highest
+at
+64
+%	<y_axis_inferred_label>
+,
+ 
+tech	<x_axis_label_Scnd_highest_value>
+next	<order_Scnd>
+at
+61
+%	<y_axis_inferred_label>
+,
+then	<order_3rd>
+financial
+groips
+af
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+.
+Law firms	<x_axis_label_least_value>
+are
+the
+lowest
+at
+35%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+percentage
+of
+women
+who
+represented
+in
+different
+sectors
+in
+Benoni
+.
+\\nThere
+ 
+were
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+of
+women
+representing
+financial groups	<x_axis_label_3rd_highest_value>
+.
+The
+tech	<x_axis_label_Scnd_highest_value>
+groups
+had
+women
+representatives
+of
+about	<y_axis_approx>
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+Insurance	<x_axis_label_highest_value>
+groups
+had
+slightly
+more	<y_axis_trend_up>
+with
+about	<y_axis_approx>
+64
+%	<y_axis_inferred_label>
+.
+However
+the
+law
+firms
+had
+the
+least	<y_axis_trend>
+with
+about	<y_axis_approx>
+36%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+women
+representation
+in
+different
+sectors
+in
+Benoni
+the
+highest
+being
+insurance	<x_axis_label_highest_value>
+at
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+then	<order_3rd>
+tech.at
+just
+above	<y_axis_trend_up>
+60
+%	<y_axis_inferred_label>
+then	<order_3rd>
+finance
+at
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+then	<order_3rd>
+law
+at
+35%\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Female
+representation
+in
+the
+Insurance	<x_axis_label_highest_value>
+sector
+in
+Benoni
+is
+higher	<y_axis_trend_up>
+than
+in
+Law firms	<x_axis_label_least_value>
+,
+Tech	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+Financial Groups	<x_axis_label_3rd_highest_value>
+.
+Whilst	<y_x_comparison_rest>
+Law Firms	<x_axis_label_least_value>
+had
+only
+around
+35	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+female
+representation
+,
+Insurance	<x_axis_label_highest_value>
+had
+around
+a
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+representation.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+charts
+show
+the
+women
+representation
+in
+various
+sectors
+.
+Insurance	<x_axis_label_highest_value>
+has
+the
+highest
+representtation
+at
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+whereas
+law firms	<x_axis_label_least_value>
+has
+the
+lowest
+at
+35%-
+a
+30	<y_axis_inferred_value_add_v1=highest_v2=least>
+%	<y_axis_inferred_label>
+difference
+.
+Financial groups	<x_axis_label_3rd_highest_value>
+appear
+to	<x_axis_range_end>
+have
+the
+most
+equal
+representation
+with
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+the
+percentage
+of
+woman
+who
+are
+representatives
+in
+different
+sectors
+in
+Benoni
+.
+Most
+woman
+are
+representative
+in
+Insurance	<x_axis_label_highest_value>
+with
+76
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+there
+are
+only
+35	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+woman
+represented
+in
+the
+law
+firms
+.
+The
+second	<order_Scnd>
+highest
+representation
+was
+tech	<x_axis_label_Scnd_highest_value>
+with
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+followed	<order_Scnd>
+by
+with
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+in
+financial
+groups.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+women
+representation
+vary
+according
+to	<x_axis_range_end>
+the
+sector
+in
+Benoni
+.
+The
+highest
+representation
+can
+be
+found
+in
+the
+Insurance	<x_axis_label_highest_value>
+group
+with
+a
+64
+%	<y_axis_inferred_label>
+,
+whiles
+the
+lowest
+is
+in
+Law
+Firms
+sector
+with
+around
+36%.\\nThe
+tech	<x_axis_label_Scnd_highest_value>
+sector
+has
+a
+representation
+of
+around
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+,
+while	<y_x_comparison_rest>
+the
+Financial
+groups
+50%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+following
+graph
+shows
+the
+female
+representation
+in
+different
+work
+sectors
+in
+Benoni
+,
+the
+fours
+sectors
+are
+insurance	<x_axis_label_highest_value>
+which
+is
+the
+highest
+with
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+Tech	<x_axis_label_Scnd_highest_value>
+with
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+women
+,
+financial groups	<x_axis_label_3rd_highest_value>
+with
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+women
+representing
+and	<x_axis_range_end>
+law
+firms
+with
+only
+35	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+female
+representation.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+representation
+of
+women
+in
+various
+sectors
+in
+Benoni
+.
+Almost	<y_axis_approx>
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+of
+financial groups	<x_axis_label_3rd_highest_value>
+consisted
+of
+women
+,
+and	<x_axis_range_end>
+women
+make
+up
+over	<y_axis_approx>
+60
+%	<y_axis_inferred_label>
+of
+the
+tech	<x_axis_label_Scnd_highest_value>
+sector
+.
+The
+insurance	<x_axis_label_highest_value>
+sector
+is
+even
+higher	<y_axis_trend_up>
+at
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+,
+and	<x_axis_range_end>
+law firms	<x_axis_label_least_value>
+come
+in
+the
+smallest
+at
+35%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"We
+have
+here
+a
+bar
+chart
+representing
+women
+in
+different
+sector
+in
+Benoi
+.
+\\nIt
+is
+divided
+into
+four
+main
+sectors
+.
+Financial
+Groups
+,
+Tech	<x_axis_label_Scnd_highest_value>
+,
+Insurance	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+Law
+Firms
+.
+\\nThe
+percentage
+of
+representation
+across
+these
+sectors
+starts
+at
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+for
+the
+financial
+groups
+,
+just
+over	<y_axis_approx>
+60
+%	<y_axis_inferred_label>
+for
+tech	<x_axis_label_Scnd_highest_value>
+,
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+for
+Insurance	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+35	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+for
+Law
+Firms.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+the
+representation
+of
+women
+in
+different
+sectors
+in
+Benoni.\\nThe
+highest
+representation
+was
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+in
+the
+insurance	<x_axis_label_highest_value>
+sector
+followed	<order_Scnd>
+by
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+in
+the
+tech	<x_axis_label_Scnd_highest_value>
+sector
+,
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+in
+financial groups	<x_axis_label_3rd_highest_value>
+and	<x_axis_range_end>
+finally
+35	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+in
+law
+firms\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+is
+a
+chart
+about	<y_axis_approx>
+Women
+Representation
+in
+different
+sectors
+in
+Benoni
+.
+The
+highest
+with
+women
+representation
+is
+Insurance	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+Tech	<x_axis_label_Scnd_highest_value>
+.
+Financial
+is
+the
+third	<order_3rd>
+highest
+and	<x_axis_range_end>
+Law
+firms
+at
+the
+lowest.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+proportion
+of
+women
+employed
+across
+different
+work
+sectors
+in
+Benoni.\\n
+\\nThere
+is
+equal
+representation
+in
+financial groups	<x_axis_label_3rd_highest_value>
+,
+with
+a
+higher	<y_axis_trend_up>
+proportion
+of
+women
+employed
+in
+Tech	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+Insurance	<x_axis_label_highest_value>
+sectors.\\n\\nWomen
+appear
+to	<x_axis_range_end>
+be
+under	<y_axis_approx>
+represented
+in
+the
+Law
+industry.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+a
+percentage
+of
+women
+representation
+in
+different
+sectors
+in
+Benoni
+.
+\\nFrom
+the
+chart
+we
+see
+that
+the
+highest
+percentage
+of
+women
+representation
+ 
+is
+in
+insurance	<x_axis_label_highest_value>
+at
+63
+%	<y_axis_inferred_label>
+.
+We
+can
+see
+that
+the
+lowest
+percentage
+of
+women
+representation
+ 
+is
+in
+law
+firm
+at
+35%\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"this
+chart
+demonstrates
+that
+woman
+represented
+in
+Benoni
+is
+largest
+in
+the
+insurance	<x_axis_label_highest_value>
+sector
+,
+at
+64
+%	<y_axis_inferred_label>
+.
+in
+comparison
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+below
+of
+woman
+represented
+in
+financial groups	<x_axis_label_3rd_highest_value>
+,
+even
+less	<y_axis_approx>
+is
+law firms	<x_axis_label_least_value>
+,
+at
+36%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+female
+representation
+in
+different
+sectors
+in
+Benomi
+.
+ 
+It
+is
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+in
+financial
+,
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+in
+tech	<x_axis_label_Scnd_highest_value>
+,
+75
+%	<y_axis_inferred_label>
+in
+insurance	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+34
+%	<y_axis_inferred_label>
+in
+law\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Women
+Representation
+in
+different
+sectors
+in
+Benoni
+shows
+what
+the
+women
+really
+want
+to	<x_axis_range_end>
+do
+with
+their
+lives
+.
+The
+sector
+with
+the
+highest
+amount
+is
+insurance	<x_axis_label_highest_value>
+with
+around
+64
+%	<y_axis_inferred_label>
+of
+women
+in
+it
+.
+Other
+sectors
+like
+Tech	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+Financial
+Groups
+also
+doing
+good
+with
+percentages
+over	<y_axis_approx>
+50	<y_axis_3rd_highest_val>
+but
+not
+more	<y_axis_trend_up>
+that
+64
+%	<y_axis_inferred_label>
+with
+the
+lowest
+women
+representation
+in
+Law Firms	<x_axis_label_least_value>
+with
+only
+34%\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+bar
+chart
+shows
+women
+represented
+in
+different
+sectors
+in
+Benoni
+.
+It
+shows
+that
+there
+are
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+women
+in
+Financial Groups	<x_axis_label_3rd_highest_value>
+,
+roughly
+65	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+represented
+in
+the
+Tech	<x_axis_label_Scnd_highest_value>
+sector
+and	<x_axis_range_end>
+roughly
+35	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+in
+Law Firms	<x_axis_label_least_value>
+.
+There
+is
+the
+greatest
+representation
+in
+the
+Insurance	<x_axis_label_highest_value>
+sector
+at
+roughly
+65%.\
+"
+"
+
+
+<end_of_description>

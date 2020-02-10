@@ -1,0 +1,69 @@
+"\"This is a chart showing women representation in different university departments in Narvik in Computer Science, Arts, Mathematics, Literature and Engineering. Engineering has the most women representation, according to this chart, with 70%, closely followed by Computer Science with 60%, then Mathematics with 55%, then Arts with just 32% and Literature with the least women representation at 24%.\""
+
+
+"\"Bar chart showing the representation of women in difference university departments in Narvik. \\n\\nThe lowest representation is in the Literature Department at 22%, rising to the highest representation at 70% in Engineering.\""
+
+
+"\"The graph depicts the percentage of people in university departments who are women. The greatest percentage of women are in engineering, making up 70%. Computer science is 60% women, mathematics 55%, and arts 32%. Literature has the fewest women, consisting of only 22%.\""
+
+
+"\"The graph details the percentage of women within different university departments in Narvik. The graph shows that in STEM subjects women make up more than half of the department, while in the arts and literature departments, women account for less than a third of the department.\""
+
+
+"\"This chart shows the percentage of women represented in different university departments in Narvik.\\n\\nFrom the chart, we can see that Engineering is the department with the highest representation of women, with 70% of the department being women. Computer science follows with 60% of the department being women, although this is a big drop from Engineering. Mathematics follows closely with 56%.\\n\\nHowever, after this, there is a big drop with the Arts department containing only 32% of women and Literature coming last with just 22% of women.\""
+
+
+"\"This graph depicts the percentage of women representation in different university departments in Narvik. In Computer Science, 60% of the department are women, in Arts 32% of the department are women, in Mathematics 66% of the department are women, in Literature 22% of the department are women, and in Engineering 70% of the department are women.\""
+
+
+"\"Engineering has the highest percentage of woman representation at Narvik University with 70% of woman representing on this course.\\n\\nLiterature has the lowest percentage of representation at 22%.\""
+
+
+"\"This chart shows the percentage of women enrolled in university departments. The representation is highest within STEM fields, with engineering showing the highest representation at 70%, followed by computer science with a 60% representation and mathematics with 56% of women represented. Only 32% of women are now represented in Arts and 24% in literature, indicating a decline in Arts and Humanities in favour STEM fields\""
+
+
+"\"The percentage of women in five Narvik university departments is shown here. In Engineering it is 70, in computer science 60, in maths 55, in arts 32 and in literature 22.\""
+
+
+"\"The representation of women in university departments in Narvik is  as shown by this graph.  Computer science and engineering have the largest representation at 60 and 70% respectively.  The lowest representation is in literature at just over 20%.\""
+
+
+"\"Women representation in Narvik university departments = There is a 60% representation of women in Computer science and 70% in Engineering. In Maths this is 55%. However in Arts it is 32% and Literature just 24%. This seems almost opposite to what I would expect.\""
+
+
+"\"This chart shows the percentage of women in five different university departments in Narvik. There are 60%  of women in Computer Science, 32% in Arts, 54% in Mathematics, 2% in Literature and 70% in Engineering. This shows how there are more women in the Engineering department and less in the Literature department.\""
+
+
+"\"this graph shows that the percentage of women entering Engineering is at almost 70% compared to only 55% entering Mathematics. Almost 60% of women are represented in Computer Science compared to less than 40% in both Arts and Literature.\""
+
+
+"\"This chart shows the percentages of women representation in different university departments in Narvik. From the chart, we see that the lowest amount of women representation came from Literature with 24%, followed by 32% of women representation in Arts. Next we see there were around 56% of women representation in Mathematics followed by 60% in Computer Science. The highest women representation came from Engineering with 70%.\""
+
+
+"\"Women representation in different university departments in narvik was at its highest in the department of engineering at 70%. It was at its lowest in literature at 23%. Computer science was second highest at 60%, the arts at 32% and mathematics at 65%.\""
+
+
+"\"This chart looked at women's representation at different universites in Narvik. Participation ranged from the lowest (Literature at 23%) to the highest (Engineering) at 70%\""
+
+
+"\"This chart shows the representation of women in different university departments in Narvik.  \\nThe lowest was literature at just over 20%. \\nThe next, Arts at just over 30%. Mathematics, approximately 55%, computer science 60% and finally engineering at 70%.\""
+
+
+"\"The graph shows the % of women employed in different university depts in Narvik. The highest percentage of women are employed in the engineering dept with 70% and the lowest are employed in the literature dept with only 22%\""
+
+
+"\"Graph shows women representation in Narviks different university departments. The highest being engineering at 70%, second highest was computer science at 60%, below that was the mathematics department at 55%, arts came in at second lowest at 32% and literature the lowest at 24%\""
+
+
+"\"The chart shows the percentage of women in different university departments in Narvik.\\nThe highest percentages of women are found in the  departments of engineering (70%), computer science (60%) and mathematics (54%).\\nThe lowest percentage (22%) is in literature while in arts the level is just over 30%.\""
+
+
+"\"Women are represented at 70% for Engineering in Narvik, whereas only just over 20% are represented in literature.\""
+
+
+"\"The chart shows women’s representation in different university departments in Narvic. Engineering at 70% and Computing at 60% are the highest. We see women’s representation the lowest in the arts with the Literature department standing at 22% and the Arts at 32%. The representation of women in the Maths department is 54%.\""
+
+
+"\"This chart shows women in Narvik are well represented within departments traditionally seen as male dominated.  In contrast, only a small percentage of people within arts and literature are women.  THe most female dominated department is Engineering\""
+
+

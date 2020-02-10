@@ -1,0 +1,1886 @@
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+average
+time
+in
+minutes	<y_axis>
+spent
+by
+different
+age
+groups
+on
+social
+media
+daily
+.
+On
+average
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+years
+olds
+were
+spending
+180
+minutes	<y_axis>
+a
+day
+,
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+year
+olds
+were
+spending
+160
+minutes	<y_axis>
+per
+day
+.
+This
+decreased
+again
+for
+35
+-	<x_axis_range_end>
+44
+year
+old
+to	<x_axis_range_end>
+120
+minutes	<y_axis>
+per
+day
+.
+45
+-	<x_axis_range_end>
+54
+year
+old
+were
+spending
+slightly
+under	<y_axis_approx>
+100
+minutes	<y_axis>
+per
+days
+whilst	<y_x_comparison_rest>
+55
+-	<x_axis_range_end>
+64
+year
+olds
+were
+spending
+the
+least	<y_axis_trend>
+amount
+of
+time
+at
+70
+minutes	<y_axis>
+per
+day.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+average
+time
+spent
+on
+social
+media
+in
+Maputo
+,
+per
+age
+group.\\n\\nThe
+highest
+time
+is
+spent
+by
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+year
+olds
+,
+at
+180
+minutes	<y_axis>
+.
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+year
+olds
+are
+lower	<y_axis_trend_down>
+at
+160
+minutes	<y_axis>
+.
+The
+time
+decreases
+again
+for
+35
+-	<x_axis_range_end>
+44
+year
+olds
+at
+125
+minutes	<y_axis>
+and	<x_axis_range_end>
+is
+lower	<y_axis_trend_down>
+for
+45
+-	<x_axis_range_end>
+54
+year
+olds
+,
+who
+spend
+on
+average
+around
+98
+minutes	<y_axis>
+on
+social
+media
+.
+The
+lowest
+time
+is
+spent
+by
+55
+-	<x_axis_range_end>
+64
+year
+olds
+,
+at
+around
+75
+minutes.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+average
+amount
+of
+minutes	<y_axis>
+spent
+on
+social
+media
+daily
+,
+by
+age
+group
+.
+It
+shows
+the
+18
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+year
+age
+group
+spent
+the
+most
+time
+on
+social
+media
+,
+with
+a
+decrease
+in
+minutes	<y_axis>
+for
+each
+acending
+age
+group.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+average
+time
+in
+minutes	<y_axis>
+spent
+on
+social
+media
+daily
+in
+Maputo
+by
+age
+groups
+ranging
+from	<x_axis_range_start>
+15
+-	<x_axis_range_end>
+64.\\n\\nAs
+you
+will
+see
+from	<x_axis_range_start>
+the
+chart
+,
+the
+highest
+age
+group
+is
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+years
+and	<x_axis_range_end>
+the
+lowest
+is
+age
+55
+-	<x_axis_range_end>
+64
+years.\\n\\nOver
+the
+years
+from	<x_axis_range_start>
+15
+to	<x_axis_range_end>
+64
+,
+it
+declines
+gradually	<y_axis_trend>
+from	<x_axis_range_start>
+180
+minutes	<y_axis>
+a
+day
+at
+ages
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+to	<x_axis_range_end>
+80
+minutes	<y_axis>
+a
+day
+for
+those
+aged
+55
+-	<x_axis_range_end>
+64
+years.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+charts
+shows
+the
+average
+time
+spent
+on
+social
+media
+daily
+in
+Maputo
+by
+age
+group
+.
+ 
+\\n\\nResults
+show
+that
+younger
+people
+spent
+the
+most
+time
+on
+social
+media
+daily
+compared	<y_x_comparison>
+to	<x_axis_range_end>
+the
+older
+age
+groups.\\nAge
+group
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+spent
+an
+average
+of
+180
+minutes	<y_axis>
+daily
+on
+social
+media
+.
+ 
+Age
+group
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+－34
+spent
+160
+minutes	<y_axis>
+daily
+.
+ 
+Age
+35
+-	<x_axis_range_end>
+44
+spent
+120
+minutes	<y_axis>
+daily
+.
+ 
+Age
+45
+-	<x_axis_range_end>
+54
+98
+minutes	<y_axis>
+and	<x_axis_range_end>
+the
+last
+group
+55
+-	<x_axis_range_end>
+64
+spent
+only
+just
+70
+minutes	<y_axis>
+daily
+on
+social.media
+.
+ 
+The
+results
+show
+that
+the
+youngest
+age
+group
+spent
+more	<y_axis_trend_up>
+than
+double
+the
+time
+on
+social
+media
+than
+the
+oldest
+age
+group.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+average
+time
+spent
+on
+social
+media
+by
+age
+group
+in
+Maputo
+.
+Five
+10
+year
+spans
+from	<x_axis_range_start>
+15
+to	<x_axis_range_end>
+64
+are
+given
+.
+The
+rate
+steadily	<y_axis_trend>
+drops
+with
+increasing	<slope_up>
+age
+.
+15
+to	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+year
+olds
+spend
+180
+minutes	<y_axis>
+,
+this
+more	<y_axis_trend_up>
+than
+halves
+to	<x_axis_range_end>
+70
+minutes	<y_axis>
+for
+the
+55
+to	<x_axis_range_end>
+64
+year
+olds
+.
+The
+graph
+does
+not
+say
+if
+this
+is
+minutes	<y_axis>
+per
+day
+or
+per
+week.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+average
+time
+spent
+on
+social
+media
+in
+Maputo
+by
+age
+group
+.
+\\nThe
+age
+group
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+shows
+the
+most
+time
+spent
+at
+about	<y_axis_approx>
+180mins
+.
+The
+second	<order_Scnd>
+age
+group
+of
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+shows
+a
+slightly
+lesser	<x_axis_trend_down>
+amount
+of
+approximately	<y_axis_approx>
+160
+mins
+.
+People
+in
+the
+35
+-	<x_axis_range_end>
+44
+age
+group
+spend
+about	<y_axis_approx>
+120mins
+.
+Those
+that
+are
+between	<x_axis_range_start>
+45
+-	<x_axis_range_end>
+54
+years
+old
+spend
+even
+less	<y_axis_approx>
+time
+which
+is
+just
+under	<y_axis_approx>
+100
+mins
+.
+However
+the
+age
+group
+of
+55
+-	<x_axis_range_end>
+64
+show
+the
+lowest
+amount
+of
+time
+spent
+with
+the
+average
+of
+about	<y_axis_approx>
+70
+mins
+a
+day.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+how
+many
+minutes	<y_axis>
+certain
+age
+groups
+spend
+on
+social
+media
+every
+day
+in
+Maputo
+.
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+year
+olds
+spend
+the
+most
+time
+at
+180
+minutes	<y_axis>
+,
+followed	<order_Scnd>
+by
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+at
+160
+minutes	<y_axis>
+,
+then	<order_3rd>
+35
+-	<x_axis_range_end>
+44
+at
+120
+minutes	<y_axis>
+,
+then	<order_3rd>
+45
+-	<x_axis_range_end>
+54
+at
+almost	<y_axis_approx>
+100
+minutes	<y_axis>
+and	<x_axis_range_end>
+lastly
+55
+-	<x_axis_range_end>
+64
+at
+around
+70
+minutes.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+average
+time
+spent
+on
+social
+media
+by
+those
+in
+Maputo
+steadily	<y_axis_trend>
+decreased
+with
+age
+.
+Those
+in
+the
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+age
+bracket
+spent
+the
+most
+time
+on
+social
+media
+,
+clocking
+over	<y_axis_approx>
+100
+minutes	<y_axis>
+more	<y_axis_trend_up>
+than
+those
+in
+the
+55
+-	<x_axis_range_end>
+64
+age
+bracket.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+daily
+minutes	<y_axis>
+spent
+on
+social
+media
+,
+by
+age
+group
+.
+The
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+age
+group
+is
+by
+far
+the
+highest
+with
+an
+average
+of
+3
+hours
+spent
+on
+social
+media
+.
+The
+oldest
+age
+group
+,
+55
+-	<x_axis_range_end>
+64
+,
+spends
+the
+shortest
+amount
+of
+time
+at
+1.5
+hours
+per
+day.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+the
+average
+time
+spent
+on
+social
+media
+by
+different
+age
+groups
+in
+Maputo
+.
+15
+-	<x_axis_range_end>
+24yeqrs
+old
+spent
+around
+180minites
+on
+social
+media
+compared	<y_x_comparison>
+to	<x_axis_range_end>
+those
+who
+are
+55
+-	<x_axis_range_end>
+64years
+who
+only
+spent
+75minutes
+on
+social
+media.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graphic
+shows
+the
+Average
+time
+spent
+on
+social
+media
+daily
+in
+Maputo
+by
+Age
+group
+,
+it
+is
+not
+surprise
+that
+the
+group
+between	<x_axis_range_start>
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+spent
+most
+of
+the
+time
+with
+180
+minutes	<y_axis>
+a
+day
+,
+neither
+is
+surprising
+that
+the
+group
+between	<x_axis_range_start>
+55
+-	<x_axis_range_end>
+64
+spent
+the
+less	<y_axis_approx>
+time
+with
+70
+minutes	<y_axis>
+a
+day
+.
+The
+graphics
+shows
+a
+trend	<y_axis_trend>
+where
+the
+older
+the
+group
+the
+less	<y_axis_approx>
+time
+they
+spend
+daily
+on
+social
+media
+,
+as
+we
+can
+see
+the
+decline
+after
+the
+group
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+,
+the
+following
+group
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+spend
+about	<y_axis_approx>
+160
+minutes	<y_axis>
+,
+20
+less	<y_axis_approx>
+that
+the
+previous
+group
+,
+the
+group
+35
+-	<x_axis_range_end>
+44
+spend
+around
+40
+minutes	<y_axis>
+less	<y_axis_approx>
+that
+the
+previous
+group
+and	<x_axis_range_end>
+the
+group
+45
+-	<x_axis_range_end>
+54
+spend
+around
+30
+minutes	<y_axis>
+less	<y_axis_approx>
+that
+it
+previous
+one.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"As
+you
+can
+see
+this
+graph
+shows
+the
+amount
+of
+time
+in
+minutes	<y_axis>
+that
+different
+age
+groups
+in
+Maputo
+spend
+on
+social
+media
+.
+\\n\\nThe
+graph
+shows
+that
+the
+older
+you
+are
+in
+years
+the
+less	<y_axis_approx>
+time
+you
+spend
+on
+social
+media
+daily
+,
+ 
+for
+example
+15
+-	<x_axis_range_end>
+24yrs
+spend
+180mins
+on
+social
+media
+daily
+where
+as
+55
+-	<x_axis_range_end>
+64yrs
+spend
+only
+70mins
+a
+day.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+average
+time
+spent
+on
+social
+media
+in
+maputo
+,
+by
+age
+group
+.
+The
+highest
+being
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+year
+olds
+,
+who
+spent
+around
+175
+minutes	<y_axis>
+a
+day
+.
+This
+is
+followed	<order_Scnd>
+by
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+at
+160
+;
+35
+-	<x_axis_range_end>
+44
+at
+125
+;
+45
+-	<x_axis_range_end>
+54
+at
+90
+;
+and	<x_axis_range_end>
+55
+-	<x_axis_range_end>
+64
+at
+75
+minutes.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+bar
+chart
+shows
+the
+average
+time
+spent
+on
+social
+media
+daily
+in
+Maputo
+by
+Age
+Group.\\nThe
+chart
+shows
+a
+steady
+decline
+of
+use
+the
+older
+the
+representation
+gets
+.
+Ages
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+spend
+on
+average
+170
+minutes	<y_axis>
+a
+day
+,
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+160
+minutes	<y_axis>
+,
+35
+-	<x_axis_range_end>
+44
+-130
+mins
+,
+45
+-	<x_axis_range_end>
+54
+just
+under	<y_axis_approx>
+100
+minutes	<y_axis>
+and	<x_axis_range_end>
+55
+-	<x_axis_range_end>
+64
+Just
+below
+70
+minutes	<y_axis>
+daily.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+the
+average
+time
+spent
+on
+social
+media
+each
+day
+in
+Maputo
+by
+Age
+Group.\\nThe
+highest
+daily
+usage
+rate
+was
+175
+minutes	<y_axis>
+and	<x_axis_range_end>
+came
+from	<x_axis_range_start>
+the
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+age
+group
+.
+This
+was
+followed	<order_Scnd>
+by
+160
+by
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+year
+olds
+.
+The
+35
+-	<x_axis_range_end>
+44
+age
+group
+spent
+125
+minutes	<y_axis>
+a
+day
+,
+the
+45
+-	<x_axis_range_end>
+54
+year
+olds
+spent
+just
+under	<y_axis_approx>
+100
+minutes	<y_axis>
+a
+day
+and	<x_axis_range_end>
+the
+55
+-	<x_axis_range_end>
+64
+year
+olds
+spent
+75
+minutes.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+is
+a
+chart
+showing
+the
+average
+time
+spent
+on
+social
+media
+daily
+in
+Maputo
+by
+each
+age
+group
+.
+\\nThe
+highest
+amount
+of
+minutes	<y_axis>
+is
+for
+the
+age
+group
+of
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+year
+olds
+.
+Each
+age
+group
+moving
+forward
+is
+reduced
+in
+minutes	<y_axis>
+.
+The
+lowest
+is
+55
+-	<x_axis_range_end>
+64
+year
+olds
+with
+approximately	<y_axis_approx>
+70
+minutes	<y_axis>
+per
+day.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+expresses
+the
+ 
+average
+time
+spent
+on
+social
+media
+per
+day
+by
+age
+group
+for
+the
+population
+of
+Maputo.\\n
+\\nHere
+we
+can
+see
+that
+younger
+age
+group
+(
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+year
+olds
+)
+spend
+a
+significantly	<y_axis_trend>
+larger
+proportion
+of
+their
+time
+on
+social
+media
+that
+their
+elders
+,
+with
+an
+even
+decline
+from	<x_axis_range_start>
+180
+minutes	<y_axis>
+per
+day
+at
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+to	<x_axis_range_end>
+70
+minute
+per
+day
+at
+55
+-64\\n\\nWomen
+appear
+to	<x_axis_range_end>
+be
+under	<y_axis_approx>
+represented
+in
+the
+Law
+industry.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+amount
+of
+time
+spent
+daily
+on
+social
+media
+in
+Maputo
+by
+age
+group
+.
+\\nFrom
+the
+chart
+we
+see
+that
+the
+highest
+ 
+amount
+of
+time
+spent
+daily
+on
+social
+media
+in
+Maputo
+is
+from	<x_axis_range_start>
+the
+age
+group
+of
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+years
+old
+.
+We
+can
+see
+that
+there
+is
+a
+gradual
+decline
+of
+ 
+the
+amount
+of
+time
+spent
+daily
+on
+social
+media
+in
+Maputo
+with
+the
+increase	<slope_up>
+in
+age
+,
+with
+the
+lowest
+amount
+of
+time
+spent
+daily
+on
+social
+media
+in
+Maputo
+being
+55
+-	<x_axis_range_end>
+64
+years
+old\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"this
+chart
+demonstrates
+the
+average
+time
+spent
+on
+social
+media
+daily
+in
+maputo
+by
+age
+group
+.
+findings
+show
+that
+the
+younger
+age
+group
+of
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+years
+old
+spend
+the
+most
+time
+on
+social
+media
+,
+averaging
+180
+minutes	<y_axis>
+a
+days
+.
+as
+the
+age
+range
+increases	<slope_up>
+the
+time
+spent
+decreases
+,
+55
+-	<x_axis_range_end>
+64
+only
+spending
+70
+minutes	<y_axis>
+per
+day
+on
+social
+media\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Ave
+mins
+spent
+on
+social
+media
+each
+day
+in
+Maputo
+by
+age
+.
+ 
+180
+m
+for
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+,
+160
+m
+for
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+,
+120
+m
+for
+35
+-	<x_axis_range_end>
+44
+,
+95
+m
+for
+45
+-	<x_axis_range_end>
+54
+,
+70
+m
+for
+55
+-	<x_axis_range_end>
+64\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+that
+the
+younger
+you
+are
+the
+more	<y_axis_trend_up>
+time
+spent
+on
+social
+media
+daily
+in
+Maputo
+.
+It
+shows
+that
+people
+around
+the
+age
+of
+15
+to	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+spent
+roughly
+around
+180
+minutes	<y_axis>
+on
+social
+media
+with
+the
+number
+going
+down
+the
+older
+they
+get
+being
+at
+only
+80
+minutes	<y_axis>
+at
+age
+55
+to	<x_axis_range_end>
+64\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+bar
+chart
+shows
+average
+time
+spent
+on
+social
+media
+daily
+in
+Maputo
+by
+age
+group
+.
+Ages
+15
+-	<x_axis_range_end>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+spent
+an
+average
+of
+180
+minutes	<y_axis>
+on
+social
+media
+.
+Ages
+25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+-	<x_axis_range_end>
+34
+spent
+an
+average
+of
+155
+minutes	<y_axis>
+a
+day
+.
+Ages
+35
+-	<x_axis_range_end>
+44
+spent
+an
+average
+of
+approximately	<y_axis_approx>
+120
+minutes	<y_axis>
+daily
+.
+Ages
+45
+-	<x_axis_range_end>
+54
+spent
+just
+under	<y_axis_approx>
+100
+minutes	<y_axis>
+daily
+whilst	<y_x_comparison_rest>
+ages
+55
+-	<x_axis_range_end>
+64
+spent
+an
+average
+of
+approximately	<y_axis_approx>
+70
+minutes	<y_axis>
+a
+day
+on
+social
+media.\
+"
+"
+
+
+<end_of_description>

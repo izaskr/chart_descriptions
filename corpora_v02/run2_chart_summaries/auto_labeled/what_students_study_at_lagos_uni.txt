@@ -1,0 +1,1153 @@
+<start_of_description>
+"
+\"This
+graph
+shows
+what
+students
+at
+Lagos
+State
+University
+chose
+to	<x_axis_range_end>
+study
+.
+It
+shows
+that
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+choose
+to	<x_axis_range_end>
+study
+STEM	<x_axis_label_least_value>
+,
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+decide
+on
+Literature	<x_axis_label_3rd_highest_value>
+,
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+go
+for
+Philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+32
+%	<y_axis_inferred_label>
+Medicine.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+study
+choices
+of
+Lagos
+State
+University
+students.\\n\\n31
+%	<y_axis_inferred_label>
+of
+students
+study
+Medicine	<x_axis_label_highest_value>
+,
+closely	<y_axis_trend>
+followed	<order_Scnd>
+by
+Philosophy	<x_axis_label_Scnd_highest_value>
+students
+at
+30%.\\n24
+%	<y_axis_inferred_label>
+of
+students
+study
+Literature	<x_axis_label_3rd_highest_value>
+,
+and	<x_axis_range_end>
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+are
+STEM	<x_axis_label_least_value>
+students.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+percentage
+of
+students
+choosing
+to	<x_axis_range_end>
+study
+certain
+subjects
+at
+Lagis
+state
+University
+.
+No
+time
+frame
+is
+given
+,
+but
+it
+indicates
+that
+philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+medicine	<x_axis_label_highest_value>
+are
+the
+top
+subjects.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+percentage
+what
+students
+at
+Lagos
+State
+University
+choose
+to	<x_axis_range_end>
+study.\\n\\nAs
+you
+will
+see
+medicine	<x_axis_label_highest_value>
+(
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+)
+and	<x_axis_range_end>
+philosophy	<x_axis_label_Scnd_highest_value>
+(
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+)
+are
+the
+highest
+and	<x_axis_range_end>
+almost	<y_axis_approx>
+the
+same
+percentage.\\n\\nSTEM
+is
+the
+lowest
+chosen
+study
+with
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+course
+take
+up
+.
+ 
+Literature	<x_axis_label_3rd_highest_value>
+is
+the
+3rd	<order_3rd>
+at
+24%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+what
+students
+at
+Lagos
+State
+University
+choose
+to	<x_axis_range_end>
+study.\\n\\nSTEM
+subject
+is
+the
+least	<y_axis_trend>
+popular
+choice
+with
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
+ 
+Literature	<x_axis_label_3rd_highest_value>
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+.
+ 
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+of
+students
+opted
+Philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+medicine	<x_axis_label_highest_value>
+is
+the
+popular
+choice
+at
+31%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+what
+students
+at
+Lagos
+State
+University
+choose
+to	<x_axis_range_end>
+study
+.
+The
+most
+popular
+is
+medicine	<x_axis_label_highest_value>
+at
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+closely	<y_axis_trend>
+followed	<order_Scnd>
+by
+philosophy	<x_axis_label_Scnd_highest_value>
+at
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+choose
+literature	<x_axis_label_3rd_highest_value>
+and	<x_axis_range_end>
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+choose
+STEM.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+percentage
+of
+students
+that
+chose
+to	<x_axis_range_end>
+study
+STEM	<x_axis_label_least_value>
+,
+literature	<x_axis_label_3rd_highest_value>
+,
+philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+medicine	<x_axis_label_highest_value>
+.
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+people
+chose
+STEM	<x_axis_label_least_value>
+.
+Literature	<x_axis_label_3rd_highest_value>
+was
+chosen
+by
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+of
+students
+.
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+of
+students
+chose
+philosophy	<x_axis_label_Scnd_highest_value>
+.
+Finally
+,
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+them
+chose
+to	<x_axis_range_end>
+study
+medicine.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+what
+subjects
+students
+choose
+to	<x_axis_range_end>
+study
+at
+Lagos
+State
+University
+.
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+choose
+a
+stem	<x_axis_label_least_value>
+subject
+,
+rising	<slope_up>
+to	<x_axis_range_end>
+almost	<y_axis_approx>
+25
+%	<y_axis_inferred_label>
+studying
+literature	<x_axis_label_3rd_highest_value>
+,
+then	<order_3rd>
+around
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+for
+both
+philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+medicine	<x_axis_label_highest_value>
+with
+slightly
+more	<y_axis_trend_up>
+choosing
+medicine.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Students
+at
+Lagos
+State
+University
+were
+less	<y_axis_approx>
+likely
+to	<x_axis_range_end>
+be
+enrolled
+in
+STEM	<x_axis_label_least_value>
+courses
+than
+in
+Literature	<x_axis_label_3rd_highest_value>
+,
+Philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+Medicine	<x_axis_label_highest_value>
+.
+The
+latter
+subjects
+were
+studied
+by
+at
+least	<y_axis_trend>
+half
+as
+many
+students
+than
+STEM	<x_axis_label_least_value>
+was.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+percentage
+of
+students
+studying
+various
+courses
+at
+Lagos
+State
+University
+.
+Medicine	<x_axis_label_highest_value>
+is
+the
+most
+popular
+course
+with
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+percent	<y_axis_inferred_label>
+of
+the
+cohort
+opting
+for
+this
+and	<x_axis_range_end>
+Philosophy	<x_axis_label_Scnd_highest_value>
+is
+not
+far
+from	<x_axis_range_start>
+behind	<y_axis_trend_down>
+with
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+STEM	<x_axis_label_least_value>
+subjects
+are
+half
+as
+popular
+as
+Philosophy	<x_axis_label_Scnd_highest_value>
+with
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+opting
+for
+this
+and	<x_axis_range_end>
+literature	<x_axis_label_3rd_highest_value>
+is
+24%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+the
+percentage
+number
+of
+students
+at
+Lagos
+state
+university
+.
+Most
+students
+chose
+to	<x_axis_range_end>
+study
+medicine	<x_axis_label_highest_value>
+with
+30.5
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+only
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+students
+chose
+to	<x_axis_range_end>
+study
+STEM.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+topic
+chosen
+by
+students
+at
+Lago
+State
+University
+vary
+withing
+4
+main
+topics
+,
+STEM	<x_axis_label_least_value>
+,
+Literature	<x_axis_label_3rd_highest_value>
+,
+Philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+Medicine	<x_axis_label_highest_value>
+.
+ 
+Medicine	<x_axis_label_highest_value>
+is
+the
+favorite
+one
+with
+more	<y_axis_trend_up>
+than
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+of
+student
+selecting
+this
+.
+Medicine	<x_axis_label_highest_value>
+ 
+is
+followed	<order_Scnd>
+by
+Philosophy	<x_axis_label_Scnd_highest_value>
+with
+around
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+students
+selecting
+this
+topic
+.
+The
+two
+less	<y_axis_approx>
+selected
+topics
+are
+Literature	<x_axis_label_3rd_highest_value>
+with
+around
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+students
+and	<x_axis_range_end>
+STEM	<x_axis_label_least_value>
+with
+just
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+students.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"As
+you
+can
+see
+this
+graph
+shows
+the
+percentage
+of
+students
+who
+chose
+to	<x_axis_range_end>
+study
+4
+different
+subjects
+these
+being
+,
+STEM	<x_axis_label_least_value>
+,
+Literature	<x_axis_label_3rd_highest_value>
+,
+Philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+Medicine	<x_axis_label_highest_value>
+.
+Medicine	<x_axis_label_highest_value>
+was
+the
+most
+popular
+with
+just
+over	<y_axis_approx>
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+of
+student
+choosing
+it
+although
+philosophy	<x_axis_label_Scnd_highest_value>
+was
+a
+close	<y_axis_trend>
+with
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+choosing
+it
+.
+The
+least	<y_axis_trend>
+popular
+was
+STEM	<x_axis_label_least_value>
+with
+only
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+choosing
+it.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+spread
+of
+students
+at
+Lagos
+State
+University
+and	<x_axis_range_end>
+what
+they
+chose
+to	<x_axis_range_end>
+study
+.
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+chose
+to	<x_axis_range_end>
+study
+STEM	<x_axis_label_least_value>
+;
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+literature	<x_axis_label_3rd_highest_value>
+;
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+philosophy	<x_axis_label_Scnd_highest_value>
+,
+and	<x_axis_range_end>
+32
+%	<y_axis_inferred_label>
+medicine.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+we
+see
+a
+bar
+chart
+showing
+what
+students
+in
+lagos
+state
+university
+choose
+to	<x_axis_range_end>
+study.\\n15
+%	<y_axis_inferred_label>
+choose
+to	<x_axis_range_end>
+study
+STEM	<x_axis_label_least_value>
+subjects
+,
+Just
+under	<y_axis_approx>
+25
+%	<y_axis_inferred_label>
+choose
+to	<x_axis_range_end>
+study
+Literature	<x_axis_label_3rd_highest_value>
+,
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+Philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+just
+over	<y_axis_approx>
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+choose
+medicine.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+what
+students
+at
+Lagos
+State
+University
+choose
+to	<x_axis_range_end>
+study.\\n15
+%	<y_axis_inferred_label>
+study
+STEM	<x_axis_label_least_value>
+,
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+study
+literature	<x_axis_label_3rd_highest_value>
+,
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+study
+philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+study
+medicine\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+is
+a
+chart
+about	<y_axis_approx>
+the
+subject
+that
+Lagos
+State
+University
+choose
+to	<x_axis_range_end>
+study
+.
+The
+most
+common
+subject
+is
+Medicine	<x_axis_label_highest_value>
+,
+followed	<order_Scnd>
+by
+philosophy	<x_axis_label_Scnd_highest_value>
+.
+The
+third	<order_3rd>
+most
+popular
+Is
+literature	<x_axis_label_3rd_highest_value>
+followed	<order_Scnd>
+by
+STEM.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+popularity
+of
+courses
+at
+Lagos
+State
+University.\\n
+\\nMedicine
+and	<x_axis_range_end>
+Philosophy	<x_axis_label_Scnd_highest_value>
+are
+the
+most
+popular
+subjects
+,
+with
+just
+over	<y_axis_approx>
+60
+%	<y_axis_inferred_label>
+of
+the
+students
+choosing
+to	<x_axis_range_end>
+study
+in
+one
+of
+these
+areas.\\n\\nOnly
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+students
+chose
+to	<x_axis_range_end>
+study
+STEM	<x_axis_label_least_value>
+subjects.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+what
+students
+at
+Lagos
+state
+university
+choose
+to	<x_axis_range_end>
+study
+in
+percentage
+.
+\\nFrom
+the
+chart
+we
+can
+ 
+see
+that
+STEM	<x_axis_label_least_value>
+is
+the
+lowest
+at
+approximately	<y_axis_approx>
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+percent	<y_axis_inferred_label>
+.
+The
+highest
+percentage
+of
+what
+students
+at
+Lagos
+state
+university
+choose
+to	<x_axis_range_end>
+study
+is
+medicine	<x_axis_label_highest_value>
+at
+32%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"this
+chart
+shows
+was
+students
+at
+lagos
+state
+university
+choose
+to	<x_axis_range_end>
+study
+.
+medicine	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+philosophy	<x_axis_label_Scnd_highest_value>
+are
+the
+most
+popular
+choice
+at
+around
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+,
+STEM	<x_axis_label_least_value>
+the
+least	<y_axis_trend>
+popular
+at
+15%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+what
+studenta
+at
+lagos
+university
+choose
+to	<x_axis_range_end>
+study
+.
+ 
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+do
+stem	<x_axis_label_least_value>
+,
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+do
+literature	<x_axis_label_3rd_highest_value>
+,
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+do
+philosophy	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+do
+medicine\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"What
+the
+students
+at
+Lagos
+State
+University
+choose
+to	<x_axis_range_end>
+study
+have
+been
+fairly
+equal
+with
+STEM	<x_axis_label_least_value>
+being
+the
+lowest
+at
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+medicine	<x_axis_label_highest_value>
+being
+the
+highest
+at
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+with
+the
+other
+course
+of
+studies
+being
+in
+between	<x_axis_range_start>
+them.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+bar
+chart
+shows
+the
+percentage
+of
+students
+showing
+particular
+subjects
+at
+Lagos
+State
+University
+.
+There
+were
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+choosing
+STEM	<x_axis_label_least_value>
+subjects
+,
+approximately	<y_axis_approx>
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+choosing
+Literature	<x_axis_label_3rd_highest_value>
+and	<x_axis_range_end>
+30	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+choosing
+Philosophy	<x_axis_label_Scnd_highest_value>
+.
+Roughly
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+students
+chose
+to	<x_axis_range_end>
+study
+medicine.\
+"
+"
+
+
+<end_of_description>

@@ -1,0 +1,1150 @@
+<start_of_description>
+"
+\"This
+chart
+shows
+what
+causes
+obesity
+in
+Kiribati
+.
+The
+biggest
+percentage
+for
+the
+cause
+of
+obesity
+,
+according
+to	<x_axis_range_end>
+this
+,
+is
+a
+genetic	<x_axis_label_highest_value>
+cause
+,
+which
+is
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+Then	<order_3rd>
+lack
+of
+exercise
+at
+36	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+And	<x_axis_range_end>
+then	<order_3rd>
+fast
+food
+at
+24%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Bar
+chart
+showing
+the
+causes
+of
+obesity
+in
+Kiribati
+.
+\\n\\nFast
+food
+is
+the
+lowest
+cause
+at
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+,
+then	<order_3rd>
+lack
+of
+exercise
+at
+35
+%	<y_axis_inferred_label>
+,
+with
+genetics	<x_axis_label_highest_value>
+as
+the
+main
+factor
+at
+40%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+three
+causes
+of
+obesity
+in
+Kiribati
+,
+as
+a
+percentage
+of
+incidence
+.
+The
+most
+common
+cause
+is
+genetic	<x_axis_label_highest_value>
+,
+identified
+as
+causing
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+,
+with
+lack
+of
+exercise
+second	<order_Scnd>
+at
+35
+%	<y_axis_inferred_label>
+.
+Fast food	<x_axis_label_least_value>
+is
+third	<order_3rd>
+,
+causing
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+cases.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+details
+the
+reasons
+for
+obesity
+in
+Kiribati
+,
+detailing
+the
+reasons
+given
+as
+a
+percentage
+of
+total
+respondents
+.
+The
+graph
+shows
+that
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+respondents
+indicate
+a
+genetic	<x_axis_label_highest_value>
+cause
+,
+with
+35
+%	<y_axis_inferred_label>
+citing
+lack
+of
+exercise
+and	<x_axis_range_end>
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+citing
+fast
+food\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+factors
+which
+cause
+obesity
+in
+Kiribati
+and	<x_axis_range_end>
+the
+percentage
+of
+their
+contribution
+.
+Fast food	<x_axis_label_least_value>
+account
+for
+just
+under	<y_axis_approx>
+25
+%	<y_axis_inferred_label>
+of
+obesity
+,
+followed	<order_Scnd>
+by
+lack
+of
+exercise
+which
+accounts
+for
+35
+%	<y_axis_inferred_label>
+of
+obesity
+,
+but
+genetics	<x_axis_label_highest_value>
+is
+the
+highest
+contributing
+factor
+accounting
+for
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+the
+cause
+of
+obesity.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+depicts
+the
+percentage
+of
+3
+options
+for
+causing
+obesity
+in
+Kiribati
+.
+It
+says
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+is
+because
+of
+fast food	<x_axis_label_least_value>
+,
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+is
+because
+of
+genetics	<x_axis_label_highest_value>
+,
+and	<x_axis_range_end>
+35
+%	<y_axis_inferred_label>
+because
+of
+lack
+of
+exercise.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Genetic
+is
+the
+biggest
+cause
+of
+obesity
+in
+Kirbati
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+Then	<order_3rd>
+lack
+of
+exercise
+at
+35
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+fast food	<x_axis_label_least_value>
+is
+the
+lowest
+casue
+of
+obesity
+in
+Kirbati
+at
+24%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+slim
+majority
+of
+obesity
+in
+Kiribati
+is
+caused
+by
+lifestyle
+choices
+,
+with
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+caused
+by
+fast food	<x_axis_label_least_value>
+and	<x_axis_range_end>
+35
+%	<y_axis_inferred_label>
+due
+to	<x_axis_range_end>
+a
+lack
+of
+exercise.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+biggest
+cause
+of
+obesity
+in
+Kiribati
+is
+genetic	<x_axis_label_highest_value>
+tendencies
+,
+accounting
+for
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+Lack
+of
+exercise
+is
+35
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+fast
+food
+25%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Causes
+of
+obesity
+in
+Kiribati
+is
+seen
+here
+.
+ 
+The
+biggest
+cause
+is
+genetic	<x_axis_label_highest_value>
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+  
+However
+lifestyle
+factors
+are
+a
+larger
+contributor
+with
+fast food	<x_axis_label_least_value>
+and	<x_axis_range_end>
+lack
+of
+exercise
+combined
+shown
+to	<x_axis_range_end>
+cause
+obesity
+in
+60
+%	<y_axis_inferred_label>
+of
+cases
+.
+ 
+\\nThis
+is
+broken
+down
+into
+lack
+of
+exercise
+at
+35
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+fast food	<x_axis_label_least_value>
+at
+25%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Cause
+of
+obesity
+in
+Kiribati
+.
+Main
+cause
+is
+obesity
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+people
+.
+Then	<order_3rd>
+Lack
+of
+exercise
+at
+36	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+,
+finally
+fast
+food
+at
+24%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+potential
+causes
+of
+obesity
+in
+Kiribati
+.
+\\nThere
+is
+a
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+chance
+that
+obesity
+is
+caused
+by
+fast food	<x_axis_label_least_value>
+,
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+genetic	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+35
+%	<y_axis_inferred_label>
+lack
+of
+exercise
+.
+Overall
+obesity
+is
+commonly
+caused
+by
+genetics	<x_axis_label_highest_value>
+,
+whilst	<y_x_comparison_rest>
+fast food	<x_axis_label_least_value>
+does
+not
+really
+have
+a
+greater	<slope_up>
+effect.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Obesity
+causes
+genetic	<x_axis_label_highest_value>
+is
+the
+highest
+cause
+at
+over	<y_axis_approx>
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+only
+slightly
+behind	<y_axis_trend_down>
+lack
+of
+exercise
+and	<x_axis_range_end>
+fast food	<x_axis_label_least_value>
+.
+\\n35
+%	<y_axis_inferred_label>
+cause
+of
+obesity
+is
+lack
+of
+exercise
+but
+genes
+still
+play
+a
+major
+role
+.
+\\nFast
+food
+is
+at
+only
+25
+%	<y_axis_inferred_label>
+but
+only
+10
+%	<y_axis_inferred_label>
+less	<y_axis_approx>
+than
+lack
+of
+exercise
+.
+\\nAlthough
+genetics
+are
+the
+highest
+cause
+,
+all
+three
+come
+into
+play
+when
+determining
+a
+cause
+of
+obesity.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+percentages
+of
+what
+was
+the
+cause
+of
+Obesity
+in
+Kiribati
+.
+From	<x_axis_range_start>
+the
+chart
+we
+see
+that
+approximately	<y_axis_approx>
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+the
+cause
+for
+Obesity
+was
+from	<x_axis_range_start>
+Fast Food	<x_axis_label_least_value>
+,
+whereas
+35
+%	<y_axis_inferred_label>
+of
+the
+cause
+came
+from	<x_axis_range_start>
+Lack
+of
+Exercise
+.
+The
+highest
+percentage
+of
+the
+cause
+of
+obesity
+came
+from	<x_axis_range_start>
+Genetic	<x_axis_label_highest_value>
+with
+40%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"40
+%	<y_axis_inferred_label>
+of
+causes
+of
+obesity
+in
+Kiribati
+is
+caused
+by
+genetics	<x_axis_label_highest_value>
+.
+Approximately	<y_axis_approx>
+36	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+of
+obesity
+was
+caused
+by
+lack
+of
+exercise
+and	<x_axis_range_end>
+approximately	<y_axis_approx>
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+was
+caused
+by
+eating
+fast
+food.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+looked
+at
+causes
+of
+Obesity
+in
+Kiribati
+.
+25
+%	<y_axis_inferred_label>
+was
+atributed
+to	<x_axis_range_end>
+fast food	<x_axis_label_least_value>
+35
+%	<y_axis_inferred_label>
+at
+lack
+of
+exercise
+.
+The
+highest
+cause
+was
+genetic	<x_axis_label_highest_value>
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+which
+was
+nearly
+twice
+as
+attributable
+to	<x_axis_range_end>
+fast
+food.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"his
+graph
+shows
+the
+findings
+of
+what
+causes
+obesity
+in
+Kiribati
+.
+\\n\\nThe
+highest
+percentage
+was
+genetic	<x_axis_label_highest_value>
+causes
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+Next	<order_Scnd>
+highest
+was
+lack
+of
+exercise
+at
+around
+35
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+fast food	<x_axis_label_least_value>
+the
+lowest
+,
+at
+just
+under	<y_axis_approx>
+25%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+what
+causes
+obesity
+in
+Kirbati
+.
+THe
+most
+common
+cause
+of
+obesity
+is
+genetic	<x_axis_label_highest_value>
+with
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+followed	<order_Scnd>
+by
+lack
+of
+exercise
+at
+36	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+fast food	<x_axis_label_least_value>
+as
+25%\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Graph
+above	<y_axis_trend_up>
+shows
+what
+causes
+obesity
+in
+Kiribati
+.
+The
+highest
+cause
+was
+genetic	<x_axis_label_highest_value>
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+,
+lack
+of
+exercise
+came
+in
+at
+35
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+the
+lowest
+cause
+out
+of
+3
+was
+fast food	<x_axis_label_least_value>
+at
+24%\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+causes
+of
+obesity
+in
+Kiribati.\\nThe
+biggest
+cause
+,
+shown
+to	<x_axis_range_end>
+be
+responsible
+for
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+cases
+,
+is
+genes
+.
+Lack
+of
+exercise
+accounts
+for
+35
+%	<y_axis_inferred_label>
+of
+obesity
+and	<x_axis_range_end>
+fast food	<x_axis_label_least_value>
+is
+the
+cause
+in
+nearly
+25
+per
+cent
+of
+cases.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"There
+are
+three
+factors
+represented
+as
+contributing
+to	<x_axis_range_end>
+obesity
+in
+Kiribati
+.
+The
+main
+cause
+represented
+is
+genetic	<x_axis_label_highest_value>
+,
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+with
+fast food	<x_axis_label_least_value>
+making
+up
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+lack
+of
+exercise
+36%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+causes
+of
+obesity
+in
+Kiribati
+are
+charted
+above	<y_axis_trend_up>
+to	<x_axis_range_end>
+show
+that
+the
+predominant
+cause
+of
+obesity
+was
+found
+to	<x_axis_range_end>
+be
+genetic	<x_axis_label_highest_value>
+at
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+Fast food	<x_axis_label_least_value>
+was
+the
+lowest
+charted
+percentage
+at
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+with
+lack
+of
+excel
+use
+only
+contributing
+35
+%	<y_axis_inferred_label>
+towards
+the
+outcome.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+indicates
+three
+possible
+causes
+of
+obesity
+in
+the
+Kiribati
+population
+.
+ 
+It
+indicates
+the
+main
+cause
+of
+obesity
+was
+attributed
+to	<x_axis_range_end>
+genetic	<x_axis_label_highest_value>
+causes
+with
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+the
+sample
+identifying
+that
+as
+the
+main
+reason
+.
+Only
+25
+%	<y_axis_inferred_label>
+of
+people
+indicated
+fast food	<x_axis_label_least_value>
+contributed
+to	<x_axis_range_end>
+the
+problem.\
+"
+"
+
+
+<end_of_description>

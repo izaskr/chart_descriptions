@@ -1,0 +1,69 @@
+"\"This chart shows the Gender pay gap in 2017 in the countries Germany, Spain and the UK. It shows that Germany had the biggest percentage in the gender pay gap at 21%, closely followed by the UK at 20.1%. And Spain had the least percentage in the gender pay gap in 2017 at 15%.\""
+
+
+"\"Bar chart showing gender pay gap percentages (2017) for Germany, Spain and the UK.\\n\\nBoth Germany and the UK have a 21% gap, whereas Spain is 15%.\""
+
+
+"\"The graph depicts the gender pay gap in three countries, displayed as a percentage, for the year 2017. In Germany, there was a 21% difference in pay, similar to the UK rate which was just over 20%. The discrepancy was smallest in Spain, at 15%.\""
+
+
+"\"The graph details the gender pay gap in three European countries, Germany, Spain and the UK. Presenting the gap as a percentage, the graph shows that Germany and UK have similar levels (21 and 20.5 respectively) while Spain has a smaller gap of 15%.\""
+
+
+"\"This chart shows the gender pay cap percentage in 3 different European countries in the year 2017.\\n\\nFrom this chart, we can see that Spain was the country with the smallest gender pay gap of 14%. The UK has the second largest pay gap of the 3 countries with a 20.5% gap. Germany's gender pay gap is the highest, but only slightly higher than the UK at 21%.\""
+
+
+"\"Germany has the highest gender pay gap at 21%, followed by the UK at 20% and Spain at 15%.\""
+
+
+"\"The gender pay gap in Germany in 2017 was 21%. In Spain it was 15% and in the UK it was slightly more than 20%.\""
+
+
+"\"This chart shows the percentage difference of the gender pay gap in 2017 from 3 European nations. The 2 largest economies, Germany and the United Kingdom have a similar gap at just above 20%. Spain has the lowest percentage in gender pay gap at 15%.\""
+
+
+"\"Between Germany, Spain and the UK the gender pay gap is biggest in Germany at 21%, a little more than in the UK. Spain's is at 15%.\""
+
+
+"\"This graph demonstrates the differences between Germany, Spain and the UK in terms of the gender pay gap in each of those countries. \\nThe Gender pay gap was the largest in Germany at 21% with the UK very close behind at between 20-21%. \\nSpain is 5% lower than this at 15%\""
+
+
+"\"The gender pay gap in Germany is 21%, in the UK is 20.5% and in Spain is 15%.\""
+
+
+"\"This chart represents the gender pay gap in 2017. Germany's gender pay gap is 21%, whilst the UK settles 1% below at 20.5%. Overall Spain is seen to have the lowest gender pay gap at 15%.\""
+
+
+"\"The gender pay gap is highest in Germany at over 21% compared to 15% in Spain and just slightly more than the UK at 20%. \\nLots of factors come into play here but it is clear from this graph that Germany & the UK needs to step up to close the gender pay gap.\""
+
+
+"\"This chart shows the percentage of the gender pay gap in three countries of Germany, Spain and the UK in the year 2017. From the chart, we see the smallest percentage was from Spain with 15%, which was followed by the UK at around 20.5%. Germany had the highest percentage at around 21%.\""
+
+
+"\"The gender pay gap was investigated in Germany, UK and Spain in 2017.it was found that Germany had the highest pay gap at22% and Spain the lowest at 15%.\""
+
+
+"\"This chart looks at the gender pay gap in 2017 in Germany, Spain and the UK. In germany the Gender pay gap was rated at 21%, 15% in spain and 21% in the UK.\""
+
+
+"\"This graph shows the gender pay gaps in three different countries. \\nThe gap was largest in Germany at 21%, the UK next at just over 20% and Spain the lowest at 15%.\""
+
+
+"\"The graph shows the gender pay gap across 3 countries. Germany has the largest pay gap of 21%, followed by the uk at only 1% lower and then spain at 15%\""
+
+
+"\"Gender pay gap shown in graph form to show 3 different  countries against percentages. Germany was the highest at 21%, UK came in slightly lower at just over 20%. Spain was the lowest at 15%.\""
+
+
+"\"The chart shows the gender pay gap in 2017 in three European Union countries - Germany, Spain and UK.\\nIn that year the gender pay gap is similar in Germany and the UK at just over 20%. In Spain it stands at 15%.\""
+
+
+"\"The gender pay gap is less pronounced in Spain when compared to the UK and Germany. Germany shows a gap of 21%, the UK 20.5%, and Spain is at 15%.\""
+
+
+"\"In 2017 the gender pay gap can be identified in Germany and the UK as representing 21% overall. Although lower at 15%, Spain still has an identifiable pay gap which should be acknowledged.\""
+
+
+"\"A chart showing the differences in pay between men and women in three European countries.  the pay gap is the largest in Germany with a 21% difference between male and female wages although this is closely followed by the UK. Spain has the smallest gap with only a 15% difference.\""
+
+

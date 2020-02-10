@@ -1,0 +1,72 @@
+"\"This graph shows the percentage of women representation in different sectors in Benoni. In the financial groups the percentage of women representation was 50%. In the Tech group this figure was higher at 62%. The percentage for the Insurance sector was even higher at 65% though the percentage for the Law Firms sector was lower at 35%.\""
+
+
+"\"This chart shows the representation of women in different sectors in Benoni.\\n\\nIn Financial Groups, 50% of the workers were female. In Tech, that number increases to 62% and also in Insurance which has 64% of its workers are female. Law Firms are the lowest representation of women, at 36%.\""
+
+
+"\"This chart shows the percentage of women represented in different sectors in Benoni. We can see that there are less women than men working in law firms, and an equal amount of men and women in financial groups. However there are a higher percentage of women working in tech and insurance.\""
+
+
+"\"This chart shows the percentage of women represented in different sectors in Benoni.\\n\\nFrom the chart we see that highest percentage of women are in the insurance sector at 65%.\\n\\nThe lowest representation is in Law Firms at 35% followed behind by financial groups at 50% and then not far behind by Tech sector.\\n\\nThere is a large percentage difference in representation between insurance and law firms.\""
+
+
+"\"The chart shows women representation in different sectors in Benoni.\\n\\nThere is 50% of women representation in the Financial Groups.  61% in Tech and 63% in Insurance\""
+
+
+"\"This graph shows the percentage of female representation in different work sectors in Benoni. Insursnce is the highest at 64%,  tech next at 61%, then financial groips af 50%. Law firms are the lowest at 35%.\""
+
+
+"\"This chart shows the percentage of women who represented in different sectors in Benoni. \\nThere  were 50% of women representing financial groups. The tech groups had women representatives of about 62%. Insurance groups had slightly more with about 64%. However the law firms had the least with about 36%.\""
+
+
+"\"This chart shows women representation in different sectors in Benoni the highest being insurance at 65% then tech.at just above 60% then finance at 50% then law at 35%\""
+
+
+"\"Female representation in the Insurance sector in Benoni is higher than in Law firms, Tech and Financial Groups. Whilst Law Firms had only around 35% female representation, Insurance had around a 65% representation.\""
+
+
+"\"The charts show the women representation in various sectors. Insurance has the highest representtation at 65% whereas law firms has the lowest at 35%- a 30% difference. Financial groups appear to have the most equal representation with 50% .\""
+
+
+"\"The graph shows the percentage of woman who are representatives in different sectors in Benoni. Most woman are representative in Insurance with 76% and there are only 35% of woman represented in the law firms. The second highest representation was tech with 62% followed by with 50% in financial groups.\""
+
+
+"\"The women representation vary according to the sector in Benoni. The highest representation can be found in the Insurance group with a 64%, whiles the lowest is in Law Firms sector with around 36%.\\nThe tech sector has a representation of around 62%, while the Financial groups 50%.\""
+
+
+"\"The following graph shows the female representation in different work sectors in Benoni, the fours sectors are insurance which is the highest with 65%. Tech with 62% women, financial groups with 50% women representing and law firms with only 35% female representation.\""
+
+
+"\"This graph shows the representation of women in various sectors in Benoni. Almost 50% of financial groups consisted of women, and women make up over 60% of the tech sector. The insurance sector is even higher at 65%, and law firms come in the smallest at 35%.\""
+
+
+"\"We have here a bar chart representing women in different sector in Benoi. \\nIt is divided into four main sectors. Financial Groups, Tech, Insurance and Law Firms. \\nThe percentage of representation across these sectors starts at 50% for the financial groups, just over 60% for tech, 65% for Insurance and 35% for Law Firms.\""
+
+
+"\"The graph shows the representation of women in different sectors in Benoni.\\nThe highest representation was 65% in the insurance sector followed by 62% in the tech sector, 50% in financial groups and finally 35% in law firms\""
+
+
+"\"Here is a chart about Women Representation in different sectors in Benoni. The highest with women representation is Insurance, followed by Tech. Financial is the third highest and Law firms at the lowest.\""
+
+
+"\"This chart represents the proportion of women employed across different work sectors in Benoni.\\n \\nThere is equal representation in financial groups, with a higher proportion of women employed in Tech and Insurance sectors.\\n\\nWomen appear to be under represented in the Law industry.\""
+
+
+"\"This chart shows a percentage of women representation in different sectors in Benoni . \\nFrom the chart we see that the highest percentage of women representation  is in insurance at 63%. We can see that the lowest percentage of women representation  is in law firm at 35%\""
+
+
+"\"this chart demonstrates that woman represented in Benoni is largest in the insurance sector, at 64%. in comparison 50% and below of woman represented in financial groups, even less is law firms, at 36%.\""
+
+
+"\"The chart shows female representation in different sectors in Benomi.  It is 50% in financial, 62% in tech, 75% in insurance and 34% in law\""
+
+
+
+"\"Women Representation in different sectors in Benoni shows what the women really want to do with their lives. The sector with the highest amount is insurance with around 64% of women in it. Other sectors like Tech and Financial Groups also doing good with percentages over 50 but not more that 64% with the lowest women representation in Law Firms with only 34%\""
+
+
+"\"The bar chart shows women represented in different sectors in Benoni. It shows that there are 50% women in Financial Groups, roughly 65% represented in the Tech sector and roughly 35% in Law Firms. There is the greatest representation in the Insurance sector at roughly 65%.\""
+
+
+
+

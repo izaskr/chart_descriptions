@@ -1,0 +1,72 @@
+"\"This graph shows what students at Lagos State University chose to study. It shows that 15% choose to study STEM, 24% decide on Literature, 30% go for Philosophy and 32% Medicine.\""
+
+
+"\"This chart shows the study choices of Lagos State University students.\\n\\n31% of students study Medicine, closely followed by Philosophy students at 30%.\\n24% of students study Literature, and 15% are STEM students.\""
+
+
+"\"This chart represents the percentage of students choosing to study certain subjects at Lagis state University. No time frame is given, but it indicates that philosophy and medicine are the top subjects.\""
+
+
+"\"This chart represents the percentage what students at Lagos State University choose to study.\\n\\nAs you will see medicine (31%) and philosophy (30%) are the highest and almost the same percentage.\\n\\nSTEM is the lowest chosen study with 15% course take up.  Literature is the 3rd at 24%.\""
+
+
+"\"The chart shows what students at Lagos State University choose to study.\\n\\nSTEM subject is the least popular choice with 15 %.  Literature 24%.  30% of students opted Philosophy and medicine is the popular choice at 31%.\""
+
+
+"\"This chart shows what students at Lagos State University choose to study. The most popular is medicine at 31% closely followed by philosophy at 30%. 24% choose literature and 15% choose STEM.\""
+
+
+"\"The chart shows the percentage of students that chose to study STEM, literature, philosophy and medicine. 15% of people chose STEM. Literature was chosen by 24% of students. 30% of students chose philosophy. Finally, 31% of them chose to study medicine.\""
+
+
+"\"This chart shows what subjects students choose to study at Lagos State University. 15% choose a stem subject, rising to almost 25% studying literature, then around 30% for both philosophy and medicine with slightly more choosing medicine.\""
+
+
+"\"Students at Lagos State University were less likely to be enrolled in STEM courses than in Literature, Philosophy and Medicine. The latter subjects were studied by at least half as many students than STEM was.\""
+
+
+"\"The chart shows the percentage of students studying various courses at Lagos State University. Medicine is the most popular course with 31% percent of the cohort opting for this and Philosophy is not far from behind with 30%. STEM subjects are half as popular as Philosophy with 15% opting for this and literature is 24%.\""
+
+
+"\"The graph shows the percentage number of students at Lagos state university. Most students chose to study medicine with 30.5% and only 15% of students chose to study STEM.\""
+
+
+"\"The topic chosen by students at Lago State University vary withing 4 main topics, STEM, Literature, Philosophy and Medicine.  Medicine is the favorite one with more than 30% of student selecting this. Medicine  is followed by Philosophy with around 30% students selecting this topic. The two less selected topics are Literature with around 24% students and STEM with just 15% students.\""
+
+
+"\"As you can see this graph shows the percentage of students who chose to study 4 different subjects these being, STEM, Literature, Philosophy and Medicine. Medicine was the most popular with just over 30% of student choosing it although philosophy was a close with 30% choosing it. The least popular was STEM with only 15% choosing it.\""
+
+
+"\"This chart shows the spread of students at Lagos State University and what they chose to study. 15% chose to study STEM; 24% literature; 30% philosophy, and 32% medicine.\""
+
+
+"\"Here we see a bar chart showing what students in lagos state university choose to study.\\n15% choose to study STEM subjects, Just under 25% choose to study Literature, 30% Philosophy and just over 30% choose medicine.\""
+
+
+"\"The chart shows what students at Lagos State University choose to study.\\n15% study STEM, 24% study literature, 30% study philosophy and 31% study medicine\""
+
+
+"\"Here is a chart about the subject that Lagos State University choose to study. The most common subject is Medicine, followed by philosophy. The third most popular Is literature followed by STEM.\""
+
+
+"\"This chart represents the popularity of courses at Lagos State University.\\n \\nMedicine and Philosophy are the most popular subjects, with just over 60% of the students choosing to study in one of these areas.\\n\\nOnly 15% of students chose to study STEM subjects.\""
+
+
+"\"This chart shows what students at Lagos state university choose to study in percentage. \\nFrom the chart we can  see that STEM is the lowest at approximately 15% percent. The highest percentage of what students at Lagos state university choose to study is medicine at 32%.\""
+
+
+"\"this chart shows was students at lagos state university choose to study. medicine and philosophy are the most popular choice at around 30%, STEM the least popular at 15%.\""
+
+
+"\"The chart shows what studenta at lagos university choose to study.  15% do stem, 24% do literature, 30% do philosophy and 31% do medicine\""
+
+
+
+"\"What the students at Lagos State University choose to study have been fairly equal with STEM being the lowest at 15% and medicine being the highest at 31% with the other course of studies being in between them.\""
+
+
+"\"The bar chart shows the percentage of students showing particular subjects at Lagos State University. There were 15% choosing STEM subjects, approximately 24% choosing Literature and 30% choosing Philosophy. Roughly 31% of students chose to study medicine.\""
+
+
+
+

@@ -1,0 +1,1421 @@
+<start_of_description>
+"
+\"This
+chart
+shows
+how
+young
+people
+in
+Zarqa
+spend
+their
+evenings
+.
+According
+to	<x_axis_range_end>
+the
+chart
+,
+most
+young
+people
+spend
+their
+evenings
+reading
+a
+book
+-	<x_axis_range_end>
+37
+%	<y_axis_inferred_label>
+of
+them
+.
+Around
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+of
+them
+spend
+time
+with
+family
+.
+17
+%	<y_axis_inferred_label>
+of
+them
+go
+out
+and	<x_axis_range_end>
+just
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+spend
+their
+evenings
+watching
+TV.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Bar
+chart
+showing
+how
+young
+people
+in
+Zarqa
+spend
+their
+evenings.\\n\\n11
+%	<y_axis_inferred_label>
+watch
+TV
+,
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+go
+out
+,
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+spend
+time
+with
+family
+,
+while	<y_x_comparison_rest>
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+prefer
+to	<x_axis_range_end>
+read
+a
+book.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+depicts
+a
+number
+of
+way
+young
+people
+in
+zarqa
+spend
+their
+evenings
+,
+as
+a
+percentage
+of
+those
+asked
+.
+The
+most
+popular
+chose
+is
+reading
+a
+book
+,
+done
+by
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+young
+people
+.
+Family
+time
+came
+second	<order_Scnd>
+,
+at
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+Going
+out
+was
+thirds
+but
+much	<y_axis_trend>
+less	<y_axis_approx>
+popular
+,
+at
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+,
+and	<x_axis_range_end>
+watching
+TV
+was
+least	<y_axis_trend>
+popular
+-	<x_axis_range_end>
+done
+by
+only
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+the
+group.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+details
+how
+young
+people
+in
+Zarqa
+spend
+their
+evenings
+,
+presented
+as
+a
+percentage
+of
+total
+responses
+.
+The
+activities
+listed
+are
+watching
+TV
+,
+spending
+time
+with
+family
+,
+reading
+a
+book
+and	<x_axis_range_end>
+going
+out
+.
+Reading
+a
+book
+proved
+to	<x_axis_range_end>
+be
+the
+most
+popular
+with
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+choosing
+this
+option
+,
+while	<y_x_comparison_rest>
+watching
+TV
+,
+at
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+was
+the
+least	<y_axis_trend>
+popular.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+how
+young
+people
+in
+Zarqa
+spend
+their
+evenings
+.
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+young
+people
+spend
+their
+time
+watching
+tv
+in
+the
+evenings
+,
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+spend
+their
+evenings
+with
+family
+,
+the
+highest
+percentage
+of
+people
+spend
+their
+time
+reading
+a
+book
+being
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+of
+people
+,
+and	<x_axis_range_end>
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+of
+people
+spend
+their
+evenings
+going
+out.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+depicts
+\\\"how
+young
+people
+in
+Zarqa
+spend
+their
+evenings\\\
+"
+from	<x_axis_range_start>
+the
+choices
+assigned
+to	<x_axis_range_end>
+the
+research
+.
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+people
+spent
+time
+watching
+TV
+in
+the
+evenings
+;
+33
+%	<y_axis_inferred_label>
+spent
+time
+with
+family
+,
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+read
+books
+,
+and	<x_axis_range_end>
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+go
+out.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"More
+people
+in
+Zarqa
+spend
+their
+evenings
+reading
+a
+book
+than
+going
+out
+.
+37
+%	<y_axis_inferred_label>
+on
+young
+people
+read
+a
+book
+compared	<y_x_comparison>
+with
+17
+%	<y_axis_inferred_label>
+who
+go
+out.\\n\\nWatching
+TV
+is
+the
+least	<y_axis_trend>
+popular
+option
+,
+with
+only
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+young
+people
+in
+Zarqa
+spending
+their
+evenings
+watching
+TV.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+how
+young
+people
+in
+Zarqa
+spend
+their
+time
+in
+the
+evenings
+.
+With
+50
+%	<y_axis_inferred_label>
+choosing
+to	<x_axis_range_end>
+socialise
+and	<x_axis_range_end>
+the
+other
+50
+%	<y_axis_inferred_label>
+choosing
+solo
+activities
+.
+This
+is
+broken
+down
+with
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+of
+the
+youths
+who
+prefer
+to	<x_axis_range_end>
+socialise
+like
+to	<x_axis_range_end>
+spend
+time
+with
+their
+families
+and	<x_axis_range_end>
+the
+remaining
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+choosing
+to	<x_axis_range_end>
+go
+out.\\nThe
+youths
+who
+prefer
+opting
+for
+solo
+activities
+are
+split
+with
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+preferring
+to	<x_axis_range_end>
+read
+a
+book
+,
+while	<y_x_comparison_rest>
+the
+remaining
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+prefer
+to	<x_axis_range_end>
+watch
+TV.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"37
+%	<y_axis_inferred_label>
+of
+young
+people
+in
+Zarqa
+spend
+their
+evenings
+with
+a
+book
+,
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+with
+family
+,
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+going
+out
+and	<x_axis_range_end>
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+watching
+TV.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+demonstrates
+how
+young
+people
+in
+Zarqa
+spend
+their
+evenings
+by
+main
+activity
+.
+ 
+The
+least	<y_axis_trend>
+popular
+activity
+is
+watching
+TV
+at
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
+ 
+Reading
+books
+and	<x_axis_range_end>
+spending
+time
+with
+family
+are
+the
+most
+popular
+activities
+at
+38	<y_axis_highest_value_val>
+and	<x_axis_range_end>
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+respectively.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Percentage
+of
+people
+in
+Zarqa
+split
+by
+how
+they
+spend
+their
+evenings
+.
+Most
+people
+spend
+their
+evenings
+reading
+,
+at
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+Next	<order_Scnd>
+common
+is
+spending
+time
+with
+family
+,
+at
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+Then	<order_3rd>
+going
+out
+at
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+.
+The
+final
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+spends
+time
+watching
+TV
+.
+I
+'m
+not
+sure
+what
+the
+other
+10
+%	<y_axis_inferred_label>
+do.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+percentage
+and	<x_axis_range_end>
+types
+of
+activities
+that
+young
+people
+in
+Zarqa
+do
+in
+the
+evenings
+.
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+are
+seen
+to	<x_axis_range_end>
+spend
+their
+evenings
+watching
+TV
+,
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+spend
+time
+with
+family
+,
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+read
+a
+book
+and	<x_axis_range_end>
+only
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+go
+out
+.
+Overall
+the
+chart
+shows
+that
+more	<y_axis_trend_up>
+young
+people
+spend
+their
+evenings
+reading
+a
+book
+,
+and	<x_axis_range_end>
+the
+lowest
+percentage
+of
+students
+spend
+it
+watching
+tv.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Young
+people
+in
+Zarqa
+spend
+their
+evenings
+reading
+a
+book
+-	<x_axis_range_end>
+over	<y_axis_approx>
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+compared	<y_x_comparison>
+to	<x_axis_range_end>
+11
+%	<y_axis_inferred_label>
+watching
+TV
+&
+going
+out
+-	<x_axis_range_end>
+at
+16
+%	<y_axis_inferred_label>
+.
+\\nSpending
+time
+with
+family
+comes
+second	<order_Scnd>
+to	<x_axis_range_end>
+reading
+a
+book
+at
+31%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+percentages
+on
+how
+many
+young
+people
+in
+Zarqa
+spend
+their
+evenings
+.
+From	<x_axis_range_start>
+the
+chart
+,
+we
+see
+that
+the
+smallest
+percentage
+of
+people
+spend
+their
+time
+Watching
+TV
+at
+around
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
+This
+is
+then	<order_3rd>
+followed	<order_Scnd>
+by
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+of
+people
+Going
+Out
+.
+We
+then	<order_3rd>
+see
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+people
+Spend
+Time
+with
+Family
+but
+the
+highest
+percentage
+of
+people
+are
+Reading
+at
+Book
+at
+around
+38%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+highest
+number
+of
+young
+people
+in
+zarqa
+spend
+their
+evenings
+reading
+a
+book
+(
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+)
+then	<order_3rd>
+spend
+time
+with
+family
+.
+A
+lower	<y_axis_trend_down>
+percentage
+spend
+their
+time
+going
+out
+,
+with
+only
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+spend
+their
+time
+watching
+TV.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+how
+young
+people
+in
+Zarqua
+spend
+their
+evenings
+.
+Approximately	<y_axis_approx>
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+of
+people
+watch
+TV
+,
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+spend
+time
+with
+their
+family
+and	<x_axis_range_end>
+35
+%	<y_axis_inferred_label>
+of
+participants
+read
+a
+book
+.
+About	<y_axis_approx>
+17
+%	<y_axis_inferred_label>
+of
+people
+surveyed
+went
+out.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+how
+young
+people
+in
+Zarqa
+spend
+their
+evenings
+.
+\\nAround
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+watch
+TV.\\n32
+%	<y_axis_inferred_label>
+spend
+their
+evenings
+with
+family
+.
+\\n38
+%	<y_axis_inferred_label>
+read
+a
+book
+and	<x_axis_range_end>
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+go
+out
+in
+the
+evening.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+how
+young
+people
+in
+Zarqa
+spend
+their
+earnings
+.
+Over	<y_axis_approx>
+4
+activities
+,
+the
+largest
+percentage
+is
+spent
+on
+reading
+a
+book
+which
+accounts
+for
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+followed	<order_Scnd>
+by
+time
+with
+family
+at
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+then	<order_3rd>
+going
+out
+at
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+and	<x_axis_range_end>
+lastly
+watching
+TV
+at
+only
+12%\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Graph
+above	<y_axis_trend_up>
+shows
+how
+young
+people
+spend
+their
+evenings
+in
+Zarqa
+.
+The
+lowest
+percentage
+recorded
+was
+for
+watching
+Tv
+at
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+,
+the
+highest
+ 
+percentage
+was
+recorded
+for
+reading
+a
+book
+at
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+The
+second	<order_Scnd>
+highest
+was
+for
+spending
+time
+with
+family
+at
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+The
+second	<order_Scnd>
+lowest
+percentage
+was
+for
+going
+out
+at
+18%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"In
+this
+chart
+we
+can
+see
+how
+much	<y_axis_trend>
+time
+young
+people
+in
+Zarqa
+spend
+on
+different
+activities
+during
+the
+evening.\\nWatching
+TV
+is
+an
+activity
+that
+just
+over	<y_axis_approx>
+10
+%	<y_axis_inferred_label>
+of
+young
+people
+spend
+time
+doing
+.
+That
+is
+the
+lowest
+of
+the
+four
+activities
+presented
+.
+About	<y_axis_approx>
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+read
+a
+book
+and	<x_axis_range_end>
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+spend
+time
+with
+their
+family
+,
+while	<y_x_comparison_rest>
+only
+17
+%	<y_axis_inferred_label>
+go
+out.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+majority
+of
+young
+people
+in
+Zarqa
+spend
+their
+evenings
+reading
+a
+book
+,
+at
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
+The
+least	<y_axis_trend>
+popular
+way
+to	<x_axis_range_end>
+spend
+the
+evening
+is
+by
+watching
+TV
+,
+at
+12%.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+young
+people
+of
+Zarqua
+spend
+the
+mojority
+of
+their
+evenings
+reading
+a
+book
+and	<x_axis_range_end>
+spending
+time
+with
+their
+families
+.
+On
+the
+chart
+this
+has
+been
+represented
+as
+a
+percentage
+of
+young
+people
+at
+a
+given
+time
+.
+32	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+choose
+to	<x_axis_range_end>
+spend
+time
+with
+family
+whereas
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+choose
+to	<x_axis_range_end>
+read
+.
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+of
+the
+young
+people
+chose
+to	<x_axis_range_end>
+go
+out
+and	<x_axis_range_end>
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+choose
+to	<x_axis_range_end>
+watch
+television.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+that
+the
+majority
+of
+people
+in
+Zarqa
+prefer
+reading
+a
+book
+in
+an
+evening
+.
+ 
+Although
+this
+would
+suggest
+they
+may
+prefer
+solitude
+,
+interestingly
+,
+they
+do
+not
+like
+watching
+TV
+with
+only
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+stating
+that
+as
+their
+chosen
+way
+to	<x_axis_range_end>
+pass
+the
+time.\
+"
+"
+
+
+<end_of_description>

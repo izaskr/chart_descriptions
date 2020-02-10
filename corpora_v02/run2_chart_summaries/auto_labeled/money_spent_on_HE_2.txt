@@ -1,0 +1,1424 @@
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+money
+spent
+on
+Higher	<y_axis_trend_up>
+Education
+in
+the
+Year
+2010
+on
+different
+continents
+.
+The
+most
+money
+spent
+was
+in
+Africa	<x_axis_label_highest_value>
+where
+£	<y_axis_inferred_label>
+290,000,000
+was
+spent
+.
+The
+amount
+in
+Europe	<x_axis_label_Scnd_highest_value>
+was
+a
+little
+lower	<y_axis_trend_down>
+at
+£	<y_axis_inferred_label>
+270,000,000
+.
+The
+amount
+of
+money
+spent
+on
+Higher	<y_axis_trend_up>
+Education
+in
+2010
+in
+Asia	<x_axis_label_3rd_highest_value>
+was
+£	<y_axis_inferred_label>
+175,000,000
+and	<x_axis_range_end>
+the
+lowest
+amount
+was
+spent
+in
+North America	<x_axis_label_least_value>
+,
+which
+was
+a
+little
+under	<y_axis_approx>
+£	<y_axis_inferred_label>
+150,000,000.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+per
+continent
+in
+2010.\\n\\nAfrica
+has
+the
+highest
+amount
+at
+£	<y_axis_inferred_label>
+290	<y_axis_highest_value_val>
+million
+,
+closely	<y_axis_trend>
+followed	<order_Scnd>
+by
+Europe	<x_axis_label_Scnd_highest_value>
+on
+£	<y_axis_inferred_label>
+270	<y_axis_Scnd_highest_val>
+million
+.
+Asia	<x_axis_label_3rd_highest_value>
+spent
+$	<y_axis_inferred_label>
+175	<y_axis_3rd_highest_val>
+million
+whilst	<y_x_comparison_rest>
+North America	<x_axis_label_least_value>
+was
+the
+lowest
+spender
+,
+at
+around
+£	<y_axis_inferred_label>
+147
+million.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+highlights
+the
+amount
+of
+money
+four
+continents
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+the
+year
+2010
+,
+in
+millions
+of
+pounds	<y_axis_inferred_label>
+sterling
+.
+We
+can
+see
+that
+the
+continent
+that
+spent
+the
+lowest
+was
+North America	<x_axis_label_least_value>
+,
+with
+almost	<y_axis_approx>
+£	<y_axis_inferred_label>
+150
+m
+.
+Africa	<x_axis_label_highest_value>
+spent
+almost	<y_axis_approx>
+double
+this.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+charts
+shows
+the
+amount
+of
+money
+spent
+on
+Higher	<y_axis_trend_up>
+Education
+in
+the
+Year
+2010
+in
+different
+continents
+of
+North
+Africa	<x_axis_label_highest_value>
+,
+Europe	<x_axis_label_Scnd_highest_value>
+,
+Asia	<x_axis_label_3rd_highest_value>
+and	<x_axis_range_end>
+Africa.\\n\\nAfrica
+has
+had
+almost	<y_axis_approx>
+£	<y_axis_inferred_label>
+300
+million
+(
+£	<y_axis_inferred_label>
+290	<y_axis_highest_value_val>
+m
+)
+on
+Higher	<y_axis_trend_up>
+Education
+at
+the
+highest
+continent
+.
+ 
+North America	<x_axis_label_least_value>
+is
+just
+under	<y_axis_approx>
+£	<y_axis_inferred_label>
+150
+million
+at
+the
+lowest
+spend
+on
+Higher	<y_axis_trend_up>
+Education
+with
+Asia	<x_axis_label_3rd_highest_value>
+just
+over	<y_axis_approx>
+at
+£	<y_axis_inferred_label>
+175	<y_axis_3rd_highest_val>
+million.\\n\\nEurope
+and	<x_axis_range_end>
+Africa	<x_axis_label_highest_value>
+are
+the
+two
+highest
+with
+Europe	<x_axis_label_Scnd_highest_value>
+spending
+£	<y_axis_inferred_label>
+275
+million.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+the
+year
+2010.\\n\\nNorth
+America
+spent
+148	<y_axis_least_value_val>
+million
+pounds	<y_axis_inferred_label>
+.
+ 
+Europe	<x_axis_label_Scnd_highest_value>
+spent
+270	<y_axis_Scnd_highest_val>
+million
+pounds	<y_axis_inferred_label>
+.
+ 
+Asia	<x_axis_label_3rd_highest_value>
+170
+million
+pounds	<y_axis_inferred_label>
+and	<x_axis_range_end>
+Africa	<x_axis_label_highest_value>
+spent
+the
+most
+with
+290	<y_axis_highest_value_val>
+millon
+pounds.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+different
+parts
+of
+the
+world
+in
+2010
+.
+Africa	<x_axis_label_highest_value>
+spent
+the
+most
+at
+290	<y_axis_highest_value_val>
+million
+pounds	<y_axis_inferred_label>
+,
+North America	<x_axis_label_least_value>
+the
+least	<y_axis_trend>
+at
+149
+million
+pounds	<y_axis_inferred_label>
+.
+Europe	<x_axis_label_Scnd_highest_value>
+spent
+270	<y_axis_Scnd_highest_val>
+million
+pounds	<y_axis_inferred_label>
+and	<x_axis_range_end>
+Asia	<x_axis_label_3rd_highest_value>
+170
+million
+pounds.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+how
+much	<y_axis_trend>
+money
+was
+spent
+on
+higher	<y_axis_trend_up>
+education
+by
+each
+of
+the
+four
+ 
+continents
+in
+the
+year
+2010.\\nAfrica
+spent
+the
+most
+at
+around
+£	<y_axis_inferred_label>
+290	<y_axis_highest_value_val>
+million
+.
+Europe	<x_axis_label_Scnd_highest_value>
+comes
+second	<order_Scnd>
+in
+line
+with
+spending
+£	<y_axis_inferred_label>
+270	<y_axis_Scnd_highest_val>
+million
+.
+Asia	<x_axis_label_3rd_highest_value>
+spent
+about	<y_axis_approx>
+£	<y_axis_inferred_label>
+170million
+in
+2010
+.
+North America	<x_axis_label_least_value>
+spent
+the
+least	<y_axis_trend>
+with
+just
+under	<y_axis_approx>
+£	<y_axis_inferred_label>
+150
+million.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+amount
+different
+continents
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+2010
+.
+Africa	<x_axis_label_highest_value>
+spent
+the
+most
+at
+almost	<y_axis_approx>
+300
+million
+,
+followed	<order_Scnd>
+by
+Europe	<x_axis_label_Scnd_highest_value>
+at
+around
+275
+million
+,
+then	<order_3rd>
+Asia	<x_axis_label_3rd_highest_value>
+at
+around
+175	<y_axis_3rd_highest_val>
+million
+and	<x_axis_range_end>
+lastly
+north
+America
+at
+almost	<y_axis_approx>
+150
+million.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"In
+2010
+,
+the
+continent
+of
+Africa	<x_axis_label_highest_value>
+was
+the
+biggest
+spender
+on
+higher	<y_axis_trend_up>
+education
+,
+spending
+around
+£	<y_axis_inferred_label>
+290	<y_axis_highest_value_val>
+million
+.
+North America	<x_axis_label_least_value>
+was
+the
+lowest
+of
+the
+four
+continents
+named
+,
+spending
+only
+around
+£	<y_axis_inferred_label>
+147
+m
+on
+higher	<y_axis_trend_up>
+education.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+amount
+(
+in
+millions
+,
+£	<y_axis_inferred_label>
+)
+of
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+on
+four
+different
+continents
+.
+Africa	<x_axis_label_highest_value>
+spends
+the
+highest
+amount
+at
+£	<y_axis_inferred_label>
+290	<y_axis_highest_value_val>
+million
+and	<x_axis_range_end>
+North America	<x_axis_label_least_value>
+spends
+the
+least	<y_axis_trend>
+at
+£	<y_axis_inferred_label>
+145
+million-
+a
+difference
+of
+50
+%	<y_axis_inferred_label>
+.
+Europe	<x_axis_label_Scnd_highest_value>
+spends
+£	<y_axis_inferred_label>
+270	<y_axis_Scnd_highest_val>
+million
+and	<x_axis_range_end>
+Asia	<x_axis_label_3rd_highest_value>
+spends
+£	<y_axis_inferred_label>
+170
+million.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+the
+amount
+of
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+various
+continents
+around
+the
+world
+.
+In
+Africa	<x_axis_label_highest_value>
+the
+amount
+spent
+on
+higher	<y_axis_trend_up>
+education
+is
+£	<y_axis_inferred_label>
+290	<y_axis_highest_value_val>
+million
+.
+In
+North America	<x_axis_label_least_value>
+they
+spent
+£	<y_axis_inferred_label>
+149million
+.
+In
+Europe	<x_axis_label_Scnd_highest_value>
+they
+spent
+£	<y_axis_inferred_label>
+270	<y_axis_Scnd_highest_val>
+million
+and	<x_axis_range_end>
+in
+Asia	<x_axis_label_3rd_highest_value>
+they
+spent
+£	<y_axis_inferred_label>
+170
+million
+on
+higher	<y_axis_trend_up>
+education\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+money
+spent
+on
+Higher	<y_axis_trend_up>
+Education
+on
+the
+year
+2010
+vary
+by
+continent
+.
+ 
+The
+continent
+how
+spent
+the
+most
+was
+Africa	<x_axis_label_highest_value>
+with
+an
+amount
+of
+around
+290	<y_axis_highest_value_val>
+millions
+of
+pounds	<y_axis_inferred_label>
+,
+followed	<order_Scnd>
+by
+Europe	<x_axis_label_Scnd_highest_value>
+with
+an
+amount
+of
+around
+270	<y_axis_Scnd_highest_val>
+millions
+of
+pounds	<y_axis_inferred_label>
+.
+North America	<x_axis_label_least_value>
+and	<x_axis_range_end>
+Asia	<x_axis_label_3rd_highest_value>
+spent
+less	<y_axis_approx>
+than
+200
+millions
+,
+Asia	<x_axis_label_3rd_highest_value>
+was
+the
+bigger
+of
+the
+two
+with
+around
+170
+millions
+of
+Pounds
+,
+whiles
+North America	<x_axis_label_least_value>
+spent
+close	<y_axis_trend>
+to	<x_axis_range_end>
+the
+150
+millions
+of
+pounds.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+demonstrates
+the
+amount
+of
+money
+in
+millions
+of
+pounds	<y_axis_inferred_label>
+sterling
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+2010
+in
+4
+different
+continents
+.
+\\n\\nAfrica
+was
+the
+highest
+,
+then	<order_3rd>
+followed	<order_Scnd>
+by
+Europe	<x_axis_label_Scnd_highest_value>
+,
+then	<order_3rd>
+Asia	<x_axis_label_3rd_highest_value>
+and	<x_axis_range_end>
+finally
+North
+America
+was
+the
+lowest.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+total
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+by
+continent
+.
+North America	<x_axis_label_least_value>
+spent
+approximately	<y_axis_approx>
+£	<y_axis_inferred_label>
+150
+million
+;
+Asia	<x_axis_label_3rd_highest_value>
+comes
+in
+second	<order_Scnd>
+with
+around
+£	<y_axis_inferred_label>
+175	<y_axis_3rd_highest_val>
+million
+;
+then	<order_3rd>
+Europe	<x_axis_label_Scnd_highest_value>
+with
+£	<y_axis_inferred_label>
+275
+,
+and	<x_axis_range_end>
+finally
+Africa	<x_axis_label_highest_value>
+with
+almost	<y_axis_approx>
+£	<y_axis_inferred_label>
+300
+million.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+we
+have
+a
+bar
+chart
+representing
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+the
+year
+2010
+across
+various
+continents
+.
+It
+visually
+shows
+Europe	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+Africa	<x_axis_label_highest_value>
+having
+the
+highest
+expenditure
+over	<y_axis_approx>
+the
+year
+with
+Europe	<x_axis_label_Scnd_highest_value>
+spending
+just
+over	<y_axis_approx>
+250
+million
+pounds	<y_axis_inferred_label>
+and	<x_axis_range_end>
+Africa	<x_axis_label_highest_value>
+nearly
+hitting
+the
+300
+million
+pounds	<y_axis_inferred_label>
+mark
+.
+North America	<x_axis_label_least_value>
+and	<x_axis_range_end>
+Asia	<x_axis_label_3rd_highest_value>
+come
+in
+last
+according
+to	<x_axis_range_end>
+this
+graph
+,
+with
+North America	<x_axis_label_least_value>
+reaching
+just
+under	<y_axis_approx>
+150
+million
+and	<x_axis_range_end>
+Asia	<x_axis_label_3rd_highest_value>
+just
+above	<y_axis_trend_up>
+the
+same
+amount.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+number
+of
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+the
+year
+2020.\\nIn
+North
+America
+£	<y_axis_inferred_label>
+149
+million
+was
+spent
+on
+higher	<y_axis_trend_up>
+education
+.
+This
+is
+the
+lowest
+figure
+.
+In
+Europe	<x_axis_label_Scnd_highest_value>
+the
+spending
+was
+£	<y_axis_inferred_label>
+270	<y_axis_Scnd_highest_val>
+million
+,
+in
+Asia	<x_axis_label_3rd_highest_value>
+it
+was
+£	<y_axis_inferred_label>
+180
+million
+and	<x_axis_range_end>
+Africa	<x_axis_label_highest_value>
+was
+the
+highest
+with
+£	<y_axis_inferred_label>
+290	<y_axis_highest_value_val>
+million.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+is
+a
+graph
+from	<x_axis_range_start>
+the
+year
+2010
+for
+different
+countries
+that
+have
+spent
+money
+on
+Higher	<y_axis_trend_up>
+Education
+.
+\\nThe
+highest
+spender
+is
+Africa	<x_axis_label_highest_value>
+which
+beats
+Europe	<x_axis_label_Scnd_highest_value>
+at
+second	<order_Scnd>
+highest
+.
+These
+two
+countries
+are
+quite	<y_axis_trend>
+close	<y_axis_trend>
+in
+the
+running
+to	<x_axis_range_end>
+each
+other
+.
+The
+third	<order_3rd>
+is
+Asia	<x_axis_label_3rd_highest_value>
+which
+drops
+significantly	<y_axis_trend>
+compared	<y_x_comparison>
+to	<x_axis_range_end>
+Europe	<x_axis_label_Scnd_highest_value>
+,
+then	<order_3rd>
+lastly
+North
+America
+which
+spent
+the
+least	<y_axis_trend>
+on
+higher	<y_axis_trend_up>
+Education
+in
+2010.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+expenditure
+on
+higher	<y_axis_trend_up>
+education
+across
+geographic
+areas
+in
+2010.\\n
+\\nThe
+highest
+investor
+n
+higher	<y_axis_trend_up>
+education
+was
+Africa	<x_axis_label_highest_value>
+,
+spending
+£	<y_axis_inferred_label>
+290M.\\n\\nNorth
+America
+spent
+the
+least	<y_axis_trend>
+,
+reporting
+spend
+of
+just
+under	<y_axis_approx>
+£	<y_axis_inferred_label>
+150
+M
+for
+the
+year.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+amount
+of
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+millions
+of
+pounds	<y_axis_inferred_label>
+per
+continent
+in
+the
+year
+2010.\\nFrom
+the
+chart
+we
+see
+that
+in
+the
+year
+2010
+approximately	<y_axis_approx>
+290	<y_axis_highest_value_val>
+millions
+of
+pounds	<y_axis_inferred_label>
+were
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+Africa	<x_axis_label_highest_value>
+as
+the
+highest
+in
+the
+world
+.
+The
+lowest
+amount
+of
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+ 
+in
+the
+world
+is
+north america	<x_axis_label_least_value>
+at
+ 
+approximately	<y_axis_approx>
+150
+millions
+of
+pounds\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+2010
+was
+at
+the
+highest
+in
+Africa	<x_axis_label_highest_value>
+at
+290	<y_axis_highest_value_val>
+million
+pounds	<y_axis_inferred_label>
+.
+in
+comparison
+,
+in
+north america	<x_axis_label_least_value>
+the
+money
+spent
+was
+almost	<y_axis_approx>
+half
+,
+at
+150
+million.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+money
+spent
+on
+Higher	<y_axis_trend_up>
+education
+in
+2010
+in
+millions
+of
+pounds	<y_axis_inferred_label>
+.
+ 
+In
+N
+America
+it
+was
+almost	<y_axis_approx>
+150
+,
+in
+europe	<x_axis_label_Scnd_highest_value>
+it
+was
+230
+,
+in
+asia	<x_axis_label_3rd_highest_value>
+it
+was170
+,
+in
+africa	<x_axis_label_highest_value>
+it
+was290\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+us
+the
+amount
+of
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+each
+continent
+in
+the
+year
+of
+2010
+.
+The
+highest
+spender
+recorded
+was
+Africa	<x_axis_label_highest_value>
+with
+nearly
+£	<y_axis_inferred_label>
+300
+m
+spent
+on
+higher	<y_axis_trend_up>
+education
+.
+Europe	<x_axis_label_Scnd_highest_value>
+come
+not
+that
+far
+from	<x_axis_range_start>
+Africa	<x_axis_label_highest_value>
+.
+In
+third	<order_3rd>
+was
+Asia	<x_axis_label_3rd_highest_value>
+and	<x_axis_range_end>
+last
+was
+North America	<x_axis_label_least_value>
+who
+only
+spent
+nearly
+£	<y_axis_inferred_label>
+150
+m
+on
+higher	<y_axis_trend_up>
+education.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+bar
+chart
+shows
+money
+spent
+on
+higher	<y_axis_trend_up>
+education
+in
+the
+year
+2010
+in
+various
+regions
+.
+In
+North America	<x_axis_label_least_value>
+just
+under	<y_axis_approx>
+150
+million
+pounds	<y_axis_inferred_label>
+was
+spent
+.
+In
+Europe	<x_axis_label_Scnd_highest_value>
+that
+figure
+was
+approximately	<y_axis_approx>
+270	<y_axis_Scnd_highest_val>
+million
+pounds	<y_axis_inferred_label>
+was
+spent
+.
+In
+Asia	<x_axis_label_3rd_highest_value>
+approximately	<y_axis_approx>
+170
+million
+pounds	<y_axis_inferred_label>
+was
+spent
+whilst	<y_x_comparison_rest>
+in
+Africa	<x_axis_label_highest_value>
+,
+roughly
+290	<y_axis_highest_value_val>
+million
+pounds	<y_axis_inferred_label>
+was
+spent
+on
+higher	<y_axis_trend_up>
+education.\
+"
+"
+
+
+<end_of_description>

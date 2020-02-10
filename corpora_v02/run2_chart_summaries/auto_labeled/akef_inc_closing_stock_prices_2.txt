@@ -1,0 +1,1374 @@
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+Akef
+Inc.
+closing
+stock
+prices
+for
+the
+week
+.
+It
+shows
+that
+it
+was
+approximately	<y_axis_approx>
+£	<y_axis_inferred_label>
+52	<y_axis_inferred_value_add_v1=highest_v2=4th>
+on
+Monday	<x_axis_label_3rd_highest_value>
+,
+rising	<slope_up>
+to	<x_axis_range_end>
+around
+£	<y_axis_inferred_label>
+62	<y_axis_Scnd_highest_val>
+on
+Tuesday	<x_axis_label_Scnd_highest_value>
+,
+and	<x_axis_range_end>
+rising	<slope_up>
+again
+to	<x_axis_range_end>
+around
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+on
+Wednesday	<x_axis_label_highest_value>
+.
+This
+dipped
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+22	<y_axis_4th_highest_val>
+on
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+decreased
+again
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+9	<y_axis_least_value_val>
+on
+Friday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+show
+the
+closing
+stock
+price
+for
+Akef
+Inc.
+over	<y_axis_approx>
+the
+course
+of
+a
+week.\\nOn
+Monday
+the
+stock
+closed
+at
+£	<y_axis_inferred_label>
+50
+,
+then	<order_3rd>
+rose	<slope_up>
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+63
+on
+Tuesday	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+again
+rose	<slope_up>
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+on
+Wednesday	<x_axis_label_highest_value>
+.
+The
+stock
+plummeted
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+22	<y_axis_4th_highest_val>
+on
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+dropped
+again
+on
+Friday	<x_axis_label_least_value>
+,
+closing
+at
+£	<y_axis_inferred_label>
+9.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+closing
+stock
+price
+for
+Akef
+Inc.
+,
+for
+each
+day
+of
+the
+working
+week
+.
+There
+is
+an
+increase	<slope_up>
+from	<x_axis_range_start>
+Monday	<x_axis_label_3rd_highest_value>
+to	<x_axis_range_end>
+Wednesday	<x_axis_label_highest_value>
+,
+before
+a
+sharp
+decline
+on
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+Friday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+closing
+stock
+price
+in
+Pounds
+(
+£	<y_axis_inferred_label>
+)
+of
+Akef
+Inc
+for
+the
+days
+of
+the
+week.\\n\\nThe
+highest
+price
+for
+Akef
+Inc
+is
+on
+Wednesday	<x_axis_label_highest_value>
+at
+£	<y_axis_inferred_label>
+75
+,
+the
+lowest
+price
+of
+the
+week
+is
+Friday	<x_axis_label_least_value>
+at
+£	<y_axis_inferred_label>
+9	<y_axis_least_value_val>
+which
+is
+a
+huge
+difference.\\n\\nThe
+market
+appears
+to	<x_axis_range_end>
+start
+off
+slowly	<y_axis_trend>
+on
+a
+Monay
+and	<x_axis_range_end>
+gradually	<y_axis_trend>
+increases	<slope_up>
+on
+Tuesday	<x_axis_label_Scnd_highest_value>
+.
+ 
+It
+peaks
+on
+a
+Wednesday
+,
+it
+drops
+significantly	<y_axis_trend>
+on
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+a
+low	<y_axis_trend_down>
+on
+a
+Friday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+American
+Inc.
+closing
+stock
+prices
+for
+the
+week.\\n\\nOn
+Monday
+the
+closing
+stock
+price
+was
+£	<y_axis_inferred_label>
+51	<y_axis_3rd_highest_val>
+.
+ 
+On
+Tuesday	<x_axis_label_Scnd_highest_value>
+it
+increased	<slope_up>
+up
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+61
+.
+ 
+By
+Wednesday	<x_axis_label_highest_value>
+it
+continued
+to	<x_axis_range_end>
+increase	<slope_up>
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+72
+but
+then	<order_3rd>
+on
+Thursday	<x_axis_label_4th_highest_value>
+it
+dropped
+dramatically
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+21
+and	<x_axis_range_end>
+by
+Friday	<x_axis_label_least_value>
+the
+stock
+price
+dropped
+to	<x_axis_range_end>
+only
+£	<y_axis_inferred_label>
+9.80.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+the
+Akef
+Inc.
+Closing
+share
+prices
+for
+the
+week
+.
+They
+steadily	<y_axis_trend>
+climb
+Mon	<x_axis_label_3rd_highest_value>
+to	<x_axis_range_end>
+We
+d
+from	<x_axis_range_start>
+just
+over	<y_axis_approx>
+£	<y_axis_inferred_label>
+50
+on
+Monday	<x_axis_label_3rd_highest_value>
+peaking
+at
+£	<y_axis_inferred_label>
+72
+on
+Wednesday	<x_axis_label_highest_value>
+.
+They
+then	<order_3rd>
+plummet
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+21
+on
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+fall
+again
+to	<x_axis_range_end>
+just
+under	<y_axis_approx>
+£	<y_axis_inferred_label>
+10
+on
+Friday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+the
+closing
+stock
+price
+of
+Afek
+Inc.
+for
+the
+week
+.
+On
+Monday	<x_axis_label_3rd_highest_value>
+the
+price
+was
+just
+over	<y_axis_approx>
+50
+.
+Tuesday	<x_axis_label_Scnd_highest_value>
+was
+just
+over	<y_axis_approx>
+60
+.
+Wednesday	<x_axis_label_highest_value>
+was
+around
+74	<y_axis_highest_value_val>
+.
+Thursday	<x_axis_label_4th_highest_value>
+showed
+a
+huge
+drop
+at
+over	<y_axis_approx>
+20
+and	<x_axis_range_end>
+Friday	<x_axis_label_least_value>
+showed
+the
+least	<y_axis_trend>
+at
+below
+10.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+closing
+stock
+prices
+for
+akef
+Inc
+for
+the
+week
+.
+The
+highest
+is
+Wednesday
+at
+£	<y_axis_inferred_label>
+75
+then	<order_3rd>
+Tue	<x_axis_label_Scnd_highest_value>
+at
+£	<y_axis_inferred_label>
+60
+,
+then	<order_3rd>
+Mon	<x_axis_label_3rd_highest_value>
+at
+£	<y_axis_inferred_label>
+50
+then	<order_3rd>
+Thursday
+at
+£	<y_axis_inferred_label>
+20
+and	<x_axis_range_end>
+lastly
+Fri	<x_axis_label_least_value>
+at
+£	<y_axis_inferred_label>
+10.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+closing
+stock
+prices
+for
+Afek
+Inc.
+were
+on
+the
+rise	<slope_up>
+for
+the
+first
+three
+days
+of
+the
+week
+,
+but
+on
+Thursday	<x_axis_label_4th_highest_value>
+there
+was
+a
+huge
+drop
+in
+the
+prices
+.
+Friday	<x_axis_label_least_value>
+was
+even
+worse	<y_axis_trend_down>
+than
+Thursday	<x_axis_label_4th_highest_value>
+,
+with
+the
+price
+of
+stock
+sitting
+at
+just
+£	<y_axis_inferred_label>
+9	<y_axis_least_value_val>
+,
+a
+far
+cry
+from	<x_axis_range_start>
+the
+price
+of
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+that
+they
+were
+sitting
+at
+on
+Wednesday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+chart
+shows
+the
+closing
+stock
+price
+by
+days
+of
+the
+week
+.
+The
+stock
+price
+is
+highest
+mid
+-	<x_axis_range_end>
+week
+on
+Wednesday	<x_axis_label_highest_value>
+and	<x_axis_range_end>
+Friday	<x_axis_label_least_value>
+is
+where
+the
+stock
+price
+is
+the
+lowest.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+Akef
+inc
+.
+closing
+stock
+prices
+for
+the
+week
+.
+On
+Monday	<x_axis_label_3rd_highest_value>
+the
+stock
+price
+closed
+at
+£	<y_axis_inferred_label>
+51	<y_axis_3rd_highest_val>
+,
+Tuesday
+it
+closed
+at
+£	<y_axis_inferred_label>
+62	<y_axis_Scnd_highest_val>
+,
+Wednesday	<x_axis_label_highest_value>
+was
+the
+highest
+closing
+at
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+.
+Thursday
+stock
+price
+closed
+at
+£	<y_axis_inferred_label>
+22	<y_axis_4th_highest_val>
+and	<x_axis_range_end>
+Friday	<x_axis_label_least_value>
+closed
+at
+£	<y_axis_inferred_label>
+9.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+is
+about	<y_axis_approx>
+the
+stock
+closing
+prices
+for
+one
+week
+for
+the
+company
+Akef
+Inc.
+The
+day
+with
+the
+highest
+closing
+stock
+price
+was
+Wednesday	<x_axis_label_highest_value>
+,
+with
+a
+closing
+price
+of
+about	<y_axis_approx>
+£	<y_axis_inferred_label>
+75
+.
+This
+was
+followed	<order_Scnd>
+by
+Tuesday	<x_axis_label_Scnd_highest_value>
+with
+a
+closing
+price
+of
+£	<y_axis_inferred_label>
+61
+.
+Monday	<x_axis_label_3rd_highest_value>
+was
+not
+also
+a
+bad
+day
+,
+as
+the
+closing
+stock
+price
+was
+£	<y_axis_inferred_label>
+21
+.
+Unfortunately
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+Friday	<x_axis_label_least_value>
+did
+not
+do
+as
+well
+as
+the
+others
+days
+,
+as
+the
+closing
+stock
+price
+was
+below
+£	<y_axis_inferred_label>
+50
+,
+£	<y_axis_inferred_label>
+21
+for
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+£	<y_axis_inferred_label>
+10
+for
+Friday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+graph
+shows
+Afek
+Inc.
+'s
+closing
+stock
+prices
+for
+the
+week
+,
+in
+pound	<y_axis_inferred_label>
+sterling
+.
+The
+graph
+shows
+that
+the
+stock
+started
+the
+week
+at
+just
+over	<y_axis_approx>
+£	<y_axis_inferred_label>
+50
+,
+the
+best
+day
+was
+Wednesday	<x_axis_label_highest_value>
+where
+the
+price
+were
+approx	<y_axis_approx>
+.
+£	<y_axis_inferred_label>
+74/75
+and	<x_axis_range_end>
+the
+worst
+was
+Friday	<x_axis_label_least_value>
+were
+the
+price
+dropped
+significantly	<y_axis_trend>
+to	<x_axis_range_end>
+just
+under	<y_axis_approx>
+£	<y_axis_inferred_label>
+10.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+that
+the
+closing
+stocking
+prices
+increase	<slope_up>
+Monday
+through
+Friday	<x_axis_label_least_value>
+(
+from	<x_axis_range_start>
+£	<y_axis_inferred_label>
+50
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+75
+)
+,
+but
+drop
+on
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+Friday	<x_axis_label_least_value>
+.
+From	<x_axis_range_start>
+£	<y_axis_inferred_label>
+75
+on
+Wednesday	<x_axis_label_highest_value>
+to	<x_axis_range_end>
+roughly
+£	<y_axis_inferred_label>
+20
+on
+Thursday	<x_axis_label_4th_highest_value>
+,
+then	<order_3rd>
+around
+£	<y_axis_inferred_label>
+9	<y_axis_least_value_val>
+on
+Friday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+we
+see
+a
+bar
+chart
+showing
+Akef
+Inc.
+closing
+stick
+prices
+for
+the
+week.\\nOn
+Monday
+the
+prices
+are
+just
+about	<y_axis_approx>
+£	<y_axis_inferred_label>
+50
+,
+Tuesday
+just
+above	<y_axis_trend_up>
+£	<y_axis_inferred_label>
+60
+,
+Wednesday
+just
+under	<y_axis_approx>
+£	<y_axis_inferred_label>
+75
+,
+Thursday	<x_axis_label_4th_highest_value>
+just
+above	<y_axis_trend_up>
+£	<y_axis_inferred_label>
+20
+and	<x_axis_range_end>
+Friday
+just
+under	<y_axis_approx>
+£	<y_axis_inferred_label>
+10\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+graph
+shows
+Akef
+Inc.
+closing
+stock
+prices
+for
+the
+week.\\nOn
+Monday
+the
+closing
+price
+was
+£	<y_axis_inferred_label>
+51	<y_axis_3rd_highest_val>
+,
+on
+Tuesday	<x_axis_label_Scnd_highest_value>
+it
+was
+£	<y_axis_inferred_label>
+61
+and	<x_axis_range_end>
+on
+Wednesday	<x_axis_label_highest_value>
+it
+was
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+.
+After
+that
+the
+closing
+price
+declined
+sharply
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+22	<y_axis_4th_highest_val>
+and	<x_axis_range_end>
+£	<y_axis_inferred_label>
+9	<y_axis_least_value_val>
+on
+Thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+Friday	<x_axis_label_least_value>
+respectively.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Here
+is
+a
+chart
+based
+on
+Akef
+Inc.
+Closing
+stock
+prices
+for
+the
+week
+.
+It
+starts
+off
+at
+a
+steady
+amount
+and	<x_axis_range_end>
+rises
+each
+day
+on
+Tuesday	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+Wednesday	<x_axis_label_highest_value>
+at
+it
+'s
+highest
+.
+On
+Thursday	<x_axis_label_4th_highest_value>
+it
+drops
+to	<x_axis_range_end>
+its
+lowest
+and	<x_axis_range_end>
+again
+on
+Friday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+represents
+the
+closing
+stock
+prices
+of
+Akef
+Inc.
+per
+working
+day\\n
+\\nThere
+was
+a
+general
+increase	<slope_up>
+in
+stock
+prices
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+on
+Wednesday	<x_axis_label_highest_value>
+,
+and	<x_axis_range_end>
+them
+a
+dramatic
+drop
+on
+Thursday	<x_axis_label_4th_highest_value>
+,
+falling	<y_axis_trend_down>
+further
+still
+on
+Friday	<x_axis_label_least_value>
+to	<x_axis_range_end>
+£	<y_axis_inferred_label>
+9.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"This
+chart
+shows
+Akef
+inc
+.
+stock
+prices
+for
+the
+week
+in
+british
+pounds	<y_axis_inferred_label>
+per
+day
+of
+the
+week
+.
+\\nFrom
+the
+chart
+we
+can
+ 
+see
+that
+friday	<x_axis_label_least_value>
+is
+the
+lowest
+at
+approximately	<y_axis_approx>
+£	<y_axis_inferred_label>
+10
+.
+The
+highest
+is
+Wednesday
+at
+£	<y_axis_inferred_label>
+72\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"the
+graph
+shows
+the
+akef
+inc
+closing
+stock
+prices
+for
+the
+week
+were
+highest
+on
+a
+wednesday
+and	<x_axis_range_end>
+then	<order_3rd>
+dramatically
+decrease
+on
+thursday	<x_axis_label_4th_highest_value>
+and	<x_axis_range_end>
+friday	<x_axis_label_least_value>
+,
+from	<x_axis_range_start>
+74	<y_axis_highest_value_val>
+to	<x_axis_range_end>
+10.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"Closing
+stock
+price
+for
+a
+week
+for
+Akef
+inc
+.
+ 
+Mon	<x_axis_label_3rd_highest_value>
+was
+£	<y_axis_inferred_label>
+51	<y_axis_3rd_highest_val>
+,
+Tue	<x_axis_label_Scnd_highest_value>
+was£62
+,
+We
+d
+was
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+,
+Thu	<x_axis_label_4th_highest_value>
+was
+£	<y_axis_inferred_label>
+22	<y_axis_4th_highest_val>
+,
+Fri	<x_axis_label_least_value>
+was
+£	<y_axis_inferred_label>
+9\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+closing
+stock
+prices
+between	<x_axis_range_start>
+Monday	<x_axis_label_3rd_highest_value>
+and	<x_axis_range_end>
+Friday	<x_axis_label_least_value>
+have
+been
+unusual
+.
+During
+the
+first
+3	<y_axis_inferred_value_mul_v1=highest_v2=4th>
+days
+,
+the
+prices
+seemed
+to	<x_axis_range_end>
+be
+fairly
+high	<y_axis_trend_up>
+being
+at
+a
+price
+of
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+on
+Wednesday	<x_axis_label_highest_value>
+.
+However
+,
+for
+the
+next	<order_Scnd>
+two
+days
+it
+looks
+like
+the
+stock
+prices
+dropped
+dramatically
+having
+a
+price
+of
+only
+£	<y_axis_inferred_label>
+9	<y_axis_least_value_val>
+on
+Friday.\
+"
+"
+
+
+<end_of_description>
+<start_of_description>
+"
+\"The
+bar
+chart
+shows
+Akef
+.
+Inc
+closing
+stock
+prices
+for
+the
+week
+.
+It
+shows
+that
+Monday	<x_axis_label_3rd_highest_value>
+had
+a
+closing
+stock
+price
+of
+approximately	<y_axis_approx>
+£	<y_axis_inferred_label>
+51	<y_axis_3rd_highest_val>
+,
+Tuesday
+'s
+closing
+price
+was
+approximately	<y_axis_approx>
+£	<y_axis_inferred_label>
+62	<y_axis_Scnd_highest_val>
+,
+Wednesday
+'s
+closing
+price
+was
+approximately	<y_axis_approx>
+£	<y_axis_inferred_label>
+74	<y_axis_highest_value_val>
+and	<x_axis_range_end>
+Thursday
+'s
+closing
+price
+was
+£	<y_axis_inferred_label>
+22	<y_axis_4th_highest_val>
+.
+Lastly
+,
+Friday
+'s
+closing
+stock
+price
+was
+approximately	<y_axis_approx>
+£	<y_axis_inferred_label>
+10.\
+"
+"
+
+
+<end_of_description>
