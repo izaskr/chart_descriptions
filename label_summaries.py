@@ -26,6 +26,7 @@ from spacy.lang.en import English
 from spacy.tokenizer import Tokenizer
 from spacy.attrs import ORTH, NORM
 from nltk.tokenize import word_tokenize
+from learn_labels import get_discourse_tokens
 
 parser = argparse.ArgumentParser()
 
@@ -66,7 +67,7 @@ description_files = ["batch1/akef_inc_closing_stock_prices_1.txt",
 
 # TODO new descriptions_files_json indices correspond to image indices assigned by FigureQA
 anno_paths = ("run2_jsons/","/annotations.json")
-jsons = ["run2_jsons/train1/annotations.json", "run2_jsons/val1/annotations.json", "run2_jsons/val2/annotations.json"]
+#jsons = ["run2_jsons/train1/annotations.json", "run2_jsons/val1/annotations.json", "run2_jsons/val2/annotations.json"]
 jsons = {"train1":"run2_jsons/train1/annotations.json", "val1":"run2_jsons/val1/annotations.json", "val2":"run2_jsons/val2/annotations.json"}
 
 descriptions_files_json = {"batch1/akef_inc_closing_stock_prices_1.txt":("train1", 2),
@@ -99,6 +100,10 @@ nlp.add_pipe(sentencizer)
 tokenizer = Tokenizer(nlp.vocab)
 case_000 = [{ORTH: ",000"} ]#, {ORTH: "BB", NORM: ", 000"}]
 tokenizer.add_special_case(",000", case_000)
+
+
+nlp_en_core = spacy.load("en_core_web_sm")
+
 
 
 def get_x_y(filename):
@@ -181,13 +186,6 @@ def get_stat_info(data):
 	misc = {"<x_axis_label_count>":label_count}
 	
 	print(data["title"])
-	#print("\t",label_name_pairs_x)
-	#print("\t",label_value_pairs_y)
-
-
-	# relations
-	# mul y_axis_inferred_value_mul_v1=highest_v2=least , y_axis_inferred_value_mul_v1=highest_v2=Scnd
-	# add y_axis_inferred_value_add_v1=highest_v2=least
 
 	multi = {}
 	addi = {}
@@ -209,7 +207,10 @@ def get_stat_info(data):
 	#print("\t",addi)
 
 	results = {"label_name_pairs_x":label_name_pairs_x, "label_value_pairs_y":label_value_pairs_y, "multi":multi, "addi": addi}
-
+	results_basic = {** label_name_pairs_x, ** label_value_pairs_y}
+	results_cal = {**multi, ** addi}
+	results_basic["<y_axis>"] = data["y_axis_unit_name"]
+	#print(len(results_all), sum([len(v) for k,v in results.items()]))
 	"""
 
 	slope = None
@@ -251,78 +252,261 @@ def get_stat_info(data):
 	"""
 	#return data["title"], data["x_order_info"],differences, label_name_pairs_x,label_value_pairs_y, misc
 	#return results
-	return results
+	return results_basic, results_cal
 
-"""
-for a in jsons:
-	extracted = get_x_y(a)
-	for b,v in extracted.items():
-		get_stat_info(v)
-		input("Press Enter to show the next plot")
-"""
-
-# for every json in jsons
-# 	have a list of corresponding txt files
-#	for every file
-#		go line by line and preprocess the description (tokenize, segment)
-#		labeling based on string matching
-#		write into file, mark the beginning and end of summary
+def discourse_labels():
+	""" dlabel_word is a dict, discourse labels as keys, vocab set as value
+	word_dlabel is a dict, word as key, dict counter of labels and their counts as value
+	"""
+	xml_file = "corpora_v02/chart_summaries_b01.xml"
+	dlabel_word, word_dlabel = get_discourse_tokens(xml_file)
+	return dlabel_word, word_dlabel
 
 
-def tokenize_label(s, mapping):
-	""" s is a chart summary as a string, mapping is a dictionary as returned by get_stat_info """
-	return None
 
-
-def read_summaries(summary_file, plot_info):
+def read_summaries(summary_file, info_basic, info_cal):
 	""" summary_file is a path to the file with summaries from a single plot, one summary per line """
-	
+	#print(info_basic, info_cal)
+	syns = {"monday":"mon", "tuesday":"tue", "wednesday":"wed", "thursday":"thu", "friday":"fri", "genetics":"genetic", "%": "percent", "$": "dollars", "uk":"u.k.", "u.k.":"uk"}
+	units = {"%", "$", "£", "pounds", "pound", "dollar", "dollars", "percent"}
+
+	basic_text = [str(s).lower() for s in list(info_basic.values())]
+	basic_raw = [str(s).lower() for s in list(info_basic.values())]
+	basic_round = []
+	for s in info_basic.values():
+		if type(s) in {float,int}:
+			basic_round.append(str(round(s)))
+		else:
+			basic_round.append(str(s).lower())
+
+	# relative values
+	cal_text = [str(s).lower() for s in list(info_cal.values())]
+	cal_raw = [str(s).lower() for s in list(info_cal.values())]
+	cal_round = []
+	for s in info_cal.values():
+		if type(s) in {float,int}:
+			cal_round.append(str(round(s)))
+		else:
+			cal_round.append(str(s).lower())
+	#print(basic_text, basic_raw, basic_round) # _text not really used
+
+	summaries_final = []  # list of labeled summaries for a single plot
 	with open(version_dir+summary_file, "r", encoding="utf8") as f:
 		for line in f:
-			tline = word_tokenize(line)
-			#tline2 = tokenizer(line)
-			#if tline: print(tline)
-			#tline3 = [t.text for t in tline2]
-			#if tline3: print(tline3)
-			#print(tline)
-			for token in tline:
-				if token in {"%", "$", "£", "pounds", "dollars", "dollar", "pound"}:
-					print(token)
-			# use Spacy's dep parsing to get chunks and check if any match the x labels
+			linesplit = line.split()
+			if linesplit == []:
+				continue
+			cn,cl = 0,0
+			#tline = word_tokenize(line)
 
+			doc = nlp_en_core(line)
+			tokens = [t.text for t in doc]
+			nchunk = [] # noun chunk text, start index, end index, label
+
+			labeled_chunk_dict = {}
+			labeled_chunk_ind = set()
+			for chunk in doc.noun_chunks:
+				a_label = None
+				for label, text in info_basic.items():
+					text2 = str(text).lower()
+					chunk2 = chunk.text.lower()
+					if chunk2 == text2:
+						a_label = label
+						break
+					if chunk2 in syns:
+						if syns[chunk2] == text2:
+							a_label = label
+							break
+				if a_label:
+					cl +=1
+					nchunk.append((chunk.text, chunk.start, chunk.end, a_label))
+					labeled_chunk_ind = labeled_chunk_ind.union(set(np.arange(chunk.start, chunk.end)))
+					labeled_chunk_dict[tuple(np.arange(chunk.start, chunk.end))] = (chunk.text, a_label)
 			
 
+			labeled_token_i = set()
+			ltoken = []
+			ltoken_dict = {}
+			if nchunk:
+				pass
+			else:
+				for i,t in enumerate(tokens):
 
-for data_split,path_json in jsons.items():
-	for filename, (ds, i_image) in descriptions_files_json.items():
-		#print(filename, ds)
-		if data_split == ds:
-			extracted = get_x_y(path_json)
-			for b, v in extracted.items():
-				if v["image_index"] == i_image:
-					current_data = get_stat_info(v)
-					read_summaries(filename, current_data)
-					
+					if t.lower() in basic_text:
+						t_label = list(info_basic.keys())[basic_text.index(t.lower())]
+
+						labeled_token_i.add(i)
+						ltoken.append((t, i, t_label))
+						ltoken_dict[i] = (t,t_label)
+						continue
+
+					if t.lower() in basic_raw:
+						t_label = list(info_basic.keys())[basic_raw.index(t.lower())]
+						labeled_token_i.add(i)
+						ltoken.append((t, i, t_label))
+						ltoken_dict[i] = (t,t_label)
+						continue
+
+					if t.lower() in basic_round:
+						t_label = list(info_basic.keys())[basic_round.index(t.lower())]
+						labeled_token_i.add(i)
+						ltoken.append((t, i, t_label))
+						ltoken_dict[i] = (t,t_label)
+						continue
+
+
+					if t.lower() in cal_raw:
+						t_label = list(info_cal.keys())[cal_raw.index(t.lower())]
+						labeled_token_i.add(i)
+						ltoken.append((t, i, t_label))
+						ltoken_dict[i] = (t,t_label)
+						continue
+
+					if t.lower() in cal_round:
+						t_label = list(info_cal.keys())[cal_round.index(t.lower())]
+						labeled_token_i.add(i)
+						ltoken.append((t, i, t_label))
+						ltoken_dict[i] = (t,t_label)
+						continue
+
+					if t in units:
+						t_label = "<y_axis_inferred_label>"
+						labeled_token_i.add(i)
+						ltoken.append((t, i, t_label))
+						ltoken_dict[i] = (t,t_label)
+						#print("---------------------UNIT")	
+						continue
 			
-	
-	
+			labeled_summary = [] # tuple (token/s, label)
+			checked_j = set()
 
-"""
+			for j in range(len(tokens)):
+
+				if j in checked_j: continue
+				if j in labeled_chunk_ind:
+					#print(labeled_chunk_ind)
+					#print(labeled_chunk_dict)
+					#print(j)
+
+					match = [k for k,tup in labeled_chunk_dict.items() if k[0] == j]
+					#print(match)
+
+					for p1 in match:
+						if len(p1) == 1: checked_j.add(p1[0])
+						if len(p1) > 1:
+							checked_j = checked_j.union(set(np.arange(p1[0],p1[1]+1)))
+					if match == []:
+						print("debug", labeled_chunk_ind, checked_j,j, tokens[j])
+						input()
+
+					labeled_summary.append(labeled_chunk_dict[match[0]])
+
+					continue
+
+				if j in labeled_token_i:
+					labeled_summary.append(ltoken_dict[j])
+					checked_j.add(j)
+					continue
+
+				elif j not in checked_j:
+
+					t = tokens[j]
+					t_label = None
+
+					if t in units:
+						t_label = "<y_axis_inferred_label>"
+
+					if t.lower() in cal_raw:
+						t_label = list(info_cal.keys())[cal_raw.index(t.lower())]
+
+
+					if t.lower() in cal_round:
+						t_label = list(info_cal.keys())[cal_round.index(t.lower())]
+
+
+
+					if t.lower() in basic_raw:
+						t_label = list(info_basic.keys())[basic_raw.index(t.lower())]
+
+
+					if t.lower() in basic_round:
+						t_label = list(info_basic.keys())[basic_round.index(t.lower())]
+						
+
+					if t.lower() in basic_text:
+						t_label = list(info_basic.keys())[basic_text.index(t.lower())]
+
+
+					if t.lower() in word_dlabel:
+						current = word_dlabel[t.lower()]
+						t_label = max(current, key=current.get) # use the most frequent label
+						t_label = "<" + t_label + ">"
+
+					if t_label:
+						labeled_summary.append((t, t_label))
+
+
+					else: labeled_summary.append((tokens[j], None))
+					#continue
+			#for unit in labeled_summary:
+			#	print("\t",unit)
+			#print("eod")
+			summaries_final.append(labeled_summary)
+	return summaries_final
+
+
+def write_file(labeled_summaries, fname):
+	"""
+	labeled summaries
+	"""
+	return None
+
+def get_data_dict(dd,ii):
+	for b,v in dd.items():
+		if v["image_index"] == ii:
+			return v
+
+
+
+def get_according_fnames(dfs, splitt):
+	fnames = []
+	for fname, (splitname, image) in dfs.items():
+		if splitname == splitt:
+			fnames.append((fname, splitname, image))
+	return fnames
+
 
 if __name__ == "__main__":
+	dlabel_word, word_dlabel = discourse_labels()
 
-	data = descriptions_files_json[annotations][0] + "_annotations3.json"
+	for data_split,path_json in jsons.items():
+		c = 0
+		new_pn = "corpora_v02/run2_chart_summaries/auto_labeled/"
 
-	data_ext = get_x_y(data)
+		# "batch1/akef_inc_closing_stock_prices_1.txt":("train1", 2) are the items in descriptions_files_json
+		#get_according_filenames = lambda dfs, splitt: [(fname, splitname, image) for fname, (splitname,image) in dfs.items() if splitname == splitt] # TODO won't work of because incorrect syntax (lamda doesn't like if in this way)
+		current_triplets = get_according_fnames(descriptions_files_json, data_split)
+		extracted = get_x_y(path_json)
 
-	title = descriptions_files_json[annotations][1]
+		for (filename, splitname, i_image) in current_triplets:
+			v = get_data_dict(extracted, i_image)
+			current_basic, current_cal = get_stat_info(v)
+			auto_labeled = read_summaries(filename, current_basic, current_cal)
+			new_fn = new_pn + filename[7:]
+			newdoc = open(new_fn, "w")
+			for single in auto_labeled:
+				newdoc.write("<start_of_description>")
+				newdoc.write("\n")
+				for tup in single:
+					if tup[1] == None:
+						newdoc.write(tup[0])
+					else:
+						newdoc.write(tup[0] + "\t" + tup[1])
+					newdoc.write("\n")
+				newdoc.write("<end_of_description>")
+				newdoc.write("\n")
+			
+			newdoc.close()
+		
 
-	d = {}
-	for i, d in data_ext.items():
-		if d["title"] == title:
-			corpus = d
-	#print(corpus)
-	results = get_stat_info(corpus)
-
-"""
 
