@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 the
@@ -62,15 +61,12 @@ when
 the
 figure
 was
-12.\
-"
-"
-
-
+12	<y_axis_least_value_val>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -126,15 +122,12 @@ in
 fatalities
 dropped
 to	<x_axis_range_end>
-12.\
-"
-"
-
-
+12	<y_axis_least_value_val>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 the
@@ -169,15 +162,12 @@ in
 to	<x_axis_range_end>
 12	<y_axis_least_value_val>
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -238,21 +228,18 @@ has
 reduced
 by
 over	<y_axis_approx>
-50
+50	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 compared	<y_x_comparison>
 to	<x_axis_range_end>
 the
 year
-2012.\
-"
-"
-
-
+2012	<x_axis_label_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -332,15 +319,12 @@ with
 and	<x_axis_range_end>
 12	<y_axis_least_value_val>
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -396,15 +380,12 @@ was
 between	<x_axis_range_start>
 2013	<x_axis_label_Scnd_highest_value>
 and	<x_axis_range_end>
-2014.\
-"
-"
-
-
+2014	<x_axis_label_3rd_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -448,7 +429,7 @@ In
 2015	<x_axis_label_4th_highest_value>
 there
 was
-just
+just	<y_axis_least_value>
 a
 slight
 drop
@@ -463,20 +444,17 @@ in
 it
 shows
 the
-lowest
+lowest	<y_axis_least_value>
 number
 of
 injuries
 at
-12.\
-"
-"
-
-
+12	<y_axis_least_value_val>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 shows
 the
 number
@@ -507,15 +485,12 @@ to	<x_axis_range_end>
 about	<y_axis_approx>
 13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 number
 of
 fatal
@@ -549,15 +524,12 @@ injuries
 occurring
 in
 that
-year.\
-"
-"
-
-
+year
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -580,7 +552,7 @@ fatalities
 This
 decreased
 by
-16.6
+16.6	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 by
 2013	<x_axis_label_Scnd_highest_value>
@@ -592,7 +564,7 @@ a
 massive
 drop
 of
-36
+36	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 2014	<x_axis_label_3rd_highest_value>
@@ -613,7 +585,7 @@ there
 was
 a
 further
-20
+20	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 drop
 .
@@ -641,17 +613,14 @@ to	<x_axis_range_end>
 there
 was
 a
-60
+60	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-decrease.\
-"
-"
-
-
+decrease
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -670,7 +639,7 @@ number
 of
 fatalities
 in
-1012
+1012	<y_axis_inferred_highest_value_approx>
 was
 30	<y_axis_highest_value_val>
 .
@@ -681,15 +650,12 @@ significantly	<y_axis_trend>
 to	<x_axis_range_end>
 13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 number
 of
 fatal
@@ -736,15 +702,12 @@ In
 ,
 2015	<x_axis_label_4th_highest_value>
 was
-15.\
-"
-"
-
-
+15	<y_axis_4th_highest_val>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 measures
 the
@@ -786,15 +749,12 @@ people
 being
 injured
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 the
@@ -813,7 +773,7 @@ decreases
 from	<x_axis_range_start>
 30	<y_axis_highest_value_val>
 in
-2020
+2020	<x_axis_label_least_value>
 to	<x_axis_range_end>
 13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 in
@@ -826,15 +786,12 @@ decrease
 of
 5	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 per
-year.\
-"
-"
-
-
+year
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 bar
 chart
 shows
@@ -876,7 +833,7 @@ in
 2014	<x_axis_label_3rd_highest_value>
 it
 hit
-just
+just	<y_axis_least_value>
 above	<y_axis_trend_up>
 15	<y_axis_4th_highest_val>
 fataliies
@@ -893,15 +850,12 @@ in
 it
 hit
 13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
-fatalities.\
-"
-"
-
-
+fatalities
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -936,20 +890,17 @@ in
 2015	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
 the
-lowest
+lowest	<y_axis_least_value>
 figure
 was
 13	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Here
+Here
 is
 a
 chart
@@ -1004,20 +955,17 @@ it
 's
 at
 its
-lowest
+lowest	<y_axis_least_value>
 with
 approximately	<y_axis_approx>
 12	<y_axis_least_value_val>
 fatal
-injuries.\
-"
-"
-
-
+injuries
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 the
@@ -1055,15 +1003,12 @@ in
 to	<x_axis_range_end>
 12	<y_axis_least_value_val>
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -1119,7 +1064,7 @@ year
 with
  
 the
-lowest
+lowest	<y_axis_least_value>
 number
 of
 fatal
@@ -1131,15 +1076,12 @@ steel
 factory
 is
 from	<x_axis_range_start>
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"this
+this
 chart
 shows
 the
@@ -1179,15 +1121,12 @@ too
 fatal
 injuries
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Number
+Number
 of
 fatal
 injuries
@@ -1216,15 +1155,11 @@ in
 ,
 12	<y_axis_least_value_val>
 in
-2016\
-"
-"
-
-
+2016	<x_axis_label_least_value>
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 number
 o
 fatal
@@ -1270,15 +1205,12 @@ fatal
 injuries
 recorded
 in
-2016.\
-"
-"
-
-
+2016	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 bar
 chart
 shows
@@ -1349,9 +1281,7 @@ there
 were
 approximately	<y_axis_approx>
 12	<y_axis_least_value_val>
-injuries.\
-"
-"
-
-
+injuries
+.
 <end_of_description>
+

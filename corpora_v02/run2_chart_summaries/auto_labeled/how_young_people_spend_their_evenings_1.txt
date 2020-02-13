@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 how
@@ -27,12 +26,12 @@ reading
 a
 book
 -	<x_axis_range_end>
-37
+37	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 them
 .
-Around
+Around	<<y_axis_approx>>
 32	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
@@ -42,29 +41,26 @@ time
 with
 family
 .
-17
+17	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 them
 go
 out
 and	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 spend
 their
 evenings
 watching
-TV.\
-"
-"
-
-
+TV
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Bar
+Bar
 chart
 showing
 how
@@ -98,15 +94,12 @@ prefer
 to	<x_axis_range_end>
 read
 a
-book.\
-"
-"
-
-
+book
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 depicts
 a
@@ -171,25 +164,22 @@ and	<x_axis_range_end>
 watching
 TV
 was
-least	<y_axis_trend>
+least	<y_axis_least_value>
 popular
 -	<x_axis_range_end>
 done
 by
-only
+only	<y_axis_least_value>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
 the
-group.\
-"
-"
-
-
+group
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 details
 how
@@ -253,16 +243,13 @@ at
 %	<y_axis_inferred_label>
 was
 the
-least	<y_axis_trend>
-popular.\
-"
-"
-
-
+least	<y_axis_least_value>
+popular
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 how
@@ -322,15 +309,12 @@ spend
 their
 evenings
 going
-out.\
-"
-"
-
-
+out
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 depicts
 \\\"how
@@ -362,7 +346,7 @@ in
 the
 evenings
 ;
-33
+33	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 spent
 time
@@ -378,15 +362,12 @@ and	<x_axis_range_end>
 18	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 go
-out.\
-"
-"
-
-
+out
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"More
+More	<y_axis_trend_up>
 people
 in
 Zarqa
@@ -400,7 +381,7 @@ than
 going
 out
 .
-37
+37	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 on
 young
@@ -410,7 +391,7 @@ a
 book
 compared	<y_x_comparison>
 with
-17
+17	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 who
 go
@@ -418,12 +399,12 @@ out.\\n\\nWatching
 TV
 is
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 popular
 option
 ,
 with
-only
+only	<y_axis_least_value>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
@@ -435,15 +416,12 @@ spending
 their
 evenings
 watching
-TV.\
-"
-"
-
-
+TV
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 how
@@ -459,7 +437,7 @@ the
 evenings
 .
 With
-50
+50	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 choosing
 to	<x_axis_range_end>
@@ -467,7 +445,7 @@ socialise
 and	<x_axis_range_end>
 the
 other
-50
+50	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 choosing
 solo
@@ -529,15 +507,12 @@ remaining
 prefer
 to	<x_axis_range_end>
 watch
-TV.\
-"
-"
-
-
+TV
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"37
+37	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 young
@@ -564,15 +539,12 @@ and	<x_axis_range_end>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 watching
-TV.\
-"
-"
-
-
+TV
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 demonstrates
 how
@@ -589,7 +561,7 @@ activity
 .
  
 The
-least	<y_axis_trend>
+least	<y_axis_least_value>
 popular
 activity
 is
@@ -617,15 +589,12 @@ at
 and	<x_axis_range_end>
 32	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-respectively.\
-"
-"
-
-
+respectively
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Percentage
+Percentage
 of
 people
 in
@@ -684,17 +653,14 @@ sure
 what
 the
 other
-10
+10	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-do.\
-"
-"
-
-
+do
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -737,7 +703,7 @@ read
 a
 book
 and	<x_axis_range_end>
-only
+only	<y_axis_least_value>
 18	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 go
@@ -760,22 +726,19 @@ book
 ,
 and	<x_axis_range_end>
 the
-lowest
+lowest	<y_axis_least_value>
 percentage
 of
 students
 spend
 it
 watching
-tv.\
-"
-"
-
-
+tv
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Young
+Young
 people
 in
 Zarqa
@@ -791,7 +754,7 @@ over	<y_axis_approx>
 %	<y_axis_inferred_label>
 compared	<y_x_comparison>
 to	<x_axis_range_end>
-11
+11	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 watching
 TV
@@ -800,7 +763,7 @@ going
 out
 -	<x_axis_range_end>
 at
-16
+16	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 \\nSpending
@@ -814,15 +777,13 @@ reading
 a
 book
 at
-31%.\
-"
-"
-
-
+31	<y_axis_inferred_Scnd_highest_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -846,7 +807,7 @@ we
 see
 that
 the
-smallest
+smallest	<y_axis_least_value>
 percentage
 of
 people
@@ -856,7 +817,7 @@ time
 Watching
 TV
 at
-around
+around	<<y_axis_approx>>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 .
@@ -893,16 +854,14 @@ Reading
 at
 Book
 at
-around
-38%.\
-"
-"
-
-
+around	<<y_axis_approx>>
+38	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 highest
 number
 of
@@ -936,22 +895,19 @@ going
 out
 ,
 with
-only
+only	<y_axis_least_value>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 spend
 their
 time
 watching
-TV.\
-"
-"
-
-
+TV
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 how
@@ -979,7 +935,7 @@ with
 their
 family
 and	<x_axis_range_end>
-35
+35	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 participants
@@ -988,21 +944,18 @@ a
 book
 .
 About	<y_axis_approx>
-17
+17	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 people
 surveyed
 went
-out.\
-"
-"
-
-
+out
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 how
@@ -1038,15 +991,12 @@ go
 out
 in
 the
-evening.\
-"
-"
-
-
+evening
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 how
@@ -1059,7 +1009,7 @@ their
 earnings
 .
 Over	<y_axis_approx>
-4
+4	<y_axis_inferred_least_value_approx>
 activities
 ,
 the
@@ -1095,16 +1045,13 @@ lastly
 watching
 TV
 at
-only
-12%\
-"
-"
-
-
+only	<y_axis_least_value>
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
 <end_of_description>
+
 <start_of_description>
-"
-\"Graph
+Graph
 above	<y_axis_trend_up>
 shows
 how
@@ -1117,7 +1064,7 @@ in
 Zarqa
 .
 The
-lowest
+lowest	<y_axis_least_value>
 percentage
 recorded
 was
@@ -1157,22 +1104,20 @@ at
 .
 The
 second	<order_Scnd>
-lowest
+lowest	<y_axis_least_value>
 percentage
 was
 for
 going
 out
 at
-18%.\
-"
-"
-
-
+18	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"In
+In
 this
 chart
 we
@@ -1197,9 +1142,9 @@ is
 an
 activity
 that
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-10
+10	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
 young
@@ -1211,7 +1156,7 @@ doing
 That
 is
 the
-lowest
+lowest	<y_axis_least_value>
 of
 the
 four
@@ -1234,19 +1179,16 @@ their
 family
 ,
 while	<y_x_comparison_rest>
-only
-17
+only	<y_axis_least_value>
+17	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 go
-out.\
-"
-"
-
-
+out
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 majority
 of
 young
@@ -1265,7 +1207,7 @@ at
 %	<y_axis_inferred_label>
 .
 The
-least	<y_axis_trend>
+least	<y_axis_least_value>
 popular
 way
 to	<x_axis_range_end>
@@ -1278,15 +1220,13 @@ watching
 TV
 ,
 at
-12%.\
-"
-"
-
-
+12	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 young
 people
 of
@@ -1356,15 +1296,12 @@ and	<x_axis_range_end>
 choose
 to	<x_axis_range_end>
 watch
-television.\
-"
-"
-
-
+television
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 that
@@ -1401,7 +1338,7 @@ like
 watching
 TV
 with
-only
+only	<y_axis_least_value>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 stating
@@ -1413,9 +1350,7 @@ way
 to	<x_axis_range_end>
 pass
 the
-time.\
-"
-"
-
-
+time
+.
 <end_of_description>
+

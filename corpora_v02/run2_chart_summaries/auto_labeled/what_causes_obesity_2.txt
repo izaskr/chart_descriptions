@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 what
@@ -46,15 +45,13 @@ then	<order_3rd>
 fast
 food
 at
-24%.\
-"
-"
-
-
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Bar
+Bar
 chart
 showing
 the
@@ -68,7 +65,7 @@ Kiribati
 food
 is
 the
-lowest
+lowest	<y_axis_least_value>
 cause
 at
 24	<y_axis_least_value_val>
@@ -79,7 +76,7 @@ lack
 of
 exercise
 at
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 with
@@ -89,15 +86,13 @@ the
 main
 factor
 at
-40%.\
-"
-"
-
-
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 three
@@ -132,7 +127,7 @@ of
 exercise
 second	<order_Scnd>
 at
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 Fast food	<x_axis_label_least_value>
@@ -143,15 +138,12 @@ causing
 24	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-cases.\
-"
-"
-
-
+cases
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 details
 the
@@ -186,7 +178,7 @@ genetic	<x_axis_label_highest_value>
 cause
 ,
 with
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 citing
 lack
@@ -196,16 +188,11 @@ and	<x_axis_range_end>
 24	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 citing
-fast
-food\
-"
-"
-
-
+fast food	<x_axis_label_least_value>
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -225,9 +212,9 @@ contribution
 Fast food	<x_axis_label_least_value>
 account
 for
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
-25
+25	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
 obesity
@@ -240,7 +227,7 @@ exercise
 which
 accounts
 for
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 obesity
@@ -260,21 +247,18 @@ of
 the
 cause
 of
-obesity.\
-"
-"
-
-
+obesity
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 depicts
 the
 percentage
 of
-3
+3	<y_axis_inferred_least_value_approx>
 options
 for
 causing
@@ -299,21 +283,18 @@ of
 genetics	<x_axis_label_highest_value>
 ,
 and	<x_axis_range_end>
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 because
 of
 lack
 of
-exercise.\
-"
-"
-
-
+exercise
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Genetic
+Genetic	<x_axis_label_highest_value>
 is
 the
 biggest
@@ -331,28 +312,26 @@ lack
 of
 exercise
 at
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 fast food	<x_axis_label_least_value>
 is
 the
-lowest
+lowest	<y_axis_least_value>
 casue
 of
 obesity
 in
 Kirbati
 at
-24%.\
-"
-"
-
-
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -375,22 +354,19 @@ caused
 by
 fast food	<x_axis_label_least_value>
 and	<x_axis_range_end>
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 due
 to	<x_axis_range_end>
 a
 lack
 of
-exercise.\
-"
-"
-
-
+exercise
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 biggest
 cause
 of
@@ -410,20 +386,17 @@ Lack
 of
 exercise
 is
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
-fast
-food
-25%.\
-"
-"
-
-
+fast food	<x_axis_label_least_value>
+25	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Causes
+Causes
 of
 obesity
 in
@@ -462,7 +435,7 @@ to	<x_axis_range_end>
 cause
 obesity
 in
-60
+60	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 cases
@@ -477,20 +450,18 @@ lack
 of
 exercise
 at
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 fast food	<x_axis_label_least_value>
 at
-25%.\
-"
-"
-
-
+25	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Cause
+Cause
 of
 obesity
 in
@@ -518,15 +489,13 @@ finally
 fast
 food
 at
-24%.\
-"
-"
-
-
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -554,7 +523,7 @@ fast food	<x_axis_label_least_value>
 %	<y_axis_inferred_label>
 genetic	<x_axis_label_highest_value>
 and	<x_axis_range_end>
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 lack
 of
@@ -576,15 +545,12 @@ really
 have
 a
 greater	<slope_up>
-effect.\
-"
-"
-
-
+effect
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Obesity
+Obesity
 causes
 genetic	<x_axis_label_highest_value>
 is
@@ -595,7 +561,7 @@ at
 over	<y_axis_approx>
 40	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-only
+only	<y_axis_least_value>
 slightly
 behind	<y_axis_trend_down>
 lack
@@ -625,12 +591,12 @@ role
 food
 is
 at
-only
-25
+only	<y_axis_least_value>
+25	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 but
-only
-10
+only	<y_axis_least_value>
+10	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 less	<y_axis_approx>
 than
@@ -655,15 +621,12 @@ determining
 a
 cause
 of
-obesity.\
-"
-"
-
-
+obesity
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -697,7 +660,7 @@ from	<x_axis_range_start>
 Fast Food	<x_axis_label_least_value>
 ,
 whereas
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 the
@@ -720,15 +683,13 @@ came
 from	<x_axis_range_start>
 Genetic	<x_axis_label_highest_value>
 with
-40%.\
-"
-"
-
-
+40	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"40
+40	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
 causes
@@ -760,16 +721,12 @@ was
 caused
 by
 eating
-fast
-food.\
-"
-"
-
-
+fast food	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 looked
 at
@@ -779,13 +736,13 @@ Obesity
 in
 Kiribati
 .
-25
+25	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 was
 atributed
 to	<x_axis_range_end>
 fast food	<x_axis_label_least_value>
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 at
 lack
@@ -807,16 +764,12 @@ twice
 as
 attributable
 to	<x_axis_range_end>
-fast
-food.\
-"
-"
-
-
+fast food	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"his
+his
 graph
 shows
 the
@@ -844,26 +797,24 @@ lack
 of
 exercise
 at
-around
-35
+around	<<y_axis_approx>>
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 fast food	<x_axis_label_least_value>
 the
-lowest
+lowest	<y_axis_least_value>
 ,
 at
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
-25%.\
-"
-"
-
-
+25	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 what
@@ -894,15 +845,12 @@ at
 and	<x_axis_range_end>
 fast food	<x_axis_label_least_value>
 as
-25%\
-"
-"
-
-
+25	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
 <end_of_description>
+
 <start_of_description>
-"
-\"Graph
+Graph
 above	<y_axis_trend_up>
 shows
 what
@@ -926,27 +874,24 @@ exercise
 came
 in
 at
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 the
-lowest
+lowest	<y_axis_least_value>
 cause
 out
 of
-3
+3	<y_axis_inferred_least_value_approx>
 was
 fast food	<x_axis_label_least_value>
 at
-24%\
-"
-"
-
-
+24	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -976,7 +921,7 @@ of
 exercise
 accounts
 for
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 obesity
@@ -987,19 +932,16 @@ the
 cause
 in
 nearly
-25
+25	<y_axis_inferred_least_value_approx>
 per
 cent
 of
-cases.\
-"
-"
-
-
+cases
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"There
+There
 are
 three
 factors
@@ -1031,15 +973,13 @@ and	<x_axis_range_end>
 lack
 of
 exercise
-36%.\
-"
-"
-
-
+36	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 causes
 of
 obesity
@@ -1068,7 +1008,7 @@ at
 Fast food	<x_axis_label_least_value>
 was
 the
-lowest
+lowest	<y_axis_least_value>
 charted
 percentage
 at
@@ -1079,21 +1019,18 @@ lack
 of
 excel
 use
-only
+only	<y_axis_least_value>
 contributing
-35
+35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 towards
 the
-outcome.\
-"
-"
-
-
+outcome
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 indicates
 three
@@ -1132,8 +1069,8 @@ the
 main
 reason
 .
-Only
-25
+Only	<y_axis_least_value>
+25	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
 people
@@ -1142,9 +1079,7 @@ fast food	<x_axis_label_least_value>
 contributed
 to	<x_axis_range_end>
 the
-problem.\
-"
-"
-
-
+problem
+.
 <end_of_description>
+

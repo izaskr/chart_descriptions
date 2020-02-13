@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 the
@@ -20,26 +19,26 @@ daily
 .
 On
 average
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 years
 olds
 were
 spending
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 a
 day
 ,
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 year
 olds
 were
 spending
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis>
 per
 day
@@ -48,56 +47,53 @@ This
 decreased
 again
 for
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 year
 old
 to	<x_axis_range_end>
-120
+120	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis>
 per
 day
 .
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 year
 old
 were
 spending
 slightly
 under	<y_axis_approx>
-100
+100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis>
 per
 days
 whilst	<y_x_comparison_rest>
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 year
 olds
 were
 spending
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 amount
 of
 time
 at
-70
+70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 per
-day.\
-"
-"
-
-
+day
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -118,25 +114,25 @@ time
 is
 spent
 by
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
 olds
 ,
 at
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 .
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 year
 olds
 are
 lower	<y_axis_trend_down>
 at
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis>
 .
 The
@@ -144,21 +140,21 @@ time
 decreases
 again
 for
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 year
 olds
 at
-125
+125	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis>
 and	<x_axis_range_end>
 is
 lower	<y_axis_trend_down>
 for
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 year
 olds
 ,
@@ -166,37 +162,34 @@ who
 spend
 on
 average
-around
-98
+around	<<y_axis_approx>>
+98	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis>
 on
 social
 media
 .
 The
-lowest
+lowest	<y_axis_least_value>
 time
 is
 spent
 by
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 year
 olds
 ,
 at
-around
-75
-minutes.\
-"
-"
-
-
+around	<<y_axis_approx>>
+75	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -217,7 +210,7 @@ group
 It
 shows
 the
-18
+18	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
@@ -240,15 +233,12 @@ for
 each
 acending
 age
-group.\
-"
-"
-
-
+group
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 the
@@ -268,7 +258,7 @@ age
 groups
 ranging
 from	<x_axis_range_start>
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 64.\\n\\nAs
 you
@@ -283,59 +273,56 @@ highest
 age
 group
 is
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 years
 and	<x_axis_range_end>
 the
-lowest
+lowest	<y_axis_least_value>
 is
 age
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 years.\\n\\nOver
 the
 years
 from	<x_axis_range_start>
-15
+15	<y_axis_inferred_least_value_approx>
 to	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 ,
 it
 declines
 gradually	<y_axis_trend>
 from	<x_axis_range_start>
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 a
 day
 at
 ages
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 to	<x_axis_range_end>
-80
+80	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 a
 day
 for
 those
 aged
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
-years.\
-"
-"
-
-
+64	<y_axis_inferred_least_value_approx>
+years
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 charts
 shows
 the
@@ -373,14 +360,14 @@ older
 age
 groups.\\nAge
 group
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spent
 an
 average
 of
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 daily
 on
@@ -393,38 +380,38 @@ group
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 －34
 spent
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis>
 daily
 .
  
 Age
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 spent
-120
+120	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis>
 daily
 .
  
 Age
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
-98
+54	<y_axis_inferred_least_value_approx>
+98	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis>
 and	<x_axis_range_end>
 the
-last
+last	<y_axis_least_value>
 group
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 spent
-only
-just
-70
+only	<y_axis_least_value>
+just	<y_axis_least_value>
+70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 daily
 on
@@ -452,15 +439,12 @@ than
 the
 oldest
 age
-group.\
-"
-"
-
-
+group
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 the
@@ -477,13 +461,13 @@ in
 Maputo
 .
 Five
-10
+10	<y_axis_inferred_least_value_approx>
 year
 spans
 from	<x_axis_range_start>
-15
+15	<y_axis_inferred_least_value_approx>
 to	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 are
 given
 .
@@ -495,13 +479,13 @@ with
 increasing	<slope_up>
 age
 .
-15
+15	<y_axis_inferred_least_value_approx>
 to	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
 olds
 spend
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 ,
 this
@@ -509,13 +493,13 @@ more	<y_axis_trend_up>
 than
 halves
 to	<x_axis_range_end>
-70
+70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 for
 the
-55
+55	<y_axis_inferred_least_value_approx>
 to	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 year
 olds
 .
@@ -532,15 +516,12 @@ per
 day
 or
 per
-week.\
-"
-"
-
-
+week
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -559,7 +540,7 @@ group
 \\nThe
 age
 group
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 shows
@@ -578,7 +559,7 @@ group
 of
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 shows
 a
 slightly
@@ -586,15 +567,15 @@ lesser	<x_axis_trend_down>
 amount
 of
 approximately	<y_axis_approx>
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 mins
 .
 People
 in
 the
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 age
 group
 spend
@@ -605,9 +586,9 @@ Those
 that
 are
 between	<x_axis_range_start>
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 years
 old
 spend
@@ -616,9 +597,9 @@ less	<y_axis_approx>
 time
 which
 is
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
-100
+100	<y_axis_inferred_4th_highest_value_approx>
 mins
 .
 However
@@ -626,12 +607,12 @@ the
 age
 group
 of
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 show
 the
-lowest
+lowest	<y_axis_least_value>
 amount
 of
 time
@@ -641,18 +622,15 @@ the
 average
 of
 about	<y_axis_approx>
-70
+70	<y_axis_inferred_least_value_approx>
 mins
 a
-day.\
-"
-"
-
-
+day
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 how
@@ -670,7 +648,7 @@ day
 in
 Maputo
 .
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
@@ -680,51 +658,48 @@ the
 most
 time
 at
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 ,
 followed	<order_Scnd>
 by
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 at
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis>
 ,
 then	<order_3rd>
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 at
-120
+120	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis>
 ,
 then	<order_3rd>
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 at
 almost	<y_axis_approx>
-100
+100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis>
 and	<x_axis_range_end>
 lastly
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 at
-around
-70
-minutes.\
-"
-"
-
-
+around	<<y_axis_approx>>
+70	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 average
 time
 spent
@@ -743,7 +718,7 @@ age
 Those
 in
 the
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 age
@@ -758,26 +733,23 @@ media
 ,
 clocking
 over	<y_axis_approx>
-100
+100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis>
 more	<y_axis_trend_up>
 than
 those
 in
 the
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 age
-bracket.\
-"
-"
-
-
+bracket
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -793,7 +765,7 @@ age
 group
 .
 The
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 age
@@ -807,7 +779,7 @@ with
 an
 average
 of
-3
+3	<y_axis_inferred_least_value_approx>
 hours
 spent
 on
@@ -819,9 +791,9 @@ oldest
 age
 group
 ,
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 ,
 spends
 the
@@ -830,18 +802,15 @@ amount
 of
 time
 at
-1.5
+1.5	<y_axis_inferred_least_value_approx>
 hours
 per
-day.\
-"
-"
-
-
+day
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -858,12 +827,12 @@ groups
 in
 Maputo
 .
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24yeqrs
 old
 spent
-around
+around	<<y_axis_approx>>
 180minites
 on
 social
@@ -873,24 +842,21 @@ to	<x_axis_range_end>
 those
 who
 are
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 64years
 who
-only
+only	<y_axis_least_value>
 spent
 75minutes
 on
 social
-media.\
-"
-"
-
-
+media
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graphic
 shows
 the
@@ -915,7 +881,7 @@ that
 the
 group
 between	<x_axis_range_start>
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spent
@@ -924,7 +890,7 @@ of
 the
 time
 with
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 a
 day
@@ -936,15 +902,15 @@ that
 the
 group
 between	<x_axis_range_start>
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 spent
 the
 less	<y_axis_approx>
 time
 with
-70
+70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 a
 day
@@ -978,7 +944,7 @@ decline
 after
 the
 group
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 ,
@@ -987,13 +953,13 @@ following
 group
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 spend
 about	<y_axis_approx>
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis>
 ,
-20
+20	<y_axis_inferred_least_value_approx>
 less	<y_axis_approx>
 that
 the
@@ -1002,12 +968,12 @@ group
 ,
 the
 group
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 spend
-around
-40
+around	<<y_axis_approx>>
+40	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 less	<y_axis_approx>
 that
@@ -1017,26 +983,23 @@ group
 and	<x_axis_range_end>
 the
 group
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 spend
-around
-30
+around	<<y_axis_approx>>
+30	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 less	<y_axis_approx>
 that
 it
 previous
-one.\
-"
-"
-
-
+one
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"As
+As
 you
 can
 see
@@ -1083,7 +1046,7 @@ daily
  
 for
 example
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24yrs
 spend
@@ -1094,22 +1057,19 @@ media
 daily
 where
 as
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 64yrs
 spend
-only
+only	<y_axis_least_value>
 70mins
 a
-day.\
-"
-"
-
-
+day
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 the
@@ -1129,7 +1089,7 @@ group
 The
 highest
 being
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
@@ -1137,8 +1097,8 @@ olds
 ,
 who
 spent
-around
-175
+around	<<y_axis_approx>>
+175	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 a
 day
@@ -1149,37 +1109,34 @@ followed	<order_Scnd>
 by
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 at
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 ;
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 at
-125
+125	<y_axis_inferred_3rd_highest_value_approx>
 ;
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 at
-90
+90	<y_axis_inferred_4th_highest_value_approx>
 ;
 and	<x_axis_range_end>
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 at
-75
-minutes.\
-"
-"
-
-
+75	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 bar
 chart
 shows
@@ -1210,53 +1167,50 @@ representation
 gets
 .
 Ages
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spend
 on
 average
-170
+170	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 a
 day
 ,
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
-160
+34	<y_axis_inferred_least_value_approx>
+160	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis>
 ,
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
--130
+44	<y_axis_inferred_least_value_approx>
+-130	<y_axis_inferred_least_value_approx>
 mins
 ,
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
-just
+54	<y_axis_inferred_least_value_approx>
+just	<y_axis_least_value>
 under	<y_axis_approx>
-100
+100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis>
 and	<x_axis_range_end>
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
-Just
+64	<y_axis_inferred_least_value_approx>
+Just	<y_axis_least_value>
 below
-70
+70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
-daily.\
-"
-"
-
-
+daily
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -1278,13 +1232,13 @@ daily
 usage
 rate
 was
-175
+175	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 and	<x_axis_range_end>
 came
 from	<x_axis_range_start>
 the
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 age
@@ -1294,57 +1248,54 @@ This
 was
 followed	<order_Scnd>
 by
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 by
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 year
 olds
 .
 The
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 age
 group
 spent
-125
+125	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis>
 a
 day
 ,
 the
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 year
 olds
 spent
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
-100
+100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis>
 a
 day
 and	<x_axis_range_end>
 the
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 year
 olds
 spent
-75
-minutes.\
-"
-"
-
-
+75	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Here
+Here
 is
 a
 chart
@@ -1375,7 +1326,7 @@ the
 age
 group
 of
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
@@ -1392,27 +1343,24 @@ in
 minutes	<y_axis>
 .
 The
-lowest
+lowest	<y_axis_least_value>
 is
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 year
 olds
 with
 approximately	<y_axis_approx>
-70
+70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 per
-day.\
-"
-"
-
-
+day
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 expresses
 the
@@ -1442,7 +1390,7 @@ younger
 age
 group
 (
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
@@ -1468,21 +1416,21 @@ an
 even
 decline
 from	<x_axis_range_start>
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 per
 day
 at
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 to	<x_axis_range_end>
-70
+70	<y_axis_inferred_least_value_approx>
 minute
 per
 day
 at
-55
+55	<y_axis_inferred_least_value_approx>
 -64\\n\\nWomen
 appear
 to	<x_axis_range_end>
@@ -1492,15 +1440,12 @@ represented
 in
 the
 Law
-industry.\
-"
-"
-
-
+industry
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -1543,7 +1488,7 @@ the
 age
 group
 of
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 years
@@ -1579,7 +1524,7 @@ age
 ,
 with
 the
-lowest
+lowest	<y_axis_least_value>
 amount
 of
 time
@@ -1591,19 +1536,15 @@ media
 in
 Maputo
 being
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 years
-old\
-"
-"
-
-
+old
 <end_of_description>
+
 <start_of_description>
-"
-\"this
+this
 chart
 demonstrates
 the
@@ -1628,7 +1569,7 @@ younger
 age
 group
 of
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 years
@@ -1642,7 +1583,7 @@ social
 media
 ,
 averaging
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 a
 days
@@ -1657,26 +1598,22 @@ time
 spent
 decreases
 ,
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
-only
+64	<y_axis_inferred_least_value_approx>
+only	<y_axis_least_value>
 spending
-70
+70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 per
 day
 on
 social
-media\
-"
-"
-
-
+media
 <end_of_description>
+
 <start_of_description>
-"
-\"Ave
+Ave
 mins
 spent
 on
@@ -1690,48 +1627,44 @@ by
 age
 .
  
-180
+180	<y_axis_inferred_highest_value_approx>
 m
 for
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 ,
-160
+160	<y_axis_inferred_Scnd_highest_value_approx>
 m
 for
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 ,
-120
+120	<y_axis_inferred_3rd_highest_value_approx>
 m
 for
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 ,
-95
+95	<y_axis_inferred_4th_highest_value_approx>
 m
 for
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 ,
-70
+70	<y_axis_inferred_least_value_approx>
 m
 for
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64\
-"
-"
-
-
+64	<y_axis_inferred_least_value_approx>
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 that
@@ -1754,17 +1687,17 @@ It
 shows
 that
 people
-around
+around	<<y_axis_approx>>
 the
 age
 of
-15
+15	<y_axis_inferred_least_value_approx>
 to	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spent
 roughly
-around
-180
+around	<<y_axis_approx>>
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 on
 social
@@ -1780,22 +1713,18 @@ they
 get
 being
 at
-only
-80
+only	<y_axis_least_value>
+80	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 at
 age
-55
+55	<y_axis_inferred_least_value_approx>
 to	<x_axis_range_end>
-64\
-"
-"
-
-
+64	<y_axis_inferred_least_value_approx>
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 bar
 chart
 shows
@@ -1813,14 +1742,14 @@ age
 group
 .
 Ages
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spent
 an
 average
 of
-180
+180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 on
 social
@@ -1829,58 +1758,56 @@ media
 Ages
 25	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34
+34	<y_axis_inferred_least_value_approx>
 spent
 an
 average
 of
-155
+155	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis>
 a
 day
 .
 Ages
-35
+35	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-44
+44	<y_axis_inferred_least_value_approx>
 spent
 an
 average
 of
 approximately	<y_axis_approx>
-120
+120	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis>
 daily
 .
 Ages
-45
+45	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-54
+54	<y_axis_inferred_least_value_approx>
 spent
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
-100
+100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis>
 daily
 whilst	<y_x_comparison_rest>
 ages
-55
+55	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-64
+64	<y_axis_inferred_least_value_approx>
 spent
 an
 average
 of
 approximately	<y_axis_approx>
-70
+70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis>
 a
 day
 on
 social
-media.\
-"
-"
-
-
+media
+.
 <end_of_description>
+

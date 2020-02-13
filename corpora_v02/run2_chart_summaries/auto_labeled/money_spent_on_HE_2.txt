@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 the
@@ -12,7 +11,7 @@ Education
 in
 the
 Year
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 on
 different
 continents
@@ -26,7 +25,8 @@ in
 Africa	<x_axis_label_highest_value>
 where
 £	<y_axis_inferred_label>
-290,000,000
+290	<y_axis_inferred_highest_value_approx>
+,000,000	<y_magnitude>
 was
 spent
 .
@@ -40,7 +40,8 @@ little
 lower	<y_axis_trend_down>
 at
 £	<y_axis_inferred_label>
-270,000,000
+270	<y_axis_inferred_Scnd_highest_value_approx>
+,000,000	<y_magnitude>
 .
 The
 amount
@@ -51,15 +52,16 @@ on
 Higher	<y_axis_trend_up>
 Education
 in
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 in
 Asia	<x_axis_label_3rd_highest_value>
 was
 £	<y_axis_inferred_label>
-175,000,000
+175	<y_axis_3rd_highest_val>
+,000,000	<y_magnitude>
 and	<x_axis_range_end>
 the
-lowest
+lowest	<y_axis_least_value>
 amount
 was
 spent
@@ -72,15 +74,13 @@ a
 little
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-150,000,000.\
-"
-"
-
-
+150	<y_axis_inferred_least_value_approx>
+,000,000	<y_magnitude>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -120,22 +120,19 @@ whilst	<y_x_comparison_rest>
 North America	<x_axis_label_least_value>
 was
 the
-lowest
+lowest	<y_axis_least_value>
 spender
 ,
 at
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-147
-million.\
-"
-"
-
-
+147	<y_axis_inferred_least_value_approx>
+million
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 highlights
 the
@@ -151,7 +148,7 @@ education
 in
 the
 year
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 ,
 in
 millions
@@ -168,29 +165,26 @@ continent
 that
 spent
 the
-lowest
+lowest	<y_axis_least_value>
 was
 North America	<x_axis_label_least_value>
 ,
 with
 almost	<y_axis_approx>
 £	<y_axis_inferred_label>
-150
+150	<y_axis_inferred_least_value_approx>
 m
 .
 Africa	<x_axis_label_highest_value>
 spent
 almost	<y_axis_approx>
 double
-this.\
-"
-"
-
-
+this
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 charts
 shows
 the
@@ -204,7 +198,7 @@ Education
 in
 the
 Year
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 in
 different
 continents
@@ -221,7 +215,7 @@ has
 had
 almost	<y_axis_approx>
 £	<y_axis_inferred_label>
-300
+300	<y_axis_inferred_highest_value_approx>
 million
 (
 £	<y_axis_inferred_label>
@@ -239,21 +233,21 @@ continent
  
 North America	<x_axis_label_least_value>
 is
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-150
+150	<y_axis_inferred_least_value_approx>
 million
 at
 the
-lowest
+lowest	<y_axis_least_value>
 spend
 on
 Higher	<y_axis_trend_up>
 Education
 with
 Asia	<x_axis_label_3rd_highest_value>
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
 at
 £	<y_axis_inferred_label>
@@ -269,16 +263,13 @@ with
 Europe	<x_axis_label_Scnd_highest_value>
 spending
 £	<y_axis_inferred_label>
-275
-million.\
-"
-"
-
-
+275	<y_axis_inferred_Scnd_highest_value_approx>
+million
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -306,7 +297,7 @@ pounds	<y_axis_inferred_label>
 .
  
 Asia	<x_axis_label_3rd_highest_value>
-170
+170	<y_axis_inferred_3rd_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 and	<x_axis_range_end>
@@ -317,15 +308,12 @@ most
 with
 290	<y_axis_highest_value_val>
 millon
-pounds.\
-"
-"
-
-
+pounds	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 money
@@ -340,7 +328,7 @@ of
 the
 world
 in
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 .
 Africa	<x_axis_label_highest_value>
 spent
@@ -353,9 +341,9 @@ pounds	<y_axis_inferred_label>
 ,
 North America	<x_axis_label_least_value>
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 at
-149
+149	<y_axis_inferred_least_value_approx>
 million
 pounds	<y_axis_inferred_label>
 .
@@ -366,17 +354,14 @@ million
 pounds	<y_axis_inferred_label>
 and	<x_axis_range_end>
 Asia	<x_axis_label_3rd_highest_value>
-170
+170	<y_axis_inferred_3rd_highest_value_approx>
 million
-pounds.\
-"
-"
-
-
+pounds	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 how
@@ -402,7 +387,7 @@ spent
 the
 most
 at
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
 290	<y_axis_highest_value_val>
 million
@@ -424,26 +409,23 @@ about	<y_axis_approx>
 £	<y_axis_inferred_label>
 170million
 in
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 .
 North America	<x_axis_label_least_value>
 spent
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 with
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-150
-million.\
-"
-"
-
-
+150	<y_axis_inferred_least_value_approx>
+million
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -455,7 +437,7 @@ on
 higher	<y_axis_trend_up>
 education
 in
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 .
 Africa	<x_axis_label_highest_value>
 spent
@@ -463,21 +445,21 @@ the
 most
 at
 almost	<y_axis_approx>
-300
+300	<y_axis_inferred_highest_value_approx>
 million
 ,
 followed	<order_Scnd>
 by
 Europe	<x_axis_label_Scnd_highest_value>
 at
-around
-275
+around	<<y_axis_approx>>
+275	<y_axis_inferred_Scnd_highest_value_approx>
 million
 ,
 then	<order_3rd>
 Asia	<x_axis_label_3rd_highest_value>
 at
-around
+around	<<y_axis_approx>>
 175	<y_axis_3rd_highest_val>
 million
 and	<x_axis_range_end>
@@ -486,17 +468,14 @@ north
 America
 at
 almost	<y_axis_approx>
-150
-million.\
-"
-"
-
-
+150	<y_axis_inferred_least_value_approx>
+million
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"In
-2010
+In
+2010	<y_axis_inferred_3rd_highest_value_approx>
 ,
 the
 continent
@@ -511,7 +490,7 @@ higher	<y_axis_trend_up>
 education
 ,
 spending
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
 290	<y_axis_highest_value_val>
 million
@@ -519,7 +498,7 @@ million
 North America	<x_axis_label_least_value>
 was
 the
-lowest
+lowest	<y_axis_least_value>
 of
 the
 four
@@ -527,22 +506,19 @@ continents
 named
 ,
 spending
-only
-around
+only	<y_axis_least_value>
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-147
+147	<y_axis_inferred_least_value_approx>
 m
 on
 higher	<y_axis_trend_up>
-education.\
-"
-"
-
-
+education
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -577,15 +553,15 @@ and	<x_axis_range_end>
 North America	<x_axis_label_least_value>
 spends
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 at
 £	<y_axis_inferred_label>
-145
+145	<y_axis_inferred_least_value_approx>
 million-
 a
 difference
 of
-50
+50	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 .
 Europe	<x_axis_label_Scnd_highest_value>
@@ -597,16 +573,13 @@ and	<x_axis_range_end>
 Asia	<x_axis_label_3rd_highest_value>
 spends
 £	<y_axis_inferred_label>
-170
-million.\
-"
-"
-
-
+170	<y_axis_inferred_3rd_highest_value_approx>
+million
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -620,7 +593,7 @@ education
 in
 various
 continents
-around
+around	<<y_axis_approx>>
 the
 world
 .
@@ -657,19 +630,15 @@ Asia	<x_axis_label_3rd_highest_value>
 they
 spent
 £	<y_axis_inferred_label>
-170
+170	<y_axis_inferred_3rd_highest_value_approx>
 million
 on
 higher	<y_axis_trend_up>
-education\
-"
-"
-
-
+education
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 money
 spent
 on
@@ -678,7 +647,7 @@ Education
 on
 the
 year
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 vary
 by
 continent
@@ -696,7 +665,7 @@ with
 an
 amount
 of
-around
+around	<<y_axis_approx>>
 290	<y_axis_highest_value_val>
 millions
 of
@@ -709,7 +678,7 @@ with
 an
 amount
 of
-around
+around	<<y_axis_approx>>
 270	<y_axis_Scnd_highest_val>
 millions
 of
@@ -721,7 +690,7 @@ Asia	<x_axis_label_3rd_highest_value>
 spent
 less	<y_axis_approx>
 than
-200
+200	<y_axis_inferred_3rd_highest_value_approx>
 millions
 ,
 Asia	<x_axis_label_3rd_highest_value>
@@ -732,8 +701,8 @@ of
 the
 two
 with
-around
-170
+around	<<y_axis_approx>>
+170	<y_axis_inferred_3rd_highest_value_approx>
 millions
 of
 Pounds
@@ -744,18 +713,15 @@ spent
 close	<y_axis_trend>
 to	<x_axis_range_end>
 the
-150
+150	<y_axis_inferred_least_value_approx>
 millions
 of
-pounds.\
-"
-"
-
-
+pounds	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 demonstrates
 the
@@ -772,9 +738,9 @@ on
 higher	<y_axis_trend_up>
 education
 in
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 in
-4
+4	<y_axis_inferred_least_value_approx>
 different
 continents
 .
@@ -796,15 +762,12 @@ North
 America
 was
 the
-lowest.\
-"
-"
-
-
+lowest	<y_axis_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 total
@@ -820,7 +783,7 @@ North America	<x_axis_label_least_value>
 spent
 approximately	<y_axis_approx>
 £	<y_axis_inferred_label>
-150
+150	<y_axis_inferred_least_value_approx>
 million
 ;
 Asia	<x_axis_label_3rd_highest_value>
@@ -828,7 +791,7 @@ comes
 in
 second	<order_Scnd>
 with
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
 175	<y_axis_3rd_highest_val>
 million
@@ -837,7 +800,7 @@ then	<order_3rd>
 Europe	<x_axis_label_Scnd_highest_value>
 with
 £	<y_axis_inferred_label>
-275
+275	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 and	<x_axis_range_end>
 finally
@@ -845,16 +808,13 @@ Africa	<x_axis_label_highest_value>
 with
 almost	<y_axis_approx>
 £	<y_axis_inferred_label>
-300
-million.\
-"
-"
-
-
+300	<y_axis_inferred_highest_value_approx>
+million
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Here
+Here
 we
 have
 a
@@ -869,7 +829,7 @@ education
 in
 the
 year
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 across
 various
 continents
@@ -890,9 +850,9 @@ year
 with
 Europe	<x_axis_label_Scnd_highest_value>
 spending
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-250
+250	<y_axis_inferred_Scnd_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 and	<x_axis_range_end>
@@ -900,7 +860,7 @@ Africa	<x_axis_label_highest_value>
 nearly
 hitting
 the
-300
+300	<y_axis_inferred_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 mark
@@ -910,7 +870,7 @@ and	<x_axis_range_end>
 Asia	<x_axis_label_3rd_highest_value>
 come
 in
-last
+last	<y_axis_least_value>
 according
 to	<x_axis_range_end>
 this
@@ -919,25 +879,22 @@ graph
 with
 North America	<x_axis_label_least_value>
 reaching
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
-150
+150	<y_axis_inferred_least_value_approx>
 million
 and	<x_axis_range_end>
 Asia	<x_axis_label_3rd_highest_value>
-just
+just	<y_axis_least_value>
 above	<y_axis_trend_up>
 the
 same
-amount.\
-"
-"
-
-
+amount
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -955,7 +912,7 @@ year
 North
 America
 £	<y_axis_inferred_label>
-149
+149	<y_axis_inferred_least_value_approx>
 million
 was
 spent
@@ -966,7 +923,7 @@ education
 This
 is
 the
-lowest
+lowest	<y_axis_least_value>
 figure
 .
 In
@@ -983,7 +940,7 @@ Asia	<x_axis_label_3rd_highest_value>
 it
 was
 £	<y_axis_inferred_label>
-180
+180	<y_axis_inferred_3rd_highest_value_approx>
 million
 and	<x_axis_range_end>
 Africa	<x_axis_label_highest_value>
@@ -993,22 +950,19 @@ highest
 with
 £	<y_axis_inferred_label>
 290	<y_axis_highest_value_val>
-million.\
-"
-"
-
-
+million
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Here
+Here
 is
 a
 graph
 from	<x_axis_range_start>
 the
 year
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 for
 different
 countries
@@ -1063,20 +1017,17 @@ America
 which
 spent
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 on
 higher	<y_axis_trend_up>
 Education
 in
-2010.\
-"
-"
-
-
+2010	<y_axis_inferred_3rd_highest_value_approx>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 expenditure
@@ -1103,27 +1054,24 @@ spending
 America
 spent
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 ,
 reporting
 spend
 of
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-150
+150	<y_axis_inferred_least_value_approx>
 M
 for
 the
-year.\
-"
-"
-
-
+year
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -1152,7 +1100,7 @@ that
 in
 the
 year
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 approximately	<y_axis_approx>
 290	<y_axis_highest_value_val>
 millions
@@ -1173,7 +1121,7 @@ the
 world
 .
 The
-lowest
+lowest	<y_axis_least_value>
 amount
 of
 money
@@ -1190,24 +1138,20 @@ north america	<x_axis_label_least_value>
 at
  
 approximately	<y_axis_approx>
-150
+150	<y_axis_inferred_least_value_approx>
 millions
 of
-pounds\
-"
-"
-
-
+pounds	<y_axis_inferred_label>
 <end_of_description>
+
 <start_of_description>
-"
-\"money
+money
 spent
 on
 higher	<y_axis_trend_up>
 education
 in
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 was
 at
 the
@@ -1232,16 +1176,13 @@ almost	<y_axis_approx>
 half
 ,
 at
-150
-million.\
-"
-"
-
-
+150	<y_axis_inferred_least_value_approx>
+million
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 money
@@ -1250,7 +1191,7 @@ on
 Higher	<y_axis_trend_up>
 education
 in
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 in
 millions
 of
@@ -1263,13 +1204,13 @@ America
 it
 was
 almost	<y_axis_approx>
-150
+150	<y_axis_inferred_least_value_approx>
 ,
 in
 europe	<x_axis_label_Scnd_highest_value>
 it
 was
-230
+230	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 in
 asia	<x_axis_label_3rd_highest_value>
@@ -1279,15 +1220,11 @@ was170
 in
 africa	<x_axis_label_highest_value>
 it
-was290\
-"
-"
-
-
+was290
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 us
@@ -1306,7 +1243,7 @@ in
 the
 year
 of
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 .
 The
 highest
@@ -1317,7 +1254,7 @@ Africa	<x_axis_label_highest_value>
 with
 nearly
 £	<y_axis_inferred_label>
-300
+300	<y_axis_inferred_highest_value_approx>
 m
 spent
 on
@@ -1337,27 +1274,24 @@ third	<order_3rd>
 was
 Asia	<x_axis_label_3rd_highest_value>
 and	<x_axis_range_end>
-last
+last	<y_axis_least_value>
 was
 North America	<x_axis_label_least_value>
 who
-only
+only	<y_axis_least_value>
 spent
 nearly
 £	<y_axis_inferred_label>
-150
+150	<y_axis_inferred_least_value_approx>
 m
 on
 higher	<y_axis_trend_up>
-education.\
-"
-"
-
-
+education
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 bar
 chart
 shows
@@ -1369,16 +1303,16 @@ education
 in
 the
 year
-2010
+2010	<y_axis_inferred_3rd_highest_value_approx>
 in
 various
 regions
 .
 In
 North America	<x_axis_label_least_value>
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
-150
+150	<y_axis_inferred_least_value_approx>
 million
 pounds	<y_axis_inferred_label>
 was
@@ -1399,7 +1333,7 @@ spent
 In
 Asia	<x_axis_label_3rd_highest_value>
 approximately	<y_axis_approx>
-170
+170	<y_axis_inferred_3rd_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 was
@@ -1416,9 +1350,7 @@ was
 spent
 on
 higher	<y_axis_trend_up>
-education.\
-"
-"
-
-
+education
+.
 <end_of_description>
+

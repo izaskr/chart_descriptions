@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -33,20 +32,20 @@ spike
 on
 Monday	<x_axis_label_highest_value>
 of
-94
+94	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 Tuesday	<x_axis_label_Scnd_highest_value>
 goes
 down
 to	<x_axis_range_end>
-70
+70	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 Wednesday	<x_axis_label_3rd_highest_value>
 decreases
 to	<x_axis_range_end>
-63
+63	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 Thursday	<x_axis_label_4th_highest_value>
@@ -57,18 +56,16 @@ to	<x_axis_range_end>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 then	<order_3rd>
-Friday
+Friday	<x_axis_label_least_value>
 has
-just
-31%.\
-"
-"
-
-
+just	<y_axis_least_value>
+31	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Bar
+Bar
 chart
 showing
 closing
@@ -93,7 +90,7 @@ progresses
 ;
 from	<x_axis_range_start>
 £	<y_axis_inferred_label>
-91
+91	<y_axis_inferred_highest_value_approx>
 on
 Monday	<x_axis_label_highest_value>
 ,
@@ -101,15 +98,12 @@ to	<x_axis_range_end>
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 on
-Friday.\
-"
-"
-
-
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -154,14 +148,14 @@ at
 falling	<y_axis_trend_down>
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-70
+70	<y_axis_inferred_Scnd_highest_value_approx>
 on
 Tuesday	<x_axis_label_Scnd_highest_value>
 .
 There
 was
 a
-smaller	<y_axis_trend_down>
+smaller	<y_axis_least_value>
 decrease
 on
 Wednesday	<x_axis_label_3rd_highest_value>
@@ -189,15 +183,12 @@ had
 fallen
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-32.\
-"
-"
-
-
+32	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 details
 the
@@ -249,15 +240,11 @@ Tues
 and	<x_axis_range_end>
 Thurs
 /
-Fri\
-"
-"
-
-
+Fri	<x_axis_label_least_value>
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -293,7 +280,7 @@ price
 at
 about	<y_axis_approx>
 £	<y_axis_inferred_label>
-92
+92	<y_axis_inferred_highest_value_approx>
 .
 This
 declines
@@ -304,7 +291,7 @@ of
 week
 with
 £	<y_axis_inferred_label>
-68
+68	<y_axis_inferred_Scnd_highest_value_approx>
 on
 Tuesday	<x_axis_label_Scnd_highest_value>
 ,
@@ -322,18 +309,15 @@ and	<x_axis_range_end>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 at
 the
-lowest
+lowest	<y_axis_least_value>
 on
-Friday.\
-"
-"
-
-
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"On
-Monday
+On
+Monday	<x_axis_label_highest_value>
 the
 closing
 stock
@@ -343,14 +327,14 @@ Akef
 Inc.
 was
 £	<y_axis_inferred_label>
-90
+90	<y_axis_inferred_highest_value_approx>
 ,
 on
 Tuesday	<x_axis_label_Scnd_highest_value>
 it
 was
 £	<y_axis_inferred_label>
-68
+68	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 on
 Wednesday	<x_axis_label_3rd_highest_value>
@@ -367,15 +351,12 @@ it
 closed
 at
 £	<y_axis_inferred_label>
-30.\
-"
-"
-
-
+30	<y_axis_inferred_value_add_v1=3rd_v2=least>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"As
+As
 the
 week
 has
@@ -393,7 +374,7 @@ decreased
 Starting
 at
 £	<y_axis_inferred_label>
-91
+91	<y_axis_inferred_highest_value_approx>
 on
 Monday	<x_axis_label_highest_value>
 and	<x_axis_range_end>
@@ -426,15 +407,12 @@ to	<x_axis_range_end>
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 by
-Friday.\
-"
-"
-
-
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -465,7 +443,7 @@ its
 peak
 of
 £	<y_axis_inferred_label>
-92
+92	<y_axis_inferred_highest_value_approx>
 ,
 before
 dropping
@@ -476,21 +454,18 @@ week
 to	<x_axis_range_end>
 an
 eventual
-low	<y_axis_trend_down>
+low	<y_axis_least_value>
 of
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 on
 the
-Friday.\
-"
-"
-
-
+Friday
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Akef
+Akef
 Inc.
 closing
 stock
@@ -500,7 +475,7 @@ declined
 from	<x_axis_range_start>
 over	<y_axis_approx>
 £	<y_axis_inferred_label>
-90
+90	<y_axis_inferred_highest_value_approx>
 on
 Monday	<x_axis_label_highest_value>
 to	<x_axis_range_end>
@@ -518,7 +493,7 @@ Tuesday	<x_axis_label_Scnd_highest_value>
 .
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-70
+70	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 and	<x_axis_range_end>
 on
@@ -532,18 +507,15 @@ Wednesday	<x_axis_label_3rd_highest_value>
 the
 price
 was
-just
+just	<y_axis_least_value>
 above	<y_axis_trend_up>
 £	<y_axis_inferred_label>
-60.\
-"
-"
-
-
+60	<y_axis_4th_highest_val>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 weeks
 closing
 stock
@@ -571,11 +543,11 @@ week
 from	<x_axis_range_start>
 over	<y_axis_approx>
 £	<y_axis_inferred_label>
-90
+90	<y_axis_inferred_highest_value_approx>
 on
 Monday	<x_axis_label_highest_value>
 to	<x_axis_range_end>
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 on
@@ -610,15 +582,12 @@ by
 the
 close	<y_axis_trend>
 of
-Friday.\
-"
-"
-
-
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Stock
+Stock
 closing
 prices
 for
@@ -630,7 +599,7 @@ on
 Monday	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
-92
+92	<y_axis_inferred_highest_value_approx>
 ,
 then	<order_3rd>
 decreased
@@ -641,7 +610,7 @@ week
 Tues
 =
 £	<y_axis_inferred_label>
-68
+68	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 We
 d
@@ -657,15 +626,12 @@ Thurs
 Fri	<x_axis_label_least_value>
 =
 £	<y_axis_inferred_label>
-30.\
-"
-"
-
-
+30	<y_axis_inferred_value_add_v1=3rd_v2=least>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 Akef
@@ -686,7 +652,7 @@ stock
 price
 was
 £	<y_axis_inferred_label>
-92
+92	<y_axis_inferred_highest_value_approx>
 ,
 on
 Tuesday	<x_axis_label_Scnd_highest_value>
@@ -696,7 +662,7 @@ stock
 price
 was
 £	<y_axis_inferred_label>
-68
+68	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 on
 Wednesday	<x_axis_label_3rd_highest_value>
@@ -706,7 +672,7 @@ stock
 price
 was
 £	<y_axis_inferred_label>
-60.5
+60.5	<y_axis_inferred_4th_highest_value_approx>
 ,
 on
 Thursday	<x_axis_label_4th_highest_value>
@@ -727,10 +693,10 @@ price
 was
 at
 its
-lowest
+lowest	<y_axis_least_value>
 at
 £	<y_axis_inferred_label>
-32
+32	<y_axis_inferred_least_value_approx>
 .
 \\nOverall
 we
@@ -744,15 +710,12 @@ closing
 stock
 across
 the
-week.\
-"
-"
-
-
+week
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Closing
+Closing
 stock
 prices
 are
@@ -762,10 +725,10 @@ Mondays
 at
 over	<y_axis_approx>
 £	<y_axis_inferred_label>
-91
+91	<y_axis_inferred_highest_value_approx>
 compared	<y_x_comparison>
 to	<x_axis_range_end>
-only
+only	<y_axis_least_value>
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 on
@@ -785,15 +748,12 @@ of
 60	<y_axis_4th_highest_val>
 across
 the
-week.\
-"
-"
-
-
+week
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -830,7 +790,7 @@ prices
 closed
 at
 £	<y_axis_inferred_label>
-92
+92	<y_axis_inferred_highest_value_approx>
 .
 Tuesday	<x_axis_label_Scnd_highest_value>
 saw
@@ -841,16 +801,16 @@ with
 closing
 at
 £	<y_axis_inferred_label>
-68
+68	<y_axis_inferred_Scnd_highest_value_approx>
 .
 With
 Wednesday	<x_axis_label_3rd_highest_value>
 showing
 a
-smaller	<y_axis_trend_down>
+smaller	<y_axis_least_value>
 drop
 at
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
 62	<y_axis_3rd_highest_val>
 and	<x_axis_range_end>
@@ -882,15 +842,12 @@ stock
 prices
 at
 £	<y_axis_inferred_label>
-28.\
-"
-"
-
-
+28	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 closing
 stock
 price
@@ -909,15 +866,13 @@ declines
 by
 Friday	<x_axis_label_least_value>
 at
-32%.\
-"
-"
-
-
+32	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 declining
@@ -940,7 +895,7 @@ and	<x_axis_range_end>
 Friday	<x_axis_label_least_value>
 (
 £	<y_axis_inferred_label>
-32
+32	<y_axis_inferred_least_value_approx>
 )
 there
 was
@@ -949,15 +904,11 @@ consistent
 drop
 in
 closing
-price\
-"
-"
-
-
+price
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -977,7 +928,7 @@ on
 Monday	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
-92
+92	<y_axis_inferred_highest_value_approx>
 .
 \\nThey
 subsequently
@@ -987,19 +938,14 @@ ending
 on
 Friday	<x_axis_label_least_value>
 at
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 ..
-\
-"
-"
-
-
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -1024,24 +970,20 @@ stock
 price
 at
 £	<y_axis_inferred_label>
-92
+92	<y_axis_inferred_highest_value_approx>
 and	<x_axis_range_end>
 friday	<x_axis_label_least_value>
 as
 the
-lowest
+lowest	<y_axis_least_value>
 at
-only
+only	<y_axis_least_value>
 £	<y_axis_inferred_label>
-30\
-"
-"
-
-
+30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 <end_of_description>
+
 <start_of_description>
-"
-\"Graph
+Graph
 above	<y_axis_trend_up>
 shows
 Akef
@@ -1075,7 +1017,7 @@ reducing
 to	<x_axis_range_end>
 Tuesdays
 £	<y_axis_inferred_label>
-68
+68	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 £	<y_axis_inferred_label>
 62	<y_axis_3rd_highest_val>
@@ -1088,21 +1030,18 @@ on
 Thursday	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
 its
-lowest
+lowest	<y_axis_least_value>
 price
 of
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 on
-Friday.\
-"
-"
-
-
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -1127,7 +1066,7 @@ closes
 at
 over	<y_axis_approx>
 £	<y_axis_inferred_label>
-90
+90	<y_axis_inferred_highest_value_approx>
 ,
 falling	<y_axis_trend_down>
 on
@@ -1137,7 +1076,7 @@ end
 at
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-70
+70	<y_axis_inferred_Scnd_highest_value_approx>
 .
 Wednesday	<x_axis_label_3rd_highest_value>
 and	<x_axis_range_end>
@@ -1147,7 +1086,7 @@ a
 continuing
 decline
 to	<x_axis_range_end>
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
 60	<y_axis_4th_highest_val>
 and	<x_axis_range_end>
@@ -1161,18 +1100,15 @@ significantly	<y_axis_trend>
 ,
 halving
 to	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-30.\
-"
-"
-
-
+30	<y_axis_inferred_value_add_v1=3rd_v2=least>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 stock
 prices
 of
@@ -1195,7 +1131,7 @@ a
 value
 of
 £	<y_axis_inferred_label>
-91
+91	<y_axis_inferred_highest_value_approx>
 on
 Monday	<x_axis_label_highest_value>
 ,
@@ -1207,15 +1143,12 @@ at
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 on
-Friday.\
-"
-"
-
-
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 closing
 stock
 price
@@ -1224,7 +1157,7 @@ Akef
 Inc
 was
 £	<y_axis_inferred_label>
-92
+92	<y_axis_inferred_highest_value_approx>
 on
 Monday	<x_axis_label_highest_value>
 showing
@@ -1252,17 +1185,14 @@ price
 on
 Friday	<x_axis_label_least_value>
 at
-just
+just	<y_axis_least_value>
 £	<y_axis_inferred_label>
-30.\
-"
-"
-
-
+30	<y_axis_inferred_value_add_v1=3rd_v2=least>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -1302,9 +1232,7 @@ the
 week
 to	<x_axis_range_end>
 the
-end.\
-"
-"
-
-
+end
+.
 <end_of_description>
+

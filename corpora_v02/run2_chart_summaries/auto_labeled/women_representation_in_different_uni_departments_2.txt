@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 is
 a
 chart
@@ -57,26 +56,24 @@ with
 then	<order_3rd>
 Arts	<x_axis_label_4th_highest_value>
 with
-just
+just	<y_axis_least_value>
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 Literature	<x_axis_label_least_value>
 with
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 women
 representation
 at
-24%.\
-"
-"
-
-
+24	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Bar
+Bar
 chart
 showing
 the
@@ -91,7 +88,7 @@ in
 Narvik
 .
 \\n\\nThe
-lowest
+lowest	<y_axis_least_value>
 representation
 is
 in
@@ -99,7 +96,7 @@ the
 Literature	<x_axis_label_least_value>
 Department
 at
-22
+22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 ,
 rising	<slope_up>
@@ -111,15 +108,12 @@ at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 in
-Engineering.\
-"
-"
-
-
+Engineering	<x_axis_label_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 depicts
 the
@@ -170,16 +164,14 @@ women
 ,
 consisting
 of
-only
-22%.\
-"
-"
-
-
+only	<y_axis_least_value>
+22	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 details
 the
@@ -227,15 +219,12 @@ a
 third	<order_3rd>
 of
 the
-department.\
-"
-"
-
-
+department
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -315,7 +304,7 @@ the
 Arts	<x_axis_label_4th_highest_value>
 department
 containing
-only
+only	<y_axis_least_value>
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 of
@@ -323,21 +312,18 @@ women
 and	<x_axis_range_end>
 Literature	<x_axis_label_least_value>
 coming
-last
+last	<y_axis_least_value>
 with
-just
-22
+just	<y_axis_least_value>
+22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
-women.\
-"
-"
-
-
+women
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 depicts
 the
@@ -375,7 +361,7 @@ women
 ,
 in
 Mathematics	<x_axis_label_3rd_highest_value>
-66
+66	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 the
@@ -385,7 +371,7 @@ women
 ,
 in
 Literature	<x_axis_label_least_value>
-22
+22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
 the
@@ -402,15 +388,12 @@ of
 the
 department
 are
-women.\
-"
-"
-
-
+women
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Engineering
+Engineering	<x_axis_label_highest_value>
 has
 the
 highest
@@ -432,20 +415,18 @@ this
 course.\\n\\nLiterature
 has
 the
-lowest
+lowest	<y_axis_least_value>
 percentage
 of
 representation
 at
-22%.\
-"
-"
-
-
+22	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -486,13 +467,13 @@ representation
 and	<x_axis_range_end>
 mathematics	<x_axis_label_3rd_highest_value>
 with
-56
+56	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 women
 represented
 .
-Only
+Only	<y_axis_least_value>
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 of
@@ -503,7 +484,7 @@ represented
 in
 Arts	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
-24
+24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 in
 literature	<x_axis_label_least_value>
@@ -518,15 +499,11 @@ Humanities
 in
 favour
 STEM
-fields\
-"
-"
-
-
+fields
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 percentage
 of
 women
@@ -559,15 +536,12 @@ arts	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
 in
 literature	<x_axis_label_least_value>
-22.\
-"
-"
-
-
+22	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 representation
 of
 women
@@ -601,23 +575,21 @@ respectively
 .
  
 The
-lowest
+lowest	<y_axis_least_value>
 representation
 is
 in
 literature	<x_axis_label_least_value>
 at
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-20%.\
-"
-"
-
-
+20	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Women
+Women
 representation
 in
 Narvik
@@ -656,8 +628,8 @@ is
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 Literature	<x_axis_label_least_value>
-just
-24
+just	<y_axis_least_value>
+24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 .
 This
@@ -668,15 +640,12 @@ to	<x_axis_range_end>
 what
 I
 would
-expect.\
-"
-"
-
-
+expect
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -706,7 +675,7 @@ Computer Science	<x_axis_label_Scnd_highest_value>
 in
 Arts	<x_axis_label_4th_highest_value>
 ,
-54
+54	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 Mathematics	<x_axis_label_3rd_highest_value>
@@ -737,15 +706,12 @@ less	<y_axis_approx>
 in
 the
 Literature	<x_axis_label_least_value>
-department.\
-"
-"
-
-
+department
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"this
+this
 graph
 shows
 that
@@ -762,7 +728,7 @@ almost	<y_axis_approx>
 %	<y_axis_inferred_label>
 compared	<y_x_comparison>
 to	<x_axis_range_end>
-only
+only	<y_axis_least_value>
 55	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 entering
@@ -781,21 +747,18 @@ compared	<y_x_comparison>
 to	<x_axis_range_end>
 less	<y_axis_approx>
 than
-40
+40	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 both
 Arts	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
-Literature.\
-"
-"
-
-
+Literature	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -818,7 +781,7 @@ we
 see
 that
 the
-lowest
+lowest	<y_axis_least_value>
 amount
 of
 women
@@ -827,7 +790,7 @@ came
 from	<x_axis_range_start>
 Literature	<x_axis_label_least_value>
 with
-24
+24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 ,
 followed	<order_Scnd>
@@ -845,8 +808,8 @@ we
 see
 there
 were
-around
-56
+around	<<y_axis_approx>>
+56	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 women
@@ -868,15 +831,13 @@ came
 from	<x_axis_range_start>
 Engineering	<x_axis_label_highest_value>
 with
-70%.\
-"
-"
-
-
+70	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Women
+Women
 representation
 in
 different
@@ -901,7 +862,7 @@ It
 was
 at
 its
-lowest
+lowest	<y_axis_least_value>
 in
 literature	<x_axis_label_least_value>
 at
@@ -924,15 +885,13 @@ at
 and	<x_axis_range_end>
 mathematics	<x_axis_label_3rd_highest_value>
 at
-65%.\
-"
-"
-
-
+65	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 looked
 at
@@ -949,7 +908,7 @@ Participation
 ranged
 from	<x_axis_range_start>
 the
-lowest
+lowest	<y_axis_least_value>
 (
 Literature	<x_axis_label_least_value>
 at
@@ -963,15 +922,12 @@ highest
 Engineering	<x_axis_label_highest_value>
 )
 at
-70%\
-"
-"
-
-
+70	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -987,13 +943,13 @@ Narvik
 .
  
 \\nThe
-lowest
+lowest	<y_axis_least_value>
 was
 literature	<x_axis_label_least_value>
 at
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-20
+20	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 .
 \\nThe
@@ -1001,9 +957,9 @@ next	<order_Scnd>
 ,
 Arts	<x_axis_label_4th_highest_value>
 at
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-30
+30	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 Mathematics	<x_axis_label_3rd_highest_value>
@@ -1019,15 +975,13 @@ and	<x_axis_range_end>
 finally
 engineering	<x_axis_label_highest_value>
 at
-70%.\
-"
-"
-
-
+70	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -1058,7 +1012,7 @@ with
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 the
-lowest
+lowest	<y_axis_least_value>
 are
 employed
 in
@@ -1066,16 +1020,13 @@ the
 literature	<x_axis_label_least_value>
 dept
 with
-only
-22%\
-"
-"
-
-
+only	<y_axis_least_value>
+22	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
 <end_of_description>
+
 <start_of_description>
-"
-\"Graph
+Graph
 shows
 women
 representation
@@ -1116,24 +1067,21 @@ came
 in
 at
 second	<order_Scnd>
-lowest
+lowest	<y_axis_least_value>
 at
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 literature	<x_axis_label_least_value>
 the
-lowest
+lowest	<y_axis_least_value>
 at
-24%\
-"
-"
-
-
+24	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -1172,10 +1120,10 @@ and	<x_axis_range_end>
 mathematics	<x_axis_label_3rd_highest_value>
 (
 54%).\\nThe
-lowest
+lowest	<y_axis_least_value>
 percentage
 (
-22
+22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 )
 is
@@ -1187,17 +1135,15 @@ arts	<x_axis_label_4th_highest_value>
 the
 level
 is
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-30%.\
-"
-"
-
-
+30	<y_axis_inferred_4th_highest_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Women
+Women
 are
 represented
 at
@@ -1209,23 +1155,20 @@ in
 Narvik
 ,
 whereas
-only
-just
+only	<y_axis_least_value>
+just	<y_axis_least_value>
 over	<y_axis_approx>
-20
+20	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 are
 represented
 in
-literature.\
-"
-"
-
-
+literature	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 women
@@ -1257,7 +1200,7 @@ women
 ’s
 representation
 the
-lowest
+lowest	<y_axis_least_value>
 in
 the
 arts	<x_axis_label_4th_highest_value>
@@ -1267,7 +1210,7 @@ Literature	<x_axis_label_least_value>
 department
 standing
 at
-22
+22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 the
@@ -1285,15 +1228,13 @@ the
 Maths
 department
 is
-54%.\
-"
-"
-
-
+54	<y_axis_inferred_3rd_highest_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 women
@@ -1314,7 +1255,7 @@ dominated
 In
 contrast
 ,
-only
+only	<y_axis_least_value>
 a
 small	<y_axis_trend>
 percentage
@@ -1334,9 +1275,6 @@ female
 dominated
 department
 is
-Engineering\
-"
-"
-
-
+Engineering	<x_axis_label_highest_value>
 <end_of_description>
+

@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 the
@@ -46,7 +45,8 @@ to	<x_axis_range_end>
 slightly
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-20,000
+20	<y_axis_inferred_3rd_highest_value_approx>
+,000	<y_magnitude>
 and	<x_axis_range_end>
 another
 decrease
@@ -55,17 +55,15 @@ the
 year
 2015	<x_axis_label_least_value>
 to	<x_axis_range_end>
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-16,000.\
-"
-"
-
-
+16	<y_axis_least_value_val>
+,000	<y_magnitude>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -80,7 +78,7 @@ year.\\n\\nIn
 2000	<x_axis_label_Scnd_highest_value>
 ,
 £	<y_axis_inferred_label>
-22.500
+22.500	<y_axis_inferred_Scnd_highest_value_approx>
 was
 the
 median
@@ -91,10 +89,11 @@ increased	<slope_up>
 by
 2005	<x_axis_label_highest_value>
 to	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-26,000
+26	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 .
 This
 had
@@ -121,15 +120,13 @@ year
 dropped
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-16,000.\
-"
-"
-
-
+16	<y_axis_least_value_val>
+,000	<y_magnitude>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -179,7 +176,8 @@ were
 earning
 almost	<y_axis_approx>
 £	<y_axis_inferred_label>
-10,000
+10	<y_axis_inferred_least_value_approx>
+,000	<y_magnitude>
 less	<y_axis_approx>
 per
 year
@@ -190,15 +188,12 @@ they
 were
 a
 decade
-earlier.\
-"
-"
-
-
+earlier
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 the
@@ -230,7 +225,8 @@ highest
 salary
 is
 £	<y_axis_inferred_label>
-26,000
+26	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 in
 the
 year
@@ -244,23 +240,22 @@ next	<order_Scnd>
 years
 from	<x_axis_range_start>
 £	<y_axis_inferred_label>
-19,000
+19	<y_axis_inferred_3rd_highest_value_approx>
+,000	<y_magnitude>
 in
 year
 2010	<x_axis_label_3rd_highest_value>
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-16,000
+16	<y_axis_least_value_val>
+,000	<y_magnitude>
 in
-2015.\
-"
-"
-
-
+2015	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 median
@@ -276,17 +271,17 @@ in
 2000	<x_axis_label_Scnd_highest_value>
 was
 £	<y_axis_inferred_label>
-22000
+22000	<y_axis_inferred_3rd_highest_value_approx>
 ,
 in
 2005	<x_axis_label_highest_value>
 £	<y_axis_inferred_label>
-26000
+26000	<y_axis_inferred_3rd_highest_value_approx>
 ,
 in
 2010	<x_axis_label_3rd_highest_value>
 £	<y_axis_inferred_label>
-19500
+19500	<y_axis_inferred_3rd_highest_value_approx>
 and	<x_axis_range_end>
 in
 2015	<x_axis_label_least_value>
@@ -298,7 +293,7 @@ year
 dropped
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-16000
+16000	<y_axis_inferred_3rd_highest_value_approx>
 .
  
 The
@@ -312,15 +307,12 @@ been
 decreasing
 over	<y_axis_approx>
 the
-years.\
-"
-"
-
-
+years
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 the
@@ -347,12 +339,12 @@ Salaries
 increased	<slope_up>
 from	<x_axis_range_start>
 £	<y_axis_inferred_label>
-23000
+23000	<y_axis_inferred_3rd_highest_value_approx>
 in
 2000	<x_axis_label_Scnd_highest_value>
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-25000
+25000	<y_axis_inferred_3rd_highest_value_approx>
 in
 2005	<x_axis_label_highest_value>
 but
@@ -360,10 +352,10 @@ have
 fallen
 since
 to	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-20000
+20000	<y_axis_inferred_3rd_highest_value_approx>
 in
 2010	<x_axis_label_3rd_highest_value>
 falling	<y_axis_trend_down>
@@ -372,15 +364,12 @@ in
 2015	<x_axis_label_least_value>
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-16000.\
-"
-"
-
-
+16000	<y_axis_inferred_3rd_highest_value_approx>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -402,9 +391,10 @@ women
 in
 najaf
 earned
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-22,000
+22	<y_axis_inferred_Scnd_highest_value_approx>
+,000	<y_magnitude>
 in
 2000	<x_axis_label_Scnd_highest_value>
 .
@@ -412,10 +402,11 @@ In
 2005	<x_axis_label_highest_value>
 they
 earned
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
 £	<y_axis_inferred_label>
-25,000
+25	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 .
 In
 2010	<x_axis_label_3rd_highest_value>
@@ -423,7 +414,8 @@ they
 earned
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-20,000
+20	<y_axis_inferred_3rd_highest_value_approx>
+,000	<y_magnitude>
 .
 Lastly
 in
@@ -431,18 +423,16 @@ in
 they
 earned
 the
-lowest
+lowest	<y_axis_least_value>
 at
 £	<y_axis_inferred_label>
-16,000.\
-"
-"
-
-
+16	<y_axis_least_value_val>
+,000	<y_magnitude>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -459,35 +449,31 @@ In
 2000	<x_axis_label_Scnd_highest_value>
 it
 was
-22500
+22500	<y_axis_inferred_3rd_highest_value_approx>
 pounds	<y_axis_inferred_label>
 ,
 rising	<slope_up>
 to	<x_axis_range_end>
-25000
+25000	<y_axis_inferred_3rd_highest_value_approx>
 in
 2005	<x_axis_label_highest_value>
 then	<order_3rd>
 dropping
 to	<x_axis_range_end>
-20000
+20000	<y_axis_inferred_3rd_highest_value_approx>
 in
 2010	<x_axis_label_3rd_highest_value>
 and	<x_axis_range_end>
 lowering
 again
 to	<x_axis_range_end>
-16000
+16000	<y_axis_inferred_3rd_highest_value_approx>
 in
-2015\
-"
-"
-
-
+2015	<x_axis_label_least_value>
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 salary
 of
 women
@@ -496,10 +482,12 @@ Najaf
 fluctuated
 between	<x_axis_range_start>
 £	<y_axis_inferred_label>
-16,000
+16	<y_axis_least_value_val>
+,000	<y_magnitude>
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-26,000
+26	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 between	<x_axis_range_start>
 2000	<x_axis_label_Scnd_highest_value>
 and	<x_axis_range_end>
@@ -513,17 +501,14 @@ being
 2005	<x_axis_label_highest_value>
 and	<x_axis_range_end>
 the
-lowest
+lowest	<y_axis_least_value>
 being
-2015.\
-"
-"
-
-
+2015	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -546,7 +531,7 @@ approximately	<y_axis_approx>
 Over	<y_axis_approx>
 the
 next	<order_Scnd>
-5
+5	<y_axis_inferred_least_value_approx>
 years
 there
 was
@@ -558,7 +543,7 @@ the
 median
 salary
 of
-18
+18	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 however
 over	<y_axis_approx>
@@ -581,7 +566,7 @@ to	<x_axis_range_end>
 there
 was
 a
-27
+27	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 decreased
 in
@@ -594,15 +579,12 @@ further
 %	<y_axis_inferred_label>
 decreased
 to	<x_axis_range_end>
-2015.\
-"
-"
-
-
+2015	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -628,7 +610,8 @@ in
 2005	<x_axis_label_highest_value>
 with
 £	<y_axis_inferred_label>
-26,000
+26	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 .
 Since
 2005	<x_axis_label_highest_value>
@@ -639,23 +622,22 @@ dropped
 staying
 at
 £	<y_axis_inferred_label>
-19,000
+19	<y_axis_inferred_3rd_highest_value_approx>
+,000	<y_magnitude>
 in
 2010	<x_axis_label_3rd_highest_value>
 and	<x_axis_range_end>
 then	<order_3rd>
 £	<y_axis_inferred_label>
-16,000
+16	<y_axis_least_value_val>
+,000	<y_magnitude>
 in
-2015.\
-"
-"
-
-
+2015	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 Median
 salary
 per
@@ -681,7 +663,7 @@ on
 being
 this
 £	<y_axis_inferred_label>
-26000
+26000	<y_axis_inferred_3rd_highest_value_approx>
 ,
 which
 was
@@ -692,9 +674,9 @@ growing
 since
 it
 was
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-22.500
+22.500	<y_axis_inferred_Scnd_highest_value_approx>
 in
 the
 year
@@ -713,7 +695,7 @@ decreased
 to	<x_axis_range_end>
 nearly
 £	<y_axis_inferred_label>
-19500
+19500	<y_axis_inferred_3rd_highest_value_approx>
 by
 the
 year
@@ -725,7 +707,7 @@ decreasing
  
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-16000
+16000	<y_axis_inferred_3rd_highest_value_approx>
 for
 the
 year
@@ -745,15 +727,12 @@ decrease
 in
 the
 following
-years.\
-"
-"
-
-
+years
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"As
+As
 you
 can
 see
@@ -780,20 +759,22 @@ graph
 fluctuates
 starting
 with
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-23,000
+23	<y_axis_inferred_Scnd_highest_value_approx>
+,000	<y_magnitude>
 in
 2000	<x_axis_label_Scnd_highest_value>
 which
 rose	<slope_up>
 over	<y_axis_approx>
-5
+5	<y_axis_inferred_least_value_approx>
 years
 to	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-25,000
+25	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 in
 2005	<x_axis_label_highest_value>
 .
@@ -811,10 +792,11 @@ women
 has
 dropped
 to	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-20,000
+20	<y_axis_inferred_3rd_highest_value_approx>
+,000	<y_magnitude>
 in
 2010	<x_axis_label_3rd_highest_value>
 and	<x_axis_range_end>
@@ -823,17 +805,15 @@ again
 to	<x_axis_range_end>
 approx	<y_axis_approx>
 .
-16,000
+16	<y_axis_least_value_val>
+,000	<y_magnitude>
 in
-2015.\
-"
-"
-
-
+2015	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -852,18 +832,18 @@ year
 ,
 this
 was
-around
+around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-22500
+22500	<y_axis_inferred_3rd_highest_value_approx>
 .
 This
 then	<order_3rd>
 rose	<slope_up>
 to	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
 £	<y_axis_inferred_label>
-25000
+25000	<y_axis_inferred_3rd_highest_value_approx>
 in
 2005	<x_axis_label_highest_value>
 ,
@@ -871,23 +851,20 @@ before
 dropping
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-19000
+19000	<y_axis_inferred_3rd_highest_value_approx>
 and	<x_axis_range_end>
 £	<y_axis_inferred_label>
-16000
+16000	<y_axis_inferred_3rd_highest_value_approx>
 in
 2010	<x_axis_label_3rd_highest_value>
 and	<x_axis_range_end>
 2015	<x_axis_label_least_value>
-respectively.\
-"
-"
-
-
+respectively
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Here
+Here
 we
 see
 a
@@ -905,7 +882,7 @@ Year.\\nIn
 2000	<x_axis_label_Scnd_highest_value>
 it
 was
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
 23	<y_axis_Scnd_highest_val>
@@ -915,17 +892,17 @@ year.\\nIn
 2005	<x_axis_label_highest_value>
 it
 was
-just
+just	<y_axis_least_value>
 above	<y_axis_trend_up>
 £	<y_axis_inferred_label>
-25
+25	<y_axis_inferred_highest_value_approx>
 pounds	<y_axis_inferred_label>
 a
 year.\\nIn
 2010	<x_axis_label_3rd_highest_value>
 it
 was
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
 20	<y_axis_3rd_highest_val>
@@ -935,10 +912,10 @@ year.\\nIn
 2015	<x_axis_label_least_value>
 it
 was
-just
+just	<y_axis_least_value>
 above	<y_axis_trend_up>
 £	<y_axis_inferred_label>
-15
+15	<y_axis_inferred_least_value_approx>
 pounds	<y_axis_inferred_label>
 a
 year.\\nIt
@@ -954,15 +931,12 @@ median
 has
 n't
 been
-consistent.\
-"
-"
-
-
+consistent
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -1004,18 +978,14 @@ in
 it
 was
 the
-lowest
+lowest	<y_axis_least_value>
 at
 £	<y_axis_inferred_label>
-16k\
-"
-"
-
-
+16k
 <end_of_description>
+
 <start_of_description>
-"
-\"Here
+Here
 is
 a
 chart
@@ -1044,13 +1014,15 @@ year
 was
 holding
 at
-25,000
+25	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 ,
 rising	<slope_up>
 to	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-25,000
+25	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 in
 2005	<x_axis_label_highest_value>
 .
@@ -1061,19 +1033,17 @@ dropped
 dramatically
 to	<x_axis_range_end>
 under	<y_axis_approx>
-20,000
+20	<y_axis_inferred_3rd_highest_value_approx>
+,000	<y_magnitude>
 and	<x_axis_range_end>
 again
 in
-2015.\
-"
-"
-
-
+2015	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 the
@@ -1115,19 +1085,16 @@ in
 2015	<x_axis_label_least_value>
 being
 £	<y_axis_inferred_label>
-1000
+1000	<y_axis_inferred_highest_value_approx>
 less	<y_axis_approx>
 than
 in
-2005.\
-"
-"
-
-
+2005	<x_axis_label_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -1163,11 +1130,12 @@ Najaf
  
 is
 the
-lowest
+lowest	<y_axis_least_value>
 at
 approximately	<y_axis_approx>
 £	<y_axis_inferred_label>
-17,000
+17	<y_axis_inferred_least_value_approx>
+,000	<y_magnitude>
 in
 2015	<x_axis_label_least_value>
 .
@@ -1177,15 +1145,12 @@ is
 2005	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
-26,000\
-"
-"
-
-
+26	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 <end_of_description>
+
 <start_of_description>
-"
-\"this
+this
 chart
 demonstrates
 the
@@ -1203,15 +1168,15 @@ average
 this
 lies
 between	<x_axis_range_start>
-15
+15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
 26	<y_axis_highest_value_val>
-thousand
+thousand	<y_magnitude>
 pounds	<y_axis_inferred_label>
 over	<y_axis_approx>
 the
-last
-15
+last	<y_axis_least_value>
+15	<y_axis_inferred_least_value_approx>
 years
 .
 in
@@ -1233,15 +1198,12 @@ has
 reduced
 to	<x_axis_range_end>
 16	<y_axis_least_value_val>
-thousand.\
-"
-"
-
-
+thousand	<y_magnitude>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"the
+the
 chart
 shows
 the
@@ -1252,7 +1214,7 @@ salary
 in
 Najaf
 in
-thousands
+thousands	<y_magnitude>
 of
 pounds	<y_axis_inferred_label>
 .
@@ -1261,32 +1223,28 @@ In
 2000	<x_axis_label_Scnd_highest_value>
 it
 was
-22
+22	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 in
 2005	<x_axis_label_highest_value>
 it
 was
-25
+25	<y_axis_inferred_highest_value_approx>
 ,
 in
 2010	<x_axis_label_3rd_highest_value>
 it
 was
-19
+19	<y_axis_inferred_3rd_highest_value_approx>
 and	<x_axis_range_end>
 in
 2015	<x_axis_label_least_value>
 it
-was16\
-"
-"
-
-
+was16
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 median
 salary
 of
@@ -1294,7 +1252,7 @@ women
 in
 Najaf
 per
-5
+5	<y_axis_inferred_least_value_approx>
 years
 started
 fairly
@@ -1314,7 +1272,8 @@ in
 2005	<x_axis_label_highest_value>
 being
 £	<y_axis_inferred_label>
-26,000
+26	<y_axis_inferred_highest_value_approx>
+,000	<y_magnitude>
 .
 Over	<y_axis_approx>
 the
@@ -1329,17 +1288,15 @@ to	<x_axis_range_end>
 a
 shocking
 £	<y_axis_inferred_label>
-16,000
+16	<y_axis_least_value_val>
+,000	<y_magnitude>
 by
-2015.\
-"
-"
-
-
+2015	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 bar
 chart
 shows
@@ -1374,7 +1331,7 @@ the
 median
 salary
 was
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
 26k
@@ -1385,7 +1342,7 @@ the
 median
 salary
 was
-just
+just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
 20k
@@ -1398,9 +1355,7 @@ salary
 was
 roughly
 £	<y_axis_inferred_label>
-16k.\
-"
-"
-
-
+16k
+.
 <end_of_description>
+

@@ -1,6 +1,5 @@
 <start_of_description>
-"
-\"This
+This
 graph
 shows
 what
@@ -35,17 +34,14 @@ go
 for
 Philosophy	<x_axis_label_Scnd_highest_value>
 and	<x_axis_range_end>
-32
+32	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-Medicine.\
-"
-"
-
-
+Medicine	<x_axis_label_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -80,15 +76,12 @@ and	<x_axis_range_end>
 %	<y_axis_inferred_label>
 are
 STEM	<x_axis_label_least_value>
-students.\
-"
-"
-
-
+students
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 the
@@ -121,15 +114,12 @@ medicine	<x_axis_label_highest_value>
 are
 the
 top
-subjects.\
-"
-"
-
-
+subjects
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 the
@@ -167,7 +157,7 @@ same
 percentage.\\n\\nSTEM
 is
 the
-lowest
+lowest	<y_axis_least_value>
 chosen
 study
 with
@@ -183,15 +173,13 @@ is
 the
 3rd	<order_3rd>
 at
-24%.\
-"
-"
-
-
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 what
@@ -206,7 +194,7 @@ study.\\n\\nSTEM
 subject
 is
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 popular
 choice
 with
@@ -232,15 +220,13 @@ the
 popular
 choice
 at
-31%.\
-"
-"
-
-
+31	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 what
@@ -277,15 +263,12 @@ and	<x_axis_range_end>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 choose
-STEM.\
-"
-"
-
-
+STEM	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -336,15 +319,12 @@ them
 chose
 to	<x_axis_range_end>
 study
-medicine.\
-"
-"
-
-
+medicine	<x_axis_label_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 what
@@ -368,13 +348,13 @@ subject
 rising	<slope_up>
 to	<x_axis_range_end>
 almost	<y_axis_approx>
-25
+25	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 studying
 literature	<x_axis_label_3rd_highest_value>
 ,
 then	<order_3rd>
-around
+around	<<y_axis_approx>>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 for
@@ -386,15 +366,12 @@ with
 slightly
 more	<y_axis_trend_up>
 choosing
-medicine.\
-"
-"
-
-
+medicine	<x_axis_label_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Students
+Students
 at
 Lagos
 State
@@ -423,22 +400,19 @@ were
 studied
 by
 at
-least	<y_axis_trend>
+least	<y_axis_least_value>
 half
 as
 many
 students
 than
 STEM	<x_axis_label_least_value>
-was.\
-"
-"
-
-
+was
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 the
@@ -497,15 +471,13 @@ this
 and	<x_axis_range_end>
 literature	<x_axis_label_3rd_highest_value>
 is
-24%.\
-"
-"
-
-
+24	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 graph
 shows
 the
@@ -525,10 +497,10 @@ to	<x_axis_range_end>
 study
 medicine	<x_axis_label_highest_value>
 with
-30.5
+30.5	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
-only
+only	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
@@ -536,15 +508,12 @@ students
 chose
 to	<x_axis_range_end>
 study
-STEM.\
-"
-"
-
-
+STEM	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 topic
 chosen
 by
@@ -555,7 +524,7 @@ State
 University
 vary
 withing
-4
+4	<y_axis_inferred_least_value_approx>
 main
 topics
 ,
@@ -590,7 +559,7 @@ followed	<order_Scnd>
 by
 Philosophy	<x_axis_label_Scnd_highest_value>
 with
-around
+around	<<y_axis_approx>>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 students
@@ -606,25 +575,22 @@ topics
 are
 Literature	<x_axis_label_3rd_highest_value>
 with
-around
+around	<<y_axis_approx>>
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 students
 and	<x_axis_range_end>
 STEM	<x_axis_label_least_value>
 with
-just
+just	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-students.\
-"
-"
-
-
+students
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"As
+As
 you
 can
 see
@@ -639,7 +605,7 @@ who
 chose
 to	<x_axis_range_end>
 study
-4
+4	<y_axis_inferred_least_value_approx>
 different
 subjects
 these
@@ -659,7 +625,7 @@ the
 most
 popular
 with
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -679,24 +645,21 @@ choosing
 it
 .
 The
-least	<y_axis_trend>
+least	<y_axis_least_value>
 popular
 was
 STEM	<x_axis_label_least_value>
 with
-only
+only	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 choosing
-it.\
-"
-"
-
-
+it
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 the
@@ -730,17 +693,14 @@ literature	<x_axis_label_3rd_highest_value>
 philosophy	<x_axis_label_Scnd_highest_value>
 ,
 and	<x_axis_range_end>
-32
+32	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-medicine.\
-"
-"
-
-
+medicine	<x_axis_label_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"Here
+Here
 we
 see
 a
@@ -763,9 +723,9 @@ study
 STEM	<x_axis_label_least_value>
 subjects
 ,
-Just
+Just	<y_axis_least_value>
 under	<y_axis_approx>
-25
+25	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 choose
 to	<x_axis_range_end>
@@ -776,20 +736,17 @@ Literature	<x_axis_label_3rd_highest_value>
 %	<y_axis_inferred_label>
 Philosophy	<x_axis_label_Scnd_highest_value>
 and	<x_axis_range_end>
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 choose
-medicine.\
-"
-"
-
-
+medicine	<x_axis_label_highest_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 what
@@ -818,15 +775,11 @@ and	<x_axis_range_end>
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 study
-medicine\
-"
-"
-
-
+medicine	<x_axis_label_highest_value>
 <end_of_description>
+
 <start_of_description>
-"
-\"Here
+Here
 is
 a
 chart
@@ -860,15 +813,12 @@ Is
 literature	<x_axis_label_3rd_highest_value>
 followed	<order_Scnd>
 by
-STEM.\
-"
-"
-
-
+STEM	<x_axis_label_least_value>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 represents
 the
@@ -889,9 +839,9 @@ popular
 subjects
 ,
 with
-just
+just	<y_axis_least_value>
 over	<y_axis_approx>
-60
+60	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 the
@@ -912,15 +862,12 @@ chose
 to	<x_axis_range_end>
 study
 STEM	<x_axis_label_least_value>
-subjects.\
-"
-"
-
-
+subjects
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"This
+This
 chart
 shows
 what
@@ -946,7 +893,7 @@ that
 STEM	<x_axis_label_least_value>
 is
 the
-lowest
+lowest	<y_axis_least_value>
 at
 approximately	<y_axis_approx>
 15	<y_axis_least_value_val>
@@ -969,15 +916,13 @@ study
 is
 medicine	<x_axis_label_highest_value>
 at
-32%.\
-"
-"
-
-
+32	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"this
+this
 chart
 shows
 was
@@ -999,24 +944,22 @@ most
 popular
 choice
 at
-around
+around	<<y_axis_approx>>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 ,
 STEM	<x_axis_label_least_value>
 the
-least	<y_axis_trend>
+least	<y_axis_least_value>
 popular
 at
-15%.\
-"
-"
-
-
+15	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 chart
 shows
 what
@@ -1047,15 +990,11 @@ and	<x_axis_range_end>
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 do
-medicine\
-"
-"
-
-
+medicine	<x_axis_label_highest_value>
 <end_of_description>
+
 <start_of_description>
-"
-\"What
+What
 the
 students
 at
@@ -1073,7 +1012,7 @@ with
 STEM	<x_axis_label_least_value>
 being
 the
-lowest
+lowest	<y_axis_least_value>
 at
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
@@ -1094,15 +1033,12 @@ studies
 being
 in
 between	<x_axis_range_start>
-them.\
-"
-"
-
-
+them
+.
 <end_of_description>
+
 <start_of_description>
-"
-\"The
+The
 bar
 chart
 shows
@@ -1145,9 +1081,7 @@ students
 chose
 to	<x_axis_range_end>
 study
-medicine.\
-"
-"
-
-
+medicine	<x_axis_label_highest_value>
+.
 <end_of_description>
+
