@@ -264,6 +264,8 @@ def discourse_labels():
 
 def find_closest(numbers, target, numbers_labels):
 	""" in a list of numbers, it finds the number closest to the target number and returns the number's index"""
+	exact_approx = {"<y_axis_highest_value_val>":"<y_axis_inferred_highest_value_approx>", "<y_axis_Scnd_highest_val>":"<y_axis_inferred_Scnd_highest_value_approx>", "<y_axis_3rd_highest_val>":"<y_axis_inferred_3rd_highest_value_approx>", "<y_axis_4th_highest_val>":"<y_axis_inferred_4th_highest_value_approx>",
+"<y_axis_5th_highest_val>":"<y_axis_inferred_5th_highest_value_approx>", "<y_axis_least_value_val>":"<y_axis_inferred_least_value_approx>"}
 	closest, smallest_diff, ind = -1, 1000, -3
 	for x in numbers:
 		try:
@@ -273,8 +275,12 @@ def find_closest(numbers, target, numbers_labels):
 				ind = numbers.index(closest)
 		except ValueError:
 			continue
-	#return closest, ind
-	return numbers_labels[ind]
+	assigned_label = numbers_labels[ind]
+	#print("\t",numbers)
+	if abs(target - float(closest)) == 0 or assigned_label not in exact_approx: # exact value
+		return assigned_label
+	return exact_approx[assigned_label]
+
 
 
 
@@ -354,21 +360,21 @@ def read_summaries(summary_file, info_basic, info_cal):
 					if t.lower() in basic_text:
 						t_label = list(info_basic.keys())[basic_text.index(t.lower())]
 						labeled_token_i.add(i)
-						ltoken.append((t, i, t_label))
+						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
 						continue
 
 					if t.lower() in basic_raw:
 						t_label = list(info_basic.keys())[basic_raw.index(t.lower())]
 						labeled_token_i.add(i)
-						ltoken.append((t, i, t_label))
+						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
 						continue
 
 					if t.lower() in basic_round:
 						t_label = list(info_basic.keys())[basic_round.index(t.lower())]
 						labeled_token_i.add(i)
-						ltoken.append((t, i, t_label))
+						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
 						continue
 
@@ -376,32 +382,32 @@ def read_summaries(summary_file, info_basic, info_cal):
 					if t.lower() in cal_raw:
 						t_label = list(info_cal.keys())[cal_raw.index(t.lower())]
 						labeled_token_i.add(i)
-						ltoken.append((t, i, t_label))
+						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
 						continue
 
 					if t.lower() in cal_round:
 						t_label = list(info_cal.keys())[cal_round.index(t.lower())]
 						labeled_token_i.add(i)
-						ltoken.append((t, i, t_label))
+						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
 						continue
 
 					if t in units:
 						t_label = "<y_axis_inferred_label>"
 						labeled_token_i.add(i)
-						ltoken.append((t, i, t_label))
+						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
 						#print("---------------------UNIT")	
 						continue
 
 					try:
-						int(t)
+						float(t)
 						# closest match, append, continue
 						# numbers, target, numbers_labels
-						t_label=find_closest(basic_text, int(t), list(info_basic.keys()) )
+						t_label=find_closest(basic_text, float(t), list(info_basic.keys()) )
 						labeled_token_i.add(i)
-						ltoken.append((t, i, t_label))
+						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
 
 					except ValueError:
@@ -496,29 +502,35 @@ def read_summaries(summary_file, info_basic, info_cal):
 
 
 					# for cases where t was split: 23,000 into 23 and ,000 - check if match
-					if t2: # t2 is either None or in ,000 000 ,000,000 000000
+					if t2 or"." in t: # t2 is either None or in ,000 000 ,000,000 000000
+							# or covering cases like 13.5
 						try:
-							int(t)
+							float(t)
 							# closest match, append, continue
 							# numbers, target, numbers_labels
-							t_label=find_closest(basic_text, int(t), list(info_basic.keys()) )
-							
-							#labeled_token_i.add(i)
-							#ltoken.append((t, i, t_label))
-							#ltoken_dict[i] = (t,t_label)
+							t_label=find_closest(basic_text, float(t), list(info_basic.keys()) )
+							#print(t, t_label)
 
 						except ValueError:
-							continue
+							#continue
+							pass
 
 					if t_label:
 						labeled_summary.append((t, t_label))
 
 					if t2 and t2_label:
 						labeled_summary.append((t2, t2_label))
-						print("\t", t, t_label, t2, t2_label)
 
+					
+					#if "," in t and len(t) > 1: print(t) # 4 cases: 
+					#22,500 26,500 19,750 23,000.\\n\\nThe 2000,2005,2010
 
-					else: labeled_summary.append((tokens[j], None))
+					#if t in {"13.5", "8.8", "8.5"}:
+						#print("\t ---", tokens[j], t, t_label, t2_label)
+
+					elif t_label == None:
+						labeled_summary.append((tokens[j], None))
+					#else: labeled_summary.append((tokens[j], None))
 					#continue
 			#for unit in labeled_summary:
 			#	print("\t",unit)
@@ -527,11 +539,6 @@ def read_summaries(summary_file, info_basic, info_cal):
 	return summaries_final
 
 
-def write_file(labeled_summaries, fname):
-	"""
-	labeled summaries
-	"""
-	return None
 
 def get_data_dict(dd,ii):
 	for b,v in dd.items():
