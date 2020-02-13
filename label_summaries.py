@@ -262,6 +262,20 @@ def discourse_labels():
 	dlabel_word, word_dlabel = get_discourse_tokens(xml_file)
 	return dlabel_word, word_dlabel
 
+def find_closest(numbers, target, numbers_labels):
+	""" in a list of numbers, it finds the number closest to the target number and returns the number's index"""
+	closest, smallest_diff, ind = -1, 1000, -3
+	for x in numbers:
+		try:
+			x2=float(x)
+			if abs(x2 - target) < smallest_diff:
+				closest, smallest_diff = x, abs(x2 - target)
+				ind = numbers.index(closest)
+		except ValueError:
+			continue
+	#return closest, ind
+	return numbers_labels[ind]
+
 
 
 def read_summaries(summary_file, info_basic, info_cal):
@@ -269,6 +283,7 @@ def read_summaries(summary_file, info_basic, info_cal):
 	#print(info_basic, info_cal)
 	syns = {"monday":"mon", "tuesday":"tue", "wednesday":"wed", "thursday":"thu", "friday":"fri", "genetics":"genetic", "%": "percent", "$": "dollars", "uk":"u.k.", "u.k.":"uk"}
 	units = {"%", "$", "£", "pounds", "pound", "dollar", "dollars", "percent"}
+	magnitude = {"thousand", "thousands", "k"}
 
 	basic_text = [str(s).lower() for s in list(info_basic.values())]
 	basic_raw = [str(s).lower() for s in list(info_basic.values())]
@@ -293,13 +308,17 @@ def read_summaries(summary_file, info_basic, info_cal):
 	summaries_final = []  # list of labeled summaries for a single plot
 	with open(version_dir+summary_file, "r", encoding="utf8") as f:
 		for line in f:
-			linesplit = line.split()
+			if len(line) < 6:
+				continue
+			
+			line2 = line[3:-4]
+			linesplit = line2.split()
 			if linesplit == []:
 				continue
 			cn,cl = 0,0
 			#tline = word_tokenize(line)
 
-			doc = nlp_en_core(line)
+			doc = nlp_en_core(line2)
 			tokens = [t.text for t in doc]
 			nchunk = [] # noun chunk text, start index, end index, label
 
@@ -327,14 +346,13 @@ def read_summaries(summary_file, info_basic, info_cal):
 			labeled_token_i = set()
 			ltoken = []
 			ltoken_dict = {}
-			if nchunk:
-				pass
+			if False:
+				"nothing, fix this"
 			else:
 				for i,t in enumerate(tokens):
 
 					if t.lower() in basic_text:
 						t_label = list(info_basic.keys())[basic_text.index(t.lower())]
-
 						labeled_token_i.add(i)
 						ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
@@ -376,6 +394,19 @@ def read_summaries(summary_file, info_basic, info_cal):
 						ltoken_dict[i] = (t,t_label)
 						#print("---------------------UNIT")	
 						continue
+
+					try:
+						int(t)
+						# closest match, append, continue
+						# numbers, target, numbers_labels
+						t_label=find_closest(basic_text, int(t), list(info_basic.keys()) )
+						labeled_token_i.add(i)
+						ltoken.append((t, i, t_label))
+						ltoken_dict[i] = (t,t_label)
+
+					except ValueError:
+						continue
+
 			
 			labeled_summary = [] # tuple (token/s, label)
 			checked_j = set()
@@ -384,12 +415,8 @@ def read_summaries(summary_file, info_basic, info_cal):
 
 				if j in checked_j: continue
 				if j in labeled_chunk_ind:
-					#print(labeled_chunk_ind)
-					#print(labeled_chunk_dict)
-					#print(j)
 
 					match = [k for k,tup in labeled_chunk_dict.items() if k[0] == j]
-					#print(match)
 
 					for p1 in match:
 						if len(p1) == 1: checked_j.add(p1[0])
@@ -412,6 +439,31 @@ def read_summaries(summary_file, info_basic, info_cal):
 
 					t = tokens[j]
 					t_label = None
+					t1, t2 = None, None
+					t2_label = None
+
+					if t.endswith("000"):
+						t2_label = "<y_magnitude>"
+
+						if t.endswith(",000") == False: # 30000
+							t = tokens[j][:-3]
+							t2 = tokens[j][-3:]
+
+						if t.endswith(",000") and t.endswith("000,000") == False:
+							t = tokens[j][:-4] # the new numerical token to be checked for labels 
+							t2 = tokens[j][-4:]
+
+						if tokens[j].endswith(",000,000"):
+							t = tokens[j][:-8]
+							t2 = tokens[j][-8:]
+
+						if tokens[j].endswith("000000"):
+							t = tokens[j][:-6]
+							t2 = tokens[j][-6:]
+							
+
+					if t in magnitude: # when magnitude is expressed verbally (k or thousand)
+						t_label = "<y_magnitude>"
 
 					if t in units:
 						t_label = "<y_axis_inferred_label>"
@@ -442,8 +494,28 @@ def read_summaries(summary_file, info_basic, info_cal):
 						t_label = max(current, key=current.get) # use the most frequent label
 						t_label = "<" + t_label + ">"
 
+
+					# for cases where t was split: 23,000 into 23 and ,000 - check if match
+					if t2: # t2 is either None or in ,000 000 ,000,000 000000
+						try:
+							int(t)
+							# closest match, append, continue
+							# numbers, target, numbers_labels
+							t_label=find_closest(basic_text, int(t), list(info_basic.keys()) )
+							
+							#labeled_token_i.add(i)
+							#ltoken.append((t, i, t_label))
+							#ltoken_dict[i] = (t,t_label)
+
+						except ValueError:
+							continue
+
 					if t_label:
 						labeled_summary.append((t, t_label))
+
+					if t2 and t2_label:
+						labeled_summary.append((t2, t2_label))
+						print("\t", t, t_label, t2, t2_label)
 
 
 					else: labeled_summary.append((tokens[j], None))
@@ -481,7 +553,7 @@ if __name__ == "__main__":
 
 	for data_split,path_json in jsons.items():
 		c = 0
-		new_pn = "corpora_v02/run2_chart_summaries/auto_labeled/"
+		new_pn = "corpora_v02/run2_chart_summaries/auto_labeled01/"
 
 		# "batch1/akef_inc_closing_stock_prices_1.txt":("train1", 2) are the items in descriptions_files_json
 		#get_according_filenames = lambda dfs, splitt: [(fname, splitname, image) for fname, (splitname,image) in dfs.items() if splitname == splitt] # TODO won't work of because incorrect syntax (lamda doesn't like if in this way)
@@ -505,8 +577,8 @@ if __name__ == "__main__":
 					newdoc.write("\n")
 				newdoc.write("<end_of_description>")
 				newdoc.write("\n")
-			
+				newdoc.write("\n")
 			newdoc.close()
 		
 
-
+# 1.4 k more labels assigned, bigger recall, precision?
