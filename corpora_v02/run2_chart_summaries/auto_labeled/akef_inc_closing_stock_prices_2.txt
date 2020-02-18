@@ -25,7 +25,7 @@ Monday	<x_axis_label_3rd_highest_value>
 ,
 rising	<slope_up>
 to	<x_axis_range_end>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 62	<y_axis_Scnd_highest_val>
 on
@@ -35,7 +35,7 @@ and	<x_axis_range_end>
 rising	<slope_up>
 again
 to	<x_axis_range_end>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 74	<y_axis_inferred_highest_value_approx>
 on
@@ -400,7 +400,7 @@ over	<y_axis_approx>
 .
 Wednesday	<x_axis_label_highest_value>
 was
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 74	<y_axis_inferred_highest_value_approx>
 .
 Thursday	<x_axis_label_4th_highest_value>
@@ -840,7 +840,7 @@ on
 Thursday	<x_axis_label_4th_highest_value>
 ,
 then	<order_3rd>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 9	<y_axis_inferred_least_value_approx>
 on

@@ -863,7 +863,7 @@ drop
 in
 2014	<x_axis_label_3rd_highest_value>
 with
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 26	<y_axis_3rd_highest_val>
 injuries
 with
@@ -1062,7 +1062,7 @@ the
 deaths
 have
 been
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 an
 average
 of
@@ -1218,7 +1218,7 @@ years
 the
 number
 was
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 25	<y_axis_4th_highest_val>
 .
 <end_of_description>

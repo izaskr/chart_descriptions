@@ -354,7 +354,7 @@ studying
 literature	<x_axis_label_3rd_highest_value>
 ,
 then	<order_3rd>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 for
@@ -559,7 +559,7 @@ followed	<order_Scnd>
 by
 Philosophy	<x_axis_label_Scnd_highest_value>
 with
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 students
@@ -575,7 +575,7 @@ topics
 are
 Literature
 with
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 students
@@ -944,7 +944,7 @@ most	<y_axis_highest_value>
 popular
 choice
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 ,

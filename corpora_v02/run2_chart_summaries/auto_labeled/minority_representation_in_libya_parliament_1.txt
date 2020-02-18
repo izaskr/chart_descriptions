@@ -576,7 +576,7 @@ in
 -	<x_axis_range_end>
 1994	<y_axis_inferred_5th_highest_value_approx>
 to	<x_axis_range_end>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 14	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 in
@@ -714,7 +714,7 @@ seen
 each
 term
 of
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 2.5	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 ,
@@ -968,7 +968,7 @@ chart
 we
 see
 that
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 1990	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
 1994	<y_axis_inferred_5th_highest_value_approx>
@@ -984,7 +984,7 @@ Parliament
 of
 Lybia
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 0.4	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 ,
@@ -1006,7 +1006,7 @@ saw
 a
 huge
 increase	<slope_up>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 2000	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
 2004	<y_axis_inferred_5th_highest_value_approx>
@@ -1015,7 +1015,7 @@ with
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 then	<order_3rd>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 10	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 in

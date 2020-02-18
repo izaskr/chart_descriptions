@@ -40,7 +40,7 @@ figure
 dropped
 again
 to	<x_axis_range_end>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 8.5	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 between	<x_axis_range_start>
@@ -1130,7 +1130,7 @@ and	<x_axis_range_end>
 2015	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
 19	<y_axis_inferred_highest_value_approx>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 .
@@ -1299,7 +1299,7 @@ in
 1990	<y_axis_inferred_5th_highest_value_approx>
 -1994	<y_axis_inferred_5th_highest_value_approx>
 to	<x_axis_range_end>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 in

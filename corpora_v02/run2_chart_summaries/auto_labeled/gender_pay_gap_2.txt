@@ -691,7 +691,7 @@ by
 the
 UK
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 20.5	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 .
@@ -701,7 +701,7 @@ the
 highest	<y_axis_highest_value>
 percentage
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 .

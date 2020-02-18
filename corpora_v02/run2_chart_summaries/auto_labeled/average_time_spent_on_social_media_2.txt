@@ -162,7 +162,7 @@ who
 spend
 on
 average
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 98	<y_axis_inferred_4th_highest_value_approx>
 minutes
 on
@@ -182,7 +182,7 @@ year
 olds
 ,
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 75	<y_axis_inferred_least_value_approx>
 minutes
 .
@@ -692,7 +692,7 @@ lastly
 -	<x_axis_range_end>
 64	<y_axis_inferred_value_add_v1=Scnd_v2=4th>
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 70	<y_axis_inferred_least_value_approx>
 minutes
 .
@@ -832,7 +832,7 @@ Maputo
 24yeqrs
 old
 spent
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 180minites
 on
 social
@@ -972,7 +972,7 @@ group
 -	<x_axis_range_end>
 44	<y_axis_inferred_value_add_v1=3rd_v2=least>
 spend
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 40	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 minutes
 less	<y_axis_approx>
@@ -987,7 +987,7 @@ group
 -	<x_axis_range_end>
 54	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 spend
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 30	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 minutes
 less	<y_axis_approx>
@@ -1097,7 +1097,7 @@ olds
 ,
 who
 spent
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 175	<y_axis_inferred_highest_value_approx>
 minutes
 a
@@ -1687,7 +1687,7 @@ It
 shows
 that
 people
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 the
 age
 of
@@ -1696,7 +1696,7 @@ to	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spent
 roughly
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 180	<y_axis_inferred_highest_value_approx>
 minutes
 on

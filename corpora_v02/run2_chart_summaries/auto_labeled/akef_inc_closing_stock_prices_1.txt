@@ -547,7 +547,7 @@ over	<y_axis_approx>
 on
 Monday	<x_axis_label_highest_value>
 to	<x_axis_range_end>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 on
@@ -810,7 +810,7 @@ a
 smaller	<y_axis_least_value>
 drop
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 62	<y_axis_inferred_3rd_highest_value_approx>
 and	<x_axis_range_end>
@@ -938,7 +938,7 @@ ending
 on
 Friday	<x_axis_label_least_value>
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_value_add_v1=3rd_v2=least>
 ..
@@ -1086,7 +1086,7 @@ a
 continuing
 decline
 to	<x_axis_range_end>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 60	<y_axis_inferred_4th_highest_value_approx>
 and	<x_axis_range_end>

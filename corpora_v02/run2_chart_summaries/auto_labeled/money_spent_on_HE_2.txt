@@ -124,7 +124,7 @@ lowest	<y_axis_least_value>
 spender
 ,
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 147	<y_axis_inferred_least_value_approx>
 million
@@ -387,7 +387,7 @@ spent
 the
 most	<y_axis_highest_value>
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 290	<y_axis_inferred_highest_value_approx>
 million
@@ -452,14 +452,14 @@ followed	<order_Scnd>
 by
 Europe	<x_axis_label_Scnd_highest_value>
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 275	<y_axis_inferred_Scnd_highest_value_approx>
 million
 ,
 then	<order_3rd>
 Asia
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 175	<y_axis_3rd_highest_val>
 million
 and	<x_axis_range_end>
@@ -490,7 +490,7 @@ higher	<y_axis_trend_up>
 education
 ,
 spending
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 290	<y_axis_inferred_highest_value_approx>
 million
@@ -507,7 +507,7 @@ named
 ,
 spending
 only	<y_axis_least_value>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 147	<y_axis_inferred_least_value_approx>
 m
@@ -593,7 +593,7 @@ education
 in
 various
 continents
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 the
 world
 .
@@ -665,7 +665,7 @@ with
 an
 amount
 of
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 290	<y_axis_inferred_highest_value_approx>
 millions
 of
@@ -678,7 +678,7 @@ with
 an
 amount
 of
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 270	<y_axis_inferred_Scnd_highest_value_approx>
 millions
 of
@@ -701,7 +701,7 @@ of
 the
 two
 with
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 170	<y_axis_inferred_3rd_highest_value_approx>
 millions
 of
@@ -791,7 +791,7 @@ comes
 in
 second	<order_Scnd>
 with
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 175	<y_axis_3rd_highest_val>
 million

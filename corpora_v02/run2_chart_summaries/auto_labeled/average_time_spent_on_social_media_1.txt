@@ -659,7 +659,7 @@ of
 -	<x_axis_range_end>
 54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 spend
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 150	<y_axis_highest_value_val>
 minutes
 daily
@@ -740,7 +740,7 @@ are
 very	<y_axis_trend>
 similar
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 75	<y_axis_inferred_value_add_v1=highest_v2=4th>
 minutes
 .
@@ -1039,7 +1039,7 @@ we
 see
 that
 people
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
 24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
@@ -1054,12 +1054,12 @@ media
 followed	<order_Scnd>
 by
 people
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
 34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 spend
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 72	<y_axis_inferred_least_value_approx>
 minutes
 .
@@ -1101,12 +1101,12 @@ spending
 minutes
 while	<y_x_comparison_rest>
 people
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 spent
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 112	<y_axis_inferred_3rd_highest_value_approx>
 minutes
 .
@@ -1296,7 +1296,7 @@ of
 minutes	<y_axis>
 spent
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 150	<y_axis_highest_value_val>
 minutes
 .
@@ -1314,7 +1314,7 @@ were
 the
 lowest	<y_axis_least_value>
 at
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 75	<y_axis_inferred_value_add_v1=highest_v2=4th>
 minutes
 .
@@ -1560,7 +1560,7 @@ use
 social
 media
 for
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 75	<y_axis_inferred_value_add_v1=highest_v2=4th>
 minutes
 each

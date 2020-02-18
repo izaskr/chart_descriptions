@@ -115,7 +115,7 @@ def get_discourse_tokens(corpus):
 					#words_dlabel = {}
 					
 	# add manually
-	words_dlabel["around"] = {"<y_axis_approx>":1}
+	words_dlabel["around"] = {"y_axis_approx":1}
 	return dlabel_words, words_dlabel
 
 """

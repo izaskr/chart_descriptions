@@ -808,7 +808,7 @@ we
 see
 there
 were
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 56	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of

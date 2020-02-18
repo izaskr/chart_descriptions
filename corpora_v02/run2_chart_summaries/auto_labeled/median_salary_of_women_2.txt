@@ -55,7 +55,7 @@ the
 year
 2015	<x_axis_label_least_value>
 to	<x_axis_range_end>
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 16	<y_axis_least_value_val>
 ,000	<y_magnitude>
@@ -391,7 +391,7 @@ women
 in
 najaf
 earned
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 22	<y_axis_inferred_Scnd_highest_value_approx>
 ,000	<y_magnitude>
@@ -674,7 +674,7 @@ growing
 since
 it
 was
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 22.500	<y_axis_inferred_Scnd_highest_value_approx>
 in
@@ -759,7 +759,7 @@ graph
 fluctuates
 starting
 with
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 23	<y_axis_inferred_Scnd_highest_value_approx>
 ,000	<y_magnitude>
@@ -832,7 +832,7 @@ year
 ,
 this
 was
-around	<<y_axis_approx>>
+around	<y_axis_approx>
 £	<y_axis_inferred_label>
 22500	<y_axis_inferred_3rd_highest_value_approx>
 .
