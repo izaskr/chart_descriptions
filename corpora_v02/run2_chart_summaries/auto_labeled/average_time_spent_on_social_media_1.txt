@@ -28,34 +28,34 @@ age
 group
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 spend
 the
 least	<y_axis_least_value>
 time
 with
-78	<y_axis_inferred_4th_highest_value_approx>
-minutes	<y_axis>
+78	<y_axis_inferred_value_add_v1=highest_v2=least>
+minutes
 ,
 closely	<y_axis_trend>
 followed	<order_Scnd>
 by
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 who
 spend
-79	<y_axis_inferred_4th_highest_value_approx>
-minutes	<y_axis>
+79	<y_axis_inferred_value_add_v1=highest_v2=least>
+minutes
 .
 Then	<order_3rd>
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 who
 spend
 110	<y_axis_3rd_highest_val>
-minutes	<y_axis>
+minutes
 .
 After
 that
@@ -65,22 +65,22 @@ age
 group
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 who
 spend
 125	<y_axis_Scnd_highest_val>
-minutes	<y_axis>
+minutes
 and	<x_axis_range_end>
 then	<order_3rd>
 ages
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 ,
 who
 spend
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 .
 <end_of_description>
 
@@ -117,28 +117,28 @@ aged
 between	<x_axis_range_start>
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 ,
 while	<y_x_comparison_rest>
 users
 aged
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 spend
 the
-most
+most	<y_axis_highest_value>
 time
 on
 social
 media
 at
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 a
 day
 .
@@ -172,13 +172,13 @@ group
 age
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 ,
 spend
 just	<y_axis_least_value>
 over	<y_axis_approx>
 120	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 a
 day
 on
@@ -187,9 +187,9 @@ media
 .
 Only	<y_axis_least_value>
 the
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 years
 old
 spend
@@ -197,29 +197,29 @@ longer
 -	<x_axis_range_end>
 roughly
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 a
 day
 .
 The
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 age
 group
 ,
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 age
 group
 ,
 both
 spen
 roughly
-75	<y_axis_4th_highest_val>
-minutes	<y_axis>
+75	<y_axis_inferred_value_add_v1=highest_v2=4th>
+minutes
 a
 day
 on
@@ -227,14 +227,14 @@ social
 media
 ,
 where
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 year
 olds
 average
 110	<y_axis_3rd_highest_val>
-minutes	<y_axis>
+minutes
 .
 <end_of_description>
 
@@ -274,24 +274,24 @@ per
 group
 .
 Ages
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 showed
 the
-highest
+highest	<y_axis_highest_value>
 daily
 usage
 averaging
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 ,
 while	<y_x_comparison_rest>
 the
 age
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 age
 group
 showed
@@ -302,7 +302,7 @@ averaging
 just	<y_axis_least_value>
 over	<y_axis_approx>
 70	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 .
 <end_of_description>
 
@@ -341,12 +341,12 @@ those
 aged
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spend
 just	<y_axis_least_value>
 over	<y_axis_approx>
 120	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 on
 social
 media
@@ -355,11 +355,11 @@ Those
 aged
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 spend
 much	<y_axis_trend>
 less	<y_axis_approx>
@@ -367,8 +367,8 @@ time
 with
 just	<y_axis_least_value>
 under	<y_axis_approx>
-80	<y_axis_inferred_4th_highest_value_approx>
-minutes	<y_axis>
+80	<y_axis_inferred_value_add_v1=highest_v2=least>
+minutes
 on
 social
 media.\\n\\nThis
@@ -378,12 +378,12 @@ with
 those
 between	<x_axis_range_start>
 age
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 spending
 the
-most
+most	<y_axis_highest_value>
 time
 on
 social
@@ -399,7 +399,7 @@ largely
 with
 those
 between	<x_axis_range_start>
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 who
@@ -439,58 +439,58 @@ groups
 Ages
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spent
 122	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 daily
 ,
 ages
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 spent
-87	<y_axis_inferred_4th_highest_value_approx>
-minutes	<y_axis>
+87	<y_axis_inferred_value_add_v1=highest_v2=least>
+minutes
 daily
 ,
 ages
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 spent
-87	<y_axis_inferred_4th_highest_value_approx>
-minutes	<y_axis>
+87	<y_axis_inferred_value_add_v1=highest_v2=least>
+minutes
 daily
 ,
 ages
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 spent
 144	<y_axis_inferred_highest_value_approx>
-minutes	<y_axis>
+minutes
 daily
 ,
 and	<x_axis_range_end>
 ages
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 spent
 104	<y_axis_inferred_3rd_highest_value_approx>
-minutes	<y_axis>
+minutes
 daily
 .
 Overall
 ,
 ages
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 spent
 the
-most
+most	<y_axis_highest_value>
 time
 on
 social
@@ -510,12 +510,12 @@ by
 ages
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 ages
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 equally	<y_axis_trend>
 .
 <end_of_description>
@@ -529,7 +529,7 @@ people
 aged
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 are
 spending
 the
@@ -544,26 +544,26 @@ media
 at
 just	<y_axis_least_value>
 under	<y_axis_approx>
-80	<y_axis_inferred_4th_highest_value_approx>
-minutes	<y_axis>
+80	<y_axis_inferred_value_add_v1=highest_v2=least>
+minutes
 per
 day.\\n\\nWhereas
 those
 aged
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 are
 spending
 the
-most
+most	<y_axis_highest_value>
 time
 on
 social
 media
 at
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 per
 day
 .
@@ -590,12 +590,12 @@ ages
 of
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 an
 average
 of
 124	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 are
 spent
 using
@@ -608,13 +608,13 @@ drop
 off
 to	<x_axis_range_end>
 76	<y_axis_inferred_value_add_v1=highest_v2=least>
-minutes	<y_axis>
+minutes
 for
 people
 aged
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
@@ -622,17 +622,17 @@ and	<x_axis_range_end>
 the
 ages
 of
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 the
 usage
 reaches
 its
-highest
+highest	<y_axis_highest_value>
 at
 152	<y_axis_inferred_highest_value_approx>
-minutes	<y_axis>
+minutes
 per
 day
 ,
@@ -642,10 +642,10 @@ dropping
 down
 to	<x_axis_range_end>
 112	<y_axis_inferred_3rd_highest_value_approx>
-minutes	<y_axis>
+minutes
 for
 ages
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 <end_of_description>
@@ -655,13 +655,13 @@ In
 Maputo
 persons
 of
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 spend
 around	<<y_axis_approx>>
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 daily
 on
 social
@@ -678,26 +678,26 @@ Next	<order_Scnd>
 are
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 with
 125	<y_axis_Scnd_highest_val>
-minutes	<y_axis>
+minutes
 ,
 followed	<order_Scnd>
 by
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 with
 110	<y_axis_3rd_highest_val>
-minutes	<y_axis>
+minutes
 .
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 spend
-75	<y_axis_4th_highest_val>
-minutes	<y_axis>
+75	<y_axis_inferred_value_add_v1=highest_v2=4th>
+minutes
 ,
 about	<y_axis_approx>
 the
@@ -705,7 +705,7 @@ same
 as
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 .
 <end_of_description>
 
@@ -729,11 +729,11 @@ group
 The
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 age
 groups
 are
@@ -741,8 +741,8 @@ very	<y_axis_trend>
 similar
 at
 around	<<y_axis_approx>>
-75	<y_axis_4th_highest_val>
-minutes	<y_axis>
+75	<y_axis_inferred_value_add_v1=highest_v2=4th>
+minutes
 .
  
 \\nThis
@@ -759,31 +759,31 @@ from	<x_axis_range_start>
 the
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 age
 group
 from	<x_axis_range_start>
 over	<y_axis_approx>
 120	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 and	<x_axis_range_end>
 increases	<slope_up>
 again
 with
 age
 group
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 spending
 the
-highest
+highest	<y_axis_highest_value>
 average
 time
 at
 almost	<y_axis_approx>
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 .
 <end_of_description>
 
@@ -809,13 +809,13 @@ can
 see
 that
 ages
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 year
 olds
 spend
-most
+most	<y_axis_highest_value>
 time
 on
 social
@@ -823,7 +823,7 @@ media
 ,
 averaging
 ~150
-minutes	<y_axis>
+minutes
 a
 day
 .
@@ -831,19 +831,19 @@ Next	<order_Scnd>
 is
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 age
 group
 ,
 who
 average
 ~125
-minutes	<y_axis>
+minutes
 a
 day
 .
 Then	<order_3rd>
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 year
@@ -851,7 +851,7 @@ old
 's
 average
 115	<y_axis_inferred_3rd_highest_value_approx>
-minutes	<y_axis>
+minutes
 a
 day
 ,
@@ -860,17 +860,17 @@ both
 the
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 age
 groups
 average
 about	<y_axis_approx>
-75	<y_axis_4th_highest_val>
-minutes	<y_axis>
+75	<y_axis_inferred_value_add_v1=highest_v2=4th>
+minutes
 a
 day
 .
@@ -896,43 +896,43 @@ group
 .
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 to	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 years
 olds
 spend
 124	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 on
 average
 ,
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 to	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 year
 olds
 spend
 72	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 ,
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 to	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 year
 olds
 spend
 68	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 ,
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 to	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 year
 olds
 spend
 148	<y_axis_inferred_highest_value_approx>
-minutes	<y_axis>
+minutes
 and	<x_axis_range_end>
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 to	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 year
@@ -941,13 +941,13 @@ spend
 108	<y_axis_inferred_3rd_highest_value_approx>
 minutes.\\nAge
 group
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 to	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 years
 spend
 the
-most
+most	<y_axis_highest_value>
 time
 on
 social
@@ -964,12 +964,12 @@ on
 social
 media
 is
-highest
+highest	<y_axis_highest_value>
 in
 the
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 percentile
 which
 is
@@ -977,12 +977,12 @@ surprising
 considering
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
 olds
 are
 the
-most
+most	<y_axis_highest_value>
 likely
 age
 group
@@ -991,11 +991,11 @@ be
 .
 \\n25
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 year
 olds
 spend
@@ -1042,10 +1042,10 @@ people
 around	<<y_axis_approx>>
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 spend
 124	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 daily
 on
 social
@@ -1057,11 +1057,11 @@ people
 around	<<y_axis_approx>>
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 spend
 around	<<y_axis_approx>>
 72	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 .
 People
 in
@@ -1070,7 +1070,7 @@ age
 group
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 are
 the
 lowest	<y_axis_least_value>
@@ -1080,47 +1080,47 @@ people
 that
 spend
 70	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 on
 social
 media
 .
 The
-highest
+highest	<y_axis_highest_value>
 group
 was
 the
 age
 group
 of
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 spending
 148	<y_axis_inferred_highest_value_approx>
-minutes	<y_axis>
+minutes
 while	<y_x_comparison_rest>
 people
 around	<<y_axis_approx>>
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 spent
 around	<<y_axis_approx>>
 112	<y_axis_inferred_3rd_highest_value_approx>
-minutes	<y_axis>
+minutes
 .
 <end_of_description>
 
 <start_of_description>
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 year
 old
 spent
 the
-most
+most	<y_axis_highest_value>
 time
 on
 social
@@ -1131,19 +1131,19 @@ daily
 basis
 ,
 at148
-minutes	<y_axis>
+minutes
 .
 On
 average
 ,
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
 old
 spent
 124	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 daily
 on
 social
@@ -1151,7 +1151,7 @@ media
 .
 On
 average
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 year
@@ -1159,7 +1159,7 @@ old
 spent
 spent
 108	<y_axis_inferred_3rd_highest_value_approx>
-minutes	<y_axis>
+minutes
 on
 social
 media
@@ -1180,21 +1180,21 @@ basis
 were
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 year
 old
 at
 76	<y_axis_inferred_value_add_v1=highest_v2=least>
-minutes	<y_axis>
+minutes
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 year
 old
 at
 72	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 .
 <end_of_description>
 
@@ -1224,13 +1224,13 @@ wre
 the
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 year
 olds
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 year
 olds
 who
@@ -1239,14 +1239,14 @@ under	<y_axis_approx>
 80mins
 .
 The
-highest
+highest	<y_axis_highest_value>
 use
 group
 was
 the
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 year
 olds
 who
@@ -1285,12 +1285,12 @@ groups
 \\nThe
 age
 group
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 had
 the
-highest
+highest	<y_axis_highest_value>
 amount
 of
 minutes	<y_axis>
@@ -1298,25 +1298,25 @@ spent
 at
 around	<<y_axis_approx>>
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 .
 \\nWhereas
 age
 groups
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 were
 the
 lowest	<y_axis_least_value>
 at
 around	<<y_axis_approx>>
-75	<y_axis_4th_highest_val>
-minutes	<y_axis>
+75	<y_axis_inferred_value_add_v1=highest_v2=4th>
+minutes
 .
 <end_of_description>
 
@@ -1336,7 +1336,7 @@ age
 groups
 .
 The
-highest
+highest	<y_axis_highest_value>
 time
 spent
 on
@@ -1347,12 +1347,12 @@ by
 the
 group
 aged
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 at
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 and	<x_axis_range_end>
 the
 lowest	<y_axis_least_value>
@@ -1364,11 +1364,11 @@ group
 aged
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 with
 only	<y_axis_least_value>
 65	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 a
 day
 just	<y_axis_least_value>
@@ -1377,7 +1377,7 @@ than
 the
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 ae
 group
 .
@@ -1399,14 +1399,14 @@ usage
 in
 minutes	<y_axis>
 across
-5	<y_axis_inferred_least_value_approx>
+5	<y_axis_inferred_value_mul_v1=highest_v2=least>
 different
 age
 groups
 .
 \\n15
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 year
 olds
 have
@@ -1416,16 +1416,16 @@ of
 just	<y_axis_least_value>
 over	<y_axis_approx>
 120	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 ,
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
  
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 year
 olds
 had
@@ -1436,17 +1436,17 @@ spent
 at
 just	<y_axis_least_value>
 below
-80	<y_axis_inferred_4th_highest_value_approx>
+80	<y_axis_inferred_value_add_v1=highest_v2=least>
 mins
 .
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 year
 olds
 had
 the
-highest
+highest	<y_axis_highest_value>
 number
 of
 minutes	<y_axis>
@@ -1454,14 +1454,14 @@ at
 150	<y_axis_highest_value_val>
 mins
 and	<x_axis_range_end>
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 year
 olds
 were
 110	<y_axis_3rd_highest_val>
-minutes	<y_axis>
+minutes
 daily
 .
 <end_of_description>
@@ -1496,7 +1496,7 @@ group
 that
 spends
 the
-most
+most	<y_axis_highest_value>
 time
 on
 social
@@ -1504,27 +1504,27 @@ media
 -	<x_axis_range_end>
 nearly
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 or
-2.5	<y_axis_inferred_least_value_approx>
+2.5	<y_axis_inferred_value_mul_v1=highest_v2=least>
 hours
 -	<x_axis_range_end>
 is
 aged
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 .
 The
 second	<order_Scnd>
-highest
+highest	<y_axis_highest_value>
 users
 are
 in
 the
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 group
 which
 spends
@@ -1547,11 +1547,11 @@ in
 the
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 age
 groups
 ,
@@ -1561,8 +1561,8 @@ social
 media
 for
 around	<<y_axis_approx>>
-75	<y_axis_4th_highest_val>
-minutes	<y_axis>
+75	<y_axis_inferred_value_add_v1=highest_v2=4th>
+minutes
 each
 day
 on
@@ -1573,7 +1573,7 @@ oldest
 group
 ,
 aged
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 ,
@@ -1584,7 +1584,7 @@ for
 more	<y_axis_trend_up>
 than
 110	<y_axis_3rd_highest_val>
-minutes	<y_axis>
+minutes
 daily
 .
 <end_of_description>
@@ -1606,9 +1606,9 @@ on
 average
 is
 the
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 year
 old
 bracket
@@ -1618,7 +1618,7 @@ an
 average
 of
 150	<y_axis_highest_value_val>
-minutes	<y_axis>
+minutes
 .
 The
 groups
@@ -1631,11 +1631,11 @@ are
 the
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 and	<x_axis_range_end>
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 year
 olds
 .
@@ -1654,12 +1654,12 @@ media
 in
 Maputo
 was
-greatest
+greatest	<y_axis_highest_value>
 in
 the
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 age
 group
 showing
@@ -1668,7 +1668,7 @@ average
 time
 of
 148	<y_axis_inferred_highest_value_approx>
-minutes	<y_axis>
+minutes
 .
 Closely	<y_axis_trend>
 behind	<y_axis_trend_down>
@@ -1676,12 +1676,12 @@ were
 the
 15	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 -	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 age
 group
 at
 124	<y_axis_inferred_Scnd_highest_value_approx>
-minutes	<y_axis>
+minutes
 .
 The
 least	<y_axis_least_value>
@@ -1694,15 +1694,15 @@ by
 the
 35	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 -	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 age
 group
 totalling
 68	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 .
 The
-55	<y_axis_inferred_least_value_approx>
+55	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 -	<x_axis_range_end>
 64	<y_axis_inferred_least_value_approx>
 age
@@ -1711,17 +1711,17 @@ came
 in
 at
 108	<y_axis_inferred_3rd_highest_value_approx>
-minutes	<y_axis>
+minutes
 and	<x_axis_range_end>
 the
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 -	<x_axis_range_end>
-34	<y_axis_inferred_least_value_approx>
+34	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 age
 group
 at
 72	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 .
 <end_of_description>
 
@@ -1734,9 +1734,9 @@ middle
 aged
 people
 (
-45	<y_axis_inferred_least_value_approx>
+45	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 -	<x_axis_range_end>
-54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 )
 spend
 more	<y_axis_trend_up>
@@ -1755,7 +1755,7 @@ group
 Between	<x_axis_range_start>
 25	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 and	<x_axis_range_end>
-44	<y_axis_inferred_least_value_approx>
+44	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 the
 average
 amount
@@ -1768,7 +1768,7 @@ spending
 just	<y_axis_least_value>
 over	<y_axis_approx>
 70	<y_axis_inferred_least_value_approx>
-minutes	<y_axis>
+minutes
 daily
 on
 social

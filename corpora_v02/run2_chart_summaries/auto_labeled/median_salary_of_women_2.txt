@@ -176,7 +176,7 @@ were
 earning
 almost	<y_axis_approx>
 £	<y_axis_inferred_label>
-10	<y_axis_inferred_least_value_approx>
+10	<y_axis_inferred_value_add_v1=highest_v2=least>
 ,000	<y_magnitude>
 less	<y_axis_approx>
 per
@@ -221,7 +221,7 @@ off
 at
 £	<y_axis_inferred_label>
 23,000.\\n\\nThe
-highest
+highest	<y_axis_highest_value>
 salary
 is
 £	<y_axis_inferred_label>
@@ -495,7 +495,7 @@ and	<x_axis_range_end>
 ,
 with
 the
-highest
+highest	<y_axis_highest_value>
 point
 being
 2005	<x_axis_label_highest_value>
@@ -531,7 +531,7 @@ approximately	<y_axis_approx>
 Over	<y_axis_approx>
 the
 next	<order_Scnd>
-5	<y_axis_inferred_least_value_approx>
+5	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 years
 there
 was
@@ -605,7 +605,7 @@ The
 median
 salary
 was
-highest
+highest	<y_axis_highest_value>
 in
 2005	<x_axis_label_highest_value>
 with
@@ -654,7 +654,7 @@ the
 years
 ,
 the
-highest
+highest	<y_axis_highest_value>
 amount
 was
 on
@@ -768,7 +768,7 @@ in
 which
 rose	<slope_up>
 over	<y_axis_approx>
-5	<y_axis_inferred_least_value_approx>
+5	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 years
 to	<x_axis_range_end>
 just	<y_axis_least_value>
@@ -885,7 +885,7 @@ was
 just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-23	<y_axis_Scnd_highest_val>
+23	<y_axis_inferred_Scnd_highest_value_approx>
 pounds	<y_axis_inferred_label>
 a
 year.\\nIn
@@ -905,7 +905,7 @@ was
 just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-20	<y_axis_3rd_highest_val>
+20	<y_axis_inferred_3rd_highest_value_approx>
 pounds	<y_axis_inferred_label>
 a
 year.\\nIn
@@ -1140,7 +1140,7 @@ in
 2015	<x_axis_label_least_value>
 .
 The
-highest
+highest	<y_axis_highest_value>
 is
 2005	<x_axis_label_highest_value>
 at
@@ -1170,7 +1170,7 @@ lies
 between	<x_axis_range_start>
 15	<y_axis_inferred_least_value_approx>
 -	<x_axis_range_end>
-26	<y_axis_highest_value_val>
+26	<y_axis_inferred_highest_value_approx>
 thousand	<y_magnitude>
 pounds	<y_axis_inferred_label>
 over	<y_axis_approx>
@@ -1185,7 +1185,7 @@ it
 was
 at
 the
-highest
+highest	<y_axis_highest_value>
 ,
 but
 the
@@ -1252,11 +1252,11 @@ women
 in
 Najaf
 per
-5	<y_axis_inferred_least_value_approx>
+5	<y_axis_inferred_value_add_v1=highest_v2=3rd>
 years
 started
 fairly
-high	<y_axis_trend_up>
+high	<y_axis_highest_value>
 in
 the
 table
@@ -1267,7 +1267,7 @@ year
 and	<x_axis_range_end>
 showed
 its
-highest
+highest	<y_axis_highest_value>
 in
 2005	<x_axis_label_highest_value>
 being

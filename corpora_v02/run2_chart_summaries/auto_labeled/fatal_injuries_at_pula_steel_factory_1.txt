@@ -214,7 +214,7 @@ graph
 shows
 that
 the
-highest
+highest	<y_axis_highest_value>
 number
 of
 fatalities
@@ -540,7 +540,7 @@ averaging
 above	<y_axis_trend_up>
 25	<y_axis_4th_highest_val>
 .
-Most
+Most	<y_axis_highest_value>
 was
 in
 2013	<x_axis_label_highest_value>
@@ -738,7 +738,7 @@ in
 2013	<x_axis_label_highest_value>
 had
 the
-highest
+highest	<y_axis_highest_value>
 number
 of
 injuries
@@ -790,7 +790,7 @@ this
 average
 unfortunately
 stayed
-high	<y_axis_trend_up>
+high	<y_axis_highest_value>
 until
 2016	<x_axis_label_4th_highest_value>
 when
@@ -895,7 +895,7 @@ by
 
 <start_of_description>
 The
-highest
+highest	<y_axis_highest_value>
 number
 of
 fatal
@@ -1015,7 +1015,7 @@ this
 graph
 .
 the
-highest
+highest	<y_axis_highest_value>
 amount
 was
 in
@@ -1116,7 +1116,7 @@ was
 %	<y_axis_inferred_label>
 ,
 the
-highest
+highest	<y_axis_highest_value>
 fatalities
 occured
 in
@@ -1193,7 +1193,7 @@ number
 of
 fatalities
 was
-highest
+highest	<y_axis_highest_value>
 at
 32	<y_axis_highest_value_val>
 .
@@ -1244,7 +1244,7 @@ recorded
 Compared	<y_x_comparison>
 to	<x_axis_range_end>
 a
-high	<y_axis_trend_up>
+high	<y_axis_highest_value>
 of
 32	<y_axis_highest_value_val>
 death
@@ -1367,7 +1367,7 @@ in
 2016	<x_axis_label_4th_highest_value>
 .
 The
-most
+most	<y_axis_highest_value>
 fatalities
 were
 recorded

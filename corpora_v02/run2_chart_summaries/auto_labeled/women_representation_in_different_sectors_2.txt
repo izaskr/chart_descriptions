@@ -28,7 +28,7 @@ was
 .
 In
 the
-Tech	<x_axis_label_Scnd_highest_value>
+Tech
 group
 this
 figure
@@ -42,7 +42,7 @@ The
 percentage
 for
 the
-Insurance	<x_axis_label_highest_value>
+Insurance
 sector
 was
 even
@@ -202,14 +202,14 @@ chart
 we
 see
 that
-highest
+highest	<y_axis_highest_value>
 percentage
 of
 women
 are
 in
 the
-insurance	<x_axis_label_highest_value>
+insurance
 sector
 at
 65%.\\n\\nThe
@@ -234,7 +234,7 @@ not
 far
 behind	<y_axis_trend_down>
 by
-Tech	<x_axis_label_Scnd_highest_value>
+Tech
 sector.\\n\\nThere
 is
 a
@@ -244,7 +244,7 @@ difference
 in
 representation
 between	<x_axis_range_start>
-insurance	<x_axis_label_highest_value>
+insurance
 and	<x_axis_range_end>
 law
 firms
@@ -304,7 +304,7 @@ Benoni
 Insursnce
 is
 the
-highest
+highest	<y_axis_highest_value>
 at
 64	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -360,7 +360,7 @@ representing
 financial groups	<x_axis_label_3rd_highest_value>
 .
 The
-tech	<x_axis_label_Scnd_highest_value>
+tech
 groups
 had
 women
@@ -370,7 +370,7 @@ about	<y_axis_approx>
 62	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 .
-Insurance	<x_axis_label_highest_value>
+Insurance
 groups
 had
 slightly
@@ -406,9 +406,9 @@ sectors
 in
 Benoni
 the
-highest
+highest	<y_axis_highest_value>
 being
-insurance	<x_axis_label_highest_value>
+insurance
 at
 65	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -435,7 +435,7 @@ Female
 representation
 in
 the
-Insurance	<x_axis_label_highest_value>
+Insurance
 sector
 in
 Benoni
@@ -483,7 +483,7 @@ sectors
 Insurance	<x_axis_label_highest_value>
 has
 the
-highest
+highest	<y_axis_highest_value>
 representtation
 at
 65	<y_axis_highest_value_val>
@@ -505,7 +505,7 @@ appear
 to	<x_axis_range_end>
 have
 the
-most
+most	<y_axis_highest_value>
 equal
 representation
 with
@@ -531,7 +531,7 @@ sectors
 in
 Benoni
 .
-Most
+Most	<y_axis_highest_value>
 woman
 are
 representative
@@ -556,10 +556,10 @@ firms
 .
 The
 second	<order_Scnd>
-highest
+highest	<y_axis_highest_value>
 representation
 was
-tech	<x_axis_label_Scnd_highest_value>
+tech
 with
 62	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -586,14 +586,14 @@ in
 Benoni
 .
 The
-highest
+highest	<y_axis_highest_value>
 representation
 can
 be
 found
 in
 the
-Insurance	<x_axis_label_highest_value>
+Insurance
 group
 with
 a
@@ -611,7 +611,7 @@ sector
 with
 around	<<y_axis_approx>>
 36%.\\nThe
-tech	<x_axis_label_Scnd_highest_value>
+tech
 sector
 has
 a
@@ -653,7 +653,7 @@ insurance	<x_axis_label_highest_value>
 which
 is
 the
-highest
+highest	<y_axis_highest_value>
 with
 65	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -714,11 +714,11 @@ over	<y_axis_approx>
 %	<y_axis_inferred_label>
 of
 the
-tech	<x_axis_label_Scnd_highest_value>
+tech
 sector
 .
 The
-insurance	<x_axis_label_highest_value>
+insurance
 sector
 is
 even
@@ -765,9 +765,9 @@ sectors
 Financial
 Groups
 ,
-Tech	<x_axis_label_Scnd_highest_value>
+Tech
 ,
-Insurance	<x_axis_label_highest_value>
+Insurance
 and	<x_axis_range_end>
 Law
 Firms
@@ -820,14 +820,14 @@ different
 sectors
 in
 Benoni.\\nThe
-highest
+highest	<y_axis_highest_value>
 representation
 was
 65	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 in
 the
-insurance	<x_axis_label_highest_value>
+insurance
 sector
 followed	<order_Scnd>
 by
@@ -835,7 +835,7 @@ by
 %	<y_axis_inferred_label>
 in
 the
-tech	<x_axis_label_Scnd_highest_value>
+tech
 sector
 ,
 50	<y_axis_3rd_highest_val>
@@ -865,7 +865,7 @@ in
 Benoni
 .
 The
-highest
+highest	<y_axis_highest_value>
 with
 women
 representation
@@ -880,7 +880,7 @@ Financial
 is
 the
 third	<order_3rd>
-highest
+highest	<y_axis_highest_value>
 and	<x_axis_range_end>
 Law
 firms
@@ -920,9 +920,9 @@ of
 women
 employed
 in
-Tech	<x_axis_label_Scnd_highest_value>
+Tech
 and	<x_axis_range_end>
-Insurance	<x_axis_label_highest_value>
+Insurance
 sectors.\\n\\nWomen
 appear
 to	<x_axis_range_end>
@@ -958,7 +958,7 @@ we
 see
 that
 the
-highest
+highest	<y_axis_highest_value>
 percentage
 of
 women
@@ -1001,10 +1001,10 @@ represented
 in
 Benoni
 is
-largest
+largest	<y_axis_highest_value>
 in
 the
-insurance	<x_axis_label_highest_value>
+insurance
 sector
 ,
 at
@@ -1094,7 +1094,7 @@ The
 sector
 with
 the
-highest
+highest	<y_axis_highest_value>
 amount
 is
 insurance	<x_axis_label_highest_value>
@@ -1110,7 +1110,7 @@ it
 Other
 sectors
 like
-Tech	<x_axis_label_Scnd_highest_value>
+Tech
 and	<x_axis_range_end>
 Financial
 Groups
@@ -1170,7 +1170,7 @@ roughly
 represented
 in
 the
-Tech	<x_axis_label_Scnd_highest_value>
+Tech
 sector
 and	<x_axis_range_end>
 roughly
@@ -1182,11 +1182,11 @@ Law Firms	<x_axis_label_least_value>
 There
 is
 the
-greatest
+greatest	<y_axis_highest_value>
 representation
 in
 the
-Insurance	<x_axis_label_highest_value>
+Insurance
 sector
 at
 roughly

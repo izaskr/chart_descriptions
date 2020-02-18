@@ -36,7 +36,7 @@ in
 -	<x_axis_range_end>
 1994	<y_axis_inferred_5th_highest_value_approx>
 ,
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 1995	<y_axis_inferred_5th_highest_value_approx>
@@ -97,7 +97,7 @@ every
 years
 -	<x_axis_range_end>
 just	<y_axis_least_value>
-0.2	<y_axis_inferred_least_value_approx>
+0.2	<y_axis_inferred_value_mul_v1=5th_v2=3rd>
 %	<y_axis_inferred_label>
 in
 the
@@ -140,7 +140,7 @@ to	<x_axis_range_end>
 ,
 displayed
 in
-5	<y_axis_inferred_value_mul_v1=3rd_v2=5th>
+5	<y_axis_inferred_value_add_v1=Scnd_v2=4th>
 year
 increments
 .
@@ -158,7 +158,7 @@ minorities
 increasing	<slope_up>
 to	<x_axis_range_end>
 roughly
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 between	<x_axis_range_start>
 1995	<y_axis_inferred_5th_highest_value_approx>
@@ -223,7 +223,7 @@ minorities
 across
 periods
 of
-5	<y_axis_inferred_value_mul_v1=3rd_v2=5th>
+5	<y_axis_inferred_value_add_v1=Scnd_v2=4th>
 years
 starting
 from	<x_axis_range_start>
@@ -245,7 +245,7 @@ representation
 ,
 going
 from	<x_axis_range_start>
-1	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
  
 minority
@@ -255,7 +255,7 @@ parliament
 between	<x_axis_range_start>
 1990	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
-94	<y_axis_inferred_highest_value_approx>
+94	<y_axis_inferred_value_mul_v1=highest_v2=least>
 ,
 to	<x_axis_range_end>
 14	<y_axis_highest_value_val>
@@ -263,7 +263,7 @@ in
 the
 2015	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
-19	<y_axis_inferred_highest_value_approx>
+19	<y_axis_inferred_value_mul_v1=3rd_v2=least>
 time
 period
 .
@@ -315,10 +315,10 @@ its
 lowest	<y_axis_least_value>
 at
 under	<y_axis_approx>
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 (
-0.25	<y_axis_inferred_least_value_approx>
+0.25	<y_axis_inferred_value_mul_v1=least_v2=5th>
 %	<y_axis_inferred_label>
 ?
 )
@@ -366,7 +366,7 @@ had
 increased	<slope_up>
 to	<x_axis_range_end>
 about	<y_axis_approx>
-12.25	<y_axis_inferred_Scnd_highest_value_approx>
+12.25	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 finally
@@ -380,7 +380,7 @@ reached
 an
 all
 time
-high	<y_axis_trend_up>
+high	<y_axis_highest_value>
 of
 14	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -416,7 +416,7 @@ has
 increased	<slope_up>
 from	<x_axis_range_start>
 <
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
@@ -444,7 +444,7 @@ Lybia
 had
 less	<y_axis_approx>
 than
-1	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 of
 minorities
@@ -461,7 +461,7 @@ to	<x_axis_range_end>
 slightly
 more	<y_axis_trend_up>
 than
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 Between	<x_axis_range_start>
@@ -472,7 +472,7 @@ minorities
 had
 more	<y_axis_trend_up>
 than
-7	<y_axis_inferred_value_mul_v1=highest_v2=5th>
+7	<y_axis_inferred_value_add_v1=4th_v2=least>
 %	<y_axis_inferred_label>
 representation
 .
@@ -531,7 +531,7 @@ parliament
 from	<x_axis_range_start>
 a
 lowly
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 during
@@ -569,7 +569,7 @@ from	<x_axis_range_start>
 a
 fraction
 of
-1	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
@@ -597,7 +597,7 @@ steadily	<y_axis_trend>
 ,
 with
 the
-biggest
+biggest	<y_axis_highest_value>
 step
 being
 from	<x_axis_range_start>
@@ -606,12 +606,12 @@ under	<y_axis_approx>
 %	<y_axis_inferred_label>
 to	<x_axis_range_end>
 nearly
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_value_add_v1=3rd_v2=5th>
 %	<y_axis_inferred_label>
 in
 2000	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
-1004	<y_axis_inferred_highest_value_approx>
+1004	<y_axis_inferred_value_mul_v1=highest_v2=least>
 .
 <end_of_description>
 
@@ -630,12 +630,12 @@ Parliament
 over	<y_axis_approx>
 the
 last	<y_axis_least_value>
-30	<y_axis_inferred_highest_value_approx>
+30	<y_axis_inferred_value_mul_v1=highest_v2=least>
 years.\\nOver
 the
 period
 of
-30	<y_axis_inferred_highest_value_approx>
+30	<y_axis_inferred_value_mul_v1=highest_v2=least>
 years
 representation
 has
@@ -671,7 +671,7 @@ from	<x_axis_range_start>
 to	<x_axis_range_end>
 just	<y_axis_least_value>
 over	<y_axis_approx>
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 more	<y_axis_trend_up>
@@ -680,12 +680,12 @@ quadruple
 .
  
 \\nThe
-biggest
+biggest	<y_axis_highest_value>
 increase	<slope_up>
 was
 seen
 between	<x_axis_range_start>
-199	<y_axis_inferred_highest_value_approx>
+199	<y_axis_inferred_value_mul_v1=highest_v2=least>
 -	<x_axis_range_end>
 1999	<y_axis_inferred_5th_highest_value_approx>
 and	<x_axis_range_end>
@@ -696,7 +696,7 @@ the
 terms
 ,
 from	<x_axis_range_start>
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 up
 to	<x_axis_range_end>
@@ -725,11 +725,11 @@ down
 of
 this
 to	<x_axis_range_end>
-1.5	<y_axis_inferred_5th_highest_value_approx>
+1.5	<y_axis_inferred_value_mul_v1=highest_v2=3rd>
 %	<y_axis_inferred_label>
 in
 the
-most
+most	<y_axis_highest_value>
 recent
 change
 of
@@ -807,7 +807,7 @@ to	<x_axis_range_end>
 1994	<y_axis_inferred_5th_highest_value_approx>
 there
 were
-0.2	<y_axis_inferred_least_value_approx>
+0.2	<y_axis_inferred_value_mul_v1=5th_v2=3rd>
 %	<y_axis_inferred_label>
 of
 minorities
@@ -818,7 +818,7 @@ to	<x_axis_range_end>
 1999	<y_axis_inferred_5th_highest_value_approx>
 there
 were
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 minorities
@@ -828,7 +828,7 @@ to	<x_axis_range_end>
 2004	<y_axis_inferred_5th_highest_value_approx>
 there
 were
-7.2	<y_axis_inferred_4th_highest_value_approx>
+7.2	<y_axis_inferred_value_add_v1=4th_v2=least>
 %	<y_axis_inferred_label>
 of
 minorities
@@ -848,7 +848,7 @@ to	<x_axis_range_end>
 2014	<y_axis_inferred_5th_highest_value_approx>
 there
 were
-12.4	<y_axis_inferred_Scnd_highest_value_approx>
+12.4	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 of
 minorities
@@ -888,7 +888,7 @@ parliament
 of
 lybia
 is
-highest
+highest	<y_axis_highest_value>
 in
 2015	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
@@ -905,10 +905,10 @@ doubled
 from	<x_axis_range_start>
 1995	<y_axis_inferred_5th_highest_value_approx>
 from	<x_axis_range_start>
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 to	<x_axis_range_end>
-7	<y_axis_inferred_value_mul_v1=highest_v2=5th>
+7	<y_axis_inferred_value_add_v1=4th_v2=least>
 %	<y_axis_inferred_label>
 in
 2000	<y_axis_inferred_5th_highest_value_approx>
@@ -930,7 +930,7 @@ average
 from	<x_axis_range_start>
 less	<y_axis_approx>
 than
-1	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
@@ -1114,7 +1114,7 @@ Between	<x_axis_range_start>
 there
 was
 under	<y_axis_approx>
-1	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 representation
 ,
@@ -1122,18 +1122,18 @@ but
 this
 increased	<slope_up>
 to	<x_axis_range_end>
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 between	<x_axis_range_start>
-95	<y_axis_inferred_highest_value_approx>
+95	<y_axis_inferred_value_mul_v1=highest_v2=least>
 -	<x_axis_range_end>
-99	<y_axis_inferred_highest_value_approx>
+99	<y_axis_inferred_value_mul_v1=highest_v2=least>
 and	<x_axis_range_end>
 this
 quadrupled
 to	<x_axis_range_end>
 nearly
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_value_add_v1=3rd_v2=5th>
 %	<y_axis_inferred_label>
 between	<x_axis_range_start>
 2000	<y_axis_inferred_5th_highest_value_approx>
@@ -1146,7 +1146,7 @@ there
 has
 been
 a
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 rise	<slope_up>
 approximately	<y_axis_approx>
@@ -1220,7 +1220,7 @@ years
 from	<x_axis_range_start>
 less	<y_axis_approx>
 than
-1	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
@@ -1270,7 +1270,7 @@ at
 this
 rises
 to	<x_axis_range_end>
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 1995	<y_axis_inferred_5th_highest_value_approx>
@@ -1285,7 +1285,7 @@ a
 big
 jump
 to	<x_axis_range_end>
-7.2	<y_axis_inferred_4th_highest_value_approx>
+7.2	<y_axis_inferred_value_add_v1=4th_v2=least>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 10	<y_axis_3rd_highest_val>
@@ -1320,7 +1320,7 @@ this
 has
 been
 the
-highest
+highest	<y_axis_highest_value>
 recorded
 showing
 an
@@ -1382,7 +1382,7 @@ more	<y_axis_trend_up>
 than
 doubles
 to	<x_axis_range_end>
-2	<y_axis_5th_highest_val>
+2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 1995	<y_axis_inferred_5th_highest_value_approx>
@@ -1391,7 +1391,7 @@ rising	<slope_up>
 significantly	<y_axis_trend>
 to	<x_axis_range_end>
 over	<y_axis_approx>
-7	<y_axis_inferred_value_mul_v1=highest_v2=5th>
+7	<y_axis_inferred_value_add_v1=4th_v2=least>
 %	<y_axis_inferred_label>
 in
 2000	<y_axis_inferred_5th_highest_value_approx>
@@ -1435,7 +1435,7 @@ parliament
 from	<x_axis_range_start>
 less	<y_axis_approx>
 than
-1	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
@@ -1507,7 +1507,7 @@ the
 period
 2015	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
-19	<y_axis_inferred_highest_value_approx>
+19	<y_axis_inferred_value_mul_v1=3rd_v2=least>
 .
 <end_of_description>
 
@@ -1525,7 +1525,7 @@ has
 steadily	<y_axis_trend>
 increased	<slope_up>
 over	<y_axis_approx>
-39	<y_axis_inferred_highest_value_approx>
+39	<y_axis_inferred_value_mul_v1=highest_v2=least>
 years
 .
  
@@ -1550,7 +1550,7 @@ parliament
 between	<x_axis_range_start>
 2015	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
-19	<y_axis_inferred_highest_value_approx>
+19	<y_axis_inferred_value_mul_v1=3rd_v2=least>
 being
 a
 minority

@@ -41,7 +41,7 @@ write_yn = args["write"]
 write_file = False
 if write_yn in {"y", "yes"}: write_file = True
 if write_yn not in {"y","n", "yes", "no"}: sys.exit("Use 'y' or 'n' as value for -write")
-
+if write_yn in {"n", "no"}: sys.exit("Parser currently supports only writing mode")
 
 version_dir = "corpora_v02/run2_chart_summaries/"
 description_files = ["batch1/akef_inc_closing_stock_prices_1.txt",
@@ -262,7 +262,8 @@ def discourse_labels():
 	dlabel_word, word_dlabel = get_discourse_tokens(xml_file)
 	return dlabel_word, word_dlabel
 
-def find_closest(numbers, target, numbers_labels):
+
+def find_closest(target, numbers, numbers_labels):
 	""" in a list of numbers, it finds the number closest to the target number and returns the number's index"""
 	exact_approx = {"<y_axis_highest_value_val>":"<y_axis_inferred_highest_value_approx>", "<y_axis_Scnd_highest_val>":"<y_axis_inferred_Scnd_highest_value_approx>", "<y_axis_3rd_highest_val>":"<y_axis_inferred_3rd_highest_value_approx>", "<y_axis_4th_highest_val>":"<y_axis_inferred_4th_highest_value_approx>",
 "<y_axis_5th_highest_val>":"<y_axis_inferred_5th_highest_value_approx>", "<y_axis_least_value_val>":"<y_axis_inferred_least_value_approx>"}
@@ -273,19 +274,25 @@ def find_closest(numbers, target, numbers_labels):
 			if abs(x2 - target) < smallest_diff:
 				closest, smallest_diff = x, abs(x2 - target)
 				ind = numbers.index(closest)
+				#print("\t", target, x2, smallest_diff, numbers_labels[ind], numbers)
 		except ValueError:
 			continue
 	assigned_label = numbers_labels[ind]
 	#print("\t",numbers)
-	if abs(target - float(closest)) == 0 or assigned_label not in exact_approx: # exact value
+	if smallest_diff == 0 or assigned_label not in exact_approx: # exact value
 		return assigned_label
-	return exact_approx[assigned_label]
+	return exact_approx[assigned_label] # not exact, return label for approximation: only for bar heights, not * +
 
 
 
 
 def read_summaries(summary_file, info_basic, info_cal):
-	""" summary_file is a path to the file with summaries from a single plot, one summary per line """
+	"""
+	summary_file is a path to the file with summaries from a single plot, one summary per line 
+	summary_file is a txt file containing summaries belonging to one chart
+	info_basic is a dict with basic plot info, such as bar1: height1, bar2: height2
+	info_cal is a a dict with calculated info, such as mul_bar1_bar2: k, so multiplication and addition
+	"""
 	#print(info_basic, info_cal)
 	syns = {"monday":"mon", "tuesday":"tue", "wednesday":"wed", "thursday":"thu", "friday":"fri", "genetics":"genetic", "%": "percent", "$": "dollars", "uk":"u.k.", "u.k.":"uk"}
 	units = {"%", "$", "£", "pounds", "pound", "dollar", "dollars", "percent"}
@@ -310,6 +317,11 @@ def read_summaries(summary_file, info_basic, info_cal):
 		else:
 			cal_round.append(str(s).lower())
 	#print(basic_text, basic_raw, basic_round) # _text not really used
+
+	# join the two lists, starting with the calculated so that the last closest value will probably be from basic
+	basic_cal_text = cal_text + basic_text
+	basic_cal_values = list(info_cal.keys()) + list(info_basic.keys())
+	#print(basic_cal_text, "\n", basic_cal_values)
 
 	summaries_final = []  # list of labeled summaries for a single plot
 	with open(version_dir+summary_file, "r", encoding="utf8") as f:
@@ -357,6 +369,7 @@ def read_summaries(summary_file, info_basic, info_cal):
 			else:
 				for i,t in enumerate(tokens):
 
+					""" 
 					if t.lower() in basic_text:
 						t_label = list(info_basic.keys())[basic_text.index(t.lower())]
 						labeled_token_i.add(i)
@@ -378,7 +391,6 @@ def read_summaries(summary_file, info_basic, info_cal):
 						ltoken_dict[i] = (t,t_label)
 						continue
 
-
 					if t.lower() in cal_raw:
 						t_label = list(info_cal.keys())[cal_raw.index(t.lower())]
 						labeled_token_i.add(i)
@@ -392,6 +404,7 @@ def read_summaries(summary_file, info_basic, info_cal):
 						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
 						continue
+					"""
 
 					if t in units:
 						t_label = "<y_axis_inferred_label>"
@@ -405,9 +418,11 @@ def read_summaries(summary_file, info_basic, info_cal):
 						float(t)
 						# closest match, append, continue
 						# numbers, target, numbers_labels
-						t_label=find_closest(basic_text, float(t), list(info_basic.keys()) )
+
+						t_label=find_closest(float(t), basic_cal_text, basic_cal_values)
 						labeled_token_i.add(i)
-						#ltoken.append((t, i, t_label))
+						#input("next token")
+
 						ltoken_dict[i] = (t,t_label)
 
 					except ValueError:
@@ -474,25 +489,23 @@ def read_summaries(summary_file, info_basic, info_cal):
 					if t in units:
 						t_label = "<y_axis_inferred_label>"
 
-					if t.lower() in cal_raw:
-						t_label = list(info_cal.keys())[cal_raw.index(t.lower())]
+					#if t.lower() in cal_raw:
+					#	t_label = list(info_cal.keys())[cal_raw.index(t.lower())]
 
 
-					if t.lower() in cal_round:
-						t_label = list(info_cal.keys())[cal_round.index(t.lower())]
+					#if t.lower() in cal_round:
+					#	t_label = list(info_cal.keys())[cal_round.index(t.lower())]
+
+					#if t.lower() in basic_raw:
+					#	t_label = list(info_basic.keys())[basic_raw.index(t.lower())]
 
 
-
-					if t.lower() in basic_raw:
-						t_label = list(info_basic.keys())[basic_raw.index(t.lower())]
-
-
-					if t.lower() in basic_round:
-						t_label = list(info_basic.keys())[basic_round.index(t.lower())]
+					#if t.lower() in basic_round:
+					#	t_label = list(info_basic.keys())[basic_round.index(t.lower())]
 						
 
-					if t.lower() in basic_text:
-						t_label = list(info_basic.keys())[basic_text.index(t.lower())]
+					#if t.lower() in basic_text:
+					#	t_label = list(info_basic.keys())[basic_text.index(t.lower())]
 
 
 					if t.lower() in word_dlabel:
@@ -508,7 +521,7 @@ def read_summaries(summary_file, info_basic, info_cal):
 							float(t)
 							# closest match, append, continue
 							# numbers, target, numbers_labels
-							t_label=find_closest(basic_text, float(t), list(info_basic.keys()) )
+							t_label=find_closest(float(t), basic_cal_text, basic_cal_values)
 							#print(t, t_label)
 
 						except ValueError:
@@ -586,6 +599,7 @@ if __name__ == "__main__":
 				newdoc.write("\n")
 				newdoc.write("\n")
 			newdoc.close()
+			#input("next file")
 		
 
 # 1.4 k more labels assigned, bigger recall, precision?

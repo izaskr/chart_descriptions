@@ -17,7 +17,7 @@ different
 continents
 .
 The
-most
+most	<y_axis_highest_value>
 money
 spent
 was
@@ -95,11 +95,11 @@ in
 2010.\\n\\nAfrica
 has
 the
-highest
+highest	<y_axis_highest_value>
 amount
 at
 £	<y_axis_inferred_label>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 ,
 closely	<y_axis_trend>
@@ -108,7 +108,7 @@ by
 Europe	<x_axis_label_Scnd_highest_value>
 on
 £	<y_axis_inferred_label>
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 million
 .
 Asia	<x_axis_label_3rd_highest_value>
@@ -204,7 +204,7 @@ different
 continents
 of
 North
-Africa	<x_axis_label_highest_value>
+Africa
 ,
 Europe	<x_axis_label_Scnd_highest_value>
 ,
@@ -219,7 +219,7 @@ almost	<y_axis_approx>
 million
 (
 £	<y_axis_inferred_label>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 m
 )
 on
@@ -227,7 +227,7 @@ Higher	<y_axis_trend_up>
 Education
 at
 the
-highest
+highest	<y_axis_highest_value>
 continent
 .
  
@@ -258,7 +258,7 @@ Africa	<x_axis_label_highest_value>
 are
 the
 two
-highest
+highest	<y_axis_highest_value>
 with
 Europe	<x_axis_label_Scnd_highest_value>
 spending
@@ -284,19 +284,19 @@ year
 2010.\\n\\nNorth
 America
 spent
-148	<y_axis_least_value_val>
+148	<y_axis_inferred_least_value_approx>
 million
 pounds	<y_axis_inferred_label>
 .
  
 Europe	<x_axis_label_Scnd_highest_value>
 spent
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 .
  
-Asia	<x_axis_label_3rd_highest_value>
+Asia
 170	<y_axis_inferred_3rd_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
@@ -304,9 +304,9 @@ and	<x_axis_range_end>
 Africa	<x_axis_label_highest_value>
 spent
 the
-most
+most	<y_axis_highest_value>
 with
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 millon
 pounds	<y_axis_inferred_label>
 .
@@ -333,9 +333,9 @@ in
 Africa	<x_axis_label_highest_value>
 spent
 the
-most
+most	<y_axis_highest_value>
 at
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 ,
@@ -349,11 +349,11 @@ pounds	<y_axis_inferred_label>
 .
 Europe	<x_axis_label_Scnd_highest_value>
 spent
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 and	<x_axis_range_end>
-Asia	<x_axis_label_3rd_highest_value>
+Asia
 170	<y_axis_inferred_3rd_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
@@ -385,11 +385,11 @@ year
 2010.\\nAfrica
 spent
 the
-most
+most	<y_axis_highest_value>
 at
 around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 .
 Europe	<x_axis_label_Scnd_highest_value>
@@ -400,7 +400,7 @@ line
 with
 spending
 £	<y_axis_inferred_label>
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 million
 .
 Asia	<x_axis_label_3rd_highest_value>
@@ -442,7 +442,7 @@ in
 Africa	<x_axis_label_highest_value>
 spent
 the
-most
+most	<y_axis_highest_value>
 at
 almost	<y_axis_approx>
 300	<y_axis_inferred_highest_value_approx>
@@ -457,7 +457,7 @@ around	<<y_axis_approx>>
 million
 ,
 then	<order_3rd>
-Asia	<x_axis_label_3rd_highest_value>
+Asia
 at
 around	<<y_axis_approx>>
 175	<y_axis_3rd_highest_val>
@@ -483,7 +483,7 @@ of
 Africa	<x_axis_label_highest_value>
 was
 the
-biggest
+biggest	<y_axis_highest_value>
 spender
 on
 higher	<y_axis_trend_up>
@@ -492,7 +492,7 @@ education
 spending
 around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 .
 North America	<x_axis_label_least_value>
@@ -543,11 +543,11 @@ continents
 Africa	<x_axis_label_highest_value>
 spends
 the
-highest
+highest	<y_axis_highest_value>
 amount
 at
 £	<y_axis_inferred_label>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 and	<x_axis_range_end>
 North America	<x_axis_label_least_value>
@@ -556,18 +556,18 @@ the
 least	<y_axis_least_value>
 at
 £	<y_axis_inferred_label>
-145	<y_axis_inferred_least_value_approx>
+145	<y_axis_inferred_value_add_v1=highest_v2=least>
 million-
 a
 difference
 of
-50	<y_axis_inferred_least_value_approx>
+50	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 .
 Europe	<x_axis_label_Scnd_highest_value>
 spends
 £	<y_axis_inferred_label>
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 million
 and	<x_axis_range_end>
 Asia	<x_axis_label_3rd_highest_value>
@@ -607,7 +607,7 @@ higher	<y_axis_trend_up>
 education
 is
 £	<y_axis_inferred_label>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 .
 In
@@ -622,7 +622,7 @@ Europe	<x_axis_label_Scnd_highest_value>
 they
 spent
 £	<y_axis_inferred_label>
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 million
 and	<x_axis_range_end>
 in
@@ -658,7 +658,7 @@ continent
 how
 spent
 the
-most
+most	<y_axis_highest_value>
 was
 Africa	<x_axis_label_highest_value>
 with
@@ -666,7 +666,7 @@ an
 amount
 of
 around	<<y_axis_approx>>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 millions
 of
 pounds	<y_axis_inferred_label>
@@ -679,7 +679,7 @@ an
 amount
 of
 around	<<y_axis_approx>>
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 millions
 of
 pounds	<y_axis_inferred_label>
@@ -740,14 +740,14 @@ education
 in
 2010	<y_axis_inferred_3rd_highest_value_approx>
 in
-4	<y_axis_inferred_least_value_approx>
+4	<y_axis_inferred_value_mul_v1=highest_v2=least>
 different
 continents
 .
 \\n\\nAfrica
 was
 the
-highest
+highest	<y_axis_highest_value>
 ,
 then	<order_3rd>
 followed	<order_Scnd>
@@ -797,14 +797,14 @@ around	<<y_axis_approx>>
 million
 ;
 then	<order_3rd>
-Europe	<x_axis_label_Scnd_highest_value>
+Europe
 with
 £	<y_axis_inferred_label>
 275	<y_axis_inferred_Scnd_highest_value_approx>
 ,
 and	<x_axis_range_end>
 finally
-Africa	<x_axis_label_highest_value>
+Africa
 with
 almost	<y_axis_approx>
 £	<y_axis_inferred_label>
@@ -842,7 +842,7 @@ and	<x_axis_range_end>
 Africa	<x_axis_label_highest_value>
 having
 the
-highest
+highest	<y_axis_highest_value>
 expenditure
 over	<y_axis_approx>
 the
@@ -856,7 +856,7 @@ over	<y_axis_approx>
 million
 pounds	<y_axis_inferred_label>
 and	<x_axis_range_end>
-Africa	<x_axis_label_highest_value>
+Africa
 nearly
 hitting
 the
@@ -932,7 +932,7 @@ the
 spending
 was
 £	<y_axis_inferred_label>
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 million
 ,
 in
@@ -946,10 +946,10 @@ and	<x_axis_range_end>
 Africa	<x_axis_label_highest_value>
 was
 the
-highest
+highest	<y_axis_highest_value>
 with
 £	<y_axis_inferred_label>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 .
 <end_of_description>
@@ -975,7 +975,7 @@ Higher	<y_axis_trend_up>
 Education
 .
 \\nThe
-highest
+highest	<y_axis_highest_value>
 spender
 is
 Africa	<x_axis_label_highest_value>
@@ -984,7 +984,7 @@ beats
 Europe	<x_axis_label_Scnd_highest_value>
 at
 second	<order_Scnd>
-highest
+highest	<y_axis_highest_value>
 .
 These
 two
@@ -1040,7 +1040,7 @@ areas
 in
 2010.\\n
 \\nThe
-highest
+highest	<y_axis_highest_value>
 investor
 n
 higher	<y_axis_trend_up>
@@ -1102,7 +1102,7 @@ the
 year
 2010	<y_axis_inferred_3rd_highest_value_approx>
 approximately	<y_axis_approx>
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 millions
 of
 pounds	<y_axis_inferred_label>
@@ -1115,7 +1115,7 @@ in
 Africa	<x_axis_label_highest_value>
 as
 the
-highest
+highest	<y_axis_highest_value>
 in
 the
 world
@@ -1155,11 +1155,11 @@ in
 was
 at
 the
-highest
+highest	<y_axis_highest_value>
 in
 Africa	<x_axis_label_highest_value>
 at
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 .
@@ -1246,7 +1246,7 @@ of
 2010	<y_axis_inferred_3rd_highest_value_approx>
 .
 The
-highest
+highest	<y_axis_highest_value>
 spender
 recorded
 was
@@ -1324,7 +1324,7 @@ that
 figure
 was
 approximately	<y_axis_approx>
-270	<y_axis_Scnd_highest_val>
+270	<y_axis_inferred_Scnd_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 was
@@ -1343,7 +1343,7 @@ in
 Africa	<x_axis_label_highest_value>
 ,
 roughly
-290	<y_axis_highest_value_val>
+290	<y_axis_inferred_highest_value_approx>
 million
 pounds	<y_axis_inferred_label>
 was

@@ -16,7 +16,7 @@ to	<x_axis_range_end>
 the
 chart
 ,
-most
+most	<y_axis_highest_value>
 young
 people
 spend
@@ -122,7 +122,7 @@ those
 asked
 .
 The
-most
+most	<y_axis_highest_value>
 popular
 chose
 is
@@ -225,7 +225,7 @@ proved
 to	<x_axis_range_end>
 be
 the
-most
+most	<y_axis_highest_value>
 popular
 with
 38	<y_axis_highest_value_val>
@@ -284,7 +284,7 @@ with
 family
 ,
 the
-highest
+highest	<y_axis_highest_value>
 percentage
 of
 people
@@ -581,7 +581,7 @@ with
 family
 are
 the
-most
+most	<y_axis_highest_value>
 popular
 activities
 at
@@ -607,7 +607,7 @@ spend
 their
 evenings
 .
-Most
+Most	<y_axis_highest_value>
 people
 spend
 their
@@ -763,7 +763,7 @@ going
 out
 -	<x_axis_range_end>
 at
-16	<y_axis_inferred_3rd_highest_value_approx>
+16	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 %	<y_axis_inferred_label>
 .
 \\nSpending
@@ -845,7 +845,7 @@ with
 Family
 but
 the
-highest
+highest	<y_axis_highest_value>
 percentage
 of
 people
@@ -862,7 +862,7 @@ around	<<y_axis_approx>>
 
 <start_of_description>
 The
-highest
+highest	<y_axis_highest_value>
 number
 of
 young
@@ -1009,11 +1009,11 @@ their
 earnings
 .
 Over	<y_axis_approx>
-4	<y_axis_inferred_least_value_approx>
+4	<y_axis_inferred_value_mul_v1=highest_v2=least>
 activities
 ,
 the
-largest
+largest	<y_axis_highest_value>
 percentage
 is
 spent
@@ -1076,7 +1076,7 @@ at
 %	<y_axis_inferred_label>
 ,
 the
-highest
+highest	<y_axis_highest_value>
  
 percentage
 was
@@ -1091,7 +1091,7 @@ at
 .
 The
 second	<order_Scnd>
-highest
+highest	<y_axis_highest_value>
 was
 for
 spending
@@ -1189,7 +1189,7 @@ out
 
 <start_of_description>
 The
-majority
+majority	<y_axis_highest_value>
 of
 young
 people
@@ -1306,7 +1306,7 @@ chart
 shows
 that
 the
-majority
+majority	<y_axis_highest_value>
 of
 people
 in

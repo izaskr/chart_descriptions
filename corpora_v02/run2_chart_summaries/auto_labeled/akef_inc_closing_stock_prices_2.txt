@@ -37,7 +37,7 @@ again
 to	<x_axis_range_end>
 around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 on
 Wednesday	<x_axis_label_highest_value>
 .
@@ -45,7 +45,7 @@ This
 dipped
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-22	<y_axis_4th_highest_val>
+22	<y_axis_inferred_4th_highest_value_approx>
 on
 Thursday	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
@@ -53,7 +53,7 @@ decreased
 again
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 on
 Friday	<x_axis_label_least_value>
 .
@@ -96,7 +96,7 @@ again
 rose	<slope_up>
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 on
 Wednesday	<x_axis_label_highest_value>
 .
@@ -105,7 +105,7 @@ stock
 plummeted
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-22	<y_axis_4th_highest_val>
+22	<y_axis_inferred_4th_highest_value_approx>
 on
 Thursday	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
@@ -117,7 +117,7 @@ Friday	<x_axis_label_least_value>
 closing
 at
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 .
 <end_of_description>
 
@@ -183,7 +183,7 @@ days
 of
 the
 week.\\n\\nThe
-highest
+highest	<y_axis_highest_value>
 price
 for
 Akef
@@ -205,7 +205,7 @@ is
 Friday	<x_axis_label_least_value>
 at
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 which
 is
 a
@@ -266,7 +266,7 @@ stock
 price
 was
 £	<y_axis_inferred_label>
-51	<y_axis_3rd_highest_val>
+51	<y_axis_inferred_3rd_highest_value_approx>
 .
  
 On
@@ -401,7 +401,7 @@ over	<y_axis_approx>
 Wednesday	<x_axis_label_highest_value>
 was
 around	<<y_axis_approx>>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 .
 Thursday	<x_axis_label_4th_highest_value>
 showed
@@ -437,14 +437,14 @@ the
 week
 .
 The
-highest
+highest	<y_axis_highest_value>
 is
 Wednesday
 at
 £	<y_axis_inferred_label>
 75	<y_axis_inferred_highest_value_approx>
 then	<order_3rd>
-Tue	<x_axis_label_Scnd_highest_value>
+Tue
 at
 £	<y_axis_inferred_label>
 60	<y_axis_inferred_Scnd_highest_value_approx>
@@ -461,7 +461,7 @@ at
 20	<y_axis_inferred_4th_highest_value_approx>
 and	<x_axis_range_end>
 lastly
-Fri	<x_axis_label_least_value>
+Fri
 at
 £	<y_axis_inferred_label>
 10	<y_axis_inferred_least_value_approx>
@@ -517,7 +517,7 @@ sitting
 at
 just	<y_axis_least_value>
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 ,
 a
 far
@@ -527,7 +527,7 @@ the
 price
 of
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 that
 they
 were
@@ -556,7 +556,7 @@ The
 stock
 price
 is
-highest
+highest	<y_axis_highest_value>
 mid
 -	<x_axis_range_end>
 week
@@ -597,7 +597,7 @@ price
 closed
 at
 £	<y_axis_inferred_label>
-51	<y_axis_3rd_highest_val>
+51	<y_axis_inferred_3rd_highest_value_approx>
 ,
 Tuesday
 it
@@ -609,11 +609,11 @@ at
 Wednesday	<x_axis_label_highest_value>
 was
 the
-highest
+highest	<y_axis_highest_value>
 closing
 at
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 .
 Thursday
 stock
@@ -621,13 +621,13 @@ price
 closed
 at
 £	<y_axis_inferred_label>
-22	<y_axis_4th_highest_val>
+22	<y_axis_inferred_4th_highest_value_approx>
 and	<x_axis_range_end>
 Friday	<x_axis_label_least_value>
 closed
 at
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 .
 <end_of_description>
 
@@ -652,7 +652,7 @@ The
 day
 with
 the
-highest
+highest	<y_axis_highest_value>
 closing
 stock
 price
@@ -842,7 +842,7 @@ Thursday	<x_axis_label_4th_highest_value>
 then	<order_3rd>
 around	<<y_axis_approx>>
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 on
 Friday	<x_axis_label_least_value>
 .
@@ -916,7 +916,7 @@ closing
 price
 was
 £	<y_axis_inferred_label>
-51	<y_axis_3rd_highest_val>
+51	<y_axis_inferred_3rd_highest_value_approx>
 ,
 on
 Tuesday	<x_axis_label_Scnd_highest_value>
@@ -930,7 +930,7 @@ Wednesday	<x_axis_label_highest_value>
 it
 was
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 .
 After
 that
@@ -941,10 +941,10 @@ declined
 sharply
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-22	<y_axis_4th_highest_val>
+22	<y_axis_inferred_4th_highest_value_approx>
 and	<x_axis_range_end>
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 on
 Thursday	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
@@ -987,7 +987,7 @@ Wednesday	<x_axis_label_highest_value>
 at
 it
 's
-highest
+highest	<y_axis_highest_value>
 .
 On
 Thursday	<x_axis_label_4th_highest_value>
@@ -1027,7 +1027,7 @@ stock
 prices
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 on
 Wednesday	<x_axis_label_highest_value>
 ,
@@ -1046,7 +1046,7 @@ on
 Friday	<x_axis_label_least_value>
 to	<x_axis_range_end>
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 .
 <end_of_description>
 
@@ -1089,7 +1089,7 @@ approximately	<y_axis_approx>
 10	<y_axis_inferred_least_value_approx>
 .
 The
-highest
+highest	<y_axis_highest_value>
 is
 Wednesday
 at
@@ -1111,7 +1111,7 @@ for
 the
 week
 were
-highest
+highest	<y_axis_highest_value>
 on
 a
 wednesday
@@ -1125,7 +1125,7 @@ and	<x_axis_range_end>
 friday	<x_axis_label_least_value>
 ,
 from	<x_axis_range_start>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 to	<x_axis_range_end>
 10	<y_axis_inferred_least_value_approx>
 .
@@ -1146,26 +1146,26 @@ inc
 Mon	<x_axis_label_3rd_highest_value>
 was
 £	<y_axis_inferred_label>
-51	<y_axis_3rd_highest_val>
+51	<y_axis_inferred_3rd_highest_value_approx>
 ,
-Tue	<x_axis_label_Scnd_highest_value>
+Tue
 was£62
 ,
 We
 d
 was
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 ,
 Thu	<x_axis_label_4th_highest_value>
 was
 £	<y_axis_inferred_label>
-22	<y_axis_4th_highest_val>
+22	<y_axis_inferred_4th_highest_value_approx>
 ,
 Fri	<x_axis_label_least_value>
 was
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 <start_of_description>
@@ -1184,7 +1184,7 @@ unusual
 During
 the
 first
-3	<y_axis_inferred_value_mul_v1=highest_v2=4th>
+3	<y_axis_inferred_value_mul_v1=Scnd_v2=4th>
 days
 ,
 the
@@ -1193,14 +1193,14 @@ seemed
 to	<x_axis_range_end>
 be
 fairly
-high	<y_axis_trend_up>
+high	<y_axis_highest_value>
 being
 at
 a
 price
 of
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 on
 Wednesday	<x_axis_label_highest_value>
 .
@@ -1225,7 +1225,7 @@ price
 of
 only	<y_axis_least_value>
 £	<y_axis_inferred_label>
-9	<y_axis_least_value_val>
+9	<y_axis_inferred_least_value_approx>
 on
 Friday	<x_axis_label_least_value>
 .
@@ -1258,7 +1258,7 @@ price
 of
 approximately	<y_axis_approx>
 £	<y_axis_inferred_label>
-51	<y_axis_3rd_highest_val>
+51	<y_axis_inferred_3rd_highest_value_approx>
 ,
 Tuesday
 's
@@ -1276,7 +1276,7 @@ price
 was
 approximately	<y_axis_approx>
 £	<y_axis_inferred_label>
-74	<y_axis_highest_value_val>
+74	<y_axis_inferred_highest_value_approx>
 and	<x_axis_range_end>
 Thursday
 's
@@ -1284,7 +1284,7 @@ closing
 price
 was
 £	<y_axis_inferred_label>
-22	<y_axis_4th_highest_val>
+22	<y_axis_inferred_4th_highest_value_approx>
 .
 Lastly
 ,

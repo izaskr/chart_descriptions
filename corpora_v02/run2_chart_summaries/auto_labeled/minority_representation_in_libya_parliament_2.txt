@@ -60,7 +60,7 @@ and	<x_axis_range_end>
 to	<x_axis_range_end>
 slightly
 under	<y_axis_approx>
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 The
@@ -72,7 +72,7 @@ and	<x_axis_range_end>
 was
 just	<y_axis_least_value>
 over	<y_axis_approx>
-6	<y_axis_least_value_val>
+6	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 there
@@ -84,7 +84,7 @@ increase	<slope_up>
 to	<x_axis_range_end>
 slightly
 under	<y_axis_approx>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 between	<x_axis_range_start>
 2015	<y_axis_inferred_5th_highest_value_approx>
@@ -183,7 +183,7 @@ time
 ,
 from	<x_axis_range_start>
 almost	<y_axis_approx>
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
@@ -191,7 +191,7 @@ in
 1994	<y_axis_inferred_5th_highest_value_approx>
 to	<x_axis_range_end>
 almost	<y_axis_approx>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 in
 2015	<y_axis_inferred_5th_highest_value_approx>
@@ -240,7 +240,7 @@ representation
 was
 at
 a
-high	<y_axis_trend_up>
+high	<y_axis_highest_value>
 of
 13	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -307,7 +307,7 @@ from	<x_axis_range_start>
 6.5	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 to	<x_axis_range_end>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 in
 the
@@ -406,19 +406,19 @@ steadily	<y_axis_trend>
 from	<x_axis_range_start>
 just	<y_axis_least_value>
 under	<y_axis_approx>
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 to	<x_axis_range_end>
 just	<y_axis_least_value>
 over	<y_axis_approx>
-6	<y_axis_least_value_val>
+6	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 then	<order_3rd>
 increased	<slope_up>
 slightly
 to	<x_axis_range_end>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 between	<x_axis_range_start>
 2015	<y_axis_inferred_5th_highest_value_approx>
@@ -460,7 +460,7 @@ parliament
 was
 just	<y_axis_least_value>
 below
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 From	<x_axis_range_start>
@@ -484,7 +484,7 @@ from	<x_axis_range_start>
 2004	<y_axis_inferred_5th_highest_value_approx>
 to	<x_axis_range_end>
 over	<y_axis_approx>
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 And	<x_axis_range_end>
@@ -494,7 +494,7 @@ change
 of
 just	<y_axis_least_value>
 below
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 2005	<y_axis_inferred_5th_highest_value_approx>
@@ -511,14 +511,14 @@ in
 at
 just	<y_axis_least_value>
 above	<y_axis_trend_up>
-6	<y_axis_least_value_val>
+6	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 but
 then	<order_3rd>
 rose	<slope_up>
 at
 almost	<y_axis_approx>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 in
 2015	<y_axis_inferred_5th_highest_value_approx>
@@ -542,9 +542,9 @@ from	<x_axis_range_start>
 2019	<y_axis_inferred_5th_highest_value_approx>
 .
 The
-highest
+highest	<y_axis_highest_value>
 is
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
@@ -562,14 +562,14 @@ at
 then	<order_3rd>
 just	<y_axis_least_value>
 over	<y_axis_approx>
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 2000	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
 2004	<y_axis_inferred_5th_highest_value_approx>
 ,
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 2005	<y_axis_inferred_5th_highest_value_approx>
@@ -579,7 +579,7 @@ in
 a
 drop
 to	<x_axis_range_end>
-6	<y_axis_least_value_val>
+6	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 in
 2010	<y_axis_inferred_5th_highest_value_approx>
@@ -594,7 +594,7 @@ in
 2019	<y_axis_inferred_5th_highest_value_approx>
 to	<x_axis_range_end>
 about	<y_axis_approx>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -665,7 +665,7 @@ Lybia
 1994	<y_axis_inferred_5th_highest_value_approx>
 had
 the
-highest
+highest	<y_axis_highest_value>
 proportion
 at
 13	<y_axis_inferred_highest_value_approx>
@@ -694,7 +694,7 @@ increase	<slope_up>
 in
 representation
 by
-0.25	<y_axis_inferred_least_value_approx>
+0.25	<y_axis_inferred_value_mul_v1=least_v2=highest>
 %	<y_axis_inferred_label>
 <end_of_description>
 
@@ -753,7 +753,7 @@ representation
 increased	<slope_up>
 slightly
 to	<x_axis_range_end>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -855,7 +855,7 @@ the
 percentage
  
 was
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 going
@@ -884,7 +884,7 @@ the
 2019	<y_axis_inferred_5th_highest_value_approx>
 years
 of
-0.2	<y_axis_inferred_least_value_approx>
+0.2	<y_axis_inferred_value_mul_v1=least_v2=highest>
 %	<y_axis_inferred_label>
 ,
 which
@@ -935,7 +935,7 @@ minority
 representation
 from	<x_axis_range_start>
 nearly
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
@@ -944,7 +944,7 @@ in
 to	<x_axis_range_end>
 just	<y_axis_least_value>
 over	<y_axis_approx>
-6	<y_axis_least_value_val>
+6	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 in
 2010	<y_axis_inferred_5th_highest_value_approx>
@@ -964,7 +964,7 @@ in
 to	<x_axis_range_end>
 approx	<y_axis_approx>
 .
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -989,7 +989,7 @@ From	<x_axis_range_start>
 1994	<y_axis_inferred_5th_highest_value_approx>
 ,
 almost	<y_axis_approx>
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
 the
@@ -1007,20 +1007,20 @@ from	<x_axis_range_start>
 -	<x_axis_range_end>
 1999	<y_axis_inferred_5th_highest_value_approx>
 ;
-9	<y_axis_3rd_highest_val>
+9	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 from	<x_axis_range_start>
 2000	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
 2004	<y_axis_inferred_5th_highest_value_approx>
 ;
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 2005	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
 2009	<y_axis_inferred_5th_highest_value_approx>
 ;
-6	<y_axis_least_value_val>
+6	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 2010	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
@@ -1029,7 +1029,7 @@ from	<x_axis_range_start>
 but
 rose	<slope_up>
 to	<x_axis_range_end>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 from	<x_axis_range_start>
 2015	<y_axis_inferred_5th_highest_value_approx>
@@ -1093,7 +1093,7 @@ there
 was
 just	<y_axis_least_value>
 under	<y_axis_approx>
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 representation
 .
@@ -1107,7 +1107,7 @@ representation
 ,
 2000	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
-04	<y_axis_inferred_least_value_approx>
+04	<y_axis_inferred_value_add_v1=Scnd_v2=4th>
 8.5	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
@@ -1116,7 +1116,7 @@ representation
 09	<y_axis_inferred_3rd_highest_value_approx>
 just	<y_axis_least_value>
 under	<y_axis_approx>
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 2010	<y_axis_inferred_5th_highest_value_approx>
@@ -1124,14 +1124,14 @@ under	<y_axis_approx>
 13	<y_axis_inferred_highest_value_approx>
 just	<y_axis_least_value>
 over	<y_axis_approx>
-6	<y_axis_least_value_val>
+6	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 2015	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
 19	<y_axis_inferred_highest_value_approx>
 around	<<y_axis_approx>>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -1148,7 +1148,7 @@ the
 Parliament
 of
 Lybia.\\nThe
-highest
+highest	<y_axis_highest_value>
 representation
 was
 between	<x_axis_range_start>
@@ -1184,7 +1184,7 @@ between	<x_axis_range_start>
 2009	<y_axis_inferred_5th_highest_value_approx>
 it
 was
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 2010	<y_axis_inferred_5th_highest_value_approx>
@@ -1199,7 +1199,7 @@ and	<x_axis_range_end>
 this
 increased	<slope_up>
 to	<x_axis_range_end>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 between	<x_axis_range_start>
 2015	<y_axis_inferred_5th_highest_value_approx>
@@ -1231,7 +1231,7 @@ was
 at
 it
 's
-highest
+highest	<y_axis_highest_value>
 peak
 ,
 which
@@ -1293,14 +1293,14 @@ in
 representation
 from	<x_axis_range_start>
 nearly
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 1990	<y_axis_inferred_5th_highest_value_approx>
 -1994	<y_axis_inferred_5th_highest_value_approx>
 to	<x_axis_range_end>
 around	<<y_axis_approx>>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 in
 2015	<y_axis_inferred_5th_highest_value_approx>
@@ -1357,7 +1357,7 @@ in
 2014	<y_axis_inferred_5th_highest_value_approx>
 .
 The
-highest
+highest	<y_axis_highest_value>
 is
 1990	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
@@ -1409,7 +1409,7 @@ between	<x_axis_range_start>
 at
 just	<y_axis_least_value>
 over	<y_axis_approx>
-6	<y_axis_least_value_val>
+6	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 ,
  
@@ -1453,13 +1453,13 @@ parliament
 ,
 2005	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
-9	<y_axis_3rd_highest_val>
-8	<y_axis_4th_highest_val>
+9	<y_axis_inferred_3rd_highest_value_approx>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 2010	<y_axis_inferred_5th_highest_value_approx>
 -	<x_axis_range_end>
-14	<y_axis_highest_value_val>
+14	<y_axis_inferred_highest_value_approx>
 6.4	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 ,
@@ -1491,7 +1491,7 @@ time
 It
 started
 up
-high	<y_axis_trend_up>
+high	<y_axis_highest_value>
 between	<x_axis_range_start>
 1990	<y_axis_inferred_5th_highest_value_approx>
 and	<x_axis_range_end>
@@ -1592,7 +1592,7 @@ representation
 of
 just	<y_axis_least_value>
 under	<y_axis_approx>
-8	<y_axis_4th_highest_val>
+8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
 between	<x_axis_range_start>
@@ -1623,7 +1623,7 @@ representation
 of
 just	<y_axis_least_value>
 under	<y_axis_approx>
-7	<y_axis_5th_highest_val>
+7	<y_axis_inferred_value_add_v1=highest_v2=5th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>

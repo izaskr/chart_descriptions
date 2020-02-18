@@ -26,7 +26,7 @@ Engineering	<x_axis_label_highest_value>
 Engineering	<x_axis_label_highest_value>
 has
 the
-most
+most	<y_axis_highest_value>
 women
 representation
 ,
@@ -54,10 +54,10 @@ with
 %	<y_axis_inferred_label>
 ,
 then	<order_3rd>
-Arts	<x_axis_label_4th_highest_value>
+Arts
 with
 just	<y_axis_least_value>
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 Literature	<x_axis_label_least_value>
@@ -67,7 +67,7 @@ least	<y_axis_least_value>
 women
 representation
 at
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -93,16 +93,16 @@ representation
 is
 in
 the
-Literature	<x_axis_label_least_value>
+Literature
 Department
 at
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 ,
 rising	<slope_up>
 to	<x_axis_range_end>
 the
-highest
+highest	<y_axis_highest_value>
 representation
 at
 70	<y_axis_highest_value_val>
@@ -128,7 +128,7 @@ are
 women
 .
 The
-greatest
+greatest	<y_axis_highest_value>
 percentage
 of
 women
@@ -153,7 +153,7 @@ mathematics	<x_axis_label_3rd_highest_value>
 ,
 and	<x_axis_range_end>
 arts	<x_axis_label_4th_highest_value>
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 .
 Literature	<x_axis_label_least_value>
@@ -165,7 +165,7 @@ women
 consisting
 of
 only	<y_axis_least_value>
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -205,9 +205,9 @@ department
 while	<y_x_comparison_rest>
 in
 the
-arts	<x_axis_label_4th_highest_value>
+arts
 and	<x_axis_range_end>
-literature	<x_axis_label_least_value>
+literature
 departments
 ,
 women
@@ -251,7 +251,7 @@ the
 department
 with
 the
-highest
+highest	<y_axis_highest_value>
 representation
 of
 women
@@ -301,11 +301,11 @@ big
 drop
 with
 the
-Arts	<x_axis_label_4th_highest_value>
+Arts
 department
 containing
 only	<y_axis_least_value>
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 of
 women
@@ -315,7 +315,7 @@ coming
 last	<y_axis_least_value>
 with
 just	<y_axis_least_value>
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 of
 women
@@ -351,7 +351,7 @@ women
 ,
 in
 Arts	<x_axis_label_4th_highest_value>
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 of
 the
@@ -371,7 +371,7 @@ women
 ,
 in
 Literature	<x_axis_label_least_value>
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 of
 the
@@ -396,7 +396,7 @@ women
 Engineering	<x_axis_label_highest_value>
 has
 the
-highest
+highest	<y_axis_highest_value>
 percentage
 of
 woman
@@ -420,7 +420,7 @@ percentage
 of
 representation
 at
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -441,7 +441,7 @@ departments
 The
 representation
 is
-highest
+highest	<y_axis_highest_value>
 within
 STEM
 fields
@@ -450,7 +450,7 @@ with
 engineering	<x_axis_label_highest_value>
 showing
 the
-highest
+highest	<y_axis_highest_value>
 representation
 at
 70	<y_axis_highest_value_val>
@@ -474,7 +474,7 @@ women
 represented
 .
 Only	<y_axis_least_value>
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 of
 women
@@ -484,7 +484,7 @@ represented
 in
 Arts	<x_axis_label_4th_highest_value>
 and	<x_axis_range_end>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 in
 literature	<x_axis_label_least_value>
@@ -532,11 +532,11 @@ maths
 ,
 in
 arts	<x_axis_label_4th_highest_value>
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 and	<x_axis_range_end>
 in
 literature	<x_axis_label_least_value>
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 .
 <end_of_description>
 
@@ -564,7 +564,7 @@ and	<x_axis_range_end>
 engineering	<x_axis_label_highest_value>
 have
 the
-largest
+largest	<y_axis_highest_value>
 representation
 at
 60	<y_axis_Scnd_highest_val>
@@ -583,7 +583,7 @@ literature	<x_axis_label_least_value>
 at
 just	<y_axis_least_value>
 over	<y_axis_approx>
-20	<y_axis_inferred_least_value_approx>
+20	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -624,12 +624,12 @@ in
 Arts	<x_axis_label_4th_highest_value>
 it
 is
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 Literature	<x_axis_label_least_value>
 just	<y_axis_least_value>
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 .
 This
@@ -670,7 +670,7 @@ women
 in
 Computer Science	<x_axis_label_Scnd_highest_value>
 ,
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 in
 Arts	<x_axis_label_4th_highest_value>
@@ -680,7 +680,7 @@ Arts	<x_axis_label_4th_highest_value>
 in
 Mathematics	<x_axis_label_3rd_highest_value>
 ,
-2	<y_axis_inferred_value_mul_v1=highest_v2=4th>
+2	<y_axis_inferred_value_mul_v1=Scnd_v2=4th>
 %	<y_axis_inferred_label>
 in
 Literature	<x_axis_label_least_value>
@@ -699,13 +699,13 @@ more	<y_axis_trend_up>
 women
 in
 the
-Engineering	<x_axis_label_highest_value>
+Engineering
 department
 and	<x_axis_range_end>
 less	<y_axis_approx>
 in
 the
-Literature	<x_axis_label_least_value>
+Literature
 department
 .
 <end_of_description>
@@ -747,11 +747,11 @@ compared	<y_x_comparison>
 to	<x_axis_range_end>
 less	<y_axis_approx>
 than
-40	<y_axis_inferred_4th_highest_value_approx>
+40	<y_axis_inferred_value_add_v1=highest_v2=4th>
 %	<y_axis_inferred_label>
 in
 both
-Arts	<x_axis_label_4th_highest_value>
+Arts
 and	<x_axis_range_end>
 Literature	<x_axis_label_least_value>
 .
@@ -790,12 +790,12 @@ came
 from	<x_axis_range_start>
 Literature	<x_axis_label_least_value>
 with
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 ,
 followed	<order_Scnd>
 by
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 of
 women
@@ -824,7 +824,7 @@ in
 Computer Science	<x_axis_label_Scnd_highest_value>
 .
 The
-highest
+highest	<y_axis_highest_value>
 women
 representation
 came
@@ -848,7 +848,7 @@ narvik
 was
 at
 its
-highest
+highest	<y_axis_highest_value>
 in
 the
 department
@@ -866,21 +866,21 @@ lowest	<y_axis_least_value>
 in
 literature	<x_axis_label_least_value>
 at
-23	<y_axis_least_value_val>
+23	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 .
 Computer science	<x_axis_label_Scnd_highest_value>
 was
 second	<order_Scnd>
-highest
+highest	<y_axis_highest_value>
 at
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 ,
 the
-arts	<x_axis_label_4th_highest_value>
+arts
 at
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 mathematics	<x_axis_label_3rd_highest_value>
@@ -912,14 +912,14 @@ lowest	<y_axis_least_value>
 (
 Literature	<x_axis_label_least_value>
 at
-23	<y_axis_least_value_val>
+23	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 )
 to	<x_axis_range_end>
 the
-highest
+highest	<y_axis_highest_value>
 (
-Engineering	<x_axis_label_highest_value>
+Engineering
 )
 at
 70	<y_axis_highest_value_val>
@@ -949,17 +949,17 @@ literature	<x_axis_label_least_value>
 at
 just	<y_axis_least_value>
 over	<y_axis_approx>
-20	<y_axis_inferred_least_value_approx>
+20	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 .
 \\nThe
 next	<order_Scnd>
 ,
-Arts	<x_axis_label_4th_highest_value>
+Arts
 at
 just	<y_axis_least_value>
 over	<y_axis_approx>
-30	<y_axis_inferred_4th_highest_value_approx>
+30	<y_axis_inferred_value_add_v1=Scnd_v2=4th>
 %	<y_axis_inferred_label>
 .
 Mathematics	<x_axis_label_3rd_highest_value>
@@ -973,7 +973,7 @@ computer science	<x_axis_label_Scnd_highest_value>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 finally
-engineering	<x_axis_label_highest_value>
+engineering
 at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -997,7 +997,7 @@ in
 Narvik
 .
 The
-highest
+highest	<y_axis_highest_value>
 percentage
 of
 women
@@ -1005,7 +1005,7 @@ are
 employed
 in
 the
-engineering	<x_axis_label_highest_value>
+engineering
 dept
 with
 70	<y_axis_highest_value_val>
@@ -1017,11 +1017,11 @@ are
 employed
 in
 the
-literature	<x_axis_label_least_value>
+literature
 dept
 with
 only	<y_axis_least_value>
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 <end_of_description>
 
@@ -1037,15 +1037,15 @@ university
 departments
 .
 The
-highest
+highest	<y_axis_highest_value>
 being
-engineering	<x_axis_label_highest_value>
+engineering
 at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 ,
 second	<order_Scnd>
-highest
+highest	<y_axis_highest_value>
 was
 computer science	<x_axis_label_Scnd_highest_value>
 at
@@ -1056,7 +1056,7 @@ below
 that
 was
 the
-mathematics	<x_axis_label_3rd_highest_value>
+mathematics
 department
 at
 55	<y_axis_3rd_highest_val>
@@ -1069,14 +1069,14 @@ at
 second	<order_Scnd>
 lowest	<y_axis_least_value>
 at
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 literature	<x_axis_label_least_value>
 the
 lowest	<y_axis_least_value>
 at
-24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 <end_of_description>
 
@@ -1094,7 +1094,7 @@ university
 departments
 in
 Narvik.\\nThe
-highest
+highest	<y_axis_highest_value>
 percentages
 of
 women
@@ -1123,7 +1123,7 @@ mathematics	<x_axis_label_3rd_highest_value>
 lowest	<y_axis_least_value>
 percentage
 (
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 )
 is
@@ -1137,7 +1137,7 @@ level
 is
 just	<y_axis_least_value>
 over	<y_axis_approx>
-30	<y_axis_inferred_4th_highest_value_approx>
+30	<y_axis_inferred_value_add_v1=Scnd_v2=4th>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -1158,7 +1158,7 @@ whereas
 only	<y_axis_least_value>
 just	<y_axis_least_value>
 over	<y_axis_approx>
-20	<y_axis_inferred_least_value_approx>
+20	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 are
 represented
@@ -1181,7 +1181,7 @@ departments
 in
 Narvic
 .
-Engineering	<x_axis_label_highest_value>
+Engineering
 at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -1192,7 +1192,7 @@ at
 %	<y_axis_inferred_label>
 are
 the
-highest
+highest	<y_axis_highest_value>
 .
 We
 see
@@ -1203,20 +1203,20 @@ the
 lowest	<y_axis_least_value>
 in
 the
-arts	<x_axis_label_4th_highest_value>
+arts
 with
 the
-Literature	<x_axis_label_least_value>
+Literature
 department
 standing
 at
-22	<y_axis_inferred_least_value_approx>
+22	<y_axis_inferred_value_add_v1=3rd_v2=4th>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 the
-Arts	<x_axis_label_4th_highest_value>
+Arts
 at
-32	<y_axis_4th_highest_val>
+32	<y_axis_inferred_value_add_v1=3rd_v2=least>
 %	<y_axis_inferred_label>
 .
 The
@@ -1270,7 +1270,7 @@ women
 .
  
 THe
-most
+most	<y_axis_highest_value>
 female
 dominated
 department

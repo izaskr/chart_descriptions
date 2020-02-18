@@ -15,7 +15,7 @@ study
 It
 shows
 that
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 choose
 to	<x_axis_range_end>
@@ -36,7 +36,7 @@ Philosophy	<x_axis_label_Scnd_highest_value>
 and	<x_axis_range_end>
 32	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-Medicine	<x_axis_label_highest_value>
+Medicine
 .
 <end_of_description>
 
@@ -61,7 +61,7 @@ Medicine	<x_axis_label_highest_value>
 closely	<y_axis_trend>
 followed	<order_Scnd>
 by
-Philosophy	<x_axis_label_Scnd_highest_value>
+Philosophy
 students
 at
 30%.\\n24
@@ -72,10 +72,10 @@ study
 Literature	<x_axis_label_3rd_highest_value>
 ,
 and	<x_axis_range_end>
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 are
-STEM	<x_axis_label_least_value>
+STEM
 students
 .
 <end_of_description>
@@ -149,7 +149,7 @@ philosophy	<x_axis_label_Scnd_highest_value>
 )
 are
 the
-highest
+highest	<y_axis_highest_value>
 and	<x_axis_range_end>
 almost	<y_axis_approx>
 the
@@ -161,7 +161,7 @@ lowest	<y_axis_least_value>
 chosen
 study
 with
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 course
 take
@@ -198,7 +198,7 @@ least	<y_axis_least_value>
 popular
 choice
 with
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 .
  
@@ -240,7 +240,7 @@ to	<x_axis_range_end>
 study
 .
 The
-most
+most	<y_axis_highest_value>
 popular
 is
 medicine	<x_axis_label_highest_value>
@@ -260,7 +260,7 @@ at
 choose
 literature	<x_axis_label_3rd_highest_value>
 and	<x_axis_range_end>
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 choose
 STEM	<x_axis_label_least_value>
@@ -287,7 +287,7 @@ philosophy	<x_axis_label_Scnd_highest_value>
 and	<x_axis_range_end>
 medicine	<x_axis_label_highest_value>
 .
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 of
 people
@@ -338,11 +338,11 @@ Lagos
 State
 University
 .
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 choose
 a
-stem	<x_axis_label_least_value>
+stem
 subject
 ,
 rising	<slope_up>
@@ -359,14 +359,14 @@ around	<<y_axis_approx>>
 %	<y_axis_inferred_label>
 for
 both
-philosophy	<x_axis_label_Scnd_highest_value>
+philosophy
 and	<x_axis_range_end>
 medicine	<x_axis_label_highest_value>
 with
 slightly
 more	<y_axis_trend_up>
 choosing
-medicine	<x_axis_label_highest_value>
+medicine
 .
 <end_of_description>
 
@@ -383,7 +383,7 @@ to	<x_axis_range_end>
 be
 enrolled
 in
-STEM	<x_axis_label_least_value>
+STEM
 courses
 than
 in
@@ -430,7 +430,7 @@ University
 Medicine	<x_axis_label_highest_value>
 is
 the
-most
+most	<y_axis_highest_value>
 popular
 course
 with
@@ -454,7 +454,7 @@ with
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 .
-STEM	<x_axis_label_least_value>
+STEM
 subjects
 are
 half
@@ -463,7 +463,7 @@ popular
 as
 Philosophy	<x_axis_label_Scnd_highest_value>
 with
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 opting
 for
@@ -490,7 +490,7 @@ Lagos
 state
 university
 .
-Most
+Most	<y_axis_highest_value>
 students
 chose
 to	<x_axis_range_end>
@@ -501,7 +501,7 @@ with
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 only	<y_axis_least_value>
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 of
 students
@@ -524,7 +524,7 @@ State
 University
 vary
 withing
-4	<y_axis_inferred_least_value_approx>
+4	<y_axis_inferred_value_mul_v1=highest_v2=least>
 main
 topics
 ,
@@ -573,17 +573,17 @@ less	<y_axis_approx>
 selected
 topics
 are
-Literature	<x_axis_label_3rd_highest_value>
+Literature
 with
 around	<<y_axis_approx>>
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 students
 and	<x_axis_range_end>
-STEM	<x_axis_label_least_value>
+STEM
 with
 just	<y_axis_least_value>
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 students
 .
@@ -605,24 +605,24 @@ who
 chose
 to	<x_axis_range_end>
 study
-4	<y_axis_inferred_least_value_approx>
+4	<y_axis_inferred_value_mul_v1=highest_v2=least>
 different
 subjects
 these
 being
 ,
-STEM	<x_axis_label_least_value>
+STEM
 ,
-Literature	<x_axis_label_3rd_highest_value>
+Literature
 ,
-Philosophy	<x_axis_label_Scnd_highest_value>
+Philosophy
 and	<x_axis_range_end>
-Medicine	<x_axis_label_highest_value>
+Medicine
 .
 Medicine	<x_axis_label_highest_value>
 was
 the
-most
+most	<y_axis_highest_value>
 popular
 with
 just	<y_axis_least_value>
@@ -648,10 +648,10 @@ The
 least	<y_axis_least_value>
 popular
 was
-STEM	<x_axis_label_least_value>
+STEM
 with
 only	<y_axis_least_value>
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 choosing
 it
@@ -677,7 +677,7 @@ chose
 to	<x_axis_range_end>
 study
 .
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 chose
 to	<x_axis_range_end>
@@ -686,16 +686,16 @@ STEM	<x_axis_label_least_value>
 ;
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-literature	<x_axis_label_3rd_highest_value>
+literature
 ;
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-philosophy	<x_axis_label_Scnd_highest_value>
+philosophy
 ,
 and	<x_axis_range_end>
 32	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-medicine	<x_axis_label_highest_value>
+medicine
 .
 <end_of_description>
 
@@ -720,7 +720,7 @@ study.\\n15
 choose
 to	<x_axis_range_end>
 study
-STEM	<x_axis_label_least_value>
+STEM
 subjects
 ,
 Just	<y_axis_least_value>
@@ -734,14 +734,14 @@ Literature	<x_axis_label_3rd_highest_value>
 ,
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-Philosophy	<x_axis_label_Scnd_highest_value>
+Philosophy
 and	<x_axis_range_end>
 just	<y_axis_least_value>
 over	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 choose
-medicine	<x_axis_label_highest_value>
+medicine
 .
 <end_of_description>
 
@@ -760,22 +760,22 @@ to	<x_axis_range_end>
 study.\\n15
 %	<y_axis_inferred_label>
 study
-STEM	<x_axis_label_least_value>
+STEM
 ,
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 study
-literature	<x_axis_label_3rd_highest_value>
+literature
 ,
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 study
-philosophy	<x_axis_label_Scnd_highest_value>
+philosophy
 and	<x_axis_range_end>
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 study
-medicine	<x_axis_label_highest_value>
+medicine
 <end_of_description>
 
 <start_of_description>
@@ -795,7 +795,7 @@ to	<x_axis_range_end>
 study
 .
 The
-most
+most	<y_axis_highest_value>
 common
 subject
 is
@@ -807,10 +807,10 @@ philosophy	<x_axis_label_Scnd_highest_value>
 .
 The
 third	<order_3rd>
-most
+most	<y_axis_highest_value>
 popular
 Is
-literature	<x_axis_label_3rd_highest_value>
+literature
 followed	<order_Scnd>
 by
 STEM	<x_axis_label_least_value>
@@ -834,7 +834,7 @@ and	<x_axis_range_end>
 Philosophy	<x_axis_label_Scnd_highest_value>
 are
 the
-most
+most	<y_axis_highest_value>
 popular
 subjects
 ,
@@ -854,14 +854,14 @@ one
 of
 these
 areas.\\n\\nOnly
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 of
 students
 chose
 to	<x_axis_range_end>
 study
-STEM	<x_axis_label_least_value>
+STEM
 subjects
 .
 <end_of_description>
@@ -896,12 +896,12 @@ the
 lowest	<y_axis_least_value>
 at
 approximately	<y_axis_approx>
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 percent	<y_axis_inferred_label>
 .
 The
-highest
+highest	<y_axis_highest_value>
 percentage
 of
 what
@@ -940,7 +940,7 @@ and	<x_axis_range_end>
 philosophy	<x_axis_label_Scnd_highest_value>
 are
 the
-most
+most	<y_axis_highest_value>
 popular
 choice
 at
@@ -948,12 +948,12 @@ around	<<y_axis_approx>>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 ,
-STEM	<x_axis_label_least_value>
+STEM
 the
 least	<y_axis_least_value>
 popular
 at
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -972,10 +972,10 @@ to	<x_axis_range_end>
 study
 .
  
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 do
-stem	<x_axis_label_least_value>
+stem
 ,
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
@@ -1014,13 +1014,13 @@ being
 the
 lowest	<y_axis_least_value>
 at
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 medicine	<x_axis_label_highest_value>
 being
 the
-highest
+highest	<y_axis_highest_value>
 at
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -1056,10 +1056,10 @@ University
 .
 There
 were
-15	<y_axis_least_value_val>
+15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
 choosing
-STEM	<x_axis_label_least_value>
+STEM
 subjects
 ,
 approximately	<y_axis_approx>
