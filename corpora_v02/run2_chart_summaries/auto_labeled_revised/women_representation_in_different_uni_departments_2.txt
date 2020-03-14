@@ -31,7 +31,7 @@ with
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 ,
-then	<order_3rd>
+then	<order_4th>
 Mathematics	<x_axis_label_3rd_highest_value>
 with
 55	<y_axis_3rd_highest_val>
@@ -77,7 +77,7 @@ at
 22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 ,
-rising	<slope_up>
+rising	<y_axis_trend_up>
 to	
 the
 highest	<y_axis_highest_value>
@@ -154,19 +154,17 @@ graph
 shows
 that
 in
-STEM
-subjects
+STEM subjects	<group_highest_Scnd_3rd>
 women   <topic_related_object>
 make
 up
-more	<y_axis_trend_up>
-than
-half
+more than	<y_axis_approx>
+half	<> ##
 of
 the
 department   <x_axis>
 ,
-while	<y_x_comparison_rest>
+while	<y_x_comparison>
 in
 the
 arts   <x_axis_label_4th_highest_value>
@@ -176,10 +174,9 @@ literature department   <x_axis_label_least_value>s
 women   <topic_related_object>
 account
 for
-less	<y_axis_approx>
-than
+less than	<y_axis_approx>
 a
-third	<order_3rd>
+third	<> ## should arts and literature be grouped?
 of
 the
 department   <x_axis>
@@ -240,7 +237,7 @@ this
 is
 a
 big
-drop   <slope_down>
+drop   <y_axis_trend_down>
 from	
 Engineering	<x_axis_label_highest_value>
 .
@@ -262,13 +259,13 @@ there
 is
 a
 big
-drop   <slope_down>
+drop   <y_axis_trend_down>
 with
 the
 Arts   <x_axis_label_4th_highest_value>
 department   <x_axis>
 containing
-only	
+only	<y_axis_trend>
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 of
@@ -358,15 +355,12 @@ Engineering	<x_axis_label_highest_value>
 has
 the
 highest	<y_axis_highest_value>
-percentage   <y_axis>
-of
-woman representation at Narvik University  <y_axis>
+percentage of woman representation at Narvik University  <y_axis>
 with
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-woman
-representing
+woman representing	<topic_related_object> ##
 on
 this
 course   <x_axis>
@@ -399,8 +393,7 @@ representation   <y_axis>
 is
 highest	<y_axis_highest_value>
 within
-STEM
-fields
+STEM fields	<group_highest_Scnd_3rd>
 ,
 with
 engineering	<x_axis_label_highest_value>
@@ -426,8 +419,7 @@ with
 56	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
-represented
+women represented   <topic_related_object>
 .
 Only	
 32	<y_axis_4th_highest_val>
@@ -447,15 +439,12 @@ literature	<x_axis_label_least_value>
 ,
 indicating
 a
-decline    <slope_down>
+decline    <y_axis_trend_down>
 in
-Arts	<x_axis_label_4th_highest_value>
-and
-Humanities
+Arts and Humanities	<group_highest_Scnd_3rd>
 in
 favour
-STEM
-fields
+STEM fields	<group_4th_least>
 <end_of_description>
 
 
@@ -525,9 +514,8 @@ is
 in
 literature	<x_axis_label_least_value>
 at
-just	<y_axis_least_value>
-over	<y_axis_approx>
-20	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+just over	<y_axis_approx>
+20	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -543,7 +531,8 @@ is
 a
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-representation of women in
+representation of women	<y_axis>
+in
 Computer science	<x_axis_label_Scnd_highest_value>
 and
 70	<y_axis_highest_value_val>
@@ -668,18 +657,15 @@ Computer Science	<x_axis_label_Scnd_highest_value>
 compared	<y_x_comparison>
 to
 less than	<y_axis_approx>
-40	<y_axis_inferred_value_add_v1=highest_v2=4th>
+40	<> ## another candidate for the grouping label: for bar heights, not (only) conceptual similarity
 %	<y_axis_inferred_label>
 in
 both
-Arts   <x_axis_label_4th_highest_value>
+Arts   <x_axis_label_4th_highest_value> ## possibly group
 and
-Literature	<x_axis_label_least_value>
+Literature	<x_axis_label_least_value> ## possibly group
 .
 <end_of_description>
-
-
-=========================================================
 
 
 <start_of_description>
@@ -700,9 +686,7 @@ see
 that
 the
 lowest	<y_axis_least_value>
-amount   <y_axis>
-of
-women representation   <y_axis>
+amount of women representation   <y_axis>
 came
 from	
 Literature	<x_axis_label_least_value>
@@ -715,7 +699,7 @@ by
 32   <y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 of
-women representation 
+women representation 	<y_axis>
 in
 Arts	<x_axis_label_4th_highest_value>
 .
@@ -728,7 +712,7 @@ around	<y_axis_approx>
 56	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-women representation 
+women representation	<y_axis>
 in
 Mathematics	<x_axis_label_3rd_highest_value>
 followed	<order_4th>
@@ -776,7 +760,7 @@ lowest	<y_axis_least_value>
 in
 literature	<x_axis_label_least_value>
 at
-23	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+23	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 .
 Computer science	<x_axis_label_Scnd_highest_value>
@@ -802,8 +786,6 @@ at
 
 
 
-
-
 <start_of_description>
 This
 chart
@@ -813,16 +795,16 @@ women's representation at different universites in Narvik     <topic>
 .
 Participation
 ranged
-from	<x_axis_range_start>
+from
 the
 lowest	<y_axis_least_value>
 (
 Literature	<x_axis_label_least_value>
 at
-23	<y_axis_least_value>
+23	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 )
-to	<x_axis_range_end>
+to
 the
 highest	<y_axis_highest_value>
 (
@@ -842,9 +824,7 @@ This
 chart
 shows
 the
-representation   <y_axis>
-of
-women in different university departments in Narvik   <topic>
+representation of women in different university departments in Narvik   <topic>
 .
 \\n   <separator>
 The
@@ -853,7 +833,7 @@ was
 literature	<x_axis_label_least_value>
 at
 just over	<y_axis_approx>
-20	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+20	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 .
 \\n   <separator>
@@ -892,9 +872,7 @@ The
 graph
 shows
 the
-%	 <y_axis_inferred_label>
-of
-women employed in different university depts in Narvik   <topic>
+% of women employed in different university depts in Narvik   <topic>
 .
 The
 highest	<y_axis_highest_value>
@@ -950,8 +928,7 @@ below   <y_axis_trend_down>
 that
 was
 the
-mathematics
-department   <x_axis>
+mathematics department   <x_axis_label_3rd_highest_value>
 at
 55	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
@@ -960,8 +937,8 @@ arts	<x_axis_label_4th_highest_value>
 came
 in
 at
-second	
-lowest	
+second	##
+lowest	##
 at
 32   <x_axis_label_4th_highest_value>	
 %	<y_axis_inferred_label>
@@ -970,7 +947,7 @@ literature	<x_axis_label_least_value>
 the
 lowest	<y_axis_least_value>
 at
-24
+24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 <end_of_description>
 
@@ -1030,8 +1007,7 @@ arts	<x_axis_label_4th_highest_value>
 the
 level
 is
-just	<y_axis_least_value>
-over	<y_axis_approx>
+just over	<y_axis_approx>
 30	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 .
@@ -1050,13 +1026,12 @@ at
 for
 Engineering	<x_axis_label_highest_value>
 in
-Narvik
+Narvik	<topic_related_object> ##
 ,
 whereas   <y_x_comparison>
 only	<y_axis_least_value>
-just	<y_axis_least_value>
-over	<y_axis_approx>
-20	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+just over	<y_axis_approx>
+20	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 are
 represented
@@ -1094,7 +1069,7 @@ the
 lowest	<y_axis_least_value>
 in
 the
-arts   <x_axis_label_4th_highest_value>
+arts   <> ## is this a case of grouping? consider the entire sentence
 with
 the
 Literature department   <x_axis_label_least_value>
@@ -1145,8 +1120,7 @@ women   <topic_related_object>
 .
 THe
 most	<y_axis_highest_value>
-female
-dominated
+female dominated	<topic_related_object>
 department   <x_axis>
 is
 Engineering	<x_axis_label_highest_value>

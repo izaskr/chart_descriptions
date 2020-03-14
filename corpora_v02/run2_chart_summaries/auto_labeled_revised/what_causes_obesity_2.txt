@@ -31,7 +31,8 @@ at
 36	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 .
-And	then	<order_3rd>
+And
+then	<order_3rd>
 fast food   <x_axis_label_least_value>
 at
 24	<y_axis_inferred_least_value_approx>
@@ -70,7 +71,8 @@ with
 genetics	<x_axis_label_highest_value>
 as
 the
-main factor   <y_axis_highest_value>
+main <y_axis_highest_value>
+factor	<x_axis>
 at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -101,7 +103,7 @@ genetic   <x_axis_label_highest_value>
 ,
 identified
 as
-causing
+causing	## topic-specific vocabulary
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
@@ -116,7 +118,7 @@ Fast food	<x_axis_label_least_value>
 is
 third	<order_3rd>
 ,
-causing
+causing	## topic-specific vocabulary
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
@@ -136,14 +138,11 @@ reasons for obesity in Kiribati   <topic>
 ,
 detailing
 the
-reasons
+reasons	## topic-specific vocabulary
 given
 as
 a
-percentage   <y_axis>
-of
-total
-respondents
+percentage of total respondents  <y_axis>
 .
 The
 graph
@@ -152,7 +151,7 @@ that
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-respondents
+respondents	<topic_related_object>
 indicate
 a
 genetic cause   <x_axis_label_highest_value>
@@ -181,10 +180,7 @@ the
 factors which cause obesity in Kiribati   <topic>
 and	
 the
-percentage   <y_axis>
-of
-their
-contribution
+percentage of their contribution   <y_axis>
 .
 Fast food	<x_axis_label_least_value>
 account
@@ -211,8 +207,7 @@ genetics	<x_axis_label_highest_value>
 is
 the
 highest	<y_axis_highest_value>
-contributing
-factor   <x_axis>
+contributing factor   <x_axis>
 accounting
 for
 40	<y_axis_inferred_highest_value_approx>
@@ -222,8 +217,6 @@ the
 cause of obesity   <x_axis>
 .
 <end_of_description>
-
-
 
 
 
@@ -271,7 +264,7 @@ the
 biggest	<y_axis_highest_value>
 cause of obesity   <x_axis>
 in
-Kirbati
+Kirbati	<topic_related_object> ## or property?
 at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -288,7 +281,7 @@ the
 lowest	<y_axis_least_value>
 cause of obesity   <x_axis>
 in
-Kirbati
+Kirbati	<topic_related_object> ## or property?
 at
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
@@ -303,17 +296,13 @@ This
 chart
 shows
 the
-slim
-majority	<y_axis_highest_value>
+slim majority	<> ## grouping of bar heights: sum of the Scnd and least is about 50 %
 of
-obesity 
-in 
-Kiribati
+obesity in Kiribati	<topic_related_property> ##
 is
 caused
 by
-lifestyle
-choices
+lifestyle choices	<group_Scnd_least>
 ,
 with
 24	<y_axis_inferred_least_value_approx>
@@ -339,11 +328,9 @@ lack of exercise   <x_axis_label_Scnd_highest_value>
 The
 biggest	<y_axis_highest_value>
 cause of obesity   <x_axis>
-in
-Kiribati
+in Kiribati	<topic_related_property> ##
 is
-genetic   <x_axis_label_highest_value>
-tendencies
+genetic tendencies   <x_axis_label_highest_value>
 ,
 accounting
 for
@@ -381,11 +368,10 @@ at
 %	<y_axis_inferred_label>
 .
 However
-lifestyle
-factors
+lifestyle factors	<group_Scnd_least>
 are
 a
-larger
+larger	<y_axis_trend_up>
 contributor
 with
 fast food	<x_axis_label_least_value>
@@ -396,7 +382,7 @@ shown
 to
 cause obesity   <x_axis>
 in
-60	<other_operations>
+60	<> ## group bar heights: add
 %	<y_axis_inferred_label>
 of
 cases
@@ -421,22 +407,18 @@ at
 
 
 
-
-
 <start_of_description>
-Cause of obesity   <x_axis>
-in
-Kiribati
+Cause of obesity in Kiribati   <topic>
 .
-Main
+Main	<y_axis_highest_value>
 cause   <x_axis>
 is
-genetic
+genetic	<x_axis_label_highest_value>
 at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-people
+people	##
 .
 Then	<order_2nd>
 Lack of exercise   <x_axis_label_Scnd_highest_value>
@@ -461,8 +443,7 @@ This
 chart
 shows
 the
-potential
-causes of obesity in Kiribati   <topic>
+potential causes of obesity in Kiribati   <topic>
 .
 \\n   <separator>
 There
@@ -470,11 +451,11 @@ is
 a
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-chance
+chance	##
 that
 obesity   <topic_related_object>
 is
-caused
+caused	##
 by
 fast food	<x_axis_label_least_value>
 ,
@@ -502,7 +483,7 @@ really
 have
 a
 greater
-effect
+effect ## this last clause - any labels?
 .
 <end_of_description>
 
@@ -510,8 +491,7 @@ effect
 
 
 <start_of_description>
-Obesity   <topic_related_object>
-causes
+Obesity causes  <topic>
 genetic   <x_axis_label_highest_value>
 is
 the
@@ -521,8 +501,7 @@ at
 over	<y_axis_approx>
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-only	<y_axis_least_value>
-slightly
+only slightly	<y_axis_approx> ## approx modifying only numerical values?
 behind	<y_axis_trend_down>
 lack of exercise   <x_axis_label_Scnd_highest_value>
 and	
@@ -551,7 +530,7 @@ only	<y_axis_least_value>
 %	<y_axis_inferred_label>
 but
 only	
-10	<y_axis_inferred_value_add_v1=Scnd_v2=least>
+10	<y_axis_inferred_value_add_v1=least_v2=Scnd>
 %	<y_axis_inferred_label>
 less	<y_axis_approx>
 than
@@ -590,7 +569,7 @@ percentages   <y_axis>
 of
 what was the cause of Obesity in Kiribati   <topic>
 .
-From	<x_axis_range_start>
+From
 the
 chart
 we
@@ -603,7 +582,7 @@ of
 the
 cause for Obesity    <x_axis>
 was
-from	<x_axis_range_start>
+from
 Fast Food	<x_axis_label_least_value>
 ,
 whereas  <y_x_comparison>
@@ -613,7 +592,7 @@ of
 the
 cause   <x_axis>
 came
-from	<x_axis_range_start>
+from
 Lack of Exercise   <x_axis_label_Scnd_highest_value>
 .
 The
@@ -623,7 +602,7 @@ of
 the
 cause of obesity   <x_axis>
 came
-from	<x_axis_range_start>
+from
 Genetic	<x_axis_label_highest_value>
 with
 40	<y_axis_inferred_highest_value_approx>
@@ -660,8 +639,7 @@ approximately	<y_axis_approx>
 was
 caused
 by
-eating
-fast food	<x_axis_label_least_value>
+eating fast food	<x_axis_label_least_value>
 .
 <end_of_description>
 
@@ -696,7 +674,7 @@ at
 %	<y_axis_inferred_label>
 which
 was
-nearly
+nearly	<y_axis_approx>
 twice  <y_axis_inferred_value_mul_v1=highest_v2=least>
 as
 attributable
@@ -715,7 +693,7 @@ shows
 the
 findings
 of
-what causes obesity in Kiribati
+what causes obesity in Kiribati	<topic>
 .
 \\n   <separator>
 \\n   <separator>
@@ -723,12 +701,12 @@ The
 highest	<y_axis_highest_value>
 percentage   <y_axis>
 was
-genetic cause   <x_axis_label_highest_value>s
+genetic cause   <x_axis_label_highest_value>
 at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 Next	<order_Scnd>
-highest	<y_axis_highest_value>
+highest	<y_axis_highest_value> ## "next highest" is not the same as "the highest"
 was
 lack of exercise   <x_axis_label_Scnd_highest_value>
 at
@@ -771,7 +749,7 @@ lack of exercise   <x_axis_label_Scnd_highest_value>
 at
 36	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
-and	   <order_3rd>
+and
 fast food	<x_axis_label_least_value>
 as
 25	<y_axis_inferred_least_value_approx>
@@ -783,7 +761,7 @@ as
 
 <start_of_description>
 Graph
-above	<y_axis_trend_up>
+above
 shows
 what causes obesity in Kiribati   <topic>
 .
@@ -808,7 +786,7 @@ lowest	<y_axis_least_value>
 cause   <x_axis>
 out
 of
-3	<y_axis_inferred_value_mul_v1=highest_v2=least>
+3	<x_axis_labels_count>
 was
 fast food	<x_axis_label_least_value>
 at
@@ -871,7 +849,8 @@ cases
 There
 are
 three   <x_axis_labels_count>
-factors represented as contributing to obesity in Kiribati   <topic>
+factors	<x_axis>
+represented as contributing to obesity in Kiribati   <topic_related_property>
 .
 The
 main   <y_axis_highest_value> 
@@ -904,7 +883,7 @@ The
 causes of obesity in Kiribati   <topic>
 are
 charted
-above	<y_axis_trend_up>
+above
 to
 show
 that
@@ -950,18 +929,18 @@ This
 chart
 indicates
 three   <x_axis_labels_count>
-possible
-causes of obesity in the Kiribati population   <topic>
+possible causes of obesity	<x_axis>
+in the Kiribati population   <topic_related_property>
 .
 It
 indicates
 the
-main
+main	<y_axis_highest_value>
 cause of obesity   <x_axis>
 was
 attributed
 to
-genetic cause   <x_axis_label_highest_value>s
+genetic cause   <x_axis_label_highest_value>
 with
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -973,7 +952,7 @@ that
 as
 the
 main   <y_axis_highest_value>
-reason
+reason	<x_axis>
 .
 Only	<y_axis_least_value>
 25	<y_axis_inferred_least_value_approx>
