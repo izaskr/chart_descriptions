@@ -1,0 +1,174 @@
+Akef inc:
+
+1. description 3 says: 
+
+at
+£	<y_axis_inferred_label>
+9s
+
+2. one person wrote: The graph *above* shows
+how to handle this?
+
+
+Social Media: 
+
+1. How to treat interval ranges... exaMPLE:
+
+aged
+25	
+-
+44 
+
+2. How to label hours and its values
+
+2.5	<y_axis_highest_value_val>
+hours   <y_axis_inferred_label>
+(search all hours in file)
+
+
+
+fatal injuries: 
+
+1. <​x_axis_period​> 
+
+across
+5	
+years
+
+???
+
+
+2. cancel  % (percentage also)? also if to label 
+
+3. how to label "reverse"  of a decrease. 
+(eg. this decrease started to reverse)
+
+
+
+
+
+Spend their evenings 
+1. interesting case: 
+
+
+This
+chart
+shows
+how young people in Zarqa spend their time in the evenings   <topic>
+.
+With
+50	<other_operation>
+%	<y_axis_inferred_label>
+choosing
+to	
+socialise
+and
+the
+other
+50	 <other_operation>
+%	<y_axis_inferred_label>
+choosing
+solo
+activities
+
+
+2.   Intend to delete
+
+.
+I
+'m
+not
+sure
+what
+the
+other
+10	
+%	
+do
+
+
+
+Obesity causes: 
+<other_operation> change to <other_value>
+
+fast food	<x_axis_label_least_value>
+and	
+lack of exercise   <x_axis_label_Scnd_highest_value>
+combined
+shown
+to
+cause obesity   <x_axis>
+in
+60	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label>
+of
+
+
+
+
+women reppresentations: 
+1. inferred labels  (especially ewhen labels can be grouped as one) 
+
+The
+graph
+shows
+that
+in
+STEM   -     
+subjects   -
+
+
+The
+representation
+is
+highest	<y_axis_highest_value>
+within
+STEM
+fields
+
+
+Humanities
+in
+favour
+STEM
+fields
+
+
+
+2.... Numbers generalisinig
+
+women
+make
+up
+more	<y_axis_trend_up>
+than
+half    -----
+of
+the
+department   <x_axis>
+,
+while	<y_x_comparison_rest>
+in
+the
+arts   <x_axis_label_4th_highest_value>
+and
+literature department   <x_axis_label_least_value>s
+,
+women
+account
+for
+less	<y_axis_approx>
+than
+a
+third	<order_3rd>   ---
+of
+the
+department
+
+
+
+3.......... again here:
+
+
+
+
