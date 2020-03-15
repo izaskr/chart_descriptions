@@ -3,8 +3,7 @@ This
 chart
 shows
 the
-Gender pay gap   <topic> 
-in 2017	  <topic>
+Gender pay gap in 2017   <topic> 
 in
 the
 countries   <x_axis>
@@ -17,10 +16,7 @@ Germany	<x_axis_label_highest_value>
 had
 the
 biggest	<y_axis_highest_value>
-percentage   <y_axis>
-in
-the
-gender pay gap   <y_axis>
+percentage in the gender pay gap   <y_axis>
 at
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -39,12 +35,9 @@ Spain	<x_axis_label_least_value>
 had
 the
 least	<y_axis_least_value>
-percentage   <y_axis>
+percentage in the gender pay gap  <y_axis>
 in
-the
-gender pay gap <y_axis>
-in
-2017
+2017	<topic_related_property>
 at
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
@@ -58,9 +51,9 @@ at
 Bar
 chart
 showing
-gender pay gap percentages (2017)
+gender pay gap percentages (2017)	<topic>
 for
-Germany, Spain and the UK    <x_axis_labels>
+Germany , Spain and the UK    <x_axis_labels>
 .
 \\n   <separator>
 \\n   <separator>
@@ -71,7 +64,7 @@ the
 UK   <x_axis_label_Scnd_highest_value>
 have
 a
-21	<y_axis_highest_value_val>
+21	<group_y> ## add info about bars to the label, e.g. group_highest_Scnd_mean
 %	<y_axis_inferred_label>
 gap   <y_axis>
 ,
@@ -90,8 +83,7 @@ The
 graph
 depicts
 the
-gender pay gap   <topic> 
-in three countries, displayed as a percentage, for the year 2017   <topic>
+gender pay gap in three countries, displayed as a percentage, for the year 2017   <topic>
 .
 In
 Germany	<x_axis_label_highest_value>
@@ -101,15 +93,13 @@ was
 a
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-difference
-in
-pay
+difference in pay	<y_axis>
 ,
-similar  <y_x_comparison>
-to	<x_axis_range_end>
+similar  <y_axis_trend>
+to
 the
 UK   <x_axis_label_Scnd_highest_value>
-rate
+rate	<y_axis>
 which
 was
 just over	<y_axis_approx>
@@ -117,7 +107,7 @@ just over	<y_axis_approx>
 %	<y_axis_inferred_label>
 .
 The
-discrepancy
+discrepancy	<y_axis>
 was
 smallest	<y_axis_least_value>
 in
@@ -137,11 +127,10 @@ The
 graph
 details
 the
-gender pay gap   <topic> 
+gender pay gap   <y_axis>
 in
-three
-European
-countries
+three	<x_axis_labels_count>
+European countries	<x_axis>
 ,
 Germany, Spain and the UK    <x_axis_labels>
 .
@@ -150,17 +139,17 @@ the
 gap   <y_axis>
 as
 a
-percentage   <y_axis>
+percentage   <y_axis_inferred_label>
 ,
 the
 graph
 shows
 that
-Germany	<x_axis_label_highest_value>
+Germany	<x_axis_label_highest_value>	## should we join germany and uk to <group_highest_Scnd> ?
 and
 UK	<x_axis_label_Scnd_highest_value>
 have
-similar   <x_axis_comparison>
+similar   <y_axis_trend>
 levels
 (
 21	<y_axis_highest_value_val>
@@ -187,8 +176,13 @@ This
 chart
 shows
 the
-gender
-pay gap percentage in 3 different European countries in the year 2017   <topic>
+gender pay gap percentage	<y_axis>
+in
+3	<x_axis_labels_count>
+different European countries	<x_axis>
+in
+the
+year 2017   <topic_related_property>
 .
 \\n   <separator>
 \\n   <separator>
@@ -236,8 +230,7 @@ the
 highest	<y_axis_highest_value>
 ,
 but
-only	<y_axis_least_value>
-slightly 
+only slightly	<y_axis_approx> ## did we say that y_axis_approx is reserved for modifying numerical expressions? 
 higher	<y_axis_trend_up>
 than
 the
@@ -268,7 +261,7 @@ UK   <x_axis_label_Scnd_highest_value>
 at
 20	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
-and   <order_last>
+and
 Spain	<x_axis_label_least_value>
 at
 15	<y_axis_inferred_least_value_approx>
@@ -281,7 +274,7 @@ at
 
 <start_of_description>
 The
-gender pay gap   <topic> 
+gender pay gap   <y_axis> 
 in
 Germany	<x_axis_label_highest_value>
 in
@@ -316,16 +309,13 @@ This
 chart
 shows
 the
-percentage   <y_axis>  
-difference
-of
-the
-gender pay gap in 2017 from 3 European nations    <topic> 
+percentage difference of the gender pay gap in 2017	<topic>
+from
+3	<x_axis_labels_count>
+European nations    <x_axis> 
 .
 The
-2	
-largest	<y_axis_highest_value>
-economies   <x_axis>
+2 largest economies	<group_highest_Scnd>
 ,
 Germany	<x_axis_label_highest_value>
 and
@@ -337,16 +327,14 @@ similar   <y_axis_trend>
 gap   <y_axis>
 at
 just above	<y_axis_approx>
-20	<y_axis_inferred_Scnd_highest_value_approx>
+20	<group_y>	##	group_highest_Scnd_mean
 %	<y_axis_inferred_label>
 .
 Spain	<x_axis_label_least_value>
 has
 the
 lowest	<y_axis_least_value>
-percentage   <y_axis>
-in
-gender pay gap   <y_axis>
+percentage in gender pay gap   <y_axis>
 at
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
@@ -358,7 +346,7 @@ at
 
 <start_of_description>
 Between	
-Germany, Spain and the UK   <x_axis_labels>
+Germany , Spain and the UK   <x_axis_labels>
 the
 gender pay gap   <y_axis>
 is
@@ -369,7 +357,7 @@ at
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 ,
-a little more than  <y_axis_approx>
+a little more than  <y_axis_approx>	## y_axis_trend
 in
 the
 UK   <x_axis_label_Scnd_highest_value>
@@ -389,12 +377,19 @@ This
 graph
 demonstrates
 the
-differences between	Germany, Spain and the UK  in terms of the gender pay gap    <topic>
+differences
+between
+Germany , Spain and the UK	<x_axis_labels>
+in
+terms
+of
+the
+gender pay gap    <y_axis>
 in
 each
 of
 those
-countries   
+countries	<x_axis>
 .
 \\n   <separator>
 The
@@ -412,16 +407,15 @@ the
 UK   <x_axis_label_Scnd_highest_value>
 very close behind	<y_axis_trend>
 at
-between	<x_axis_range_start>
-20	<y_axis_inferred_Scnd_highest_value_approx>
--	<x_axis_range_end>
-21	<y_axis_highest_value_val>
+between 20-21	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 \\n   <separator>
 Spain   <x_axis_label_least_value>
 is
-5% lower	<y_axis_inferred_value_add_v1=Scnd_v2=least> 
+5	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+%
+lower
 than
 this
 at
@@ -434,7 +428,7 @@ at
 
 <start_of_description>
 The
-gender pay gap   <topic> 
+gender pay gap   <y_axis> 
 in
 Germany	<x_axis_label_highest_value>
 is
@@ -476,13 +470,15 @@ whilst	<y_x_comparison>
 the
 UK   <x_axis_label_Scnd_highest_value>
 settles
-1%	below   <y_axis_inferred_value_add_v1=highest_v2=Scnd>
+1	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+%	<y_axis_inferred_label>
+below	## y_axis_trend_down? check the first batch of data
 at
 20.5	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 .
 Overall
-Spain
+Spain	<x_axis_label_least_value>
 is
 seen
 to	
@@ -517,8 +513,8 @@ to
 in
 Spain	<x_axis_label_least_value>
 and
-just	
-slightly more than    <y_axis_trend_up>
+just slightly	<y_axis_approx>  ## check if approx used for trend, or rather simply use the trend label
+more than    <y_axis_trend_up>	## split more than?
 the
 UK   <x_axis_label_Scnd_highest_value>
 at
@@ -538,10 +534,13 @@ This
 chart
 shows
 the
-percentage   <y_axis>
+percentage of the gender pay gap   <y_axis>
+in
+three	<x_axis_labels_count>
+countries	<x_axis>
 of
-the
-gender pay gap in three countries of Germany, Spain and the UK in the year 2017   <topic>
+Germany , Spain and the UK	<x_axis_labels>
+in the year 2017   <topic_related_property>
 .
 From	
 the
@@ -593,7 +592,7 @@ investigated
 in
 Germany, UK and Spain	 <x_axis_labels>
 in
-2017
+2017	<topic_related_property>
 .
 it
 was
@@ -603,7 +602,7 @@ Germany	<x_axis_label_highest_value>
 had
 the
 highest	<y_axis_highest_value>
-pay gap 
+pay gap	<y_axis>
 at
 22    <y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -628,7 +627,7 @@ at
 the
 gender pay gap in 2017    <topic> 
 in
-Germany, Spain and the UK   <x_axis_labels>
+Germany , Spain and the UK   <x_axis_labels>
 .
 In
 germany	<x_axis_label_highest_value>
@@ -721,11 +720,13 @@ by
 the
 uk   <x_axis_label_Scnd_highest_value>
 at
-only	
-1%	lower	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
+only	<y_axis_trend>
+1	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+%	<y_axis_inferred_label>
+lower	## y_axis_trend_down ?
 and
 then	<order_3rd>
-spain
+spain	<x_axis_label_least_value>
 at
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
@@ -740,13 +741,13 @@ shown
 in
 graph
 form
-to	<x_axis_range_end>
+to
 show
 3	<x_axis_labels_count>
 different
 countries   <x_axis>
 against
-percentages   <y_axis>
+percentages   <y_axis_inferred_label>
 .
 Germany	<x_axis_label_highest_value>
 was
@@ -776,9 +777,6 @@ at
 <end_of_description>
 
 
-
-
-
 <start_of_description>
 The
 chart
@@ -787,11 +785,9 @@ the
 gender pay gap in 2017 <topic> 
 in
 three   <x_axis_labels_count>
-European
-Union
-countries    <x_axis>
--	<x_axis_range_end>
-Germany, Spain and UK
+European Union countries    <x_axis>
+-
+Germany , Spain and UK	<x_axis_labels>
 .
 \\n   <separator>
 In
@@ -802,7 +798,7 @@ gender pay gap   <y_axis>
 is
 similar   <y_axis_trend>
 in
-Germany	<x_axis_label_highest_value>
+Germany	<x_axis_label_highest_value>	## group_highest_Scnd
 and
 the
 UK   <x_axis_label_Scnd_highest_value>
@@ -828,12 +824,11 @@ at
 The
 gender pay gap   <y_axis>
 is
-less	
-pronounced
+less pronounced	<y_axis_trend_down>
 in
 Spain	<x_axis_label_least_value>
 when
-compared	<y_x_comparison_rest>
+compared	<y_x_comparison>
 to	<x_axis_range_end>
 the
 UK   <x_axis_label_Scnd_highest_value>
@@ -866,17 +861,14 @@ at
 
 <start_of_description>
 In
-2017
+2017	<topic_related_property>
 the
 gender pay gap   <y_axis>
 can
 be
 identified
 in
-Germany	<x_axis_label_highest_value>
-and
-the
-UK   <x_axis_label_Scnd_highest_value>
+Germany	and the UK <group_highest_Scnd>
 as
 representing
 21	<y_axis_highest_value_val>
@@ -893,12 +885,9 @@ Spain	<x_axis_label_least_value>
 still
 has
 an
-identifiable
+identifiable	<y_axis_trend>
 pay gap    <y_axis>
-which
-should
-be
-acknowledged
+which should be acknowledged	<interpretation>
 .
 <end_of_description>
 
@@ -913,8 +902,7 @@ the
 differences in pay between men and women   <topic>
 in
 three    <x_axis_labels_count>
-European
-countries    <x_axis>
+European countries    <x_axis>
 .
 the
 pay gap    <y_axis>
@@ -927,12 +915,7 @@ with
 a
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-difference
-between 
-male
-and
-female
-wages
+difference between male and female wages	<y_axis>
 although
 this
 is
@@ -952,7 +935,7 @@ only	<y_axis_least_value>
 a
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-difference
+difference	<y_axis>
 .
 <end_of_description>
 
