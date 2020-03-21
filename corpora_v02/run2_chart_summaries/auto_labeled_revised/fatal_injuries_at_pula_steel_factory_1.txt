@@ -15,7 +15,7 @@ in
 2013	<x_axis_label_highest_value>
 of
 32	<y_axis_highest_value_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 .
 The
 year before   <x_axis_label_Scnd_highest_value>
@@ -25,7 +25,7 @@ year before   <x_axis_label_Scnd_highest_value>
 had
 just	<y_axis_trend> ##
 27	<y_axis_Scnd_highest_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 .
 But
 the
@@ -60,7 +60,7 @@ and
 there
 were
 25	<y_axis_4th_highest_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 .
 <end_of_description>
 
@@ -88,7 +88,7 @@ a
 spike   <slope_up>
 of
 32	<y_axis_highest_value_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 in
 2013	<x_axis_label_highest_value>
 ,
@@ -128,7 +128,7 @@ In
 there
 were
 27	<y_axis_Scnd_highest_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 ,
 rising	<slope_up>
 to
@@ -192,7 +192,7 @@ in
 ,
 with
 32	<y_axis_highest_value_val>
-fatalities   <y_axis>
+fatalities	<y_axis_inferred_label>
 .
 The
 lowest	<y_axis_least_value>
@@ -203,7 +203,7 @@ in
 ,
 with
 22	<y_axis_least_value_val>
-fatalities   <y_axis>
+fatalities	<y_axis_inferred_label>
 that
 year   <x_axis>
 .
@@ -245,7 +245,7 @@ year   <x_axis>
 there
 were
 27	<y_axis_Scnd_highest_val>
-fatal injuries at the factory   <y_axis>
+fatal injuries at the factory	<y_axis_inferred_label>
 .
 This
 increased	<slope_up>
@@ -253,7 +253,7 @@ in
 2013	<x_axis_label_highest_value>
 to
 32	<y_axis_highest_value_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 .
 Following
 this
@@ -263,7 +263,7 @@ number of injuries   <y_axis>
 decreased   <slope_down>
 to
 26	<y_axis_3rd_highest_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 in
 2014	<x_axis_label_3rd_highest_value>
 and
@@ -273,7 +273,7 @@ in
 2015	<x_axis_label_least_value>
 to
 22	<y_axis_least_value_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 .
 \\n   <separator>
 \\n   <separator>
@@ -354,7 +354,7 @@ Increasing	<slope_up>
 from
 just over	<y_axis_approx>
 25	<y_axis_inferred_Scnd_highest_value_approx>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 in
 2012	<x_axis_label_Scnd_highest_value>
 to
@@ -394,7 +394,7 @@ in
 saw
 the
 lowest	<y_axis_least_value>
-number of fatal injuries   <y_axis>
+number of fatal injuries	<y_axis_inferred_label>
 over
 a
 4	<x_interval>
@@ -402,7 +402,7 @@ year period   <x_axis>
 with
 just over 	<y_axis_approx>
 20	<y_axis_inferred_least_value_approx>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 .
 <end_of_description>
 
@@ -727,7 +727,7 @@ year   <x_axis>
 we
 saw
 27	<y_axis_Scnd_highest_val>
-injuries   <y_axis_inferred_label> ## or just y axis?
+injuries   <y_axis_inferred_label>
 which
 was
 followed	<order_Scnd>
@@ -773,7 +773,7 @@ saw
 an
 increase	<slope_up>
 of
-injuries   <y_axis_inferred_label>
+injuries   <y_axis>
 by
 25	<y_axis_4th_highest_val>
 .
@@ -827,7 +827,7 @@ in
 2015	<x_axis_label_least_value>
 at
 22	<y_axis_least_value_val>
-%	<y_axis_inferred_label>
+%	<y_axis_inferred_label> ## suggestion: delete line
 .
 <end_of_description>
 
@@ -895,7 +895,7 @@ in
 ,
 with
 32	<y_axis_highest_value_val>
-deaths   <y_axis>  <y_axis_inferred_label> ##
+deaths   <y_axis_inferred_label>
 .
 The
 lowest	<y_axis_least_value>
@@ -905,7 +905,7 @@ in
 2015	<x_axis_label_least_value>
 at
 22	<y_axis_least_value_val>
-deaths   <y_axis>   <y_axis_inferred_label>
+deaths   <y_axis_inferred_label>
 .
 <end_of_description>
 
@@ -944,7 +944,7 @@ in
 2013	<x_axis_label_highest_value>
 with
 32	<y_axis_highest_value_val>
-deaths   <y_axis> ## inconsistent within the same summary: y axis vs y axis inferred label
+deaths	<y_axis_inferred_label>
 and
 had
 a
@@ -966,7 +966,7 @@ a
 graph
 to
 show
-percentages
+percentages	## not percentages
 against
 time  <x_axis>
 .
@@ -1032,7 +1032,7 @@ and	<x_axis_range_end>
 \\n   <separator>
 More than	<y_axis_approx>
 20	<y_mean> ## interesting, maybe mean is not the best label
-fatal injuries	<y_axis>
+fatal injuries	<y_axis_inferred_label>
 occurred
 in
 all
@@ -1061,7 +1061,7 @@ when
 there
 were
 22	<y_axis_least_value_val>
-fatal injuries   <y_axis>
+fatal injuries	<y_axis_inferred_label>
 .
 In
 the
@@ -1070,7 +1070,7 @@ the
 number   <y_axis>
 was
 around	<y_axis_approx>
-25	<group_y> ## group y value here: mean
+25	<group_y_Scnd_3rd_4th> ## group y value here: mean
 .
 <end_of_description>
 
@@ -1098,7 +1098,7 @@ in
 2013	<x_axis_label_highest_value>
 ,
 22	<y_axis_least_value_val>
-died
+died	<y_axis_inferred_label>
 in
 2015	<x_axis_label_least_value>
 .
@@ -1210,7 +1210,5 @@ in
 2013	<x_axis_label_highest_value>
 .
 <end_of_description>
-
-
 
 
