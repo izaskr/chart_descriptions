@@ -313,7 +313,7 @@ daily	##
 ages   <x_axis>
 35-44   <x_axis_label_least_value>
 spent
-87	<y_axis_least_value>
+83	<y_axis_inferred_least_value_approx>
 minutes   <y_axis_inferred_label>
 daily	##
 ,
@@ -585,7 +585,7 @@ social media  <topic_related_object>
 ,
 averaging	##
 ~   <y_axis_approx>
-150   <y_axis_highest_value>
+150   <y_axis_highest_value_val>
 minutes   <y_axis_inferred_label>
 a day	<topic_related_property>
 .
@@ -984,7 +984,7 @@ minutes  <y_axis_inferred_label>
 had
 the
 lowest	<y_axis_least_value>
-time   spent   <y_axis>
+time spent	<y_axis>
 at
 just below <y_axis_approx>
 80	<group_y_4th_least>
@@ -1031,7 +1031,7 @@ the
 chart
 that
 the
-group
+group	<x_axis>
 that
 spends
 the

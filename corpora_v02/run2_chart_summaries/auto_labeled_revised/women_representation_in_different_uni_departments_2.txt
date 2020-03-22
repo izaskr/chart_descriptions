@@ -593,7 +593,7 @@ Arts	<x_axis_label_4th_highest_value>
 in
 Mathematics	<x_axis_label_3rd_highest_value>
 ,
-23	<y_axis_least_value>
+23	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 in
 Literature	<x_axis_label_least_value>

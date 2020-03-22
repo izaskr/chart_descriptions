@@ -52,7 +52,7 @@ how young people in Zarqa spend their evenings   <topic>
 .
 \\n   <separator>
 \\n   <separator>
-11   <y_axis_least_value>
+11   <y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 watch TV   <x_axis_label_least_value>
 ,
@@ -87,8 +87,7 @@ a
 percentage of those asked   <y_axis>
 .
 The
-most	<y_axis_highest_value>
-popular
+most popular	<y_axis_highest_value>
 chose
 is
 reading a book   <x_axis_label_highest_value>
@@ -122,8 +121,7 @@ at
 and
 watching TV   <x_axis_label_least_value>
 was
-least	<y_axis_least_value>
-popular
+least popular	<y_axis_least_value>
 -
 done
 by
@@ -160,8 +158,7 @@ proved
 to	
 be
 the
-most	<y_axis_highest_value>
-popular
+most popular	<y_axis_highest_value>
 with
 38	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -177,8 +174,7 @@ at
 %	<y_axis_inferred_label>
 was
 the
-least	<y_axis_least_value>
-popular
+least popular	<y_axis_least_value>
 .
 <end_of_description>
 
@@ -301,9 +297,8 @@ go out   <x_axis_label_3rd_highest_value>
 Watching TV   <x_axis_label_least_value>
 is
 the
-least	<y_axis_least_value>
-popular
-option
+least popular	<y_axis_least_value>
+option	<x_axis>
 ,
 with
 only	<y_axis_least_value>
@@ -428,8 +423,7 @@ by
 main activity	<x_axis>
 .
 The
-least	<y_axis_least_value>
-popular
+least popular	<y_axis_least_value>
 activity   <x_axis>
 is
 watching TV   <x_axis_label_least_value>
@@ -442,8 +436,7 @@ and
 spending time with family   <x_axis_label_Scnd_highest_value>
 are
 the
-most	<y_axis_highest_value>
-popular
+most popular	<y_axis_highest_value>
 activities   <x_axis>
 at
 38	<y_axis_highest_value_val>
@@ -460,8 +453,7 @@ respectively
 <start_of_description>
 Percentage of people in Zarqa split by how they spend their evenings   <topic>
 .
-Most	<y_axis_highest_value>
-people
+Most people	<y_axis_highest_value>
 spend
 their evenings	<topic_related_property>
 reading   <x_axis_label_highest_value>
@@ -735,7 +727,7 @@ watch TV   <x_axis_label_least_value>
 spend their evenings with family   <x_axis_label_Scnd_highest_value>
 .
 \\n   <separator>
-38	<y_axis_least_value_val>
+38	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 read a book   <x_axis_label_highest_value>
 and
@@ -907,7 +899,7 @@ go out   <x_axis_label_3rd_highest_value>
 The
 majority	<y_axis_highest_value>
 of
-young people in Zarqa   <y_axis> ##
+young people in Zarqa   <y_axis>
 spend
 their evenings	<topic_related_property>
 reading a book   <x_axis_label_highest_value>
@@ -917,9 +909,8 @@ at
 %	<y_axis_inferred_label>
 .
 The
-least	<y_axis_least_value>
-popular
-way
+least popular	<y_axis_least_value>
+way	<x_axis>
 to	
 spend
 the
@@ -974,7 +965,7 @@ whereas
 %	<y_axis_inferred_label>
 choose
 to	
-read   <y_axis_highest_value>
+read   <x_axis_label_highest_value>
 .
 18	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
