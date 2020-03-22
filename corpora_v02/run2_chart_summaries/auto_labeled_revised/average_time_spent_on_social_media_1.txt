@@ -585,7 +585,7 @@ social media  <topic_related_object>
 ,
 averaging	##
 ~   <y_axis_approx>
-150   <y_axis_highest_value>
+150   <y_axis_highest_value_val>
 minutes   <y_axis_inferred_label>
 a day	<topic_related_property>
 .

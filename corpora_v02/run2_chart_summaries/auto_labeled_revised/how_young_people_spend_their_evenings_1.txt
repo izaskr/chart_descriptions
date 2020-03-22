@@ -87,8 +87,7 @@ a
 percentage of those asked   <y_axis>
 .
 The
-most	<y_axis_highest_value>
-popular
+most popular	<y_axis_highest_value>
 chose
 is
 reading a book   <x_axis_label_highest_value>
@@ -160,8 +159,7 @@ proved
 to	
 be
 the
-most	<y_axis_highest_value>
-popular
+most popular	<y_axis_highest_value>
 with
 38	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -442,8 +440,7 @@ and
 spending time with family   <x_axis_label_Scnd_highest_value>
 are
 the
-most	<y_axis_highest_value>
-popular
+most popular	<y_axis_highest_value>
 activities   <x_axis>
 at
 38	<y_axis_highest_value_val>
@@ -460,8 +457,7 @@ respectively
 <start_of_description>
 Percentage of people in Zarqa split by how they spend their evenings   <topic>
 .
-Most	<y_axis_highest_value>
-people
+Most people	<y_axis_highest_value>
 spend
 their evenings	<topic_related_property>
 reading   <x_axis_label_highest_value>
@@ -907,7 +903,7 @@ go out   <x_axis_label_3rd_highest_value>
 The
 majority	<y_axis_highest_value>
 of
-young people in Zarqa   <y_axis> ##
+young people in Zarqa   <y_axis>
 spend
 their evenings	<topic_related_property>
 reading a book   <x_axis_label_highest_value>
@@ -974,7 +970,7 @@ whereas
 %	<y_axis_inferred_label>
 choose
 to	
-read   <y_axis_highest_value>
+read   <x_axis_label_highest_value>
 .
 18	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>

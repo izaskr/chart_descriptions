@@ -706,7 +706,7 @@ at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 Next	<order_Scnd>
-highest	<y_axis_highest_value> ## "next highest" is not the same as "the highest"
+highest
 was
 lack of exercise   <x_axis_label_Scnd_highest_value>
 at
@@ -735,8 +735,7 @@ shows
 what causes obesity in Kirbati   <topic>
 .
 THe
-most	<y_axis_highest_value>
-common
+most common	<y_axis_highest_value>
 cause of obesity   <x_axis>
 is
 genetic   <x_axis_label_highest_value>
