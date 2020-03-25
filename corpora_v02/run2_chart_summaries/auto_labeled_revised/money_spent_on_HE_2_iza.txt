@@ -34,8 +34,7 @@ at
 ,000,000	<y_magnitude>
 .
 The
-amount of money	<y_axis>
-spent
+amount of money	spent <y_axis>
 on
 Higher Education in 2010	<topic_related_property>
 in
@@ -244,7 +243,7 @@ spent
 million    <y_magnitude>
 pounds	<y_axis_inferred_label>
 .
-Asia
+Asia  <x_axis_label_3rd_highest_value>
 170	<y_axis_inferred_3rd_highest_value_approx>
 million    <y_magnitude>
 pounds	<y_axis_inferred_label>
@@ -289,7 +288,7 @@ spent
 million    <y_magnitude>
 pounds	<y_axis_inferred_label>
 and	<x_axis_range_end>
-Asia
+Asia   <x_axis_label_3rd_highest_value>
 170	<y_axis_inferred_3rd_highest_value_approx>
 million    <y_magnitude>
 pounds	<y_axis_inferred_label>
@@ -428,7 +427,7 @@ continents	<x_axis>
 named
 ,
 spending
-only	<y_axis_least_value>	## only around - one unit?
+only	<y_axis_least_value>	 
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
 147	<y_axis_inferred_least_value_approx>
@@ -479,7 +478,7 @@ million	<y_magnitude>
 a
 difference	##
 of
-50	<> ## add and mul
+50	<> ## mul_add
 %	<y_axis_inferred_label>
 .
 Europe	<x_axis_label_Scnd_highest_value>
@@ -550,7 +549,7 @@ The
 money spent	<y_axis>
 on
 Higher Education on the year 2010	<topic_related_property>
-vary
+vary 
 by
 continent	<x_axis>
 .
@@ -590,8 +589,7 @@ North America	<x_axis_label_least_value>
 and
 Asia	<x_axis_label_3rd_highest_value>
 spent
-less	<y_axis_approx>
-than
+less than  <y_axis_approx>
 200	<> ##
 millions		<y_magnitude>
 ,
@@ -769,7 +767,7 @@ Asia	<x_axis_label_3rd_highest_value>
 just above	<y_axis_trend_up>
 the
 same
-amount	## how to label "same amount" <y_axis_inferred_least_value_approx> ?
+amount	## how to label "same amount" <y_axis_inferred_least_value_approx> ?   ------ seems like reference to "least_value"  .. or maybe group value
 .
 <end_of_description>
 
@@ -855,7 +853,7 @@ the
 running
 to	<x_axis_range_end>
 each
-other	## should this sentence be labeled as interpretation?
+other	## should this sentence be labeled as interpretation?  - maybe not. says they have similar value
 .
 The
 third	<order_3rd>

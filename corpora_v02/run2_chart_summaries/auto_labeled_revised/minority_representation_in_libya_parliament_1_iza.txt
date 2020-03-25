@@ -44,7 +44,7 @@ in
 %	<y_axis_inferred_label>
 in
 2010-2014	<x_axis_label_Scnd_highest_value>
-and then	<order_last> ##
+and then	<order_last> 
 14	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 in
@@ -69,7 +69,7 @@ Minority representation	<y_axis> ## topic related object/property?
 increases	<slope_up>
 every
 4	<x_interval>
-years	<x_axis> ## or 4 years or every 4 years together
+years	<x_axis>  
 -
 just	<y_axis_least_value>
 0.2	<y_axis_inferred_least_value_approx>
@@ -239,7 +239,7 @@ under	<y_axis_approx>
 (
 0.25	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-?	## ?
+?	## ?   maybe delete or <disregard>
 )
 .
 Between 1995 and 1999	<x_axis_label_5th_highest_value>
@@ -290,7 +290,7 @@ it
 has
 reached
 an
-all time high	<y_axis_highest_value> ##
+all time high	<y_axis_highest_value> 
 of
 14	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -481,7 +481,7 @@ representation of minority groups in Lybian Parliament	<y_axis> or topic ##
 over
 the
 last
-30	<x_interval> ## over the last 30 years?
+30	<x_interval> 
 years.
 \\n	<separator>
 Over
@@ -552,12 +552,12 @@ seen
 each term	<slope_x_value> ##
 of
 around	<y_axis_approx>
-2.5	<slope_y_value> # this refers to the slope between three bars, not all
+2.5	<slope_y_value> ## this refers to the slope between three bars, not all
 %	<y_axis_inferred_label>
 ,
 with
 a
-slowing down	<y_axis_trend_down> ## because slope_down would imply a downward trend in general
+slowing down	<y_axis_trend_down> 
 of
 this
 to
@@ -1156,7 +1156,7 @@ of
 %	<y_axis_inferred_label>
 for
 the
-period	<x_axis> ##
+period	<x_axis>  
 1990-1994	<x_axis_label_least_value>
 .
 Steadily	<y_axis_trend>
@@ -1169,7 +1169,7 @@ to
 %	<y_axis_inferred_label>
 for
 the
-period	<x_axis> ##
+period	<x_axis> 
 2015-19	<x_axis_label_highest_value>
 .
 <end_of_description>

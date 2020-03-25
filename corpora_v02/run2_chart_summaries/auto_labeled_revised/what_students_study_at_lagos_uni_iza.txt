@@ -166,12 +166,11 @@ what students at Lagos State University choose to study	<topic>
 .
 \\n	<separator>
 \\n	<separator>
-STEM subject	<x_axis_label_least_value> ## should we split this into STEM and subject?
+STEM subject	<x_axis_label_least_value> ## should we split this into STEM and subject?   this would be consistent with the eg. 15-25 age group 
 is
 the
-least	<y_axis_least_value>
-popular
-choice
+least popular  <y_axis_least_value>
+choice   <x_axis>
 with
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
@@ -193,7 +192,7 @@ medicine	<x_axis_label_highest_value>
 is
 the
 popular	<y_axis_highest_value>
-choice
+choice <x_axis>
 at
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -207,8 +206,7 @@ shows
 what students at Lagos State University choose to study	<topic>
 .
 The
-most	<y_axis_highest_value>
-popular
+most popular   <y_axis_highest_value>
 is
 medicine	<x_axis_label_highest_value>
 at
@@ -239,7 +237,7 @@ The
 chart
 shows
 the
-percentage of students	<y_axis> ## split?
+percentage of students	<y_axis> ## split?   ----- seems fine
 that
 chose
 to
@@ -304,7 +302,7 @@ literature	<x_axis_label_3rd_highest_value>
 ,
 then	<order_3rd>
 around	<y_axis_approx>
-30	<y_axis_Scnd_highest_val> ## also highest value in this case
+30	<y_axis_Scnd_highest_val> ## also highest value in this case <group value> 
 %	<y_axis_inferred_label>
 for
 both
@@ -338,7 +336,7 @@ and
 Medicine	<x_axis_label_highest_value>
 .
 The
-latter
+latter  ##   ------represents a number of labels <group>
 subjects
 were
 studied
@@ -349,7 +347,7 @@ half	<other_operation> ## relation: one-vs-three
 as
 many
 students	<topic_related_property>
-than
+than  ## ------------ comparison?
 STEM	<x_axis_label_least_value>
 was
 .
@@ -365,8 +363,7 @@ percentage of students studying various courses at Lagos State University	<topic
 Medicine	<x_axis_label_highest_value>
 is
 the
-most	<y_axis_highest_value>
-popular	##
+most popular   <y_axis_highest_value>
 course	<x_axis>
 with
 31	<y_axis_highest_value_val>
@@ -380,7 +377,7 @@ this
 and
 Philosophy	<x_axis_label_Scnd_highest_value>
 is
-not far	<y_axis_approx>
+not far	<y_axis_approx>   ## ------------ seems like  trend? "not far from behind" kinda like similar or a bit less.
 from
 behind	<y_axis_trend_down>
 with
@@ -452,7 +449,7 @@ STEM , Literature , Philosophy and Medicine	<x_axis_labels>
 Medicine	<x_axis_label_highest_value>
 is
 the
-favorite one	<y_axis_highest_value>
+favorite one   <y_axis_highest_value>
 with
 more than	<y_axis_approx>
 30	<y_axis_highest_value_val>
@@ -518,11 +515,9 @@ STEM , Literature , Philosophy and Medicine	<x_axis_labels>
 Medicine	<x_axis_label_highest_value>
 was
 the
-most	<y_axis_highest_value>
-popular
+most popular   <y_axis_highest_value>
 with
-just	<y_axis_least_value>
-over	<y_axis_approx>
+just over	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
@@ -539,8 +534,7 @@ choosing	<topic_related_property>
 it
 .
 The
-least	<y_axis_least_value>
-popular
+least popular   <y_axis_least_value>
 was
 STEM	<x_axis_label_least_value>
 with
@@ -651,8 +645,7 @@ the
 subject that Lagos State University choose to study	<topic>
 .
 The
-most	<y_axis_highest_value>
-common
+most common   <y_axis_highest_value>
 subject	<x_axis>
 is
 Medicine	<x_axis_label_highest_value>
@@ -663,8 +656,7 @@ philosophy	<x_axis_label_Scnd_highest_value>
 .
 The
 third	<order_3rd>
-most	<y_axis_highest_value>
-popular
+most popular   <y_axis_highest_value>
 Is
 literature	<x_axis_label_3rd_highest_value>
 followed	<order_Scnd>
@@ -687,8 +679,7 @@ and
 Philosophy	<x_axis_label_Scnd_highest_value>
 are
 the
-most	<y_axis_highest_value>
-popular
+most popular   <y_axis_highest_value>
 subjects	<x_axis>
 ,
 with
@@ -761,18 +752,16 @@ and
 philosophy	<x_axis_label_Scnd_highest_value>
 are
 the
-most	<y_axis_highest_value>
-popular
+most popular   <y_axis_highest_value>
 choice
 at
 around	<y_axis_approx>
-30	<y_axis_Scnd_highest_val>	## reference to highest and second highest
+30	<y_axis_Scnd_highest_val>	## reference to highest and second highest <group>
 %	<y_axis_inferred_label>
 ,
 STEM	<x_axis_label_least_value>
 the
-least	<y_axis_least_value>
-popular
+least popular   <y_axis_least_value>
 at
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>

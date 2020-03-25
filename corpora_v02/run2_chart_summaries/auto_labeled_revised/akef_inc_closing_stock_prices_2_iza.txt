@@ -63,8 +63,8 @@ closing stock price for Akef Inc. over the course of a week	<topic>
 On
 Monday	<x_axis_label_3rd_highest_value>
 the
-stock	<topic_related_object> ## or property?
-closed	<topic_related_object> ## or property?
+stock	<topic_related_object>
+closed	<topic_related_property>  
 at
 £	<y_axis_inferred_label>
 50	<y_axis_inferred_3rd_highest_value_approx>
@@ -129,7 +129,7 @@ decline	<slope_down>
 on
 Thursday	<x_axis_label_4th_highest_value>
 and
-Friday	<x_axis_label_least_value> ### bars without explicit height info: labels_rest?
+Friday	<x_axis_label_least_value> ## bars without explicit height info: labels_rest?
 .
 <end_of_description>
 
@@ -281,7 +281,7 @@ just over	<y_axis_approx>
 50	<y_axis_inferred_3rd_highest_value_approx>
 on
 Monday	<x_axis_label_3rd_highest_value>
-peaking	<y_axis_highest_value> ### or slope_up
+peaking	<y_axis_highest_value>
 at
 £	<y_axis_inferred_label>
 72	<y_axis_inferred_highest_value_approx>
@@ -382,7 +382,7 @@ at
 £	<y_axis_inferred_label>
 20	<y_axis_inferred_4th_highest_value_approx>
 and
-lastly	<order_last> ##
+lastly	<order_last> 
 Fri	<x_axis_label_least_value>
 at
 £	<y_axis_inferred_label>
@@ -401,7 +401,7 @@ the
 rise	<slope_up>
 for
 the
-first three days of the week	<slope_x_value?> ## range: mon, tue, wed
+first three days of the week	<slope_x_value?> ## -- x_interval?
 ,
 but
 on
@@ -432,7 +432,7 @@ just	<y_axis_least_value>
 9	<y_axis_inferred_least_value_approx>
 ,
 a
-far cry	<y_axis_trend> ## down
+far cry	<y_axis_trend> 
 from
 the
 price	<y_axis>
@@ -475,7 +475,7 @@ lowest	<y_axis_least_value>
 .
 <end_of_description>
 
-<start_of_description>	##TODO from here
+<start_of_description>	
 The
 graph
 shows
@@ -634,7 +634,7 @@ was
 Wednesday	<x_axis_label_highest_value>
 where
 the
-price
+price  <y_axis>
 were
 approx.	<y_axis_approx>
 £	<y_axis_inferred_label>
@@ -794,7 +794,7 @@ respectively
 .
 <end_of_description>
 
-<start_of_description> # TODO continue here
+<start_of_description> 
 Here
 is
 a
@@ -945,7 +945,6 @@ to
 <start_of_description>
 Closing stock price for a week for Akef inc	<topic>
 .
- 
 Mon	<x_axis_label_3rd_highest_value>
 was
 £	<y_axis_inferred_label>
@@ -986,7 +985,7 @@ unusual	<y_axis_trend>
 During
 the
 first
-3 days	<group?> # or split into 3 and days (x_axis)
+3 days	<group?> ## or split into 3 and days (x_axis)
 ,
 the
 prices	<y_axis>
@@ -1073,7 +1072,7 @@ was
 £	<y_axis_inferred_label>
 22	<y_axis_inferred_4th_highest_value_approx>
 .
-Lastly	<order_rest> ## or order_last, which would be a new label
+Lastly	<order_last>
 ,
 Friday	<x_axis_label_least_value>
 's

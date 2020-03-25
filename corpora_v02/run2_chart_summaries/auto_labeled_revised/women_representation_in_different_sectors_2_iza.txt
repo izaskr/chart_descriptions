@@ -31,7 +31,7 @@ for
 the
 Insurance sector	<x_axis_label_highest_value>
 was
-even	<y_axis_trend> ##
+even	
 higher	<y_axis_trend_up>
 at
 65	<y_axis_highest_value_val>
@@ -111,8 +111,8 @@ see
 that
 there
 are
-less	<y_axis_approx>
-women than men	<> ## y_axis?
+less	<y_axis_approx>   ## ----------- this is not a <y_axis_approx>
+women than men	<> ## y_axis?    ------------  # ?
 working
 in
 law firms	<x_axis_label_least_value>
@@ -184,8 +184,7 @@ at
 %	<y_axis_inferred_label>
 and	<x_axis_range_end>
 then	<order_last>
-not
-far	<y_axis_trend>
+not far	<y_axis_trend>
 behind	<y_axis_trend_down>
 by
 Tech sector	<x_axis_label_Scnd_highest_value>
@@ -300,7 +299,7 @@ about	<y_axis_approx>
 .
 Insurance groups	<x_axis_label_highest_value>
 had
-slightly	<y_axis_trend> ## not approx: approx modifies numerical values, trend modifies words
+slightly	<y_axis_trend> 
 more	<y_axis_trend_up>
 with
 about	<y_axis_approx>
@@ -355,7 +354,8 @@ Female representation	<y_axis>
 in
 the
 Insurance sector	<x_axis_label_highest_value>
-in Benoni	<topic_related_property>
+in 
+Benoni	<topic_related_property>
 is
 higher	<y_axis_trend_up>
 than
@@ -410,7 +410,7 @@ at
 a
 30	<y_axis_inferred_value_add_v1=highest_v2=least>
 %	<y_axis_inferred_label>
-difference	##
+difference
 .
 Financial groups	<x_axis_label_3rd_highest_value>
 appear
@@ -432,7 +432,7 @@ the
 percentage of woman who are representatives in different sectors in Benoni	<topic>
 .
 Most	<y_axis_highest_value>
-woman are representative	<y_axis>
+woman are representative	<y_axis>   #----------- y_axis ??
 in
 Insurance	<x_axis_label_highest_value>
 with
@@ -575,7 +575,7 @@ Almost	<y_axis_approx>
 %	<y_axis_inferred_label>
 of
 financial groups	<x_axis_label_3rd_highest_value>
-consisted of women	<topic_related_property> ## or y axis?
+consisted of women	<y_axis>  
 ,
 and
 women	<topic_related_property>
@@ -591,7 +591,7 @@ tech sector	<x_axis_label_Scnd_highest_value>
 The
 insurance sector	<x_axis_label_highest_value>
 is
-even	##
+even	 
 higher	<y_axis_trend_up>
 at
 65	<y_axis_highest_value_val>
@@ -617,7 +617,7 @@ a
 bar
 chart
 representing
-women in different sector in Benoi	<topic>
+women in different sector in Benoni	<topic>
 .
 \\n	<separator>
 It
@@ -893,22 +893,18 @@ around	<y_axis_approx>
 of
 women in it	<topic_related_property> ## or y axis
 .
-Other sectors	<x_axis_labels_rest> ## or x axis?
+Other sectors	<x_axis_labels_rest> ## or x axis? <group>?
 like
 Tech	<x_axis_label_Scnd_highest_value>
 and
 Financial Groups	<x_axis_label_3rd_highest_value>
-also
-doing
-good	<y_axis_trend_up> ##
+also doing good    <interpretation>
 with
 percentages	<y_axis>
 over	<y_axis_approx>
 50	<y_axis_3rd_highest_val>
-but
-not	##
-more	<y_axis_trend_up>
-that
+but 
+not more than    <y_axis_approx>
 64	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 with

@@ -123,7 +123,7 @@ been
 a
 steady	<y_axis_trend>
 decline	<slope_down>
-each year	<slope_x_value> ## or split into slope x value and x axis?
+each year	<x_axis_trend> 
 ,
 from
 30	<y_axis_highest_value_val>
@@ -281,7 +281,7 @@ The
 fatality rate	<y_axis>
 has
 fallen	<slope_down>
-each year	<slope_x_value> ##
+each year	<x_axis_trend> 
 .
 There
 were
@@ -423,7 +423,7 @@ in
 ,
 with
 9	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
-less	<y_axis_trend_down> ##
+less	<y_axis_trend_down> 
 injuries	<y_axis>
 occurring
 in
@@ -448,7 +448,7 @@ fatalities	<y_axis>
 This
 decreased	<slope_down>
 by
-16.6	<>	##
+16.6	<>	## mul_add
 %	<y_axis_inferred_label>
 by
 2013	<x_axis_label_Scnd_highest_value>
@@ -460,7 +460,7 @@ a
 massive	<y_axis_trend>
 drop	<slope_down>
 of
-36	<> ## mul and add
+36	<> ## mul_add
 %	<y_axis_inferred_label>
 in
 2014	<x_axis_label_3rd_highest_value>
@@ -480,7 +480,7 @@ there
 was
 a
 further
-20	<> ##	slope y value ?
+20	<> ##	mul_add ?
 %	<y_axis_inferred_label>
 drop	<slope_down>
 .
@@ -492,7 +492,7 @@ have
 decreased	<slope_down>
 every year	<slope_x_value> or x interval
 and
-from
+from  <x_axis_range_start>
 2012	<x_axis_label_highest_value>
 to	<x_axis_range_end>
 2016	<x_axis_label_least_value>
@@ -600,12 +600,12 @@ in
 injuries	<y_axis>
 from
 30	<y_axis_highest_value_val>
-people being fatally injured	<y_axis> ## or <y_axis_inferred_label>
+people being fatally injured	<y_axis_inferred_label>
 in
 2012	<x_axis_label_highest_value>
 to
 12	<y_axis_least_value_val>
-people being injured	<y_axis> ## or should <y_axis_inferred_label>
+people being injured   <y_axis_inferred_label>
 in
 2016	<x_axis_label_least_value>
 .
@@ -635,9 +635,9 @@ an
 average	<y_axis_trens>
 decrease	<slope_down>
 of
-5	<slope_x_value>
+5	<slope_y_value>
 per
-year	<slope_y_value> ## every year 5 fatalities less
+year	<slope_x_value> ## every year 5 fatalities less
 .
 <end_of_description>
 

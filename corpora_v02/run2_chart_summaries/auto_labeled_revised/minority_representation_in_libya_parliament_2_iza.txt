@@ -63,7 +63,7 @@ between 2015 and 2019	<x_axis_label_5th_highest_value>
 .
 <end_of_description>
 
-<start_of_description> # todo
+<start_of_description> 
 This
 chart
 shows
@@ -198,11 +198,10 @@ years	<x_axis>
 -	<x_axis_range_end>
 2004	<x_axis_label_3rd_highest_value>
 .
- 
 However
 ,
 it
-slowed down	<y_axis_trend> ## ?
+slowed down	<y_axis_trend> 
 but
 still
 decreased	<slope_down>
@@ -214,8 +213,8 @@ years	<x_axis>
 There
 was
 a
-slightly larger	<y_axis_trend> ##
-decrease	<slope_down>	## or y_axis_trend_down ?
+slightly larger	<y_axis_trend> ## 
+decrease	<slope_down>	
 in
 the
 years	<x_axis>
@@ -377,7 +376,7 @@ over	<y_axis_approx>
 And
 a
 minor	<y_axis_trend>
-change
+change   ## slope?
 of
 just below	<y_axis_approx>
 8	<y_axis_inferred_4th_highest_value_approx>
@@ -450,7 +449,7 @@ to
 in
 2010-2014	<x_axis_label_least_value>
 then	<order_last>
-up
+up  <slope_up>
 again
 in
 2015-2019	<x_axis_label_5th_highest_value>
@@ -463,8 +462,7 @@ about	<y_axis_approx>
 
 <start_of_description>
 The
-minority
-representation in the Parliament of Lybia	<topic>
+minority representation in the Parliament of Lybia	<topic>
 was
 decreasing	<slope_down>
 between	<x_axis_range_start>
@@ -593,7 +591,7 @@ by
 more	<y_axis_approx>
 of
 5	<y_axis_inferred_value_add_v1=highest_v2=3rd> ## not sure here about v1 and v2
-%	<y_axis_inferred_label>
+%	<y_axis_inferred_label>  ## -------------- #this sentence as a whole is a bit unclear
 .
 It
 had
@@ -637,7 +635,7 @@ where
 there
 Minority representation	<y_axis>
 was
-only	<y_axis_least_value> ## this is actually not marking the smallest value...
+only	
 8.4	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
@@ -646,7 +644,7 @@ being
 reduced	<slope_down>
 in
 the
-following	## label following years?
+following	## <x_axis_labels_rest>  ??
 years
 .
 In
@@ -937,8 +935,7 @@ peak
 which
 every
 5	<x_interval>
-year
-block
+year block  <x_axis>
 it
 deteriorated	<slope_down>
 until
@@ -1045,8 +1042,8 @@ has
 decreased	<slope_down>
 over
 the
-last	## label?
-20	<x_interval>
+last	
+20	<x_interval>  ##
 years	<x_axis>
 ,
 as

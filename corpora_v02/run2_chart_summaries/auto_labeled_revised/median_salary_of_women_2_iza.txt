@@ -156,7 +156,7 @@ were
 earning
 almost	<y_axis_approx>
 £	<y_axis_inferred_label>
-10	<y_axis_inferred_value_add_v1=least_v2=highest>	## should v1 and v2 be swapped?
+10	<y_axis_inferred_value_add_v1=least_v2=highest>	
 ,000	<y_magnitude>
 less	<y_axis_trend_down>
 per
@@ -221,7 +221,7 @@ drops	<slope_down>
 in
 the
 next	##
-10	<x_interval>	## it's the same as saying it drops for the years 2010 and 2015
+10	<x_interval>	
 years	<x_axis>
 from
 £	<y_axis_inferred_label>
@@ -271,7 +271,8 @@ and
 in
 2015	<x_axis_label_least_value>
 the
-salary earned	<y_axis> ## unsure about including "earned"
+salary	<y_axis> ## unsure about including "earned"
+earned
 per
 year	<x_axis>
 dropped	<slope_down>
@@ -488,7 +489,7 @@ to
 the
 median	salary	<y_axis>
 of
-18	<> ## add and mul
+18	<> ## mul_add
 %	<y_axis_inferred_label>
 however
 over the next ten years	<x_axis_label_least_value>
@@ -507,7 +508,7 @@ to	<x_axis_range_end>
 there
 was
 a
-27	<>	##
+27	<>	## mul_add
 %	<y_axis_inferred_label>
 decrease	<slope_down>
 in
@@ -515,7 +516,7 @@ median salary	<y_axis>
 and
 a
 further
-16	<> ##
+16	<> ##  mul_add
 %	<y_axis_inferred_label>
 decrease	<slope_down>
 to	<x_axis_range_end>
@@ -573,7 +574,7 @@ The
 Median salary per year of women in Najaf 	<y_axis>
 has
 been
-changing	<y_axis_trend> ## or <slope_mix>
+changing	<y_axis_trend> 
 with the years	<x_axis_trend>
 ,
 the
@@ -590,9 +591,7 @@ this
 000	<y_magnitude>
 ,
 which
-was
-good	<y_axis_trend> ## y axis trend or interpretation
-sign
+was good sign   <interpretation>
 of
 growing	<slope_up>
 since
@@ -607,10 +606,10 @@ the
 year	<x_axis>
 2000	<x_axis_label_Scnd_highest_value>
 .
-Unfortunately	<interpretation> ##
+Unfortunately	<interpretation> 
 instead
 of
-growing	## instead of growing = it wasn't growing = it was decreasing (slope down)
+growing	 
 after
 2005	<x_axis_label_highest_value>
 ,
@@ -673,7 +672,7 @@ in
 2000	<x_axis_label_Scnd_highest_value>
 which
 rose	<slope_up>
-over 5 years	<x_axis_label_highest_value> ##
+over 5 years	<x_axis_label_highest_value> ##  --- <x_interval>?
 to
 just over	<y_axis_approx>
 25	<y_axis_inferred_highest_value_approx>
@@ -778,7 +777,7 @@ just under	<y_axis_approx>
 23	<y_axis_inferred_Scnd_highest_value_approx>
 pounds	<y_axis_inferred_label>
 a
-year	## a year = annual 
+year	## a year = annual  <topic_related?>
 .
 \\n	<separator>
 In
@@ -790,7 +789,7 @@ just above	<y_axis_approx>
 25	<y_axis_inferred_highest_value_approx>
 pounds	<y_axis_inferred_label>
 a
-year	##
+year	## <topic_related?>
 .
 \\n	<separator>
 In
@@ -802,7 +801,7 @@ just under	<y_axis_approx>
 20	<y_axis_inferred_3rd_highest_value_approx>
 pounds	<y_axis_inferred_label>
 a
-year	##
+year	## <topic_related?>
 .
 \\n	<separator>
 In
@@ -814,7 +813,7 @@ just above	<y_axis_approx>
 15	<y_axis_inferred_least_value_approx>
 pounds	<y_axis_inferred_label>
 a
-year	##
+year	## <topic_related?>
 .
 \\n
 It is unclear according to this chart why the median has n't been consistent	<interpretation>
@@ -939,14 +938,14 @@ in
 2005	<x_axis_label_highest_value>
 ,
 since
-then	<order_rest> ## order last?
+then	
 the
 median salary	<y_axis>
 is
 showing
 a
 downward	<slope_down>
-trend	<y_axis_trend>	##
+trend 
 ,
 with
 the
@@ -955,7 +954,7 @@ in
 2015	<x_axis_label_least_value>
 being
 £	<y_axis_inferred_label>
-10	<y_axis_inferred_value_add_v1=least_v2=heighest>	##
+10	<y_axis_inferred_value_add_v1=least_v2=heighest>	
 000	<y_magnitude>
 less	<y_axis_approx>
 than
@@ -1019,7 +1018,7 @@ between
 26	<y_axis_inferred_highest_value_approx>
 thousand	<y_magnitude>
 pounds	<y_axis_inferred_label>
-over the last 15 years	<x_interval> ## or x axis trend
+over the last 15 years	<x_interval> ## or x axis trend  - inerval besser
 .
 in
 2005	<x_axis_label_highest_value>
