@@ -48,8 +48,7 @@ is
 the
 least    <y_axis_least_value>
 with
-less    <y_axis_approx>
-than
+less than   <y_axis_approx>
 20    <y_axis_least_value_val>
 %    <y_axis>
 of
@@ -395,8 +394,7 @@ within
 financial groups    <x_axis_label_Scnd_highest_value>
 ,
 just
-less    <y_axis_approx>
-than
+less than   <y_axis_approx>
 30    <y_axis_inferred_least_value_approx>
 %    <y_axis>
 in

@@ -641,8 +641,7 @@ highest    <y_axis_highest_value>
 gender pay gap   <topic>
 which
 is
-more    <y_axis_approx>
-than
+more than   <y_axis_approx>
 double    <y_axis_inferred_value_mul_v1=highest_v2=least>
 the
 lowest    <y_axis_least_value>

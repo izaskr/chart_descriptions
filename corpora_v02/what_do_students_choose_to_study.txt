@@ -523,8 +523,7 @@ the
 STEM    <x_axis_label_highest_value>
 subjects    <x_axis>
 ,
-less    <y_axis_approx>
-than
+less than   <y_axis_approx>
 half    <y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 that
 number
@@ -630,8 +629,7 @@ to
 study    <topic_related_property>
 stem    <x_axis_label_highest_value>
 with
-more    <y_axis_approx>
-than
+more than   <y_axis_approx>
 double    <y_axis_inferred_value_mul_v1=highest_v2=Scnd>
 the
 other subjects    <x_axis_labels_rest>

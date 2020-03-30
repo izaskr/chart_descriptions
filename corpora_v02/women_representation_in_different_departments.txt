@@ -320,8 +320,7 @@ is
 Arts    <x_axis_label_Scnd_highest_value>
 also
 has
-more    <y_axis_approx>
-than
+more than   <y_axis_approx>
 half    <y_axis_Scnd_highest_val>
 women    <topic_related_property>
 ,
@@ -330,8 +329,7 @@ computer science    <x_axis_label_4th_highest_value>
 and
 engineering    <x_axis_label_3rd_highest_value>
 have
-more    <y_axis_approx>
-than
+more than   <y_axis_approx>
 half    <x_axis_label_3rd_highest_value>
 men    <topic_related_property>
 .
