@@ -5,7 +5,10 @@ a
 chart
 showing
 the
-number of fatal injuries at the Pula Steel Factory across the years   <topic>
+number of fatal injuries at the Pula Steel Factory	<topic>
+across
+the
+years	<x_axis>
 .
 It
 shows
@@ -171,7 +174,11 @@ The
 graph
 details
 the
-number of fatal injuries per year, at the Pula steel factory	<topic>
+number of fatal injuries	<y_axis>
+per
+year	<x_axis>
+,
+at the Pula steel factory	## more object- or property-like?
 .
 Covering
 the
@@ -220,7 +227,7 @@ the
 number of fatal injuries at the Pula Steel factory	<topic>
 over
 a
-4	<x_interval>
+4	<x_interval> ##
 year period	<x_axis>
 ,
 between	<x_axis_range_start>
@@ -297,9 +304,11 @@ The
 graph
 depicts
 the
-number of fatal injuries at the Pula Steel Factory by year   <topic>
+number of fatal injuries at the Pula Steel Factory	<topic>
+by
+year	<x_axis>
 across
-5	<x_interval>
+5	<x_axis_labels_count>
 years	<x_axis>
 .
 In
@@ -347,8 +356,9 @@ an
 increase	<slope_up>
 in
 the
-number of fatal injuries at the Pula Steel Factory    <y_axis>	## Pula Steel Factory topic_related_property?
-from 2012 to 2013	<group_Scnd_highest>	## or should we break into range: start and end?
+number of fatal injuries	<y_axis>
+at the Pula Steel Factory	## more object- or property-like?
+from 2012 to 2013	<group_Scnd_highest>	##
 .
 Increasing	<slope_up>
 from
@@ -408,7 +418,8 @@ fatal injuries	<y_axis_inferred_label>
 
 <start_of_description>
 The
-number of fatal injuries at the Pula Steel Factory   <y_axis>
+number of fatal injuries	<y_axis>
+at the Pula Steel Factory	## more object- or property-like?
 rose	<slope_up>
 from
 27	<y_axis_Scnd_highest_val>
@@ -450,7 +461,8 @@ in
 
 
 <start_of_description>
-Fatal injuries at the Pula Steel Factory   <y_axis>
+Fatal injuries	<y_axis>
+at the Pula Steel Factory	## more object- or property-like?
 have
 varied    <y_axis_trend>
 from	<x_axis_range_start>
@@ -483,10 +495,15 @@ at
 
 <start_of_description>
 The
-number of fatal injuries at Pula Steel factory between 2012 and 2016   <topic>
+number of fatal injuries at Pula Steel factory	<topic>
+between	<x_axis_range_start>
+2012	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+2016	<x_axis_label_4th_highest_value>
 is
 demonstrated
 here
+.
 It
 shows
 there
@@ -537,7 +554,8 @@ in
 
 <start_of_description>
 The 
-number of fatal injuries at the Pula steel factory   <y_axis>
+number of fatal injuries	<y_axis>
+at the Pula steel factory	## more object- or property-like?
 started
 at
 27	<y_axis_Scnd_highest_val>
@@ -600,7 +618,7 @@ to	<x_axis_range_end>
 In
 2012	<x_axis_label_Scnd_highest_value>
 the
-factory  <topic_related_object>
+factory	## more object- or property-like?
 saw
 27	<y_axis_Scnd_highest_val>
 injuries   <y_axis_inferred_label>
@@ -643,7 +661,7 @@ lowest	<y_axis_least_value>
 
 
 
-<start_of_description>	## I suggest excluding this description because the plot interpretation by the participant was incorrect and the summary doesn't reflect the data at all (23% less fetal injuries?)
+<start_of_description>	## I suggest excluding this description because the plot interpretation by the participant was incorrect and the summary doesn't reflect the data at all (23% less fatal injuries?)
 In
 2013	<x_axis_label_highest_value>
 there
@@ -787,7 +805,7 @@ by
 The
 highest	<y_axis_highest_value>
 number of fatal injuries	<y_axis>
-at the pula steel factory   <topic_related_property>
+at the pula steel factory   ## more object- or property-like?
 took
 place
 in
@@ -841,7 +859,7 @@ shows
 fluctuations
 in
 number of injuries	<y_axis>
-at the Pula steel factory   <topic_related_property>
+at the Pula steel factory	## more object- or property-like?
 .
 In
 2012	<x_axis_label_Scnd_highest_value>
@@ -917,7 +935,7 @@ This
 graph
 shows
 the
-number of fatal injuries at Pula Steel factory	<topic> ## or split into y axis and topic related property
+number of fatal injuries at Pula Steel factory	<topic>
 from	<x_axis_range_start>
 2012	<x_axis_label_Scnd_highest_value>
 to	<x_axis_range_end>
@@ -1023,7 +1041,7 @@ we
 can
 see
 the 
-number of fatal injuries at the Pula steel factory	<topic> ## or split
+number of fatal injuries at the Pula steel factory	<topic>
 between	<x_axis_range_start>
 2012	<x_axis_label_Scnd_highest_value>
 and	<x_axis_range_end>
@@ -1081,7 +1099,8 @@ around	<y_axis_approx>
 
 <start_of_description>
 The
-number of fatal injuries at the Pula Steel Factory   <topic>
+number of fatal injuries   <y_axis>
+at the Pula Steel Factory	## more object- or property-like?
 has
 fluctuated   <y_axis_trend>
 over the years   <x_axis_trend>
@@ -1181,7 +1200,7 @@ of
 fatal injuries   <y_axis>
 over	
 a
-5	<x_interval>
+5	<x_axis_labels_count>
 year period	<x_axis>
 .
 It

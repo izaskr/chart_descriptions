@@ -154,7 +154,12 @@ The
 graph
 details
 the
-closing stock price for the company Akef Inc in GBP over the course of the working week (Mon - Fri)	<topic> ## I'm wondering if we should break it down to be able to label Mon-Fri
+closing stock price for the company Akef Inc	<topic>
+in
+GBP	<y_axis_inferred_label>
+over
+the
+course of the working week (Mon - Fri)	<x_axis>	## check this split: topic, inferred label and x axis
 .
 The
 graph
@@ -191,7 +196,7 @@ This
 chart
 shows
 the
-closing stock prices for Akef Inc in one week  <topic>
+closing stock prices for Akef Inc in one week	<topic>
 ,
 depending
 on
@@ -251,7 +256,7 @@ Monday	<x_axis_label_highest_value>
 the
 closing stock price <y_axis>
 for
-Akef Inc.  <topic_related_object> ## maybe add to the y_axis above?
+Akef Inc.  <topic_related_object> ## more object- or property-like?
 was
 £	<y_axis_inferred_label>
 90	<y_axis_inferred_highest_value_approx>
@@ -289,7 +294,7 @@ As
 the
 week has gone on	<x_axis_trend>
 the
-Afec Inc. closing stock price <y_axis>
+Afec Inc. closing stock price <y_axis> ## possibly split? more object- or property-like?
 has
 decreased <slope_down>
 .
@@ -346,7 +351,7 @@ the
 steep <y_axis_trend>
 decline <slope_down>
 in
-stock prices for Akef Inc.	<y_axis>
+stock prices for Akef Inc.	<y_axis> ## possibly split? more object- or property-like?
 during the course of the week	<x_axis>
 .
 Opening
@@ -384,8 +389,8 @@ Friday  <x_axis_label_least_value>
 
 
 <start_of_description>
-Akef Inc. <topic_related_object> ## join ?
-closing stock prices <y_axis>	## join ?
+Akef Inc. <topic_related_object> ## more object- or property-like?
+closing stock prices <y_axis>	## join with above?
 have
 declined <slope_down>
 from
@@ -896,7 +901,7 @@ daily closing prices for Akef Inc. stock over a period  of a  working week <topi
 On
 Monday <x_axis_label_highest_value>
 the
-stock	##
+stock	## more object- or property-like?
 closes
 at
 over	<y_axis_approx>
@@ -945,7 +950,7 @@ just  under	 <y_axis_approx>
 The
 stock prices <y_axis>
 of
-Akef Inc. <topic_related_object> ## this split is different to most cases, where the phrase remained 1 unit, so we better stay consistent
+Akef Inc. <topic_related_object> ## more object- or property-like?
 have
 declined   <slope_down>
 as the week has progressed  <x_axis_trend>
@@ -981,7 +986,7 @@ Friday	<x_axis_label_least_value>
 The
 closing stock price <y_axis>
 for
-Akef Inc <topic_related_object>
+Akef Inc <topic_related_object> ## more object- or property-like?
 was
 £	<y_axis_inferred_label>
 92	<y_axis_inferred_highest_value_approx>
