@@ -115,7 +115,7 @@ Computer science	<x_axis_label_Scnd_highest_value>
 is
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-women   <topic_related_object>
+women	## more object- or property-like?
 ,
 mathematics	<x_axis_label_3rd_highest_value>
 55	<y_axis_3rd_highest_val>
@@ -130,7 +130,7 @@ Literature	<x_axis_label_least_value>
 has
 the
 fewest   <y_axis_least_value>
-women   <topic_related_object>
+women	## more object- or property-like? fewest women = smallest women representation?
 ,
 consisting
 of
@@ -159,7 +159,7 @@ women   <topic_related_object>
 make
 up
 more than	<y_axis_approx>
-half	<> ##
+half	<> ## so more than 50, which is the mean of the y axis tick marks
 of
 the
 department   <x_axis>
@@ -167,16 +167,15 @@ department   <x_axis>
 while	<y_x_comparison>
 in
 the
-arts   <x_axis_label_4th_highest_value>
-and
-literature department   <x_axis_label_least_value>s
+arts and literature   <group_4th_least>
+department	<x_axis>
 ,
 women   <topic_related_object>
 account
 for
 less than	<y_axis_approx>
 a
-third	<> ## should arts and literature be grouped?
+third	<group_y_4th_least>
 of
 the
 department   <x_axis>
@@ -218,8 +217,7 @@ with
 of
 the
 department   <x_axis>
-being
-women   <topic_related_object>
+being women	## more object- or property-like?
 .
 Computer science	<x_axis_label_Scnd_highest_value>
 follows	<order_Scnd>
@@ -229,8 +227,7 @@ with
 of
 the
 department   <x_axis>
-being
-women   <topic_related_object>
+being women	## more object- or property-like?
 ,
 although
 this
@@ -269,7 +266,7 @@ only	<y_axis_trend>
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
+women	## more object- or property-like? or y axis?
 and
 Literature	<x_axis_label_least_value>
 coming
@@ -279,7 +276,7 @@ just	<y_axis_least_value>
 22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
+women	## more object- or property-like?
 .
 <end_of_description>
 
@@ -302,7 +299,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	## more object- or property-like?
 ,
 in
 Arts	<x_axis_label_4th_highest_value>
@@ -312,7 +309,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	## more object- or property-like?
 ,
 in
 Mathematics	<x_axis_label_3rd_highest_value>
@@ -322,7 +319,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	## more object- or property-like?
 ,
 in
 Literature	<x_axis_label_least_value>
@@ -332,7 +329,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	## more object- or property-like?
 ,
 and
 in
@@ -343,7 +340,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	## more object- or property-like?
 .
 <end_of_description>
 
@@ -355,12 +352,13 @@ Engineering	<x_axis_label_highest_value>
 has
 the
 highest	<y_axis_highest_value>
-percentage of woman representation at Narvik University  <y_axis>
+percentage of woman representation	<y_axis>
+at Narvik University	## more object- or property-like?
 with
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-woman representing	<topic_related_object> ##
+woman representing	## more object- or property-like? or y axis?
 on
 this
 course   <x_axis>
@@ -419,16 +417,13 @@ with
 56	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-women represented   <topic_related_object>
+women represented	## more object- or property-like? or y axis?
 .
 Only	
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
-are
-now
-represented
+women are now represented	## more object- or property-like?
 in
 Arts	<x_axis_label_4th_highest_value>
 and
@@ -451,7 +446,11 @@ STEM fields	<group_4th_least>
 
 <start_of_description>
 The
-percentage of women in five Narvik university departments   <topic>
+percentage of women	<y_axis>
+in
+five	<x_axis_labels_count>
+Narvik	## more object- or property-like?
+university departments	<x_axis>
 is
 shown
 here
@@ -572,14 +571,19 @@ This
 chart
 shows
 the
-percentage of women in five different university departments in Narvik   <topic>
+percentage of women	<y_axis>
+in
+five	<x_axis_labels_count>
+different
+university departments	<x_axis>
+in Narvik	## more object- or property-like?
 .
 There
 are
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
+women	## more object- or property-like? or y axis?
 in
 Computer Science	<x_axis_label_Scnd_highest_val>	
 ,
@@ -609,7 +613,7 @@ how
 there
 are
 more	<y_axis_trend_up>
-women   <topic_related_object>
+women	## more object- or property-like? or y axis?
 in
 the
 Engineering department   <x_axis_label_highest_value>
@@ -639,7 +643,7 @@ almost	<y_axis_approx>
 %	<y_axis_inferred_label>
 compared	<y_x_comparison>
 to	
-only	<y_axis_least_value>
+only
 55	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 entering
@@ -649,21 +653,17 @@ Almost	<y_axis_approx>
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
-are
-represented
+women are represented	## more object- or property-like? or y axis?
 in
 Computer Science	<x_axis_label_Scnd_highest_value>
 compared	<y_x_comparison>
 to
 less than	<y_axis_approx>
-40	<> ## another candidate for the grouping label: for bar heights, not (only) conceptual similarity
+40	<group_4th_least>
 %	<y_axis_inferred_label>
 in
 both
-Arts   <x_axis_label_4th_highest_value> ## possibly group
-and
-Literature	<x_axis_label_least_value> ## possibly group
+Arts and Literatur   <group_4th_least>
 .
 <end_of_description>
 
@@ -878,7 +878,7 @@ The
 highest	<y_axis_highest_value>
 percentage of women   <y_axis>
 are
-employed
+employed	## more object- or property-like?
 in
 the
 engineering dept   <x_axis_label_highest_value>
@@ -889,7 +889,7 @@ and
 the
 lowest	<y_axis_least_value>
 are
-employed
+employed	## more object- or property-like?
 in
 the
 literature    <x_axis_label_least_value>
@@ -928,7 +928,8 @@ below   <y_axis_trend_down>
 that
 was
 the
-mathematics department   <x_axis_label_3rd_highest_value>
+mathematics	<x_axis_label_3rd_highest_value>
+department	<x_axis>
 at
 55	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
@@ -1017,16 +1018,13 @@ just over	<y_axis_approx>
 
 
 <start_of_description>
-Women   <topic_related_object>
-are
-represented
+Women are represented	## more object- or property-like? or y axis?
 at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 for
 Engineering	<x_axis_label_highest_value>
-in
-Narvik	<topic_related_object> ##
+in Narvik	## more object- or property-like?
 ,
 whereas   <y_x_comparison>
 only	<y_axis_least_value>
@@ -1034,7 +1032,7 @@ just over	<y_axis_approx>
 20	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 are
-represented
+represented	## more object- or property-like?
 in
 literature	<x_axis_label_least_value>
 .
@@ -1072,7 +1070,8 @@ the
 arts   <> ## is this a case of grouping? consider the entire sentence
 with
 the
-Literature department   <x_axis_label_least_value>
+Literature   <x_axis_label_least_value>
+department	<x_axis>
 standing
 at
 22	<y_axis_inferred_least_value_approx>
@@ -1108,19 +1107,17 @@ contrast
 only	<y_axis_least_value>
 a
 small	<y_axis_trend>
-percentage   <y_axis>
-of
-people
+percentage of people   <y_axis>
 within
 arts	<x_axis_label_4th_highest_value>
 and
 literature	<x_axis_label_least_value>
 are
-women   <topic_related_object>
+women	## more object- or property-like?
 .
 THe
 most	<y_axis_highest_value>
-female dominated	<topic_related_object>
+female dominated	## more object- or property-like?
 department   <x_axis>
 is
 Engineering	<x_axis_label_highest_value>
