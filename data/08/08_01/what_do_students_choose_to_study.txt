@@ -1,4 +1,4 @@
-<start_of_description>
+"
 This
 chart
 show
@@ -11,7 +11,7 @@ that
 a
 high    <y_axis_highest_value>
 percentage    <y_axis>    
-choose   
+choose
 STEM    <x_axis_label_highest_value>
 whilst    <x_axis_comparison>
 a
@@ -21,14 +21,16 @@ percentage    <y_axis>
 choose
 literature, philosophy or medicine    <x_axis_labels_rest>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 Stem    <x_axis_label_highest_value>
 seems
 the
-most  popular   <y_axis_highest_value>
+most    <y_axis_highest_value>
+popular
 choice
 for
 students    <topic_related_object>
@@ -43,7 +45,7 @@ and
 medicine    <x_axis_label_Scnd_highest_value>
 both
 at
-20    <y_axis_Scnd_highest_val>   ## <group_val>
+20    <y_axis_Scnd_highest_val>
 %    <y_axis>
 .
 Philosophy    <x_axis_label_least_value>    
@@ -60,12 +62,11 @@ to
 study    <topic_related_property>
 it
 .
-<end_of_description>
+"
 
 
 
-##? exclude?
-<start_of_description>
+"
 50    <y_axis_highest_value_val>
 %    <y_axis>
 of
@@ -76,11 +77,12 @@ to
 study    <topic_related_property>
 STEM    <x_axis_label_highest_value>
 subjects    <x_axis>
-<end_of_description>
+"
 
 
-<start_of_description>
-Exactly <y_axis_approx>  ##
+
+"
+Exactly
 half    <y_axis_highest_value_val>
 of
 all
@@ -99,16 +101,17 @@ studied
 ,
 with
 philosophy    <x_axis_label_least_value>
-exactly  <y_axis_approx>  ##
+exactly
 10    <y_axis_least_value_val>
 %    <y_axis>
 .
 These figures are unlikely to be accurate as they are too precise    <interpretation>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 This
 graph
 represents
@@ -120,7 +123,8 @@ of
 subjects    <x_axis>
 .
 The
-most popular    <y_axis_highest_value>  ##
+most    <y_axis_highest_value>
+popular
 at
 50    <y_axis_highest_value_val>
 %    <y_axis>
@@ -136,27 +140,29 @@ literature    <x_axis_label_Scnd_highest_value>
 and
 medicine    <x_axis_label_Scnd_highest_value>
 at
-20    <y_axis_Scnd_highest_val>   ## <group_mean>
+20    <y_axis_Scnd_highest_val>
 %    <y_axis> 
 each
 and
-finally    <order_last>  ##
+finally    <final_label_left>
 Philosophy    <x_axis_label_least_value>
 at
 10    <y_axis_least_value_val>
 %    <y_axis>
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+
+"
 The
 chart
 shows
 that
 the
-most popular    <y_axis_highest_value>  ##
+most    <y_axis_highest_value>
+popular
 study    <topic_related_property>
 choice
 for
@@ -180,13 +186,14 @@ of
 student    <topic_related_object>
 choice
 at
-just  
+just
 10    <y_axis_least_value_val>
 %    <y_axis>
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 The
 table
 shows
@@ -195,7 +202,8 @@ STEM    <x_axis_label_highest_value>
 subjects    <x_axis>
 are
 the
-most popular    <y_axis_highest_value>  ##
+most    <y_axis_highest_value>
+popular
 ,
 with
 50    <y_axis_highest_value_val>
@@ -210,7 +218,7 @@ and
 Literature    <x_axis_label_Scnd_highest_value>
 are
 joint
-2nd    <order_Scnd>  
+2nd    <order_Scnd>
 most
 popular
 with
@@ -234,11 +242,12 @@ to
 study    <topic_related_property>
 it
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+
+"
 This
 chart
 shows
@@ -272,10 +281,11 @@ only    <y_axis_least_value>
 choose
 philosophy    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 The
 vast
 majority    <y_axis_highest_value>
@@ -302,10 +312,11 @@ and
 studying    <topic_related_property>
 philosophy    <x_axis_label_least_value> 
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 The
 graph
 shows
@@ -322,24 +333,25 @@ opt
 for
 STEM    <x_axis_label_highest_value>
 subjects    <x_axis>
-whilst  <y_x_comparison>  ##
+whilst
 20    <y_axis_Scnd_highest_val>
 %    <y_axis>
 choose
 literature    <x_axis_label_Scnd_highest_value>
 and
 medicine     <x_axis_label_Scnd_highest_value>
-but   <y_x_comparison>  ##
+but
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis>
 choose
 philosophy    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 This
 chart
 shows
@@ -362,7 +374,7 @@ study    <topic_related_property>
 STEM    <x_axis_label_highest_value>
 subjects     <x_axis>
 ,
-while    <y_x_comparison>
+while    <y_x_comparison_rest>
 medicine    <x_axis_label_Scnd_highest_value>
 and
 literature    <x_axis_label_Scnd_highest_value>
@@ -373,7 +385,7 @@ most
 popular
 ,
 with
-20    <y_axis_Scnd_highest_val>   ## <group_mean>?
+20    <y_axis_Scnd_highest_val>
 %    <y_axis>
 of
 students    <topic_related_object>    
@@ -382,7 +394,8 @@ these
 subjects    <x_axis>
 .
 The
-least popular    <y_axis_least_value>
+least    <y_axis_least_value>
+popular
 subject    <x_axis>
 is
 philosophy    <x_axis_label_least_value>
@@ -397,11 +410,12 @@ studying    <topic_related_property>
 this
 subject    <x_axis>
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+
+"
 The
 graph
 shows 
@@ -425,22 +439,24 @@ and
 Medicine    <x_axis_label_Scnd_highest_value>
 both
 with
-20    <y_axis_Scnd_highest_val>  ##? <group_mean>?
+20    <y_axis_Scnd_highest_val>
 %    <y_axis>
 and
-finally    <order_last>  ##
+finally    <final_label_left>
 Philosophy    <x_axis_label_least_value>
 at
 10    <y_axis_least_value_val>
 %    <y_axis>
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 Stem    <x_axis_label_highest_value>
 is
 the
-most popular    <y_axis_highest_value>
+most    <y_axis_highest_value>
+popular
 subject    <x_axis>
 for
 students    <topic_related_object>
@@ -452,17 +468,18 @@ for
 50    <y_axis_highest_value_val>
 %    <y_axis>
 of
-choices  <x_axis>  ##
+choices
 .
 Literature, medicine and philosophy    <x_axis_labels_rest>
 are
 significantly    <y_axis_trend>
 lower    <y_axis_trend_down>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 This
 graph
 shows
@@ -490,10 +507,11 @@ and
 choose
 Philosophy    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 50    <y_axis_highest_value_val>
 %    <y_axis>
 of
@@ -529,10 +547,11 @@ it
 -
 10    <y_axis_least_value_val>
 %    <y_axis>
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 This
 graph
 shows
@@ -566,16 +585,18 @@ and
 in
 Philosophy    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 this
 graph
 shows
 what students choose to study    <topic>
 ,
-most popular    <y_axis_highest_value>  ##
+most    <y_axis_highest_value>
+popular
 is
 stem    <x_axis_label_highest_value>
 with
@@ -588,7 +609,7 @@ medicine    <x_axis_label_Scnd_highest_value>
 and
 literature    <x_axis_label_Scnd_highest_value>
 with
-20    <y_axis_Scnd_highest_val>   ##? <group_mean>?
+20    <y_axis_Scnd_highest_val>
 %    <y_axis>
 and
 philosophy    <x_axis_label_least_value>
@@ -597,12 +618,11 @@ with
 %    <y_axis>
 .
 this may be reflective of students opting to choose to study fields with future job prospects    <interpretation>
-<end_of_description>
+"
 
 
 
-##? exclude?
-<start_of_description>
+"
 Students    <topic_related_object>
 decided
 to
@@ -613,10 +633,11 @@ more than   <y_axis_approx>
 double    <y_axis_inferred_value_mul_v1=highest_v2=Scnd>
 the
 other subjects    <x_axis_labels_rest>
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 This
 chart
 shows
@@ -637,7 +658,7 @@ Medicine    <x_axis_label_Scnd_highest_value>
 both
 account
 for
-20    <y_axis_Scnd_highest_val>   ## <group_each>?
+20    <y_axis_Scnd_highest_val>
 %    <y_axis>
 and
 Philosophy    <x_axis_label_least_value>
@@ -651,10 +672,11 @@ students    <topic_related_object>
 choosing
 this
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 This
 bar
 chart
@@ -677,10 +699,11 @@ category    <x_axis>
 -
 but this in unsurprising as it is one subject compared to the conglomeration of STEM subjects    <interpretation>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 50    <y_axis_highest_value_val>
 %    <y_axis>
 of
@@ -690,7 +713,7 @@ to
 study    <topic_related_property>
 STEM    <x_axis_label_highest_value>
 ,
-20    <y_axis_Scnd_highest_val>   ##? <group_each>/<group_mean>?
+20    <y_axis_Scnd_highest_val>
 %    <y_axis>
 each
 choose
@@ -709,10 +732,11 @@ to
 study    <topic_related_property>
 philosophy    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+
+"
 This
 graph
 shows
@@ -742,9 +766,10 @@ Philosophy    <x_axis_label_least_value>
 %    <y_axis>
 -
 Medicine    <x_axis_label_Scnd_highest_value>
-<end_of_description>
+"
 
-<start_of_description>
+
+"
 Most    <y_axis_highest_value>
 student    <topic_related_object>
 choose
@@ -753,23 +778,22 @@ subjects    <x_axis>
 at
 50    <y_axis_highest_value_val>
 %    <y_axis>
-whilst    <y_x_comparison>
+whilst    <y_x_comparison_rest>
 Literature    <x_axis_label_Scnd_highest_value>
 and
 Medicine    <x_axis_label_Scnd_highest_value>
 only
 attract
-20    <y_axis_Scnd_highest_val>   ##group_each/group_mean
+20    <y_axis_Scnd_highest_val>
 %    <y_axis>
 ,
 and
 philosophy    <x_axis_label_least_value>
 is
-least popular   <y_axis_least_value>
+least    <y_axis_least_value>
+popular
 at
 10    <y_axis_least_value_val>
 %    <y_axis>
 .
-<end_of_description>
-
-
+"

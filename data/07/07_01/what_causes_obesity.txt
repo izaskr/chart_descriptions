@@ -1,4 +1,4 @@
-<start_of_description>
+"
 The
 chart
 shows
@@ -18,24 +18,24 @@ of
 this
 at
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 whilst    <y_x_comparison>
 genetic    <x_axis_label_Scnd_highest_value>
 follows    <order_Scnd>
 at
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 and
 lack of exercise    <x_axis_label_least_value>
 at
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 Fast food    <x_axis_label_highest_value>
 is
 the
@@ -45,39 +45,39 @@ of
 obesity    <topic_related_object>
 at
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 with
 lack of exercise    <x_axis_label_least_value>
 at
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 but   <y_x_comparison>   ##
 genetics     <x_axis_label_Scnd_highest_value>
 is
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 leading
 causes      <topic_related_property>
 .
-<end_of_description>
+"
 
 
 ## exclude
-<start_of_description>
+"
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 fast food   <x_axis_label_highest_value>
 causes      <topic_related_property>
 obesity     <topic_related_object>
-<end_of_description>
+"
 
 
 
 
 
-<start_of_description>
+"
 Fast food    <x_axis_label_highest_value>
 is
 the
@@ -87,7 +87,7 @@ of
 obesity    <topic_related_object>
 at
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 .
 Genetics    <x_axis_label_Scnd_highest_value>
 plays
@@ -96,20 +96,20 @@ significant     <y_axis_trend>
 role
 at
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 .
 Lack of exercise    <x_axis_label_least_value>
 is
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 .
-<end_of_description>
+"
 
 
 
 
-<start_of_description>
+"
 The
 chart
 represents
@@ -141,7 +141,7 @@ This
 contributes
 to
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 the
 cause    <topic_related_property>
@@ -153,20 +153,20 @@ by
 genetics    <x_axis_label_Scnd_highest_value>
 at
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 and
 finally     <final_label_left>
 a
 lack of exercise   <x_axis_label_least_value>
 at
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 The
 chat
 shows
@@ -190,18 +190,18 @@ lack of exercise    <x_axis_label_least_value>
 is
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 likely
 to
 cause   <topic_related_property>
 obesity     <topic_related_object>
 .
-<end_of_description>
+"
 
 
 
 
-<start_of_description>
+"
 The
 table
 shows
@@ -215,7 +215,7 @@ is
 Fast food    <x_axis_label_highest_value>
 (
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 )
 ,
 followed    <order_Scnd>
@@ -223,21 +223,21 @@ by
 Genetics    <x_axis_label_Scnd_highest_value>
 (
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 )
 and
 finally    <final_label_left>
 lack of exercise    <x_axis_label_least_value>
 (
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 )
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 This
 chart
 shows
@@ -246,7 +246,7 @@ by
 percentage    <y_axis>
 .
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 obesity    <topic_related_object>
 cases
@@ -256,12 +256,12 @@ by
 fast food    <x_axis_label_highest_value>
 ;
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 are
 genetic    <x_axis_label_Scnd_highest_value>
 and
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 are
 due
 to
@@ -269,11 +269,11 @@ lack of exercise    <x_axis_label_least_value>
 .
 Unfortunately the chart doesn't show the cases where more than one of these causes may have played an influence on why someone is obese    <interpretation>
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 Fast food    <x_axis_label_highest_value>
 is
 the
@@ -283,7 +283,7 @@ of
 obesity   <topic_related_object>
 with
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 cases
 .
@@ -298,7 +298,7 @@ cause    <x_axis>   ##
 genetic    <x_axis_label_Scnd_highest_value>
 on
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 and
 6   <y_axis_inferred_value_mul_v1=highest_v2=least>
 times 
@@ -307,16 +307,16 @@ which
 only    <y_axis_least_value>
 causes
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 cases
 .
-<end_of_description>
+"
 
 
 
 
-<start_of_description>
+"
 This
 graph
 highlights
@@ -329,8 +329,8 @@ fast food    <x_axis_label_highest_value>
 is
 a
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
-cause  <x_axis>   ##
+%    <y_axis>
+cause  <x_axis>   ###
 of
 obesity    <topic_related_object>
 whilst    <y_x_comparison_rest>
@@ -338,7 +338,7 @@ a
 lack of exercise    <x_axis_label_least_value>
 is
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 the
 cause   <x_axis> ##
@@ -348,13 +348,13 @@ causes
 amount
 for
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 This
 chart
 shows
@@ -385,11 +385,11 @@ caused
 by
 lack of exercise    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 Graph
 shows
 the causes of Obesity    <topic>
@@ -397,7 +397,7 @@ by
 percentage    <y_axis>
 .
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 is
 caused
 by
@@ -408,22 +408,22 @@ by
 genetics    <x_axis_label_Scnd_highest_value>
 at
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 and
 the
 smallest    <y_axis_least_value>
 at
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 is
 lack of exercise    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
 
-
-<start_of_description>
+##STOP
+"
 The
 primary    <y_axis_highest_value>
 cause    <topic_related_property>
@@ -435,7 +435,7 @@ of
 fast food   <x_axis_label_highest_value>
 with
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 obesity    <topic_related_object>
 cases
@@ -452,12 +452,12 @@ also
 contributes
 to
 significant    <y_axis_trend>
-amount  ##? collapse into "amount of cases" <y_axis> ?
+amount
 of
 cases
 by
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 .
 Lack of exercise    <x_axis_label_least_value>
 is
@@ -465,28 +465,31 @@ contributes
 to
 just    <y_axis_least_value>
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 cases
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 This
 is
 a
 graph
 showing
-different causes of obesity   <topic>
+different
+causes    <topic_related_property>
+of
+obesity    <topic_related_object>
 .
 It
 shows
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
-it  ##? "it" refers to obesity, <topic_related_object> ?
+it
 '
 s
 caused
@@ -503,9 +506,10 @@ to
 genetic factors    <x_axis_label_Scnd_highest_value>
 ,
 and
-just under    <y_axis_approx>
+just
+under    <y_axis_approx>
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 obesity    <topic_related_object>
 is
@@ -513,17 +517,17 @@ due
 to
 lack of exercise    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 This
 graph
 shows
 that
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 obesity    <topic_related_object>
 is
@@ -533,28 +537,28 @@ fast food    <x_axis_label_highest_value>
 .
 Only    <y_axis_least_value>
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 is
 caused    <topic_related_property>
 by
 lack of exercise   <x_axis_label_least_value>
-whilst    <y_x_comparison>
+whilst    <y_x_comparison_rest>
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 is
 genetic    <x_axis_label_Scnd_highest_value>
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 This
 graphs
 illustrates
 the causes of obesity    <topic>
 .
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 obesity    <topic_related_object>
 is
@@ -563,19 +567,19 @@ by
 fast food    <x_axis_label_highest_value>
 ,
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 by
 genetics    <x_axis_label_Scnd_highest_value>
 and
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 by
 lack of exercise    <x_axis_label_least_value>
 .
-<end_of_description>
+"
 
 
-<start_of_description>
+"
 this
 graph
 shows
@@ -583,18 +587,18 @@ the causes of obesity    <topic>
 ,
 the
 greatest    <y_axis_highest_value>
-contributer   <x_axis>  ##
+contributer
 is
 fast food    <x_axis_label_highest_value>
 with
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 follows    <order_Scnd>
 by
 genetic factors    <x_axis_label_Scnd_highest_value>
 with
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 and
 lack of exercise    <x_axis_label_least_value>
 making
@@ -602,12 +606,12 @@ up
 the
 remaining
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
-<end_of_description>
+%    <y_axis>
+"
 
 
-##? exclude
-<start_of_description>
+
+"
 Fast food    <x_axis_label_highest_value>
 is
 the
@@ -616,11 +620,11 @@ factors
 in
 causing    <topic_related_property>
 obesity    <topic_related_object>
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 This
 chart
 displays
@@ -639,40 +643,42 @@ of
 fast food    <x_axis_label_highest_value>
 at
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 ,
 followed    <order_Scnd>
 by
 genetic reasons    <x_axis_label_Scnd_highest_value>
 at
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 and
-then   <order_last>
+then
 lack of exercise    <x_axis_label_least_value>
 at
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 .
-<end_of_description>
+"
 
 
 
 
-<start_of_description>
+"
 This
 graph
 shows
 three    <x_axis_labels_count>
 potential
-causes of obesity   <x_axis>   ##
+causes    <topic_related_property>
+of
+obesity    <topic_related_object>
 ,
 and
 breaks
 down
 their
 relative
-contribution   <y_axis>  ##
+contribution
 .
 Fast food    <x_axis_label_highest_value>
 emerges
@@ -687,46 +693,48 @@ genetic factors    <x_axis_label_Scnd_highest_value>
 .
 Lack of exercise    <x_axis_label_least_value>
 is
-comparatively   
+comparatively    <y_axis_trend>
 unimportant    <y_axis_least_value>
 to
 these
-other two factors   ## <group_>
+other
+two
+factors
 .
-<end_of_description>
+"
 
 
 
 
-<start_of_description>
+"
 Fast food    <x_axis_label_highest_value>
 is
 the
 leading    <y_axis_highest_value>
-cause    <x_axis>   ##
+cause    <topic_related_property>
 of
 obesity    <topic_related_object>
 at
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 ,
 followed    <order_Scnd>
 by
 genetics    <x_axis_label_Scnd_highest_value>
 at
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
-and 
+%    <y_axis>
+and
 a
 lack of exercise    <x_axis_label_least_value>
 at
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
-<end_of_description>
+%    <y_axis>
+"
 
 
 
-<start_of_description>
+"
 This
 graph
 shows
@@ -738,43 +746,40 @@ factor
 in
 someone
 becoming
-obese   <topic_related_object>  ##
+obese
 .
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 Fast food    <x_axis_label_highest_value>
 \\n    <separator>
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 Genetic    <x_axis_label_Scnd_highest_value>
 \\n    <separator>
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 Lack of Exercises    <x_axis_label_least_value>
-<end_of_description>
+"
 
 
 
-<start_of_description>
+"
 Fast food    <x_axis_label_highest_value>
 causes    <topic_related_property>
 60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 of
 obesity    <topic_related_object>
 ,
-genetic   <x_axis_label_Scnd_highest_value>
-predisposition
+genetic predisposition    <x_axis_label_Scnd_highest_value>
 some    <y_axis_approx>
 30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
+%    <y_axis>
 whilst    <y_x_comparison_rest>
 lack of exercise    <x_axis_label_least_value>
 contributes
 the
 other
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
-<end_of_description>
-
-
+%    <y_axis>
+"
