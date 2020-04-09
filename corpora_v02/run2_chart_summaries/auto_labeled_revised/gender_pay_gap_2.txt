@@ -64,7 +64,7 @@ the
 UK   <x_axis_label_Scnd_highest_value>
 have
 a
-21	<group_y> ## add info about bars to the label, e.g. group_highest_Scnd_mean
+21	<group_y_highest_Scnd> ## add info about bars to the label, e.g. group_highest_Scnd_mean
 %	<y_axis_inferred_label>
 gap   <y_axis>
 ,
@@ -83,7 +83,16 @@ The
 graph
 depicts
 the
-gender pay gap in three countries, displayed as a percentage, for the year 2017   <topic>
+gender pay gap	<y_axis>
+in
+three	<x_axis_labels_count>
+countries	<x_axis>
+displayed
+as
+a
+percentage	<y_axis_inferred_label>
+,
+for the year 2017	## more object- or property-like?
 .
 In
 Germany	<x_axis_label_highest_value>
@@ -130,7 +139,8 @@ the
 gender pay gap   <y_axis>
 in
 three	<x_axis_labels_count>
-European countries	<x_axis>
+European	## more object- or property-like?
+countries	<x_axis>
 ,
 Germany, Spain and the UK    <x_axis_labels>
 .
@@ -179,10 +189,10 @@ the
 gender pay gap percentage	<y_axis>
 in
 3	<x_axis_labels_count>
-different European countries	<x_axis>
-in
-the
-year 2017   <topic_related_property>
+different
+European	## more object- or property-like?
+countries	<x_axis>
+in the year 2017	## more object- or property-like?
 .
 \\n   <separator>
 \\n   <separator>
@@ -277,8 +287,7 @@ The
 gender pay gap   <y_axis> 
 in
 Germany	<x_axis_label_highest_value>
-in
-2017   <topic_related_property>
+in 2017	## more object- or property-like?
 was
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -312,7 +321,8 @@ the
 percentage difference of the gender pay gap in 2017	<topic>
 from
 3	<x_axis_labels_count>
-European nations    <x_axis> 
+European	## more object- or property-like?
+nations    <x_axis> 
 .
 The
 2 largest economies	<group_highest_Scnd>
@@ -540,7 +550,7 @@ three	<x_axis_labels_count>
 countries	<x_axis>
 of
 Germany , Spain and the UK	<x_axis_labels>
-in the year 2017   <topic_related_property>
+in the year 2017   ## more object- or property-like?
 .
 From	
 the
@@ -591,8 +601,7 @@ was
 investigated
 in
 Germany, UK and Spain	 <x_axis_labels>
-in
-2017	<topic_related_property>
+in 2017	## more object- or property-like?
 .
 it
 was
@@ -785,26 +794,24 @@ the
 gender pay gap in 2017 <topic> 
 in
 three   <x_axis_labels_count>
-European Union countries    <x_axis>
+European Union	## more object- or property-like?
+countries    <x_axis>
 -
 Germany , Spain and UK	<x_axis_labels>
 .
 \\n   <separator>
 In
 that
-year
+year	## more object- or property-like?
 the
 gender pay gap   <y_axis>
 is
 similar   <y_axis_trend>
 in
-Germany	<x_axis_label_highest_value>	## group_highest_Scnd
-and
-the
-UK   <x_axis_label_Scnd_highest_value>
+Germany and the UK	<group_highest_Scnd>
 at
 just over	<y_axis_approx>
-20	<y_axis_inferred_Scnd_highest_value_approx>
+20	<group_y_highest_Scnd>
 %	<y_axis_inferred_label>
 .
 In
@@ -860,8 +867,7 @@ at
 
 
 <start_of_description>
-In
-2017	<topic_related_property>
+In 2017	## more object- or property-like?
 the
 gender pay gap   <y_axis>
 can
@@ -871,7 +877,7 @@ in
 Germany	and the UK <group_highest_Scnd>
 as
 representing
-21	<y_axis_highest_value_val>
+21	<group_y_highest_Scnd>
 %	<y_axis_inferred_label>
 overall
 .
@@ -899,10 +905,11 @@ A
 chart
 showing
 the
-differences in pay between men and women   <topic>
+differences in pay between men and women   <y_axis> ## or topic?
 in
 three    <x_axis_labels_count>
-European countries    <x_axis>
+European	## more object- or property-like?
+countries    <x_axis>
 .
 the
 pay gap    <y_axis>

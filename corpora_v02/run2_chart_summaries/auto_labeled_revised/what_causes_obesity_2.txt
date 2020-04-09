@@ -103,7 +103,7 @@ genetic   <x_axis_label_highest_value>
 ,
 identified
 as
-causing	## topic-specific vocabulary
+causing	## more object- or property-like?
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
@@ -118,7 +118,7 @@ Fast food	<x_axis_label_least_value>
 is
 third	<order_3rd>
 ,
-causing	## topic-specific vocabulary
+causing	## more object- or property-like? or without a label?
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
@@ -138,7 +138,7 @@ reasons for obesity in Kiribati   <topic>
 ,
 detailing
 the
-reasons	## topic-specific vocabulary
+reasons	<x_axis>
 given
 as
 a
@@ -150,8 +150,6 @@ shows
 that
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-of
-respondents	<topic_related_object>
 indicate
 a
 genetic cause   <x_axis_label_highest_value>
@@ -189,7 +187,7 @@ just under	 <y_axis_approx>
 25	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
-obesity   <topic_related_object>
+obesity	## more object- or property-like?
 ,
 followed	<order_Scnd>
 by
@@ -200,7 +198,7 @@ for
 35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-obesity   <topic_related_object>
+obesity	## more object- or property-like?
 ,
 but
 genetics	<x_axis_label_highest_value>
@@ -227,28 +225,31 @@ depicts
 the
 percentage   <y_axis>
 of
-3 options for causing obesity in Kiribati   <topic>
+3	<x_axis_labels_count>
+options	<x_axis>
+for
+causing obesity in Kiribati   <topic>
 .
 It
 says
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 is
-because
+because	## more object- or property-like? or just leave it unlabeled?
 of
 fast food	<x_axis_label_least_value>
 ,
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 is
-because
+because	## more object- or property-like? or just leave it unlabeled?
 of
 genetics	<x_axis_label_highest_value>
 ,
 and	
 35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
-because
+because	## more object- or property-like? or just leave it unlabeled?
 of
 lack of exercise   <x_axis_label_Scnd_highest_value>
 .
@@ -263,8 +264,7 @@ is
 the
 biggest	<y_axis_highest_value>
 cause of obesity   <x_axis>
-in
-Kirbati	<topic_related_object> ## or property?
+in Kirbati	## more object- or property-like?
 at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -280,8 +280,7 @@ is
 the
 lowest	<y_axis_least_value>
 cause of obesity   <x_axis>
-in
-Kirbati	<topic_related_object> ## or property?
+in Kirbati	## more object- or property-like?
 at
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
@@ -296,18 +295,18 @@ This
 chart
 shows
 the
-slim majority	<> ## grouping of bar heights: sum of the Scnd and least is about 50 %
+slim majority	<group_y_Scnd_least> ## grouping of bar heights: sum of the Scnd and least is about 50 %
 of
-obesity in Kiribati	<topic_related_property> ##
+obesity in Kiribati	## more object- or property-like?
 is
-caused
+caused	## more object- or property-like?
 by
 lifestyle choices	<group_Scnd_least>
 ,
 with
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-caused
+caused	## more object- or property-like?
 by
 fast food	<x_axis_label_least_value>
 and	
@@ -328,7 +327,7 @@ lack of exercise   <x_axis_label_Scnd_highest_value>
 The
 biggest	<y_axis_highest_value>
 cause of obesity   <x_axis>
-in Kiribati	<topic_related_property> ##
+in Kiribati	## more object- or property-like?
 is
 genetic tendencies   <x_axis_label_highest_value>
 ,
@@ -372,20 +371,18 @@ lifestyle factors	<group_Scnd_least>
 are
 a
 larger	<y_axis_trend_up>
-contributor
+contributor	<x_axis>
 with
-fast food	<x_axis_label_least_value>
-and	
-lack of exercise   <x_axis_label_Scnd_highest_value>
+fast food and lack of exercise	<group_Scnd_least>
 combined
 shown
 to
 cause obesity   <x_axis>
 in
-60	<> ## group bar heights: add
+60	<group_y_Scnd_least> ## group bar heights: add
 %	<y_axis_inferred_label>
 of
-cases
+cases	## more object- or property-like?
 .
 \\n   <separator>
 This
@@ -417,8 +414,6 @@ genetic	<x_axis_label_highest_value>
 at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-of
-people	##
 .
 Then	<order_2nd>
 Lack of exercise   <x_axis_label_Scnd_highest_value>
@@ -451,11 +446,11 @@ is
 a
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-chance	##
+chance	## more object- or property-like?
 that
-obesity   <topic_related_object>
+obesity	## more object- or property-like?
 is
-caused	##
+caused	## more object- or property-like?
 by
 fast food	<x_axis_label_least_value>
 ,
@@ -471,7 +466,7 @@ Overall
 obesity   <topic_related_object>
 is
 commonly
-caused
+caused	## more object- or property-like?
 by
 genetics	<x_axis_label_highest_value>
 ,
@@ -519,7 +514,7 @@ still
 play
 a
 major	<y_axis_highest_value>
-role
+role	<x_axis>
 .
 \\n   <separator>
 Fast food   <x_axis_label_least_value>
@@ -619,7 +614,7 @@ with
 of
 causes of obesity in Kiribati   <topic>
 is
-caused
+caused	## more object- or property-like?
 by
 genetics	<x_axis_label_highest_value>
 .
@@ -627,9 +622,9 @@ Approximately	<y_axis_approx>
 36	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-obesity   <topic_related_object>
+obesity	## more object- or property-like?
 was
-caused
+caused	## more object- or property-like?
 by
 lack of exercise   <x_axis_label_Scnd_highest_value>
 and	
@@ -637,7 +632,7 @@ approximately	<y_axis_approx>
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 was
-caused
+caused	## more object- or property-like?
 by
 eating fast food	<x_axis_label_least_value>
 .
@@ -705,6 +700,7 @@ genetic cause   <x_axis_label_highest_value>
 at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
+.
 Next	<order_Scnd>
 highest
 was
@@ -811,12 +807,12 @@ cause   <x_axis>
 shown
 to
 be
-responsible
+responsible	## more object- or property-like?
 for
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-cases
+cases	## more object- or property-like?
 ,
 is
 genes   <x_axis_label_highest_value>
@@ -827,7 +823,7 @@ for
 35	<y_axis_inferred_Scnd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-obesity   <topic_related_object>
+obesity	## more object- or property-like?
 and	
 fast food	<x_axis_label_least_value>
 is
@@ -838,7 +834,7 @@ nearly   <y_axis_approx>
 25	<y_axis_inferred_least_value_approx>
 percent   <y_axis_inferred_label>
 of
-cases
+cases	## more object- or property-like?
 .
 <end_of_description>
 
@@ -849,7 +845,7 @@ There
 are
 three   <x_axis_labels_count>
 factors	<x_axis>
-represented as contributing to obesity in Kiribati   <topic_related_property>
+represented as contributing to obesity in Kiribati	## more object- or property-like?
 .
 The
 main   <y_axis_highest_value> 
@@ -929,7 +925,7 @@ chart
 indicates
 three   <x_axis_labels_count>
 possible causes of obesity	<x_axis>
-in the Kiribati population   <topic_related_property>
+in the Kiribati population	## more object- or property-like?
 .
 It
 indicates
@@ -956,8 +952,6 @@ reason	<x_axis>
 Only	<y_axis_least_value>
 25	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-of
-people
 indicated
 fast food	<x_axis_label_least_value>
 contributed
