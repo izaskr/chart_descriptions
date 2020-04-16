@@ -40,9 +40,7 @@ Fast food    <x_axis_label_highest_value>
 is
 the
 major    <y_axis_highest_value>
-cause    <topic_related_property>
-of
-obesity    <topic_related_object>
+cause of obesity    <x_axis>
 at
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
@@ -58,7 +56,7 @@ is
 %    <y_axis_inferred_label>
 of
 leading
-causes      <topic_related_property>
+causes      <x_axis>
 .
 <end_of_description>
 
@@ -82,9 +80,7 @@ Fast food    <x_axis_label_highest_value>
 is
 the
 major   <y_axis_highest_value>
-cause   <topic_related_property>
-of
-obesity    <topic_related_object>
+cause of obesity   <x_axis>
 at
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
@@ -124,18 +120,16 @@ shows
 the
 following
 3       <x_axis_labels_count>
-areas
+areas	<x_axis>
 .
 The
 largest     <y_axis_highest_value>
-cause       <topic_related_property>
+cause       <x_axis>
 is
 due
 to
 the
-intake
-of
-fast food   <x_axis_label_highest_value>
+intake of fast food   <x_axis_label_highest_value>
 .
 This
 contributes
@@ -144,7 +138,7 @@ to
 %    <y_axis_inferred_label>
 of
 the
-cause    <topic_related_property>
+cause    <x_axis>
 .
 This
 is
@@ -155,7 +149,7 @@ at
 30    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
 and
-finally     <final_label_left>
+finally     <order_last>
 a
 lack of exercise   <x_axis_label_least_value>
 at
@@ -179,8 +173,8 @@ likely
 as
 Genetics    <x_axis_label_Scnd_highest_value>
 to
-cause   <topic_related_property>
-obesity     <topic_related_object>
+cause	## more object- or property-like?
+obesity	## more object- or property-like?
 .
 It
 also
@@ -193,8 +187,8 @@ only    <y_axis_least_value>
 %    <y_axis_inferred_label>
 likely
 to
-cause   <topic_related_property>
-obesity     <topic_related_object>
+cause	## more object- or property-like?
+obesity	## more object- or property-like?
 .
 <end_of_description>
 
@@ -208,9 +202,7 @@ shows
 that
 the
 leading    <y_axis_highest_value>
-cause    <topic_related_property>
-of
-Obesity    <topic_related_object>
+cause of obesity	<x_axis>
 is
 Fast food    <x_axis_label_highest_value>
 (
@@ -226,7 +218,7 @@ Genetics    <x_axis_label_Scnd_highest_value>
 %    <y_axis_inferred_label>
 )
 and
-finally    <final_label_left>
+finally    <order_last>
 lack of exercise    <x_axis_label_least_value>
 (
 10    <y_axis_least_value_val>
@@ -248,10 +240,9 @@ percentage    <y_axis>
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity    <topic_related_object>
-cases
+obesity cases    <y_axis>
 are
-caused   <topic_related_property>  ##
+caused   <topic_related_property> ## more object- or property-like?
 by
 fast food    <x_axis_label_highest_value>
 ;
@@ -278,14 +269,12 @@ Fast food    <x_axis_label_highest_value>
 is
 the
 highest    <y_axis_highest_value>
-cause   <topic_related_property>
-of
-obesity   <topic_related_object>
+cause of obesity   <x_axis>
 with
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-cases
+cases	## more object- or property-like?  or y axis?
 .
 It
 is
@@ -293,15 +282,14 @@ double    <y_axis_inferred_value_mul_v1=highest_v2=Scnd>
 the
 next    <order_Scnd>
 highest
-cause    <x_axis>   ##
+cause    <x_axis>
 -
 genetic    <x_axis_label_Scnd_highest_value>
 on
 30    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
 and
-6   <y_axis_inferred_value_mul_v1=highest_v2=least>
-times 
+6 times   <y_axis_inferred_value_mul_v1=highest_v2=least>
 lack of exercise    <x_axis_label_least_value>
 which
 only    <y_axis_least_value>
@@ -309,7 +297,7 @@ causes
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-cases
+cases ## more object- or property-like? or y axis?
 .
 <end_of_description>
 
@@ -320,7 +308,8 @@ cases
 This
 graph
 highlights
-the causes of obesity    <topic>
+the
+causes of obesity    <topic>
 .
 It
 indicates
@@ -330,9 +319,7 @@ is
 a
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
-cause  <x_axis>   ##
-of
-obesity    <topic_related_object>
+cause of obesity  <x_axis>
 whilst    <y_x_comparison_rest>
 a
 lack of exercise    <x_axis_label_least_value>
@@ -341,10 +328,9 @@ is
 %    <y_axis_inferred_label>
 of
 the
-cause   <x_axis> ##
+cause   <x_axis>
 .
-Genetic    <x_axis_label_Scnd_highest_value>
-causes
+Genetic causes    <x_axis_label_Scnd_highest_value>
 amount
 for
 30    <y_axis_Scnd_highest_val>
@@ -364,16 +350,12 @@ is
 the
 most    <y_axis_highest_value>
 likely
-cause    <x_axis>   ##
-of
-obesity    <topic_related_object>
-on
-average
+cause of obesity    <x_axis>
+on average	<interpretation>
 ,
 followed    <order_Scnd>
 by
-genetic    <x_axis_label_Scnd_highest_value>
-factors
+genetic factors    <x_axis_label_Scnd_highest_value>
 ,
 and
 is
@@ -392,7 +374,8 @@ lack of exercise    <x_axis_label_least_value>
 <start_of_description>
 Graph
 shows
-the causes of Obesity    <topic>
+the
+causes of Obesity    <topic>
 by
 percentage    <y_axis>
 .
@@ -426,19 +409,14 @@ lack of exercise    <x_axis_label_least_value>
 <start_of_description>
 The
 primary    <y_axis_highest_value>
-cause    <topic_related_property>
-of
-obesity   <topic_related_object>
+cause    <x_axis>
 is
-over-consumption
-of
-fast food   <x_axis_label_highest_value>
+over-consumption of fast food   <x_axis_label_highest_value>
 with
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity    <topic_related_object>
-cases
+obesity cases    <topic_related_object> or y axis
 being
 related
 to
@@ -452,22 +430,19 @@ also
 contributes
 to
 significant    <y_axis_trend>
-amount  ##? collapse into "amount of cases" <y_axis> ?
-of
-cases
+amount of cases	## more object- or property-like? or y axis
 by
 30    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
 .
 Lack of exercise    <x_axis_label_least_value>
-is
 contributes
 to
 just    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-cases
+cases ## more object- or property-like? or y axis
 .
 <end_of_description>
 
@@ -486,7 +461,7 @@ shows
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-it  ##? "it" refers to obesity, <topic_related_object> ?
+it
 '
 s
 caused
@@ -507,7 +482,7 @@ just under    <y_axis_approx>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-obesity    <topic_related_object>
+obesity	## more object- or property-like? or y axis
 is
 due
 to
@@ -525,9 +500,9 @@ that
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity    <topic_related_object>
+obesity	## more object- or property-like?
 is
-caused    <topic_related_property>
+caused
 by
 fast food    <x_axis_label_highest_value>
 .
@@ -535,7 +510,7 @@ Only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 is
-caused    <topic_related_property>
+caused
 by
 lack of exercise   <x_axis_label_least_value>
 whilst    <y_x_comparison>
@@ -551,14 +526,15 @@ genetic    <x_axis_label_Scnd_highest_value>
 This
 graphs
 illustrates
-the causes of obesity    <topic>
+the
+causes of obesity    <topic>
 .
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity    <topic_related_object>
+obesity	## more object- or property-like?
 is
-caused    <topic_related_property>
+caused
 by
 fast food    <x_axis_label_highest_value>
 ,
@@ -579,11 +555,12 @@ lack of exercise    <x_axis_label_least_value>
 this
 graph
 shows
-the causes of obesity    <topic>
+the
+causes of obesity    <topic>
 ,
 the
 greatest    <y_axis_highest_value>
-contributer   <x_axis>  ##
+contributer   <x_axis>
 is
 fast food    <x_axis_label_highest_value>
 with
@@ -606,7 +583,7 @@ remaining
 <end_of_description>
 
 
-##? exclude
+## exclude
 <start_of_description>
 Fast food    <x_axis_label_highest_value>
 is
@@ -628,9 +605,7 @@ causes of obesity    <topic>
 .
 The
 highest    <y_axis_highest_value>
-percentage    <y_axis>
-of
-obesity    <topic_related_object>
+percentage of obesity cases	<y_axis>
 cases
 would
 be
@@ -665,21 +640,20 @@ graph
 shows
 three    <x_axis_labels_count>
 potential
-causes of obesity   <x_axis>   ##
+causes of obesity   <x_axis>
 ,
 and
 breaks
 down
 their
 relative
-contribution   <y_axis>  ##
+contribution   <y_axis>
 .
 Fast food    <x_axis_label_highest_value>
 emerges
 as
 the
-most    <y_axis_highest_value>
-important
+most important    <y_axis_highest_value>
 ,
 followed    <order_Scnd>
 by
@@ -691,7 +665,7 @@ comparatively
 unimportant    <y_axis_least_value>
 to
 these
-other two factors   ## <group_>
+other two factors	<group_highest_Scnd>
 .
 <end_of_description>
 
@@ -703,9 +677,7 @@ Fast food    <x_axis_label_highest_value>
 is
 the
 leading    <y_axis_highest_value>
-cause    <x_axis>   ##
-of
-obesity    <topic_related_object>
+cause of obesity    <x_axis>
 at
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
@@ -734,11 +706,9 @@ what causes obesity    <topic>
 or
 is
 a
-factor
+factor	<x_axis>
 in
-someone
-becoming
-obese   <topic_related_object>  ##
+someone becoming obese	## more object- or property-like?
 .
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
@@ -757,18 +727,17 @@ Lack of Exercises    <x_axis_label_least_value>
 
 <start_of_description>
 Fast food    <x_axis_label_highest_value>
-causes    <topic_related_property>
+causes
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity    <topic_related_object>
+obesity	## more object- or property-like? or y axis
 ,
-genetic   <x_axis_label_Scnd_highest_value>
-predisposition
+genetic predisposition   <x_axis_label_Scnd_highest_value>
 some    <y_axis_approx>
 30    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
-whilst    <y_x_comparison_rest>
+whilst    <y_x_comparison>
 lack of exercise    <x_axis_label_least_value>
 contributes
 the
@@ -776,5 +745,4 @@ other
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 <end_of_description>
-
 

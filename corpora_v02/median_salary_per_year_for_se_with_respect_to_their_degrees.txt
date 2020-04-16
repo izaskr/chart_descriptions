@@ -1,4 +1,4 @@
-"
+<start_of_description>
 This
 chart
 shows
@@ -32,16 +32,15 @@ Masters    <x_axis_label_Scnd_highest_value>
 or
 a
 PHD    <x_axis_label_highest_value>
-on
-average    <topic_related_property>
-earn   <y_axis>  ##? 
+on average	## more object- or property-like?
+earn
 much
 more    <y_axis_trend_up>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 The
 chart
 shows
@@ -50,8 +49,8 @@ with
 a
 PhD    <x_axis_label_highest_value>
 degree    <x_axis>
-Software engineers    <topic_related_object>
-earn   <y_axis>  ##? 
+Software engineers    <topic_related_object> ## more object- or property-like?
+earn
 the
 highest     <y_axis_highest_value>
 with
@@ -71,7 +70,7 @@ only
 000    <y_magnitude>
 behind    <y_axis_trend_down>
 Phd    <x_axis_label_highest_value>
-but   ## (interpretation)
+but
 shows
 more    <x_axis_up>
 studies    <x_axis>
@@ -81,11 +80,11 @@ for
 higher    <slope_up>
 salaries    <y_axis>
 .
-"
+<end_of_description>
 
 
 ##?  (exclude,low effort and is basically an interpretation)
-" 
+<start_of_description>
 Those
 who
 have
@@ -99,19 +98,17 @@ of
 salary    <y_axis>
 than
 those who do not    <x_axis_labels_rest>
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 There
 is
 an
 equal
 increase    <slope_up>
 between
-engineers    <topic_related_object>
-'
-salaries    <y_axis>
+engineers' salaries    <y_axis>
 from
 Bachelor    <x_axis_label_3rd_highest_value>
 through
@@ -119,11 +116,11 @@ Master    <x_axis_label_Scnd_highest_value>
 to
 PhD    <x_axis_label_least_value>
 .
-Engineers    <topic_related_object>
+Engineers    <topic_related_object> ## more object- or property-like?
 with
 no degree    <x_axis_label_least_value> 
 were
-worse  off  <y_axis_trend_down>   ## (made one phrase)
+worse  off  <y_axis_trend_down>
 than
 Bachelor    <x_axis_label_3rd_highest_value>
 '
@@ -134,10 +131,10 @@ approximately    <y_axis_approx>
 10    <y_axis_inferred_value_add_v1=least_v2=3rd>
 ,000    <y_magnitude>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 The
 median salary of software engineers with respect to their degrees    <topic>
 is
@@ -172,15 +169,15 @@ masters    <x_axis_label_Scnd_highest_value>
 degree    <x_axis>
 ,
 the
-engineers    <topic_related_object>
-median
+engineers	## more object- or property-like?
+median	## more object- or property-like?
 salary    <y_axis>
 is
 at
 55    <y_axis_Scnd_highest_val>
 %    <y_magnitude>
 and
-finally    <final_label_left>
+finally    <order_last>
 ,
 those
 with
@@ -195,21 +192,21 @@ of
 65    <y_axis_highest_value_val>
 %    <y_magnitude>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 shows
 that
-Software Engineers    <topic_related_object>
+Software Engineers    <topic_related_object> ## more object- or property-like?
 with
 PhDs    <x_axis_label_highest_value>
-earn   ##? 
+earn
 more    <y_axis_trend_up>
-than  <x_axis_comparison>  ##
+than
 their
-counterparts    <x_axis_labels_rest>
+counterparts    <x_axis_labels_rest> ## group?
 .
 The
 lowest    <y_axis_least_value>
@@ -232,7 +229,7 @@ masters    <x_axis_label_Scnd_highest_value>
 degree    <x_axis>
 -
 therefore 
-we    ##? interpretation start here
+we
 can
 take
 from
@@ -240,39 +237,34 @@ this
 graph
 that
 the      
-higher    <x_axis_up>
-the
-level
-of
-education    <x_axis>
+higher the level of education    <x_axis_trend>
 ,
 the
 higher    <slope_up>
 the
 salary    <y_axis>
-Software Engineers    <topic_related_object>
+Software Engineers	## more object- or property-like?
 earn
-per
-year
-"
+per year	## more object- or property-like?
+<end_of_description>
 
 
 
-"
+<start_of_description>
 The
 table
 shows
 that
-Software engineers    <topic_related_object>
+Software engineers	## more object- or property-like?
 with
 PhDs    <x_axis_label_highest_value>
-earn  ##
+earn
 the
 most    <y_axis_highest_value>
 ,
 earning
 a
-median    <topic_related_property>
+median	## more object- or property-like?
 salary    <y_axis>
 of
 over    <y_axis_approx>
@@ -282,12 +274,11 @@ $    <y_axis_inferred_label>
 .
 Masters    <x_axis_label_Scnd_highest_value>
 degree    <x_axis>
-graduates
+graduates	## more object- or property-like?
 come
 2nd    <order_Scnd>
 earning
-on
-average    <topic_related_property>
+on average	## more object- or property-like?
 $    <y_axis_inferred_label>
 55    <y_axis_Scnd_highest_val>
 ,000    <y_magnitude>
@@ -296,14 +287,13 @@ Then  <order_3rd>
 comes
 Bachelors    <x_axis_label_3rd_highest_value>
 Degree    <x_axis>
-graduates
+graduates	## more object- or property-like?
 ,
 earning
 $    <y_axis_inferred_label>
 45    <y_axis_3rd_highest_val>
 ,000    <y_magnitude>
-on
-average    <topic_related_property>
+on average	## more object- or property-like?
 .
 Finally    <order_last>   ##
 those
@@ -318,14 +308,13 @@ just over    <y_axis_approx>  ##
 $    <y_axis_inferred_label>
 30    <y_axis_inferred_least_value_approx>
 ,000    <y_magnitude>
-on
-average    <topic_related_property>
+on average	## more object- or property-like?
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 charts
 shows
@@ -361,14 +350,14 @@ $    <y_axis_inferred_label>
 ,000    <y_magnitude>
 between
 these
-average
+average	## more object- or property-like?
 earnings
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 graph
 shows
@@ -376,12 +365,10 @@ a
 trend
 that
 the
-higher    <x_axis_up>
-the
-qualifications    <x_axis>
+higher the qualifications    <x_axis_trend>
 held
 by
-software engineer    <topic_related_object>
+software engineer	## more object- or property-like?
 ,
 the
 greater    <slope_up>
@@ -408,11 +395,11 @@ PHd    <x_axis_label_highest_value>
 .
 Education increases earning potential    <interpretation>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 The
 graphs
 shows
@@ -451,7 +438,7 @@ $    <y_axis_inferred_label>
 10    <y_axis_inferred_value_add_v1=3rd_v2=least>
 ,000    <y_magnitude>
 difference
-between   ##
+between
 those
 with
 a
@@ -460,16 +447,16 @@ and
 those
 without    <x_axis_label_least_value>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 chart
 shows
 that
-software engineers    <topic_related_object>
+software engineers	## more object- or property-like?
 who
 have
 a
@@ -478,8 +465,8 @@ degree    <x_axis>
 earn
 more    <y_axis_trend_up>
 money    <y_axis>
-than    <x_axis_comparison>
-software engineers    <topic_related_object>
+than
+software engineers	## more object- or property-like?
 with
 lesser    <x_axis_labels_rest>  ## lesser degrees refers to the rest of the degrees
 degrees    <x_axis>
@@ -489,22 +476,19 @@ chart
 demonstrates
 that
 the
-higher    <x_axis_up>
-the
-degree    <x_axis>
+higher the degree    <x_axis_trend>
 ,
 the
-more    <y_axis_trend_up>  ##
+more    <slope_up>  ##
 money    <y_axis>
 earned
-on
-average
+on average	## more object- or property-like?
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 chart
 shows
@@ -551,11 +535,11 @@ those
 with
 no degree    <x_axis_label_least_value>
 .
-"
+<end_of_description>
 
 
-
-"
+### I suggest to exclude this summary: it's very short and states only that having a degree brings more money than not having one, but does not state the relations between different degrees
+<start_of_description>
 Students
 who
 have
@@ -574,29 +558,16 @@ those
 with
 no degree    <x_axis_label_least_value>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 graph
 shows
 the
-median    <topic_related_property>  ## combine this sentence into <topic>
-annual   <topic_related_property>   ##annual == per year so label as topic_related??
-salary    <y_axis>
-in
-$    <y_axis_inferred_label>
-1000s    <y_magnitude>   #split 1000 & s ?
-for
-software engineers    <topic_related_object>
-with
-respect
-to
-their
-original
-degree    <x_axis>
+median annual salary in $1000s for software engineers with respect to their original degree	<topic>
 .
 Those
 with
@@ -614,7 +585,7 @@ A
 master's    <x_axis_label_Scnd_highest_value>
 degree    <x_axis>
 gets
-average
+average	## more object- or property-like?
 earnings    <y_axis>
 of
 $    <y_axis_inferred_label>
@@ -628,13 +599,12 @@ gets
 $    <y_axis_inferred_label>
 42    <y_axis_inferred_3rd_highest_value_approx>
 ,000    <y_magnitude>
-on
-average
+on average ## more object- or property-like?
 .
 Those
 with
 no degree    <x_axis_label_least_value>
-average
+average	## more object- or property-like?
 a
 salary    <y_axis>
 of
@@ -642,29 +612,28 @@ $    <y_axis_inferred_label>
 30    <y_axis_inferred_least_value_approx>
 ,000    <y_magnitude>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 graph
 shows
 that
 the
-median    <topic_related_property>
+median	## more object- or property-like?
 salary    <y_axis>
 a
-software engineer    <topic_related_object>
-earns
-increases    <y_axis_trend_up> ##
+software engineer	## more object- or property-like?
+increases    <slope_up> ##
 as
 the
 level
 of
 their
 degree    <x_axis>
-rises    <x_axis_trend_up>  ##
+rises    <x_axis_trend>  ## the label without _up
 .
 Those
 with
@@ -680,9 +649,9 @@ about    <y_axis_approx>
 $    <y_axis_inferred_label>
 10    <y_axis_inferred_value_add_v1=highest_v2=Scnd>
 ,000    <y_magnitude>
-per year  <topic_related_property>  ##
+per year	## more object- or property-like?
 more    <y_axis_trend_up>
-than  <y_x_comparison>
+than
 those
 with
 a
@@ -697,10 +666,9 @@ about    <y_axis_approx>
 $    <y_axis_inferred_label>
 10    <y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 ,000    <y_magnitude>
-per
-year
+per year	## more object- or property-like?
 more    <y_axis_trend_up>
-than  <y_x_comparison>
+than
 those
 with
 a
@@ -718,24 +686,23 @@ about    <y_axis_approx>
 $    <y_axis_inferred_label>
 35    <y_axis_least_value_val>
 ,000    <y_magnitude>
-per
-year
+per year	## more object- or property-like?
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 graph
 shows
 the
 median salary for Software Engineers dependant on degree level    <topic>
 .
-Persons   <topic_related_object>    ## used as a synonym for Software Engineers
+Persons	## more object- or property-like?
 holding
 PhD    <x_axis_label_highest_value>
-level  <x_axis>    ## used as a synonym for degree
+level  <x_axis>
 earn
 the
 highest    <y_axis_highest_value>
@@ -747,13 +714,13 @@ Masters    <x_axis_label_Scnd_highest_value>
 then    <order_3rd>
 Bachelors    <x_axis_label_3rd_highest_value>
 and
-finally    <order_last>   ##
+finally    <order_last>
 no degree    <x_axis_label_least_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 this
 chart
 shows
@@ -787,28 +754,24 @@ no degree    <x_axis_label_least_value>
 30    <y_axis_inferred_least_value_approx>
 ,000    <y_magnitude>
 .
-showing  ## interpretstion
+showing
 that
 evidence
 indicates
 that
 the
-higher    <x_axis_up>
-education    <x_axis>
-you
-have
-completed
+higher education you have completed    <x_axis_trend>
 the
 higher    <slope_up>
 your
 wage salary    <y_axis>
 will
 be
-"
+<end_of_description>
 
 
 ## exclude, all interpretation
-"
+<start_of_description>
 The
 higher    <x_axis_up>
 level
@@ -818,11 +781,11 @@ the
 higher    <slope_up>
 the
 salary    <y_axis>
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 chart
 displays
@@ -862,12 +825,12 @@ earn
 34    <y_axis_inferred_least_value_approx>
 ,000    <y_magnitude>
 .
-This corresponds with what you would expect that those with a better education and more knowledge earn more   <interpretation?   ##
-"
+This corresponds with what you would expect that those with a better education and more knowledge earn more   <interpretation>
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 graph
 plots
@@ -875,37 +838,37 @@ the
 median salary for software engineers split by their level of qualifications    <topic>
 .
 PhD    <x_axis_label_highest_value>
-holders
+holders	## more object- or property-like?
 earn
 the
 highest    <y_axis_highest_value>
-median    <topic_related_property>
+median	## more object- or property-like?
 salary    <y_axis>
 ,
 followed    <order_Scnd>
 by
 Masters    <x_axis_label_Scnd_highest_value>
-holders
+holders	## more object- or property-like?
 ,
 then    <order_3rd>
 bachelors    <x_axis_label_3rd_highest_value>
 .
 Non-degree    <x_axis_label_least_value>
-holders
+holders	## more object- or property-like?
 earn
 about    <y_axis_approx>
 half    <y_axis_inferred_value_mul_v1=least_v2=highest>
 what
 PhD    <x_axis_label_highest_value>
-holders
+holders	## more object- or property-like?
 do
 .
-"
+<end_of_description>
 
 
 
-## Possibly exclude
-"
+## exclude
+<start_of_description>
 Software engineers    <topic_related_object>
 who
 achieved
@@ -924,11 +887,11 @@ a
 higher    <slope_up>
 salary    <y_axis>
 .
-"
+<end_of_description>
 
 
-
-"
+## Exclude because it's only listing the bar names and heights
+<start_of_description>
 The
 average salary of a software engineer base on their level    <topic>
 .
@@ -937,14 +900,14 @@ $    <y_axis_inferred_label>
 000    <y_magnitude>
 for
 a
-BA/Bsc    <x_axis_label_3rd_highest_value>  ## maybe split into 3 tokens?
+BA/Bsc    <x_axis_label_3rd_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
 55    <y_axis_Scnd_highest_val>
 000    <y_magnitude>
 for
 a
-MA/Msc    <x_axis_label_Scnd_highest_value>  ## maybe split into 3 tokens?
+MA/Msc    <x_axis_label_Scnd_highest_value>
 \\n    <separator>
 $    <y_axis_inferred_label>
 65    <y_axis_highest_value_val>
@@ -958,18 +921,18 @@ $    <y_axis_inferred_label>
 000    <y_magnitude>
 for
 No degree    <x_axis_label_least_value>
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 63    <y_axis_inferred_highest_value_approx>
 k    <y_magnitude>
 is
-median    <topic_related_property>
+median	## more object- or property-like?
 salary    <y_axis>
 for
-software engineers    <topic_related_object>
+software engineers	## more object- or property-like?
 who
 have
 a
@@ -994,4 +957,4 @@ only    <y_axis_least_value>
 k    <y_magnitude>
 with
 no degree    <x_axis_label_least_value>
-"
+<end_of_description>
