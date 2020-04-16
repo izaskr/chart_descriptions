@@ -1,5 +1,4 @@
-
-<start_of_description>
+<start_of_description> ## exclude? the bar heights are not provided
 This
 chart
 shows
@@ -13,7 +12,7 @@ can
 see
 that
 Asia    <x_axis_label_highest_value>
-spends <topic_related_property> ##
+spends	## more object- or property-like?
 the
 most    <y_axis_highest_value>
 by far  <y_axis_trend>  ##
@@ -26,7 +25,7 @@ Europe    <x_axis_label_3rd_highest_value>
 and
 Africa    <x_axis_label_least_value>
 trail
-behind    <y_axis_trend>
+behind    <y_axis_trend_down>
 with
 much    <y_axis_trend>
 smaller    <y_axis_trend_down>
@@ -41,27 +40,27 @@ Asia    <x_axis_label_highest_value>
 is
 the
 country    <x_axis>
-spending   ##? <topic_related_property>?
+spending	## more object- or property-like?
 the
 most    <y_axis_highest_value>
 on
-higher education    <topic_related_object>
+higher education	## more object- or property-like?
 at
 over    <y_axis_approx>
 300    <y_axis_inferred_highest_value_approx>
 million    <y_magnitude>
 dollars    <y_axis_inferred_label>
-but  <y_x_comparison>  ##
+but  <y_x_comparison>
 Africa    <x_axis_label_least_value>
 only    <y_axis_least_value>
-spend  ##? topic_related_property?
+spends	## more object- or property-like?
 50    <y_axis_least_value_val>
 million    <y_magnitude>
 dollars    <y_axis_inferred_label>
 .
 Europe    <x_axis_label_3rd_highest_value>
 only
-spend  ##? topic_related_property?
+spends	## more object- or property-like?
 double    <y_axis_inferred_value_mul_v1=Scnd_v2=3rd>
 that
 compared    <y_x_comparison>
@@ -78,8 +77,8 @@ N.America    <x_axis_label_Scnd_highest_value>
 
 
 
-##? exclude?
-<start_of_description>
+
+<start_of_description> ## exclude? it only gives the max bar with no height information
 more    <y_axis_trend_up>
 money    <y_axis>
 was
@@ -95,7 +94,7 @@ in
 
 <start_of_description>
 Africa    <x_axis_label_least_value>
-spends   ##? topic_related_property?
+spends	## more object- or property-like?
 the
 least    <y_axis_least_value>
 amount    <y_axis>
@@ -106,12 +105,12 @@ dollars    <y_axis_inferred_label>
 .
 This
 is
-exactly 
+exactly	<y_axis_approx>
 half    <y_axis_inferred_value_mul_v1=least_v2=3rd>
 of
 what
 is
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 in
 the
 next  <order_Scnd> ##
@@ -129,7 +128,7 @@ Europe    <x_axis_label_3rd_highest_value>
 ,
 and
 Asia    <x_axis_label_highest_value>
-about   <y_axis_approx>   ##
+about   <y_axis_approx>
 120    <y_axis_inferred_value_add_v1=highest_v2=Scnd>
 M    <y_magnitude>
 more    <y_axis_trend_up>
@@ -142,12 +141,16 @@ However, these figures need to be associated with population figures to make sen
 
 
 <start_of_description>
-Money spent on higher education across several continents in the year 2010    <topic>  ##?
+Money spent on higher education	<y_axis>
+across
+several
+continents	<x_axis>
+in the year 2010	## more object- or property-like?
 .
 The
 highest    <y_axis_highest_value>
 amount    <y_axis>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 was
 from
 Asia    <x_axis_label_highest_value>
@@ -156,13 +159,13 @@ a
 cost
 of
 just over    <y_axis_approx>
-$    <y_axis_inferred_label>  ##
+$    <y_axis_inferred_label>
 300    <y_axis_inferred_highest_value_approx>
 ,000,000    <y_magnitude>
 .
 The
 amount    <y_axis>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 in
 North America    <x_axis_label_Scnd_highest_value>
 was
@@ -179,12 +182,12 @@ $    <y_axis_inferred_label>
 100    <y_axis_3rd_highest_val>
 ,000,000    <y_magnitude>
 and
-finally    <order_last>   ##
+finally    <order_last>
 Africa    <x_axis_label_least_value>
 came
 in
 at
-$    <y_axis_inferred_label>  ##
+$    <y_axis_inferred_label>
 50    <y_axis_least_value_val>
 ,000,000    <y_magnitude>
 .
@@ -200,19 +203,18 @@ there
 is
 more    <y_axis_trend_up>
 money    <y_axis>
-spent   ##?  <topic_related_property>?
-on
-Higher Education    <topic_related_object>
+spent	## more object- or property-like?
+on Higher Education	## more object- or property-like?
 in
 Asia    <x_axis_label_highest_value>
-than   <y_x_comparison_rest>   ##
-North America, Europe and Africa     <x_axis_labels_rest>
+than   <y_x_comparison>
+North America, Europe and Africa     <x_axis_labels_rest> ## group? if not, then break into individual tokens
 .
 Africa     <x_axis_label_least_value>
 has
 the
 lowest     <y_axis_least_value>
-spend  ##? topic_related_property?
+spend	## more object- or property-like?
 of
 $    <y_axis_inferred_label>
 50     <y_axis_least_value_val>
@@ -220,7 +222,7 @@ $    <y_axis_inferred_label>
 compared    <y_x_comparison>
 to
 Asia    <x_axis_label_3rd_highest_value>
-spending   ##? <topic_related_property>?
+spending	## more object- or property-like?
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
 300     <y_axis_inferred_highest_value_approx>
@@ -234,13 +236,13 @@ chart
 shows
 that
 Asia    <x_axis_label_highest_value>
-spends   ##? topic_related_property?
+spends	## more object- or property-like?
 the
 most    <y_axis_highest_value>
 on
-higher education    <topic_related_object>
+higher education	## more object- or property-like?
 ,
-spending   ##? <topic_related_property>?
+spending	## more object- or property-like?
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
 300     <y_axis_inferred_highest_value_approx>
@@ -250,7 +252,7 @@ North America    <x_axis_label_Scnd_highest_value>
 is
 2nd    <order_Scnd>
 ,
-spending   ##? <topic_related_property>?
+spending	## more object- or property-like?
 $    <y_axis_inferred_label>
 200    <y_axis_Scnd_highest_val>
 million    <y_magnitude>
@@ -259,7 +261,7 @@ Europe    <x_axis_label_3rd_highest_value>
 is
 3rd    <order_3rd>
 ,
-spending   ##? <topic_related_property>?
+spending	## more object- or property-like?
 $    <y_axis_inferred_label>
 100    <y_axis_3rd_highest_val>
 million    <y_magnitude>
@@ -268,7 +270,7 @@ and
 Africa    <x_axis_label_least_value>
 4th    <order_4th>
 ,
-spending   ##? <topic_related_property>?
+spending	## more object- or property-like?
 $    <y_axis_inferred_label>
 50    <y_axis_least_value_val>
 million    <y_magnitude>
@@ -276,7 +278,7 @@ million    <y_magnitude>
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description> ## exclude? the summary involves only min and max bars and their heights
 This
 chart
 shows
@@ -284,7 +286,7 @@ the
 money spent on higher education in million dollars in 2010    <topic>
 .
 Asia    <x_axis_label_highest_value>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 the
 most    <y_axis_highest_value>
 with
@@ -294,7 +296,7 @@ million    <y_magnitude>
 dollars    <y_axis_inferred_label>
 .
 Africa    <x_axis_label_least_value>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 the
 least    <y_axis_least_value>
 with
@@ -307,16 +309,15 @@ dollars    <y_axis_inferred_label>
 
 <start_of_description>
 Asia    <x_axis_label_highest_value>
-spends   ##? topic_related_property?
+spends	## more object- or property-like?
 a
 much
 higher    <y_axis_trend_up>
 amount    <y_axis>
-on
-higher education    <topic_related_object>
-than  <y_x_comparison_rest>  ##
+on higher education	## more object- or property-like?
+than  <y_x_comparison>
 other
-continents    <x_axis>   ##? should "other continents" be a group?
+continents    <x_axis>   ## group? 
 .
 At
 325    <y_axis_inferred_highest_value_approx>
@@ -328,7 +329,7 @@ is
 more than   <y_axis_approx>
 3 times    <y_axis_inferred_value_mul_v1=highest_v2=3rd>
 higher    <y_axis_trend_up>
-than  <y_x_comparison>  ##
+than
 Europe    <x_axis_label_3rd_highest_value>
 at
 100    <y_axis_3rd_highest_val>
@@ -338,7 +339,7 @@ and
 over    <y_axis_approx>
 6 times    <y_axis_inferred_value_mul_v1=highest_v2=least>
 higher    <y_axis_trend_up>
-than   <y_x_comparison> ##
+than
 Africa    <x_axis_label_least_value>
 at
 50    <y_axis_least_value_val>
@@ -346,9 +347,9 @@ million    <y_magnitude>
 dollars    <y_axis_inferred_label>
 .
 North America    <x_axis_label_Scnd_highest_value>
-spends   ##? topic_related_property?
+spends	## more object- or property-like?
 the
-second    <order_Scnd>
+second    <order_Scnd> ## fixorder
 highest
 amount    <y_axis>
 with
@@ -359,29 +360,34 @@ dollars    <y_axis_inferred_label>
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description> ## exclude? only min and max bars with heights
 The
 graph
 shows
 us
 the
-amount of money various continents spent on higher education in 2010    <topic>
+amount of money	<y_axis>
+various
+continents	<x_axis>
+spent
+on higher education	## more object- or property-like?
+in 2010	## more object- or property-like?
 .
 Asia    <x_axis_label_highest_value>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 the
 most    <y_axis_highest_value>
 at
-just over    <y_axis_approx>   ##
+just over    <y_axis_approx>
 300    <y_axis_inferred_highest_value_approx>
 million    <y_magnitude>
 dollars    <y_axis_inferred_label>
 with
 Africa    <x_axis_label_least_value>
-spending   ##? <topic_related_property>?
+spending	## more object- or property-like?
 the
 least    <y_axis_least_value>
-at   ## corrected 'a' to 'at'
+at
 50    <y_axis_least_value_val>
 million    <y_magnitude>
 dollars    <y_axis_inferred_label>
@@ -393,47 +399,48 @@ dollars    <y_axis_inferred_label>
 This
 chart
 shows
-how much money is spend (in millions of dollars) on higher education in different continents    <topic>
+how much money is spend (in millions of dollars) on higher education	<topic>
+in
+different
+continents    <x_axis>
 .
 By
-far  <y_axis_trend>  ##
+far  <y_axis_trend>
 ,
 Asia    <x_axis_label_highest_value>
-spends   ##? topic_related_property?
+spends	## more object- or property-like?
 the
 most    <y_axis_highest_value>
-on
-higher education    <topic_related_object>
+on higher education    ## more object- or property-like?
 with
 over    <y_axis_approx>
 300    <y_axis_inferred_highest_value_approx>
 million    <y_magnitude>
 dollar    <y_axis_inferred_label>
-spent   ##?  <topic_related_property>?
-in
-2010    <topic_related_property>
+spent	## more object- or property-like?
+in 2010	## more object- or property-like?
 ,
-followed    <order_Scnd>
+followed    <order_Scnd> ##fixorder
 by
 North America    <x_axis_label_Scnd_highest_value>
 at
 200    <y_axis_Scnd_highest_val>
 million    <y_magnitude>
-and    <order_3rd>
+and
 Europe    <x_axis_label_3rd_highest_value>
 at
 100    <y_axis_3rd_highest_val>
 million    <y_magnitude>
 .
 Africa    <x_axis_label_least_value>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 the
 least    <y_axis_least_value>
 at
 50    <y_axis_least_value_val>
 million    <y_magnitude>
 .
-This could be due to the economic situation in each respective continent, and also due to societal norms and values. In Asia , there is a lot of emphasis placed on the value of having a good education, which explains why more is spent on higher education in Asia than any other continent.    <interpretation>
+This could be due to the economic situation in each respective continent, and also due to societal norms and values: in Asia , there is a lot of emphasis placed on the value of having a good education, which explains why more is spent on higher education in Asia than any other continent.    <interpretation>
 <end_of_description>
 
 
@@ -449,7 +456,7 @@ continents    <x_axis>
 .
 The
 highest    <y_axis_highest_value>
-spend  ##? topic_related_property?
+spend	<y_axis>
 was
 in
 Asia    <x_axis_label_highest_value>
@@ -478,7 +485,7 @@ m    <y_magnitude>
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description> ## exclude: does not say much about other bar relations
 Asia    <x_axis_label_highest_value>
 spends   ##? topic_related_property?
 significantly    <y_axis_trend>
@@ -503,7 +510,7 @@ different
 regions    <x_axis>
 .
 Asia    <x_axis_label_highest_value>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 the
 most    <y_axis_highest_value>
 ,
@@ -511,12 +518,12 @@ $    <y_axis_inferred_label>
 300    <y_axis_inferred_highest_value_approx>
 million    <y_magnitude>
 ,
-while    <y_x_comparison_rest>
+while    <y_x_comparison>
 $    <y_axis_inferred_label>
 200    <y_axis_Scnd_highest_val>
 million    <y_magnitude>
 was
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 in
 North America    <x_axis_label_Scnd_highest_value>
 ,
@@ -542,20 +549,17 @@ graph
 shows
 that
 Asia    <x_axis_label_highest_value>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 the
 most    <y_axis_highest_value>
 money    <y_axis>
-on
-higher education    <topic_related_object>
-in
-2010    <topic_related_property>
+on higher education	## more object- or property-like?
+in 2010	## more object- or property-like?
 at
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
 300    <y_axis_inferred_highest_value_approx>
 million    <y_magnitude>
-dollar    <y_axis_inferred_label>
 ,
 followed    <order_Scnd>
 by
@@ -565,19 +569,18 @@ then    <order_3rd>
 Europe    <x_axis_label_3rd_highest_value>
 .
 Africa    <order_last>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 the
 least    <y_axis_least_value>
 at
 $    <y_axis_inferred_label>
 50    <y_axis_least_value_val>
 million    <y_magnitude>
-dollar    <y_axis_inferred_label>
 <end_of_description>
 
 
-## not very informative summary
-<start_of_description>
+
+<start_of_description> ## exclude?
 This
 graphs
 compares
@@ -606,7 +609,7 @@ money spent on high educating in the year 2010    <topic>
 with
 the
 leading    <y_axis_highest_value>
-expenditure  <y_axis> ##
+expenditure  <y_axis>
 being
 asia    <x_axis_label_highest_value>
 with
@@ -627,7 +630,7 @@ UK    <x_axis_label_3rd_highest_value>
 with
 100    <y_axis_3rd_highest_val>
 ,000,000    <y_magnitude>
-and    <order_4th>
+and
 africa    <x_axis_label_least_value>
 with
 50    <y_axis_least_value_val>
@@ -640,8 +643,7 @@ giving the idea that money spent on higher education is reflective on the GDP of
 
 
 
-##? exclude? not very informative summary
-<start_of_description>
+<start_of_description> ## exclude?
 In
 Asia    <x_axis_label_highest_value>
 they
@@ -672,7 +674,7 @@ different
 continents    <x_axis>
 .
 Asia    <x_axis_label_highest_value>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 the
 most    <y_axis_highest_value>
 with
@@ -690,7 +692,7 @@ Europe    <x_axis_label_3rd_highest_value>
 with
 100    <y_axis_3rd_highest_val>
 million    <y_magnitude>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 and
 lastly    <order_last>
 Africa    <x_axis_label_least_value>
@@ -702,8 +704,8 @@ You expect Africa to be last due to poverty and lack of access to education.    
 <end_of_description>
 
 
-## questionable summary
-<start_of_description>
+
+<start_of_description> ## exclude: not very informative
 This
 graph
 presents
@@ -730,33 +732,28 @@ least    <y_axis_least_value>
 
 
 <start_of_description>
-in
-2010    <topic_related_property>
+in 2010	## more object- or property-like?
 Asia    <x_axis_label_highest_value>
-spent   ##?  <topic_related_property>?
+spent  ## more object- or property-like?
 a
 significant    <y_axis_trend>
-amount    <y_axis>
-of
-money    <y_axis>
-on
-higher education    <topic_related_object>
+amount of money    <y_axis>
+on higher education	## more object- or property-like?
 ,
 especially
 when
-compared    <x_axis_comparison>
+compared    <y_x_comparison>
 to
 Europe    <x_axis_label_3rd_highest_value>
 and
 Africa    <x_axis_label_least_value>
 .
 North America    <x_axis_label_Scnd_highest_value>
-spent   ##?  <topic_related_property>?
+spent	## more object- or property-like?
 a
 fair  <y_axis_trend> ##
 amount    <y_axis>
-on
-higher education     <topic_related_object>
+on higher education	## more object- or property-like?
 -
 twice    <y_axis_inferred_value_mul_v1=Scnd_v2=3rd>
 as
@@ -815,11 +812,10 @@ Africa    <x_axis_label_least_value>
 325    <y_axis_inferred_highest_value_approx>
 Million    <y_magnitude>
 dollars    <y_axis_inferred_label>
-spent   ##?  <topic_related_property>?
-on
-HE    <topic_related_object>
-in
-2010    <topic_related_property>
+was
+spent	## more object- or property-like?
+on HE	## more object- or property-like?
+in 2010	## more object- or property-like?
 in
 Asia    <x_axis_label_highest_value>
 ,
