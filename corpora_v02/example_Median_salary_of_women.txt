@@ -1,4 +1,4 @@
-"
+<start_of_description>
 This
 shows
 the
@@ -22,11 +22,11 @@ are
 slowly    <y_axis_trend>
 increasing    <slope_up>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 The
 chart
 shows
@@ -42,18 +42,18 @@ is
 rising    <slope_up>
 by
 about    <y_axis_approx>
-2    <y_axis_inferred_value_add?>
+2    <y_axis_inferred_value_add?>    ## to_change
 -
-3    <y_axis_inferred_value_add?>
+3    <y_axis_inferred_value_add?>  ## to_change
 %    <y_axis_inferred_label?>
 a
 year    <x_axis>
 .
-"
+<end_of_description>
 
 
-
-"
+## exclude
+<start_of_description>
 The
 salary    <y_axis>
 of
@@ -61,11 +61,11 @@ woman    <topic_related_object>
 has
 gone up    <slope_up>
 year on year    <x_axis_trend>
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 The
 median salary of women    <topic>
 grows    <slope_up>
@@ -84,11 +84,11 @@ years    <x_axis>
 .
 A  logical conclusion would be a few decades ago women did nover , this would not be a reality    <interpretation>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 graph
 represents
@@ -144,11 +144,11 @@ of
 5    <slope_y_value>
 %    <y_magnitude>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 The
 graph
 shows
@@ -173,10 +173,10 @@ higher    <y_axis_trend_up>
 than
 in
 2000    <x_axis_label_least_value>
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 Women    <topic_related_object>
 '
 s
@@ -209,15 +209,16 @@ to
 ,000    <y_magnitude>
 in
 2015    <x_axis_label_highest_value>
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 charts
 shows
 the
-average median salary of women per year    <topic>
+average 
+median salary of women per year    <topic>   ##
 in
 2000, 2005, 2010 and 2015    <x_axis_labels>
 .
@@ -235,10 +236,10 @@ women    <topic_related_object>
 .
 However it doesn't show how this relates to inflation    <interpretation>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 The
 median salary of women per year    <topic>
 is
@@ -262,10 +263,10 @@ risen    <slope_up>
 ,000    <y_magnitude>
 dollars    <y_axis_inferred_label>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 chart
 shows
@@ -287,10 +288,10 @@ between    <x_axis_range_start>
 and    <x_axis_range_end>
 2015    <x_axis_label_highest_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 chart
 shows
@@ -323,10 +324,10 @@ to
 in
 2000    <x_axis_label_least_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 Chart
 shows
 the
@@ -366,17 +367,17 @@ was
 50    <y_axis_Scnd_highest_val>
 k    <y_magnitude>
 and
-finally    <final_label_left>
+finally    <order_last>   ##
 in
 2015    <x_axis_label_highest_value>
 it
 was
 52    <y_axis_inferred_highest_value_approx>
 k    <y_magnitude>
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 The
 median salary for women    <topic>
 has
@@ -399,10 +400,10 @@ every    <every>
 5    <slope_x_value>
 years    <x_axis>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 graph
 shows
@@ -422,10 +423,10 @@ years    <x_axis>
 and    <x_axis_range_end>
 2015    <x_axis_label_highest_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 graph
 shows
@@ -451,10 +452,10 @@ $    <y_axis_inferred_label>
 ,000    <y_magnitude>
 in
 2015    <x_axis_label_highest_value>
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 graph
 illustrates
@@ -477,11 +478,11 @@ the
 year    <x_axis>
 2015    <x_axis_label_highest_value>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 chart
 shows
 median salary of women per year    <topic>
@@ -528,10 +529,12 @@ median    <topic_related_property>
 salary    <y_axis>
 as
 time goes on    <x_axis_trend>
-"
+<end_of_description>
 
 
-"
+
+## poor description
+<start_of_description>
 The
 average salary for woman    <topic>
 has
@@ -543,11 +546,11 @@ at
 least    <y_axis_trend>
 10    <y_axis_inferred_value_add?>
 %    <y_axis_inferred_label?>
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 chart
 shows
@@ -582,11 +585,11 @@ now
 in
 2015    <x_axis_label_highest_value>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 graph
 presents
@@ -607,11 +610,11 @@ steadily    <y_axis_trend>
 increasing    <slope_up>
 over this time    <x_axis_trend>
 .
-"
+<end_of_description>
 
 
-
-"
+## not so good
+<start_of_description>
 The
 Median salary for women    <topic>
 appears
@@ -623,11 +626,11 @@ by
 every    <slope_x_value>
 year    <x_axis>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 This
 graph
 shows
@@ -635,9 +638,8 @@ how
 the
 median salary of women    <topic>
 has
-changed
-over
-time
+changed  
+over time   <x_axis_trend>  ##
 .
 This
 is
@@ -676,10 +678,10 @@ $    <y_axis_inferred_label>
 000    <y_magnitude>
 -
 2015    <x_axis_label_highest_value>
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 2015    <x_axis_label_highest_value>
 saw
 women    <topic_related_object>
@@ -717,4 +719,4 @@ has
 been
 rising    <slope_up>
 steadily    <y_axis_trend>
-"
+<end_of_description>
