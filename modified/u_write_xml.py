@@ -240,9 +240,6 @@ def collect_parse(annotations, calculated):
 					#print("no label", line2)
 					i_token += 1
 					desc_tokens.append(line2[0])
-
-				# if line2[-1][0]  == "<":
-				# 	print(line2[-1], line2[0], "\n\n")
 			
 
 			if len(line2) > 1 and line2[-1].startswith("<"):
@@ -273,7 +270,7 @@ def collect_parse(annotations, calculated):
 
 
 
-			if len(line2) == 1 and line2[0] == "<end_of_description>" and previous_line_empty == False:
+			if len(line2) == 1 and line2[0] == '"' and previous_line_empty == False:
 				if desc_tokens:
 
 					desc = " ".join(desc_tokens)
