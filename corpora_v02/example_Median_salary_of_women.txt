@@ -691,7 +691,7 @@ $    <y_axis_inferred_label>
 2015    <x_axis_label_highest_value>
 saw
 women	## more object- or property-like?
-median	## more object- or property-like?
+median	## more object- or property-like? median == average
 pay    <y_axis>
 rise    <slope_up>
 to    
