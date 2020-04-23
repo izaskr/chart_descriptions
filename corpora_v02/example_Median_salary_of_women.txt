@@ -30,21 +30,18 @@ increasing    <slope_up>
 The
 chart
 shows
-every    <every>
+every
 5    <slope_x_value>
 years    <x_axis>
 the
-median    <topic_related_property>
+median	## more object- or property-like?
 salary    <y_axis>
-of
-women    <topic_related_object>
+of women	## more object- or property-like?
 is
 rising    <slope_up>
 by
 about    <y_axis_approx>
-2    <y_axis_inferred_value_add?>    ## to_change
--
-3    <y_axis_inferred_value_add?>  ## to_change
+2-3    <y_axis_inferred_value_add?>    ## to_change
 %    <y_axis_inferred_label?>
 a
 year    <x_axis>
@@ -52,8 +49,8 @@ year    <x_axis>
 <end_of_description>
 
 
-## exclude
-<start_of_description>
+
+<start_of_description>	## exclude
 The
 salary    <y_axis>
 of
@@ -67,7 +64,9 @@ year on year    <x_axis_trend>
 
 <start_of_description>
 The
-median salary of women    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+of women	## more object- or property-like?
 grows    <slope_up>
 at
 a
@@ -123,7 +122,7 @@ in
 In
 2005    <x_axis_label_3rd_highest_value>
 the
-median    <topic_related_property>
+salary    <y_axis>
 was
 45    <y_axis_3rd_highest_val>
 %    <y_magnitude>
@@ -137,7 +136,7 @@ This
 shows
 an
 increase    <y_axis_trend_up>
-every    <every>
+every
 5    <slope_x_value>
 years    <x_axis>
 of
@@ -158,13 +157,13 @@ median salaries of women    <topic>
 has
 risen    <slope_up>
 each
-half decade    <x_interval>
+half decade    <x_interval> ## step
 ,
 with
 2015    <x_axis_label_highest_value>
 '
 s
-median    <topic_related_property>
+median	## more object- or property-like?
 salary    <y_axis>
 being
 15    <y_axis_inferred_value_add_v1=highest_v2=least>
@@ -177,10 +176,8 @@ in
 
 
 <start_of_description>
-Women    <topic_related_object>
-'
-s
-median    <topic_related_property>
+Women's	## more object- or property-like?
+median	## more object- or property-like?
 salary    <y_axis>
 has
 been
@@ -217,8 +214,7 @@ This
 charts
 shows
 the
-average 
-median salary of women per year    <topic>   ##
+median salary of women per year    <topic>
 in
 2000, 2005, 2010 and 2015    <x_axis_labels>
 .
@@ -226,13 +222,12 @@ The
 chart
 shows
 a
-trend    <y_axis_trend>
+trend
 of
 increasing    <slope_up>
-average    <topic_related_property>
+average	## more object- or property-like?
 salary    <y_axis>
-of
-women    <topic_related_object>
+of women    ## more object- or property-like?
 .
 However it doesn't show how this relates to inflation    <interpretation>
 .
@@ -241,20 +236,23 @@ However it doesn't show how this relates to inflation    <interpretation>
 
 <start_of_description>
 The
-median salary of women per year    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+of women	## more object- or property-like?
+per year	## more object- or property-like?
 is
 gradually    <y_axis_trend>
 and
 steadily    <y_axis_trend>
 rising    <slope_up>
-every    <every>
+every
 5    <x_interval>
 years    <x_axis>
 .
 In
 the
 last
-15    <x_interval>
+15    <x_interval> ## group_? all bars included
 years    <x_axis>
 it
 has
@@ -266,7 +264,7 @@ dollars    <y_axis_inferred_label>
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description> ## exclude: it does not say much about the size of the increase
 This
 chart
 shows
@@ -279,7 +277,7 @@ that
 there
 has
 been
-quite   <y_axis_trend>
+quite
 a
 small    <y_axis_trend>
 increase    <slope_up>
@@ -297,19 +295,20 @@ chart
 shows
 that
 the
-median salary for women    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+for women	## more object- or property-like?
 has
 increased    <slope_up>
 continualy    <y_axis_trend>
-since    <x_axis_period>
+since    <x_axis_period> ## 
 2000    <x_axis_label_least_value>
 ,
 with
 the
-average    <topic_related_property>
+average	## more object- or property-like?
 salary    <y_axis>
-for
-women    <topic_related_object>
+for women    ## more object- or property-like?
 over    <y_axis_approx>
 50    <y_axis_inferred_highest_value_approx>
 ,000    <y_magnitude>
@@ -332,7 +331,7 @@ Chart
 shows
 the
 Median Salary of woman    <topic>
-every    <every>
+every
 5    <x_interval>
 years    <x_axis>
 between    <x_axis_range_start>
@@ -346,7 +345,7 @@ shows
 it
 has
 steadily    <y_axis_trend>
-indreased    <slope_up>
+increased    <slope_up>
 .
 In
 2000    <x_axis_label_least_value>
@@ -367,7 +366,7 @@ was
 50    <y_axis_Scnd_highest_val>
 k    <y_magnitude>
 and
-finally    <order_last>   ##
+finally    <order_last>
 in
 2015    <x_axis_label_highest_value>
 it
@@ -379,7 +378,9 @@ k    <y_magnitude>
 
 <start_of_description>
 The
-median salary for women    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+for women    ## more object- or property-like?
 has
 risen    <slope_up>
 steadily    <y_axis_trend>
@@ -389,21 +390,20 @@ to    <x_axis_range_end>
 2015    <x_axis_label_highest_value>
 ,
 with
-on
-average    <topic_related_property>
+on average	## more object- or property-like?
 a
 $    <y_axis_inferred_label>
 5    <slope_y_value>
 ,000    <y_magnitude>
 increase    <y_axis_trend_up>
-every    <every>
+every
 5    <slope_x_value>
 years    <x_axis>
 .
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description> ## exclude: it does not say anything about the trend or bar heights
 This
 graph
 shows
@@ -413,7 +413,7 @@ in
 1000s    <y_magnitude>
 of
 dollars    <y_axis_inferred_label>
-every    <every>
+every
 five    <x_interval>
 years    <x_axis>
 between    <x_axis_range_start>
@@ -436,7 +436,9 @@ from    <x_axis_range_start>
 -    <x_axis_range_end>
 2015    <x_axis_label_highest_value>
 the 
-median salary of women    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+of women	## more object- or property-like?
 rose    <slope_up>
 consistently    <y_axis_trend>
 from
@@ -461,7 +463,9 @@ graph
 illustrates
 that
 the
-median salary for women    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+for women	## more object- or property-like?
 has
 been
 increasing    <slope_up>
@@ -485,12 +489,14 @@ year    <x_axis>
 <start_of_description>
 chart
 shows
-median salary of women per year    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+of women	## more object- or property-like?
+per year	## more object- or property-like?
 showing
 in
 2015    <x_axis_label_highest_value>
 salary    <y_axis>
-median    <topic_related_property>
 was
 over    <y_axis_approx>
 $    <y_axis_inferred_label>
@@ -533,8 +539,7 @@ time goes on    <x_axis_trend>
 
 
 
-## poor description
-<start_of_description>
+<start_of_description> ## exclude: short and not very informative
 The
 average salary for woman    <topic>
 has
@@ -567,7 +572,7 @@ Over
 the
 years    <x_axis>
 the
-median    <topic_related_property>
+median	## more object- or property-like?
 salary    <y_axis>
 has
 increased    <slope_up>
@@ -594,15 +599,15 @@ This
 graph
 presents
 the
-median salary of women    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+of women	## more object- or property-like?
 from    <x_axis_range_start>
 2000    <x_axis_label_least_value>
 to    <x_axis_range_end>
 2015    <x_axis_label_highest_value>
 .
-Women    <topic_related_object>
-'
-s
+Women's	## more object- or property-like?
 earnings    <y_axis>
 have
 been
@@ -613,8 +618,7 @@ over this time    <x_axis_trend>
 <end_of_description>
 
 
-## not so good
-<start_of_description>
+<start_of_description>	## exclude
 The
 Median salary for women    <topic>
 appears
@@ -636,17 +640,19 @@ graph
 shows
 how
 the
-median salary of women    <topic>
+median	## more object- or property-like?
+salary	<y_axis>
+of women	## more object- or property-like?
 has
 changed  
-over time   <x_axis_trend>  ##
+over time   <x_axis_trend>
 .
 This
 is
 done
 by
 looking
-every    <every>
+every
 half decade    <x_interval>
 from    <x_axis_range_start>
 the
@@ -684,15 +690,15 @@ $    <y_axis_inferred_label>
 <start_of_description>
 2015    <x_axis_label_highest_value>
 saw
-women    <topic_related_object>
-median    <topic_related_property>
+women	## more object- or property-like?
+median	## more object- or property-like?
 pay    <y_axis>
 rise    <slope_up>
 to    
 53    <y_axis_inferred_highest_value_approx>
 k    <y_magnitude>
 ,
-from    <y_x_comparison_rest>
+from    <y_x_comparison>
 50    <y_axis_Scnd_highest_val>
 k    <y_magnitude>
 in
