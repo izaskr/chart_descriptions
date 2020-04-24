@@ -31,48 +31,43 @@ smallest    <y_axis_least_value>
 
 
 <start_of_description>
-Surprisingly   <interpretation>  ##
+Surprisingly   <interpretation>
 the
 UK    <x_axis_label_highest_value>
 has
 the
 largest    <y_axis_highest_value>
-gap    <y_axis>
-in
-gender    <topic_related_property>
-pay    <topic_related_property>
+gap in gender pay	<y_axis>
 at
 15    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 while    <y_x_comparison>
 Germany    <x_axis_label_least_value>
 has
 a
-mere    <y_axis_trend>
+mere    <y_axis_least_value>
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 gap    <y_axis>
 .
 Spain    <x_axis_label_Scnd_highest_value>
 has
 10    <y_axis_inferred_value_add_v1=Scnd_v2=highest>
-%    <y_axis>
+%    <y_axis_inferred_label>
 lower    <y_axis_trend_down>
 than  
 the
-UK    <x_axis_label_highest_value>
-'
-s    
+UK's    <x_axis_label_highest_value>
 despite its poor Maternity packages   <interpretation>
 .
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description> ## exclude: it doesn't say anything about the relationship between Germany and Spain
 There
 is
 a
-wider    <y_axis_trend>
+wider    <y_axis_trend_up>
 pay gap   <y_axis>
 in
 the
@@ -86,13 +81,13 @@ Spain    <x_axis_label_Scnd_highest_value>
 
 <start_of_description> 
 The
-gender pay gap    <y_axis>  ##
+gender pay gap    <y_axis>
 is
-greatest    <y_axis_highest_value>
+greatest    <y_axis_trend_up>
 by
-about  <y_axis_approx>   ##
+about  <y_axis_approx>
 10    <y_axis_inferred_value_add_v1=highest_v2=least>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 the
 UK    <x_axis_label_highest_value>
@@ -106,8 +101,7 @@ exactly
 halfway    <other_operation>
 between
 the
-two 
-countries    <x_axis>    ##? "two countries" should be collapsed to group?
+two countries    <group_highest_Scnd> ## group?
 .
 <end_of_description>
 
@@ -117,20 +111,20 @@ graph
 represents
 how
 the
-gender pay gap    <topic>
+gender pay gap    <y_axis>
 varies
 across
 several
-European
+European	## more object- or property-like?
 countries    <x_axis>
 .
-Currently   <interpretation>   ##
+Currently
 ,
 the
 largest    <y_axis_highest_value>
 pay gap    <y_axis>
 between
-male and female workers   <topic_related_property>   ##
+male and female workers	## more object- or property-like?
 is
 in
 the
@@ -138,7 +132,7 @@ UK    <x_axis_label_highest_value>
 with
 approximately    <y_axis_approx>
 17    <y_axis_inferred_highest_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
 Secondly   <order_Scnd>
 ,
@@ -152,9 +146,9 @@ is
 in
 Spain    <x_axis_label_Scnd_highest_value>
 at
-just under    <y_axis_approx>  ##
+just under    <y_axis_approx>
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 .
 Finally    <order_last>
 Germany    <x_axis_label_least_value>
@@ -165,7 +159,7 @@ gap    <y_axis>
 with
 approximately    <y_axis_approx>
 5    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 .
 <end_of_description>
 
@@ -192,10 +186,10 @@ over    <y_axis_approx>
 Spain    <x_axis_label_Scnd_highest_value>
 has
 a
-Gender Pay Gap    <y_axis>   ##
+Gender Pay Gap    <y_axis>
 of
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 and
 Germany    <x_axis_label_least_value>
 is
@@ -206,10 +200,10 @@ the
 3    <x_axis_labels_count>
 with
 a
-Gender Pay Gap    <y_axis>   ##
+Gender Pay Gap    <y_axis>
 of
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 <end_of_description>
 
 
@@ -227,7 +221,7 @@ biggest    <y_axis_highest_value>
 gender pay gap    <y_axis>
 (
 13    <y_axis_inferred_highest_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 )
 ,
 followed    <order_Scnd>
@@ -235,13 +229,13 @@ by
 spain    <x_axis_label_Scnd_highest_value>
 (
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 )
 and
 Germany    <x_axis_label_least_value>
 (
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 )
 .
 <end_of_description>
@@ -255,7 +249,7 @@ the
 gender pay gap    <topic>
 ,
 by
-percentage   <y_axis>
+percentage   <y_axis_inferred_label>
 between
 Germany, Spain and the UK    <x_axis_labels>
 .
@@ -264,13 +258,12 @@ UK    <x_axis_label_highest_value>
 has
 the
 largest    <y_axis_highest_value>
-pay   <topic_related_property>
-gap    <y_axis>
+pay gap    <y_axis>
 with
 over    <y_axis_approx>
 14    <y_axis_inferred_highest_value_approx>
-%    <y_axis>
-difference
+%    <y_axis_inferred_label>
+difference	<y_axis>
 .
 Germany    <x_axis_label_least_value>
 has
@@ -280,32 +273,29 @@ pay gap    <y_axis>
 with
 only    <y_axis_least_value>
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
-difference
-in
-pay    <topic_related_property>
-between
-men and women    <topic_related_property>
+%    <y_axis_inferred_label>
+difference in pay	<y_axis>
+men and women	## more object- or property-like? or maybe add to y_axis above?
 .
 <end_of_description>
 
 
 <start_of_description>
 The
-gender pay gap   <y_axis>  ##
+gender pay gap   <y_axis>
 is
 much
-higher   <y_axis_highest_value>
+higher   <y_axis_trend_up>
 in
 the
 UK   <x_axis_label_highest_value>
-than  <y_x_comparison>  ##
+than  <y_x_comparison>
 in
-Germany and Spain    <x_axis_labels_rest>
+Germany and Spain    <group_Scnd_least> ## group: with relations or bar heights get the same label?
 .
 It
 is
-1/3    <y_axis_inferred_value_mul_v1=highest_v2=Scnd>
+1/3    <y_axis_inferred_value_mul_v1=highest_v2=Scnd> ## is the correct label? Emeka
 higher    <y_axis_trend_up>
 than
 that
@@ -314,7 +304,7 @@ Spain   <x_axis_label_Scnd_highest_value>
 which
 is
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 and
 3 times    <y_axis_inferred_value_mul_v1=highest_v2=least>
 that
@@ -325,7 +315,7 @@ Germany    <x_axis_label_least_value>
 
 
 
-<start_of_description>
+<start_of_description> ## exclude?
 This
 chat
 looks
@@ -352,7 +342,7 @@ lowest    <y_axis_least_value>
 
 
 
-<start_of_description>
+<start_of_description> ## exlucde? it doesn't mention how big it is in Spain
 This
 chart
 depicts
@@ -409,20 +399,20 @@ the
 UK    <x_axis_label_highest_value>
 with
 16    <y_axis_inferred_highest_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 ,
 followed    <order_Scnd>
 by
 Spain    <x_axis_label_Scnd_highest_value>
 at
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 and
 lastly    <order_last>
 Germany    <x_axis_label_least_value>
 at
 6    <y_axis_inferred_least_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 <end_of_description>
 
 
@@ -431,11 +421,11 @@ Germany    <x_axis_label_least_value>
 has
 the
 lowest    <y_axis_least_value>
-gender  pay gap    <y_axis>   ##
+gender  pay gap    <y_axis>
 of
 just
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 .
 Spain    <x_axis_label_Scnd_highest_value>
 is
@@ -443,7 +433,7 @@ double    <y_axis_inferred_value_mul_v1=Scnd_v2=least>
 that
 at
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 and
 the
 UK    <x_axis_label_highest_value>
@@ -452,10 +442,10 @@ behind
 with
 the
 largest    <y_axis_highest_value>
-inequality  
+inequality	<y_axis> ##
 of
 15    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 .
 <end_of_description>
 
@@ -473,18 +463,18 @@ the
 gap    <y_axis>
 is
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 in
 Germany   <x_axis_label_least_value>
 ,
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 in
 Spain    <x_axis_label_Scnd_highest_value>
 and
-just over    <y_axis_approx>  ##
+just over    <y_axis_approx>
 14    <y_axis_inferred_highest_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 the
 UK    <x_axis_label_highest_value>
@@ -498,7 +488,7 @@ graph
 shows
 that
 the
-gender pay gap    <y_axis>  ##
+gender pay gap    <y_axis>
 is
 largest    <y_axis_highest_value>
 in
@@ -507,7 +497,7 @@ UK    <x_axis_label_highest_value>
 at
 over    <y_axis_approx>
 14    <y_axis_inferred_highest_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 ,
 the
 next    <order_Scnd>
@@ -516,7 +506,7 @@ is
 Spain    <x_axis_label_Scnd_highest_value>
 at
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 .
 Germany    <x_axis_label_least_value>
 has
@@ -525,7 +515,7 @@ lowest    <y_axis_least_value>
 gap    <y_axis>
 at
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 <end_of_description>
 
 <start_of_description>
@@ -536,7 +526,7 @@ the
 gender pay gap    <topic>
 as
 a
-percentage    <y_axis>
+percentage    <y_axis_inferred_label>
 ,
 comparing
 the
@@ -572,7 +562,7 @@ the
 gender pay gap    <topic>
 across
 3    <x_axis_labels_count>
-european
+european	## more object- or property-like?
 countries    <x_axis>
 ,
 the
@@ -582,7 +572,7 @@ being
 germany    <x_axis_label_least_value>
 with
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 ,
 spain    <x_axis_label_Scnd_highest_value>
 with
@@ -594,15 +584,14 @@ uk    <x_axis_label_highest_value>
 having
 the
 biggest    <y_axis_highest_value>
-pay   <topic_related_property>
-gap    <y_axis>
+pay gap    <y_axis>
 with
 15    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description> ## exlude: does not mention Spain
 The
 UK    <x_axis_label_highest_value>
 has
@@ -619,6 +608,7 @@ of
 Germany    <x_axis_label_least_value>
 <end_of_description>
 
+
 <start_of_description>
 This
 chart
@@ -634,30 +624,30 @@ UK    <x_axis_label_highest_value>
 has
 the
 highest    <y_axis_highest_value>
-percentage    <y_axis>
+percentage    <y_axis_inferred_label>
 of
 a
 gap    <y_axis>
 with
 16    <y_axis_inferred_highest_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 ,
 followed    <order_Scnd>
 by
 Spain    <x_axis_label_Scnd_highest_value>
 at
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 and
 lastly    <order_last>
 Germany    <x_axis_label_least_value>
 with
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> ## exclude: does not state the relationship between Spain and Germany
 This
 bar
 chart
@@ -676,7 +666,7 @@ is
 displayed
 as
 a
-percentage    <y_axis>
+percentage    <y_axis_inferred_label>
 ,
 and
 the
@@ -692,7 +682,7 @@ However it is not clear what the percentage is of, or which gender is favoured i
 
 <start_of_description>
 The
-gender pay gap    <y_axis>  ##
+gender pay gap    <y_axis>
 is
 highest     <y_axis_highest_value>
 in
@@ -700,74 +690,71 @@ the
 UK    <x_axis_label_highest_value>
 at
 15    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 ,
 followed    <order_Scnd>
 by 
 Spain    <x_axis_label_Scnd_highest_value>
 at
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 .
 Germany    <x_axis_label_least_value>
 has
 the
 lowest    <y_axis_least_value>
-gender pay gap    <y_axis>  ##
+gender pay gap    <y_axis>
 at
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 <end_of_description>
 
 <start_of_description>
 It
 is
 the
-percentage    <y_axis>
-difference
-in
-pay    <topic_related_property>
-between
-men and women    <topic_related_property>
+percentage	<y_axis_inferred_label>
+difference in pay between men and women	## more object- or property-like?
 in
 3    <x_axis_labels_count>
 different
 countries    <x_axis>
 .
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 for
 Germany    <x_axis_label_least_value>
 \\n    <separator>
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 for
 Spain    <x_axis_label_Scnd_highest_value>
 \\n    <separator>
 15    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 for
 The 
 UK    <x_axis_label_highest_value>
 <end_of_description>
+
 
 <start_of_description>
 Uk    <x_axis_label_highest_value>
 has
 the
 largest    <y_axis_highest_value>
-gender pay gap    <y_axis>  ##
+gender pay gap    <y_axis>
 at
 15    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>    ##
-whilst    <y_x_comparison_rest>
+%    <y_axis_inferred_label>
+whilst    <y_x_comparison>
 Spain    <x_axis_label_Scnd_highest_value>
 is
 10    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 and
 Germany    <x_axis_label_least_value>
 only    <y_axis_least_value>
 5    <y_axis_least_value_val>
-%    <y_axis_inferred_label>    ##
+%    <y_axis_inferred_label>
 <end_of_description>
