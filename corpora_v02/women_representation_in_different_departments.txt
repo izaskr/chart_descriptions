@@ -427,7 +427,7 @@ department    <x_axis>
 are
 female	## more object- or property-like?
 ,
-compared    <y_x_comparison_rest>
+compared    <y_x_comparison>
 to
 60    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>

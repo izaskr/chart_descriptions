@@ -493,7 +493,7 @@ more    <y_axis_trend_up>
 money    <y_axis>
 on
 education    <topic_related_object>
-than   <y_x_comparison_rest>   ##
+than   <y_x_comparison>   ##
 North America, Europe and Africa    <x_axis_labels_rest>
 .
 <end_of_description>
@@ -594,7 +594,7 @@ spent   ##?  <topic_related_property>?
 the
 most    <y_axis_highest_value>
 ,
-followed    <y_x_comparison_rest>
+followed    <order_Scnd>
 by
 North America, Europe and Africa    <x_axis_labels_rest>
 .

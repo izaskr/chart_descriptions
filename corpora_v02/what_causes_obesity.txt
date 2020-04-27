@@ -320,7 +320,7 @@ a
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 cause of obesity  <x_axis>
-whilst    <y_x_comparison_rest>
+whilst    <y_x_comparison>
 a
 lack of exercise    <x_axis_label_least_value>
 is
