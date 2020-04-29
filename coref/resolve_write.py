@@ -9,7 +9,7 @@ from allennlp.predictors.predictor import Predictor
 
 predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz")
 
-data_path = "" # local "/home/iza/chart_descriptions/coref/data/"
+data_path = "/home/CE/skrjanec/stuff_jones1/chart_descriptions/coref/data/" # local "/home/iza/chart_descriptions/coref/data/"
 files = []
 
 for file_name in os.listdir(data_path):
@@ -17,11 +17,17 @@ for file_name in os.listdir(data_path):
 		files.append(file_name)
 
 
-def open_resolve_write(fname):
+def open_resolve_write(fname, datap):
 	""" fname is a string : name of a file with summaries """
 
 	current_summary = []
-	i_summary = 0	
+	i_summary = 0
+	n_sum_coref = 0
+
+	fname_new = fname[:-4] + "_COREF.txt"
+	new = open(fname_new, "w+")
+	
+
 	with open(fname, "r") as f:
 		for line in f:
 			line = line.split()
@@ -33,12 +39,27 @@ def open_resolve_write(fname):
 					# resolve coreferences
 					#predictor.predict(document="The woman reading a newspaper sat on the bench with her dog.")
 					# returns a list of tuples
-					clusters = predictor.predict(document=current_text)
+					results = predictor.predict(document=current_text)
 					
-					current_summary = []
-
+					
+					clusters = results["clusters"]
+					doc = results["document"] # tokenized text, a list of tokens
 					# write into file: i_summary, current text and clusters
-					print(i_summary, current_text, clusters, "\n", "\n")
+					if clusters:
+						print(i_summary, doc,"\n", clusters, "\n", )
+						new.write(str(i_summary) + " " + current_text + "\n")
+						for cluster in clusters: # c is a list: start_index, end_index
+							new.write("\t ---")
+							for startend in cluster:
+								ent=" ".join(doc[startend[0]:startend[1]+1])
+								print("ENT", ent)
+								new.write(ent + "\n")
+						new.write("\n")
+						new.write("\n")
+						n_sum_coref += 1
+
+					current_summary = []
+					continue
 
 				if line[0] == "<start_of_description>":
 					i_summary += 1
@@ -57,20 +78,22 @@ def open_resolve_write(fname):
 						continue
 
 					if "##" in first2_ch:
-						inx = first_ch.index("##")
+						inx = first2_ch.index("##")
 						current_summary += line[:inx]
 						continue
 
 						
 
-					
-	return None
+	new.close()				
+	return n_sum_coref
 
-
+all_coref = 0
 for f in files:
-	open_resolve_write(f)
-	input("ENTER for next file")
+	coref_count = open_resolve_write(data_path+f, data_path)
+	all_coref += coref_count
+	#input("ENTER for next file")
 
+print("NO. OF SUMMARIES WITH A COREF", all_coref)
 
 
 					
