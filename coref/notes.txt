@@ -1,0 +1,36 @@
+(env_neuralcoref) iza@iza-X550LD:~/neuralcoref$ python
+Python 3.6.2 |Anaconda custom (64-bit)| (default, Jul 20 2017, 13:51:32) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import spacy
+>>> nlp = spacy.load('en_core_web_sm')
+>>> import neuralcoref
+>>> coref = neuralcoref.NeuralCoref(nlp.vocab)
+>>> nlp.add_pipe(coref, name='neuralcoref')
+>>> doc = nlp(u'My sister has a dog. She loves him.')
+>>> doc._.has_coref
+True
+>>> doc._.coref_clusters
+[My sister: [My sister, She], a dog: [a dog, him]]
+>>> doc2 = nlp("This graph shows what students at Lagos State University chose to study. It shows that 15%  choose to study STEM")
+>>> doc2._coref_clusters
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'spacy.tokens.doc.Doc' object has no attribute '_coref_clusters'
+>>> doc2._.coref_clusters
+[This graph: [This graph, It]]
+>>> doc3 = nlp("This chart shows that the majority of people in Zarqa prefer reading a book  in an evening. Although this would suggest they may prefer solitude")
+>>> doc3._.coref_clusters
+[]
+>>> doc3._.has_coref
+False
+>>> 
+
+(env_allennlp4) skrjanec@jones-1:~$ python
+Python 3.7.7 (default, Mar 26 2020, 15:48:22) 
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import allennlp
+>>> from allennlp.predictors.predictor import Predictor
+>>> predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz")
+
