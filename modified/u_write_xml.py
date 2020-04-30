@@ -15,6 +15,8 @@ from xml.dom.minidom import parseString
 import xml.etree.ElementTree as ET
 from collections import defaultdict
 
+from initialize_dicts import *
+
 
 def is_digit(s):
     try:
@@ -49,50 +51,7 @@ case_000 = [{ORTH: ",000"} ]#, {ORTH: "BB", NORM: ", 000"}]
 tokenizer.add_special_case(",000", case_000)
 
 
-version_dir = "../corpora_v02/" # Rudy's version
-descriptions_files = ["Money_spent_on_higher_education.txt", 
-         "Number_of_top_Unis.txt",
-         "gender_pay_gap.txt",
-         "women_representation_in_different_departments.txt",
-         "women_representation_in_different_sectors.txt",
-         "what_causes_obesity.txt",
-         "how_do_young_people_spend_their_evenings.txt",
-         "what_do_students_choose_to_study.txt",
-         "median_salary_per_year_for_se_with_respect_to_their_degrees.txt",
-         "example_Median_salary_of_women.txt"]
-
-descriptions_files = ["Money_spent_on_higher_education.txt", 
-         "Number_of_top_Unis.txt",
-         "gender_pay_gap.txt",
-         "women_representation_in_different_departments.txt",
-         "women_representation_in_different_sectors.txt",
-         "what_causes_obesity.txt",
-         "how_do_young_people_spend_their_evenings.txt",
-         "what_do_students_choose_to_study.txt",
-         "median_salary_per_year_for_se_with_respect_to_their_degrees.txt",
-         "example_Median_salary_of_women.txt"]
-
-description_files_order = ["gender_pay_gap.txt", "example_Median_salary_of_women.txt",
-   "how_do_young_people_spend_their_evenings.txt", "median_salary_per_year_for_se_with_respect_to_their_degrees.txt",
-   "Money_spent_on_higher_education.txt", "Number_of_top_Unis.txt", "what_causes_obesity.txt", 
-   "what_do_students_choose_to_study.txt", 
-   "women_representation_in_different_departments.txt", "women_representation_in_different_sectors.txt"]
-
-topic_image_id = [("gender_paygap", "01", "nominal"), ("salary_women", "02", "interval"), ("evenings", "03", "nominal"), ("salary_se_degree", "04", "ordinal"), ("money_he", "05", "nominal"), ("top_unis", "06", "nominal"), ("obesity_cause", "07", "nominal"), ("study_prog", "08", "nominal"), ("women_dept", "09", "nominal"), ("women_sect", "10", "nominal") ]
-
-
-# descriptions_files_json is a dict, where the keys are files names (as given by Rudy) with descriptions, and the values are tuples - its first element is the name of the json file with raw plot data, its second element is the title of the plot (it's unique for each plot)
-descriptions_files_json = {"Money_spent_on_higher_education.txt":("train1","Money Spent on Higher Education in Year 2010"), 
-         "Number_of_top_Unis.txt":("train1","Number of Top 100 Universities in Each Continent"),
-         "gender_pay_gap.txt":("train1","Gender Pay Gap"),
-         "women_representation_in_different_departments.txt":("train1","Women Representation in Different University Departments"),
-         "women_representation_in_different_sectors.txt":("train1","Women Representation in Different Sectors"),
-         "what_causes_obesity.txt":("val1","What causes Obesity"),
-         "how_do_young_people_spend_their_evenings.txt":("val1","How do Young People Spend their Evenings"),
-         "what_do_students_choose_to_study.txt":("train1","What do Students choose to study?"),
-         "median_salary_per_year_for_se_with_respect_to_their_degrees.txt":("val2","Median Salary Per Year For Software Engineers with Respect to their Degree"),
-         "example_Median_salary_of_women.txt":("train1","Median Salary of Women Per Year")}
-
+version_dir = "../corpora_v02/all descriptions/" #assumes all description txt would be here, and the output also saved here  
 
 
 
@@ -317,6 +276,8 @@ def make_xml_tree():
 		annotations = tri[0]
 		chart_topic, chart_id, chart_x_type = tri[1][0], tri[1][1], tri[1][2]
 
+		
+
 		data = descriptions_files_json[annotations][0] + "_annotations3.json"
 		data_ext = get_x_y("../"+data)
 		# print("::::::::::::::::::::::::::::::::::::::::::")
@@ -324,13 +285,13 @@ def make_xml_tree():
 		# print("::::::::::::::::::::::::::::::::::::::::::")
 		title = descriptions_files_json[annotations][1]
 		# print("::::::::::::::::::::::::::::::::::::::::::")
-		# print(title)
+		# print(annotations, "       ", chart_topic, "     ", title)
 		# print("::::::::::::::::::::::::::::::::::::::::::")
 		d = {}
 		for i, d in data_ext.items():
-			if d["title"] == title:
+			if d["title"] == title: 
 				corpus = d
-
+		# print(corpus['title'], "       ", title)
 		results = get_stat_info(corpus)
 		for_xml = collect_parse(annotations, results)
 
@@ -402,9 +363,7 @@ def make_xml_tree():
 				boundaries.append(k) # last token index of a sentence, starting with 1
 				sentence_lengths.append(j)
 
-			# print("BOUNDARIES**************************")
-			# print(len(boundaries))
-			# print("BOUNDARIES**************************")
+	
 
 			annotations = ET.SubElement(story, "annotations")
 			events = ET.SubElement(annotations, "events")
@@ -428,15 +387,6 @@ def make_xml_tree():
 			for (label, start, end, text_str) in label_info:
 				for n, boundary in enumerate(boundaries):
 					if end <= boundary:
-
-
-						# if label.find("y_axis_approx") != -1:
-						# 	print("TTTTTTTTTTTTTTTTTTT**************************")
-						# 	print("Label: ", label)
-						# 	# print("Start:",start)
-						# 	# print("End: ",end)
-						# 	# print("Text_Str: ",text_str)
-						# 	print("TTTTTTTTTTTTTTTTTTT**************************")
 
 
 						label_bound[n+1].append((label, start,end, text_str))
@@ -490,13 +440,7 @@ def make_xml_tree():
 
 				if i_sent > 1:
 					prev_boundary = boundaries[i_sent-2]
-				for n,(label, start, end, text_str) in enumerate(triplets):
-					# print("TTTTTTTTTTTTTTTTTTT**************************")
-					# print(corpus["title"])	
-					# print(hedge_id_map)
-					# print("TTTTTTTTTTTTTTTTTTT**************************")
-
-					
+				for n,(label, start, end, text_str) in enumerate(triplets): 					
 					
 					c +=1		
 
@@ -513,7 +457,8 @@ def make_xml_tree():
 
 						
 						if start2 == 0 or start2 == -1:
-							print(i_sent,triplets, prev_boundary, boundaries)
+							# print(i_sent,triplets, prev_boundary, boundaries)
+							pass
 
 					# if ''.join(corpus["x"]) not in ex:
 					# 	print("\nAAAAAAAA**********")	
@@ -572,9 +517,9 @@ def make_xml_tree():
 
 			def get_next(n, lb_sent_key, lb_sent_index):
 				lb_sentence = label_bound[lb_sent_key]
-				index = lb_sent_index - n
+				index = lb_sent_index + n
 				if index >= len(lb_sentence):
-					return None
+					return None 
 				return lb_sentence[index]
 
 			# build tags for approximation
@@ -793,14 +738,6 @@ def make_xml_tree():
 			build_relex_tags(numex)	
 			build_hedges_tags(numex)
 			
-
-			# print("TTTTTTTTTTTTTTTTTTT*******************<*******")
-			# print(corpus["title"])	
-			# print(hedge_info_map)
-			# print(approx_info_map)
-			# print(relex_info_map)
-			# print("TTTTTTTTTTTTTTTTTTT**************************")
-
 
 
 			# print(my_cnt)
