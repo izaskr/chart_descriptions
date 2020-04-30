@@ -1,4 +1,5 @@
 """
+Process chart summaries: resolve coreferences using the SpanBERT neural model. Write the coreference clusters into a file together with the summary ID and the summary text
 
 """
 
@@ -48,11 +49,11 @@ def open_resolve_write(fname, datap):
 					if clusters:
 						print(i_summary, doc,"\n", clusters, "\n", )
 						new.write(str(i_summary) + " " + current_text + "\n")
-						for cluster in clusters: # c is a list: start_index, end_index
-							new.write("\t ---")
+						for j,cluster in enumerate(clusters): # c is a list: start_index, end_index
+							new.write(" ----cluster " + str(j) + "---- \n")
 							for startend in cluster:
 								ent=" ".join(doc[startend[0]:startend[1]+1])
-								print("ENT", ent)
+								print("\t entity:", ent)
 								new.write(ent + "\n")
 						new.write("\n")
 						new.write("\n")

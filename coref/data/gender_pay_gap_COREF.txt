@@ -1,80 +1,106 @@
 1 This chart shows the gender pay gap between Germany, Spain and the UK . We can see that the UK has the biggest pay gap , followed by Spain and Germany has the smallest .
-	 ---the UK
+ ----cluster 0---- 
 the UK
-	 ---Spain
+the UK
+ ----cluster 1---- 
 Spain
-	 ---Germany
+Spain
+ ----cluster 2---- 
+Germany
 Germany
 
 
 2 Surprisingly the UK has the largest gap in gender pay at 15 % while Germany has a mere 5 % gap . Spain has 10 % lower than the UK's despite its poor Maternity packages .
-	 ---the UK
+ ----cluster 0---- 
+the UK
 the UK 's
-	 ---Spain
+ ----cluster 1---- 
+Spain
 its
 
 
 8 This chart shows the gender pay gap , by percentage between Germany, Spain and the UK . The UK has the largest pay gap with over 14 % difference . Germany has the smallest pay gap with only 5 % difference in pay men and women .
-	 ---the UK
+ ----cluster 0---- 
+the UK
 The UK
-	 ---Germany
+ ----cluster 1---- 
+Germany
 Germany
 
 
 9 The gender pay gap is much higher in the UK than in Germany and Spain . It is 1/3 higher than that in Spain which is 10 % and 3 times that in Germany .
-	 ---The gender pay gap
+ ----cluster 0---- 
+The gender pay gap
 It
-	 ---Spain
+ ----cluster 1---- 
 Spain
-	 ---Germany
+Spain
+ ----cluster 2---- 
+Germany
 Germany
 
 
 10 This chat looks at the percentage gender pay gap in UK, Spain and Germany . The UK has the largest gender pay gap with Germany having the lowest .
-	 ---UK
+ ----cluster 0---- 
+UK
 The UK
-	 ---Germany
+ ----cluster 1---- 
+Germany
 Germany
 
 
 11 This chart depicts the gender pay gap in three different countries : Germany, Spain and the UK . The chart shows that the gender pay gap is largest in the UK at over 14 percent , and smallest in Germany at 5 percent .
-	 ---This chart
+ ----cluster 0---- 
+This chart
 The chart
-	 ---the UK
+ ----cluster 1---- 
 the UK
-	 ---Germany
+the UK
+ ----cluster 2---- 
+Germany
 Germany
 
 
 14 This graph shows a gender pay gap in Germany, Spain and the UK . the gap is 5 % in Germany , 10 % in Spain and just over 14 % in the UK .
-	 ---a gender pay gap in Germany , Spain and the UK
+ ----cluster 0---- 
+a gender pay gap in Germany , Spain and the UK
 the gap
-	 ---Germany
+ ----cluster 1---- 
 Germany
-	 ---Spain
+Germany
+ ----cluster 2---- 
 Spain
-	 ---the UK
+Spain
+ ----cluster 3---- 
+the UK
 the UK
 
 
 16 The graph indicates the gender pay gap as a percentage , comparing the UK, Spain an Germany . The UK has the largest pay gap , followed by Spain and then Germany has the smallest pay gap .
-	 ---the UK
+ ----cluster 0---- 
+the UK
 The UK
-	 ---Spain
+ ----cluster 1---- 
 Spain
-	 ---Germany
+Spain
+ ----cluster 2---- 
+Germany
 Germany
 
 
 20 This bar chart shows the gender pay gap in three countries , ; Germany, Span and the UK . It is displayed as a percentage , and the UK has a higher percentage . However it is not clear what the percentage is of, or which gender is favoured in the pay gap from the graph labels itself .
-	 ---the gender pay gap in three countries , ; Germany , Span and the UK
+ ----cluster 0---- 
+the gender pay gap in three countries , ; Germany , Span and the UK
 It
 the pay gap
-	 ---the UK
+ ----cluster 1---- 
 the UK
-	 ---a percentage
+the UK
+ ----cluster 2---- 
+a percentage
 the percentage
-	 ---This bar chart
+ ----cluster 3---- 
+This bar chart
 itself
 
 
