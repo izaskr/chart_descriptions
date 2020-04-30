@@ -1,55 +1,70 @@
 4 Africa spends the least amount at 50 M dollars . This is exactly half of what is spent in the next lowest continent , Europe . North America is twice that of Europe , and Asia about 120 M more than N America . However, these figures need to be associated with population figures to make sense .
-	 ---50 M dollars
+ ----cluster 0---- 
+50 M dollars
 This
-	 ---the next lowest continent , Europe
+ ----cluster 1---- 
+the next lowest continent , Europe
 Europe
-	 ---North America
+ ----cluster 2---- 
+North America
 N America
 
 
 6 The chart shows that there is more money spent on Higher Education in Asia than North America, Europe and Africa . Africa has the lowest spend of $ 50 ,000,000 compared to Asia spending over $ 300 ,000,000
-	 ---Africa
+ ----cluster 0---- 
 Africa
-	 ---Asia
+Africa
+ ----cluster 1---- 
+Asia
 Asia
 
 
 9 Asia spends a much higher amount on higher education than other continents . At 325 million dollars , this is more than 3 times higher than Europe at 100 million dollars and over 6 times higher than Africa at 50 million dollars . North America spends the second highest amount with 200 million dollars .
-	 ---spends
+ ----cluster 0---- 
+spends
 this
 
 
 11 This chart shows how much money is spend (in millions of dollars) on higher education in different continents . By far , Asia spends the most on higher education with over 300 million dollar spent in 2010 , followed by North America at 200 million and Europe at 100 million . Africa spent the least at 50 million . This could be due to the economic situation in each respective continent, and also due to societal norms and values: in Asia , there is a lot of emphasis placed on the value of having a good education, which explains why more is spent on higher education in Asia than any other continent.
-	 ---Asia
+ ----cluster 0---- 
+Asia
 Asia
 Asia
 
 
 16 This graphs compares higher education spending ##? between North America, Europe, Asia and Africa . Asia spent ##? the most , followed by North America, Europe and Africa .
-	 ---Asia
+ ----cluster 0---- 
 Asia
-	 ---North America
+Asia
+ ----cluster 1---- 
 North America
-	 ---Europe
+North America
+ ----cluster 2---- 
 Europe
-	 ---Africa
+Europe
+ ----cluster 3---- 
+Africa
 Africa
 
 
 19 This chart shows the amount of dollars (millions) that was spent on higher education in different continents . Asia spent the most with 320 million , followed by North America with 200 million , Europe with 100 million spent and lastly Africa with 50 million . You expect Africa to be last due to poverty and lack of access to education.
-	 ---Africa
+ ----cluster 0---- 
+Africa
 Africa
 
 
 20 This graph presents money spent on higher education in the year 2010 by different continents . It might be total money spent, it is not clear . Asia seems to spend the most , compared to Africa which spends the least .
-	 ---money spent on higher education in the year 2010
+ ----cluster 0---- 
+money spent on higher education in the year 2010
 It
 
 
 21 in 2010 Asia spent a significant amount of money on higher education , especially when compared to Europe and Africa . North America spent a fair amount on higher education - twice as much as Europe and four times as much Africa .
-	 ---Europe
+ ----cluster 0---- 
 Europe
-	 ---Africa
+Europe
+ ----cluster 1---- 
+Africa
 Africa
 
 

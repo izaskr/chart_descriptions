@@ -1,65 +1,78 @@
 1 This chart shows the average annual salary for software engineers relative to their degree . We can see that those who have no degree have a lower salary than those who have a bachelors degree . Those with a Masters or a PHD on average earn much more .
-	 ---software engineers
+ ----cluster 0---- 
+software engineers
 their
 
 
 2 The chart shows that with a PhD degree Software engineers earn the highest with over 20 000 more than no degrees and bachelor . Masters is only 15 000 behind Phd but shows more studies are needed for higher salaries .
-	 ---PhD
+ ----cluster 0---- 
+PhD
 Phd
 
 
 5 The median salary of software engineers with respect to their degrees is shown as follows . Those with no degree are the lowest at 30 % , those with a Bachelors degree come in at 45 % . With a masters degree , the engineers median salary is at 55 % and finally , those with a PHD are at the highest level of 65 % .
-	 ---software engineers
+ ----cluster 0---- 
+software engineers
 their
 
 
 6 This shows that Software Engineers with PhDs earn more than their counterparts . The lowest salaries are to those who have no degree , followed by a bachelors degree then a masters degree - therefore we can take from this graph that the higher the level of education , the higher the salary Software Engineers earn per year
-	 ---Software Engineers with PhDs
+ ----cluster 0---- 
+Software Engineers with PhDs
 their
 
 
 8 This charts shows the average median salary per year for software engineers with respect to their degree type . Not surprisingly , those with no degree earn the least ; and those with a PhD earn the most . There is a difference of about $ 30 ,000 between these average earnings .
-	 ---software engineers
+ ----cluster 0---- 
+software engineers
 their
 
 
 9 This graph shows a trend that the higher the qualifications held by software engineer , the greater the salary they receive . Those with no degree receive almost half of the salary received by those with a PHd . Education increases earning potential .
-	 ---software engineer
+ ----cluster 0---- 
+software engineer
 they
 
 
 10 The graphs shows the median salary of software engineers with respect to their degree . We can see that there is an approximately $ 20 ,000 salary difference between those with a bachelor degree and those with a Phd but only an approximate $ 10 ,000 difference between those with a degree and those without .
-	 ---software engineers
+ ----cluster 0---- 
+software engineers
 their
 
 
 11 This chart shows that software engineers who have a PhD degree earn more money than software engineers with lesser degrees . The chart demonstrates that the higher the degree , the more money earned on average .
-	 ---This chart
+ ----cluster 0---- 
+This chart
 The chart
 
 
 14 This graph shows the median annual salary in $1000s for software engineers with respect to their original degree . Those with a PhD earn the most at $ 62 ,000 . A master's degree gets average earnings of $ 52 ,000 , whilst a BSc gets $ 42 ,000 on average . Those with no degree average a salary of $ 30 ,000 .
-	 ---software engineers
+ ----cluster 0---- 
+software engineers
 their
 
 
 15 This graph shows that the median salary a software engineer increases as the level of their degree rises . Those with a PhD earn over $ 60 ,000 , about $ 10 ,000 per year more than those with a masters degree , who in turn earn about $ 10 ,000 per year more than those with a bachelor degree . Those with no degree earn the least at about $ 35 ,000 per year .
-	 ---a software engineer
+ ----cluster 0---- 
+a software engineer
 their
 
 
 19 This chart displays the median salary per year of software engineers depending on their degree . Those with a PhD earn the most with 64 ,000 , then Masters at 54 ,000 , then Bachelor at 44 ,000 and those in the field with no degree earn 34 ,000 . This corresponds with what you would expect that those with a better education and more knowledge earn more
-	 ---software engineers
+ ----cluster 0---- 
+software engineers
 their
 
 
 20 This graph plots the median salary for software engineers split by their level of qualifications . PhD holders earn the highest median salary , followed by Masters holders , then bachelors . Non-degree holders earn about half what PhD holders do .
-	 ---software engineers
+ ----cluster 0---- 
+software engineers
 their
 
 
 22 The average salary of a software engineer base on their level . $ 45 000 for a BA/Bsc \\n $ 55 000 for a MA/Msc \\n $ 65 000 for a PhD \\n $ 35 000 for No degree
-	 ---a software engineer
+ ----cluster 0---- 
+a software engineer
 their
 
 

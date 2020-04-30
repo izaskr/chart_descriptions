@@ -1,150 +1,193 @@
 1 This is a chart showing the number of fatal injuries at the Pula Steel Factory across the years . It shows a spike in 2013 of 32 fatal injuries . The year before , 2012 , had just 27 fatal injuries . But the following year , 2014 , there were less than either previous years with 26 injuries , and 2015 had less still with 22 injuries . But then 2016 increased again and there were 25 fatal injuries .
-	 ---This
+ ----cluster 0---- 
+This
 It
 
 
 2 Bar chart showing the number of fatal injuries at the Pula Steel Factory from 2012 - 2016 . \\n \\n The bar chart shows a spike of 32 fatal injuries in 2013 , decreasing to 22 in 2015 , before rising again to 25 in 2016 .
-	 ---2012
+ ----cluster 0---- 
+2012
 2013
-	 ---2016
+ ----cluster 1---- 
+2016
 2016
 
 
 3 The graph shows fatal injuries at the Puta Steel Factory from 2012 - 2016 inclusive . In 2012 there were 27 fatal injuries , rising to 32 in 2013 but falling again in 2014 to 26 . The number fell again in 2015 , to 22 , but rose to 25 in 2016 .
-	 ---2012
+ ----cluster 0---- 
 2012
-	 ---fatal injuries at the Puta Steel Factory
+2012
+ ----cluster 1---- 
+fatal injuries at the Puta Steel Factory
 The number
-	 ---2016
+ ----cluster 2---- 
+2016
 2016
 
 
 4 The graph details the number of fatal injuries per year , at the Pula steel factory . Covering the years 2012 - 2016 the graph shows that the highest number of fatalities occurred in 2013 , with 32 fatalities . The lowest number of fatalities occurred in 2015 , with 22 fatalities that year .
-	 ---The graph
+ ----cluster 0---- 
+The graph
 the graph
-	 ---2015
+ ----cluster 1---- 
+2015
 that year
 
 
 5 This chart shows the number of fatal injuries at the Pula Steel factory over a 4 year period , between 2012 and 2016 . \\n \\n From the chart we can see that in the year 2012 , there were 27 fatal injuries at the factory . This increased in 2013 to 32 fatal injuries . Following this , the number of injuries decreased to 26 fatal injuries in 2014 and decreased further in 2015 to 22 fatal injuries . \\n \\n However , in 2016 the number of fatal injuries increased to 25 .
-	 ---This chart
+ ----cluster 0---- 
+This chart
 the chart
-	 ---2012
+ ----cluster 1---- 
+2012
 the year 2012
-	 ---the Pula Steel factory
+ ----cluster 2---- 
+the Pula Steel factory
 the factory
-	 ---2016
+ ----cluster 3---- 
+2016
 2016
 
 
 7 There was an increase in the number of fatal injuries at the Pula Steel Factory from 2012 to 2013 . Increasing from just over 25 fatal injuries in 2012 to over 30 in 2013 . \\n \\n However from 2013 there has been a slight decline in the number of fatal injuries . From just over 30 in 2013 to 25 in 2016 . \\n \\n 2015 saw the lowest number of fatal injuries over a 4 year period with just over 20 fatal injuries .
-	 ---2012
+ ----cluster 0---- 
 2012
-	 ---2013
+2012
+ ----cluster 1---- 
+2013
 2013
 2013
 2013
 
 
 8 The number of fatal injuries at the Pula Steel Factory rose from 27 in 2012 to 32 in 2013 . Since 2013 , the fatal injuries declined during the next two years to 26 in 2014 and 22 in 2015 before rising again to 25 in 2016 .
-	 ---2013
+ ----cluster 0---- 
 2013
-	 ---The number of fatal injuries at the Pula Steel Factory
+2013
+ ----cluster 1---- 
+The number of fatal injuries at the Pula Steel Factory
 the fatal injuries
 
 
 9 Fatal injuries at the Pula Steel Factory have varied from 2012 to 2016 , averaging above 25 . Most was in 2013 at 32 , and least in 2015 at 22 .
-	 ---2012
+ ----cluster 0---- 
+2012
 2013
 
 
 10 The number of fatal injuries at Pula Steel factory between 2012 and 2016 is demonstrated here . It shows there to be little change over time , with 27 % in 2012 and 25 % in 2016 . There was however an increase to 32 % between 2012 and 2013 and a steady decrease to 22 % in 2015 . This decrease started to reverse in 2016 .
-	 ---The number of fatal injuries at Pula Steel factory between 2012 and 2016
+ ----cluster 0---- 
+The number of fatal injuries at Pula Steel factory between 2012 and 2016
 It
-	 ---2012
+ ----cluster 1---- 
 2012
 2012
-	 ---2016
+2012
+ ----cluster 2---- 
 2016
 2016
-	 ---a steady decrease to 22 % in 2015
+2016
+ ----cluster 3---- 
+a steady decrease to 22 % in 2015
 This decrease
 
 
 11 The number of fatal injuries at the Pula steel factory started at 27 in 2012 , this increased to 32 in 2013 . In 2014 this dropped back to 26 and then a further drop to 22 in 2015 . However in 2016 there was a slight increase to 25 injuries .
-	 ---The number of fatal injuries at the Pula steel factory
+ ----cluster 0---- 
+The number of fatal injuries at the Pula steel factory
 this
 this
 
 
 12 This chart shows the number of fatal injuries at the Pula Steel Factory from 2012 to 2016 . \\n In 2012 the factory saw 27 injuries , in 2013 there were 32 injuries , 2014 saw at least 26 injuries , 22 injuries in 2015 and 25 in 2016 . 2013 had the highest number of injuries whilst 2015 had the lowest .
-	 ---2012
+ ----cluster 0---- 
 2012
-	 ---the Pula Steel Factory
+2012
+ ----cluster 1---- 
+the Pula Steel Factory
 the factory
-	 ---2016
+ ----cluster 2---- 
 2016
-	 ---2013
+2016
+ ----cluster 3---- 
 2013
-	 ---2015
+2013
+ ----cluster 4---- 
+2015
 2015
 
 
 13 In 2013 there were 23 % more fatal injures than any other year , after 2013 they fell before climbing back up in 2016 . \\n in 2012 there was 26 % less fatal injuries but this average unfortunately stayed high until 2016 when there were 25 % more fatal injuries .
-	 ---2013
+ ----cluster 0---- 
 2013
-	 ---23 % more fatal injures
+2013
+ ----cluster 1---- 
+23 % more fatal injures
 they
-	 ---26 % less fatal injuries
+ ----cluster 2---- 
+26 % less fatal injuries
 this average
-	 ---2016
+ ----cluster 3---- 
+2016
 2016
 
 
 14 This chart shows the number of fatal injuries at the Pula Steel Factory from the year 2012 towards 2016 . From the chart , we can see that in the year 2012 , we saw 27 injuries which was followed by a huge increase in 2013 with 32 injuries . We then saw a drop in 2014 with around 26 injuries with was followed by another drop in 2015 with 22 injuries . Finally in 2016 , we saw an increase of injuries by 25 .
-	 ---This chart
+ ----cluster 0---- 
+This chart
 the chart
-	 ---the year 2012
+ ----cluster 1---- 
 the year 2012
-	 ---2016
+the year 2012
+ ----cluster 2---- 
+2016
 2016
 
 
 15 The highest number of fatal injuries at the pula steel factory took place in the year 2013 at 32 % . In 2012 the percentage was 27 % and in 2014 , 26 % . In 2016 the number of fatal injuries was 25 % and at its lowest in 2015 at 22 % .
-	 ---the number of fatal injuries
+ ----cluster 0---- 
+the number of fatal injuries
 its
 
 
 18 This graph shows the number of fatal injuries at Pula Steel factory from 2012 to 2016 . We can see the deaths have been around an average of 25 a year , but it peaked in 2013 with 32 deaths and had a low of 22 death is 2015
-	 ---the number of fatal injuries at Pula Steel factory
+ ----cluster 0---- 
+the number of fatal injuries at Pula Steel factory
 the deaths
 it
 
 
 19 Number of fatal injuries recorded at the Pula steel factory as a graph to show percentages against time . 2012 was 27 % , the highest fatalities occured in 2013 at 32 % , this reduced down to 26 % in 2014 and further down to 22 % in 2015 . 2016 this number increased to 25 % .
-	 ---this
+ ----cluster 0---- 
+this
 this number
 
 
 20 In this chart we can see the number of fatal injuries at the Pula steel factory between 2012 and 2016 . \\n More than 20 fatal injuries occurred in all of the years presented . In 2013 , the number of fatalities was highest at 32 . The lowest number was in 2015 when there were 22 fatal injuries . In the other three years the number was around 25 .
-	 ---2012
+ ----cluster 0---- 
+2012
 2013
 
 
 22 We can see from the chart the fatal injuries sustained at the Pula Steel Factory between 2012 and 2016 . The number of fatalities grew from 27 in 2012 to 32 in 2013 . Thereafter , there has been a decline over the years down to 22 in 2015 . However there has been an increase in the year that followed and the fatalities for 2016 stands at 25 .
-	 ---2012
+ ----cluster 0---- 
 2012
-	 ---2016
+2012
+ ----cluster 1---- 
+2016
 the year that followed
 2016
 
 
 23 This shows the fluctuation of fatal injuries over a 5 year period . It indicates a downward trend in fatalities between 2013 and 2015 although this came to an end in 2016 . The most fatalities were recorded in 2013 .
-	 ---This
+ ----cluster 0---- 
+This
 It
-	 ---a downward trend in fatalities between 2013 and 2015
+ ----cluster 1---- 
+a downward trend in fatalities between 2013 and 2015
 this
-	 ---2013
+ ----cluster 2---- 
+2013
 2013
 
 

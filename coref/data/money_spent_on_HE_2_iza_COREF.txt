@@ -1,88 +1,113 @@
 1 This graph shows the money spent on Higher Education in the Year 2010 on different continents . The most money spent was in Africa where £ 290 ,000,000 was spent . The amount in Europe was a little lower at £ 270 ,000,000 . The amount of money spent on Higher Education in 2010 in Asia was £ 175 ,000,000 and the lowest amount was spent in North America , which was a little under £ 150 ,000,000 .
-	 ---the Year 2010
+ ----cluster 0---- 
+the Year 2010
 2010
 
 
 4 This charts shows the amount of money spent on Higher Education in the Year 2010 in different continents of North Africa , Europe , Asia and Africa . \\n \\n Africa has had almost £ 300 million ( £ 290 m ) on Higher Education at the highest continent . \\n North America is just under £ 150 million at the lowest , with Asia just over at £ 175 million . \\n \\n Europe and Africa are the two highest with Europe spending £ 275 million .
-	 ---Africa
+ ----cluster 0---- 
+Africa
 Africa
 the highest continent
 Africa
-	 ---North Africa
+ ----cluster 1---- 
+North Africa
 North America
-	 ---Asia
+ ----cluster 2---- 
 Asia
-	 ---Europe
+Asia
+ ----cluster 3---- 
+Europe
 Europe
 Europe
 
 
 7 This chart shows how much money was spent on higher education by each of the four continents in the year 2010 . \\n Africa spent the most at around £ 290 million . Europe comes second in line with spending £ 270 million . Asia spent about £ 170 million in 2010 . North America spent the least with just under £ 150 million .
-	 ---the year 2010
+ ----cluster 0---- 
+the year 2010
 2010
 
 
 11 The graph shows the amount of money spent on higher education in various continents around the world . In Africa the amount spent on higher education is £ 290 million . In North America they spent £ 149 million . In Europe they spent £ 270 million and in Asia they spent £ 170 million on higher education
-	 ---they
+ ----cluster 0---- 
+they
 they
 they
 
 
 12 The money spent on Higher Education on the year 2010 vary by continent . \\n The continent that spent the most was Africa with an amount of around 290 millions of pounds , followed by Europe with an amount of around 270 millions of pounds . North America and Asia spent less than 200 millions , Asia was the bigger of the two with around 170 millions of Pounds , while North America spent close to the 150 millions of pounds .
-	 ---Asia
+ ----cluster 0---- 
 Asia
-	 ---North America and Asia
+Asia
+ ----cluster 1---- 
+North America and Asia
 the two
-	 ---North America
+ ----cluster 2---- 
+North America
 North America
 
 
 15 Here we have a bar chart representing money spent on higher education in the year 2010 across various continents . It visually shows Europe and Africa having the highest expenditure over the year with Europe spending just over 250 million pounds and Africa nearly hitting the 300 million pounds mark . North America and Asia come in last according to this graph , with North America reaching just under 150 million and Asia just above the same amount ## how to label "same amount" .
-	 ---a bar chart representing money spent on higher education in the year 2010 across various continents
+ ----cluster 0---- 
+a bar chart representing money spent on higher education in the year 2010 across various continents
 It
 this graph
-	 ---the year 2010
+ ----cluster 1---- 
+the year 2010
 the year
-	 ---Europe
+ ----cluster 2---- 
 Europe
-	 ---Africa
+Europe
+ ----cluster 3---- 
 Africa
-	 ---North America
+Africa
+ ----cluster 4---- 
 North America
-	 ---Asia
+North America
+ ----cluster 5---- 
+Asia
 Asia
 
 
 16 The chart shows the number of money spent on higher education in the year 2020 . \\n In North America £ 149 million was spent on higher education . This is the lowest figure . In Europe the spending was £ 270 million , in Asia it was £ 180 million and Africa was the highest with £ 290 million .
-	 ---£ 149 million
+ ----cluster 0---- 
+£ 149 million
 This
-	 ---the spending
+ ----cluster 1---- 
+the spending
 it
 
 
 17 Here is a graph from the year 2010 for different countries that have spent money on Higher Education . \\n The highest spender is Africa which beats Europe at second highest . These two countries are quite close in the running to each other . The third is Asia which drops significantly compared to Europe , then lastly North America which spent the least on higher education in 2010 .
-	 ---Europe
+ ----cluster 0---- 
 Europe
-	 ---the year 2010
+Europe
+ ----cluster 1---- 
+the year 2010
 2010
 
 
 18 This chart represents expenditure on higher education across geographic areas in 2010 . \\n \\n The highest investor in higher education was Africa , spending £ 290 M . \\n \\n North America spent the least , reporting spend of just under £ 150 M for the year .
-	 ---2010
+ ----cluster 0---- 
+2010
 the year
 
 
 19 This chart shows the amount of money spent on higher education in millions of pounds per continent in the year 2010 . \\n From the chart we see that in the year 2010 approximately 290 millions of pounds were spent on higher education in Africa as the highest in the world . The lowest amount of money spent on higher education in the world is north america at approximately 150 millions of pounds
-	 ---This chart
+ ----cluster 0---- 
+This chart
 the chart
-	 ---the year 2010
+ ----cluster 1---- 
 the year 2010
-	 ---the world
+the year 2010
+ ----cluster 2---- 
+the world
 the world
 
 
 21 The chart shows money spent on Higher education in 2010 in millions of pounds . In N America it was almost 150 , in europe it was 230 , in asia it was 170 , in africa it was 290
-	 ---money spent on Higher education
+ ----cluster 0---- 
+money spent on Higher education
 it
 it
 it
@@ -90,7 +115,8 @@ it
 
 
 22 This graph shows us the amount of money spent on higher education in each continent in the year of 2010 . The highest spender recorded was Africa with nearly £ 300 m spent on higher education . Europe come not that far from Africa . In third was Asia and last was North America who only spent nearly £ 150 m on higher education .
-	 ---Africa
+ ----cluster 0---- 
+Africa
 Africa
 
 
