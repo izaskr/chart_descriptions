@@ -49,7 +49,7 @@ lack of exercise    <x_axis_label_least_value>
 at
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
-but   <y_x_comparison>   ##
+but
 genetics     <x_axis_label_Scnd_highest_value>
 is
 30    <y_axis_Scnd_highest_val>
@@ -58,17 +58,6 @@ of
 leading
 causes      <x_axis>
 .
-<end_of_description>
-
-
-## exclude
-<start_of_description>
-60    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
-of
-fast food   <x_axis_label_highest_value>
-causes      <topic_related_property>
-obesity     <topic_related_object>
 <end_of_description>
 
 
@@ -583,8 +572,8 @@ remaining
 <end_of_description>
 
 
-## exclude
-<start_of_description>
+
+<start_of_description> [type01]
 Fast food    <x_axis_label_highest_value>
 is
 the

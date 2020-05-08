@@ -905,30 +905,7 @@ in
 .
 <end_of_description>
 
-<start_of_description>	## this summary is very dry, just listing the title and values, which not useful for generation
-Number of fatal injuries at the pula steel factory	<topic>
-.
-\\n	<separator>
-30	<y_axis_highest_value_val>
-in
-2012	<x_axis_label_highest_value>
-,
-25	<y_axis_Scnd_highest_val>
-in
-2013	<x_axis_label_Scnd_highest_value>
-,
-16	<y_axis_3rd_highest_val>
-in
-2014	<x_axis_label_3rd_highest_value>
-,
-15	<y_axis_4th_highest_val>
-in
-2015	<x_axis_label_4th_highest_value>
-,
-12	<y_axis_least_value_val>
-in
-2016	<x_axis_label_least_value>
-<end_of_description>
+
 
 <start_of_description>
 The

@@ -1,4 +1,4 @@
-<start_of_description> ## exlucde? it mentions only the max and min bars
+<start_of_description> [type01]
 This
 chart
 shows
@@ -72,7 +72,7 @@ half    <y_axis_inferred_Scnd_highest_value_approx>
 <end_of_description>
 
 
-<start_of_description> ## exclude? too short
+<start_of_description> [type01]
 There
 are
 60    <y_axis_highest_value_val>
@@ -438,7 +438,7 @@ tech    <x_axis_label_least_value>
 <end_of_description>
 
 
-<start_of_description> ## exclude? only bar names ordered, no heights
+<start_of_description> [type01]
 The
 graph
 shows
@@ -468,7 +468,7 @@ tech    <x_axis_label_least_value>
 
 
 
-<start_of_description> ## exclude? mentions only min and max
+<start_of_description> [type01]
 Women	## more object- or property-like?
 are
 moderately    <y_axis_trend>
@@ -650,28 +650,8 @@ Law firms    <x_axis_label_highest_value>
 
 
 
-<start_of_description> ## exclude (totally deduction -likelihood)
-Women    <topic_related_property>
-are
-more    <x_axis_comparison>
-likely
-to
-represents
-law firms    <x_axis_label_highest_value>
-and
-financial groups    <x_axis_label_Scnd_highest_value>
-than
-insurance    <x_axis_label_3rd_highest_value>
-and
-tech    <x_axis_label_least_value>
-by
-nearly
-double    <y_axis_inferred_value_mul_v1=Scnd_v2=least>
-<end_of_description>
 
-
-
-<start_of_description> ## exclude? only min and max bars mentioned with heights
+<start_of_description> [type01]
 This
 chart
 displays

@@ -69,7 +69,7 @@ retrospectively
 <end_of_description>
 
 
-<start_of_description> ## exclude: too short to contain the important information
+<start_of_description> [type01]
 There
 are
 more   <y_axis_trend_up>
@@ -635,7 +635,7 @@ this shows that america and europe combined have more than 80% of the top 100 un
 <end_of_description>
 
 
-<start_of_description> ## exclude: not mentioning all bars
+<start_of_description> [type01]
 America    <x_axis_label_highest_value>
 has
 the
@@ -681,7 +681,7 @@ with
 <end_of_description>
 
 
-<start_of_description> ## exclude: mentions only 2 bars out of 5
+<start_of_description> [type01]
 This
 graph
 displays
@@ -749,32 +749,6 @@ top universities	## more object- or property-like?
 .
 <end_of_description>
 
-
-<start_of_description> ## exclude: no real running text, but rather bullet points
-The
-number of universities in each continent that are in the top 100 <topic>
-worldwide	## more object- or property-like?
-.
-50    <y_axis_highest_value_val>
--
-America    <x_axis_label_highest_value>
-\\n    <separator>
-5    <y_axis_least_value_val>
--
-Africa    <x_axis_label_least_value>
-\\n    <separator>
-5    <y_axis_least_value_val>
--
-Australia    <x_axis_label_least_value>
-\\n    <separator>
-30    <y_axis_Scnd_highest_val>
--
-Europe    <x_axis_label_Scnd_highest_value>
-\\n    <separator>
-20    <y_axis_3rd_highest_val>
--
-Asia    <x_axis_label_3rd_highest_value>
-<end_of_description>
 
 
 <start_of_description>

@@ -59,7 +59,7 @@ it
 
 
 
-<start_of_description> ## exclude
+<start_of_description> [type01]
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
@@ -568,7 +568,7 @@ this may be reflective of students opting to choose to study fields with future 
 
 
 
-<start_of_description> ## exclude
+<start_of_description> [type01]
 Students    <topic_related_object>
 decided
 to

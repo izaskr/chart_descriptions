@@ -63,7 +63,7 @@ despite its poor Maternity packages   <interpretation>
 <end_of_description>
 
 
-<start_of_description> ## exclude: it doesn't say anything about the relationship between Germany and Spain
+<start_of_description> [type01]
 There
 is
 a
@@ -315,7 +315,7 @@ Germany    <x_axis_label_least_value>
 
 
 
-<start_of_description> ## exclude?
+<start_of_description> [type01]
 This
 chat
 looks
@@ -647,7 +647,7 @@ with
 .
 <end_of_description>
 
-<start_of_description> ## exclude: does not state the relationship between Spain and Germany
+<start_of_description> [type01]
 This
 bar
 chart

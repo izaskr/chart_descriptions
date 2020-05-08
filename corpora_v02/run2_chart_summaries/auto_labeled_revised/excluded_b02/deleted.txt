@@ -1,0 +1,381 @@
+------ type03 fatal_injuries_at_pula_steel_factory_1.txt ------
+<start_of_description>	## I suggest excluding this description because the plot interpretation by the participant was incorrect and the summary doesn't reflect the data at all (23% less fatal injuries?)
+In
+2013	<x_axis_label_highest_value>
+there
+were
+23	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>	## I would actually just delete this token and label
+more	<y_axis_trend_up>
+fatal injures   <y_axis>
+than
+any
+other
+year   <x_axis>
+,
+after
+2013	<x_axis_label_highest_value>
+they
+fell  <slope_down>
+before
+climbing   <slope_up>
+back
+up
+in
+2016	<x_axis_label_4th_highest_value>
+.
+\\n   <separator>
+in
+2012	<x_axis_label_Scnd_highest_value>
+there
+was
+26	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+less	
+fatal injuries   <y_axis>
+but
+this
+average
+unfortunately
+stayed
+high	
+until
+2016	<x_axis_label_4th_highest_value>
+when
+there
+were
+25	<y_axis_4th_highest_val>
+%	<y_axis_inferred_label>
+more	
+fatal injuries   <y_axis>
+.
+<end_of_description>
+------ end ------
+
+------ type02 fatal_injuries_at_pula_steel_factory_2_iza.txt ------
+<start_of_description>	## this summary is very dry, just listing the title and values, which not useful for generation
+Number of fatal injuries at the pula steel factory	<topic>
+.
+\\n	<separator>
+30	<y_axis_highest_value_val>
+in
+2012	<x_axis_label_highest_value>
+,
+25	<y_axis_Scnd_highest_val>
+in
+2013	<x_axis_label_Scnd_highest_value>
+,
+16	<y_axis_3rd_highest_val>
+in
+2014	<x_axis_label_3rd_highest_value>
+,
+15	<y_axis_4th_highest_val>
+in
+2015	<x_axis_label_4th_highest_value>
+,
+12	<y_axis_least_value_val>
+in
+2016	<x_axis_label_least_value>
+<end_of_description>
+------ end ------
+
+
+------ type02 average_time_spent_on_social_media_2_iza.txt ------
+<start_of_description>	## this summary is also very dry, I'd consider excluding it
+Ave mins spent on social media each day in Maputo by age	<topic>
+.
+180	<y_axis_inferred_highest_value_approx>
+m	<y_axis_inferred_label>
+for
+15-24	<x_axis_label_highest_value>
+,
+160	<y_axis_inferred_Scnd_highest_value_approx>
+m	<y_axis_inferred_label>
+for
+25-34	<x_axis_label_Scnd_highest_value>
+,
+120	<y_axis_inferred_3rd_highest_value_approx>
+m	<y_axis_inferred_label>
+for
+35-44	<x_axis_label_3rd_highest_value>
+,
+95	<y_axis_inferred_4th_highest_value_approx>
+m	<y_axis_inferred_label>
+for
+45-54	<x_axis_label_4th_highest_value>
+,
+70	<y_axis_inferred_least_value_approx>
+m	<y_axis_inferred_label>
+for
+55-64	<x_axis_label_least_value>
+<end_of_description>
+------ end ------
+
+------ type02 money_spent_on_HE_2_iza.txt ------
+<start_of_description>	## this is a very low effort summary (it had no white spaces between "was" and numbers), I would consider excluding it
+The
+chart
+shows
+money spent on Higher education in 2010	<y_axis>
+in
+millions	<y_magnitude>
+of
+pounds	<y_axis_inferred_label>
+.
+In
+N America	<x_axis_label_least_value>
+it
+was
+almost	<y_axis_approx>
+150	<y_axis_inferred_least_value_approx>
+,
+in
+europe	<x_axis_label_Scnd_highest_value>
+it
+was
+230	<y_axis_inferred_Scnd_highest_value_approx>
+,
+in
+asia	<x_axis_label_3rd_highest_value>
+it
+was
+170	<y_axis_inferred_3rd_highest_value_approx>
+,
+in
+africa	<x_axis_label_highest_value>
+it
+was
+290	<y_axis_inferred_highest_value_approx>
+<end_of_description>
+------ end ------
+
+
+------ type03 how_do_young_people_spend_their_evenings.txt ------
+<start_of_description> ## exclude: incorrect interpretation of the chart (percentage of time, not of people)
+Watching TV    <x_axis_label_highest_value>
+and
+Going out    <x_axis_label_Scnd_highest_value>
+are
+the
+most popular    <y_axis_highest_value>
+evening	## more object- or property-like?
+activities   <x_axis>
+for
+young people	## more object- or property-like?
+.
+20    <y_axis_3rd_highest_val>
+%    <y_axis_inferred_label>
+of
+evening time   <topic_related_object>
+is
+spent with families    <x_axis_label_3rd_highest_value>
+and
+just    <y_axis_least_value>
+10    <y_axis_least_value_val>
+%    <y_axis_inferred_label>   ##
+of
+time
+is
+spent
+reading books    <x_axis_label_least_value>
+.
+<end_of_description>
+------ end ------
+
+
+------ type03 how_do_young_people_spend_their_evenings.txt ------
+<start_of_description> ## exclude: incorrect interpretation of the chart (percentage of time, not of people)
+This
+shows
+that
+young people	## more object- or property-like?
+spend
+40    <y_axis_highest_value_val>
+%    <y_axis_inferred_label>
+of
+their
+evenings	## more object- or property-like?
+watching TV    <x_axis_label_highest_value>
+,
+followed    <order_Scnd>
+by
+30    <y_axis_Scnd_highest_val>
+%    <y_axis_inferred_label>
+going out    <x_axis_label_Scnd_highest_value>
+.
+Just    <y_axis_least_value>
+10    <y_axis_least_value_val>
+%    <y_axis_inferred_label>
+read a book    <x_axis_label_least_value>
+whilst    <y_x_comparison>
+20    <y_axis_3rd_highest_val>
+%    <y_axis_inferred_label>
+of
+time	## more object- or property-like?
+is
+spent with families    <x_axis_label_3rd_highest_value>
+<end_of_description>
+------ end ------
+
+------ type02 how_do_young_people_spend_their_evenings.txt ------
+<start_of_description> ## exclude: the summary is not a running text, but rather bullet-point style
+The percentage of young people who spend their evening doing different activities   <topic>
+.
+\\n    <separator>
+\\n    <separator>
+40    <y_axis_highest_value_val>
+%    <y_axis_inferred_label>
+Watching TV    <x_axis_label_highest_value>
+\\n    <separator>
+20    <y_axis_3rd_highest_val>
+%    <y_axis_inferred_label>
+Spending Time with family    <x_axis_label_3rd_highest_value>
+\\n    <separator>
+10    <y_axis_least_value_val>
+%    <y_axis_inferred_label>
+Reading a book    <x_axis_label_least_value>
+\\n    <separator>
+30    <y_axis_Scnd_highest_val>
+%    <y_axis_inferred_label>
+Going out    <x_axis_label_Scnd_highest_value>
+<end_of_description>
+------ end ------
+
+
+------ type02 median_salary_per_year_for_se_with_respect_to_their_degrees.txt ------
+<start_of_description> ## Exclude because it's only listing the bar names and heights
+The
+average salary of a software engineer base on their level    <topic>
+.
+$    <y_axis_inferred_label>
+45    <y_axis_3rd_highest_val>
+000    <y_magnitude>
+for
+a
+BA/Bsc    <x_axis_label_3rd_highest_value>
+\\n    <separator>
+$    <y_axis_inferred_label>
+55    <y_axis_Scnd_highest_val>
+000    <y_magnitude>
+for
+a
+MA/Msc    <x_axis_label_Scnd_highest_value>
+\\n    <separator>
+$    <y_axis_inferred_label>
+65    <y_axis_highest_value_val>
+000    <y_magnitude>
+for
+a
+PhD    <x_axis_label_highest_value>
+\\n    <separator>
+$    <y_axis_inferred_label>
+35    <y_axis_least_value_val>
+000    <y_magnitude>
+for
+No degree    <x_axis_label_least_value>
+<end_of_description>
+------ end ------
+
+------ type03 Money_spent_on_higher_education.txt ------
+<start_of_description> ## exclude: Asia is not more *likely* to spend on HE, it already does
+In
+Asia    <x_axis_label_highest_value>
+they
+'
+re
+more    <y_axis_trend_up>
+likely
+to
+spend  ##? topic_related_property?
+money    <y_axis>
+on
+higher education    <topic_related_object>
+compared    <x_axis_comparison>
+to
+other continents    <x_axis_labels_rest>
+<end_of_description>
+------ end ------
+
+
+------ type02 Number_of_top_Unis.txt ------
+<start_of_description> ## exclude: no real running text, but rather bullet points
+The
+number of universities in each continent that are in the top 100 <topic>
+worldwide	## more object- or property-like?
+.
+50    <y_axis_highest_value_val>
+-
+America    <x_axis_label_highest_value>
+\\n    <separator>
+5    <y_axis_least_value_val>
+-
+Africa    <x_axis_label_least_value>
+\\n    <separator>
+5    <y_axis_least_value_val>
+-
+Australia    <x_axis_label_least_value>
+\\n    <separator>
+30    <y_axis_Scnd_highest_val>
+-
+Europe    <x_axis_label_Scnd_highest_value>
+\\n    <separator>
+20    <y_axis_3rd_highest_val>
+-
+Asia    <x_axis_label_3rd_highest_value>
+<end_of_description>
+------ end ------
+
+
+------ type03 what_causes_obesity.txt ------
+<start_of_description> ## wrong interpretation
+60    <y_axis_highest_value_val>
+%    <y_axis_inferred_label>
+of
+fast food   <x_axis_label_highest_value>
+causes      <topic_related_property>
+obesity     <topic_related_object>
+<end_of_description>
+------ end ------
+
+
+------ type03 women_representation_in_different_departments.txt ------
+<start_of_description> ## exclude: the interpretation is incorrect and the summary is too short
+70    <y_axis_highest_value_val>
+%    <y_axis_inferred_label>
+of
+women    <topic_related_property>
+are
+represented
+in
+the
+Literature    <x_axis_label_highest_value>
+department    <x_axis>
+of
+universities    <topic_related_object>
+.
+<end_of_description>
+------ end ------
+
+
+------ type03 women_representation_in_different_sectors.txt ------
+<start_of_description> ## exclude: incorrect interpretation
+Women    <topic_related_property>
+are
+more    <x_axis_comparison>
+likely
+to
+represents
+law firms    <x_axis_label_highest_value>
+and
+financial groups    <x_axis_label_Scnd_highest_value>
+than
+insurance    <x_axis_label_3rd_highest_value>
+and
+tech    <x_axis_label_least_value>
+by
+nearly
+double    <y_axis_inferred_value_mul_v1=Scnd_v2=least>
+<end_of_description>
+------ end ------
+
+

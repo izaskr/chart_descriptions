@@ -661,60 +661,6 @@ lowest	<y_axis_least_value>
 
 
 
-<start_of_description>	## I suggest excluding this description because the plot interpretation by the participant was incorrect and the summary doesn't reflect the data at all (23% less fatal injuries?)
-In
-2013	<x_axis_label_highest_value>
-there
-were
-23	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>	## I would actually just delete this token and label
-more	<y_axis_trend_up>
-fatal injures   <y_axis>
-than
-any
-other
-year   <x_axis>
-,
-after
-2013	<x_axis_label_highest_value>
-they
-fell  <slope_down>
-before
-climbing   <slope_up>
-back
-up
-in
-2016	<x_axis_label_4th_highest_value>
-.
-\\n   <separator>
-in
-2012	<x_axis_label_Scnd_highest_value>
-there
-was
-26	<y_axis_3rd_highest_val>
-%	<y_axis_inferred_label>
-less	
-fatal injuries   <y_axis>
-but
-this
-average
-unfortunately
-stayed
-high	
-until
-2016	<x_axis_label_4th_highest_value>
-when
-there
-were
-25	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label>
-more	
-fatal injuries   <y_axis>
-.
-<end_of_description>
-
-
-
 
 <start_of_description>
 This

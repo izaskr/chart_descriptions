@@ -76,23 +76,6 @@ and
 
 
 
-<start_of_description> ## exclude: the interpretation is incorrect and the summary is too short
-70    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
-of
-women    <topic_related_property>
-are
-represented
-in
-the
-Literature    <x_axis_label_highest_value>
-department    <x_axis>
-of
-universities    <topic_related_object>
-.
-<end_of_description>
-
-
 <start_of_description>
 The
 majority    <y_axis_highest_value>

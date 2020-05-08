@@ -83,8 +83,8 @@ salaries    <y_axis>
 <end_of_description>
 
 
-##?  (exclude,low effort and is basically an interpretation)
-<start_of_description>
+
+<start_of_description> [type01]
 Those
 who
 have
@@ -295,7 +295,7 @@ $    <y_axis_inferred_label>
 ,000    <y_magnitude>
 on average	## more object- or property-like?
 .
-Finally    <order_last>   ##
+Finally    <order_last>  
 those
 with
 no degree    <x_axis_label_least_value>
@@ -304,7 +304,7 @@ the
 least    <y_axis_least_value>
 , 
 earning
-just over    <y_axis_approx>  ##
+just over    <y_axis_approx>
 $    <y_axis_inferred_label>
 30    <y_axis_inferred_least_value_approx>
 ,000    <y_magnitude>
@@ -321,7 +321,7 @@ shows
 the
 average median salary per year for software engineers with respect to their degree type    <topic>
 .
-Not surprisingly   <interpretation>  ##
+Not surprisingly   <interpretation> 
 ,
 those  
 with
@@ -538,8 +538,7 @@ no degree    <x_axis_label_least_value>
 <end_of_description>
 
 
-### I suggest to exclude this summary: it's very short and states only that having a degree brings more money than not having one, but does not state the relations between different degrees
-<start_of_description>
+<start_of_description> [type01]
 Students
 who
 have
@@ -770,8 +769,8 @@ be
 <end_of_description>
 
 
-## exclude, all interpretation
-<start_of_description>
+
+<start_of_description> [type01]
 The
 higher    <x_axis_up>
 level
@@ -867,8 +866,8 @@ do
 
 
 
-## exclude
-<start_of_description>
+
+<start_of_description> [type01]
 Software engineers    <topic_related_object>
 who
 achieved
@@ -890,38 +889,7 @@ salary    <y_axis>
 <end_of_description>
 
 
-## Exclude because it's only listing the bar names and heights
-<start_of_description>
-The
-average salary of a software engineer base on their level    <topic>
-.
-$    <y_axis_inferred_label>
-45    <y_axis_3rd_highest_val>
-000    <y_magnitude>
-for
-a
-BA/Bsc    <x_axis_label_3rd_highest_value>
-\\n    <separator>
-$    <y_axis_inferred_label>
-55    <y_axis_Scnd_highest_val>
-000    <y_magnitude>
-for
-a
-MA/Msc    <x_axis_label_Scnd_highest_value>
-\\n    <separator>
-$    <y_axis_inferred_label>
-65    <y_axis_highest_value_val>
-000    <y_magnitude>
-for
-a
-PhD    <x_axis_label_highest_value>
-\\n    <separator>
-$    <y_axis_inferred_label>
-35    <y_axis_least_value_val>
-000    <y_magnitude>
-for
-No degree    <x_axis_label_least_value>
-<end_of_description>
+
 
 
 

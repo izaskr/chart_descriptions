@@ -50,7 +50,7 @@ year    <x_axis>
 
 
 
-<start_of_description>	## exclude
+<start_of_description>	[type01]
 The
 salary    <y_axis>
 of
@@ -264,7 +264,7 @@ dollars    <y_axis_inferred_label>
 <end_of_description>
 
 
-<start_of_description> ## exclude: it does not say much about the size of the increase
+<start_of_description> [type01]
 This
 chart
 shows
@@ -403,7 +403,7 @@ years    <x_axis>
 <end_of_description>
 
 
-<start_of_description> ## exclude: it does not say anything about the trend or bar heights
+<start_of_description> [type01]
 This
 graph
 shows
@@ -539,7 +539,7 @@ time goes on    <x_axis_trend>
 
 
 
-<start_of_description> ## exclude: short and not very informative
+<start_of_description> [type01]
 The
 average salary for woman    <topic>
 has
@@ -618,7 +618,7 @@ over this time    <x_axis_trend>
 <end_of_description>
 
 
-<start_of_description>	## exclude
+<start_of_description> [type01]
 The
 Median salary for women    <topic>
 appears

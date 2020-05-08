@@ -58,7 +58,7 @@ spending time with family   <x_axis_label_3rd_highest_value>
 
 
 
-<start_of_description> ## exclude: does not state the relationship between bars, only the max bar
+<start_of_description> [type01]
 Most    <y_axis_highest_value>
 young    <topic_related_property>
 people    <topic_related_property>
@@ -145,7 +145,7 @@ out and about   <x_axis_label_Scnd_highest_value>
 
 
 
-<start_of_description> ## exclude: only max and min bar
+<start_of_description> [type01]
 The
 chart
 shows
@@ -415,39 +415,6 @@ read a book    <x_axis_label_least_value>
 
 
 
-<start_of_description> ## exclude: incorrect interpretation of the chart (percentage of time, not of people)
-Watching TV    <x_axis_label_highest_value>
-and
-Going out    <x_axis_label_Scnd_highest_value>
-are
-the
-most popular    <y_axis_highest_value>
-evening	## more object- or property-like?
-activities   <x_axis>
-for
-young people	## more object- or property-like?
-.
-20    <y_axis_3rd_highest_val>
-%    <y_axis_inferred_label>
-of
-evening time   <topic_related_object>
-is
-spent with families    <x_axis_label_3rd_highest_value>
-and
-just    <y_axis_least_value>
-10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>   ##
-of
-time
-is
-spent
-reading books    <x_axis_label_least_value>
-.
-<end_of_description>
-
-
-
-
 <start_of_description>
 This
 graph
@@ -473,41 +440,6 @@ and
 %    <y_axis_inferred_label>
 read a book    <x_axis_label_least_value>
 .
-<end_of_description>
-
-
-
-
-<start_of_description> ## exclude: incorrect interpretation of the chart (percentage of time, not of people)
-This
-shows
-that
-young people	## more object- or property-like?
-spend
-40    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
-of
-their
-evenings	## more object- or property-like?
-watching TV    <x_axis_label_highest_value>
-,
-followed    <order_Scnd>
-by
-30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
-going out    <x_axis_label_Scnd_highest_value>
-.
-Just    <y_axis_least_value>
-10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
-read a book    <x_axis_label_least_value>
-whilst    <y_x_comparison>
-20    <y_axis_3rd_highest_val>
-%    <y_axis_inferred_label>
-of
-time	## more object- or property-like?
-is
-spent with families    <x_axis_label_3rd_highest_value>
 <end_of_description>
 
 
@@ -580,7 +512,7 @@ reading may be the least poplar as it is considered a older hobby and a more fem
 
 
 
-<start_of_description> ## exclude: short and not describing the relations between all the bars
+<start_of_description> [type01]
 Young    <topic_related_property>
 people    <topic_related_property>
 are
@@ -648,7 +580,7 @@ The lack of book reading is probably due to more technology being ready accessib
 
 
 
-<start_of_description> ## exclude? the middle 2 bars are not mentioned
+<start_of_description> [type01]
 This
 bar
 chart
@@ -720,30 +652,6 @@ the
 evenings	## more object- or property-like?
 <end_of_description>
 
-
-
-
-<start_of_description> ## exclude: the summary is not a running text, but rather bullet-point style
-The percentage of young people who spend their evening doing different activities   <topic>
-.
-\\n    <separator>
-\\n    <separator>
-40    <y_axis_highest_value_val>
-%    <y_axis_inferred_label>
-Watching TV    <x_axis_label_highest_value>
-\\n    <separator>
-20    <y_axis_3rd_highest_val>
-%    <y_axis_inferred_label>
-Spending Time with family    <x_axis_label_3rd_highest_value>
-\\n    <separator>
-10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>
-Reading a book    <x_axis_label_least_value>
-\\n    <separator>
-30    <y_axis_Scnd_highest_val>
-%    <y_axis_inferred_label>
-Going out    <x_axis_label_Scnd_highest_value>
-<end_of_description>
 
 
 

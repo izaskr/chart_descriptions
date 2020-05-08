@@ -1003,41 +1003,7 @@ million	<y_magnitude>
 .
 <end_of_description>
 
-<start_of_description>	## this is a very low effort summary (it had no white spaces between "was" and numbers), I would consider excluding it
-The
-chart
-shows
-money spent on Higher education in 2010	<y_axis>
-in
-millions	<y_magnitude>
-of
-pounds	<y_axis_inferred_label>
-.
-In
-N America	<x_axis_label_least_value>
-it
-was
-almost	<y_axis_approx>
-150	<y_axis_inferred_least_value_approx>
-,
-in
-europe	<x_axis_label_Scnd_highest_value>
-it
-was
-230	<y_axis_inferred_Scnd_highest_value_approx>
-,
-in
-asia	<x_axis_label_3rd_highest_value>
-it
-was
-170	<y_axis_inferred_3rd_highest_value_approx>
-,
-in
-africa	<x_axis_label_highest_value>
-it
-was
-290	<y_axis_inferred_highest_value_approx>
-<end_of_description>
+
 
 <start_of_description>
 This
