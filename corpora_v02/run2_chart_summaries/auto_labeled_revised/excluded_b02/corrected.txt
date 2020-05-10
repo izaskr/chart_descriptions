@@ -1,0 +1,469 @@
+------ akef_inc_closing_stock_prices_1.txt ------
+<start_of_description>
+This
+chart
+shows
+the
+closing stock prices at Akef Inc. for the week <topic>
+.
+The
+chart
+shows
+how
+the
+closing stock prices <y_axis>
+go down <slope_down>
+each day <x_axis_trend>
+.
+With
+a
+spike <y_axis_highest_value>
+on
+Monday	<x_axis_label_highest_value>
+of
+94	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label>	## change to £
+,
+Tuesday	<x_axis_label_Scnd_highest_value>
+goes down  <slope_down>
+to	
+70	<y_axis_inferred_Scnd_highest_value_approx>
+%	<y_axis_inferred_label> ## change to £
+,
+Wednesday	<x_axis_label_3rd_highest_value>
+decreases  <slope_down>
+63	<y_axis_inferred_3rd_highest_value_approx>
+%	<y_axis_inferred_label> ## change to £
+,
+Thursday	<x_axis_label_4th_highest_value>
+decreases  <slope_down>
+further
+to	
+61	<y_axis_inferred_4th_highest_value_approx>
+%	<y_axis_inferred_label> ## change to £
+and	
+then	<order_last>
+Friday	<x_axis_label_least_value>
+has
+just	<y_axis_least_value>
+31	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label> ## change to £
+.
+<end_of_description>
+------ end ------
+
+
+------ akef_inc_closing_stock_prices_1.txt ------
+<start_of_description>
+The
+graph
+shows
+the
+closing stock prices on each day of a week (Mon-Fri inclusive) at the Akef Inc. company <topic>
+,
+in
+pounds	<y_axis_inferred_label>
+.
+On
+Monday	<x_axis_label_highest_value>
+,
+stock prices <y_axis>
+were
+at
+their
+highest	<y_axis_highest_value>
+,
+at
+£	<y_axis_inferred_label>
+9s <y_axis_inferred_highest_value_approx> ## this is 9s, change to the most frequent token of this label
+,
+falling	<y_axis_trend_down>
+to	
+£	<y_axis_inferred_label>
+70	<y_axis_inferred_Scnd_highest_value_approx>
+on
+Tuesday	<x_axis_label_Scnd_highest_value>
+.
+There
+was
+a
+smaller	<y_axis_trend>
+decrease <slope_down>
+on
+Wednesday	<x_axis_label_3rd_highest_value>
+to	
+£	<y_axis_inferred_label>
+62	<y_axis_inferred_3rd_highest_value_approx>
+,
+and	
+a
+marginal <y_axis_trend>
+decrease <slope_down>
+to	
+£	<y_axis_inferred_label>
+60	<y_axis_inferred_4th_highest_value_approx>
+on
+Thursday	<x_axis_label_4th_highest_value>
+.
+By
+Friday	<x_axis_label_least_value>
+,
+closing stock prices <y_axis>
+had
+fallen <y_axis_trend_down>
+to	
+£	<y_axis_inferred_label>
+32	<y_axis_inferred_least_value_approx>
+.
+<end_of_description>
+------ end ------
+
+------ akef_inc_closing_stock_prices_1.txt ------
+<start_of_description>
+The
+graph
+shows
+the
+closing stock prices on each day of a week (Mon-Fri inclusive) at the Akef Inc. company <topic>
+,
+in
+pounds	<y_axis_inferred_label>
+.
+On
+Monday	<x_axis_label_highest_value>
+,
+stock prices <y_axis>
+were
+at
+their
+highest	<y_axis_highest_value>
+,
+at
+£	<y_axis_inferred_label>
+9s <y_axis_inferred_highest_value_approx> ## this is 9s, change to the most frequent token of this label
+,
+falling	<y_axis_trend_down>
+to	
+£	<y_axis_inferred_label>
+70	<y_axis_inferred_Scnd_highest_value_approx>
+on
+Tuesday	<x_axis_label_Scnd_highest_value>
+.
+There
+was
+a
+smaller	<y_axis_trend>
+decrease <slope_down>
+on
+Wednesday	<x_axis_label_3rd_highest_value>
+to	
+£	<y_axis_inferred_label>
+62	<y_axis_inferred_3rd_highest_value_approx>
+,
+and	
+a
+marginal <y_axis_trend>
+decrease <slope_down>
+to	
+£	<y_axis_inferred_label>
+60	<y_axis_inferred_4th_highest_value_approx>
+on
+Thursday	<x_axis_label_4th_highest_value>
+.
+By
+Friday	<x_axis_label_least_value>
+,
+closing stock prices <y_axis>
+had
+fallen <y_axis_trend_down>
+to	
+£	<y_axis_inferred_label>
+32	<y_axis_inferred_least_value_approx>
+.
+<end_of_description>
+------ end ------
+
+
+------ akef_inc_closing_stock_prices_1.txt ------
+<start_of_description>
+This
+weeks closing stock prices for Akef. Inc <topic>
+is
+shown
+in
+this
+graph
+. 
+There
+has
+been
+a
+steady <y_axis_trend>
+decline <slope_down>
+over the week <x_axis_trend>
+from
+over	<y_axis_approx>
+£	<y_axis_inferred_label>
+90	<y_axis_inferred_highest_value_approx>
+on
+Monday	<x_axis_label_highest_value>
+to
+around	<y_axis_approx>
+£	<y_axis_inferred_label>
+30	<y_axis_inferred_least_value_approx>
+on
+Friday	<x_axis_label_least_value>
+.
+Things
+were
+looking
+more	
+promising
+between Wednesday and Thursday	<group_3rd_4th>
+where
+the
+decrease <slope_down>
+levelled
+off
+at
+60	<group_y_3rd_4th>
+%	<y_axis_inferred_label> ## change to £
+however
+a
+further
+decrease <slope_down>
+to	
+£	<y_axis_inferred_label>
+30	<y_axis_inferred_least_value_approx>
+occurred
+by
+the
+close	##
+of
+Friday	<x_axis_label_least_value>
+.
+<end_of_description>
+------ end ------
+
+
+------ akef_inc_closing_stock_prices_1.txt ------
+<start_of_description>
+The
+closing stock price <y_axis>
+is
+at
+its
+highest	<y_axis_highest_value>
+on
+Monday	<x_axis_label_highest_value>
+at
+93	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label> ## change to £
+and	
+gradually	<y_axis_trend>
+declines  <slope_down>
+by
+Friday	<x_axis_label_least_value>
+at
+32	<y_axis_inferred_least_value_approx> 
+%	<y_axis_inferred_label> ## change to £
+.
+<end_of_description>
+------ end ------
+
+
+------ average_time_spent_on_social_media_1.txt ------
+<start_of_description>
+The
+average	## more object- or property-like?
+time	<y_axis>
+spent on social media	## more object- or property-like?
+is
+highest	<y_axis_highest_value>
+in
+the
+45-54   <x_axis_label_highest_value>
+percentile	<x_axis> ## in the corrected text, change to "age group"
+which is surprising considering 15-24 year olds are the most likely age group to be <interpretation>
+.
+\\n  <separator>
+25-34 - 35-44 year olds  <group_4th_least>
+spend
+the
+least	<y_axis_least_value>
+time   <y_axis>
+compared	<y_x_comparison>
+to
+the
+other	<group_highest_Scnd_3rd> ## or just leave it?
+age ranges  <x_axis>
+.
+<end_of_description>
+------ end ------
+
+
+------ fatal_injuries_at_pula_steel_factory_1.txt ------ 
+<start_of_description>
+The
+number of fatal injuries at Pula Steel factory	<topic>
+between	<x_axis_range_start>
+2012	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+2016	<x_axis_label_4th_highest_value>
+is
+demonstrated
+here
+.
+It
+shows
+there
+to
+be
+little
+change
+over time   <x_axis_trend>
+,
+with
+27	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>	## yes, let's leave it and insert the corrected tokens to the xml later.
+in
+2012	<x_axis_label_Scnd_highest_value>
+and
+25	<y_axis_4th_highest_val>
+%	<y_axis_inferred_label>	## the corrected token can be "(number of) injuries" 
+in
+2016	<x_axis_label_4th_highest_value>
+.
+There
+was
+however
+an
+increase	<slope_up>
+to
+32	<y_axis_highest_value_val>
+%	<y_axis_inferred_label>
+between 2012 and 2013	<group_Scnd_highest>
+and
+a
+steady   <y_axis_trend>
+decrease   <slope_down>
+to
+22	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
+in
+2015	<x_axis_label_least_value>
+.
+This
+decrease started to reverse	<slope_up>	## other, less wonky suggestions?
+in
+2016	<x_axis_label_4th_highest_value>
+.
+<end_of_description>
+------ end ------
+
+
+------ fatal_injuries_at_pula_steel_factory_1.txt ------ 
+<start_of_description>
+The
+highest	<y_axis_highest_value>
+number of fatal injuries	<y_axis>
+at
+the
+pula steel factory   ## more object- or property-like?
+took
+place
+in
+the
+year   <x_axis>
+2013	<x_axis_label_highest_value>
+at
+32	<y_axis_highest_value_val>
+%	<y_axis_inferred_label> ## suggestion: delete line
+.
+In
+2012	<x_axis_label_Scnd_highest_value>
+the
+percentage
+was
+27	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label> ## suggestion: delete line
+and
+in
+2014	<x_axis_label_3rd_highest_value>
+,
+26	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label> ## suggestion: delete line
+.
+In
+2016	<x_axis_label_4th_highest_value>
+the
+number of fatal injuries   <y_axis>
+was
+25	<y_axis_4th_highest_val>
+%	<y_axis_inferred_label> ## suggestion: delete line
+and
+at
+its
+lowest	<y_axis_least_value>
+in
+2015	<x_axis_label_least_value>
+at
+22	<y_axis_least_value_val>
+%	<y_axis_inferred_label> ## suggestion: delete line
+.
+<end_of_description>
+------ end ------
+
+------ fatal_injuries_at_pula_steel_factory_1.txt ------ 
+<start_of_description>
+Number of fatal injuries recorded at the Pula steel factory   <topic>
+as
+a
+graph
+to
+show
+percentages	## not percentages
+against
+time  <x_axis>
+.
+2012	<x_axis_label_Scnd_highest_value>
+was
+27	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label> ## suggestion: delete
+,
+the
+highest	<y_axis_highest_value>
+fatalities   <y_axis>
+occured
+in
+2013	<x_axis_label_highest_value>
+at
+32	<y_axis_highest_value_val>
+%	<y_axis_inferred_label> ## suggestion: delete
+,
+this
+reduced   <slope_down>
+down
+to
+26	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label> ## suggestion: delete
+in
+2014	<x_axis_label_3rd_highest_value>
+and
+further down   <slope_down>
+to
+22	<y_axis_least_value_val>
+%	<y_axis_inferred_label> ## suggestion: delete
+in
+2015	<x_axis_label_least_value>
+.
+2016	<x_axis_label_4th_highest_value>
+this
+number	<y_axis>
+increased	<slope_up>
+to
+25	<y_axis_4th_highest_val>
+%	<y_axis_inferred_label> ## suggestion: delete
+.
+<end_of_description>
+------ end ------

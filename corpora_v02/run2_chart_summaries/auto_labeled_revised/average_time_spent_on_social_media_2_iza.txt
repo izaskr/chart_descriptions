@@ -5,21 +5,20 @@ shows
 the
 average time in minutes	spent by different age groups on social media daily	<topic>
 .
-On average	<topic_related_property>
+On average	## more object- or property-like?
 15-24 years olds	<x_axis_label_highest_value>
 were
 spending
 180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
-a day	<topic_related_property>	
+a day	## more object- or property-like?	
 ,
 25-34 year olds	<x_axis_label_Scnd_highest_value>
 were
 spending
 160	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis_inferred_label>
-per
-day	<topic_related_property>
+per day	## more object- or property-like?
 .
 This
 decreased	<slope_down>
@@ -29,8 +28,7 @@ for
 to
 120	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis_inferred_label>
-per
-day	<topic_related_property>
+per day	## more object- or property-like?
 .
 45-54 year old	<x_axis_label_4th_highest_value>
 were
@@ -39,8 +37,7 @@ slightly	<y_axis_trend>
 under	<y_axis_approx>
 100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis_inferred_label>
-per
-days	<topic_related_property>
+per days	## more object- or property-like?
 whilst	<y_x_comparison_rest>
 55-64 year olds	<x_axis_label_least_value>
 were
@@ -51,8 +48,7 @@ amount of time	<y_axis>
 at
 70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis_inferred_label>
-per
-day	<topic_related_property>
+per day	## more object- or property-like?
 .
 <end_of_description>
 
@@ -101,13 +97,12 @@ for
 ,
 who
 spend
-on
-average	<topic_related_property>
+on average	## more object- or property-like?
 around	<y_axis_approx>
 98	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis_inferred_label>
 on
-social media	<topic_related_property>
+social media	## more object- or property-like?
 .
 The
 lowest	<y_axis_least_value>
@@ -221,38 +216,42 @@ average time spent on social media daily in Maputo by age group	<topic>
 Results
 show
 that
-younger people	<> ## group: bar 1 and 2? 
+younger people	<x_axis_label_highest_value>
 spent
 the
 most	<y_axis_highest_value>
-time on social media daily	<y_axis>
+time	<y_axis>
+on
+social media	## more object- or property-like?
+daily	## more object- or property-like?
 compared	<y_x_comparison>
 to	<x_axis_range_end>
 the
-older age groups	<> ## group: bar 2 and 3?
+older age groups	<x_axis_labels_rest>
 .
 \\n	<separator>
 Age group 15-24	<x_axis_label_highest_value>
 spent
 an
-average	<topic_related_property>
+average	## more object- or property-like?
 of
 180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
-daily
+daily	## more object- or property-like?
 on
-social
-media
+social media	## more object- or property-like?
 .
 Age group 25-34	<x_axis_label_Scnd_highest_value>
 spent
 160	<y_axis_inferred_Scnd_highest_value_approx>
-minutes daily	<y_axis_inferred_label>
+minutes	<y_axis_inferred_label>
+daily	## more object- or property-like?
 .
 Age 35-44	<x_axis_label_3rd_highest_value>
 spent
 120	<y_axis_inferred_3rd_highest_value_approx>
-minutes daily	<y_axis_inferred_label>
+minutes	<y_axis_inferred_label>
+daily	## more object- or property-like?
 .
 Age 45-54	<x_axis_label_4th_highest_value>
 98	<y_axis_inferred_4th_highest_value_approx>
@@ -266,9 +265,10 @@ spent
 only	<y_axis_least_value>
 just	<y_axis_least_value>
 70	<y_axis_inferred_least_value_approx>
-minutes daily	<y_axis_inferred_label>
+minutes	<y_axis_inferred_label>
+daily	## more object- or property-like?
 on
-social media	<topic_related_property>
+social media	## more object- or property-like?
 .
 The
 results
@@ -295,9 +295,8 @@ the
 average time spent on social media by age group in Maputo	<topic>
 .
 Five	<x_axis_labels_count>
-10	## span within an age group  
-year	## labeled together with 10?
-spans	##
+10 year	<x_interval>
+spans	<x_axis>
 from	<x_axis_range_start>
 15	<x_axis_label_highest_value>
 to	<x_axis_range_end>
@@ -403,12 +402,12 @@ amount of time	<y_axis>
 spent
 with
 the
-average	<topic_related_property>
+average	## more object- or property-like?
 of
 about	<y_axis_approx>
 70	<y_axis_inferred_least_value_approx>
 mins	<y_axis_inferred_label>
-a day	<topic_related_property>
+a day	## more object- or property-like?
 .
 <end_of_description>
 
@@ -462,7 +461,7 @@ average time spent on social media	<y_axis>
 by
 those
 in
-Maputo	<topic_related_property>
+Maputo	## more object- or property-like?
 steadily	<y_axis_trend>
 decreased	<slope_down>
 with
@@ -476,7 +475,9 @@ age bracket	<x_axis>
 spent
 the
 most	<y_axis_highest_value>
-time on social media	<y_axis>
+time	<y_axis>
+on
+social media	## more object- or property-like?
 ,
 clocking
 over	<y_axis_approx>
@@ -509,13 +510,13 @@ the
 highest	<y_axis_highest_value>
 with
 an
-average	<topic_related_property>
+average	## more object- or property-like?
 of
 3	<y_axis_inferred_highest_value_approx>
 hours	<y_axis_inferred_label> 
 spent
 on
-social media	<topic_related_property>
+social media	## more object- or property-like?
 .
 The
 oldest	<x_axis_label_least_value>
@@ -530,8 +531,7 @@ amount of time	<y_axis>
 at
 1.5	<y_axis_inferred_least_value_approx>	
 hours	<y_axis_inferred_label> 
-per
-day	
+per day	## more object- or property-like?
 .
 <end_of_description>
 
@@ -548,7 +548,7 @@ around	<y_axis_approx>
 180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
 on
-social media	<topic_related_property>
+social media	## more object- or property-like?
 compared	<y_x_comparison>
 to
 those
@@ -561,7 +561,7 @@ spent
 75	<y_axis_inferred_least_value_approx>
 minutes	<y_axis_inferred_label>
 on
-social media	<topic_related_property>
+social media	## more object- or property-like?
 .
 <end_of_description>
 
@@ -584,7 +584,7 @@ time	<y_axis>
 with
 180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>	
-a day	<topic_related_property>
+a day	## more object- or property-like?
 ,
 neither is surprising	<interpretation>
 that
@@ -597,7 +597,7 @@ time	<y_axis>
 with
 70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis_inferred_label>
-a day	<topic_related_property>
+a day	## more object- or property-like?
 .
 The
 graphics
@@ -611,7 +611,9 @@ less	<slope_down>
 time	<y_axis>
 they
 spend
-daily on social media	<topic_related_property>
+daily	## more object- or property-like?
+on
+social media	## more object- or property-like?
 ,
 as
 we
@@ -683,7 +685,10 @@ older you are in years	<x_axis_trend>
 the
 less	<slope_down>
 time	<y_axis>
-you spend on social media daily	<topic_related_property>
+you
+spend
+on social media	## more object- or property-like?
+daily	## more object- or property-like?
 ,
 for
 example
@@ -692,8 +697,8 @@ spend
 180
 mins	<y_axis_inferred_label>
 on
-social media   <topic_related_object>
-daily	<topic_related_property>
+social media	## more object- or property-like?
+daily	## more object- or property-like?
 where
 as
 55-64 yrs	<x_axis_label_least_value>
@@ -701,8 +706,7 @@ spend
 only	<y_axis_least_value>
 70
 mins	<y_axis_inferred_label>
-a
-day
+a day	## more object- or property-like?
 .
 <end_of_description>
 
@@ -723,7 +727,7 @@ spent
 around	<y_axis_approx>
 175	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
-a day	<topic_related_property>
+a day	## more object- or property-like?
 .
 This
 is
@@ -771,11 +775,10 @@ older the representation gets	<x_axis_trend>
 .
 Ages 15-24	<x_axis_label_highest_value>
 spend
-on
-average	##
+on average	## more object- or property-like?
 170	<y_axis_inferred_highest_value_approx>
-<y_axis_inferred_label>
-a day	<topic_related_property>
+minutes	<y_axis_inferred_label>
+a day	## more object- or property-like?
 ,
 25-34	<x_axis_label_Scnd_highest_value>
 160	<y_axis_inferred_Scnd_highest_value_approx>
@@ -794,7 +797,7 @@ and
 Just below	<y_axis_approx>
 70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis_inferred_label>
-daily   <topic_related_property>
+daily	## more object- or property-like?
 .
 <end_of_description>
 
@@ -808,7 +811,8 @@ average time spent on social media each day in Maputo by Age Group	<topic>
 \\n	<separator>
 The
 highest	<y_axis_highest_value>
-daily usage rate	<y_axis>
+daily	## more object- or property-like?
+usage rate	<y_axis>
 was
 175	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
@@ -831,7 +835,7 @@ The
 spent
 125	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis_inferred_label>
-a day	<topic_related_property>
+a day	## more object- or property-like?
 ,
 the
 45-54 year olds	<x_axis_label_4th_highest_value>
@@ -839,7 +843,7 @@ spent
 just under	<y_axis_approx>
 100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis_inferred_label>
-a day	<topic_related_property>
+a day	## more object- or property-like?
 and
 the
 55-64 year olds	<x_axis_label_least_value>
@@ -849,7 +853,7 @@ minutes	<y_axis_inferred_label>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 Here
 is
 a
@@ -885,7 +889,7 @@ with
 approximately	<y_axis_approx>
 70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis_inferred_label>
-per day	<topic_related_property>
+per day	## more object- or property-like?
 .
 <end_of_description>
 
@@ -911,7 +915,8 @@ spend
 a
 significantly	<y_axis_trend>
 larger	<y_axis_trend_up>
-proportion of their time on social media	<y_axis>
+proportion of their time	<y_axis>
+on social media	## more object- or property-like?
 that
 their
 elders	<x_axis_labels_rest>
@@ -923,13 +928,13 @@ decline	<slope_down>
 from
 180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
-per day	<topic_related_property>
+per day	## more object- or property-like?
 at
 15-24	<x_axis_label_highest_value>
 to
 70	<y_axis_inferred_least_value_approx>
 minute	<y_axis_inferred_label>
-per day	<topic_related_property>
+per day	## more object- or property-like?
 at
 55-64	<x_axis_label_least_value>
 .
@@ -951,7 +956,11 @@ see
 that
 the
 highest	<y_axis_highest_value>
-amount of time spent daily on social media	<y_axis> 
+amount of time	<y_axis>
+spent
+daily	## more object- or property-like?
+on
+social media	## more object- or property-like? 
 is
 from
 the
@@ -971,6 +980,12 @@ decline	<slope_down>
 of
 the
 amount of time spent daily on social media in Maputo	<y_axis>
+spent
+daily	## more object- or property-like?
+on
+social media	## more object- or property-like?
+in
+Maputo	## more object- or property-like?
 with
 the
 increase in age	<x_axis_trend>
@@ -978,7 +993,7 @@ increase in age	<x_axis_trend>
 with
 the
 lowest	<y_axis_least_value>
-amount of time spent daily on social media	<y_axis>
+group	<x_axis>
 being
 55-64 years old	<x_axis_label_least_value>
 <end_of_description>
@@ -998,13 +1013,15 @@ younger age group of 15-24 years old	<x_axis_label_highest_value>
 spend
 the
 most	<y_axis_highest_value>
-time on social media	<y_axis>
+time	<y_axis>
+on
+social media	## more object- or property-like?
 ,
-averaging	<topic_related_property>
+averaging	## more object- or property-like?
 180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
 a
-days	##
+days	## more object- or property-like?
 .
 as
 the
@@ -1018,9 +1035,9 @@ only	<y_axis_least_value>
 spending
 70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis_inferred_label>
-per day	<topic_related_property>
+per day	## more object- or property-like?
 on
-social media	<topic_related_property>
+social media	## more object- or property-like?
 <end_of_description>
 
 
@@ -1037,7 +1054,10 @@ more	<slope_up>
 time	<y_axis>
 spent
 on
-social media daily in Maputo	<topic_related_property>
+social media	## more object- or property-like?
+daily	## more object- or property-like?
+in
+Maputo	## more object- or property-like?
 .
 It
 shows
@@ -1049,8 +1069,7 @@ roughly around	<y_axis_approx>
 180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
 on
-social
-media
+social media	## more object- or property-like?
 with
 the
 number	<y_axis>
@@ -1077,51 +1096,51 @@ average time spent on social media daily in Maputo by age group	<topic>
 Ages 15-24	<x_axis_label_highest_value>
 spent
 an
-average	##
+average	## more object- or property-like?
 of
 180	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis_inferred_label>
 on
-social media	<topic_related_object>
+social media	## more object- or property-like?
 .
 Ages 25-34	<x_axis_label_Scnd_highest_value>
 spent
 an
-average	##
+average	## more object- or property-like?
 of
 155	<y_axis_inferred_Scnd_highest_value_approx>
 minutes	<y_axis_inferred_label>
-a day	<topic_related_property>
+a day	## more object- or property-like?
 .
 Ages 35-44	<x_axis_label_3rd_highest_value>
 spent
 an
-average	##
+average	## more object- or property-like?
 of
 approximately	<y_axis_approx>
 120	<y_axis_inferred_3rd_highest_value_approx>
 minutes	<y_axis_inferred_label>
-daily   <topic_related_property>
+daily	## more object- or property-like?
 .
 Ages 45-54	<x_axis_label_4th_highest_value>
 spent
 just under	<y_axis_approx>
 100	<y_axis_inferred_4th_highest_value_approx>
 minutes	<y_axis_inferred_label>
-daily   <topic_related_property>
-whilst	<y_x_comparison_rest>
+daily	## more object- or property-like?
+whilst	<y_x_comparison>
 ages 55-64	<x_axis_label_least_value>
 spent
 an
-average	##
+average	## more object- or property-like?
 of
 approximately	<y_axis_approx>
 70	<y_axis_inferred_least_value_approx>
 minutes	<y_axis_inferred_label>
 a
-day
+day	## more object- or property-like?
 on
-social media	<topic_related_object>
+social media	## more object- or property-like?
 .
 <end_of_description>
 

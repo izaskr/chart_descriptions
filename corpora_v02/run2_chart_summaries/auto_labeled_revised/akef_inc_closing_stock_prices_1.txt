@@ -21,32 +21,32 @@ on
 Monday	<x_axis_label_highest_value>
 of
 94	<y_axis_inferred_highest_value_approx>
-%	<y_axis_inferred_label>	## change to £
+£	<y_axis_inferred_label>
 ,
 Tuesday	<x_axis_label_Scnd_highest_value>
 goes down  <slope_down>
 to	
 70	<y_axis_inferred_Scnd_highest_value_approx>
-%	<y_axis_inferred_label> ## change to £
+£	<y_axis_inferred_label> 
 ,
 Wednesday	<x_axis_label_3rd_highest_value>
 decreases  <slope_down>
 63	<y_axis_inferred_3rd_highest_value_approx>
-%	<y_axis_inferred_label> ## change to £
+£	<y_axis_inferred_label> 
 ,
 Thursday	<x_axis_label_4th_highest_value>
 decreases  <slope_down>
 further
 to	
 61	<y_axis_inferred_4th_highest_value_approx>
-%	<y_axis_inferred_label> ## change to £
+£	<y_axis_inferred_label> 
 and	
 then	<order_last>
 Friday	<x_axis_label_least_value>
 has
 just	<y_axis_least_value>
 31	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label> ## change to £
+£	<y_axis_inferred_label> 
 .
 <end_of_description>
 
@@ -88,7 +88,7 @@ The
 graph
 shows
 the
-closing stock prices on each day of a week (Mon-Fri inclusive) at the Akef Inc. company <topic> ## I'm wondering if we should break it down to be able to label Mon-Fri
+closing stock prices on each day of a week (Mon-Fri inclusive) at the Akef Inc. company <topic>
 ,
 in
 pounds	<y_axis_inferred_label>
@@ -104,7 +104,7 @@ highest	<y_axis_highest_value>
 ,
 at
 £	<y_axis_inferred_label>
-9s <y_axis_inferred_highest_value_approx> ## this is 9s, change to the most frequent token of this label
+92 <y_axis_inferred_highest_value_approx>
 ,
 falling	<y_axis_trend_down>
 to	
@@ -159,7 +159,12 @@ in
 GBP	<y_axis_inferred_label>
 over
 the
-course of the working week (Mon - Fri)	<x_axis>	## check this split: topic, inferred label and x axis
+course of the working week	<x_axis>
+(
+Mon	<x_axis_label_highest_value>
+-	<x_axis_range_end>
+Fri	<x_axis_label_least_value>
+)
 .
 The
 graph
@@ -178,14 +183,9 @@ with
 significant	<y_axis_trend>
 drops  <slope_down>
 from	
-Mon  <x_axis_label_highest_value> ## think about this case: maybe group or add range_start and range_end
-/
-Tues  <x_axis_label_Scnd_highest_value>
+Mon / Tues  <group_highest_Scnd>
 and	
-Thurs <x_axis_label_4th_highest_value> ## think about this case: maybe group or add range_start and range_end
-/
-Fri <x_axis_label_least_value>
-
+Thurs / Fri <group_4th_least>
 <end_of_description>
 
 
@@ -294,7 +294,8 @@ As
 the
 week has gone on	<x_axis_trend>
 the
-Afec Inc. closing stock price <y_axis> ## possibly split? more object- or property-like?
+Afec Inc.	## more object- or property-like?
+closing stock price <y_axis>
 has
 decreased <slope_down>
 .
@@ -314,9 +315,9 @@ Friday <x_axis_label_least_value>
 .
 \\n    <separator>
 \\n    <separator>
-Thursday <x_axis_label_4th_highest_value> ## group ?
+Thursday <x_axis_label_4th_highest_value>
 to	
-Friday	<x_axis_label_least_value> ## group ?
+Friday	<x_axis_label_least_value>
 saw
 the
 biggest	<y_axis_trend>
@@ -351,8 +352,12 @@ the
 steep <y_axis_trend>
 decline <slope_down>
 in
-stock prices for Akef Inc.	<y_axis> ## possibly split? more object- or property-like?
-during the course of the week	<x_axis>
+stock prices	<y_axis>
+for
+Akef Inc.	<y_axis> ## more object- or property-like?
+during
+the
+course of the week	<x_axis_trend>
 .
 Opening
 on
@@ -389,8 +394,8 @@ Friday  <x_axis_label_least_value>
 
 
 <start_of_description>
-Akef Inc. <topic_related_object> ## more object- or property-like?
-closing stock prices <y_axis>	## join with above?
+Akef Inc. ## more object- or property-like?
+closing stock prices <y_axis>
 have
 declined <slope_down>
 from
@@ -478,7 +483,7 @@ levelled
 off
 at
 60	<group_y_3rd_4th>
-%	<y_axis_inferred_label> ## change to £
+£	<y_axis_inferred_label>
 however
 a
 further
@@ -489,7 +494,7 @@ to
 occurred
 by
 the
-close	##
+close
 of
 Friday	<x_axis_label_least_value>
 .
@@ -718,7 +723,7 @@ at
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 closing stock price <y_axis>
 is
@@ -729,7 +734,7 @@ on
 Monday	<x_axis_label_highest_value>
 at
 93	<y_axis_inferred_highest_value_approx>
-%	<y_axis_inferred_label> ## change to £
+£	<y_axis_inferred_label>
 and	
 gradually	<y_axis_trend>
 declines  <slope_down>
@@ -737,19 +742,25 @@ by
 Friday	<x_axis_label_least_value>
 at
 32	<y_axis_inferred_least_value_approx> 
-%	<y_axis_inferred_label> ## change to £
+£	<y_axis_inferred_label>
 .
 <end_of_description>
 
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 shows
 declining  <slope_down>
-closing stock prices across the week for AKEF Inc.  <topic>
+closing stock prices	<y_axis>
+across
+the
+week	<x_axis>
+for
+AKEF Inc.	## more object- or property-like?
+.
 Between	<x_axis_range_start>
 Monday	<x_axis_label_highest_value>
 (
@@ -774,7 +785,7 @@ closing price <y_axis>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 shows
@@ -803,13 +814,13 @@ at
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
 30	<y_axis_inferred_least_value_approx>
-..
+.
 <end_of_description>
 
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 graph
 shows
@@ -946,7 +957,7 @@ just  under	 <y_axis_approx>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 stock prices <y_axis>
 of

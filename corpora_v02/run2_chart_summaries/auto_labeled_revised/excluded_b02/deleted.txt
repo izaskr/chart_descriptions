@@ -1,3 +1,36 @@
+------ type02 akef_inc_closing_stock_prices_2.txt ------
+<start_of_description>
+Closing stock price for a week for Akef inc	<topic>
+.
+Mon	<x_axis_label_3rd_highest_value>
+was
+£	<y_axis_inferred_label>
+51	<y_axis_3rd_highest_val>
+,
+Tue	<x_axis_label_Scnd_highest_value>
+was
+£	<y_axis_inferred_label>
+62	<x_axis_label_2nd_highest_value>
+,
+Wed	<x_axis_label_highest_value>
+was
+£	<y_axis_inferred_label>
+74	<y_axis_inferred_highest_value_approx>
+,
+Thu	<x_axis_label_4th_highest_value>
+was
+£	<y_axis_inferred_label>
+22	<y_axis_4th_highest_val>
+,
+Fri	<x_axis_label_least_value>
+was
+£	<y_axis_inferred_label>
+9	<y_axis_inferred_least_value_approx>
+<end_of_description>
+------ end ------
+
+
+
 ------ type03 fatal_injuries_at_pula_steel_factory_1.txt ------
 <start_of_description>	## I suggest excluding this description because the plot interpretation by the participant was incorrect and the summary doesn't reflect the data at all (23% less fatal injuries?)
 In

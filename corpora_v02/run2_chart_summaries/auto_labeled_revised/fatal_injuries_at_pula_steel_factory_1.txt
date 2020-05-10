@@ -26,7 +26,7 @@ year before   <x_axis_label_Scnd_highest_value>
 2012	<x_axis_label_Scnd_highest_value>
 ,
 had
-just	<y_axis_trend> ##
+just	<y_axis_trend>
 27	<y_axis_Scnd_highest_val>
 fatal injuries	<y_axis_inferred_label>
 .
@@ -227,7 +227,7 @@ the
 number of fatal injuries at the Pula Steel factory	<topic>
 over
 a
-4	<x_interval> ##
+4	<x_interval>
 year period	<x_axis>
 ,
 between	<x_axis_range_start>
@@ -252,7 +252,10 @@ year   <x_axis>
 there
 were
 27	<y_axis_Scnd_highest_val>
-fatal injuries at the factory	<y_axis_inferred_label>
+fatal injuries	<y_axis_inferred_label>
+at
+the
+factory	## more object- or property-like?
 .
 This
 increased	<slope_up>
@@ -357,8 +360,10 @@ increase	<slope_up>
 in
 the
 number of fatal injuries	<y_axis>
-at the Pula Steel Factory	## more object- or property-like?
-from 2012 to 2013	<group_Scnd_highest>	##
+at
+the
+Pula Steel Factory	## more object- or property-like?
+from 2012 to 2013	<group_Scnd_highest>
 .
 Increasing	<slope_up>
 from
@@ -382,7 +387,7 @@ there
 has
 been
 a
-slight	<y_axis_trend> ##
+slight	<y_axis_trend>
 decline   <slope_down>
 in
 the
@@ -419,7 +424,9 @@ fatal injuries	<y_axis_inferred_label>
 <start_of_description>
 The
 number of fatal injuries	<y_axis>
-at the Pula Steel Factory	## more object- or property-like?
+at
+the
+Pula Steel Factory	## more object- or property-like?
 rose	<slope_up>
 from
 27	<y_axis_Scnd_highest_val>
@@ -430,7 +437,7 @@ to
 in
 2013	<x_axis_label_highest_value>
 .
-Since   <x_axis_period>	## check other cases of this label in the new batch
+Since   <x_axis_period>
 2013	<x_axis_label_highest_value>
 ,
 the
@@ -460,9 +467,11 @@ in
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 Fatal injuries	<y_axis>
-at the Pula Steel Factory	## more object- or property-like?
+at
+the
+Pula Steel Factory	## more object- or property-like?
 have
 varied    <y_axis_trend>
 from	<x_axis_range_start>
@@ -472,7 +481,7 @@ to   <x_axis_range_end>
 ,
 averaging
 above	<y_axis_approx>
-25	<y_mean> ## new label?
+25	<y_mean>
 .
 Most	<y_axis_highest_value>
 was
@@ -509,18 +518,16 @@ shows
 there
 to
 be
-little	##
-change	##
+little
+change
 over time   <x_axis_trend>
 ,
 with
 27	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label>	## yes, let's leave it and insert the corrected tokens to the xml later.
 in
 2012	<x_axis_label_Scnd_highest_value>
 and
 25	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label>	## the corrected token can be "(number of) injuries" 
 in
 2016	<x_axis_label_4th_highest_value>
 .
@@ -531,7 +538,7 @@ an
 increase	<slope_up>
 to
 32	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
+injuries	<y_axis_inferred_label>
 between 2012 and 2013	<group_Scnd_highest>
 and
 a
@@ -539,12 +546,11 @@ steady   <y_axis_trend>
 decrease   <slope_down>
 to
 22	<y_axis_least_value_val>
-%	<y_axis_inferred_label>
 in
 2015	<x_axis_label_least_value>
 .
 This
-decrease started to reverse	<slope_up>	## other, less wonky suggestions?
+decrease started to reverse	<slope_up>
 in
 2016	<x_axis_label_4th_highest_value>
 .
@@ -555,7 +561,9 @@ in
 <start_of_description>
 The 
 number of fatal injuries	<y_axis>
-at the Pula steel factory	## more object- or property-like?
+at
+the
+Pula steel factory	## more object- or property-like?
 started
 at
 27	<y_axis_Scnd_highest_val>
@@ -592,7 +600,7 @@ in
 there
 was
 a
-slight
+slight	<y_axis_trend>
 increase	<slope_up>
 to
 25	<y_axis_4th_highest_val>
@@ -751,7 +759,9 @@ by
 The
 highest	<y_axis_highest_value>
 number of fatal injuries	<y_axis>
-at the pula steel factory   ## more object- or property-like?
+at
+the
+pula steel factory   ## more object- or property-like?
 took
 place
 in
@@ -760,7 +770,6 @@ year   <x_axis>
 2013	<x_axis_label_highest_value>
 at
 32	<y_axis_highest_value_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 .
 In
 2012	<x_axis_label_Scnd_highest_value>
@@ -768,13 +777,11 @@ the
 percentage
 was
 27	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 and
 in
 2014	<x_axis_label_3rd_highest_value>
 ,
 26	<y_axis_3rd_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 .
 In
 2016	<x_axis_label_4th_highest_value>
@@ -782,7 +789,6 @@ the
 number of fatal injuries   <y_axis>
 was
 25	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 and
 at
 its
@@ -791,7 +797,6 @@ in
 2015	<x_axis_label_least_value>
 at
 22	<y_axis_least_value_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 .
 <end_of_description>
 
@@ -805,7 +810,9 @@ shows
 fluctuations
 in
 number of injuries	<y_axis>
-at the Pula steel factory	## more object- or property-like?
+at
+the
+Pula steel factory	## more object- or property-like?
 .
 In
 2012	<x_axis_label_Scnd_highest_value>
@@ -841,7 +848,7 @@ injuries   <y_axis_inferred_label>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 number of fatal injuries at the Pula steel factory   <topic>
 is
@@ -876,7 +883,7 @@ deaths   <y_axis_inferred_label>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 This
 graph
 shows
@@ -930,14 +937,13 @@ a
 graph
 to
 show
-percentages	## not percentages
+counts	<y_axis>
 against
 time  <x_axis>
 .
 2012	<x_axis_label_Scnd_highest_value>
 was
 27	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 ,
 the
 highest	<y_axis_highest_value>
@@ -947,21 +953,18 @@ in
 2013	<x_axis_label_highest_value>
 at
 32	<y_axis_highest_value_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 ,
 this
 reduced   <slope_down>
 down
 to
 26	<y_axis_3rd_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 in
 2014	<x_axis_label_3rd_highest_value>
 and
 further down   <slope_down>
 to
 22	<y_axis_least_value_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 in
 2015	<x_axis_label_least_value>
 .
@@ -971,7 +974,6 @@ number	<y_axis>
 increased	<slope_up>
 to
 25	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 .
 <end_of_description>
 
@@ -995,7 +997,7 @@ and	<x_axis_range_end>
 .
 \\n   <separator>
 More than	<y_axis_approx>
-20	<y_mean> ## interesting, maybe mean is not the best label
+20	<y_mean>
 fatal injuries	<y_axis_inferred_label>
 occurred
 in
@@ -1034,7 +1036,7 @@ the
 number   <y_axis>
 was
 around	<y_axis_approx>
-25	<group_y_Scnd_3rd_4th> ## group y value here: mean
+25	<group_y_Scnd_3rd_4th>
 .
 <end_of_description>
 
@@ -1043,10 +1045,12 @@ around	<y_axis_approx>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 number of fatal injuries   <y_axis>
-at the Pula Steel Factory	## more object- or property-like?
+at
+the
+Pula Steel Factory	## more object- or property-like?
 has
 fluctuated   <y_axis_trend>
 over the years   <x_axis_trend>
@@ -1058,7 +1062,7 @@ a
 high	<y_axis_highest_value>
 of
 32	<y_axis_highest_value_val>
-death   <y_axis_inferred_label>
+deaths   <y_axis_inferred_label>
 in
 2013	<x_axis_label_highest_value>
 ,
