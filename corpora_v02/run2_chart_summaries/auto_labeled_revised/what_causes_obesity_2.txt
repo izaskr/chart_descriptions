@@ -3,7 +3,7 @@ This
 chart
 shows
 what causes obesity in Kiribati   <topic>
-. 
+.
 The
 biggest	<y_axis_highest_value>
 percentage   <y_axis>
@@ -264,7 +264,8 @@ is
 the
 biggest	<y_axis_highest_value>
 cause of obesity   <x_axis>
-in Kirbati	## more object- or property-like?
+in
+Kirbati	## more object- or property-like?
 at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -280,7 +281,8 @@ is
 the
 lowest	<y_axis_least_value>
 cause of obesity   <x_axis>
-in Kirbati	## more object- or property-like?
+in
+Kirbati	## more object- or property-like?
 at
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
@@ -295,9 +297,9 @@ This
 chart
 shows
 the
-slim majority	<group_y_Scnd_least> ## grouping of bar heights: sum of the Scnd and least is about 50 %
-of
-obesity in Kiribati	## more object- or property-like?
+slim majority of obesity	<group_y_Scnd_least>
+in
+Kiribati	## more object- or property-like?
 is
 caused	## more object- or property-like?
 by
@@ -327,7 +329,8 @@ lack of exercise   <x_axis_label_Scnd_highest_value>
 The
 biggest	<y_axis_highest_value>
 cause of obesity   <x_axis>
-in Kiribati	## more object- or property-like?
+in
+Kiribati	## more object- or property-like?
 is
 genetic tendencies   <x_axis_label_highest_value>
 ,
@@ -379,7 +382,7 @@ shown
 to
 cause obesity   <x_axis>
 in
-60	<group_y_Scnd_least> ## group bar heights: add
+60	<group_y_Scnd_least>
 %	<y_axis_inferred_label>
 of
 cases	## more object- or property-like?
@@ -463,7 +466,7 @@ and
 lack of exercise   <x_axis_label_Scnd_highest_value>
 .
 Overall
-obesity   <topic_related_object>
+obesity	## more object- or property-like?
 is
 commonly
 caused	## more object- or property-like?
@@ -478,7 +481,7 @@ really
 have
 a
 greater
-effect ## this last clause - any labels?
+effect
 .
 <end_of_description>
 
@@ -496,7 +499,7 @@ at
 over	<y_axis_approx>
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
-only slightly	<y_axis_approx> ## approx modifying only numerical values?
+only slightly	<y_axis_trend>
 behind	<y_axis_trend_down>
 lack of exercise   <x_axis_label_Scnd_highest_value>
 and	
@@ -651,7 +654,7 @@ causes of Obesity in Kiribati   <topic>
 25	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 was
-atributed
+attributed
 to
 fast food	<x_axis_label_least_value>
 35	<y_axis_inferred_Scnd_highest_value_approx>
@@ -845,7 +848,11 @@ There
 are
 three   <x_axis_labels_count>
 factors	<x_axis>
-represented as contributing to obesity in Kiribati	## more object- or property-like?
+represented
+as
+contributing to obesity	## more object- or property-like?
+in
+Kiribati	## more object- or property-like?
 .
 The
 main   <y_axis_highest_value> 
@@ -905,7 +912,6 @@ at
 %	<y_axis_inferred_label>
 with
 lack of exercise    <x_axis_label_Scnd_highest_value>
-use
 only	<y_axis_least_value>
 contributing
 35	<y_axis_inferred_Scnd_highest_value_approx>
@@ -919,13 +925,16 @@ outcome
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 indicates
 three   <x_axis_labels_count>
-possible causes of obesity	<x_axis>
-in the Kiribati population	## more object- or property-like?
+possible
+causes of obesity	<x_axis>
+in
+the
+Kiribati population	## more object- or property-like?
 .
 It
 indicates

@@ -5,7 +5,7 @@ shows
 how young people in Zarqa spend their evenings   <topic>
 .
 According
-to	
+to
 the
 chart
 ,
@@ -136,7 +136,7 @@ group
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 graph
 details
@@ -196,7 +196,7 @@ their time	## more object- or property-like?
 watching tv   <x_axis_label_least_value>
 in
 the
-evenings	<topic_related_property> ##
+evenings	## more object- or property-like?
 ,
 32	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -214,15 +214,15 @@ being
 38	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-people    <y_axis> ## more object- or property-like? or y axis
+people    ## more object- or property-like? or y axis
 ,
 and
 18	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 of
-people    <y_axis>  ## more object- or property-like? or y axis
+people    ## more object- or property-like? or y axis
 spend
-their evenings	<topic_related_property> ## more object- or property-like?
+their evenings	## more object- or property-like?
 going out   <x_axis_label_3rd_highest_value>
 .
 <end_of_description>
@@ -246,7 +246,7 @@ research
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-people	<y_axis> ## more object- or property-like? or y axis
+people	## more object- or property-like? or y axis
 spent
 time	## more object- or property-like?
 watching TV   <x_axis_label_least_value>
@@ -283,7 +283,7 @@ going out   <x_axis_label_3rd_highest_value>
 37	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-young people	<y_axis> ## more object- or property-like? or y axis
+young people	## more object- or property-like? or y axis
 read a book   <x_axis_label_highest_value>
 compared	<y_x_comparison>
 with
@@ -305,7 +305,7 @@ only	<y_axis_least_value>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-young people	<y_axis>	## more object- or property-like? or y axis
+young people	## more object- or property-like? or y axis
 in Zarqa	## more object- or property-like?
 spending
 their evenings	## more object- or property-like?
@@ -343,7 +343,7 @@ with
 %	<y_axis_inferred_label>
 of
 the
-youths	<y_axis> ## more object- or property-like? or y axis
+youths	## more object- or property-like? or y axis
 who
 prefer
 to	
@@ -362,7 +362,7 @@ go out   <x_axis_label_3rd_highest_value>
 .
 \\n   <separator>
 The
-youths	<y_axis> ## more object- or property-like? or y axis
+youths	## more object- or property-like? or y axis
 who
 prefer
 opting
@@ -394,7 +394,7 @@ watch TV   <x_axis_label_least_value>
 37	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-young people	<y_axis> ## more object- or property-like? or y axis
+young people	## more object- or property-like? or y axis
 in Zarqa	## more object- or property-like?
 spend
 their evenings	## more object- or property-like?
@@ -528,7 +528,7 @@ chart
 shows
 that
 more	<y_axis_trend_up>
-young people    <y_axis> ## more young people == a bigger percentage of young people
+young people	## more object- or property-like? or y axis?
 spend
 their evenings	## more object- or property-like?
 reading a book   <x_axis_label_highest_value>
@@ -546,10 +546,10 @@ watching tv   <x_axis_label_least_value>
 
 
 <start_of_description>
-Young people   <y_axis> ## more object- or property-like? or y axis
+Young people	## more object- or property-like? or y axis
 in Zarqa	## more object- or property-like?
 spend
-their evenings	<topic_related_property> ## more object- or property-like?
+their evenings	## more object- or property-like?
 reading a book   <x_axis_label_highest_value>
 -
 over	<y_axis_approx>
@@ -590,7 +590,7 @@ percentages <y_axis>
 on 
 how many young people in Zarqa spend their evenings  <topic>
 .
-From	<x_axis_range_start>
+From
 the
 chart
 ,
@@ -616,7 +616,7 @@ by
 18	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 of
-people	<y_axis>
+people	## more object- or property-like?
 Going Out   <x_axis_label_3rd_highest_value>
 .
 We
@@ -624,12 +624,12 @@ then	<order_3rd>
 see
 32	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-people	<y_axis>
+people	## more object- or property-like?
 Spend Time with Family   <x_axis_label_Scnd_highest_value>
 but
 the
 highest	<y_axis_highest_value>
-percentage of people   <y_axis>
+percentage of people	## more object- or property-like?
 are
 Reading a Book   <x_axis_label_highest_value>
 at
@@ -688,7 +688,7 @@ Approximately	<y_axis_approx>
 12	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-people	<y_axis>	##
+people	## more object- or property-like? or y axis
 watch TV   <x_axis_label_least_value>
 ,
 32	<y_axis_Scnd_highest_val>
@@ -698,7 +698,7 @@ and
 35	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-participants	<y_axis>	##
+participants	## more object- or property-like? or y axis
 read a book   <x_axis_label_highest_value>
 .
 About	<y_axis_approx>
@@ -831,7 +831,7 @@ at
 %	<y_axis_inferred_label>
 .
 The
-second	 ##
+second
 lowest	<y_axis_least_value>
 percentage   <y_axis>
 was
@@ -865,7 +865,7 @@ just over	<y_axis_approx>
 10	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
-young people    <topic_related_property>
+young people	## more object- or property-like?
 spend
 time doing	## more object- or property-like?
 .
@@ -898,14 +898,14 @@ go out   <x_axis_label_3rd_highest_value>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 majority	<y_axis_highest_value>
 of
 young people   <y_axis>
 in Zarqa	## more object- or property-like?
 spend
-their evenings	<topic_related_property> ## more object- or property-like?
+their evenings	## more object- or property-like?
 reading a book   <x_axis_label_highest_value>
 ,
 at
@@ -940,7 +940,7 @@ spend
 the
 majority   <y_axis_highest_value>
 of
-their evenings	<topic_related_property> ## more object- or property-like?
+their evenings	## more object- or property-like?
 reading a book   <x_axis_label_highest_value>
 and
 spending time with their families     <x_axis_label_Scnd_highest_value>
@@ -992,7 +992,7 @@ watch television   <x_axis_label_least_value>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 shows
@@ -1000,12 +1000,14 @@ that
 the
 majority	<y_axis_highest_value>
 of
-people in Zarqa	<y_axis>
+people <y_axis>
+in
+Zarqa	## more object- or property-like?
 prefer
 reading a book   <x_axis_label_highest_value>
 in
 an
-evening	<topic_related_property> ## more object- or property-like?
+evening	## more object- or property-like?
 .
 Although this would suggest they may prefer solitude     <interpretation>
 ,

@@ -137,10 +137,7 @@ a
 slight	<y_axis_trend>
 initial	<y_axis_trend>
 increase	<slope_up>
-from	<x_axis_range_start>
-2000	<x_axis_label_Scnd_highest_value>	## grouping
-to	<x_axis_range_end>
-2005	<x_axis_label_highest_value>
+from 2000 to 2005	<group_highest_Scnd>
 ,
 but
 since
@@ -151,7 +148,7 @@ have
 been
 declining	<slope_down>
 and
-women	<topic_related_property>
+women	## more object- or property-like?
 were
 earning
 almost	<y_axis_approx>
@@ -220,7 +217,7 @@ it
 drops	<slope_down>
 in
 the
-next	##
+next
 10	<x_interval>	
 years	<x_axis>
 from
@@ -248,7 +245,7 @@ median salary of women in Najaf per year	<topic>
 \\n	<separator>
 \\n	<separator>
 Salary	<y_axis>
-earned
+earned	## more object- or property-like?
 in
 2000	<x_axis_label_Scnd_highest_value>
 was
@@ -271,8 +268,8 @@ and
 in
 2015	<x_axis_label_least_value>
 the
-salary	<y_axis> ## unsure about including "earned"
-earned
+salary	<y_axis>
+earned	## more object- or property-like?
 per
 year	<x_axis>
 dropped	<slope_down>
@@ -286,7 +283,8 @@ The
 results
 show
 that
-salary earned	<y_axis>
+salary	<y_axis>
+earned	## more object- or property-like?
 has
 been
 decreasing	<slope_down>
@@ -353,7 +351,7 @@ the
 years 2000, 2005, 2010 and 2015	<x_axis_labels>
 .
 The
-women in najaf	<topic_related_property>
+women in najaf	## more object- or property-like?
 earned
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
@@ -435,7 +433,7 @@ in
 <start_of_description>
 The
 salary of women in Najaf	<y_axis>
-fluctuated	<slope_mix> ## slope up and down, but not slope constant
+fluctuated	<slope_mix>
 between
 £	<y_axis_inferred_label>
 16	<y_axis_least_value_val>
@@ -529,7 +527,7 @@ The
 graph
 shows
 the
-median salary of woman in Najaf per year	<topic> ## or y_axis
+median salary of woman in Najaf per year	<topic>
 from	<x_axis_range_start>
 2000	<x_axis_label_Scnd_highest_value>
 to	<x_axis_range_end>
@@ -571,10 +569,14 @@ in
 
 <start_of_description>
 The
-Median salary per year of women in Najaf 	<y_axis>
+Median salary	<y_axis>
+per
+year	<x_axis>
+of
+women in Najaf	## more object- or property-like?
 has
 been
-changing	<y_axis_trend> 
+changing	<slope_mix> 
 with the years	<x_axis_trend>
 ,
 the
@@ -661,7 +663,7 @@ see
 that
 this
 graph
-fluctuates	<slope_mix> ##
+fluctuates	<slope_mix>
 starting
 with
 around	<y_axis_approx>
@@ -672,7 +674,7 @@ in
 2000	<x_axis_label_Scnd_highest_value>
 which
 rose	<slope_up>
-over 5 years	<x_axis_label_highest_value> ##  --- <x_interval>?
+over 5 years	<x_axis_label_highest_value>
 to
 just over	<y_axis_approx>
 25	<y_axis_inferred_highest_value_approx>
@@ -687,7 +689,10 @@ can
 see
 that
 the
-yearly wage for women	<y_axis>
+yearly	## more object- or property-like?
+wage	<y_axis>
+for
+women	## more object- or property-like?
 has
 dropped	<slope_down>
 to
@@ -776,8 +781,7 @@ just under	<y_axis_approx>
 £	<y_axis_inferred_label>
 23	<y_axis_inferred_Scnd_highest_value_approx>
 pounds	<y_axis_inferred_label>
-a
-year	## a year = annual  <topic_related?>
+a year	## more object- or property-like?
 .
 \\n	<separator>
 In
@@ -788,8 +792,7 @@ just above	<y_axis_approx>
 £	<y_axis_inferred_label>
 25	<y_axis_inferred_highest_value_approx>
 pounds	<y_axis_inferred_label>
-a
-year	## <topic_related?>
+a year	## more object- or property-like?
 .
 \\n	<separator>
 In
@@ -800,8 +803,7 @@ just under	<y_axis_approx>
 £	<y_axis_inferred_label>
 20	<y_axis_inferred_3rd_highest_value_approx>
 pounds	<y_axis_inferred_label>
-a
-year	## <topic_related?>
+a year	## more object- or property-like?
 .
 \\n	<separator>
 In
@@ -812,10 +814,9 @@ just above	<y_axis_approx>
 £	<y_axis_inferred_label>
 15	<y_axis_inferred_least_value_approx>
 pounds	<y_axis_inferred_label>
-a
-year	## <topic_related?>
+a year	## more object- or property-like?
 .
-\\n
+\\n	<separator>
 It is unclear according to this chart why the median has n't been consistent	<interpretation>
 .
 <end_of_description>
@@ -875,7 +876,7 @@ a
 chart
 based
 on
-Median Salarys of Women in Najar Per Year	<topic> ## or y axis?
+Median Salarys of Women in Najar Per Year	<topic>
 between	<x_axis_range_start>
 the
 years	<x_axis>
@@ -929,7 +930,7 @@ median salary earned by women in Najaf per annum	<topic>
 .
 \\n	<separator>
 \\n	<separator>
-Whilst	<x_axis_comparison>
+Whilst	<y_x_comparison>
 there
 was
 an
@@ -949,26 +950,29 @@ trend
 ,
 with
 the
-median amount earned	<y_axis>
+median	## more object- or property-like?
+amount	<y_axis>
+earned	## more object- or property-like?
 in
 2015	<x_axis_label_least_value>
 being
 £	<y_axis_inferred_label>
 10	<y_axis_inferred_value_add_v1=least_v2=heighest>	
 000	<y_magnitude>
-less	<y_axis_approx>
+less	<y_axis_trend_down>
 than
 in
 2005	<x_axis_label_highest_value>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 shows
 the
-median salary of women in Najaf per year in	<topic>
+median salary of women in Najaf per year	<topic>
+in
 british pounds	<y_axis_inferred_label>
 .
 \\n	<separator>
@@ -980,7 +984,12 @@ can
 see
 that
 the
-median salary of women in Najaf	<y_axis>
+median
+salary	<y_axis>
+of
+women	## more object- or property-like?
+in
+Najaf	## more object- or property-like?
 is
 the
 lowest	<y_axis_least_value>
@@ -1009,7 +1018,7 @@ demonstrates
 the
 median salary of women in najaf per year	<topic>
 .
-on average	<topic_related_property>
+on average	## more object- or property-like?
 this
 lies
 between	
@@ -1018,7 +1027,7 @@ between
 26	<y_axis_inferred_highest_value_approx>
 thousand	<y_magnitude>
 pounds	<y_axis_inferred_label>
-over the last 15 years	<x_interval> ## or x axis trend  - inerval besser
+over the last 15 years	<x_interval>
 .
 in
 2005	<x_axis_label_highest_value>
@@ -1084,8 +1093,8 @@ was
 The
 median salary of women in Najaf	<topic>
 per
-5	<x_interval> ## x step
-years
+5	<x_interval>
+years	<x_axis>
 started
 fairly high	<y_axis_trend>
 in
@@ -1131,8 +1140,8 @@ the
 median salary of women in Najar per year	<topic>
 over
 a
-4	<x_interval>	## check split and label
-year
+4	<x_interval>
+year	<x_axis>
 period
 .
 In
@@ -1164,7 +1173,7 @@ just under	<y_axis_approx>
 £	<y_axis_inferred_label>
 20	<y_axis_inferred_3rd_highest_value_approx>
 k    <y_magnitude>
-whilst	<y_x_comparison_rest>	##
+whilst	<y_x_comparison>
 in
 2015	<x_axis_label_least_value>
 the

@@ -467,3 +467,48 @@ to
 .
 <end_of_description>
 ------ end ------
+
+
+------ minority_representation_in_libya_parliament_2.txt ------
+<start_of_description>
+The
+chart
+shows
+minority representation in the Parliament of Lybia	<topic>
+.
+\\n	<separator>
+\\n	<separator>
+Just over	<y_axis_approx>
+13.8	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label>
+in
+year	<x_axis>
+1990-1994	<x_axis_label_highest_value>
+.
+1995-1999	<x_axis_label_Scnd_highest_value>
+12	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+.
+Then	<order_3rd>
+it
+dropped	<slope_down>
+to
+8.8	<y_axis_inferred_4th_highest_value_approx>
+%	<y_axis_inferred_label>
+in
+2005-2009	<x_axis_label_4th_highest_value>
+.
+2010-2014	<x_axis_label_least_value>
+6.5	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+and
+the
+final	<order_last>
+year
+2010-2014	<x_axis_label_5th_highest_value> ## mistake in the summary: the same bar referenced above, labels should be correct ontop of wrong text though
+only	<y_axis_least_value>
+6.2	<y_axis_inferred_5th_highest_value_approx>
+%	<y_axis_inferred_label>
+.
+<end_of_description>
+------ end ------

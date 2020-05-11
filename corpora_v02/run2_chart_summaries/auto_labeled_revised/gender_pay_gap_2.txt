@@ -64,7 +64,7 @@ the
 UK   <x_axis_label_Scnd_highest_value>
 have
 a
-21	<group_y_highest_Scnd> ## add info about bars to the label, e.g. group_highest_Scnd_mean
+21	<group_y_highest_Scnd>
 %	<y_axis_inferred_label>
 gap   <y_axis>
 ,
@@ -92,7 +92,9 @@ as
 a
 percentage	<y_axis_inferred_label>
 ,
-for the year 2017	## more object- or property-like?
+for
+the
+year 2017	## more object- or property-like?
 .
 In
 Germany	<x_axis_label_highest_value>
@@ -155,9 +157,7 @@ the
 graph
 shows
 that
-Germany	<x_axis_label_highest_value>	## should we join germany and uk to <group_highest_Scnd> ?
-and
-UK	<x_axis_label_Scnd_highest_value>
+Germany and UK	<group_highest_Scnd>
 have
 similar   <y_axis_trend>
 levels
@@ -167,7 +167,7 @@ and
 20.5	<y_axis_Scnd_highest_val>
 respectively
 )
-while	<y_x_comparison_rest>
+while	<y_x_comparison>
 Spain	<x_axis_label_least_value>
 has
 a
@@ -192,7 +192,9 @@ in
 different
 European	## more object- or property-like?
 countries	<x_axis>
-in the year 2017	## more object- or property-like?
+in
+the
+year 2017	## more object- or property-like?
 .
 \\n   <separator>
 \\n   <separator>
@@ -240,7 +242,7 @@ the
 highest	<y_axis_highest_value>
 ,
 but
-only slightly	<y_axis_approx> ## did we say that y_axis_approx is reserved for modifying numerical expressions? 
+only slightly	<y_axis_trend> 
 higher	<y_axis_trend_up>
 than
 the
@@ -337,7 +339,7 @@ similar   <y_axis_trend>
 gap   <y_axis>
 at
 just above	<y_axis_approx>
-20	<group_y>	##	group_highest_Scnd_mean
+20	<group_y_highest_Scnd>
 %	<y_axis_inferred_label>
 .
 Spain	<x_axis_label_least_value>
@@ -367,7 +369,7 @@ at
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 ,
-a little more than  <y_axis_approx>	## y_axis_trend
+a little more than  <y_axis_trend_up>
 in
 the
 UK   <x_axis_label_Scnd_highest_value>
@@ -482,7 +484,7 @@ UK   <x_axis_label_Scnd_highest_value>
 settles
 1	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
-below	## y_axis_trend_down? check the first batch of data
+below	<y_axis_trend_down>
 at
 20.5	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -523,8 +525,9 @@ to
 in
 Spain	<x_axis_label_least_value>
 and
-just slightly	<y_axis_approx>  ## check if approx used for trend, or rather simply use the trend label
-more than    <y_axis_trend_up>	## split more than?
+just slightly	<y_axis_trend>
+more    <y_axis_trend_up>
+than
 the
 UK   <x_axis_label_Scnd_highest_value>
 at
@@ -550,7 +553,9 @@ three	<x_axis_labels_count>
 countries	<x_axis>
 of
 Germany , Spain and the UK	<x_axis_labels>
-in the year 2017   ## more object- or property-like?
+in
+the
+year 2017   ## more object- or property-like?
 .
 From	
 the
@@ -594,7 +599,7 @@ around	<y_axis_approx>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 gender pay gap   <y_axis>
 was
@@ -732,7 +737,7 @@ at
 only	<y_axis_trend>
 1	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
-lower	## y_axis_trend_down ?
+lower	<y_axis_trend_down>
 and
 then	<order_3rd>
 spain	<x_axis_label_least_value>
@@ -905,7 +910,7 @@ A
 chart
 showing
 the
-differences in pay between men and women   <y_axis> ## or topic?
+differences in pay between men and women   <topic>
 in
 three    <x_axis_labels_count>
 European	## more object- or property-like?

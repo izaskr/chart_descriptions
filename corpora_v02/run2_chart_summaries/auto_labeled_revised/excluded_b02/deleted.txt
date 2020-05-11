@@ -412,3 +412,33 @@ double    <y_axis_inferred_value_mul_v1=Scnd_v2=least>
 ------ end ------
 
 
+------ type02 minority_representation_in_libya_parliament_2.txt ------
+<start_of_description> ## this summary is very concise, it hardly uses any words aside from bar names and heights
+%	<y_axis_inferred_label>
+minority representation in Lybian parliament	<topic>
+.
+1990-94	<x_axis_label_highest_value>
+13.2	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label>
+,
+95-99	<x_axis_label_Scnd_highest_value>
+12	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+,
+2000-4	<x_axis_label_3rd_highest_value>
+8.4	<y_axis_inferred_3rd_highest_value_approx>
+%	<y_axis_inferred_label>
+,
+2005-9	<x_axis_label_4th_highest_value>
+8	<y_axis_inferred_4th_highest_value_approx>
+%	<y_axis_inferred_label>
+,
+2010-14	<x_axis_label_least_value>
+6.4	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+,
+2015-19	<x_axis_label_5th_highest_value>
+6.8	<y_axis_5th_highest_val>
+%	<y_axis_inferred_label>
+<end_of_description>
+------ end ------

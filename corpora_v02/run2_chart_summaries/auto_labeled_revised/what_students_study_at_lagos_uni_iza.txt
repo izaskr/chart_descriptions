@@ -44,7 +44,7 @@ study choices of Lagos State University students	<topic>
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
+students	## more object- or property-like?
 study
 Medicine	<x_axis_label_highest_value>
 ,
@@ -52,7 +52,7 @@ closely	<y_axis_trend>
 followed	<order_Scnd>
 by
 Philosophy	<x_axis_label_Scnd_highest_value>
-students	<topic_related_property>
+students	## more object- or property-like?
 at
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -61,7 +61,7 @@ at
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
+students	## more object- or property-like?
 study
 Literature	<x_axis_label_3rd_highest_value>
 ,
@@ -70,11 +70,11 @@ and
 %	<y_axis_inferred_label>
 are
 STEM	<x_axis_label_least_value>
-students	<topic_related_property>
+students	## more object- or property-like?
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 represents
@@ -82,10 +82,11 @@ the
 percentage of students	<y_axis>
 choosing
 to
-study
-certain subjects	<x_axis>
+study	## more object- or property-like?
+certain
+subjects	<x_axis>
 at
-Lagis state University	<topic_related_property>
+Lagos state University	## more object- or property-like?
 .
 No time frame is given	<interpretation>
 ,
@@ -108,7 +109,9 @@ This
 chart
 represents
 the
-percentage what students at Lagos State University choose to study	<topic>
+percentage	<y_axis>
+of
+what students at Lagos State University choose to study	<topic>
 .
 \\n	<separator>
 \\n	<separator>
@@ -166,7 +169,8 @@ what students at Lagos State University choose to study	<topic>
 .
 \\n	<separator>
 \\n	<separator>
-STEM subject	<x_axis_label_least_value> ## should we split this into STEM and subject?   this would be consistent with the eg. 15-25 age group 
+STEM	<x_axis_label_least_value>
+subject	<x_axis>
 is
 the
 least popular  <y_axis_least_value>
@@ -184,7 +188,7 @@ Literature	<x_axis_label_3rd_highest_value>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
+students	## more object- or property-like?
 opted
 Philosophy	<x_axis_label_Scnd_highest_value>
 and
@@ -237,7 +241,7 @@ The
 chart
 shows
 the
-percentage of students	<y_axis> ## split?   ----- seems fine
+percentage of students	<y_axis>
 that
 chose
 to
@@ -247,7 +251,7 @@ STEM , literature , philosophy and medicine	<x_axis_labels>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-people	<topic_related_property>
+people	## more object- or property-like?
 chose
 STEM	<x_axis_label_least_value>
 .
@@ -258,12 +262,12 @@ by
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
+students	## more object- or property-like?
 .
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
+students	## more object- or property-like?
 chose
 philosophy	<x_axis_label_Scnd_highest_value>
 .
@@ -275,7 +279,7 @@ of
 them
 chose
 to
-study
+study	## more object- or property-like?
 medicine	<x_axis_label_highest_value>
 .
 <end_of_description>
@@ -290,25 +294,24 @@ what subjects students choose to study at Lagos State University	<topic>
 %	<y_axis_inferred_label>
 choose
 a
-stem subject	<x_axis_label_least_value>
+stem	<x_axis_label_least_value>
+subject	<x_axis>
 ,
 rising	<y_axis_trend_up>
 to
 almost	<y_axis_approx>
 25	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
-studying
+studying	
 literature	<x_axis_label_3rd_highest_value>
 ,
 then	<order_3rd>
 around	<y_axis_approx>
-30	<y_axis_Scnd_highest_val> ## also highest value in this case <group value> 
+30	<group_y_highest_Scnd>
 %	<y_axis_inferred_label>
 for
 both
-philosophy	<x_axis_label_Scnd_highest_value>
-and
-medicine	<x_axis_label_highest_value>
+philosophy and medicine	<group_highest_Scnd>
 with
 slightly	<y_axis_approx>
 more	<y_axis_trend_up>
@@ -318,15 +321,18 @@ medicine	<x_axis_label_highest_value>
 <end_of_description>
 
 <start_of_description>
-Students at Lagos State University	<topic_related_property>
+Students	## more object- or property-like?
+at
+Lagos State University	## more object- or property-like?
 were
 less	<y_axis_trend_down>
-likely	##
+likely
 to
 be
-enrolled	<topic_related_property>
+enrolled	## more object- or property-like?
 in
-STEM courses	<x_axis_label_least_value>
+STEM	<x_axis_label_least_value>
+courses	<x_axis>
 than
 in
 Literature	<x_axis_label_3rd_highest_value>
@@ -336,8 +342,8 @@ and
 Medicine	<x_axis_label_highest_value>
 .
 The
-latter  ##   ------represents a number of labels <group>
-subjects
+latter  <x_axis_labels_rest>
+subjects	<x_axis>
 were
 studied
 by
@@ -346,8 +352,8 @@ least	<y_axis_least_value>
 half	<other_operation> ## relation: one-vs-three 
 as
 many
-students	<topic_related_property>
-than  ## ------------ comparison?
+students	## more object- or property-like?
+than
 STEM	<x_axis_label_least_value>
 was
 .
@@ -370,21 +376,22 @@ with
 %	<y_axis_inferred_label>
 of
 the
-cohort	<topic_related_property>
+cohort	## more object- or property-like?
 opting
 for
 this
 and
 Philosophy	<x_axis_label_Scnd_highest_value>
 is
-not far	<y_axis_approx>   ## ------------ seems like  trend? "not far from behind" kinda like similar or a bit less.
+not far
 from
 behind	<y_axis_trend_down>
 with
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 .
-STEM subjects	<x_axis_label_least_value>
+STEM	<x_axis_label_least_value>
+subjects	<x_axis>
 are
 half	y_axis_inferred_value_mul_v1=least_v2=Scnd>
 as
@@ -405,18 +412,20 @@ is
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 The
 graph
 shows
 the
-percentage number of students at Lagos state university	<topic>
+percentage number of students	<y_axis>
+at
+Lagos state university	## more object- or property-like?
 .
 Most	<y_axis_highest_value>
-students	<topic_related_property>
+students	## more object- or property-like?
 chose
 to
-study	<topic_related_property>
+study	## more object- or property-like?
 medicine	<x_axis_label_highest_value>
 with
 30.5	<y_axis_inferred_highest_value_approx>
@@ -426,10 +435,10 @@ only	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
+students	## more object- or property-like?
 chose
 to	<x_axis_range_end>
-study	<topic_related_property>
+study	## more object- or property-like?
 STEM	<x_axis_label_least_value>
 .
 <end_of_description>
@@ -437,7 +446,11 @@ STEM	<x_axis_label_least_value>
 <start_of_description>
 The
 topics	<x_axis>
-chosen by students at Lago State University	<topic_related_property>
+chosen
+by
+students	## more object- or property-like?
+at
+Lagos State University	## more object- or property-like?
 vary
 within
 4	<x_axis_labels_count>
@@ -455,8 +468,8 @@ more than	<y_axis_approx>
 30	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
-selecting	##
+students	## more object- or property-like?
+selecting
 this
 .
 Medicine	<x_axis_label_highest_value>
@@ -468,13 +481,13 @@ with
 around	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-students	<topic_related_property>
-selecting	##
+students	## more object- or property-like?
+selecting	## more object- or property-like?
 this
 topic	<x_axis>
 .
 The
-two	## grouping
+two
 less	<y_axis_approx>
 selected
 topics
@@ -484,14 +497,14 @@ with
 around	<y_axis_approx>
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-students	<topic_related_property>
+students	## more object- or property-like?
 and
 STEM	<x_axis_label_least_value>
 with
 just	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-students	<topic_related_property>
+students	## more object- or property-like?
 .
 <end_of_description>
 
@@ -504,9 +517,10 @@ this
 graph
 shows
 the
-percentage of students who chose to study	<topic> ## or y axis
+percentage of students who chose to study	<topic>
 4	<x_axis_labels_count>
-different subjects	<x_axis>
+different
+subjects	<x_axis>
 these
 being
 ,
@@ -521,7 +535,8 @@ just over	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-student choosing	<topic_related_property>
+student	## more object- or property-like?
+choosing	## more object- or property-like?
 it
 although
 philosophy	<x_axis_label_Scnd_highest_value>
@@ -530,7 +545,7 @@ close	<y_axis_trend>
 with
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-choosing	<topic_related_property>
+choosing	## more object- or property-like?
 it
 .
 The
@@ -541,7 +556,7 @@ with
 only	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-choosing <topic_related_property>
+choosing ## more object- or property-like?
 it
 .
 <end_of_description>
@@ -555,7 +570,9 @@ spread of students at Lagos State University and what they chose to study	<topic
 .
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-chose to study	<topic_related_property>
+chose
+to
+study	## more object- or property-like?
 STEM	<x_axis_label_least_value>
 ;
 24	<y_axis_3rd_highest_val>
@@ -586,13 +603,17 @@ what students in lagos state university choose to study	<topic>
 \\n	<separator>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-choose to study	<topic_related_property>
+choose
+to
+study	## more object- or property-like?
 STEM subjects	<x_axis_label_least_value>
 ,
 Just under	<y_axis_approx>
 25	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
-choose to study	<topic_related_property>
+choose
+to
+study	## more object- or property-like?
 Literature	<x_axis_label_3rd_highest_value>
 ,
 30	<y_axis_Scnd_highest_val>
@@ -657,7 +678,7 @@ philosophy	<x_axis_label_Scnd_highest_value>
 The
 third	<order_3rd>
 most popular   <y_axis_highest_value>
-Is
+is
 literature	<x_axis_label_3rd_highest_value>
 followed	<order_Scnd>
 by
@@ -674,9 +695,7 @@ popularity of courses at Lagos State University	<topic>
 .
 \\n	<separator>
 \\n	<separator>
-Medicine	<x_axis_label_highest_value>
-and
-Philosophy	<x_axis_label_Scnd_highest_value>
+Medicine and Philosophy	<group_highest_Scnd>
 are
 the
 most popular   <y_axis_highest_value>
@@ -684,11 +703,18 @@ subjects	<x_axis>
 ,
 with
 just	over	<y_axis_approx>
-60	<other operation>	## grouping
+60	<group_y_highest_Scnd>
 %	<y_axis_inferred_label>
 of
 the
-students choosing to study in one of these areas	<topic_related_property>
+students	## more object- or property-like?
+choosing	## more object- or property-like?
+to
+study	## more object- or property-like?
+in
+one
+of
+these areas	<group_highest_Scnd>
 .
 \\n	<separator>
 \\n	<separator>
@@ -696,7 +722,7 @@ Only	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
+students	## more object- or property-like?
 chose
 to
 study
@@ -747,16 +773,14 @@ chart
 shows
 what students at lagos state university choose to study	<topic>
 .
-medicine	<x_axis_label_highest_value>
-and
-philosophy	<x_axis_label_Scnd_highest_value>
+medicine and philosophy	<group_highest_Scnd>
 are
 the
 most popular   <y_axis_highest_value>
 choice
 at
 around	<y_axis_approx>
-30	<y_axis_Scnd_highest_val>	## reference to highest and second highest <group>
+30	<group_y_highest_Scnd>
 %	<y_axis_inferred_label>
 ,
 STEM	<x_axis_label_least_value>
@@ -772,7 +796,7 @@ at
 The
 chart
 shows
-what studenta at lagos university choose to study	<topic>
+what students at lagos university choose to study	<topic>
 .
 \\n	<separator>
 15	<y_axis_least_value_val>
@@ -821,10 +845,10 @@ at
 with
 the
 other
-course of studies	<x_axis_labels_rest> ##
+course of studies	<x_axis_labels_rest>
 being
 in
-between	<other_operation>	##
+between	<other_operation>
 them
 .
 <end_of_description>
@@ -842,7 +866,8 @@ were
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 choosing
-STEM subjects	<x_axis_label_least_value>
+STEM	<x_axis_label_least_value>
+subjects	<x_axis>
 ,
 approximately	<y_axis_approx>
 24	<y_axis_3rd_highest_val>
@@ -859,7 +884,7 @@ Roughly	<y_axis_approx>
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-students	<topic_related_property>
+students	## more object- or property-like?
 chose
 to	<x_axis_range_end>
 study
