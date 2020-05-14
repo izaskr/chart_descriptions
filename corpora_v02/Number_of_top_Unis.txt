@@ -42,7 +42,7 @@ over    <y_axis_approx>
 %    <y_axis_inferred_label>
 of
 the
-top 100 Universities	## more object- or property-like?
+top 100 Universities	<t=1_a=y>
 in
 each
 continent    <x_axis>
@@ -73,8 +73,8 @@ retrospectively
 There
 are
 more   <y_axis_trend_up>
-top   <topic_related_property>
-universities    <topic_related_object>
+top	<t=1_a=y>
+universities    <y_axis>
 in
 USA    <x_axis_label_highest_value>
 than
@@ -91,7 +91,7 @@ world
 %    <y_axis_inferred_label>
 of
 the
-top 100 universities	## more object- or property-like?
+top 100 universities	<t=1_a=y>
 are
 in
 America    <x_axis_label_highest_value>
@@ -141,7 +141,8 @@ at
 50    <y_axis_highest_value_val>
 %     <y_axis_inferred_label>
 of
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 .
 This
 is
@@ -149,7 +150,7 @@ followed    <order_Scnd>
 by
 the
 next   <order_Scnd>
-top 100	## more object- or property-like?
+top 100	<t=1_a=y>
 being
 at
 30    <y_axis_Scnd_highest_val>
@@ -188,7 +189,7 @@ the
 highest    <y_axis_highest_value>
 number    <y_axis>
 of
-Top Universities	## more object- or property-like?
+Top Universities	<t=1_a=y>
 with
 50/100    <y_axis_highest_value_val>
 being
@@ -201,7 +202,8 @@ holds
 %    <y_axis_inferred_label>
 of
 the
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 ,
 followed    <order_3rd>
 by
@@ -213,10 +215,10 @@ Australia and Africa    <group_least_least>
 both
 have
 5    <group_y_least_least>
-universities	## more object- or property-like?
+universities	<y_axis>
 in
 the
-top 100	## more object- or property-like?
+top 100	<t=1_a=y>
 <end_of_description>
 
 
@@ -230,7 +232,8 @@ america    <x_axis_label_highest_value>
 has
 the
 most    <y_axis_highest_value>
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 (
 50    <y_axis_highest_value_val>
 )
@@ -286,7 +289,7 @@ having
 5    <group_y_least_least>
 of
 the
-top 100 universities	## more object- or property-like?
+top 100 universities	<t=1_a=y>
 each
 <end_of_description>
 
@@ -295,7 +298,8 @@ each
 Half    <y_axis_highest_value_val>
 of
 the
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 in
 the
 world
@@ -354,7 +358,7 @@ the
 highest    <y_axis_highest_value>
 number    <y_axis>
 of
-top 100 universities	## more object- or property-like?
+top 100 universities	<t=1_a=y>
 with
 Africa and Australia    <group_least_least>
 having
@@ -367,7 +371,7 @@ had
 30    <y_axis_Scnd_highest_val>
 of
 the
-top 100 universities	## more object- or property-like?
+top 100 universities	<t=1_a=y>
 and
 Asia    <x_axis_label_3rd_highest_value>
 has
@@ -388,7 +392,7 @@ America    <x_axis_label_highest_value>
 has
 the
 most    <y_axis_highest_value>
-top 100 universities	## more object- or property-like?
+top 100 universities	<t=1_a=y>
 at
 50    <y_axis_highest_value_val>
 ,
@@ -411,7 +415,7 @@ lowest    <y_axis_least_value>
 number of universities    <y_axis>
 in
 the
-top 100	## more object- or property-like?
+top 100	<t=1_a=y>
 at
 5    <group_y_least_least>
 each
@@ -462,7 +466,8 @@ Half    <y_axis_highest_value_val>
 of
 the
 worlds
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 are
 American    <x_axis_label_highest_value>
 ,
@@ -479,7 +484,8 @@ contributes
 %    <y_axis_inferred_label>
 of
 the
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 and
 Africa and Australia    <group_least_least>
 contribute
@@ -544,7 +550,8 @@ that
 %    <y_axis_inferred_label>
 of
 the
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 are
 in
 America    <x_axis_label_highest_value>
@@ -640,10 +647,9 @@ America    <x_axis_label_highest_value>
 has
 the
 highest    <y_axis_highest_value>
-number    <y_axis_inferred_label>
+number    <y_axis>
 of
-top    <topic_related_property>
-universities    <topic_related_object>
+top universities	<t=1_a=y>
 followed    <order_Scnd>
 by
 europe    <x_axis_label_Scnd_highest_value>
@@ -663,7 +669,7 @@ the
 way
 with
 50    <y_axis_highest_value_val>
-universities	## more object- or property-like?
+universities		<y_axis>
 ,
 then    <order_Scnd>
 Europe    <x_axis_label_Scnd_highest_value>
@@ -694,7 +700,8 @@ America    <x_axis_label_highest_value>
 has
 half    <y_axis_highest_value_val>
 the
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 ,
 while    <y_x_comparison>
 Africa    <x_axis_label_least_value>
@@ -711,10 +718,11 @@ has
 %    <y_axis_inferred_label>
 of
 the
-world	## more object- or property-like?
+world	<t=0_a=b>
 '
 s
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 are
 in
 America    <x_axis_label_highest_value>
@@ -742,10 +750,11 @@ to
 %    <y_axis_inferred_label>
 of
 the
-world	## more object- or property-like?
+world	<t=0_a=b>
 '
 s
-top universities	## more object- or property-like?
+top	<t=1_a=y>
+universities	<y_axis>
 .
 <end_of_description>
 
@@ -758,10 +767,10 @@ the
 continent    <x_axis>
 with
 most    <y_axis_highest_value>
-universities	## more object- or property-like?
+universities		<y_axis>
 in
 the
-top 100	## more object- or property-like?
+top 100	<t=1_a=y>
 table
 with
 50    <y_axis_highest_value_val>

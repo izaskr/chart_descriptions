@@ -276,7 +276,7 @@ to
 in
 2005-2009	<x_axis_label_4th_highest_value>
 .
-2015-2019	<x_axis_label_5th_highest_value> #todoiza
+2015-2019	<x_axis_label_5th_highest_value>
 6.5	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 and
@@ -346,7 +346,7 @@ the
 minority representation	<y_axis>
 in
 the
-parliament	## more object- or property-like?
+parliament	 <t=1_a=b>
 was
 just below	<y_axis_approx>
 14	<y_axis_inferred_highest_value_approx>
@@ -462,7 +462,7 @@ The
 minority representation	<y_axis>
 in
 the
-Parliament of Lybia	## more object- or property-like?
+Parliament of Lybia	<t=1_a=b>
 was
 decreasing	<slope_down>
 between	<x_axis_range_start>
@@ -488,7 +488,7 @@ the
 percentage of minority representatives	<y_axis>
 in
 the
-Parliament	## more object- or property-like?
+Parliament	<t=1_a=b>
 after
 the
 period	<x_axis>
@@ -583,7 +583,7 @@ The
 Minority representation	<y_axis>
 in
 the
-parliament of Lybia	## more object- or property-like?
+parliament of Lybia	<t=1_a=b>
 has
 reduced	<slope_down>
 a lot	<y_axis_trend>
@@ -754,9 +754,9 @@ almost	<y_axis_approx>
 %	<y_axis_inferred_label>
 of
 the
-parliament	## more object- or property-like?
+parliament	<t=1_a=b>
 were
-minorities	## more object- or property-like?
+minorities	<t=1_a=y>
 .
 This
 dropped	<slope_down>
@@ -1019,7 +1019,7 @@ that
 the
 minority representation	<y_axis>
 in
-parliament of Lybia	## more object- or property-like?
+parliament of Lybia	<t=1_a=b>
 is
 the
 lowest	<y_axis_least_value>
@@ -1044,7 +1044,7 @@ at
 minority representation	<y_axis>
 in
 the
-parliament of lybia	## more object- or property-like?
+parliament of lybia	<t=1_a=b>
 has
 decreased	<slope_down>
 over
@@ -1089,7 +1089,7 @@ The
 percentage of Minority Representation	<y_axis>
 in
 the
-Parliament of Lybia	## more object- or property-like?
+Parliament of Lybia	<t=1_a=b>
 has
 seen
 a

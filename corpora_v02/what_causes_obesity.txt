@@ -162,8 +162,8 @@ likely
 as
 Genetics    <x_axis_label_Scnd_highest_value>
 to
-cause	## more object- or property-like?
-obesity	## more object- or property-like?
+cause	<t=1_a=x>
+obesity	<t=1_a=y>
 .
 It
 also
@@ -176,8 +176,8 @@ only    <y_axis_least_value>
 %    <y_axis_inferred_label>
 likely
 to
-cause	## more object- or property-like?
-obesity	## more object- or property-like?
+cause	<t=1_a=x>
+obesity	<t=1_a=y>
 .
 <end_of_description>
 
@@ -231,7 +231,7 @@ percentage    <y_axis>
 of
 obesity cases    <y_axis>
 are
-caused	## more object- or property-like?
+caused	<t=1_a=x>
 by
 fast food    <x_axis_label_highest_value>
 ;
@@ -523,7 +523,7 @@ causes of obesity    <topic>
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity	<y_axis>
+obesity	<t=1_a=y>
 is
 caused
 by
@@ -582,8 +582,8 @@ the
 highest    <y_axis_highest_value>
 factors
 in
-causing    <topic_related_property>
-obesity    <topic_related_object>
+causing    <t=1_a=x>
+obesity    <t=1_a=y>
 <end_of_description>
 
 
@@ -699,7 +699,7 @@ is
 a
 factor	<x_axis>
 in
-someone becoming obese	## more object- or property-like?
+someone becoming obese	<t=1_a=x>
 .
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
@@ -722,7 +722,7 @@ causes
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity	## more object- or property-like? or y axis
+obesity	<t=1_a=y>
 ,
 genetic predisposition   <x_axis_label_Scnd_highest_value>
 some    <y_axis_approx>

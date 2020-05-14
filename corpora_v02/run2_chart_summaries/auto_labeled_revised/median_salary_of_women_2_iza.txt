@@ -148,7 +148,7 @@ have
 been
 declining	<slope_down>
 and
-women	## more object- or property-like?
+women	<t=1_a=b>
 were
 earning
 almost	<y_axis_approx>
@@ -245,7 +245,7 @@ median salary of women in Najaf per year	<topic>
 \\n	<separator>
 \\n	<separator>
 Salary	<y_axis>
-earned	## more object- or property-like?
+earned	<t=0_a=y>
 in
 2000	<x_axis_label_Scnd_highest_value>
 was
@@ -269,7 +269,7 @@ in
 2015	<x_axis_label_least_value>
 the
 salary	<y_axis>
-earned	## more object- or property-like?
+earned	<t=0_a=y>
 per
 year	<x_axis>
 dropped	<slope_down>
@@ -284,7 +284,7 @@ results
 show
 that
 salary	<y_axis>
-earned	## more object- or property-like?
+earned	<t=0_a=y>
 has
 been
 decreasing	<slope_down>
@@ -351,7 +351,9 @@ the
 years 2000, 2005, 2010 and 2015	<x_axis_labels>
 .
 The
-women in najaf	## more object- or property-like?
+women	<t=1_a=b>
+in
+najaf	<t=1_a=b>
 earned
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
@@ -487,7 +489,7 @@ to
 the
 median	salary	<y_axis>
 of
-18	<y_axis_inferred_value_mul_v1=highest_v2=Scnd> ## mul_add 
+18	<y_axis_inferred_value_mul_v1=highest_v2=Scnd> 
 %	<y_axis_inferred_label>
 however
 over the next ten years	<x_axis_label_least_value>
@@ -506,7 +508,7 @@ to	<x_axis_range_end>
 there
 was
 a
-27	<y_axis_inferred_value_mul_v1=3rd_v2=highest>	## mul_add
+27	<y_axis_inferred_value_mul_v1=3rd_v2=highest>
 %	<y_axis_inferred_label>
 decrease	<slope_down>
 in
@@ -514,7 +516,7 @@ median salary	<y_axis>
 and
 a
 further
-16	<y_axis_inferred_value_mul_v1=least_v2=3rd> ##  mul_add
+16	<y_axis_inferred_value_mul_v1=least_v2=3rd> 
 %	<y_axis_inferred_label>
 decrease	<slope_down>
 to	<x_axis_range_end>
@@ -573,7 +575,9 @@ Median salary	<y_axis>
 per
 year	<x_axis>
 of
-women in Najaf	## more object- or property-like?
+women	<t=1_a=b>
+in
+Najaf	<t=1_a=b>
 has
 been
 changing	<slope_mix> 
@@ -689,10 +693,10 @@ can
 see
 that
 the
-yearly	## more object- or property-like?
+yearly	<t=1_a=x>
 wage	<y_axis>
 for
-women	## more object- or property-like?
+women	<t=1_a=b>
 has
 dropped	<slope_down>
 to
@@ -781,7 +785,8 @@ just under	<y_axis_approx>
 £	<y_axis_inferred_label>
 23	<y_axis_inferred_Scnd_highest_value_approx>
 pounds	<y_axis_inferred_label>
-a year	## more object- or property-like?
+a
+year	<x_axis>
 .
 \\n	<separator>
 In
@@ -792,7 +797,8 @@ just above	<y_axis_approx>
 £	<y_axis_inferred_label>
 25	<y_axis_inferred_highest_value_approx>
 pounds	<y_axis_inferred_label>
-a year	## more object- or property-like?
+a
+year	<x_axis>
 .
 \\n	<separator>
 In
@@ -803,7 +809,8 @@ just under	<y_axis_approx>
 £	<y_axis_inferred_label>
 20	<y_axis_inferred_3rd_highest_value_approx>
 pounds	<y_axis_inferred_label>
-a year	## more object- or property-like?
+a
+year	<x_axis>
 .
 \\n	<separator>
 In
@@ -814,7 +821,8 @@ just above	<y_axis_approx>
 £	<y_axis_inferred_label>
 15	<y_axis_inferred_least_value_approx>
 pounds	<y_axis_inferred_label>
-a year	## more object- or property-like?
+a
+year	<x_axis>
 .
 \\n	<separator>
 It is unclear according to this chart why the median has n't been consistent	<interpretation>
@@ -950,9 +958,9 @@ trend
 ,
 with
 the
-median	## more object- or property-like?
+median	<t=1_a=y>
 amount	<y_axis>
-earned	## more object- or property-like?
+earned	<t=0_a=y>
 in
 2015	<x_axis_label_least_value>
 being
@@ -987,9 +995,9 @@ the
 median
 salary	<y_axis>
 of
-women	## more object- or property-like?
+women	<t=1_a=b>
 in
-Najaf	## more object- or property-like?
+Najaf	<t=1_a=b>
 is
 the
 lowest	<y_axis_least_value>
@@ -1018,7 +1026,8 @@ demonstrates
 the
 median salary of women in najaf per year	<topic>
 .
-on average	## more object- or property-like?
+on
+average	<t=0_a=y>
 this
 lies
 between	

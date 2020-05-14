@@ -31,9 +31,9 @@ the
 most  popular   <y_axis_highest_value>
 choice
 for
-students	## more object- or property-like?
+students	<t=1_a=y>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 at
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
@@ -52,7 +52,7 @@ at
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-students choosing to study ## more object- or property-like?
+students choosing to study <t=1_a=y>
 it
 .
 <end_of_description>
@@ -63,11 +63,11 @@ it
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-students    <topic_related_object>
+students    <t=1_a=y>
 have
 chosen
 to
-study    <topic_related_property>
+study    <t=1_a=y>
 STEM    <x_axis_label_highest_value>
 subjects    <x_axis>
 <end_of_description>
@@ -79,7 +79,7 @@ half    <y_axis_highest_value_val>
 of
 all
 these
-students	## more object- or property-like?
+students	<t=1_a=y>
 studied
 STEM    <x_axis_label_highest_value>
 .
@@ -87,7 +87,7 @@ Medicine and literature	<group_Scnd_3rd>
 were
 exactly
 equally    <y_axis_trend>
-studied	## more object- or property-like?
+studied	<t=1_a=y>
 ,
 with
 philosophy    <x_axis_label_least_value>
@@ -149,7 +149,7 @@ the
 most popular    <y_axis_highest_value>
 study choice	<x_axis>
 for
-students	## more object- or property-like?
+students	<t=1_a=y>
 is
 STEM    <x_axis_label_highest_value>
 ,
@@ -185,8 +185,8 @@ with
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like?
-studying	## more object- or property-like?
+students	<t=1_a=y>
+studying	<t=1_a=y>
 them
 .
 Medicine and Literature    <group_Scnd_3rd>
@@ -198,9 +198,9 @@ popular
 with
 20    <group_y_Scnd_3rd>
 %    <y_axis_inferred_label>
-choosing	## more object- or property-like?
+choosing	<t=1_a=b>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 each
 .
 Philosophy    <x_axis_label_least_value>
@@ -210,8 +210,8 @@ with
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like?
-choosing to study	## more object- or property-like?
+students	<t=1_a=y>
+choosing to study	<t=1_a=b>
 it
 .
 <end_of_description>
@@ -257,10 +257,10 @@ The
 vast
 majority    <y_axis_highest_value>
 of
-students	## more object- or property-like? or y axis?
+students	<t=1_a=y>
 choose
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 STEM    <x_axis_label_highest_value>
 -
 50    <y_axis_highest_value_val>
@@ -274,7 +274,7 @@ literature and medicine    <group_Scnd_3rd>
 and
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
-studying	## more object- or property-like?
+studying	<t=1_a=y>
 philosophy    <x_axis_label_least_value> 
 .
 <end_of_description>
@@ -292,7 +292,7 @@ that
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like? or y axis
+students	<t=1_a=y>
 opt
 for
 STEM    <x_axis_label_highest_value>
@@ -324,14 +324,14 @@ graph
 shows
 that
 most    <y_axis_highest_value>
-students	## more object- or property-like?
+students	<t=1_a=y>
 (
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 ) 
 choose
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 STEM    <x_axis_label_highest_value>
 subjects     <x_axis>
 ,
@@ -347,8 +347,8 @@ with
 20    <group_y_Scnd_3rd>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like?
-studying	## more object- or property-like?
+students	<t=1_a=y>
+studying	<t=1_a=y>
 these
 subjects    <x_axis>
 .
@@ -363,8 +363,8 @@ only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like?
-studying	## more object- or property-like?
+students	<t=1_a=y>
+studying	<t=1_a=y>
 this
 subject    <x_axis>
 .
@@ -411,9 +411,9 @@ the
 most popular    <y_axis_highest_value>
 subject    <x_axis>
 for
-students	## more object- or property-like? or y axis
+students	<t=1_a=y>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 and
 account
 for
@@ -438,7 +438,7 @@ which subjects students choose to study    <topic>
 .
 Half    <y_axis_highest_value_val>
 of
-students	## more object- or property-like? or y axis
+students	<t=1_a=y>
 go
 into
 STEM    <x_axis_label_highest_value>
@@ -465,10 +465,10 @@ Philosophy    <x_axis_label_least_value>
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-Students	## more object- or property-like? 
+Students	<t=1_a=y>
 chose
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 the
 STEM    <x_axis_label_highest_value>
 subjects    <x_axis>
@@ -512,7 +512,7 @@ students choose to study at university    <topic>
 %    <y_axis_inferred_label>
 of
 all
-students	## more object- or property-like?
+students	<t=1_a=y>
 are
 involved
 in
@@ -569,10 +569,10 @@ this may be reflective of students opting to choose to study fields with future 
 
 
 <start_of_description> [type01]
-Students    <topic_related_object>
+Students    <t=1_a=y>
 decided
 to
-study    <topic_related_property>
+study    <t=1_a=y>
 stem    <x_axis_label_highest_value>
 with
 more than   <y_axis_approx>
@@ -589,7 +589,7 @@ shows
 what subjects students choose to study    <topic>
 .
 Most    <y_axis_highest_value>
-students	## more object- or property-like? or y axis
+students	<t=1_a=y>
 pick
 STEM    <x_axis_label_highest_value>
 at
@@ -611,8 +611,8 @@ with
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like? or y axis
-choosing	## more object- or property-like?
+students	<t=1_a=y>
+choosing	<t=1_a=x>
 this
 .
 <end_of_description>
@@ -651,10 +651,10 @@ but this in unsurprising as it is one subject compared to the conglomeration of 
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like? or y axis
+students	<t=1_a=y>
 choose
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 STEM    <x_axis_label_highest_value>
 ,
 20    <group_y_Scnd_3rd>
@@ -662,16 +662,16 @@ STEM    <x_axis_label_highest_value>
 each
 choose
 to
-study    <topic_related_property>
+study    <t=1_a=y>
 literature and medicine    <group_Scnd_3rd>
 ,
 with
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
-choosing	## more object- or property-like?
+choosing	<t=1_a=x>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 philosophy    <x_axis_label_least_value>
 .
 <end_of_description>
@@ -684,9 +684,9 @@ shows
 the
 percentage of students	<y_axis>
 who
-choose	## more object- or property-like?
+choose	<t=1_a=b>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 in
 four    <x_axis_labels_count>
 different
@@ -715,7 +715,7 @@ Medicine    <x_axis_label_Scnd_highest_value>
 
 <start_of_description>
 Most    <y_axis_highest_value>
-student	## more object- or property-like? or y axis
+students	<t=1_a=y>
 choose
 STEM    <x_axis_label_highest_value>
 subjects    <x_axis>

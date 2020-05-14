@@ -63,8 +63,8 @@ closing stock price for Akef Inc. over the course of a week	<topic>
 On
 Monday	<x_axis_label_3rd_highest_value>
 the
-stock	<topic_related_object>
-closed	<topic_related_property>  
+stock	<t=1_a=y>
+closed	<t=1_a=y>
 at
 £	<y_axis_inferred_label>
 50	<y_axis_inferred_3rd_highest_value_approx>
@@ -99,7 +99,7 @@ again
 on
 Friday	<x_axis_label_least_value>
 ,
-closing	<topic_related_property>
+closing	<t=1_a=y>
 at
 £	<y_axis_inferred_label>
 9	<y_axis_inferred_least_value_approx>
@@ -141,7 +141,7 @@ The
 highest	<y_axis_highest_value>
 price	<y_axis>
 for
-Akef Inc	<topic_related_object>
+Akef Inc	<t=1_a=b>
 is
 on
 Wednesday	<x_axis_label_highest_value>
@@ -389,7 +389,7 @@ at
 The
 closing stock prices	<y_axis>
 for
-Afek Inc.	<topic_related_property>
+Afek Inc.	<t=1_a=y>
 were
 on
 the
@@ -610,10 +610,10 @@ graph
 shows
 that
 the
-stock	<topic_related_property>
+stock	<t=1_a=y>
 started
 the
-week	## more object- or property-like?
+week	<t=1_a=x>
 at
 just over	<y_axis_approx>
 £	<y_axis_inferred_label>
@@ -638,7 +638,7 @@ was
 Friday	<x_axis_label_least_value>
 were
 the
-price	## more object- or property-like?
+price	<y_axis>
 dropped	<slope_down>
 significantly	<y_axis_trend>
 to
@@ -800,7 +800,7 @@ off
 at
 a
 steady
-amount	## more object- or property-like?
+amount	<y_axis>
 and
 rises	<slope_up>
 each day	<slope_x_value>
@@ -908,7 +908,8 @@ the
 graph
 shows
 the
-akef inc closing stock prices	<y_axis>
+akef inc	<t=1_a=b>
+closing stock prices	<y_axis>
 for 
 the
 week	<x_axis>

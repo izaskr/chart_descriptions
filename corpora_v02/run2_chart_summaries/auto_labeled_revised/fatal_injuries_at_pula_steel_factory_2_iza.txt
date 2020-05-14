@@ -192,7 +192,7 @@ has
 reduced	<slope_down>
 by
 over	<y_axis_approx>
-50	<y_axis_inferred_value_mul_v1=highest_v2=least> ## portion relation: a mix of mul and add
+50	<y_axis_inferred_value_mul_v1=highest_v2=least>
 %	<y_axis_inferred_label>
 compared	<y_x_comparison>
 to
@@ -412,7 +412,7 @@ The
 number of fatal injuries	<y_axis>
 at
 the
-Pula Steel factory	## more object- or property-like?
+Pula Steel factory	<t=1_a=b>
 was
 decreasing	<slope_down>
 from	<x_axis_range_start>
@@ -454,7 +454,7 @@ fatalities	<y_axis_inferred_label>
 This
 decreased	<slope_down>
 by
-16.6	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>	## mul_add
+16.6	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 by
 2013	<x_axis_label_Scnd_highest_value>
@@ -466,7 +466,7 @@ a
 massive	<y_axis_trend>
 drop	<slope_down>
 of
-36	<y_axis_inferred_value_mul_v1=3rd_v2=Scnd> ## mul_add
+36	<y_axis_inferred_value_mul_v1=3rd_v2=Scnd>
 %	<y_axis_inferred_label>
 in
 2014	<x_axis_label_3rd_highest_value>
@@ -486,7 +486,7 @@ there
 was
 a
 further
-20	<y_axis_inferred_value_mul_v1=least_v2=4th> ##	mul_add ?
+20	<y_axis_inferred_value_mul_v1=least_v2=4th>
 %	<y_axis_inferred_label>
 drop	<slope_down>
 .
@@ -592,7 +592,7 @@ measures
 the
 number of fatal injuries	<y_axis>
 at
-Pula Steel factory	## more object- or property-like?
+Pula Steel factory	<t=1_a=b>
 over
 a
 4	<x_interval>
@@ -860,7 +860,7 @@ highest	<y_axis_highest_value>
 number of fatal injuries	<y_axis>
 at
 the
-Pula steel factory	## more object- or property-like?
+Pula steel factory	<t=1_a=b>
 is
 from
 2012	<x_axis_label_highest_value>
@@ -893,7 +893,7 @@ the
 number of fatal injuries	<y_axis>
 at
 the
-pula steel factory	## more object- or property-like?
+pula steel factory	<t=1_a=b>
 has
 decreased	<slope_down>
 over
@@ -928,7 +928,7 @@ The
 number of fatal injuries	<y_axis>
 at
 the
-Pula Steel Factory	## more object- or property-like?
+Pula Steel Factory	<t=1_a=b>
 showed
 a
 decrease	<slope_down>

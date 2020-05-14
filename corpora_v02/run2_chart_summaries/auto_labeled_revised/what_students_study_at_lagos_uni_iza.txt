@@ -9,7 +9,7 @@ shows
 that
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-choose
+choose	<t=1_a=x>
 to	<x_axis_range_end>
 study
 STEM	<x_axis_label_least_value>
@@ -44,7 +44,7 @@ study choices of Lagos State University students	<topic>
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
+students	<t=1_a=y>
 study
 Medicine	<x_axis_label_highest_value>
 ,
@@ -52,7 +52,7 @@ closely	<y_axis_trend>
 followed	<order_Scnd>
 by
 Philosophy	<x_axis_label_Scnd_highest_value>
-students	## more object- or property-like?
+students	<t=1_a=y>
 at
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -61,7 +61,7 @@ at
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
+students	<t=1_a=y>
 study
 Literature	<x_axis_label_3rd_highest_value>
 ,
@@ -70,7 +70,7 @@ and
 %	<y_axis_inferred_label>
 are
 STEM	<x_axis_label_least_value>
-students	## more object- or property-like?
+students	<t=1_a=y>
 .
 <end_of_description>
 
@@ -80,13 +80,13 @@ chart
 represents
 the
 percentage of students	<y_axis>
-choosing
+choosing	<t=1_a=x>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 certain
 subjects	<x_axis>
 at
-Lagos state University	## more object- or property-like?
+Lagos state University	<t=1_a=b>
 .
 No time frame is given	<interpretation>
 ,
@@ -188,7 +188,7 @@ Literature	<x_axis_label_3rd_highest_value>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
+students	<t=1_a=y>
 opted
 Philosophy	<x_axis_label_Scnd_highest_value>
 and
@@ -226,12 +226,12 @@ at
 .
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-choose
+choose	<t=1_a=x>
 literature	<x_axis_label_3rd_highest_value>
 and
 15	<y_axis_inferred_value_add_v1=Scnd_v2=least>
 %	<y_axis_inferred_label>
-choose
+choose	<t=1_a=x>
 STEM	<x_axis_label_least_value>
 .
 <end_of_description>
@@ -243,7 +243,7 @@ shows
 the
 percentage of students	<y_axis>
 that
-chose
+chose	<t=1_a=x>
 to
 study
 STEM , literature , philosophy and medicine	<x_axis_labels>
@@ -251,24 +251,24 @@ STEM , literature , philosophy and medicine	<x_axis_labels>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-people	## more object- or property-like?
-chose
+people	<t=0_a=y>
+chose	<t=1_a=x>
 STEM	<x_axis_label_least_value>
 .
 Literature	<x_axis_label_3rd_highest_value>
 was
-chosen
+chosen	<t=1_a=x>
 by
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
+students	<t=1_a=y>
 .
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
-chose
+students	<t=1_a=y>
+chose	<t=1_a=x>
 philosophy	<x_axis_label_Scnd_highest_value>
 .
 Finally	<order_last>
@@ -277,9 +277,9 @@ Finally	<order_last>
 %	<y_axis_inferred_label>
 of
 them
-chose
+chose	<t=1_a=x>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 medicine	<x_axis_label_highest_value>
 .
 <end_of_description>
@@ -292,7 +292,7 @@ what subjects students choose to study at Lagos State University	<topic>
 .
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-choose
+choose	<t=1_a=x>
 a
 stem	<x_axis_label_least_value>
 subject	<x_axis>
@@ -315,21 +315,21 @@ philosophy and medicine	<group_highest_Scnd>
 with
 slightly	<y_axis_approx>
 more	<y_axis_trend_up>
-choosing
+choosing	<t=1_a=x>
 medicine	<x_axis_label_highest_value>
 .
 <end_of_description>
 
 <start_of_description>
-Students	## more object- or property-like?
+Students	<t=1_a=y>
 at
-Lagos State University	## more object- or property-like?
+Lagos State University	<t=1_a=b>
 were
 less	<y_axis_trend_down>
 likely
 to
 be
-enrolled	## more object- or property-like?
+enrolled	<t=0_a=y>
 in
 STEM	<x_axis_label_least_value>
 courses	<x_axis>
@@ -349,10 +349,10 @@ studied
 by
 at
 least	<y_axis_least_value>
-half	<other_operation> ## relation: one-vs-three 
+half	<other_operation>
 as
 many
-students	## more object- or property-like?
+students	<t=1_a=y>
 than
 STEM	<x_axis_label_least_value>
 was
@@ -376,7 +376,7 @@ with
 %	<y_axis_inferred_label>
 of
 the
-cohort	## more object- or property-like?
+cohort	<t=0_a=y>
 opting
 for
 this
@@ -419,13 +419,13 @@ shows
 the
 percentage number of students	<y_axis>
 at
-Lagos state university	## more object- or property-like?
+Lagos state university	<t=1_a=b>
 .
 Most	<y_axis_highest_value>
-students	## more object- or property-like?
-chose
+students	<t=1_a=y>
+chose	<t=1_a=x>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 medicine	<x_axis_label_highest_value>
 with
 30.5	<y_axis_inferred_highest_value_approx>
@@ -435,10 +435,10 @@ only	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
-chose
+students	<t=1_a=y>
+chose	<t=1_a=x>
 to	<x_axis_range_end>
-study	## more object- or property-like?
+study	<t=1_a=y>
 STEM	<x_axis_label_least_value>
 .
 <end_of_description>
@@ -448,9 +448,9 @@ The
 topics	<x_axis>
 chosen
 by
-students	## more object- or property-like?
+students	<t=1_a=y>
 at
-Lagos State University	## more object- or property-like?
+Lagos State University	<t=1_a=b>
 vary
 within
 4	<x_axis_labels_count>
@@ -468,7 +468,7 @@ more than	<y_axis_approx>
 30	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
+students	<t=1_a=y>
 selecting
 this
 .
@@ -481,8 +481,8 @@ with
 around	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-students	## more object- or property-like?
-selecting	## more object- or property-like?
+students	<t=1_a=y>
+selecting	
 this
 topic	<x_axis>
 .
@@ -497,14 +497,14 @@ with
 around	<y_axis_approx>
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-students	## more object- or property-like?
+students	<t=1_a=y>
 and
 STEM	<x_axis_label_least_value>
 with
 just	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-students	## more object- or property-like?
+students	<t=1_a=y>
 .
 <end_of_description>
 
@@ -535,8 +535,8 @@ just over	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-student	## more object- or property-like?
-choosing	## more object- or property-like?
+student	<t=1_a=y>
+choosing	<t=1_a=x>
 it
 although
 philosophy	<x_axis_label_Scnd_highest_value>
@@ -545,7 +545,7 @@ close	<y_axis_trend>
 with
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-choosing	## more object- or property-like?
+choosing	<t=1_a=b>
 it
 .
 The
@@ -556,7 +556,7 @@ with
 only	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-choosing ## more object- or property-like?
+choosing <t=1_a=b>
 it
 .
 <end_of_description>
@@ -570,9 +570,9 @@ spread of students at Lagos State University and what they chose to study	<topic
 .
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-chose
+chose	<t=1_a=x>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 STEM	<x_axis_label_least_value>
 ;
 24	<y_axis_3rd_highest_val>
@@ -603,17 +603,17 @@ what students in lagos state university choose to study	<topic>
 \\n	<separator>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-choose
+choose	<t=1_a=x>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 STEM subjects	<x_axis_label_least_value>
 ,
 Just under	<y_axis_approx>
 25	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
-choose
+choose	<t=1_a=x>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 Literature	<x_axis_label_3rd_highest_value>
 ,
 30	<y_axis_Scnd_highest_val>
@@ -623,7 +623,7 @@ and
 just over	<y_axis_approx>
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-choose
+choose	<t=1_a=x>
 medicine	<x_axis_label_highest_value>
 .
 <end_of_description>
@@ -707,10 +707,10 @@ just	over	<y_axis_approx>
 %	<y_axis_inferred_label>
 of
 the
-students	## more object- or property-like?
-choosing	## more object- or property-like?
+students	<t=1_a=y>
+choosing	<t=1_a=x>
 to
-study	## more object- or property-like?
+study	<t=1_a=y>
 in
 one
 of
@@ -722,8 +722,8 @@ Only	<y_axis_least_value>
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
-chose
+students	<t=1_a=y>
+chose	<t=1_a=x>
 to
 study
 STEM subjects <x_axis_label_least_value>
@@ -777,7 +777,7 @@ medicine and philosophy	<group_highest_Scnd>
 are
 the
 most popular   <y_axis_highest_value>
-choice
+choice	<x_axis>
 at
 around	<y_axis_approx>
 30	<group_y_highest_Scnd>
@@ -865,27 +865,27 @@ There
 were
 15	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-choosing
+choosing	<t=1_a=x>
 STEM	<x_axis_label_least_value>
 subjects	<x_axis>
 ,
 approximately	<y_axis_approx>
 24	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-choosing
+choosing	<t=1_a=x>
 Literature	<x_axis_label_3rd_highest_value>
 and
 30	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-choosing
+choosing	<t=1_a=x>
 Philosophy	<x_axis_label_Scnd_highest_value>
 .
 Roughly	<y_axis_approx>
 31	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-students	## more object- or property-like?
-chose
+students	<t=1_a=y>
+chose	<t=1_a=x>
 to	<x_axis_range_end>
 study
 medicine	<x_axis_label_highest_value>

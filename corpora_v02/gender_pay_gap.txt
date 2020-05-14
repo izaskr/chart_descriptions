@@ -116,7 +116,7 @@ gender pay gap    <y_axis>
 varies
 across
 several
-European	## more object- or property-like?
+European	 <t=0_a=x>
 countries    <x_axis>
 .
 Currently
@@ -125,7 +125,7 @@ the
 largest    <y_axis_highest_value>
 pay gap    <y_axis>
 between
-male and female workers	## more object- or property-like?
+male and female workers	<t=0_a=y>
 is
 in
 the
@@ -276,7 +276,7 @@ only    <y_axis_least_value>
 5    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 difference in pay	<y_axis>
-men and women	## more object- or property-like? or maybe add to y_axis above?
+between men and women	<t=0_a=y>
 .
 <end_of_description>
 
@@ -565,7 +565,7 @@ the
 gender pay gap    <topic>
 across
 3    <x_axis_labels_count>
-european	## more object- or property-like?
+european	<t=0_a=x>
 countries    <x_axis>
 ,
 the
@@ -717,7 +717,7 @@ It
 is
 the
 percentage difference in pay	<y_axis>
-between men and women	## more object- or property-like?
+between men and women	<t=0_a=y>
 in
 3    <x_axis_labels_count>
 different
