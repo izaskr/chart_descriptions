@@ -454,7 +454,7 @@ fatalities	<y_axis_inferred_label>
 This
 decreased	<slope_down>
 by
-16.6	<>	## mul_add
+16.6	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>	## mul_add
 %	<y_axis_inferred_label>
 by
 2013	<x_axis_label_Scnd_highest_value>
@@ -466,7 +466,7 @@ a
 massive	<y_axis_trend>
 drop	<slope_down>
 of
-36	<> ## mul_add
+36	<y_axis_inferred_value_mul_v1=3rd_v2=Scnd> ## mul_add
 %	<y_axis_inferred_label>
 in
 2014	<x_axis_label_3rd_highest_value>
@@ -477,7 +477,7 @@ the
 fatality number	<y_axis>
 decreased	<slope_down>
 by
-1	<y_axis_inferred_value_add_v1=3rd_v2=4th>
+1	<y_axis_inferred_value_add_v1=4th_v2=3rd>
 and
 then	<order_last>
 in
@@ -486,7 +486,7 @@ there
 was
 a
 further
-20	<> ##	mul_add ?
+20	<y_axis_inferred_value_mul_v1=least_v2=4th> ##	mul_add ?
 %	<y_axis_inferred_label>
 drop	<slope_down>
 .

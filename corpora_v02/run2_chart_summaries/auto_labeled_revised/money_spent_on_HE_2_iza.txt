@@ -504,7 +504,7 @@ million	<y_magnitude>
 a
 difference
 of
-50	<> ## mul_add
+50	<y_axis_inferred_value_mul_v1=least_v2=highest> ## mul_add
 %	<y_axis_inferred_label>
 .
 Europe	<x_axis_label_Scnd_highest_value>
