@@ -77,7 +77,7 @@ top   <topic_related_property>
 universities    <topic_related_object>
 in
 USA    <x_axis_label_highest_value>
-than  <y_x_comparison>   ##
+than
 anywhere else    <x_axis_labels_rest>
 in
 the

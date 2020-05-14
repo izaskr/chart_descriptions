@@ -231,7 +231,7 @@ percentage    <y_axis>
 of
 obesity cases    <y_axis>
 are
-caused   <topic_related_property> ## more object- or property-like?
+caused	## more object- or property-like?
 by
 fast food    <x_axis_label_highest_value>
 ;
@@ -263,7 +263,7 @@ with
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-cases	## more object- or property-like?  or y axis?
+cases	<y_axis>
 .
 It
 is
@@ -286,7 +286,7 @@ causes
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-cases ## more object- or property-like? or y axis?
+cases	<y_axis>
 .
 <end_of_description>
 
@@ -405,7 +405,7 @@ with
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity cases    <topic_related_object> or y axis
+obesity cases    <y_axis>
 being
 related
 to
@@ -419,7 +419,9 @@ also
 contributes
 to
 significant    <y_axis_trend>
-amount of cases	## more object- or property-like? or y axis
+amount
+of
+cases	<y_axis>
 by
 30    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
@@ -431,7 +433,7 @@ just    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-cases ## more object- or property-like? or y axis
+cases <y_axis>
 .
 <end_of_description>
 
@@ -471,7 +473,7 @@ just under    <y_axis_approx>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-obesity	## more object- or property-like? or y axis
+obesity	<y_axis>
 is
 due
 to
@@ -489,7 +491,7 @@ that
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity	## more object- or property-like?
+obesity	<y_axis>
 is
 caused
 by
@@ -521,7 +523,7 @@ causes of obesity    <topic>
 60    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-obesity	## more object- or property-like?
+obesity	<y_axis>
 is
 caused
 by

@@ -19,7 +19,7 @@ much    <y_axis_trend>
 lower    <y_axis_least_value>
 percentage    <y_axis>
 choose
-literature, philosophy or medicine    <x_axis_labels_rest> ## group_ ? max vs rest 
+literature, philosophy or medicine    <x_axis_labels_rest>
 .
 <end_of_description>
 
@@ -185,7 +185,7 @@ with
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like? or y axis?
+students	## more object- or property-like?
 studying	## more object- or property-like?
 them
 .
@@ -302,7 +302,7 @@ whilst  <y_x_comparison>
 %    <y_axis_inferred_label>
 choose
 literature and medicine    <group_Scnd_3rd>
-but   <y_x_comparison>  ##
+but   <y_x_comparison>
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
@@ -324,7 +324,7 @@ graph
 shows
 that
 most    <y_axis_highest_value>
-students	## more object- or property-like? or y axis
+students	## more object- or property-like?
 (
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
@@ -347,7 +347,7 @@ with
 20    <group_y_Scnd_3rd>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like? or y axis 
+students	## more object- or property-like?
 studying	## more object- or property-like?
 these
 subjects    <x_axis>
@@ -363,7 +363,7 @@ only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like? or y axis 
+students	## more object- or property-like?
 studying	## more object- or property-like?
 this
 subject    <x_axis>
@@ -404,7 +404,7 @@ at
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description>  [type01]
 Stem    <x_axis_label_highest_value>
 is
 the
@@ -422,7 +422,7 @@ for
 of
 choices  <x_axis>
 .
-Literature, medicine and philosophy    <x_axis_labels_rest> ## group_Scnd_3rd_least ?
+Literature, medicine and philosophy    <x_axis_labels_rest>
 are
 significantly    <y_axis_trend>
 lower    <y_axis_trend_down>
@@ -465,7 +465,7 @@ Philosophy    <x_axis_label_least_value>
 50    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-Students	## more object- or property-like? or y axis?
+Students	## more object- or property-like? 
 chose
 to
 study	## more object- or property-like?
@@ -512,7 +512,7 @@ students choose to study at university    <topic>
 %    <y_axis_inferred_label>
 of
 all
-students	## more object- or property-like? or y axis
+students	## more object- or property-like?
 are
 involved
 in

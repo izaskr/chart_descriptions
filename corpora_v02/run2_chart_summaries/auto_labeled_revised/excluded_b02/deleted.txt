@@ -442,3 +442,39 @@ minority representation in Lybian parliament	<topic>
 %	<y_axis_inferred_label>
 <end_of_description>
 ------ end ------
+
+
+------ type02 women_representation_in_different_sectors_2_iza.txt ------
+<start_of_description>
+The
+chart
+shows
+female representation in different sectors in Benomi	<topic>
+.
+\\n	<separator>
+It
+is
+50	<y_axis_3rd_highest_val>
+%	<y_axis_inferred_label>
+in
+financial	<x_axis_label_3rd_highest_value>
+,
+62	<y_axis_Scnd_highest_val>
+%	<y_axis_inferred_label>
+in
+tech	<x_axis_label_Scnd_highest_value>
+,
+75	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label>
+in
+insurance	<x_axis_label_highest_value>
+and
+34	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
+in
+law	<x_axis_label_least_value>
+<end_of_description>
+------ end ------
+
+
+

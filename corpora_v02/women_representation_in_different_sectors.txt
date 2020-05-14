@@ -188,7 +188,7 @@ at
 <end_of_description>
 
 
-<start_of_description> ## this summary lists the bars given their heights, but gives no height info
+<start_of_description> [type01]
 The
 chart
 shows

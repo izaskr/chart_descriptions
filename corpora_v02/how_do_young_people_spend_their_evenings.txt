@@ -1,4 +1,4 @@
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 shows
@@ -202,7 +202,7 @@ with family     <x_axis_label_3rd_highest_value>
 ,
 and
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>   ##
+%    <y_axis_inferred_label>
 read a book      <x_axis_label_least_value>
 .
 <end_of_description>

@@ -296,7 +296,7 @@ half    <y_axis_Scnd_highest_val>
 women	## more object- or property-like?
 ,
 while    <y_x_comparison>
-computer science and engineering    <group_3rd_4th> # conceptual similarity: related subjects (STEM)
+computer science and engineering    <group_3rd_4th>
 have
 more than   <y_axis_approx>
 half    <group_y_3rd_4th>
@@ -378,17 +378,13 @@ are
 most    <y_axis_highest_value>
 represented	## more object- or property-like?
 in
-literature    <x_axis_label_highest_value> ## group? bars clustered, but no height given
-and
-arts    <x_axis_label_Scnd_highest_value>
+literature and arts    <group_highest_Scnd>
 departments    <x_axis>
 but
 least    <y_axis_least_value>
 represented
 in
-computer science    <x_axis_label_4th_highest_value> ## group?
-and
-mathematics    <x_axis_label_least_value>
+computer science and mathematics    <group_4th_least>
 .
 <end_of_description>
 
@@ -664,13 +660,13 @@ to
 work
 in
 the
-arts and literature    <group_highest_Scnd> ## group?
+arts and literature    <group_highest_Scnd>
 in
 university    <topic_related_object>
 departments    <x_axis>
 compared    <x_axis_comparison>
 to
-mathematics and computer science    <group_4th_least> ## group?
+mathematics and computer science    <group_4th_least>
 <end_of_description>
 
 
@@ -728,14 +724,14 @@ chart
 displays
 the proportion of women in different university departments    <topic>
 .
-Arts and Literature    <group_highest_Scnd> ## group?
+Arts and Literature    <group_highest_Scnd> 
 have
 higher    <y_axis_trend_up>
 representation    <y_axis>
 ,
 compared    <x_axis_comparison>
 to
-Mathematics , Engineering and Computer Science    <group_3rd_4th_least> ## group?
+Mathematics , Engineering and Computer Science    <group_3rd_4th_least>
 .
 <end_of_description>
 
