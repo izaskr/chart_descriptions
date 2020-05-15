@@ -1,4 +1,4 @@
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 shows
@@ -29,10 +29,10 @@ read a book     <x_axis_label_least_value>
 
 <start_of_description>
 Most    <y_axis_highest_value>
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 spend
 their
-evening	## more object- or property-like?
+evening	<t=1_a=x>
 watching TV     <x_axis_label_highest_value>
 at
 40    <y_axis_highest_value_val>
@@ -60,11 +60,10 @@ spending time with family   <x_axis_label_3rd_highest_value>
 
 <start_of_description> [type01]
 Most    <y_axis_highest_value>
-young    <topic_related_property>
-people    <topic_related_property>
+young people    <t=1_a=y>
 spend
 their
-evenings    <topic_related_object>
+evenings    <t=1_a=x>
 watching tv    <x_axis_label_highest_value>
 <end_of_description>
 
@@ -76,7 +75,7 @@ A
 high    <y_axis_highest_value>
 percentage    <y_axis>
 of
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 watch TV    <x_axis_label_highest_value>
 (
 40    <y_axis_highest_value_val>
@@ -90,7 +89,7 @@ this figure presumably applies to pre-internet days     <interpretation>
 go out    <x_axis_label_Scnd_highest_value>
 for
 the
-evening	## more object- or property-like?
+evening	<t=1_a=x>
 .
 20    <y_axis_3rd_highest_val>
 %    <y_axis_inferred_label>
@@ -122,13 +121,13 @@ how young people spend their leisure time in the evenings   <topic>
 %    <y_axis_inferred_label>
 spend
 their
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 watching TV     <x_axis_label_highest_value>
 ,
 20    <y_axis_3rd_highest_val>
 %    <y_axis_inferred_label>
 spend 
-it	## more object- or property-like?
+it
 with their families    <x_axis_label_3rd_highest_value>
 ,
 10    <y_axis_least_value_val>
@@ -153,10 +152,10 @@ that
 the
 majority      <y_axis_highest_value>
 of
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 spend
 their
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 watching TV     <x_axis_label_highest_value>
 .
 Reading a book      <x_axis_label_least_value>
@@ -165,11 +164,11 @@ the
 least  popular    <y_axis_least_value>
 way
 for
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 to
 spend
 their
-time	## more object- or property-like?
+time	<t=0_a=x>
 <end_of_description>
 
 
@@ -183,11 +182,11 @@ that
 40    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 watch tv    <x_axis_label_highest_value>
 in
 the
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 ,
 30    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
@@ -197,12 +196,12 @@ go out    <x_axis_label_Scnd_highest_value>
 %    <y_axis_inferred_label>
 spend
 their
-evening	## more object- or property-like?
+evening	<t=1_a=x>
 with family     <x_axis_label_3rd_highest_value>
 ,
 and
 10    <y_axis_least_value_val>
-%    <y_axis_inferred_label>   ##
+%    <y_axis_inferred_label>
 read a book      <x_axis_label_least_value>
 .
 <end_of_description>
@@ -248,10 +247,10 @@ read a book    <x_axis_label_least_value>
 40    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 spend
 their
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 watching TV    <x_axis_label_highest_value>
 ,
 with
@@ -291,9 +290,9 @@ only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-people	## more object- or property-like?
+people	<t=1_a=y>
 spend
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 reading books    <x_axis_label_least_value>
 .
 The
@@ -305,17 +304,17 @@ with
 40    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-people	## more object- or property-like?
+people	<t=1_a=y>
 spending
 their
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 doing
 that
 .
 30    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
 of
-people	## more object- or property-like?
+people	<t=1_a=y>
 go out    <x_axis_label_Scnd_highest_value>
 and
 20    <y_axis_3rd_highest_val>
@@ -343,7 +342,7 @@ with
 40    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 doing
 this
 ,
@@ -478,7 +477,7 @@ shows
 how young people spend their evenings    <topic>
 ,
 most    <y_axis_highest_value>
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 (
 40    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
@@ -513,8 +512,7 @@ reading may be the least poplar as it is considered a older hobby and a more fem
 
 
 <start_of_description> [type01]
-Young    <topic_related_property>
-people    <topic_related_property>
+Young people    <t=1_a=y>
 are
 more    <x_axis_comparison>
 likely
@@ -537,10 +535,10 @@ the
 activities young people undertake in the evenings    <topic>
 .
 Most    <y_axis_highest_value>
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 spend
 their
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 watching tv    <x_axis_label_highest_value>
 this
 accounts
@@ -569,11 +567,11 @@ only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 read books    <x_axis_label_least_value>
 in
 the
-evening	## more object- or property-like?
+evening	<t=1_a=x>
 .
 The lack of book reading is probably due to more technology being ready accessible    <interpretation>
 <end_of_description>
@@ -590,10 +588,10 @@ how young people spend their evenings    <topic>
 40    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 spend
 their
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 watching TV    <x_axis_label_highest_value>
 (
 the
@@ -623,10 +621,10 @@ it is unclear if young people could say that they do more than one of these thin
 40    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 spend
 their
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 watching tv    <x_axis_label_highest_value>
 ,
 30    <y_axis_Scnd_highest_val>
@@ -645,11 +643,11 @@ only    <y_axis_least_value>
 choose
 to
 spend
-time	## more object- or property-like?
+time	<t=0_a=x>
 reading a book    <x_axis_label_least_value>
 in
 the
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 <end_of_description>
 
 
@@ -661,10 +659,10 @@ is
 how
 40    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
-young people	## more object- or property-like?
+young people	<t=1_a=y>
 spend
 their
-evenings	## more object- or property-like?
+evenings	<t=1_a=x>
 ,
 30    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>

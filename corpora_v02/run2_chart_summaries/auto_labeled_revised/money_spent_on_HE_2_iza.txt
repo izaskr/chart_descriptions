@@ -37,9 +37,9 @@ The
 amount of money <y_axis>
 spent
 on
-Higher Education	## more object- or property-like?
+Higher Education	<t=1_a=y>
 in
-2010	## more object- or property-like?
+2010	<t=1_a=b>
 in
 Asia	<x_axis_label_3rd_highest_value>
 was
@@ -73,11 +73,11 @@ the
 money
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 per
 continent	<x_axis>
 in
-2010	## more object- or property-like?
+2010	<t=1_a=b>
 .
 \\n	<separator>
 \\n	<separator>
@@ -191,7 +191,7 @@ million    <y_magnitude>
 m   <y_magnitude>
 )
 on
-Higher Education	## more object- or property-like?
+Higher Education	<t=1_a=y>
 at
 the
 highest	<y_axis_highest_value>
@@ -223,7 +223,7 @@ and
 Africa	<x_axis_label_highest_value>
 are
 the
-two highest	<> ## grouping
+two highest	<group_highest_Scnd>
 with
 Europe	<x_axis_label_Scnd_highest_value>
 spending
@@ -278,7 +278,8 @@ money spent on higher education	<topic>
 in
 different
 parts of the world	<x_axis>
-in 2010	## more object- or property-like?
+in
+2010	<t=1_a=b>
 .
 Africa	<x_axis_label_highest_value>
 spent
@@ -320,7 +321,7 @@ money	<y_axis>
 was
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 by
 each
 of
@@ -329,7 +330,7 @@ four	<x_axis_labels_count>
 continents	<x_axis>
 in
 the
-year 2010	## more object- or property-like?
+year 2010	<t=1_a=b>
 .
 \\n	<separator>
 Africa	<x_axis_label_highest_value>
@@ -360,7 +361,7 @@ about	<y_axis_approx>
 170	<y_axis_inferred_3rd_highest_value_approx>
 million    <y_magnitude>
 in
-2010	## more object- or property-like?
+2010	<t=1_a=b>
 .
 North America	<x_axis_label_least_value>
 spent
@@ -384,9 +385,9 @@ different
 continents	<x_axis>
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 in
-2010	## more object- or property-like?
+2010	<t=1_a=b>
 .
 Africa	<x_axis_label_highest_value>
 spent
@@ -423,7 +424,7 @@ million    <y_magnitude>
 
 <start_of_description> [type01]
 In
-2010	## more object- or property-like?
+2010	<t=1_a=b>
 ,
 the
 continent	<x_axis>
@@ -434,7 +435,7 @@ the
 biggest	<y_axis_highest_value>
 spender	<x_axis>
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 ,
 spending
 around	<y_axis_approx>
@@ -459,7 +460,7 @@ around	<y_axis_approx>
 147	<y_axis_inferred_least_value_approx>
 m    <y_magnitude>
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 .
 <end_of_description>
 
@@ -504,7 +505,7 @@ million	<y_magnitude>
 a
 difference
 of
-50	<y_axis_inferred_value_mul_v1=least_v2=highest> ## mul_add
+50	<y_axis_inferred_value_mul_v1=least_v2=highest>
 %	<y_axis_inferred_label>
 .
 Europe	<x_axis_label_Scnd_highest_value>
@@ -537,7 +538,7 @@ the
 amount	<y_axis>
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 is
 £	<y_axis_inferred_label>
 290	<y_axis_inferred_highest_value_approx>
@@ -567,17 +568,17 @@ spent
 170	<y_axis_inferred_3rd_highest_value_approx>
 million	<y_magnitude>
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 <end_of_description>
 
 <start_of_description>
 The
 money spent	<y_axis>
 on
-Higher Education	## more object- or property-like?
+Higher Education	<t=1_a=y>
 on
 the
-year 2010	## more object- or property-like?
+year 2010	<t=1_a=b>
 vary 
 by
 continent	<x_axis>
@@ -658,9 +659,9 @@ of
 pounds sterling	<y_axis_inferred_label>
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 in
-2010	## more object- or property-like?
+2010	<t=1_a=b>
 in
 4	<x_axis_labels_count>
 different
@@ -811,7 +812,7 @@ million	<y_magnitude>
 was
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 .
 This
 is
@@ -854,7 +855,7 @@ a
 graph
 from
 the
-year 2010	## more object- or property-like?
+year 2010	<t=1_a=b>
 for
 different
 countries	<x_axis>
@@ -863,7 +864,7 @@ have
 spent
 money	<y_axis>
 on
-Higher Education	## more object- or property-like?
+Higher Education	<t=1_a=y>
 .
 \\n	<separator>
 The
@@ -907,9 +908,9 @@ spent
 the
 least	<y_axis_least_value>
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 in
-2010	## more object- or property-like?
+2010	<t=1_a=b>
 .
 <end_of_description>
 
@@ -919,11 +920,11 @@ chart
 represents
 expenditure	<y_axis>
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 across
 geographic areas	<x_axis>
 in
-2010	## more object- or property-like?
+2010	<t=1_a=b>
 .
 \\n	<separator>
 \\n	<separator>
@@ -931,7 +932,7 @@ The
 highest	<y_axis_highest_value>
 investor	<x_axis>
 in
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 was
 Africa	<x_axis_label_highest_value>
 ,
@@ -956,7 +957,7 @@ just under	<y_axis_approx>
 M    <y_magnitude>
 for
 the
-year 2010	## more object- or property-like?
+year 2010	<t=1_a=b>
 .
 <end_of_description>
 
@@ -968,7 +969,7 @@ the
 amount of money	<y_axis>
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 in
 millions	<y_magnitude>
 of
@@ -977,7 +978,7 @@ per
 continent	<x_axis>
 in
 the
-year 2010	## more object- or property-like?
+year 2010	<t=1_a=b>
 .
 \\n	<separator>
 From
@@ -988,7 +989,7 @@ see
 that
 in
 the
-year 2010	## more object- or property-like?
+year 2010	<t=1_a=b>
 approximately	<y_axis_approx>
 290	<y_axis_inferred_highest_value_approx>
 millions	<y_magnitude>
@@ -997,7 +998,7 @@ pounds	<y_axis_inferred_label>
 were
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 in
 Africa	<x_axis_label_highest_value>
 as
@@ -1005,17 +1006,17 @@ the
 highest	<y_axis_highest_value>
 in
 the
-world	## more object- or property-like?
+world	<t=0_a=x>
 .
 The
 lowest	<y_axis_least_value>
 amount of money	<y_axis>
 spent
 on
-higher education	## more object- or property-like?
+higher education	<t=1_a=y>
 in
 the
-world	## more object- or property-like?
+world	<t=0_a=x>
 is
 north america	<x_axis_label_least_value>
 at
@@ -1073,7 +1074,7 @@ each
 continent	<x_axis>
 in
 the
-year of 2010	## more object- or property-like?
+year of 2010	<t=1_a=b>
 .
 The
 highest	<y_axis_highest_value>
@@ -1088,7 +1089,7 @@ nearly	<y_axis_approx>
 m	<y_magnitude>
 spent
 on
-higher education		## more object- or property-like?
+higher education		<t=1_a=y>
 .
 Europe	<x_axis_label_Scnd_highest_value>
 come
@@ -1112,7 +1113,7 @@ nearly	<y_axis_approx>
 150	<y_axis_inferred_least_value_approx>
 m	<y_magnitude>
 on
-higher education		## more object- or property-like?
+higher education		<t=1_a=y>
 .
 <end_of_description>
 
@@ -1164,7 +1165,7 @@ pounds	<y_axis_inferred_label>
 was
 spent
 on
-higher education		## more object- or property-like?
+higher education		<t=1_a=y>
 .
 <end_of_description>
 

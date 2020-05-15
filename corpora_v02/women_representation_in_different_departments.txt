@@ -18,8 +18,8 @@ departments   <x_axis>
 have
 much
 higher   <y_axis_trend_up>
-female    <topic_related_property>
-representation   <topic_related_property>
+female	<t=0_a=y>
+representation   <y_axis>
 than
 computer science    <x_axis_label_4th_highest_value>
 ,
@@ -80,7 +80,7 @@ and
 The
 majority    <y_axis_highest_value>
 of
-women    <topic_related_property>
+women    <t=1_a=y>
 work
 in
 Literature    <x_axis_label_highest_value>
@@ -219,12 +219,12 @@ with
 The
 table
 shows
-women	## more object- or property-like?
+women	<t=1_a=y>
 are
 most    <y_axis_highest_value>
-well represented	## more object- or property-like?
+well represented	<t=1_a=y>
 in
-university	## more object- or property-like?
+university	<t=1_a=x>
 Literature    <x_axis_label_highest_value>
 department    <x_axis>
 (
@@ -278,7 +278,7 @@ is
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
-women	## more object- or property-like?
+women	<t=1_a=y>
 ,
 but  <y_x_comparison>
 in
@@ -293,23 +293,23 @@ also
 has
 more than   <y_axis_approx>
 half    <y_axis_Scnd_highest_val>
-women	## more object- or property-like?
+women	<t=1_a=y>
 ,
 while    <y_x_comparison>
-computer science and engineering    <group_3rd_4th> # conceptual similarity: related subjects (STEM)
+computer science and engineering    <group_3rd_4th>
 have
 more than   <y_axis_approx>
 half    <group_y_3rd_4th>
-men	## more object- or property-like?
+men	<t=0_a=y>
 .
 <end_of_description>
 
 
 
 <start_of_description>
-Women	## more object- or property-like?
+Women	<t=1_a=y>
 are
-represented	## more object- or property-like?
+represented	<t=1_a=y>
 in
 their
 highest    <y_axis_highest_value>
@@ -320,7 +320,7 @@ literature    <x_axis_label_highest_value>
 70    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-students	## more object- or property-like?
+students	<t=0_a=y>
 )
 and
 the
@@ -329,7 +329,7 @@ arts    <x_axis_label_Scnd_highest_value>
 60    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label> 
 of
-students	## more object- or property-like?
+students	<t=0_a=y>
 )
 .
 Their
@@ -376,19 +376,15 @@ that
 they
 are
 most    <y_axis_highest_value>
-represented	## more object- or property-like?
+represented	<t=1_a=y>
 in
-literature    <x_axis_label_highest_value> ## group? bars clustered, but no height given
-and
-arts    <x_axis_label_Scnd_highest_value>
+literature and arts    <group_highest_Scnd>
 departments    <x_axis>
 but
 least    <y_axis_least_value>
 represented
 in
-computer science    <x_axis_label_4th_highest_value> ## group?
-and
-mathematics    <x_axis_label_least_value>
+computer science and mathematics    <group_4th_least>
 .
 <end_of_description>
 
@@ -402,13 +398,13 @@ how many women are in each university department    <topic>
 70    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-people	## more object- or property-like?
+people	<t=0_a=y>
 in
 the
 literature    <x_axis_label_highest_value>
 department    <x_axis>
 are
-female	## more object- or property-like?
+female	<t=0_a=y>
 ,
 compared    <y_x_comparison>
 to
@@ -465,9 +461,9 @@ Maths    <x_axis_label_least_value>
 
 
 <start_of_description>
-Women    <topic_related_property>
+Women    <t=1_a=y>
 are
-represented
+represented	<t=1_a=y>
 well
 in
 the
@@ -512,7 +508,8 @@ have
 60    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
 .
-female representation    <y_axis>
+female	<t=0_a=y>
+representation    <y_axis>
 in
 Engineering    <x_axis_label_3rd_highest_value>
 departments    <x_axis>
@@ -535,10 +532,10 @@ at
 
 
 <start_of_description>
-Women	## more object- or property-like?
+Women	<t=1_a=y>
 are
 most   <y_axis_highest_value>
-represented	## more object- or property-like?
+represented	<t=1_a=y>
 in
 the
 literature    <x_axis_label_highest_value>
@@ -547,7 +544,7 @@ at
 70    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 in
-university	## more object- or property-like?
+university	<t=1_a=x>
 ,
 this
 is
@@ -562,7 +559,7 @@ at
 They
 are
 least    <y_axis_least_value>
-represented	## more object- or property-like?
+represented	<t=1_a=y>
 in
 mathematics    <x_axis_label_least_value>
 at
@@ -584,18 +581,18 @@ female representation across university departments    <topic>
 70    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 of
-people	## more object- or property-like?
+people	<t=0_a=y>
 in
 literature    <x_axis_label_highest_value>
 are
-female	## more object- or property-like?
+female	<t=0_a=y>
 ,
 60    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
 in
 Arts    <x_axis_label_Scnd_highest_value>
 are
-female	## more object- or property-like?
+female	<t=0_a=y>
 ,
 30    <y_axis_3rd_highest_val>
 %    <y_axis_inferred_label>
@@ -631,7 +628,7 @@ work
 in
 literature    <x_axis_label_highest_value>
 are
-woman	## more object- or property-like?
+woman	<t=1_a=y>
 ,
 60    <y_axis_Scnd_highest_val>
 %    <y_axis_inferred_label>
@@ -655,8 +652,8 @@ contributing and enforcing the stereotype that that heavily intellectual subject
 <end_of_description>
 
 
-<start_of_description>
-Women	## more object- or property-like?
+<start_of_description> [type01]
+Women	<t=1_a=y>
 are
 more    <y_axis_trend_up>
 likely
@@ -664,13 +661,13 @@ to
 work
 in
 the
-arts and literature    <group_highest_Scnd> ## group?
+arts and literature    <group_highest_Scnd>
 in
-university    <topic_related_object>
+university	<t=1_a=x>
 departments    <x_axis>
-compared    <x_axis_comparison>
+compared    <y_x_comparison>
 to
-mathematics and computer science    <group_4th_least> ## group?
+mathematics and computer science    <group_4th_least>
 <end_of_description>
 
 
@@ -680,7 +677,7 @@ shows
 the representation of women in various university departments    <topic>
 .
 Most    <y_axis_highest_value>
-women	## more object- or property-like?
+women	<t=1_a=y>
 are
 in
 the
@@ -690,7 +687,7 @@ with
 70    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
 being
-female	## more object- or property-like?
+female	<t=0_a=y>
 ,
 there
 are
@@ -716,26 +713,26 @@ up
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
 of
-staff	## more object- or property-like?
+staff	<t=0_a=y>
 .
 <end_of_description>
 
 
-<start_of_description>
+<start_of_description> [type01]
 This
 bar
 chart
 displays
 the proportion of women in different university departments    <topic>
 .
-Arts and Literature    <group_highest_Scnd> ## group?
+Arts and Literature    <group_highest_Scnd> 
 have
 higher    <y_axis_trend_up>
 representation    <y_axis>
 ,
 compared    <x_axis_comparison>
 to
-Mathematics , Engineering and Computer Science    <group_3rd_4th_least> ## group?
+Mathematics , Engineering and Computer Science    <group_3rd_4th_least>
 .
 <end_of_description>
 
@@ -780,9 +777,7 @@ Mathematics    <x_axis_label_least_value>
 has
 the
 lowest    <y_axis_least_value>
-representation    <y_axis>
-of
-women	## more object- or property-like?
+representation of women    <y_axis>
 at
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
@@ -833,7 +828,7 @@ University departments    <x_axis>
 consist
 70    <y_axis_highest_value_val>
 %    <y_axis_inferred_label>
-women	## more object- or property-like?
+women	<t=1_a=y>
 in
 the
 literature    <x_axis_label_highest_value>
@@ -858,7 +853,7 @@ has
 only    <y_axis_least_value>
 10    <y_axis_least_value_val>
 %    <y_axis_inferred_label>
-women	## more object- or property-like?
+women	<t=1_a=y>
 in
 the
 department    <x_axis>

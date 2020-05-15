@@ -63,7 +63,7 @@ in
 percentage of minority representation	<y_axis>
 in
 the
-Parliament of Lybia	## more object- or property-like?
+Parliament of Lybia	<t=1_a=b>
 .
 \\n	<separator>
 \\n	<separator>
@@ -113,7 +113,7 @@ only	<y_axis_least_value>
 .4	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
-parliament represented minorities	## more object- or property-like?
+parliament represented minorities	<t=1_a=y>
 ,
 increasing	<slope_up>
 to
@@ -162,7 +162,7 @@ the
 proportion of the Libyan parliament that is made up of minorities	<topic>
 ,
 across
-periods	## more object- or property-like?
+periods	<t=0_a=x>
 of
 5	<x_interval>
 years	<x_axis>
@@ -188,7 +188,9 @@ going
 from
 1	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-minority members of parliament	## more object- or property-like?
+minority members	<t=0_a=y>
+of
+parliament	<t=1_a=b>
 between	1990-94	<x_axis_label_least_value>
 ,
 to
@@ -314,7 +316,7 @@ the
 percentage of minority representation	<y_axis>
 in
 the
-parliament of Lybia	## more object- or property-like?
+parliament of Lybia	<t=1_a=b>
 from	<x_axis_range_start>
 1990	<x_axis_label_least_value>
 to	<x_axis_range_end>
@@ -342,7 +344,7 @@ in
 <start_of_description>
 Between 1990 and 1994 <x_axis_label_least_value>
 the
-Parliament of Lybia	## more object- or property-like?
+Parliament of Lybia	<t=1_a=b>
 had
 less than <y_axis_approx>
 1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
@@ -359,7 +361,7 @@ slightly more than	<y_axis_approx>
 %	<y_axis_inferred_label>
 .
 Between	2000 and 2004	<x_axis_label_4th_highest_value>
-minorities	<topic_related_property>
+minorities	<t=1_a=y>
 had
 more than	<y_axis_approx>
 7	<y_axis_inferred_4th_highest_value_approx>
@@ -406,7 +408,7 @@ of
 minority representation	<y_axis>
 in
 the
-Lybian parliament	## more object- or property-like?
+Lybian parliament	<t=1_a=b>
 from
 a
 lowly	<y_axis_least_value>
@@ -432,7 +434,7 @@ the
 <start_of_description>
 Minority representation	<y_axis>
 in
-Lybia 's parliament	## more object- or property-like?
+Lybia 's parliament	<t=1_a=b>
 has
 increased	<slope_up>
 from
@@ -461,7 +463,7 @@ steadily	<y_axis_trend>
 with
 the
 biggest	<y_axis_highest_value>
-step	<slope_up> ## ? step up, step down
+step	<slope_up>
 being
 from
 under	<y_axis_approx>
@@ -580,7 +582,7 @@ representation	<y_axis>
 Minority representation	<y_axis>
 in
 the
-parliament of Libya	## more object- or property-like?
+parliament of Libya	<t=1_a=b>
 has
 drastically	<y_axis_trend>
 increased	<slope_up>
@@ -695,7 +697,7 @@ percentage	<y_axis>
 Minority representation	<y_axis>
 in
 the
-parliament of lybia	## more object- or property-like?
+parliament of lybia	<t=1_a=b>
 is
 highest	<y_axis_highest_value>
 in
@@ -768,7 +770,7 @@ the
 minority representation	<y_axis>
 in
 the
-Parliament of Lybia	## more object- or property-like?
+Parliament of Lybia	<t=1_a=b>
 at
 around	<y_axis_approx>
 0.4	<y_axis_inferred_least_value_approx>
@@ -829,7 +831,7 @@ in
 Minority representation	<y_axis>
 in
 the
-Parliament of lybia	## more object- or property-like?
+Parliament of lybia	<t=1_a=b>
 has
 steadily	<y_axis_trend>
 increased	<slope_up>
@@ -1084,7 +1086,7 @@ less than	<y_axis_approx>
 %	<y_axis_inferred_label>
 in
 the
-Parliament	## more object- or property-like?
+Parliament	<t=1_a=b>
 .
 Representation	<y_axis>
 more than	<y_axis_approx>
@@ -1132,7 +1134,7 @@ steadily	<y_axis_trend>
 increased	<slope_up>
 year on year	<x_axis_trend>
 in
-Libyan parliament	## more object- or property-like?
+Libyan parliament	<t=1_a=b>
 ,
 from
 less than	<y_axis_approx>
@@ -1160,7 +1162,7 @@ the
 minority representation	<y_axis>
 in
 the
-Parliament of Libya	## more object- or property-like?
+Parliament of Libya	<t=1_a=b>
 from	<x_axis_range_start>
 the
 period
@@ -1203,7 +1205,7 @@ shows
 the
 representation of minorities	<y_axis>
 in
-Lybian parliament	## more object- or property-like?
+Lybian parliament	<t=1_a=b>
 has
 steadily	<y_axis_trend>
 increased	<slope_up>
@@ -1229,7 +1231,7 @@ parliament
 between 2015-19	<x_axis_label_highest_value
 being
 a
-minority	## more object- or property-like?
+minority	<t=1_a=y>
 .
 <end_of_description>
 

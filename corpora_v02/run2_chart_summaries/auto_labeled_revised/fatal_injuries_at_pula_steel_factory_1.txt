@@ -178,7 +178,9 @@ number of fatal injuries	<y_axis>
 per
 year	<x_axis>
 ,
-at the Pula steel factory	## more object- or property-like?
+at
+the
+Pula steel factory	<t=1_a=b>
 .
 Covering
 the
@@ -255,7 +257,7 @@ were
 fatal injuries	<y_axis_inferred_label>
 at
 the
-factory	## more object- or property-like?
+factory	<t=1_a=b>
 .
 This
 increased	<slope_up>
@@ -362,7 +364,7 @@ the
 number of fatal injuries	<y_axis>
 at
 the
-Pula Steel Factory	## more object- or property-like?
+Pula Steel Factory	<t=1_a=b>
 from 2012 to 2013	<group_Scnd_highest>
 .
 Increasing	<slope_up>
@@ -426,7 +428,7 @@ The
 number of fatal injuries	<y_axis>
 at
 the
-Pula Steel Factory	## more object- or property-like?
+Pula Steel Factory	<t=1_a=b>
 rose	<slope_up>
 from
 27	<y_axis_Scnd_highest_val>
@@ -471,7 +473,7 @@ in
 Fatal injuries	<y_axis>
 at
 the
-Pula Steel Factory	## more object- or property-like?
+Pula Steel Factory	<t=1_a=b>
 have
 varied    <y_axis_trend>
 from	<x_axis_range_start>
@@ -563,7 +565,7 @@ The
 number of fatal injuries	<y_axis>
 at
 the
-Pula steel factory	## more object- or property-like?
+Pula steel factory	<t=1_a=b>
 started
 at
 27	<y_axis_Scnd_highest_val>
@@ -626,7 +628,7 @@ to	<x_axis_range_end>
 In
 2012	<x_axis_label_Scnd_highest_value>
 the
-factory	## more object- or property-like?
+factory	<t=1_a=b>
 saw
 27	<y_axis_Scnd_highest_val>
 injuries   <y_axis_inferred_label>
@@ -761,7 +763,7 @@ highest	<y_axis_highest_value>
 number of fatal injuries	<y_axis>
 at
 the
-pula steel factory   ## more object- or property-like?
+pula steel factory   <t=1_a=b>
 took
 place
 in
@@ -812,7 +814,7 @@ in
 number of injuries	<y_axis>
 at
 the
-Pula steel factory	## more object- or property-like?
+Pula steel factory	<t=1_a=b>
 .
 In
 2012	<x_axis_label_Scnd_highest_value>
@@ -1050,7 +1052,7 @@ The
 number of fatal injuries   <y_axis>
 at
 the
-Pula Steel Factory	## more object- or property-like?
+Pula Steel Factory	<t=1_a=b>
 has
 fluctuated   <y_axis_trend>
 over the years   <x_axis_trend>

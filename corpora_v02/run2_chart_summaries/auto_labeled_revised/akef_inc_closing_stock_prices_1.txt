@@ -256,7 +256,7 @@ Monday	<x_axis_label_highest_value>
 the
 closing stock price <y_axis>
 for
-Akef Inc.  <topic_related_object> ## more object- or property-like?
+Akef Inc.  <t=1_a=b>
 was
 £	<y_axis_inferred_label>
 90	<y_axis_inferred_highest_value_approx>
@@ -294,7 +294,7 @@ As
 the
 week has gone on	<x_axis_trend>
 the
-Afec Inc.	## more object- or property-like?
+Afec Inc.	 <t=1_a=y>
 closing stock price <y_axis>
 has
 decreased <slope_down>
@@ -354,7 +354,7 @@ decline <slope_down>
 in
 stock prices	<y_axis>
 for
-Akef Inc.	<y_axis> ## more object- or property-like?
+Akef Inc.	<t=1_a=b>
 during
 the
 course of the week	<x_axis_trend>
@@ -394,7 +394,7 @@ Friday  <x_axis_label_least_value>
 
 
 <start_of_description>
-Akef Inc. ## more object- or property-like?
+Akef Inc. <t=1_a=b>
 closing stock prices <y_axis>
 have
 declined <slope_down>
@@ -515,7 +515,7 @@ at
 £	<y_axis_inferred_label>
 92	<y_axis_inferred_highest_value_approx>
 ,
-then	<order_rest>
+then	<order_last>
 decreased <slope_down>
 over the week  <x_axis_trend>
 -	
@@ -759,7 +759,7 @@ across
 the
 week	<x_axis>
 for
-AKEF Inc.	## more object- or property-like?
+AKEF Inc.	<t=1_a=b>
 .
 Between	<x_axis_range_start>
 Monday	<x_axis_label_highest_value>
@@ -912,7 +912,7 @@ daily closing prices for Akef Inc. stock over a period  of a  working week <topi
 On
 Monday <x_axis_label_highest_value>
 the
-stock	## more object- or property-like?
+stock	<t=1_a=y>
 closes
 at
 over	<y_axis_approx>
@@ -961,7 +961,7 @@ just  under	 <y_axis_approx>
 The
 stock prices <y_axis>
 of
-Akef Inc. <topic_related_object> ## more object- or property-like?
+Akef Inc. <t=1_a=b>
 have
 declined   <slope_down>
 as the week has progressed  <x_axis_trend>
@@ -997,7 +997,7 @@ Friday	<x_axis_label_least_value>
 The
 closing stock price <y_axis>
 for
-Akef Inc <topic_related_object> ## more object- or property-like?
+Akef Inc <t=1_a=b>
 was
 £	<y_axis_inferred_label>
 92	<y_axis_inferred_highest_value_approx>

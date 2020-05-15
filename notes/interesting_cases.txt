@@ -1,0 +1,83 @@
+### External knowledge (women-men) women_representation_in_different_sectors_2 ###
+<start_of_description>
+This
+chart
+shows
+the
+percentage	<y_axis>
+of
+women represented in different sectors in Benoni	<topic>
+.
+We
+can
+see
+that
+there
+are
+less	<y_axis_trend_down>
+women than men	## more object- or property-like?
+working
+in
+law firms	<x_axis_label_least_value>
+,
+and
+an
+equal amount	<y_axis_3rd_highest_val>
+of
+men and women	<y_axis>
+in
+financial groups	<x_axis_label_3rd_highest_value>
+.
+However
+there
+are
+a
+higher	<y_axis_trend_up>
+percentage of women	<y_axis>
+working
+in
+tech	<x_axis_label_Scnd_highest_value>
+and
+insurance	<x_axis_label_highest_value>
+.
+<end_of_description>
+
+
+### Operation involving 3 entities gender_pay_gap.txt ###
+<start_of_description> 
+The
+gender pay gap    <y_axis>
+is
+greatest    <y_axis_trend_up>
+by
+about  <y_axis_approx>
+10    <y_axis_inferred_value_add_v1=highest_v2=least>
+%    <y_axis_inferred_label>
+in
+the
+UK    <x_axis_label_highest_value>
+than
+in
+Germany   <x_axis_label_least_value>
+.
+Spain    <x_axis_label_Scnd_highest_value>
+is
+exactly
+halfway    <other_operation>
+between
+the
+two
+countries
+.
+<end_of_description>
+
+### mul add ###
+fatal_injuries_at_pula_steel_factory_2_iza.txt:16.6	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>	## mul_add
+fatal_injuries_at_pula_steel_factory_2_iza.txt:36	<y_axis_inferred_value_mul_v1=3rd_v2=Scnd> ## mul_add
+fatal_injuries_at_pula_steel_factory_2_iza.txt:20	<y_axis_inferred_value_mul_v1=least_v2=4th> ##	mul_add ?
+median_salary_of_women_2_iza.txt:18	<y_axis_inferred_value_mul_v1=highest_v2=Scnd> ## mul_add 
+median_salary_of_women_2_iza.txt:27	<y_axis_inferred_value_mul_v1=3rd_v2=highest>	## mul_add
+median_salary_of_women_2_iza.txt:16	<y_axis_inferred_value_mul_v1=least_v2=3rd> ##  mul_add
+money_spent_on_HE_2_iza.txt:50	<y_axis_inferred_value_mul_v1=least_v2=highest> ## mul_add
+
+
