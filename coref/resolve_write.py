@@ -8,7 +8,7 @@ from allennlp.predictors.predictor import Predictor
 
 predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz")
 
-xml_path = "./corpora_v02/all descriptions/chart_summaries_b01_toktest2-xml"
+xml_path = "/home/CE/skrjanec/stuff_jones1/chart_descriptions/corpora_v02/all_descriptions/chart_summaries_b01_toktest2.xml"
 
 def open_xml_collect_coref(corpus):
 	id_clusters = {}
@@ -24,14 +24,14 @@ def open_xml_collect_coref(corpus):
 
 		for story in topic:
 			story_id = story.attrib["story_id"]
-
+			print(story_id)
 			# story[0] is the text child
 			# context is the entire summary
 			content = story[0][0]
 
 			# resolve corefences
 
-			results = predictor.predict(document=content)
+			results = predictor.predict(document=content.text)
 					
 			clusters = results["clusters"]
 			doc = results["document"] # tokenized text, a list of tokens
