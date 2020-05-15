@@ -2788,11 +2788,10 @@
 				<events>
 					<label from="02_01-18-1-2" id="02_01-18-1" name="topic" text="average salary for woman" to="02_01-18-1-5" type="event"/>
 					<label from="02_01-18-1-7" id="02_01-18-2" name="slope_up" text="grown" to="02_01-18-1-7" type="event"/>
-					<label from="02_01-18-1-8" id="02_01-18-3" name="x_axis_period" text="since" to="02_01-18-1-8" type="event"/>
-					<label from="02_01-18-1-9" id="02_01-18-4" name="x_axis_label_least_value" text="2000" to="02_01-18-1-9" type="event"/>
-					<label from="02_01-18-1-12" id="02_01-18-5" name="y_axis_trend" text="least" to="02_01-18-1-12" type="event"/>
-					<label from="02_01-18-1-13" id="02_01-18-6" name="slope_y_value" text="10" to="02_01-18-1-13" type="event"/>
-					<label from="02_01-18-1-14" id="02_01-18-7" name="y_axis_inferred_label" text="%" to="02_01-18-1-14" type="event"/>
+					<label from="02_01-18-1-9" id="02_01-18-3" name="x_axis_label_least_value" text="2000" to="02_01-18-1-9" type="event"/>
+					<label from="02_01-18-1-12" id="02_01-18-4" name="y_axis_trend" text="least" to="02_01-18-1-12" type="event"/>
+					<label from="02_01-18-1-13" id="02_01-18-5" name="slope_y_value" text="10" to="02_01-18-1-13" type="event"/>
+					<label from="02_01-18-1-14" id="02_01-18-6" name="y_axis_inferred_label" text="%" to="02_01-18-1-14" type="event"/>
 				</events>
 			</annotations>
 			<numex>
@@ -3968,7 +3967,7 @@
 			<annotations>
 				<events>
 					<label from="03_01-11-1-4" id="03_01-11-1" name="topic" text="how young people spend their evenings" to="03_01-11-1-9" type="event"/>
-					<label from="03_01-11-2-2" id="03_01-11-2" name="y_axis_highest_valu" text="most popular" to="03_01-11-2-3" type="event"/>
+					<label from="03_01-11-2-2" id="03_01-11-2" name="y_axis_highest_value" text="most popular" to="03_01-11-2-3" type="event"/>
 					<label from="03_01-11-2-4" id="03_01-11-3" name="x_axis" text="activity" to="03_01-11-2-4" type="event"/>
 					<label from="03_01-11-2-6" id="03_01-11-4" name="x_axis_label_highest_value" text="watching TV" to="03_01-11-2-7" type="event"/>
 					<label from="03_01-11-2-10" id="03_01-11-5" name="y_axis_highest_value_val" text="40" to="03_01-11-2-10" type="event"/>
@@ -4340,7 +4339,7 @@
 			<annotations>
 				<events>
 					<label from="03_01-16-1-1" id="03_01-16-1" name="t=1_a=y" text="Young people" to="03_01-16-1-2" type="event"/>
-					<label from="03_01-16-1-4" id="03_01-16-2" name="x_axis_comparison" text="more" to="03_01-16-1-4" type="event"/>
+					<label from="03_01-16-1-4" id="03_01-16-2" name="y_x_comparison" text="more" to="03_01-16-1-4" type="event"/>
 					<label from="03_01-16-1-7" id="03_01-16-3" name="x_axis_label_highest_value" text="watch tv" to="03_01-16-1-8" type="event"/>
 					<label from="03_01-16-1-10" id="03_01-16-4" name="x_axis_label_Scnd_highest_value" text="go out" to="03_01-16-1-11" type="event"/>
 					<label from="03_01-16-1-14" id="03_01-16-5" name="x_axis_label_least_value" text="read a book" to="03_01-16-1-16" type="event"/>
@@ -5398,7 +5397,7 @@
 			<numex>
 				<approximations/>
 				<relative_expressions>
-					<relex anno_id="04_01-08-9" hedge_str="" id="04_01-08-1" magnitude="" rel_va="30" rel_vg="##REVIEW" text="30" type="add" v1="65" v2="35"/>
+					<relex anno_id="04_01-08-9" hedge_str="about" id="04_01-08-1" magnitude="" rel_va="30" rel_vg="##REVIEW" text="30" type="add" v1="65" v2="35"/>
 				</relative_expressions>
 				<hedges>
 					<hedge anno_id="04_01-08-7" expr_id="##REVIEW" hedge_str="about" hedge_type="abs_ex" id="04_01-08-1"/>
@@ -5574,8 +5573,8 @@
 			<numex>
 				<approximations/>
 				<relative_expressions>
-					<relex anno_id="04_01-10-4" hedge_str="" id="04_01-10-1" magnitude="" rel_va="20" rel_vg="##REVIEW" text="20" type="add" v1="65" v2="45"/>
-					<relex anno_id="04_01-10-13" hedge_str="" id="04_01-10-2" magnitude="" rel_va="10" rel_vg="##REVIEW" text="10" type="add" v1="45" v2="35"/>
+					<relex anno_id="04_01-10-4" hedge_str="approximately" id="04_01-10-1" magnitude="" rel_va="20" rel_vg="##REVIEW" text="20" type="add" v1="65" v2="45"/>
+					<relex anno_id="04_01-10-13" hedge_str="approximate" id="04_01-10-2" magnitude="" rel_va="10" rel_vg="##REVIEW" text="10" type="add" v1="45" v2="35"/>
 				</relative_expressions>
 				<hedges>
 					<hedge anno_id="04_01-10-2" expr_id="##REVIEW" hedge_str="approximately" hedge_type="abs_ex" id="04_01-10-1"/>
@@ -6041,8 +6040,8 @@
 					<approx anno_id="04_01-15-10" direction="down" format="digit" hedge_str="over" id="04_01-15-1" magnitude=",000" nearest_major_ticks="60,60" nearest_minor_ticks="60,60" text="60" unit="$" va="65" vg="60"/>
 				</approximations>
 				<relative_expressions>
-					<relex anno_id="04_01-15-14" hedge_str="" id="04_01-15-1" magnitude="" rel_va="10" rel_vg="##REVIEW" text="10" type="add" v1="65" v2="55"/>
-					<relex anno_id="04_01-15-22" hedge_str="" id="04_01-15-2" magnitude="" rel_va="10" rel_vg="##REVIEW" text="10" type="add" v1="55" v2="45"/>
+					<relex anno_id="04_01-15-14" hedge_str="about" id="04_01-15-1" magnitude="" rel_va="10" rel_vg="##REVIEW" text="10" type="add" v1="65" v2="55"/>
+					<relex anno_id="04_01-15-22" hedge_str="about" id="04_01-15-2" magnitude="" rel_va="10" rel_vg="##REVIEW" text="10" type="add" v1="55" v2="45"/>
 				</relative_expressions>
 				<hedges>
 					<hedge anno_id="04_01-15-8" expr_id="##REVIEW" hedge_str="over" hedge_type="abs_ex" id="04_01-15-1"/>
@@ -14197,7 +14196,7 @@
 					<label from="09_01-11-2-6" id="09_01-11-4" name="x_axis_label_highest_value" text="Literature" to="09_01-11-2-6" type="event"/>
 					<label from="09_01-11-2-7" id="09_01-11-5" name="order_Scnd" text="then" to="09_01-11-2-7" type="event"/>
 					<label from="09_01-11-2-8" id="09_01-11-6" name="x_axis_label_Scnd_highest_value" text="Arts" to="09_01-11-2-8" type="event"/>
-					<label from="09_01-11-2-10" id="09_01-11-7" name="order_rest" text="followed" to="09_01-11-2-10" type="event"/>
+					<label from="09_01-11-2-10" id="09_01-11-7" name="order_last" text="followed" to="09_01-11-2-10" type="event"/>
 					<label from="09_01-11-2-12" id="09_01-11-8" name="x_axis_label_3rd_highest_value" text="Engineering" to="09_01-11-2-12" type="event"/>
 					<label from="09_01-11-2-14" id="09_01-11-9" name="x_axis_label_4th_highest_value" text="computer science" to="09_01-11-2-15" type="event"/>
 					<label from="09_01-11-2-16" id="09_01-11-10" name="order_last" text="then" to="09_01-11-2-16" type="event"/>
@@ -14796,7 +14795,7 @@
 					<label from="09_01-19-2-1" id="09_01-19-2" name="group_highest_Scnd" text="Arts and Literature" to="09_01-19-2-3" type="event"/>
 					<label from="09_01-19-2-5" id="09_01-19-3" name="y_axis_trend_up" text="higher" to="09_01-19-2-5" type="event"/>
 					<label from="09_01-19-2-6" id="09_01-19-4" name="y_axis" text="representation" to="09_01-19-2-6" type="event"/>
-					<label from="09_01-19-2-8" id="09_01-19-5" name="x_axis_comparison" text="compared" to="09_01-19-2-8" type="event"/>
+					<label from="09_01-19-2-8" id="09_01-19-5" name="y_x_comparison" text="compared" to="09_01-19-2-8" type="event"/>
 					<label from="09_01-19-2-10" id="09_01-19-6" name="group_3rd_4th_least" text="Mathematics , Engineering and Computer Science" to="09_01-19-2-15" type="event"/>
 				</events>
 			</annotations>
@@ -16442,7 +16441,7 @@
 					<label from="10_01-18-2-5" id="10_01-18-3" name="y_axis_highest_value" text="highest" to="10_01-18-2-5" type="event"/>
 					<label from="10_01-18-2-6" id="10_01-18-4" name="y_axis" text="number of women employed" to="10_01-18-2-9" type="event"/>
 					<label from="10_01-18-2-11" id="10_01-18-5" name="y_axis_highest_value_val" text="60" to="10_01-18-2-11" type="event"/>
-					<label from="10_01-18-2-12" id="10_01-18-6" name="y__iny_axis_inferred_labe" text="%" to="10_01-18-2-12" type="event"/>
+					<label from="10_01-18-2-12" id="10_01-18-6" name="y_axis_inferred_label" text="%" to="10_01-18-2-12" type="event"/>
 					<label from="10_01-18-2-14" id="10_01-18-7" name="x_axis_label_least_value" text="tech" to="10_01-18-2-14" type="event"/>
 					<label from="10_01-18-2-17" id="10_01-18-8" name="y_axis_least_value" text="lowest" to="10_01-18-2-17" type="event"/>
 					<label from="10_01-18-2-19" id="10_01-18-9" name="y_axis_least_value_val" text="20" to="10_01-18-2-19" type="event"/>
@@ -18939,10 +18938,10 @@
 					<label from="11_01-23-2-4" id="11_01-23-2" name="y_axis_trend" text="steady" to="11_01-23-2-4" type="event"/>
 					<label from="11_01-23-2-5" id="11_01-23-3" name="slope_down" text="decline" to="11_01-23-2-5" type="event"/>
 					<label from="11_01-23-2-7" id="11_01-23-4" name="y_axis" text="stock price" to="11_01-23-2-8" type="event"/>
-					<label from="11_01-23-2-11" id="11_01-23-5" name="​x_axis_labels_count​" text="five" to="11_01-23-2-11" type="event"/>
+					<label from="11_01-23-2-11" id="11_01-23-5" name="x_axis_labels_count" text="five" to="11_01-23-2-11" type="event"/>
 					<label from="11_01-23-2-12" id="11_01-23-6" name="x_axis" text="days" to="11_01-23-2-12" type="event"/>
 					<label from="11_01-23-2-15" id="11_01-23-7" name="y_axis_inferred_label" text="£" to="11_01-23-2-15" type="event"/>
-					<label from="11_01-23-2-16" id="11_01-23-8" name="y_axis_inferred_value_add_v1=highest_v2=lowest" text="60" to="11_01-23-2-16" type="event"/>
+					<label from="11_01-23-2-16" id="11_01-23-8" name="y_axis_inferred_value_add_v1=highest_v2=least" text="60" to="11_01-23-2-16" type="event"/>
 					<label from="11_01-23-2-18" id="11_01-23-9" name="x_axis_range_start" text="from" to="11_01-23-2-18" type="event"/>
 					<label from="11_01-23-2-20" id="11_01-23-10" name="x_axis_label_highest_value" text="beginning of the week" to="11_01-23-2-23" type="event"/>
 					<label from="11_01-23-2-24" id="11_01-23-11" name="x_axis_range_end" text="to" to="11_01-23-2-24" type="event"/>
@@ -18952,7 +18951,7 @@
 			<numex>
 				<approximations/>
 				<relative_expressions>
-					<relex anno_id="11_01-23-8" hedge_str="" id="11_01-23-1" magnitude="" rel_va="##REVIEW" rel_vg="##REVIEW" text="60" type="add" v1="92.75" v2="None"/>
+					<relex anno_id="11_01-23-8" hedge_str="" id="11_01-23-1" magnitude="" rel_va="61.45" rel_vg="##REVIEW" text="60" type="add" v1="92.75" v2="31.3"/>
 				</relative_expressions>
 				<hedges/>
 			</numex>
@@ -19154,7 +19153,7 @@
 					<label from="11_02-02-2-6" id="11_02-02-5" name="t=1_a=y" text="closed" to="11_02-02-2-6" type="event"/>
 					<label from="11_02-02-2-8" id="11_02-02-6" name="y_axis_inferred_label" text="£" to="11_02-02-2-8" type="event"/>
 					<label from="11_02-02-2-9" id="11_02-02-7" name="y_axis_inferred_3rd_highest_value_approx" text="50" to="11_02-02-2-9" type="event"/>
-					<label from="11_02-02-2-11" id="11_02-02-8" name="order_2nd" text="then" to="11_02-02-2-11" type="event"/>
+					<label from="11_02-02-2-11" id="11_02-02-8" name="order_Scnd" text="then" to="11_02-02-2-11" type="event"/>
 					<label from="11_02-02-2-12" id="11_02-02-9" name="slope_up" text="rose" to="11_02-02-2-12" type="event"/>
 					<label from="11_02-02-2-14" id="11_02-02-10" name="y_axis_inferred_label" text="£" to="11_02-02-2-14" type="event"/>
 					<label from="11_02-02-2-15" id="11_02-02-11" name="y_axis_inferred_Scnd_highest_value_approx" text="63" to="11_02-02-2-15" type="event"/>
@@ -19236,7 +19235,7 @@
 				<events>
 					<label from="11_02-03-1-5" id="11_02-03-1" name="topic" text="closing stock price for Akef Inc., for each day of the working week" to="11_02-03-1-17" type="event"/>
 					<label from="11_02-03-2-4" id="11_02-03-2" name="slope_up" text="increase" to="11_02-03-2-4" type="event"/>
-					<label from="11_02-03-2-5" id="11_02-03-3" name="group_3rd_Scnd_highest" text="from Monday to Wednesday" to="11_02-03-2-8" type="event"/>
+					<label from="11_02-03-2-5" id="11_02-03-3" name="group_highest_Scnd_3rd" text="from Monday to Wednesday" to="11_02-03-2-8" type="event"/>
 					<label from="11_02-03-2-12" id="11_02-03-4" name="y_axis_trend" text="sharp" to="11_02-03-2-12" type="event"/>
 					<label from="11_02-03-2-13" id="11_02-03-5" name="slope_down" text="decline" to="11_02-03-2-13" type="event"/>
 					<label from="11_02-03-2-15" id="11_02-03-6" name="group_4th_least" text="Thursday and Friday" to="11_02-03-2-17" type="event"/>
@@ -19250,7 +19249,7 @@
 		</story>
 		<story story_id="11_02-04">
 			<text>
-				<content>This chart represents the closing stock price in Pounds (£) of Akef Inc for the days of the week . \\n \\n The highest price for Akef Inc is on Wednesday at £ 75 , the lowest price of the week is Friday at £ 9 which is a huge difference . \\n \\n The market appears to start off slowly on a Monay and gradually increases on Tuesday . It peaks on a Wednesday , it drops significantly on Thursday and a on a Friday .</content>
+				<content>This chart represents the closing stock price in Pounds (£) of Akef Inc for the days of the week . \\n \\n The highest price for Akef Inc is on Wednesday at £ 75 , the lowest price of the week is Friday at £ 9 which is a huge difference . \\n \\n The market appears to start off slowly on a Monay and gradually increases on Tuesday . It peaks on a Wednesday , it drops significantly on Thursday and a low on a Friday .</content>
 				<sentences>
 					<sentence id="11_02-04-1">
 						<token content="This" content_fix="This" id="11_02-04-1-1"/>
@@ -19342,10 +19341,11 @@
 						<token content="Thursday" content_fix="Thursday" id="11_02-04-4-11"/>
 						<token content="and" content_fix="and" id="11_02-04-4-12"/>
 						<token content="a" content_fix="a" id="11_02-04-4-13"/>
-						<token content="on" content_fix="on" id="11_02-04-4-14"/>
-						<token content="a" content_fix="a" id="11_02-04-4-15"/>
-						<token content="Friday" content_fix="Friday" id="11_02-04-4-16"/>
-						<token content="." content_fix="." id="11_02-04-4-17"/>
+						<token content="low" content_fix="low" id="11_02-04-4-14"/>
+						<token content="on" content_fix="on" id="11_02-04-4-15"/>
+						<token content="a" content_fix="a" id="11_02-04-4-16"/>
+						<token content="Friday" content_fix="Friday" id="11_02-04-4-17"/>
+						<token content="." content_fix="." id="11_02-04-4-18"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -19378,7 +19378,8 @@
 					<label from="11_02-04-4-8" id="11_02-04-25" name="slope_down" text="drops" to="11_02-04-4-8" type="event"/>
 					<label from="11_02-04-4-9" id="11_02-04-26" name="y_axis_trend" text="significantly" to="11_02-04-4-9" type="event"/>
 					<label from="11_02-04-4-11" id="11_02-04-27" name="x_axis_label_4th_highest_value" text="Thursday" to="11_02-04-4-11" type="event"/>
-					<label from="11_02-04-4-16" id="11_02-04-28" name="x_axis_label_least_value" text="Friday" to="11_02-04-4-16" type="event"/>
+					<label from="11_02-04-4-14" id="11_02-04-28" name="y_axis_least_value" text="low" to="11_02-04-4-14" type="event"/>
+					<label from="11_02-04-4-17" id="11_02-04-29" name="x_axis_label_least_value" text="Friday" to="11_02-04-4-17" type="event"/>
 				</events>
 			</annotations>
 			<numex>
@@ -19788,7 +19789,7 @@
 					<label from="11_02-08-2-4" id="11_02-08-3" name="x_axis_label_highest_value" text="Wednesday" to="11_02-08-2-4" type="event"/>
 					<label from="11_02-08-2-6" id="11_02-08-4" name="y_axis_inferred_label" text="£" to="11_02-08-2-6" type="event"/>
 					<label from="11_02-08-2-7" id="11_02-08-5" name="y_axis_inferred_highest_value_approx" text="75" to="11_02-08-2-7" type="event"/>
-					<label from="11_02-08-2-8" id="11_02-08-6" name="order_2nd" text="then" to="11_02-08-2-8" type="event"/>
+					<label from="11_02-08-2-8" id="11_02-08-6" name="order_Scnd" text="then" to="11_02-08-2-8" type="event"/>
 					<label from="11_02-08-2-9" id="11_02-08-7" name="x_axis_label_Scnd_highest_value" text="Tue" to="11_02-08-2-9" type="event"/>
 					<label from="11_02-08-2-11" id="11_02-08-8" name="y_axis_inferred_label" text="£" to="11_02-08-2-11" type="event"/>
 					<label from="11_02-08-2-12" id="11_02-08-9" name="y_axis_inferred_Scnd_highest_value_approx" text="60" to="11_02-08-2-12" type="event"/>
@@ -19900,7 +19901,7 @@
 					<label from="11_02-09-1-2" id="11_02-09-1" name="y_axis" text="closing stock prices" to="11_02-09-1-4" type="event"/>
 					<label from="11_02-09-1-6" id="11_02-09-2" name="t=1_a=y" text="Afek Inc." to="11_02-09-1-7" type="event"/>
 					<label from="11_02-09-1-11" id="11_02-09-3" name="slope_up" text="rise" to="11_02-09-1-11" type="event"/>
-					<label from="11_02-09-1-14" id="11_02-09-4" name="group_3rd_Sncd_highest" text="first three days of the week" to="11_02-09-1-19" type="event"/>
+					<label from="11_02-09-1-14" id="11_02-09-4" name="group_highest_Scnd_3rd" text="first three days of the week" to="11_02-09-1-19" type="event"/>
 					<label from="11_02-09-1-23" id="11_02-09-5" name="x_axis_label_4th_highest_value" text="Thursday" to="11_02-09-1-23" type="event"/>
 					<label from="11_02-09-1-27" id="11_02-09-6" name="y_axis_trend" text="huge" to="11_02-09-1-27" type="event"/>
 					<label from="11_02-09-1-28" id="11_02-09-7" name="slope_down" text="drop" to="11_02-09-1-28" type="event"/>
@@ -20226,7 +20227,7 @@
 					<label from="11_02-12-4-1" id="11_02-12-21" name="interpretation" text="Unfortunately" to="11_02-12-4-1" type="event"/>
 					<label from="11_02-12-4-2" id="11_02-12-22" name="group_4th_least" text="Thursday and Friday" to="11_02-12-4-4" type="event"/>
 					<label from="11_02-12-4-9" id="11_02-12-23" name="y_axis_trend" text="well" to="11_02-12-4-9" type="event"/>
-					<label from="11_02-12-4-12" id="11_02-12-24" name="group_3rd_Scnd_highest" text="others days" to="11_02-12-4-13" type="event"/>
+					<label from="11_02-12-4-12" id="11_02-12-24" name="group_highest_Scnd_3rd" text="others days" to="11_02-12-4-13" type="event"/>
 					<label from="11_02-12-4-17" id="11_02-12-25" name="y_axis" text="closing stock price" to="11_02-12-4-19" type="event"/>
 					<label from="11_02-12-4-21" id="11_02-12-26" name="y_axis_approx" text="below" to="11_02-12-4-21" type="event"/>
 					<label from="11_02-12-4-22" id="11_02-12-27" name="y_axis_inferred_label" text="£" to="11_02-12-4-22" type="event"/>
@@ -20427,7 +20428,7 @@
 				<events>
 					<label from="11_02-14-1-6" id="11_02-14-1" name="y_axis" text="closing stocking prices" to="11_02-14-1-8" type="event"/>
 					<label from="11_02-14-1-9" id="11_02-14-2" name="slope_up" text="increase" to="11_02-14-1-9" type="event"/>
-					<label from="11_02-14-1-10" id="11_02-14-3" name="group_3rd_Scnd_highest" text="Monday through Wednesday" to="11_02-14-1-12" type="event"/>
+					<label from="11_02-14-1-10" id="11_02-14-3" name="group_highest_Scnd_3rd" text="Monday through Wednesday" to="11_02-14-1-12" type="event"/>
 					<label from="11_02-14-1-15" id="11_02-14-4" name="y_axis_inferred_label" text="£" to="11_02-14-1-15" type="event"/>
 					<label from="11_02-14-1-16" id="11_02-14-5" name="y_axis_inferred_3rd_highest_value_approx" text="50" to="11_02-14-1-16" type="event"/>
 					<label from="11_02-14-1-18" id="11_02-14-6" name="y_axis_inferred_label" text="£" to="11_02-14-1-18" type="event"/>
@@ -20965,7 +20966,7 @@
 					<label from="11_02-20-1-12" id="11_02-20-3" name="x_axis" text="week" to="11_02-20-1-12" type="event"/>
 					<label from="11_02-20-1-14" id="11_02-20-4" name="y_axis_highest_value" text="highest" to="11_02-20-1-14" type="event"/>
 					<label from="11_02-20-1-17" id="11_02-20-5" name="x_axis_label_highest_value" text="wednesday" to="11_02-20-1-17" type="event"/>
-					<label from="11_02-20-1-19" id="11_02-20-6" name="order_2nd" text="then" to="11_02-20-1-19" type="event"/>
+					<label from="11_02-20-1-19" id="11_02-20-6" name="order_Scnd" text="then" to="11_02-20-1-19" type="event"/>
 					<label from="11_02-20-1-20" id="11_02-20-7" name="y_axis_trend" text="dramatically" to="11_02-20-1-20" type="event"/>
 					<label from="11_02-20-1-21" id="11_02-20-8" name="slope_down" text="decrease" to="11_02-20-1-21" type="event"/>
 					<label from="11_02-20-1-23" id="11_02-20-9" name="group_4th_least" text="thursday and friday" to="11_02-20-1-25" type="event"/>
@@ -21062,7 +21063,7 @@
 					<label from="11_02-21-1-7" id="11_02-21-4" name="x_axis_range_end" text="and" to="11_02-21-1-7" type="event"/>
 					<label from="11_02-21-1-8" id="11_02-21-5" name="x_axis_label_least_value" text="Friday" to="11_02-21-1-8" type="event"/>
 					<label from="11_02-21-1-11" id="11_02-21-6" name="y_axis_trend" text="unusual" to="11_02-21-1-11" type="event"/>
-					<label from="11_02-21-2-4" id="11_02-21-7" name="group_3rd_Scnd_highest" text="3 days" to="11_02-21-2-5" type="event"/>
+					<label from="11_02-21-2-4" id="11_02-21-7" name="group_highest_Scnd_3rd" text="3 days" to="11_02-21-2-5" type="event"/>
 					<label from="11_02-21-2-8" id="11_02-21-8" name="y_axis" text="prices" to="11_02-21-2-8" type="event"/>
 					<label from="11_02-21-2-10" id="11_02-21-9" name="x_axis_range_end" text="to" to="11_02-21-2-10" type="event"/>
 					<label from="11_02-21-2-12" id="11_02-21-10" name="y_axis_trend" text="fairly" to="11_02-21-2-12" type="event"/>
@@ -24062,7 +24063,7 @@
 					<label from="12_02-01-4-8" id="12_02-01-19" name="y_axis_inferred_4th_highest_value_approx" text="100" to="12_02-01-4-8" type="event"/>
 					<label from="12_02-01-4-9" id="12_02-01-20" name="y_axis_inferred_label" text="minutes" to="12_02-01-4-9" type="event"/>
 					<label from="12_02-01-4-11" id="12_02-01-21" name="t=1_a=y" text="days" to="12_02-01-4-11" type="event"/>
-					<label from="12_02-01-4-12" id="12_02-01-22" name="y_x_comparison_rest" text="whilst" to="12_02-01-4-12" type="event"/>
+					<label from="12_02-01-4-12" id="12_02-01-22" name="y_x_comparison" text="whilst" to="12_02-01-4-12" type="event"/>
 					<label from="12_02-01-4-13" id="12_02-01-23" name="x_axis_label_least_value" text="55-64 year olds" to="12_02-01-4-15" type="event"/>
 					<label from="12_02-01-4-19" id="12_02-01-24" name="y_axis_least_value" text="least" to="12_02-01-4-19" type="event"/>
 					<label from="12_02-01-4-20" id="12_02-01-25" name="y_axis" text="amount of time" to="12_02-01-4-22" type="event"/>
@@ -27418,7 +27419,7 @@
 					<label from="13_01-07-1-4" id="13_01-07-1" name="slope_up" text="increase" to="13_01-07-1-4" type="event"/>
 					<label from="13_01-07-1-7" id="13_01-07-2" name="y_axis" text="number of fatal injuries" to="13_01-07-1-10" type="event"/>
 					<label from="13_01-07-1-13" id="13_01-07-3" name="t=1_a=b" text="Pula Steel Factory" to="13_01-07-1-15" type="event"/>
-					<label from="13_01-07-1-16" id="13_01-07-4" name="group_Scnd_highest" text="from 2012 to 2013" to="13_01-07-1-19" type="event"/>
+					<label from="13_01-07-1-16" id="13_01-07-4" name="group_highest_Scnd" text="from 2012 to 2013" to="13_01-07-1-19" type="event"/>
 					<label from="13_01-07-2-1" id="13_01-07-5" name="slope_up" text="Increasing" to="13_01-07-2-1" type="event"/>
 					<label from="13_01-07-2-3" id="13_01-07-6" name="y_axis_approx" text="just over" to="13_01-07-2-4" type="event"/>
 					<label from="13_01-07-2-5" id="13_01-07-7" name="y_axis_inferred_Scnd_highest_value_approx" text="25" to="13_01-07-2-5" type="event"/>
@@ -27533,18 +27534,17 @@
 					<label from="13_01-08-1-15" id="13_01-08-5" name="x_axis_label_Scnd_highest_value" text="2012" to="13_01-08-1-15" type="event"/>
 					<label from="13_01-08-1-17" id="13_01-08-6" name="y_axis_highest_value_val" text="32" to="13_01-08-1-17" type="event"/>
 					<label from="13_01-08-1-19" id="13_01-08-7" name="x_axis_label_highest_value" text="2013" to="13_01-08-1-19" type="event"/>
-					<label from="13_01-08-2-1" id="13_01-08-8" name="x_axis_period" text="Since" to="13_01-08-2-1" type="event"/>
-					<label from="13_01-08-2-2" id="13_01-08-9" name="x_axis_label_highest_value" text="2013" to="13_01-08-2-2" type="event"/>
-					<label from="13_01-08-2-5" id="13_01-08-10" name="y_axis" text="fatal injuries" to="13_01-08-2-6" type="event"/>
-					<label from="13_01-08-2-7" id="13_01-08-11" name="slope_down" text="declined" to="13_01-08-2-7" type="event"/>
-					<label from="13_01-08-2-10" id="13_01-08-12" name="group_3rd_least" text="next two years" to="13_01-08-2-12" type="event"/>
-					<label from="13_01-08-2-14" id="13_01-08-13" name="y_axis_3rd_highest_val" text="26" to="13_01-08-2-14" type="event"/>
-					<label from="13_01-08-2-16" id="13_01-08-14" name="x_axis_label_3rd_highest_value" text="2014" to="13_01-08-2-16" type="event"/>
-					<label from="13_01-08-2-18" id="13_01-08-15" name="y_axis_least_value_val" text="22" to="13_01-08-2-18" type="event"/>
-					<label from="13_01-08-2-20" id="13_01-08-16" name="x_axis_label_least_value" text="2015" to="13_01-08-2-20" type="event"/>
-					<label from="13_01-08-2-22" id="13_01-08-17" name="slope_up" text="rising" to="13_01-08-2-22" type="event"/>
-					<label from="13_01-08-2-25" id="13_01-08-18" name="y_axis_4th_highest_val" text="25" to="13_01-08-2-25" type="event"/>
-					<label from="13_01-08-2-27" id="13_01-08-19" name="x_axis_label_4th_highest_value" text="2016" to="13_01-08-2-27" type="event"/>
+					<label from="13_01-08-2-2" id="13_01-08-8" name="x_axis_label_highest_value" text="2013" to="13_01-08-2-2" type="event"/>
+					<label from="13_01-08-2-5" id="13_01-08-9" name="y_axis" text="fatal injuries" to="13_01-08-2-6" type="event"/>
+					<label from="13_01-08-2-7" id="13_01-08-10" name="slope_down" text="declined" to="13_01-08-2-7" type="event"/>
+					<label from="13_01-08-2-10" id="13_01-08-11" name="group_3rd_least" text="next two years" to="13_01-08-2-12" type="event"/>
+					<label from="13_01-08-2-14" id="13_01-08-12" name="y_axis_3rd_highest_val" text="26" to="13_01-08-2-14" type="event"/>
+					<label from="13_01-08-2-16" id="13_01-08-13" name="x_axis_label_3rd_highest_value" text="2014" to="13_01-08-2-16" type="event"/>
+					<label from="13_01-08-2-18" id="13_01-08-14" name="y_axis_least_value_val" text="22" to="13_01-08-2-18" type="event"/>
+					<label from="13_01-08-2-20" id="13_01-08-15" name="x_axis_label_least_value" text="2015" to="13_01-08-2-20" type="event"/>
+					<label from="13_01-08-2-22" id="13_01-08-16" name="slope_up" text="rising" to="13_01-08-2-22" type="event"/>
+					<label from="13_01-08-2-25" id="13_01-08-17" name="y_axis_4th_highest_val" text="25" to="13_01-08-2-25" type="event"/>
+					<label from="13_01-08-2-27" id="13_01-08-18" name="x_axis_label_4th_highest_value" text="2016" to="13_01-08-2-27" type="event"/>
 				</events>
 			</annotations>
 			<numex>
@@ -27716,7 +27716,7 @@
 					<label from="13_01-10-3-5" id="13_01-10-11" name="slope_up" text="increase" to="13_01-10-3-5" type="event"/>
 					<label from="13_01-10-3-7" id="13_01-10-12" name="y_axis_highest_value_val" text="32" to="13_01-10-3-7" type="event"/>
 					<label from="13_01-10-3-8" id="13_01-10-13" name="y_axis_inferred_label" text="injuries" to="13_01-10-3-8" type="event"/>
-					<label from="13_01-10-3-9" id="13_01-10-14" name="group_Scnd_highest" text="between 2012 and 2013" to="13_01-10-3-12" type="event"/>
+					<label from="13_01-10-3-9" id="13_01-10-14" name="group_highest_Scnd" text="between 2012 and 2013" to="13_01-10-3-12" type="event"/>
 					<label from="13_01-10-3-15" id="13_01-10-15" name="y_axis_trend" text="steady" to="13_01-10-3-15" type="event"/>
 					<label from="13_01-10-3-16" id="13_01-10-16" name="slope_down" text="decrease" to="13_01-10-3-16" type="event"/>
 					<label from="13_01-10-3-18" id="13_01-10-17" name="y_axis_least_value_val" text="22" to="13_01-10-3-18" type="event"/>
@@ -29086,7 +29086,7 @@
 					<label from="13_02-02-3-2" id="13_02-02-14" name="x_axis_label_4th_highest_value" text="2015" to="13_02-02-3-2" type="event"/>
 					<label from="13_02-02-3-4" id="13_02-02-15" name="y_axis_4th_highest_val" text="15" to="13_02-02-3-4" type="event"/>
 					<label from="13_02-02-3-5" id="13_02-02-16" name="y_axis_inferred_label" text="fatalities" to="13_02-02-3-5" type="event"/>
-					<label from="13_02-02-3-9" id="13_02-02-17" name="y_x_comparison_rest" text="whilst" to="13_02-02-3-9" type="event"/>
+					<label from="13_02-02-3-9" id="13_02-02-17" name="y_x_comparison" text="whilst" to="13_02-02-3-9" type="event"/>
 					<label from="13_02-02-3-11" id="13_02-02-18" name="x_axis_label_least_value" text="2016" to="13_02-02-3-11" type="event"/>
 					<label from="13_02-02-3-13" id="13_02-02-19" name="y_axis" text="number in fatalities" to="13_02-02-3-15" type="event"/>
 					<label from="13_02-02-3-16" id="13_02-02-20" name="slope_down" text="dropped" to="13_02-02-3-16" type="event"/>
@@ -29436,18 +29436,27 @@
 		</story>
 		<story story_id="13_02-06">
 			<text>
-				<content>This chart shows the between 2012 and 2016 . The fatality rate has fallen each year . There were 30 fatalities in 2012 , 25 in 2013 , 16 in 2014 , 15 in 2015 and 12 in 2016 . The biggest drop was between 2013 and 2014 .</content>
+				<content>This chart shows the number of fatal injuries at the Pula Steel Factory between 2012 and 2016 . The fatality rate has fallen each year . There were 30 fatalities in 2012 , 25 in 2013 , 16 in 2014 , 15 in 2015 and 12 in 2016 . The biggest drop was between 2013 and 2014 .</content>
 				<sentences>
 					<sentence id="13_02-06-1">
 						<token content="This" content_fix="This" id="13_02-06-1-1"/>
 						<token content="chart" content_fix="chart" id="13_02-06-1-2"/>
 						<token content="shows" content_fix="shows" id="13_02-06-1-3"/>
 						<token content="the" content_fix="the" id="13_02-06-1-4"/>
-						<token content="between" content_fix="between" id="13_02-06-1-5"/>
-						<token content="2012" content_fix="2012" id="13_02-06-1-6"/>
-						<token content="and" content_fix="and" id="13_02-06-1-7"/>
-						<token content="2016" content_fix="2016" id="13_02-06-1-8"/>
-						<token content="." content_fix="." id="13_02-06-1-9"/>
+						<token content="number" content_fix="number" id="13_02-06-1-5"/>
+						<token content="of" content_fix="of" id="13_02-06-1-6"/>
+						<token content="fatal" content_fix="fatal" id="13_02-06-1-7"/>
+						<token content="injuries" content_fix="injuries" id="13_02-06-1-8"/>
+						<token content="at" content_fix="at" id="13_02-06-1-9"/>
+						<token content="the" content_fix="the" id="13_02-06-1-10"/>
+						<token content="Pula" content_fix="Pula" id="13_02-06-1-11"/>
+						<token content="Steel" content_fix="Steel" id="13_02-06-1-12"/>
+						<token content="Factory" content_fix="Factory" id="13_02-06-1-13"/>
+						<token content="between" content_fix="between" id="13_02-06-1-14"/>
+						<token content="2012" content_fix="2012" id="13_02-06-1-15"/>
+						<token content="and" content_fix="and" id="13_02-06-1-16"/>
+						<token content="2016" content_fix="2016" id="13_02-06-1-17"/>
+						<token content="." content_fix="." id="13_02-06-1-18"/>
 					</sentence>
 					<sentence id="13_02-06-2">
 						<token content="The" content_fix="The" id="13_02-06-2-1"/>
@@ -29499,37 +29508,38 @@
 			</text>
 			<annotations>
 				<events>
-					<label from="13_02-06-1-5" id="13_02-06-1" name="x_axis_range_start" text="between" to="13_02-06-1-5" type="event"/>
-					<label from="13_02-06-1-6" id="13_02-06-2" name="x_axis_label_highest_value" text="2012" to="13_02-06-1-6" type="event"/>
-					<label from="13_02-06-1-7" id="13_02-06-3" name="x_axis_range_end" text="and" to="13_02-06-1-7" type="event"/>
-					<label from="13_02-06-1-8" id="13_02-06-4" name="x_axis_label_least_value" text="2016" to="13_02-06-1-8" type="event"/>
-					<label from="13_02-06-2-2" id="13_02-06-5" name="y_axis" text="fatality rate" to="13_02-06-2-3" type="event"/>
-					<label from="13_02-06-2-5" id="13_02-06-6" name="slope_down" text="fallen" to="13_02-06-2-5" type="event"/>
-					<label from="13_02-06-2-6" id="13_02-06-7" name="x_axis_trend" text="each year" to="13_02-06-2-7" type="event"/>
-					<label from="13_02-06-3-3" id="13_02-06-8" name="y_axis_highest_value_val" text="30" to="13_02-06-3-3" type="event"/>
-					<label from="13_02-06-3-4" id="13_02-06-9" name="y_axis_inferred_label" text="fatalities" to="13_02-06-3-4" type="event"/>
-					<label from="13_02-06-3-6" id="13_02-06-10" name="x_axis_label_highest_value" text="2012" to="13_02-06-3-6" type="event"/>
-					<label from="13_02-06-3-8" id="13_02-06-11" name="y_axis_Scnd_highest_val" text="25" to="13_02-06-3-8" type="event"/>
-					<label from="13_02-06-3-10" id="13_02-06-12" name="x_axis_label_Scnd_highest_value" text="2013" to="13_02-06-3-10" type="event"/>
-					<label from="13_02-06-3-12" id="13_02-06-13" name="y_axis_3rd_highest_val" text="16" to="13_02-06-3-12" type="event"/>
-					<label from="13_02-06-3-14" id="13_02-06-14" name="x_axis_label_3rd_highest_value" text="2014" to="13_02-06-3-14" type="event"/>
-					<label from="13_02-06-3-16" id="13_02-06-15" name="y_axis_inferred_value_add_v1=highest_v2=4th" text="15" to="13_02-06-3-16" type="event"/>
-					<label from="13_02-06-3-18" id="13_02-06-16" name="x_axis_label_4th_highest_value" text="2015" to="13_02-06-3-18" type="event"/>
-					<label from="13_02-06-3-19" id="13_02-06-17" name="x_axis_range_end" text="and" to="13_02-06-3-19" type="event"/>
-					<label from="13_02-06-3-20" id="13_02-06-18" name="y_axis_least_value_val" text="12" to="13_02-06-3-20" type="event"/>
-					<label from="13_02-06-3-22" id="13_02-06-19" name="x_axis_label_least_value" text="2016" to="13_02-06-3-22" type="event"/>
-					<label from="13_02-06-4-2" id="13_02-06-20" name="y_axis_highest_value" text="biggest" to="13_02-06-4-2" type="event"/>
-					<label from="13_02-06-4-3" id="13_02-06-21" name="slope_down" text="drop" to="13_02-06-4-3" type="event"/>
-					<label from="13_02-06-4-5" id="13_02-06-22" name="x_axis_range_start" text="between" to="13_02-06-4-5" type="event"/>
-					<label from="13_02-06-4-6" id="13_02-06-23" name="x_axis_label_Scnd_highest_value" text="2013" to="13_02-06-4-6" type="event"/>
-					<label from="13_02-06-4-7" id="13_02-06-24" name="x_axis_range_end" text="and" to="13_02-06-4-7" type="event"/>
-					<label from="13_02-06-4-8" id="13_02-06-25" name="x_axis_label_3rd_highest_value" text="2014" to="13_02-06-4-8" type="event"/>
+					<label from="13_02-06-1-5" id="13_02-06-1" name="topic" text="number of fatal injuries at the Pula Steel Factory" to="13_02-06-1-13" type="event"/>
+					<label from="13_02-06-1-14" id="13_02-06-2" name="x_axis_range_start" text="between" to="13_02-06-1-14" type="event"/>
+					<label from="13_02-06-1-15" id="13_02-06-3" name="x_axis_label_highest_value" text="2012" to="13_02-06-1-15" type="event"/>
+					<label from="13_02-06-1-16" id="13_02-06-4" name="x_axis_range_end" text="and" to="13_02-06-1-16" type="event"/>
+					<label from="13_02-06-1-17" id="13_02-06-5" name="x_axis_label_least_value" text="2016" to="13_02-06-1-17" type="event"/>
+					<label from="13_02-06-2-2" id="13_02-06-6" name="y_axis" text="fatality rate" to="13_02-06-2-3" type="event"/>
+					<label from="13_02-06-2-5" id="13_02-06-7" name="slope_down" text="fallen" to="13_02-06-2-5" type="event"/>
+					<label from="13_02-06-2-6" id="13_02-06-8" name="x_axis_trend" text="each year" to="13_02-06-2-7" type="event"/>
+					<label from="13_02-06-3-3" id="13_02-06-9" name="y_axis_highest_value_val" text="30" to="13_02-06-3-3" type="event"/>
+					<label from="13_02-06-3-4" id="13_02-06-10" name="y_axis_inferred_label" text="fatalities" to="13_02-06-3-4" type="event"/>
+					<label from="13_02-06-3-6" id="13_02-06-11" name="x_axis_label_highest_value" text="2012" to="13_02-06-3-6" type="event"/>
+					<label from="13_02-06-3-8" id="13_02-06-12" name="y_axis_Scnd_highest_val" text="25" to="13_02-06-3-8" type="event"/>
+					<label from="13_02-06-3-10" id="13_02-06-13" name="x_axis_label_Scnd_highest_value" text="2013" to="13_02-06-3-10" type="event"/>
+					<label from="13_02-06-3-12" id="13_02-06-14" name="y_axis_3rd_highest_val" text="16" to="13_02-06-3-12" type="event"/>
+					<label from="13_02-06-3-14" id="13_02-06-15" name="x_axis_label_3rd_highest_value" text="2014" to="13_02-06-3-14" type="event"/>
+					<label from="13_02-06-3-16" id="13_02-06-16" name="y_axis_inferred_value_add_v1=highest_v2=4th" text="15" to="13_02-06-3-16" type="event"/>
+					<label from="13_02-06-3-18" id="13_02-06-17" name="x_axis_label_4th_highest_value" text="2015" to="13_02-06-3-18" type="event"/>
+					<label from="13_02-06-3-19" id="13_02-06-18" name="x_axis_range_end" text="and" to="13_02-06-3-19" type="event"/>
+					<label from="13_02-06-3-20" id="13_02-06-19" name="y_axis_least_value_val" text="12" to="13_02-06-3-20" type="event"/>
+					<label from="13_02-06-3-22" id="13_02-06-20" name="x_axis_label_least_value" text="2016" to="13_02-06-3-22" type="event"/>
+					<label from="13_02-06-4-2" id="13_02-06-21" name="y_axis_highest_value" text="biggest" to="13_02-06-4-2" type="event"/>
+					<label from="13_02-06-4-3" id="13_02-06-22" name="slope_down" text="drop" to="13_02-06-4-3" type="event"/>
+					<label from="13_02-06-4-5" id="13_02-06-23" name="x_axis_range_start" text="between" to="13_02-06-4-5" type="event"/>
+					<label from="13_02-06-4-6" id="13_02-06-24" name="x_axis_label_Scnd_highest_value" text="2013" to="13_02-06-4-6" type="event"/>
+					<label from="13_02-06-4-7" id="13_02-06-25" name="x_axis_range_end" text="and" to="13_02-06-4-7" type="event"/>
+					<label from="13_02-06-4-8" id="13_02-06-26" name="x_axis_label_3rd_highest_value" text="2014" to="13_02-06-4-8" type="event"/>
 				</events>
 			</annotations>
 			<numex>
 				<approximations/>
 				<relative_expressions>
-					<relex anno_id="13_02-06-15" hedge_str="" id="13_02-06-1" magnitude="" rel_va="15" rel_vg="##REVIEW" text="15" type="add" v1="30" v2="15"/>
+					<relex anno_id="13_02-06-16" hedge_str="" id="13_02-06-1" magnitude="" rel_va="15" rel_vg="##REVIEW" text="15" type="add" v1="30" v2="15"/>
 				</relative_expressions>
 				<hedges/>
 			</numex>
@@ -30237,7 +30247,7 @@
 					<label from="13_02-14-2-7" id="13_02-14-5" name="x_axis_label_least_value" text="2012" to="13_02-14-2-7" type="event"/>
 					<label from="13_02-14-2-9" id="13_02-14-6" name="y_axis_inferred_least_value_approx" text="13" to="13_02-14-2-9" type="event"/>
 					<label from="13_02-14-2-11" id="13_02-14-7" name="x_axis_label_least_value" text="2016" to="13_02-14-2-11" type="event"/>
-					<label from="13_02-14-2-15" id="13_02-14-8" name="y_axis_trens" text="average" to="13_02-14-2-15" type="event"/>
+					<label from="13_02-14-2-15" id="13_02-14-8" name="y_axis_trend" text="average" to="13_02-14-2-15" type="event"/>
 					<label from="13_02-14-2-16" id="13_02-14-9" name="slope_down" text="decrease" to="13_02-14-2-16" type="event"/>
 					<label from="13_02-14-2-18" id="13_02-14-10" name="slope_y_value" text="5" to="13_02-14-2-18" type="event"/>
 					<label from="13_02-14-2-20" id="13_02-14-11" name="slope_x_value" text="year" to="13_02-14-2-20" type="event"/>
@@ -33849,7 +33859,7 @@
 					<label from="03_02-08-4-13" id="03_02-08-19" name="y_axis_highest_value_val" text="38" to="03_02-08-4-13" type="event"/>
 					<label from="03_02-08-4-14" id="03_02-08-20" name="y_axis_inferred_label" text="%" to="03_02-08-4-14" type="event"/>
 					<label from="03_02-08-4-17" id="03_02-08-21" name="x_axis_label_highest_value" text="read a book" to="03_02-08-4-19" type="event"/>
-					<label from="03_02-08-4-21" id="03_02-08-22" name="y_x_comparison_rest" text="while" to="03_02-08-4-21" type="event"/>
+					<label from="03_02-08-4-21" id="03_02-08-22" name="y_x_comparison" text="while" to="03_02-08-4-21" type="event"/>
 					<label from="03_02-08-4-24" id="03_02-08-23" name="y_axis_least_value_val" text="12" to="03_02-08-4-24" type="event"/>
 					<label from="03_02-08-4-25" id="03_02-08-24" name="y_axis_inferred_label" text="%" to="03_02-08-4-25" type="event"/>
 					<label from="03_02-08-4-28" id="03_02-08-25" name="x_axis_label_least_value" text="watch TV" to="03_02-08-4-29" type="event"/>
@@ -34516,7 +34526,7 @@
 					<label from="03_02-15-1-12" id="03_02-15-6" name="x_axis_label_highest_value" text="reading a book" to="03_02-15-1-14" type="event"/>
 					<label from="03_02-15-1-16" id="03_02-15-7" name="y_axis_highest_value_val" text="38" to="03_02-15-1-16" type="event"/>
 					<label from="03_02-15-1-17" id="03_02-15-8" name="y_axis_inferred_label" text="%" to="03_02-15-1-17" type="event"/>
-					<label from="03_02-15-1-19" id="03_02-15-9" name="order_2nd" text="then" to="03_02-15-1-19" type="event"/>
+					<label from="03_02-15-1-19" id="03_02-15-9" name="order_Scnd" text="then" to="03_02-15-1-19" type="event"/>
 					<label from="03_02-15-1-20" id="03_02-15-10" name="x_axis_label_Scnd_highest_value" text="spend time with family" to="03_02-15-1-23" type="event"/>
 					<label from="03_02-15-2-2" id="03_02-15-11" name="y_axis_trend_down" text="lower" to="03_02-15-2-2" type="event"/>
 					<label from="03_02-15-2-3" id="03_02-15-12" name="y_axis" text="percentage" to="03_02-15-2-3" type="event"/>
@@ -34779,7 +34789,7 @@
 			<annotations>
 				<events>
 					<label from="03_02-18-1-4" id="03_02-18-1" name="topic" text="how young people in Zarqa spend their evenings" to="03_02-18-1-11" type="event"/>
-					<label from="03_02-18-2-2" id="03_02-18-2" name="​x_axis_labels_count​" text="4" to="03_02-18-2-2" type="event"/>
+					<label from="03_02-18-2-2" id="03_02-18-2" name="x_axis_labels_count" text="4" to="03_02-18-2-2" type="event"/>
 					<label from="03_02-18-2-3" id="03_02-18-3" name="x_axis" text="activities" to="03_02-18-2-3" type="event"/>
 					<label from="03_02-18-2-6" id="03_02-18-4" name="y_axis_highest_value" text="largest" to="03_02-18-2-6" type="event"/>
 					<label from="03_02-18-2-7" id="03_02-18-5" name="y_axis" text="percentage" to="03_02-18-2-7" type="event"/>
@@ -35011,7 +35021,7 @@
 					<label from="03_02-20-2-13" id="03_02-20-8" name="t=1_a=y" text="young people" to="03_02-20-2-14" type="event"/>
 					<label from="03_02-20-2-16" id="03_02-20-9" name="t=0_a=x" text="time" to="03_02-20-2-16" type="event"/>
 					<label from="03_02-20-3-4" id="03_02-20-10" name="y_axis_least_value" text="lowest" to="03_02-20-3-4" type="event"/>
-					<label from="03_02-20-3-7" id="03_02-20-11" name="​x_axis_labels_count​" text="four" to="03_02-20-3-7" type="event"/>
+					<label from="03_02-20-3-7" id="03_02-20-11" name="x_axis_labels_count" text="four" to="03_02-20-3-7" type="event"/>
 					<label from="03_02-20-3-8" id="03_02-20-12" name="x_axis" text="activities" to="03_02-20-3-8" type="event"/>
 					<label from="03_02-20-4-1" id="03_02-20-13" name="y_axis_approx" text="About" to="03_02-20-4-1" type="event"/>
 					<label from="03_02-20-4-2" id="03_02-20-14" name="y_axis_highest_value_val" text="38" to="03_02-20-4-2" type="event"/>
@@ -35651,7 +35661,7 @@
 			<numex>
 				<approximations/>
 				<relative_expressions>
-					<relex anno_id="02_02-03-16" hedge_str="" id="02_02-03-1" magnitude=",000" rel_va="-9.649999999999999" rel_vg="-10##CHECK" text="10" type="add" v1="16" v2="25.65"/>
+					<relex anno_id="02_02-03-16" hedge_str="almost" id="02_02-03-1" magnitude=",000" rel_va="-9.649999999999999" rel_vg="-10##CHECK" text="10" type="add" v1="16" v2="25.65"/>
 				</relative_expressions>
 				<hedges>
 					<hedge anno_id="02_02-03-14" expr_id="##REVIEW" hedge_str="almost" hedge_type="abs_ex" id="02_02-03-1"/>
@@ -37363,7 +37373,7 @@
 					<label from="02_02-18-2-26" id="02_02-18-11" name="t=0_a=y" text="earned" to="02_02-18-2-26" type="event"/>
 					<label from="02_02-18-2-28" id="02_02-18-12" name="x_axis_label_least_value" text="2015" to="02_02-18-2-28" type="event"/>
 					<label from="02_02-18-2-30" id="02_02-18-13" name="y_axis_inferred_label" text="£" to="02_02-18-2-30" type="event"/>
-					<label from="02_02-18-2-31" id="02_02-18-14" name="y_axis_inferred_value_add_v1=least_v2=heighest" text="10" to="02_02-18-2-31" type="event"/>
+					<label from="02_02-18-2-31" id="02_02-18-14" name="y_axis_inferred_value_add_v1=least_v2=highest" text="10" to="02_02-18-2-31" type="event"/>
 					<label from="02_02-18-2-32" id="02_02-18-15" name="y_magnitude" text="000" to="02_02-18-2-32" type="event"/>
 					<label from="02_02-18-2-33" id="02_02-18-16" name="y_axis_trend_down" text="less" to="02_02-18-2-33" type="event"/>
 					<label from="02_02-18-2-36" id="02_02-18-17" name="x_axis_label_highest_value" text="2005" to="02_02-18-2-36" type="event"/>
@@ -37372,7 +37382,7 @@
 			<numex>
 				<approximations/>
 				<relative_expressions>
-					<relex anno_id="02_02-18-14" hedge_str="" id="02_02-18-1" magnitude="" rel_va="##REVIEW" rel_vg="##REVIEW" text="10" type="add" v1="16" v2="None"/>
+					<relex anno_id="02_02-18-14" hedge_str="" id="02_02-18-1" magnitude="000" rel_va="-9.649999999999999" rel_vg="-10##CHECK" text="10" type="add" v1="16" v2="25.65"/>
 				</relative_expressions>
 				<hedges/>
 			</numex>
@@ -37726,7 +37736,7 @@
 		</story>
 		<story story_id="02_02-23">
 			<text>
-				<content>The bar chart shows the median salary of women in Najar per year over a 4 year period . In 2000 the median salary was approximately £ k . In 2005 the median salary was just under £ 26 k . In 2010 the median salary was just under £ 20 k whilst in 2015 the median salary was roughly £ 16 k .</content>
+				<content>The bar chart shows the median salary of women in Najar per year over a 4 year period . In 2000 the median salary was approximately £ 22.5 k . In 2005 the median salary was just under £ 26 k . In 2010 the median salary was just under £ 20 k whilst in 2015 the median salary was roughly £ 16 k .</content>
 				<sentences>
 					<sentence id="02_02-23-1">
 						<token content="The" content_fix="The" id="02_02-23-1-1"/>
@@ -37758,8 +37768,9 @@
 						<token content="was" content_fix="was" id="02_02-23-2-6"/>
 						<token content="approximately" content_fix="approximately" id="02_02-23-2-7"/>
 						<token content="£" content_fix="£" id="02_02-23-2-8"/>
-						<token content="k" content_fix="k" id="02_02-23-2-9"/>
-						<token content="." content_fix="." id="02_02-23-2-10"/>
+						<token content="22.5" content_fix="22.5" id="02_02-23-2-9"/>
+						<token content="k" content_fix="k" id="02_02-23-2-10"/>
+						<token content="." content_fix="." id="02_02-23-2-11"/>
 					</sentence>
 					<sentence id="02_02-23-3">
 						<token content="In" content_fix="In" id="02_02-23-3-1"/>
@@ -37811,39 +37822,41 @@
 					<label from="02_02-23-2-4" id="02_02-23-5" name="y_axis" text="median salary" to="02_02-23-2-5" type="event"/>
 					<label from="02_02-23-2-7" id="02_02-23-6" name="y_axis_approx" text="approximately" to="02_02-23-2-7" type="event"/>
 					<label from="02_02-23-2-8" id="02_02-23-7" name="y_axis_inferred_label" text="£" to="02_02-23-2-8" type="event"/>
-					<label from="02_02-23-2-9" id="02_02-23-8" name="y_magnitude" text="k" to="02_02-23-2-9" type="event"/>
-					<label from="02_02-23-3-2" id="02_02-23-9" name="x_axis_label_highest_value" text="2005" to="02_02-23-3-2" type="event"/>
-					<label from="02_02-23-3-4" id="02_02-23-10" name="y_axis" text="median salary" to="02_02-23-3-5" type="event"/>
-					<label from="02_02-23-3-7" id="02_02-23-11" name="y_axis_approx" text="just under" to="02_02-23-3-8" type="event"/>
-					<label from="02_02-23-3-9" id="02_02-23-12" name="y_axis_inferred_label" text="£" to="02_02-23-3-9" type="event"/>
-					<label from="02_02-23-3-10" id="02_02-23-13" name="y_axis_inferred_highest_value_approx" text="26" to="02_02-23-3-10" type="event"/>
-					<label from="02_02-23-3-11" id="02_02-23-14" name="y_magnitude" text="k" to="02_02-23-3-11" type="event"/>
-					<label from="02_02-23-4-2" id="02_02-23-15" name="x_axis_label_3rd_highest_value" text="2010" to="02_02-23-4-2" type="event"/>
-					<label from="02_02-23-4-4" id="02_02-23-16" name="y_axis" text="median salary" to="02_02-23-4-5" type="event"/>
-					<label from="02_02-23-4-7" id="02_02-23-17" name="y_axis_approx" text="just under" to="02_02-23-4-8" type="event"/>
-					<label from="02_02-23-4-9" id="02_02-23-18" name="y_axis_inferred_label" text="£" to="02_02-23-4-9" type="event"/>
-					<label from="02_02-23-4-10" id="02_02-23-19" name="y_axis_inferred_3rd_highest_value_approx" text="20" to="02_02-23-4-10" type="event"/>
-					<label from="02_02-23-4-11" id="02_02-23-20" name="y_magnitude" text="k" to="02_02-23-4-11" type="event"/>
-					<label from="02_02-23-4-12" id="02_02-23-21" name="y_x_comparison" text="whilst" to="02_02-23-4-12" type="event"/>
-					<label from="02_02-23-4-14" id="02_02-23-22" name="x_axis_label_least_value" text="2015" to="02_02-23-4-14" type="event"/>
-					<label from="02_02-23-4-16" id="02_02-23-23" name="y_axis" text="median salary" to="02_02-23-4-17" type="event"/>
-					<label from="02_02-23-4-19" id="02_02-23-24" name="y_axis_approx" text="roughly" to="02_02-23-4-19" type="event"/>
-					<label from="02_02-23-4-20" id="02_02-23-25" name="y_axis_inferred_label" text="£" to="02_02-23-4-20" type="event"/>
-					<label from="02_02-23-4-21" id="02_02-23-26" name="y_axis_least_value_val" text="16" to="02_02-23-4-21" type="event"/>
-					<label from="02_02-23-4-22" id="02_02-23-27" name="y_magnitude" text="k" to="02_02-23-4-22" type="event"/>
+					<label from="02_02-23-2-9" id="02_02-23-8" name="y_axis_inferred_Scnd_highest_value_approx" text="22.5" to="02_02-23-2-9" type="event"/>
+					<label from="02_02-23-2-10" id="02_02-23-9" name="y_magnitude" text="k" to="02_02-23-2-10" type="event"/>
+					<label from="02_02-23-3-2" id="02_02-23-10" name="x_axis_label_highest_value" text="2005" to="02_02-23-3-2" type="event"/>
+					<label from="02_02-23-3-4" id="02_02-23-11" name="y_axis" text="median salary" to="02_02-23-3-5" type="event"/>
+					<label from="02_02-23-3-7" id="02_02-23-12" name="y_axis_approx" text="just under" to="02_02-23-3-8" type="event"/>
+					<label from="02_02-23-3-9" id="02_02-23-13" name="y_axis_inferred_label" text="£" to="02_02-23-3-9" type="event"/>
+					<label from="02_02-23-3-10" id="02_02-23-14" name="y_axis_inferred_highest_value_approx" text="26" to="02_02-23-3-10" type="event"/>
+					<label from="02_02-23-3-11" id="02_02-23-15" name="y_magnitude" text="k" to="02_02-23-3-11" type="event"/>
+					<label from="02_02-23-4-2" id="02_02-23-16" name="x_axis_label_3rd_highest_value" text="2010" to="02_02-23-4-2" type="event"/>
+					<label from="02_02-23-4-4" id="02_02-23-17" name="y_axis" text="median salary" to="02_02-23-4-5" type="event"/>
+					<label from="02_02-23-4-7" id="02_02-23-18" name="y_axis_approx" text="just under" to="02_02-23-4-8" type="event"/>
+					<label from="02_02-23-4-9" id="02_02-23-19" name="y_axis_inferred_label" text="£" to="02_02-23-4-9" type="event"/>
+					<label from="02_02-23-4-10" id="02_02-23-20" name="y_axis_inferred_3rd_highest_value_approx" text="20" to="02_02-23-4-10" type="event"/>
+					<label from="02_02-23-4-11" id="02_02-23-21" name="y_magnitude" text="k" to="02_02-23-4-11" type="event"/>
+					<label from="02_02-23-4-12" id="02_02-23-22" name="y_x_comparison" text="whilst" to="02_02-23-4-12" type="event"/>
+					<label from="02_02-23-4-14" id="02_02-23-23" name="x_axis_label_least_value" text="2015" to="02_02-23-4-14" type="event"/>
+					<label from="02_02-23-4-16" id="02_02-23-24" name="y_axis" text="median salary" to="02_02-23-4-17" type="event"/>
+					<label from="02_02-23-4-19" id="02_02-23-25" name="y_axis_approx" text="roughly" to="02_02-23-4-19" type="event"/>
+					<label from="02_02-23-4-20" id="02_02-23-26" name="y_axis_inferred_label" text="£" to="02_02-23-4-20" type="event"/>
+					<label from="02_02-23-4-21" id="02_02-23-27" name="y_axis_least_value_val" text="16" to="02_02-23-4-21" type="event"/>
+					<label from="02_02-23-4-22" id="02_02-23-28" name="y_magnitude" text="k" to="02_02-23-4-22" type="event"/>
 				</events>
 			</annotations>
 			<numex>
 				<approximations>
-					<approx anno_id="02_02-23-13" direction="up" format="digit" hedge_str="just under" id="02_02-23-1" magnitude="k" nearest_major_ticks="25,25" nearest_minor_ticks="26,26" text="26" unit="£" va="25.65" vg="26"/>
-					<approx anno_id="02_02-23-19" direction="up" format="digit" hedge_str="just under" id="02_02-23-2" magnitude="k" nearest_major_ticks="20,20" nearest_minor_ticks="20,20" text="20" unit="£" va="19.7" vg="20"/>
+					<approx anno_id="02_02-23-8" direction="down" format="digit" hedge_str="approximately" id="02_02-23-1" magnitude="k" nearest_major_ticks="20,25" nearest_minor_ticks="22,23" text="22.5" unit="£" va="22.7" vg="22.5"/>
+					<approx anno_id="02_02-23-14" direction="up" format="digit" hedge_str="just under" id="02_02-23-2" magnitude="k" nearest_major_ticks="25,25" nearest_minor_ticks="26,26" text="26" unit="£" va="25.65" vg="26"/>
+					<approx anno_id="02_02-23-20" direction="up" format="digit" hedge_str="just under" id="02_02-23-3" magnitude="k" nearest_major_ticks="20,20" nearest_minor_ticks="20,20" text="20" unit="£" va="19.7" vg="20"/>
 				</approximations>
 				<relative_expressions/>
 				<hedges>
-					<hedge anno_id="02_02-23-6" expr_id="##REVIEW" hedge_str="approximately" hedge_type="##REVIEW" id="02_02-23-1"/>
-					<hedge anno_id="02_02-23-11" expr_id="##REVIEW" hedge_str="just under" hedge_type="abs_ex" id="02_02-23-2"/>
-					<hedge anno_id="02_02-23-17" expr_id="##REVIEW" hedge_str="just under" hedge_type="abs_ex" id="02_02-23-3"/>
-					<hedge anno_id="02_02-23-24" expr_id="##REVIEW" hedge_str="roughly" hedge_type="abs_ex" id="02_02-23-4"/>
+					<hedge anno_id="02_02-23-6" expr_id="##REVIEW" hedge_str="approximately" hedge_type="abs_ex" id="02_02-23-1"/>
+					<hedge anno_id="02_02-23-12" expr_id="##REVIEW" hedge_str="just under" hedge_type="abs_ex" id="02_02-23-2"/>
+					<hedge anno_id="02_02-23-18" expr_id="##REVIEW" hedge_str="just under" hedge_type="abs_ex" id="02_02-23-3"/>
+					<hedge anno_id="02_02-23-25" expr_id="##REVIEW" hedge_str="roughly" hedge_type="abs_ex" id="02_02-23-4"/>
 				</hedges>
 			</numex>
 		</story>
@@ -38283,7 +38296,7 @@
 		</story>
 		<story story_id="14_01-05">
 			<text>
-				<content>This chart shows the percentage of minority representation in the parliament of Libya every 4 years between 1990 and . \\n \\n The chart shows that an increase of minority representation over this period . Between 1990 and 1994 , minority representation was at its lowest at under 2 % ( 0.25 % ) . Between 1995 and 1999 , this had increased to 2 % . \\n \\n Between 2000 and 2004 , minority representation had increased to about 7.5 % and between 2005 and 2009 , this had increased to 10 % . \\n \\n Between 2010 and 2014 , minority representation had increased to about 12.25 % and finally between 2015 and 2019 it has reached an all time high of 14 % .</content>
+				<content>This chart shows the percentage of minority representation in the parliament of Libya every 4 years between 1990 and 2019 . \\n \\n The chart shows that an increase of minority representation over this period . Between 1990 and 1994 , minority representation was at its lowest at under 2 % ( 0.25 % ) . Between 1995 and 1999 , this had increased to 2 % . \\n \\n Between 2000 and 2004 , minority representation had increased to about 7.5 % and between 2005 and 2009 , this had increased to 10 % . \\n \\n Between 2010 and 2014 , minority representation had increased to about 12.25 % and finally between 2015 and 2019 it has reached an all time high of 14 % .</content>
 				<sentences>
 					<sentence id="14_01-05-1">
 						<token content="This" content_fix="This" id="14_01-05-1-1"/>
@@ -38305,7 +38318,8 @@
 						<token content="between" content_fix="between" id="14_01-05-1-17"/>
 						<token content="1990" content_fix="1990" id="14_01-05-1-18"/>
 						<token content="and" content_fix="and" id="14_01-05-1-19"/>
-						<token content="." content_fix="." id="14_01-05-1-20"/>
+						<token content="2019" content_fix="2019" id="14_01-05-1-20"/>
+						<token content="." content_fix="." id="14_01-05-1-21"/>
 					</sentence>
 					<sentence id="14_01-05-2">
 						<token content="\\n" content_fix="\\n" id="14_01-05-2-1"/>
@@ -38435,63 +38449,64 @@
 					<label from="14_01-05-1-17" id="14_01-05-5" name="x_axis_range_start" text="between" to="14_01-05-1-17" type="event"/>
 					<label from="14_01-05-1-18" id="14_01-05-6" name="x_axis_label_least_value" text="1990" to="14_01-05-1-18" type="event"/>
 					<label from="14_01-05-1-19" id="14_01-05-7" name="x_axis_range_end" text="and" to="14_01-05-1-19" type="event"/>
-					<label from="14_01-05-2-1" id="14_01-05-8" name="separator" text="\\n" to="14_01-05-2-1" type="event"/>
-					<label from="14_01-05-2-2" id="14_01-05-9" name="separator" text="\\n" to="14_01-05-2-2" type="event"/>
-					<label from="14_01-05-2-8" id="14_01-05-10" name="slope_up" text="increase" to="14_01-05-2-8" type="event"/>
-					<label from="14_01-05-2-10" id="14_01-05-11" name="y_axis" text="minority representation" to="14_01-05-2-11" type="event"/>
-					<label from="14_01-05-2-12" id="14_01-05-12" name="x_axis_trend" text="over this period" to="14_01-05-2-14" type="event"/>
-					<label from="14_01-05-3-1" id="14_01-05-13" name="x_axis_label_least_value" text="Between 1990 and 1994" to="14_01-05-3-4" type="event"/>
-					<label from="14_01-05-3-6" id="14_01-05-14" name="y_axis" text="minority representation" to="14_01-05-3-7" type="event"/>
-					<label from="14_01-05-3-11" id="14_01-05-15" name="y_axis_least_value" text="lowest" to="14_01-05-3-11" type="event"/>
-					<label from="14_01-05-3-13" id="14_01-05-16" name="y_axis_approx" text="under" to="14_01-05-3-13" type="event"/>
-					<label from="14_01-05-3-14" id="14_01-05-17" name="y_axis_inferred_least_value_approx" text="2" to="14_01-05-3-14" type="event"/>
-					<label from="14_01-05-3-15" id="14_01-05-18" name="y_axis_inferred_label" text="%" to="14_01-05-3-15" type="event"/>
-					<label from="14_01-05-3-17" id="14_01-05-19" name="y_axis_inferred_least_value_approx" text="0.25" to="14_01-05-3-17" type="event"/>
-					<label from="14_01-05-3-18" id="14_01-05-20" name="y_axis_inferred_label" text="%" to="14_01-05-3-18" type="event"/>
-					<label from="14_01-05-4-1" id="14_01-05-21" name="x_axis_label_5th_highest_value" text="Between 1995 and 1999" to="14_01-05-4-4" type="event"/>
-					<label from="14_01-05-4-8" id="14_01-05-22" name="slope_up" text="increased" to="14_01-05-4-8" type="event"/>
-					<label from="14_01-05-4-10" id="14_01-05-23" name="y_axis_inferred_5th_highest_value_approx" text="2" to="14_01-05-4-10" type="event"/>
-					<label from="14_01-05-4-11" id="14_01-05-24" name="y_axis_inferred_label" text="%" to="14_01-05-4-11" type="event"/>
-					<label from="14_01-05-5-1" id="14_01-05-25" name="separator" text="\\n" to="14_01-05-5-1" type="event"/>
-					<label from="14_01-05-5-2" id="14_01-05-26" name="separator" text="\\n" to="14_01-05-5-2" type="event"/>
-					<label from="14_01-05-5-3" id="14_01-05-27" name="x_axis_label_4th_highest_value" text="Between 2000 and 2004" to="14_01-05-5-6" type="event"/>
-					<label from="14_01-05-5-8" id="14_01-05-28" name="y_axis" text="minority representation" to="14_01-05-5-9" type="event"/>
-					<label from="14_01-05-5-11" id="14_01-05-29" name="slope_up" text="increased" to="14_01-05-5-11" type="event"/>
-					<label from="14_01-05-5-13" id="14_01-05-30" name="y_axis_approx" text="about" to="14_01-05-5-13" type="event"/>
-					<label from="14_01-05-5-14" id="14_01-05-31" name="y_axis_4th_highest_val" text="7.5" to="14_01-05-5-14" type="event"/>
-					<label from="14_01-05-5-15" id="14_01-05-32" name="y_axis_inferred_label" text="%" to="14_01-05-5-15" type="event"/>
-					<label from="14_01-05-5-17" id="14_01-05-33" name="x_axis_label_3rd_highest_value" text="between 2005 and 2009" to="14_01-05-5-20" type="event"/>
-					<label from="14_01-05-5-24" id="14_01-05-34" name="slope_up" text="increased" to="14_01-05-5-24" type="event"/>
-					<label from="14_01-05-5-26" id="14_01-05-35" name="y_axis_3rd_highest_val" text="10" to="14_01-05-5-26" type="event"/>
-					<label from="14_01-05-5-27" id="14_01-05-36" name="y_axis_inferred_label" text="%" to="14_01-05-5-27" type="event"/>
-					<label from="14_01-05-6-1" id="14_01-05-37" name="separator" text="\\n" to="14_01-05-6-1" type="event"/>
-					<label from="14_01-05-6-2" id="14_01-05-38" name="separator" text="\\n" to="14_01-05-6-2" type="event"/>
-					<label from="14_01-05-6-3" id="14_01-05-39" name="x_axis_label_Scnd_highest_value" text="Between 2010 and 2014" to="14_01-05-6-6" type="event"/>
-					<label from="14_01-05-6-8" id="14_01-05-40" name="y_axis" text="minority representation" to="14_01-05-6-9" type="event"/>
-					<label from="14_01-05-6-11" id="14_01-05-41" name="slope_up" text="increased" to="14_01-05-6-11" type="event"/>
-					<label from="14_01-05-6-13" id="14_01-05-42" name="y_axis_approx" text="about" to="14_01-05-6-13" type="event"/>
-					<label from="14_01-05-6-14" id="14_01-05-43" name="y_axis_inferred_Scnd_highest_value_approx" text="12.25" to="14_01-05-6-14" type="event"/>
-					<label from="14_01-05-6-15" id="14_01-05-44" name="y_axis_inferred_label" text="%" to="14_01-05-6-15" type="event"/>
-					<label from="14_01-05-6-17" id="14_01-05-45" name="order_last" text="finally" to="14_01-05-6-17" type="event"/>
-					<label from="14_01-05-6-18" id="14_01-05-46" name="y_axis_inferred_5th_highest_value_approx" text="between 2015 and 2019" to="14_01-05-6-21" type="event"/>
-					<label from="14_01-05-6-26" id="14_01-05-47" name="y_axis_highest_value" text="all time high" to="14_01-05-6-28" type="event"/>
-					<label from="14_01-05-6-30" id="14_01-05-48" name="y_axis_highest_value_val" text="14" to="14_01-05-6-30" type="event"/>
-					<label from="14_01-05-6-31" id="14_01-05-49" name="y_axis_inferred_label" text="%" to="14_01-05-6-31" type="event"/>
+					<label from="14_01-05-1-20" id="14_01-05-8" name="x_axis_label_highest_value" text="2019" to="14_01-05-1-20" type="event"/>
+					<label from="14_01-05-2-1" id="14_01-05-9" name="separator" text="\\n" to="14_01-05-2-1" type="event"/>
+					<label from="14_01-05-2-2" id="14_01-05-10" name="separator" text="\\n" to="14_01-05-2-2" type="event"/>
+					<label from="14_01-05-2-8" id="14_01-05-11" name="slope_up" text="increase" to="14_01-05-2-8" type="event"/>
+					<label from="14_01-05-2-10" id="14_01-05-12" name="y_axis" text="minority representation" to="14_01-05-2-11" type="event"/>
+					<label from="14_01-05-2-12" id="14_01-05-13" name="x_axis_trend" text="over this period" to="14_01-05-2-14" type="event"/>
+					<label from="14_01-05-3-1" id="14_01-05-14" name="x_axis_label_least_value" text="Between 1990 and 1994" to="14_01-05-3-4" type="event"/>
+					<label from="14_01-05-3-6" id="14_01-05-15" name="y_axis" text="minority representation" to="14_01-05-3-7" type="event"/>
+					<label from="14_01-05-3-11" id="14_01-05-16" name="y_axis_least_value" text="lowest" to="14_01-05-3-11" type="event"/>
+					<label from="14_01-05-3-13" id="14_01-05-17" name="y_axis_approx" text="under" to="14_01-05-3-13" type="event"/>
+					<label from="14_01-05-3-14" id="14_01-05-18" name="y_axis_inferred_least_value_approx" text="2" to="14_01-05-3-14" type="event"/>
+					<label from="14_01-05-3-15" id="14_01-05-19" name="y_axis_inferred_label" text="%" to="14_01-05-3-15" type="event"/>
+					<label from="14_01-05-3-17" id="14_01-05-20" name="y_axis_inferred_least_value_approx" text="0.25" to="14_01-05-3-17" type="event"/>
+					<label from="14_01-05-3-18" id="14_01-05-21" name="y_axis_inferred_label" text="%" to="14_01-05-3-18" type="event"/>
+					<label from="14_01-05-4-1" id="14_01-05-22" name="x_axis_label_5th_highest_value" text="Between 1995 and 1999" to="14_01-05-4-4" type="event"/>
+					<label from="14_01-05-4-8" id="14_01-05-23" name="slope_up" text="increased" to="14_01-05-4-8" type="event"/>
+					<label from="14_01-05-4-10" id="14_01-05-24" name="y_axis_inferred_5th_highest_value_approx" text="2" to="14_01-05-4-10" type="event"/>
+					<label from="14_01-05-4-11" id="14_01-05-25" name="y_axis_inferred_label" text="%" to="14_01-05-4-11" type="event"/>
+					<label from="14_01-05-5-1" id="14_01-05-26" name="separator" text="\\n" to="14_01-05-5-1" type="event"/>
+					<label from="14_01-05-5-2" id="14_01-05-27" name="separator" text="\\n" to="14_01-05-5-2" type="event"/>
+					<label from="14_01-05-5-3" id="14_01-05-28" name="x_axis_label_4th_highest_value" text="Between 2000 and 2004" to="14_01-05-5-6" type="event"/>
+					<label from="14_01-05-5-8" id="14_01-05-29" name="y_axis" text="minority representation" to="14_01-05-5-9" type="event"/>
+					<label from="14_01-05-5-11" id="14_01-05-30" name="slope_up" text="increased" to="14_01-05-5-11" type="event"/>
+					<label from="14_01-05-5-13" id="14_01-05-31" name="y_axis_approx" text="about" to="14_01-05-5-13" type="event"/>
+					<label from="14_01-05-5-14" id="14_01-05-32" name="y_axis_4th_highest_val" text="7.5" to="14_01-05-5-14" type="event"/>
+					<label from="14_01-05-5-15" id="14_01-05-33" name="y_axis_inferred_label" text="%" to="14_01-05-5-15" type="event"/>
+					<label from="14_01-05-5-17" id="14_01-05-34" name="x_axis_label_3rd_highest_value" text="between 2005 and 2009" to="14_01-05-5-20" type="event"/>
+					<label from="14_01-05-5-24" id="14_01-05-35" name="slope_up" text="increased" to="14_01-05-5-24" type="event"/>
+					<label from="14_01-05-5-26" id="14_01-05-36" name="y_axis_3rd_highest_val" text="10" to="14_01-05-5-26" type="event"/>
+					<label from="14_01-05-5-27" id="14_01-05-37" name="y_axis_inferred_label" text="%" to="14_01-05-5-27" type="event"/>
+					<label from="14_01-05-6-1" id="14_01-05-38" name="separator" text="\\n" to="14_01-05-6-1" type="event"/>
+					<label from="14_01-05-6-2" id="14_01-05-39" name="separator" text="\\n" to="14_01-05-6-2" type="event"/>
+					<label from="14_01-05-6-3" id="14_01-05-40" name="x_axis_label_Scnd_highest_value" text="Between 2010 and 2014" to="14_01-05-6-6" type="event"/>
+					<label from="14_01-05-6-8" id="14_01-05-41" name="y_axis" text="minority representation" to="14_01-05-6-9" type="event"/>
+					<label from="14_01-05-6-11" id="14_01-05-42" name="slope_up" text="increased" to="14_01-05-6-11" type="event"/>
+					<label from="14_01-05-6-13" id="14_01-05-43" name="y_axis_approx" text="about" to="14_01-05-6-13" type="event"/>
+					<label from="14_01-05-6-14" id="14_01-05-44" name="y_axis_inferred_Scnd_highest_value_approx" text="12.25" to="14_01-05-6-14" type="event"/>
+					<label from="14_01-05-6-15" id="14_01-05-45" name="y_axis_inferred_label" text="%" to="14_01-05-6-15" type="event"/>
+					<label from="14_01-05-6-17" id="14_01-05-46" name="order_last" text="finally" to="14_01-05-6-17" type="event"/>
+					<label from="14_01-05-6-18" id="14_01-05-47" name="y_axis_inferred_5th_highest_value_approx" text="between 2015 and 2019" to="14_01-05-6-21" type="event"/>
+					<label from="14_01-05-6-26" id="14_01-05-48" name="y_axis_highest_value" text="all time high" to="14_01-05-6-28" type="event"/>
+					<label from="14_01-05-6-30" id="14_01-05-49" name="y_axis_highest_value_val" text="14" to="14_01-05-6-30" type="event"/>
+					<label from="14_01-05-6-31" id="14_01-05-50" name="y_axis_inferred_label" text="%" to="14_01-05-6-31" type="event"/>
 				</events>
 			</annotations>
 			<numex>
 				<approximations>
-					<approx anno_id="14_01-05-17" direction="up" format="digit" hedge_str="under" id="14_01-05-1" magnitude="" nearest_major_ticks="2,2" nearest_minor_ticks="2,2" text="2" unit="%" va="0.5" vg="2"/>
-					<approx anno_id="14_01-05-19" direction="down" format="digit" hedge_str="" id="14_01-05-2" magnitude="" nearest_major_ticks="0,0" nearest_minor_ticks="0.4,0.4" text="0.25" unit="%" va="0.5" vg="0.25"/>
-					<approx anno_id="14_01-05-23" direction="down" format="digit" hedge_str="" id="14_01-05-3" magnitude="" nearest_major_ticks="2,2" nearest_minor_ticks="2,2" text="2" unit="%" va="2.1" vg="2"/>
-					<approx anno_id="14_01-05-43" direction="down" format="digit" hedge_str="about" id="14_01-05-4" magnitude="" nearest_major_ticks="12,12" nearest_minor_ticks="12.4,12.4" text="12.25" unit="%" va="12.7" vg="12.25"/>
-					<approx anno_id="14_01-05-46" direction="##REVIEW" format="word" hedge_str="" id="14_01-05-5" magnitude="" nearest_major_ticks="##REVIEW" nearest_minor_ticks="##REVIEW" text="between 2015 and 2019" unit="" va="2.1" vg="##REVIEW"/>
+					<approx anno_id="14_01-05-18" direction="up" format="digit" hedge_str="under" id="14_01-05-1" magnitude="" nearest_major_ticks="2,2" nearest_minor_ticks="2,2" text="2" unit="%" va="0.5" vg="2"/>
+					<approx anno_id="14_01-05-20" direction="down" format="digit" hedge_str="" id="14_01-05-2" magnitude="" nearest_major_ticks="0,0" nearest_minor_ticks="0.4,0.4" text="0.25" unit="%" va="0.5" vg="0.25"/>
+					<approx anno_id="14_01-05-24" direction="down" format="digit" hedge_str="" id="14_01-05-3" magnitude="" nearest_major_ticks="2,2" nearest_minor_ticks="2,2" text="2" unit="%" va="2.1" vg="2"/>
+					<approx anno_id="14_01-05-44" direction="down" format="digit" hedge_str="about" id="14_01-05-4" magnitude="" nearest_major_ticks="12,12" nearest_minor_ticks="12.4,12.4" text="12.25" unit="%" va="12.7" vg="12.25"/>
+					<approx anno_id="14_01-05-47" direction="##REVIEW" format="word" hedge_str="" id="14_01-05-5" magnitude="" nearest_major_ticks="##REVIEW" nearest_minor_ticks="##REVIEW" text="between 2015 and 2019" unit="" va="2.1" vg="##REVIEW"/>
 				</approximations>
 				<relative_expressions/>
 				<hedges>
-					<hedge anno_id="14_01-05-16" expr_id="##REVIEW" hedge_str="under" hedge_type="abs_ex" id="14_01-05-1"/>
-					<hedge anno_id="14_01-05-30" expr_id="##REVIEW" hedge_str="about" hedge_type="##REVIEW" id="14_01-05-2"/>
-					<hedge anno_id="14_01-05-42" expr_id="##REVIEW" hedge_str="about" hedge_type="abs_ex" id="14_01-05-3"/>
+					<hedge anno_id="14_01-05-17" expr_id="##REVIEW" hedge_str="under" hedge_type="abs_ex" id="14_01-05-1"/>
+					<hedge anno_id="14_01-05-31" expr_id="##REVIEW" hedge_str="about" hedge_type="##REVIEW" id="14_01-05-2"/>
+					<hedge anno_id="14_01-05-43" expr_id="##REVIEW" hedge_str="about" hedge_type="abs_ex" id="14_01-05-3"/>
 				</hedges>
 			</numex>
 		</story>
@@ -39168,7 +39183,7 @@
 		</story>
 		<story story_id="14_01-12">
 			<text>
-				<content>This chart shows the representation of minorities in the parliament of Lybia since to . \\n In the years 1990 to 1994 there were 0.2 % of minorities , in 1995 to 1999 there were 2 % of minorities , 2000 to 2004 there were 7.2 % of minorities , 2005 to 2009 there were 10 % of minorities , 2010 to 2014 there were 12.4 % of minorities , 2015 to 2019 there were 14 % of minorities . Over the years there is an explicit scene of an increase in percentage .</content>
+				<content>This chart shows the representation of minorities in the parliament of Lybia since 1990 to 2019 . \\n In the years 1990 to 1994 there were 0.2 % of minorities , in 1995 to 1999 there were 2 % of minorities , 2000 to 2004 there were 7.2 % of minorities , 2005 to 2009 there were 10 % of minorities , 2010 to 2014 there were 12.4 % of minorities , 2015 to 2019 there were 14 % of minorities . Over the years there is an explicit scene of an increase in percentage .</content>
 				<sentences>
 					<sentence id="14_01-12-1">
 						<token content="This" content_fix="This" id="14_01-12-1-1"/>
@@ -39184,8 +39199,10 @@
 						<token content="of" content_fix="of" id="14_01-12-1-11"/>
 						<token content="Lybia" content_fix="Lybia" id="14_01-12-1-12"/>
 						<token content="since" content_fix="since" id="14_01-12-1-13"/>
-						<token content="to" content_fix="to" id="14_01-12-1-14"/>
-						<token content="." content_fix="." id="14_01-12-1-15"/>
+						<token content="1990" content_fix="1990" id="14_01-12-1-14"/>
+						<token content="to" content_fix="to" id="14_01-12-1-15"/>
+						<token content="2019" content_fix="2019" id="14_01-12-1-16"/>
+						<token content="." content_fix="." id="14_01-12-1-17"/>
 					</sentence>
 					<sentence id="14_01-12-2">
 						<token content="\\n" content_fix="\\n" id="14_01-12-2-1"/>
@@ -39276,45 +39293,47 @@
 				<events>
 					<label from="14_01-12-1-5" id="14_01-12-1" name="topic" text="representation of minorities in the parliament of Lybia" to="14_01-12-1-12" type="event"/>
 					<label from="14_01-12-1-13" id="14_01-12-2" name="x_axis_range_start" text="since" to="14_01-12-1-13" type="event"/>
-					<label from="14_01-12-1-14" id="14_01-12-3" name="x_axis_range_end" text="to" to="14_01-12-1-14" type="event"/>
-					<label from="14_01-12-2-1" id="14_01-12-4" name="separator" text="\\n" to="14_01-12-2-1" type="event"/>
-					<label from="14_01-12-2-4" id="14_01-12-5" name="x_axis" text="years" to="14_01-12-2-4" type="event"/>
-					<label from="14_01-12-2-5" id="14_01-12-6" name="x_axis_label_least_value" text="1990 to 1994" to="14_01-12-2-7" type="event"/>
-					<label from="14_01-12-2-10" id="14_01-12-7" name="y_axis_inferred_least_value_approx" text="0.2" to="14_01-12-2-10" type="event"/>
-					<label from="14_01-12-2-11" id="14_01-12-8" name="y_axis_inferred_label" text="%" to="14_01-12-2-11" type="event"/>
-					<label from="14_01-12-2-13" id="14_01-12-9" name="y_axis" text="minorities" to="14_01-12-2-13" type="event"/>
-					<label from="14_01-12-2-16" id="14_01-12-10" name="x_axis_label_5th_highest_value" text="1995 to 1999" to="14_01-12-2-18" type="event"/>
-					<label from="14_01-12-2-21" id="14_01-12-11" name="y_axis_inferred_5th_highest_value_approx" text="2" to="14_01-12-2-21" type="event"/>
-					<label from="14_01-12-2-22" id="14_01-12-12" name="y_axis_inferred_label" text="%" to="14_01-12-2-22" type="event"/>
-					<label from="14_01-12-2-24" id="14_01-12-13" name="y_axis" text="minorities" to="14_01-12-2-24" type="event"/>
-					<label from="14_01-12-2-26" id="14_01-12-14" name="x_axis_label_4th_highest_value" text="2000 to 2004" to="14_01-12-2-28" type="event"/>
-					<label from="14_01-12-2-31" id="14_01-12-15" name="y_axis_inferred_4th_highest_value_approx" text="7.2" to="14_01-12-2-31" type="event"/>
-					<label from="14_01-12-2-32" id="14_01-12-16" name="y_axis_inferred_label" text="%" to="14_01-12-2-32" type="event"/>
-					<label from="14_01-12-2-34" id="14_01-12-17" name="y_axis" text="minorities" to="14_01-12-2-34" type="event"/>
-					<label from="14_01-12-2-36" id="14_01-12-18" name="x_axis_label_3rd_highest_value" text="2005 to 2009" to="14_01-12-2-38" type="event"/>
-					<label from="14_01-12-2-41" id="14_01-12-19" name="y_axis_3rd_highest_val" text="10" to="14_01-12-2-41" type="event"/>
-					<label from="14_01-12-2-42" id="14_01-12-20" name="y_axis_inferred_label" text="%" to="14_01-12-2-42" type="event"/>
-					<label from="14_01-12-2-44" id="14_01-12-21" name="y_axis" text="minorities" to="14_01-12-2-44" type="event"/>
-					<label from="14_01-12-2-46" id="14_01-12-22" name="x_axis_label_Scnd_highest_value" text="2010 to 2014" to="14_01-12-2-48" type="event"/>
-					<label from="14_01-12-2-51" id="14_01-12-23" name="y_axis_inferred_Scnd_highest_value_approx" text="12.4" to="14_01-12-2-51" type="event"/>
-					<label from="14_01-12-2-52" id="14_01-12-24" name="y_axis_inferred_label" text="%" to="14_01-12-2-52" type="event"/>
-					<label from="14_01-12-2-54" id="14_01-12-25" name="y_axis" text="minorities" to="14_01-12-2-54" type="event"/>
-					<label from="14_01-12-2-56" id="14_01-12-26" name="x_axis_label_highest_value" text="2015 to 2019" to="14_01-12-2-58" type="event"/>
-					<label from="14_01-12-2-61" id="14_01-12-27" name="y_axis_highest_value_val" text="14" to="14_01-12-2-61" type="event"/>
-					<label from="14_01-12-2-62" id="14_01-12-28" name="y_axis_inferred_label" text="%" to="14_01-12-2-62" type="event"/>
-					<label from="14_01-12-2-64" id="14_01-12-29" name="y_axis" text="minorities" to="14_01-12-2-64" type="event"/>
-					<label from="14_01-12-3-1" id="14_01-12-30" name="x_axis_trend" text="Over the years" to="14_01-12-3-3" type="event"/>
-					<label from="14_01-12-3-7" id="14_01-12-31" name="y_axis_trend" text="explicit" to="14_01-12-3-7" type="event"/>
-					<label from="14_01-12-3-11" id="14_01-12-32" name="slope_up" text="increase" to="14_01-12-3-11" type="event"/>
-					<label from="14_01-12-3-13" id="14_01-12-33" name="y_axis" text="percentage" to="14_01-12-3-13" type="event"/>
+					<label from="14_01-12-1-14" id="14_01-12-3" name="x_axis_label_least_value" text="1990" to="14_01-12-1-14" type="event"/>
+					<label from="14_01-12-1-15" id="14_01-12-4" name="x_axis_range_end" text="to" to="14_01-12-1-15" type="event"/>
+					<label from="14_01-12-1-16" id="14_01-12-5" name="x_axis_label_highest_value" text="2019" to="14_01-12-1-16" type="event"/>
+					<label from="14_01-12-2-1" id="14_01-12-6" name="separator" text="\\n" to="14_01-12-2-1" type="event"/>
+					<label from="14_01-12-2-4" id="14_01-12-7" name="x_axis" text="years" to="14_01-12-2-4" type="event"/>
+					<label from="14_01-12-2-5" id="14_01-12-8" name="x_axis_label_least_value" text="1990 to 1994" to="14_01-12-2-7" type="event"/>
+					<label from="14_01-12-2-10" id="14_01-12-9" name="y_axis_inferred_least_value_approx" text="0.2" to="14_01-12-2-10" type="event"/>
+					<label from="14_01-12-2-11" id="14_01-12-10" name="y_axis_inferred_label" text="%" to="14_01-12-2-11" type="event"/>
+					<label from="14_01-12-2-13" id="14_01-12-11" name="y_axis" text="minorities" to="14_01-12-2-13" type="event"/>
+					<label from="14_01-12-2-16" id="14_01-12-12" name="x_axis_label_5th_highest_value" text="1995 to 1999" to="14_01-12-2-18" type="event"/>
+					<label from="14_01-12-2-21" id="14_01-12-13" name="y_axis_inferred_5th_highest_value_approx" text="2" to="14_01-12-2-21" type="event"/>
+					<label from="14_01-12-2-22" id="14_01-12-14" name="y_axis_inferred_label" text="%" to="14_01-12-2-22" type="event"/>
+					<label from="14_01-12-2-24" id="14_01-12-15" name="y_axis" text="minorities" to="14_01-12-2-24" type="event"/>
+					<label from="14_01-12-2-26" id="14_01-12-16" name="x_axis_label_4th_highest_value" text="2000 to 2004" to="14_01-12-2-28" type="event"/>
+					<label from="14_01-12-2-31" id="14_01-12-17" name="y_axis_inferred_4th_highest_value_approx" text="7.2" to="14_01-12-2-31" type="event"/>
+					<label from="14_01-12-2-32" id="14_01-12-18" name="y_axis_inferred_label" text="%" to="14_01-12-2-32" type="event"/>
+					<label from="14_01-12-2-34" id="14_01-12-19" name="y_axis" text="minorities" to="14_01-12-2-34" type="event"/>
+					<label from="14_01-12-2-36" id="14_01-12-20" name="x_axis_label_3rd_highest_value" text="2005 to 2009" to="14_01-12-2-38" type="event"/>
+					<label from="14_01-12-2-41" id="14_01-12-21" name="y_axis_3rd_highest_val" text="10" to="14_01-12-2-41" type="event"/>
+					<label from="14_01-12-2-42" id="14_01-12-22" name="y_axis_inferred_label" text="%" to="14_01-12-2-42" type="event"/>
+					<label from="14_01-12-2-44" id="14_01-12-23" name="y_axis" text="minorities" to="14_01-12-2-44" type="event"/>
+					<label from="14_01-12-2-46" id="14_01-12-24" name="x_axis_label_Scnd_highest_value" text="2010 to 2014" to="14_01-12-2-48" type="event"/>
+					<label from="14_01-12-2-51" id="14_01-12-25" name="y_axis_inferred_Scnd_highest_value_approx" text="12.4" to="14_01-12-2-51" type="event"/>
+					<label from="14_01-12-2-52" id="14_01-12-26" name="y_axis_inferred_label" text="%" to="14_01-12-2-52" type="event"/>
+					<label from="14_01-12-2-54" id="14_01-12-27" name="y_axis" text="minorities" to="14_01-12-2-54" type="event"/>
+					<label from="14_01-12-2-56" id="14_01-12-28" name="x_axis_label_highest_value" text="2015 to 2019" to="14_01-12-2-58" type="event"/>
+					<label from="14_01-12-2-61" id="14_01-12-29" name="y_axis_highest_value_val" text="14" to="14_01-12-2-61" type="event"/>
+					<label from="14_01-12-2-62" id="14_01-12-30" name="y_axis_inferred_label" text="%" to="14_01-12-2-62" type="event"/>
+					<label from="14_01-12-2-64" id="14_01-12-31" name="y_axis" text="minorities" to="14_01-12-2-64" type="event"/>
+					<label from="14_01-12-3-1" id="14_01-12-32" name="x_axis_trend" text="Over the years" to="14_01-12-3-3" type="event"/>
+					<label from="14_01-12-3-7" id="14_01-12-33" name="y_axis_trend" text="explicit" to="14_01-12-3-7" type="event"/>
+					<label from="14_01-12-3-11" id="14_01-12-34" name="slope_up" text="increase" to="14_01-12-3-11" type="event"/>
+					<label from="14_01-12-3-13" id="14_01-12-35" name="y_axis" text="percentage" to="14_01-12-3-13" type="event"/>
 				</events>
 			</annotations>
 			<numex>
 				<approximations>
-					<approx anno_id="14_01-12-7" direction="down" format="digit" hedge_str="" id="14_01-12-1" magnitude="" nearest_major_ticks="0,0" nearest_minor_ticks="0,0.4" text="0.2" unit="%" va="0.5" vg="0.2"/>
-					<approx anno_id="14_01-12-11" direction="down" format="digit" hedge_str="" id="14_01-12-2" magnitude="" nearest_major_ticks="2,2" nearest_minor_ticks="2,2" text="2" unit="%" va="2.1" vg="2"/>
-					<approx anno_id="14_01-12-15" direction="down" format="digit" hedge_str="" id="14_01-12-3" magnitude="" nearest_major_ticks="8,8" nearest_minor_ticks="7.2,7.2" text="7.2" unit="%" va="7.5" vg="7.2"/>
-					<approx anno_id="14_01-12-23" direction="down" format="digit" hedge_str="" id="14_01-12-4" magnitude="" nearest_major_ticks="12,12" nearest_minor_ticks="12.4,12.4" text="12.4" unit="%" va="12.7" vg="12.4"/>
+					<approx anno_id="14_01-12-9" direction="down" format="digit" hedge_str="" id="14_01-12-1" magnitude="" nearest_major_ticks="0,0" nearest_minor_ticks="0,0.4" text="0.2" unit="%" va="0.5" vg="0.2"/>
+					<approx anno_id="14_01-12-13" direction="down" format="digit" hedge_str="" id="14_01-12-2" magnitude="" nearest_major_ticks="2,2" nearest_minor_ticks="2,2" text="2" unit="%" va="2.1" vg="2"/>
+					<approx anno_id="14_01-12-17" direction="down" format="digit" hedge_str="" id="14_01-12-3" magnitude="" nearest_major_ticks="8,8" nearest_minor_ticks="7.2,7.2" text="7.2" unit="%" va="7.5" vg="7.2"/>
+					<approx anno_id="14_01-12-25" direction="down" format="digit" hedge_str="" id="14_01-12-4" magnitude="" nearest_major_ticks="12,12" nearest_minor_ticks="12.4,12.4" text="12.4" unit="%" va="12.7" vg="12.4"/>
 				</approximations>
 				<relative_expressions/>
 				<hedges/>
@@ -40445,7 +40464,7 @@
 					<label from="14_01-22-2-14" id="14_01-22-10" name="y_axis_least_value" text="only" to="14_01-22-2-14" type="event"/>
 					<label from="14_01-22-2-15" id="14_01-22-11" name="y_axis_highest_value_val" text="14" to="14_01-22-2-15" type="event"/>
 					<label from="14_01-22-2-16" id="14_01-22-12" name="y_axis_inferred_label" text="%" to="14_01-22-2-16" type="event"/>
-					<label from="14_01-22-2-19" id="14_01-22-13" name="x_axis_label_highest_valu" text="between 2015-19" to="14_01-22-2-20" type="event"/>
+					<label from="14_01-22-2-19" id="14_01-22-13" name="x_axis_label_highest_value" text="between 2015-19" to="14_01-22-2-20" type="event"/>
 					<label from="14_01-22-2-23" id="14_01-22-14" name="t=1_a=y" text="minority" to="14_01-22-2-23" type="event"/>
 				</events>
 			</annotations>
@@ -41598,7 +41617,7 @@
 					<label from="14_02-10-2-13" id="14_02-10-7" name="y_axis_trend" text="steady" to="14_02-10-2-13" type="event"/>
 					<label from="14_02-10-2-14" id="14_02-10-8" name="slope_down" text="decrease" to="14_02-10-2-14" type="event"/>
 					<label from="14_02-10-2-16" id="14_02-10-9" name="x_axis_label_least_value" text="2014" to="14_02-10-2-16" type="event"/>
-					<label from="14_02-10-3-1" id="14_02-10-10" name="group_least_5th" text="From 2010-2014 to 2015-2019" to="14_02-10-3-4" type="event"/>
+					<label from="14_02-10-3-1" id="14_02-10-10" name="group_5th_least" text="From 2010-2014 to 2015-2019" to="14_02-10-3-4" type="event"/>
 					<label from="14_02-10-3-8" id="14_02-10-11" name="slope_up" text="increase" to="14_02-10-3-8" type="event"/>
 					<label from="14_02-10-3-10" id="14_02-10-12" name="y_axis" text="representation" to="14_02-10-3-10" type="event"/>
 					<label from="14_02-10-3-12" id="14_02-10-13" name="y_axis_inferred_value_add_v1=5th_v2=least" text="0.25" to="14_02-10-3-12" type="event"/>
@@ -42287,7 +42306,7 @@
 					<label from="14_02-15-4-16" id="14_02-15-32" name="y_axis_inferred_label" text="%" to="14_02-15-4-16" type="event"/>
 					<label from="14_02-15-4-18" id="14_02-15-33" name="x_axis_label_least_value" text="2010-13" to="14_02-15-4-18" type="event"/>
 					<label from="14_02-15-4-19" id="14_02-15-34" name="y_axis_approx" text="just over" to="14_02-15-4-20" type="event"/>
-					<label from="14_02-15-4-21" id="14_02-15-35" name="_axis_inferred_least_value_approx" text="6" to="14_02-15-4-21" type="event"/>
+					<label from="14_02-15-4-21" id="14_02-15-35" name="y_axis_inferred_least_value_approx" text="6" to="14_02-15-4-21" type="event"/>
 					<label from="14_02-15-4-22" id="14_02-15-36" name="y_axis_inferred_label" text="%" to="14_02-15-4-22" type="event"/>
 					<label from="14_02-15-4-24" id="14_02-15-37" name="x_axis_label_5th_highest_value" text="2015-19" to="14_02-15-4-24" type="event"/>
 					<label from="14_02-15-4-25" id="14_02-15-38" name="y_axis_approx" text="around" to="14_02-15-4-25" type="event"/>
@@ -44386,13 +44405,13 @@
 					<label from="05_02-12-2-28" id="05_02-12-18" name="y_axis_inferred_Scnd_highest_value_approx" text="270" to="05_02-12-2-28" type="event"/>
 					<label from="05_02-12-2-29" id="05_02-12-19" name="y_magnitude" text="millions" to="05_02-12-2-29" type="event"/>
 					<label from="05_02-12-2-31" id="05_02-12-20" name="y_axis_inferred_label" text="pounds" to="05_02-12-2-31" type="event"/>
-					<label from="05_02-12-3-1" id="05_02-12-21" name="group_least_3rd" text="North America and Asia" to="05_02-12-3-4" type="event"/>
+					<label from="05_02-12-3-1" id="05_02-12-21" name="group_3rd_least" text="North America and Asia" to="05_02-12-3-4" type="event"/>
 					<label from="05_02-12-3-6" id="05_02-12-22" name="y_axis_approx" text="less than" to="05_02-12-3-7" type="event"/>
-					<label from="05_02-12-3-8" id="05_02-12-23" name="group_y_least_3rd" text="200" to="05_02-12-3-8" type="event"/>
+					<label from="05_02-12-3-8" id="05_02-12-23" name="group_y_3rd_least" text="200" to="05_02-12-3-8" type="event"/>
 					<label from="05_02-12-3-9" id="05_02-12-24" name="y_magnitude" text="millions" to="05_02-12-3-9" type="event"/>
 					<label from="05_02-12-3-11" id="05_02-12-25" name="x_axis_label_3rd_highest_value" text="Asia" to="05_02-12-3-11" type="event"/>
 					<label from="05_02-12-3-14" id="05_02-12-26" name="y_axis_trend_up" text="bigger" to="05_02-12-3-14" type="event"/>
-					<label from="05_02-12-3-16" id="05_02-12-27" name="group_least_3rd" text="the two" to="05_02-12-3-17" type="event"/>
+					<label from="05_02-12-3-16" id="05_02-12-27" name="group_3rd_least" text="the two" to="05_02-12-3-17" type="event"/>
 					<label from="05_02-12-3-19" id="05_02-12-28" name="y_axis_approx" text="around" to="05_02-12-3-19" type="event"/>
 					<label from="05_02-12-3-20" id="05_02-12-29" name="y_axis_inferred_3rd_highest_value_approx" text="170" to="05_02-12-3-20" type="event"/>
 					<label from="05_02-12-3-21" id="05_02-12-30" name="y_magnitude" text="millions" to="05_02-12-3-21" type="event"/>
@@ -44695,7 +44714,7 @@
 				<events>
 					<label from="05_02-15-1-8" id="05_02-15-1" name="topic" text="money spent on higher education in the year 2010" to="05_02-15-1-16" type="event"/>
 					<label from="05_02-15-1-19" id="05_02-15-2" name="x_axis" text="continents" to="05_02-15-1-19" type="event"/>
-					<label from="05_02-15-2-4" id="05_02-15-3" name="group_Scnd_highest" text="Europe and Africa" to="05_02-15-2-6" type="event"/>
+					<label from="05_02-15-2-4" id="05_02-15-3" name="group_highest_Scnd" text="Europe and Africa" to="05_02-15-2-6" type="event"/>
 					<label from="05_02-15-2-9" id="05_02-15-4" name="y_axis_highest_value" text="highest" to="05_02-15-2-9" type="event"/>
 					<label from="05_02-15-2-10" id="05_02-15-5" name="y_axis" text="expenditure" to="05_02-15-2-10" type="event"/>
 					<label from="05_02-15-2-15" id="05_02-15-6" name="x_axis_label_Scnd_highest_value" text="Europe" to="05_02-15-2-15" type="event"/>
@@ -44708,7 +44727,7 @@
 					<label from="05_02-15-2-27" id="05_02-15-13" name="y_axis_inferred_highest_value_approx" text="300" to="05_02-15-2-27" type="event"/>
 					<label from="05_02-15-2-28" id="05_02-15-14" name="y_magnitude" text="million" to="05_02-15-2-28" type="event"/>
 					<label from="05_02-15-2-29" id="05_02-15-15" name="y_axis_inferred_label" text="pounds" to="05_02-15-2-29" type="event"/>
-					<label from="05_02-15-3-1" id="05_02-15-16" name="group_least_3rd" text="North America and Asia" to="05_02-15-3-4" type="event"/>
+					<label from="05_02-15-3-1" id="05_02-15-16" name="group_3rd_least" text="North America and Asia" to="05_02-15-3-4" type="event"/>
 					<label from="05_02-15-3-7" id="05_02-15-17" name="y_axis_least_value" text="last" to="05_02-15-3-7" type="event"/>
 					<label from="05_02-15-3-14" id="05_02-15-18" name="x_axis_label_least_value" text="North America" to="05_02-15-3-15" type="event"/>
 					<label from="05_02-15-3-17" id="05_02-15-19" name="y_axis_approx" text="just under" to="05_02-15-3-18" type="event"/>
@@ -45576,7 +45595,7 @@
 					<label from="07_02-01-2-16" id="07_02-01-5" name="x_axis_label_highest_value" text="genetic cause" to="07_02-01-2-17" type="event"/>
 					<label from="07_02-01-2-22" id="07_02-01-6" name="y_axis_inferred_highest_value_approx" text="40" to="07_02-01-2-22" type="event"/>
 					<label from="07_02-01-2-23" id="07_02-01-7" name="y_axis_inferred_label" text="%" to="07_02-01-2-23" type="event"/>
-					<label from="07_02-01-3-1" id="07_02-01-8" name="order_2nd" text="Then" to="07_02-01-3-1" type="event"/>
+					<label from="07_02-01-3-1" id="07_02-01-8" name="order_Scnd" text="Then" to="07_02-01-3-1" type="event"/>
 					<label from="07_02-01-3-2" id="07_02-01-9" name="x_axis_label_Scnd_highest_value" text="lack of exercise" to="07_02-01-3-4" type="event"/>
 					<label from="07_02-01-3-6" id="07_02-01-10" name="y_axis_inferred_Scnd_highest_value_approx" text="36" to="07_02-01-3-6" type="event"/>
 					<label from="07_02-01-3-7" id="07_02-01-11" name="y_axis_inferred_label" text="%" to="07_02-01-3-7" type="event"/>
@@ -45656,7 +45675,7 @@
 					<label from="07_02-02-2-8" id="07_02-02-6" name="x_axis" text="cause" to="07_02-02-2-8" type="event"/>
 					<label from="07_02-02-2-10" id="07_02-02-7" name="y_axis_inferred_least_value_approx" text="24" to="07_02-02-2-10" type="event"/>
 					<label from="07_02-02-2-11" id="07_02-02-8" name="y_axis_inferred_label" text="%" to="07_02-02-2-11" type="event"/>
-					<label from="07_02-02-2-13" id="07_02-02-9" name="order_2nd" text="then" to="07_02-02-2-13" type="event"/>
+					<label from="07_02-02-2-13" id="07_02-02-9" name="order_Scnd" text="then" to="07_02-02-2-13" type="event"/>
 					<label from="07_02-02-2-14" id="07_02-02-10" name="x_axis_label_Scnd_highest_value" text="lack of exercise" to="07_02-02-2-16" type="event"/>
 					<label from="07_02-02-2-18" id="07_02-02-11" name="y_axis_inferred_Scnd_highest_value_approx" text="35" to="07_02-02-2-18" type="event"/>
 					<label from="07_02-02-2-19" id="07_02-02-12" name="y_axis_inferred_label" text="%" to="07_02-02-2-19" type="event"/>
@@ -46084,7 +46103,7 @@
 					<label from="07_02-07-1-9" id="07_02-07-4" name="t=1_a=b" text="Kirbati" to="07_02-07-1-9" type="event"/>
 					<label from="07_02-07-1-11" id="07_02-07-5" name="y_axis_inferred_highest_value_approx" text="40" to="07_02-07-1-11" type="event"/>
 					<label from="07_02-07-1-12" id="07_02-07-6" name="y_axis_inferred_label" text="%" to="07_02-07-1-12" type="event"/>
-					<label from="07_02-07-2-1" id="07_02-07-7" name="order_2nd" text="Then" to="07_02-07-2-1" type="event"/>
+					<label from="07_02-07-2-1" id="07_02-07-7" name="order_Scnd" text="Then" to="07_02-07-2-1" type="event"/>
 					<label from="07_02-07-2-2" id="07_02-07-8" name="x_axis_label_Scnd_highest_value" text="lack of exercise" to="07_02-07-2-4" type="event"/>
 					<label from="07_02-07-2-6" id="07_02-07-9" name="y_axis_inferred_Scnd_highest_value_approx" text="35" to="07_02-07-2-6" type="event"/>
 					<label from="07_02-07-2-7" id="07_02-07-10" name="y_axis_inferred_label" text="%" to="07_02-07-2-7" type="event"/>
@@ -46395,7 +46414,7 @@
 					<label from="07_02-11-2-4" id="07_02-11-4" name="x_axis_label_highest_value" text="genetic" to="07_02-11-2-4" type="event"/>
 					<label from="07_02-11-2-6" id="07_02-11-5" name="y_axis_inferred_highest_value_approx" text="40" to="07_02-11-2-6" type="event"/>
 					<label from="07_02-11-2-7" id="07_02-11-6" name="y_axis_inferred_label" text="%" to="07_02-11-2-7" type="event"/>
-					<label from="07_02-11-3-1" id="07_02-11-7" name="order_2nd" text="Then" to="07_02-11-3-1" type="event"/>
+					<label from="07_02-11-3-1" id="07_02-11-7" name="order_Scnd" text="Then" to="07_02-11-3-1" type="event"/>
 					<label from="07_02-11-3-2" id="07_02-11-8" name="x_axis_label_Scnd_highest_value" text="Lack of exercise" to="07_02-11-3-4" type="event"/>
 					<label from="07_02-11-3-6" id="07_02-11-9" name="y_axis_inferred_Scnd_highest_value_approx" text="36" to="07_02-11-3-6" type="event"/>
 					<label from="07_02-11-3-7" id="07_02-11-10" name="y_axis_inferred_label" text="%" to="07_02-11-3-7" type="event"/>
@@ -48309,7 +48328,7 @@
 		</story>
 		<story story_id="08_02-10">
 			<text>
-				<content>The chart shows the percentage of students studying various courses at Lagos State University . Medicine is the most popular course with 31 % of the cohort opting for this and Philosophy is from behind with 30 % . STEM subjects are as popular as Philosophy with 15 % opting for this and literature is 24 % .</content>
+				<content>The chart shows the percentage of students studying various courses at Lagos State University . Medicine is the most popular course with 31 % of the cohort opting for this and Philosophy is from behind with 30 % . STEM subjects are half as popular as Philosophy with 15 % opting for this and literature is 24 % .</content>
 				<sentences>
 					<sentence id="08_02-10-1">
 						<token content="The" content_fix="The" id="08_02-10-1-1"/>
@@ -48358,22 +48377,23 @@
 						<token content="STEM" content_fix="STEM" id="08_02-10-3-1"/>
 						<token content="subjects" content_fix="subjects" id="08_02-10-3-2"/>
 						<token content="are" content_fix="are" id="08_02-10-3-3"/>
-						<token content="as" content_fix="as" id="08_02-10-3-4"/>
-						<token content="popular" content_fix="popular" id="08_02-10-3-5"/>
-						<token content="as" content_fix="as" id="08_02-10-3-6"/>
-						<token content="Philosophy" content_fix="Philosophy" id="08_02-10-3-7"/>
-						<token content="with" content_fix="with" id="08_02-10-3-8"/>
-						<token content="15" content_fix="15" id="08_02-10-3-9"/>
-						<token content="%" content_fix="%" id="08_02-10-3-10"/>
-						<token content="opting" content_fix="opting" id="08_02-10-3-11"/>
-						<token content="for" content_fix="for" id="08_02-10-3-12"/>
-						<token content="this" content_fix="this" id="08_02-10-3-13"/>
-						<token content="and" content_fix="and" id="08_02-10-3-14"/>
-						<token content="literature" content_fix="literature" id="08_02-10-3-15"/>
-						<token content="is" content_fix="is" id="08_02-10-3-16"/>
-						<token content="24" content_fix="24" id="08_02-10-3-17"/>
-						<token content="%" content_fix="%" id="08_02-10-3-18"/>
-						<token content="." content_fix="." id="08_02-10-3-19"/>
+						<token content="half" content_fix="half" id="08_02-10-3-4"/>
+						<token content="as" content_fix="as" id="08_02-10-3-5"/>
+						<token content="popular" content_fix="popular" id="08_02-10-3-6"/>
+						<token content="as" content_fix="as" id="08_02-10-3-7"/>
+						<token content="Philosophy" content_fix="Philosophy" id="08_02-10-3-8"/>
+						<token content="with" content_fix="with" id="08_02-10-3-9"/>
+						<token content="15" content_fix="15" id="08_02-10-3-10"/>
+						<token content="%" content_fix="%" id="08_02-10-3-11"/>
+						<token content="opting" content_fix="opting" id="08_02-10-3-12"/>
+						<token content="for" content_fix="for" id="08_02-10-3-13"/>
+						<token content="this" content_fix="this" id="08_02-10-3-14"/>
+						<token content="and" content_fix="and" id="08_02-10-3-15"/>
+						<token content="literature" content_fix="literature" id="08_02-10-3-16"/>
+						<token content="is" content_fix="is" id="08_02-10-3-17"/>
+						<token content="24" content_fix="24" id="08_02-10-3-18"/>
+						<token content="%" content_fix="%" id="08_02-10-3-19"/>
+						<token content="." content_fix="." id="08_02-10-3-20"/>
 					</sentence>
 				</sentences>
 			</text>
@@ -48392,17 +48412,20 @@
 					<label from="08_02-10-2-23" id="08_02-10-11" name="y_axis_inferred_label" text="%" to="08_02-10-2-23" type="event"/>
 					<label from="08_02-10-3-1" id="08_02-10-12" name="x_axis_label_least_value" text="STEM" to="08_02-10-3-1" type="event"/>
 					<label from="08_02-10-3-2" id="08_02-10-13" name="x_axis" text="subjects" to="08_02-10-3-2" type="event"/>
-					<label from="08_02-10-3-7" id="08_02-10-14" name="x_axis_label_Scnd_highest_value" text="Philosophy" to="08_02-10-3-7" type="event"/>
-					<label from="08_02-10-3-9" id="08_02-10-15" name="y_axis_least_value_val" text="15" to="08_02-10-3-9" type="event"/>
-					<label from="08_02-10-3-10" id="08_02-10-16" name="y_axis_inferred_label" text="%" to="08_02-10-3-10" type="event"/>
-					<label from="08_02-10-3-15" id="08_02-10-17" name="x_axis_label_3rd_highest_value" text="literature" to="08_02-10-3-15" type="event"/>
-					<label from="08_02-10-3-17" id="08_02-10-18" name="y_axis_3rd_highest_val" text="24" to="08_02-10-3-17" type="event"/>
-					<label from="08_02-10-3-18" id="08_02-10-19" name="y_axis_inferred_label" text="%" to="08_02-10-3-18" type="event"/>
+					<label from="08_02-10-3-4" id="08_02-10-14" name="y_axis_inferred_value_mul_v1=least_v2=Scnd" text="half" to="08_02-10-3-4" type="event"/>
+					<label from="08_02-10-3-8" id="08_02-10-15" name="x_axis_label_Scnd_highest_value" text="Philosophy" to="08_02-10-3-8" type="event"/>
+					<label from="08_02-10-3-10" id="08_02-10-16" name="y_axis_least_value_val" text="15" to="08_02-10-3-10" type="event"/>
+					<label from="08_02-10-3-11" id="08_02-10-17" name="y_axis_inferred_label" text="%" to="08_02-10-3-11" type="event"/>
+					<label from="08_02-10-3-16" id="08_02-10-18" name="x_axis_label_3rd_highest_value" text="literature" to="08_02-10-3-16" type="event"/>
+					<label from="08_02-10-3-18" id="08_02-10-19" name="y_axis_3rd_highest_val" text="24" to="08_02-10-3-18" type="event"/>
+					<label from="08_02-10-3-19" id="08_02-10-20" name="y_axis_inferred_label" text="%" to="08_02-10-3-19" type="event"/>
 				</events>
 			</annotations>
 			<numex>
 				<approximations/>
-				<relative_expressions/>
+				<relative_expressions>
+					<relex anno_id="08_02-10-14" hedge_str="" id="08_02-10-1" magnitude="" rel_va="0.5" rel_vg="0.5" text="half" type="mul" v1="15" v2="30"/>
+				</relative_expressions>
 				<hedges/>
 			</numex>
 		</story>
@@ -52824,7 +52847,7 @@
 					<label from="09_02-12-2-3" id="09_02-12-5" name="y_axis_Scnd_highest_val" text="60" to="09_02-12-2-3" type="event"/>
 					<label from="09_02-12-2-4" id="09_02-12-6" name="y_axis_inferred_label" text="%" to="09_02-12-2-4" type="event"/>
 					<label from="09_02-12-2-6" id="09_02-12-7" name="t=1_a=y" text="women" to="09_02-12-2-6" type="event"/>
-					<label from="09_02-12-2-8" id="09_02-12-8" name="x_axis_label_Scnd_highest_val" text="Computer Science" to="09_02-12-2-9" type="event"/>
+					<label from="09_02-12-2-8" id="09_02-12-8" name="x_axis_label_Scnd_highest_value" text="Computer Science" to="09_02-12-2-9" type="event"/>
 					<label from="09_02-12-2-11" id="09_02-12-9" name="x_axis_label_4th_highest_value" text="32" to="09_02-12-2-11" type="event"/>
 					<label from="09_02-12-2-12" id="09_02-12-10" name="y_axis_inferred_label" text="%" to="09_02-12-2-12" type="event"/>
 					<label from="09_02-12-2-14" id="09_02-12-11" name="x_axis_label_4th_highest_value" text="Arts" to="09_02-12-2-14" type="event"/>
@@ -53775,7 +53798,7 @@
 					<label from="09_02-22-2-1" id="09_02-22-2" name="x_axis_label_highest_value" text="Engineering" to="09_02-22-2-1" type="event"/>
 					<label from="09_02-22-2-3" id="09_02-22-3" name="y_axis_highest_value_val" text="70" to="09_02-22-2-3" type="event"/>
 					<label from="09_02-22-2-4" id="09_02-22-4" name="y_axis_inferred_label" text="%" to="09_02-22-2-4" type="event"/>
-					<label from="09_02-22-2-6" id="09_02-22-5" name="x_axis_label_Scnd_highest_val" text="Computing" to="09_02-22-2-6" type="event"/>
+					<label from="09_02-22-2-6" id="09_02-22-5" name="x_axis_label_Scnd_highest_value" text="Computing" to="09_02-22-2-6" type="event"/>
 					<label from="09_02-22-2-8" id="09_02-22-6" name="y_axis_Scnd_highest_val" text="60" to="09_02-22-2-8" type="event"/>
 					<label from="09_02-22-2-9" id="09_02-22-7" name="y_axis_inferred_label" text="%" to="09_02-22-2-9" type="event"/>
 					<label from="09_02-22-2-12" id="09_02-22-8" name="y_axis_highest_value" text="highest" to="09_02-22-2-12" type="event"/>
