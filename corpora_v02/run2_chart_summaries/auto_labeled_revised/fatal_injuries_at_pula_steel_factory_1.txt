@@ -365,7 +365,7 @@ number of fatal injuries	<y_axis>
 at
 the
 Pula Steel Factory	<t=1_a=b>
-from 2012 to 2013	<group_Scnd_highest>
+from 2012 to 2013	<group_highest_Scnd>
 .
 Increasing	<slope_up>
 from
@@ -439,7 +439,7 @@ to
 in
 2013	<x_axis_label_highest_value>
 .
-Since   <x_axis_period>
+Since
 2013	<x_axis_label_highest_value>
 ,
 the
@@ -541,7 +541,7 @@ increase	<slope_up>
 to
 32	<y_axis_highest_value_val>
 injuries	<y_axis_inferred_label>
-between 2012 and 2013	<group_Scnd_highest>
+between 2012 and 2013	<group_highest_Scnd>
 and
 a
 steady   <y_axis_trend>

@@ -43,7 +43,7 @@ under	<y_axis_approx>
 minutes	<y_axis_inferred_label>
 per
 days	<t=1_a=y>
-whilst	<y_x_comparison_rest>
+whilst	<y_x_comparison>
 55-64 year olds	<x_axis_label_least_value>
 were
 spending

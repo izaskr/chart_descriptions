@@ -97,7 +97,7 @@ fatalities	<y_axis_inferred_label>
 were
 recorded
 ,
-whilst	<y_x_comparison_rest>
+whilst	<y_x_comparison>
 in
 2016	<x_axis_label_least_value>
 the
@@ -274,7 +274,7 @@ This
 chart
 shows
 the
-number of fatal injuries at the Pula Steel Factory	topic>
+number of fatal injuries at the Pula Steel Factory	<topic>
 between	<x_axis_range_start>
 2012	<x_axis_label_highest_value>
 and	<x_axis_range_end>
@@ -645,7 +645,7 @@ in
 ,
 with
 an
-average	<y_axis_trens>
+average	<y_axis_trend>
 decrease	<slope_down>
 of
 5	<slope_y_value>

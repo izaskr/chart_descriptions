@@ -25,7 +25,7 @@ at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 .
-Then	<order_2nd>
+Then	<order_Scnd>
 lack of exercise   <x_axis_label_Scnd_highest_value>
 at
 36	<y_axis_inferred_Scnd_highest_value_approx>
@@ -61,7 +61,7 @@ at
 24	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 ,
-then	<order_2nd>
+then	<order_Scnd>
 lack of exercise   <x_axis_label_Scnd_highest_value>
 at
 35	<y_axis_inferred_Scnd_highest_value_approx>
@@ -270,7 +270,7 @@ at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 .
-Then	<order_2nd>
+Then	<order_Scnd>
 lack of exercise   <x_axis_label_Scnd_highest_value>
 at
 35	<y_axis_inferred_Scnd_highest_value_approx>
@@ -418,7 +418,7 @@ at
 40	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 .
-Then	<order_2nd>
+Then	<order_Scnd>
 Lack of exercise   <x_axis_label_Scnd_highest_value>
 at
 36	<y_axis_inferred_Scnd_highest_value_approx>

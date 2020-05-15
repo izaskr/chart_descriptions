@@ -1048,12 +1048,12 @@ in
 stock price <y_axis>
 over	
 the
-five  <​x_axis_labels_count​>
+five	<x_axis_labels_count>
 days	<x_axis>
 with
 a
 £	<y_axis_inferred_label>
-60	<y_axis_inferred_value_add_v1=highest_v2=lowest>
+60	<y_axis_inferred_value_add_v1=highest_v2=least>
 difference
 from	<x_axis_range_start>
 the

@@ -560,7 +560,7 @@ The
 average salary for woman    <topic>
 has
 grown    <slope_up>
-since    <x_axis_period>
+since
 2000    <x_axis_label_least_value>
 by
 at

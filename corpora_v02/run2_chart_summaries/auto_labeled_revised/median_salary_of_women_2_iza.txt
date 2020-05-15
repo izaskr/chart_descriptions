@@ -965,7 +965,7 @@ in
 2015	<x_axis_label_least_value>
 being
 £	<y_axis_inferred_label>
-10	<y_axis_inferred_value_add_v1=least_v2=heighest>	
+10	<y_axis_inferred_value_add_v1=least_v2=highest>	
 000	<y_magnitude>
 less	<y_axis_trend_down>
 than
@@ -1160,7 +1160,7 @@ median salary	<y_axis>
 was
 approximately	<y_axis_approx>
 £	<y_axis_inferred_label>
-22.5	y_axis_inferred_Scnd_highest_value_approx
+22.5	<y_axis_inferred_Scnd_highest_value_approx>
 k    <y_magnitude>
 .
 In

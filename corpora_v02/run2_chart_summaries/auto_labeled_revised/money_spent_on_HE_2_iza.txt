@@ -615,10 +615,10 @@ millions	<y_magnitude>
 of
 pounds	<y_axis_inferred_label>
 .
-North America and Asia	<group_least_3rd>
+North America and Asia	<group_3rd_least>
 spent
 less than  <y_axis_approx>
-200	<group_y_least_3rd>
+200	<group_y_3rd_least>
 millions		<y_magnitude>
 ,
 Asia	<x_axis_label_3rd_highest_value>
@@ -626,7 +626,7 @@ was
 the
 bigger	<y_axis_trend_up>
 of
-the two	<group_least_3rd>
+the two	<group_3rd_least>
 with
 around	<y_axis_approx>
 170	<y_axis_inferred_3rd_highest_value_approx>
@@ -748,7 +748,7 @@ continents	<x_axis>
 It
 visually
 shows
-Europe and Africa	<group_Scnd_highest>
+Europe and Africa	<group_highest_Scnd>
 having
 the
 highest	<y_axis_highest_value>
@@ -773,7 +773,7 @@ million	<y_magnitude>
 pounds	<y_axis_inferred_label>
 mark
 .
-North America and Asia	<group_least_3rd>
+North America and Asia	<group_3rd_least>
 come
 in
 last	<y_axis_least_value>

@@ -69,7 +69,7 @@ at
 £	<y_axis_inferred_label>
 50	<y_axis_inferred_3rd_highest_value_approx>
 ,
-then	<order_2nd>
+then	<order_Scnd>
 rose	<slope_up>
 to
 £	<y_axis_inferred_label>
@@ -117,7 +117,7 @@ There
 is
 an
 increase	<slope_up>
-from Monday to Wednesday	<group_3rd_Scnd_highest>
+from Monday to Wednesday	<group_highest_Scnd_3rd>
 ,
 before
 a
@@ -193,7 +193,7 @@ on
 Thursday	<x_axis_label_4th_highest_value>
 and
 a
-low	<y_axis_least_value> slope_down
+low	<y_axis_least_value>
 on
 a
 Friday	<x_axis_label_least_value>
@@ -360,7 +360,7 @@ Wednesday	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
 75	<y_axis_inferred_highest_value_approx>
-then	<order_2nd>
+then	<order_Scnd>
 Tue	<x_axis_label_Scnd_highest_value>
 at
 £	<y_axis_inferred_label>
@@ -396,7 +396,7 @@ the
 rise	<slope_up>
 for
 the
-first three days of the week	<group_3rd_Sncd_highest>
+first three days of the week	<group_highest_Scnd_3rd>
 ,
 but
 on
@@ -574,7 +574,7 @@ as
 well	<y_axis_trend>
 as
 the
-others days	<group_3rd_Scnd_highest>
+others days	<group_highest_Scnd_3rd>
 ,
 as
 the
@@ -657,7 +657,7 @@ that
 the
 closing stocking prices	<y_axis>
 increase	<slope_up>
-Monday through Wednesday	<group_3rd_Scnd_highest>
+Monday through Wednesday	<group_highest_Scnd_3rd>
 (
 from
 £	<y_axis_inferred_label>
@@ -919,7 +919,7 @@ on
 a
 wednesday	<x_axis_label_highest_value>
 and
-then	<order_2nd>
+then	<order_Scnd>
 dramatically	<y_axis_trend>
 decrease	<slope_down>
 on
@@ -948,7 +948,7 @@ unusual	<y_axis_trend>
 During
 the
 first
-3 days	<group_3rd_Scnd_highest>
+3 days	<group_highest_Scnd_3rd>
 ,
 the
 prices	<y_axis>

@@ -450,7 +450,7 @@ Literature    <x_axis_label_highest_value>
 then    <order_Scnd>
 Arts    <x_axis_label_Scnd_highest_value>
 ,
-followed    <order_rest>
+followed    <order_last>
 by
 Engineering    <x_axis_label_3rd_highest_value>
 ,
@@ -730,7 +730,7 @@ have
 higher    <y_axis_trend_up>
 representation    <y_axis>
 ,
-compared    <x_axis_comparison>
+compared    <y_x_comparison>
 to
 Mathematics , Engineering and Computer Science    <group_3rd_4th_least>
 .

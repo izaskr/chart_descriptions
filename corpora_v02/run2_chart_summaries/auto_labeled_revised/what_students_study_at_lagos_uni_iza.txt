@@ -393,7 +393,7 @@ with
 STEM	<x_axis_label_least_value>
 subjects	<x_axis>
 are
-half	y_axis_inferred_value_mul_v1=least_v2=Scnd>
+half	<y_axis_inferred_value_mul_v1=least_v2=Scnd>
 as
 popular
 as

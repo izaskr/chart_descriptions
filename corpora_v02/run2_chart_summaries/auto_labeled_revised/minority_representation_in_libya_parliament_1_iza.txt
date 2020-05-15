@@ -216,7 +216,7 @@ years	<x_axis>
 between	<x_axis_range_start>
 1990	<x_axis_label_least_value>
 and	<x_axis_range_end>
-2019	x_axis_label_highest_value
+2019	<x_axis_label_highest_value>
 .
 \\n	<separator>
 \\n	<separator>
@@ -622,9 +622,9 @@ shows
 the
 representation of minorities in the parliament of Lybia <topic>
 since	<x_axis_range_start>
-1990	x_axis_label_least_value
+1990	<x_axis_label_least_value>
 to	<x_axis_range_end>
-2019	x_axis_label_highest_value
+2019	<x_axis_label_highest_value>
 .
 \\n	<separator>
 In
@@ -1228,7 +1228,7 @@ only	<y_axis_least_value>
 %	<y_axis_inferred_label>
 of
 parliament
-between 2015-19	<x_axis_label_highest_value
+between 2015-19	<x_axis_label_highest_value>
 being
 a
 minority	<t=1_a=y>

@@ -604,7 +604,7 @@ are
 of
 women	<t=1_a=y>
 in
-Computer Science	<x_axis_label_Scnd_highest_val>	
+Computer Science	<x_axis_label_Scnd_highest_value>	
 ,
 32   <x_axis_label_4th_highest_value>
 %	<y_axis_inferred_label>
@@ -1085,7 +1085,7 @@ at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 and
-Computing   <x_axis_label_Scnd_highest_val>
+Computing   <x_axis_label_Scnd_highest_value>
 at
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>

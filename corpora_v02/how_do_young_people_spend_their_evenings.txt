@@ -333,7 +333,7 @@ demonstrates
 how young people spend their evenings    <topic>
 .
 The
-most popular  <y_axis_highest_value
+most popular	<y_axis_highest_value>
 activity  <x_axis>
 is
 watching TV    <x_axis_label_highest_value>
@@ -514,7 +514,7 @@ reading may be the least poplar as it is considered a older hobby and a more fem
 <start_of_description> [type01]
 Young people    <t=1_a=y>
 are
-more    <x_axis_comparison>
+more    <y_x_comparison>
 likely
 to
 watch tv    <x_axis_label_highest_value>

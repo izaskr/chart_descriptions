@@ -520,7 +520,7 @@ decrease	<slope_down>
 until
 2014	<x_axis_label_least_value>
 .
-From 2010-2014 to 2015-2019	<group_least_5th>
+From 2010-2014 to 2015-2019	<group_5th_least>
 there
 was
 an
@@ -854,7 +854,7 @@ just under	<y_axis_approx>
 ,
 2010-13	<x_axis_label_least_value>
 just over	<y_axis_approx>
-6	<_axis_inferred_least_value_approx>
+6	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 and
 2015-19	<x_axis_label_5th_highest_value>

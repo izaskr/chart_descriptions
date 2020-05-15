@@ -666,7 +666,7 @@ highest    <y_axis_highest_value>
 number of women employed <y_axis>
 with
 60    <y_axis_highest_value_val>
-%    <y__iny_axis_inferred_label 
+%    <y_axis_inferred_label>
 and
 tech    <x_axis_label_least_value>
 has

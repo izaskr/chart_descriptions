@@ -388,7 +388,7 @@ preferring
 to	
 read a book   <x_axis_label_highest_value>
 ,
-while	<y_x_comparison_rest>
+while	<y_x_comparison>
 the
 remaining
 12	<y_axis_least_value_val>
@@ -680,7 +680,7 @@ reading a book   <x_axis_label_highest_value>
 38	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 )
-then	<order_2nd>
+then	<order_Scnd>
 spend time with family    <x_axis_label_Scnd_highest_value>
 .
 A
@@ -785,7 +785,7 @@ shows
 how young people in Zarqa spend their evenings    <topic>
 .
 Over
-4	<​x_axis_labels_count​>
+4	<x_axis_labels_count>
 activities   <x_axis>
 ,
 the
@@ -907,7 +907,7 @@ the
 lowest	<y_axis_least_value>
 of
 the
-four   <​x_axis_labels_count​>
+four	<x_axis_labels_count>
 activities   <x_axis>
 presented
 .
