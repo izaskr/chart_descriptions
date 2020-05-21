@@ -1,100 +1,67 @@
-"""
-Process chart summaries: resolve coreferences using the SpanBERT neural model. Write the coreference clusters into a file together with the summary ID and the summary text
-
-"""
 
 import os
+import json
+import xml.etree.ElementTree as ET
 import allennlp
 from allennlp.predictors.predictor import Predictor
 
 
 predictor = Predictor.from_path("https://storage.googleapis.com/allennlp-public-models/coref-spanbert-large-2020.02.27.tar.gz")
 
-data_path = "/home/CE/skrjanec/stuff_jones1/chart_descriptions/coref/data/" # local "/home/iza/chart_descriptions/coref/data/"
-files = []
+xml_path = "/home/CE/skrjanec/stuff_jones1/chart_descriptions/corpora_v02/all_descriptions/chart_summaries_b01_toktest2.xml"
 
-for file_name in os.listdir(data_path):
-	if file_name.endswith(".txt"):
-		files.append(file_name)
+def open_xml_collect_coref(corpus):
+	id_clusters = {}
 
+	tree = ET.parse(corpus)
+	root = tree.getroot()
 
-def open_resolve_write(fname, datap):
-	""" fname is a string : name of a file with summaries """
+	topic_name = ""
 
-	current_summary = []
-	i_summary = 0
-	n_sum_coref = 0
+	for topic in root:
+		topic_name = topic.attrib["topic"]
+		topic_id = topic.attrib["topic_id"]
 
-	fname_new = fname[:-4] + "_COREF.txt"
-	new = open(fname_new, "w+")
-	
+		for story in topic:
+			story_id = story.attrib["story_id"]
+			print(story_id)
+			# story[0] is the text child
+			# context is the entire summary
+			content = story[0][0]
 
-	with open(fname, "r") as f:
-		for line in f:
-			line = line.split()
+			# resolve corefences
 
-			if len(line) > 0:
-				if line[0] == "<end_of_description>":
-					current_text = " ".join(current_summary)
-
-					# resolve coreferences
-					#predictor.predict(document="The woman reading a newspaper sat on the bench with her dog.")
-					# returns a list of tuples
-					results = predictor.predict(document=current_text)
+			results = predictor.predict(document=content.text)
 					
-					
-					clusters = results["clusters"]
-					doc = results["document"] # tokenized text, a list of tokens
-					# write into file: i_summary, current text and clusters
-					if clusters:
-						print(i_summary, doc,"\n", clusters, "\n", )
-						new.write(str(i_summary) + " " + current_text + "\n")
-						for j,cluster in enumerate(clusters): # c is a list: start_index, end_index
-							new.write(" ----cluster " + str(j) + "---- \n")
-							for startend in cluster:
-								ent=" ".join(doc[startend[0]:startend[1]+1])
-								print("\t entity:", ent)
-								new.write(ent + "\n")
-						new.write("\n")
-						new.write("\n")
-						n_sum_coref += 1
+			clusters = results["clusters"]
+			doc = results["document"] # tokenized text, a list of tokens
+			# write into file: i_summary, current text and clusters
 
-					current_summary = []
-					continue
+			if clusters:
+				lexicalized = {}
 
-				if line[0] == "<start_of_description>":
-					i_summary += 1
+				for j,cluster in enumerate(clusters): # cluster is a list: start_index, end_index
+					entities = []
 				
-				else: # a line of token(s), possibly with a label or ## comment
-					if len(line) == 1:
-						current_summary.append(line[0])
-						continue
+					for startend in cluster:
+						ent = " ".join(doc[startend[0]:startend[1]+1])
+						entities.append(ent)
 
-					first_ch = [s[:1] for s in line]
-					first2_ch = [s[:2] for s in line]
+					lexicalized[j] = entities
+										
 
-					if "<" in first_ch:
-						inx = first_ch.index("<")
-						current_summary += line[:inx]
-						continue
+				id_clusters[story_id] = lexicalized
 
-					if "##" in first2_ch:
-						inx = first2_ch.index("##")
-						current_summary += line[:inx]
-						continue
-
-						
-
-	new.close()				
-	return n_sum_coref
-
-all_coref = 0
-for f in files:
-	coref_count = open_resolve_write(data_path+f, data_path)
-	all_coref += coref_count
-	#input("ENTER for next file")
-
-print("NO. OF SUMMARIES WITH A COREF", all_coref)
+	return id_clusters
 
 
-					
+all_clusters = open_xml_collect_coref(xml_path)
+
+
+with open("id_corefer.json", "w", encoding="utf-8") as jf:
+	json.dump(all_clusters, jf)
+
+
+
+
+
