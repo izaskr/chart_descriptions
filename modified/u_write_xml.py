@@ -742,7 +742,7 @@ def make_xml_tree():
 					hedge_quad = None
 					if prev1 and prev1[0] == "<y_axis_approx>":
 						hedge_quad = prev1
-					elif prev2 and prev1[2] == "<y_axis_approx>":
+					elif prev2 and prev2[0] == "<y_axis_approx>":
 						hedge_quad = prev2
 					
 					if hedge_quad is not None:
@@ -845,16 +845,16 @@ def make_xml_tree():
 
 					
 					# #TODO: delete - used for debugging
-					# this_id = topic_story_id + "-" + str(i)
-					# if this_id ==  "02_02-18-1":
-					# 	print("************************************************")
-					# 	print("************************************************")
+					this_id = topic_story_id + "-" + str(i)
+					if this_id ==  "04-10-1":
+						print("************************************************")
+						print("************************************************")
 
-					# 	print(curr_text)
-					# 	print(vg_sign)
+						print()
+						print(vg_sign)
 
-					# 	print("************************************************")
-					# 	print("************************************************")
+						print("************************************************")
+						print("************************************************")
 					
 					add_relex = ET.SubElement(relative_expressions, "relex") 
 
@@ -933,11 +933,11 @@ def make_xml_tree():
 
 			numex = ET.SubElement(story, "numex")	
 
-			# #TODO: delete 
-			# topic_tag = ET.SubElement(numex, "topic_tag")
-			# topic_tag.set("title", corpus['title'])
-			# cont = ET.SubElement(numex, "cont")
-			# cont.text = " ".join(d1["desc_tokens"])
+			#TODO: delete 
+			topic_tag = ET.SubElement(numex, "topic_tag")
+			topic_tag.set("title", corpus['title'])
+			cont = ET.SubElement(numex, "cont")
+			cont.text = " ".join(d1["desc_tokens"])
 			
 			build_approx_tags(numex)	
 			build_relex_tags(numex)	
