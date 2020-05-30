@@ -17,44 +17,48 @@ from allennlp.modules.token_embedders import Embedding
 from allennlp.predictors import SimpleSeq2SeqPredictor
 from allennlp.training.trainer import Trainer
 
-EN_EMBEDDING_DIM = 256
-ZH_EMBEDDING_DIM = 256
-HIDDEN_DIM = 256
+SRC_EMBEDDING_DIM = 128 # source
+TG_EMBEDDING_DIM = 128 # target
+HIDDEN_DIM = 128
 CUDA_DEVICE = 0
 
 def main():
     reader = Seq2SeqDatasetReader(
         source_tokenizer=WordTokenizer(),
-        target_tokenizer=CharacterTokenizer(),
+        target_tokenizer=WordTokenizer(),
         source_token_indexers={'tokens': SingleIdTokenIndexer()},
         target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
-    train_dataset = reader.read('data/tatoeba/tatoeba.eng_cmn.train.tsv')
-    validation_dataset = reader.read('data/tatoeba/tatoeba.eng_cmn.dev.tsv')
+    train_dataset = reader.read('/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_03_01_train.txt')
+    validation_dataset = reader.read('/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_03_01_val.txt')
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
-                                      min_count={'tokens': 3, 'target_tokens': 3})
+                                      min_count={'tokens': 0, 'target_tokens': 0})
 
-    en_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
-                             embedding_dim=EN_EMBEDDING_DIM)
-    # encoder = PytorchSeq2SeqWrapper(
-    #     torch.nn.LSTM(EN_EMBEDDING_DIM, HIDDEN_DIM, batch_first=True))
-    encoder = StackedSelfAttentionEncoder(input_dim=EN_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM, projection_dim=128, feedforward_hidden_dim=128, num_layers=1, num_attention_heads=8)
+    src_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
+                             embedding_dim=SRC_EMBEDDING_DIM)
+    encoder = PytorchSeq2SeqWrapper(torch.nn.LSTM(SRC_EMBEDDING_DIM, HIDDEN_DIM, batch_first=True))
+    #encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM, projection_dim=128, feedforward_hidden_dim=128, num_layers=1, num_attention_heads=8)
 
-    source_embedder = BasicTextFieldEmbedder({"tokens": en_embedding})
+    source_embedder = BasicTextFieldEmbedder({"tokens": src_embedding})
 
     # attention = LinearAttention(HIDDEN_DIM, HIDDEN_DIM, activation=Activation.by_name('tanh')())
     # attention = BilinearAttention(HIDDEN_DIM, HIDDEN_DIM)
     attention = DotProductAttention()
 
-    max_decoding_steps = 20   # TODO: make this variable
+    max_decoding_steps = 40   # TODO: make this variable # Maximum length of decoded sequences
     model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
-                          target_embedding_dim=ZH_EMBEDDING_DIM,
+                          target_embedding_dim=TG_EMBEDDING_DIM,
                           target_namespace='target_tokens',
-                          attention=attention,
                           beam_size=8,
                           use_bleu=True)
+    # model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
+    #                       target_embedding_dim=TG_EMBEDDING_DIM,
+    #                       target_namespace='target_tokens',
+    #                       attention=attention,
+    #                       beam_size=8,
+    #                       use_bleu=True) # has attention
     optimizer = optim.Adam(model.parameters())
-    iterator = BucketIterator(batch_size=32, sorting_keys=[("source_tokens", "num_tokens")])
+    iterator = BucketIterator(batch_size=2, sorting_keys=[("source_tokens", "num_tokens")])
 
     iterator.index_with(vocab)
 
@@ -66,13 +70,13 @@ def main():
                       num_epochs=1,
                       cuda_device=CUDA_DEVICE)
 
-    for i in range(50):
+    for i in range(50): # TODO make a variable
         print('Epoch: {}'.format(i))
         trainer.train()
 
         predictor = SimpleSeq2SeqPredictor(model, reader)
 
-        for instance in itertools.islice(validation_dataset, 10):
+        for instance in itertools.islice(validation_dataset, 1):
             print('SOURCE:', instance.fields['source_tokens'].tokens)
             print('GOLD:', instance.fields['target_tokens'].tokens)
             print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
