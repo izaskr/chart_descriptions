@@ -28,8 +28,9 @@ def main():
         target_tokenizer=WordTokenizer(),
         source_token_indexers={'tokens': SingleIdTokenIndexer()},
         target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
-    train_dataset = reader.read('/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_03_01_train.txt')
-    validation_dataset = reader.read('/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_03_01_val.txt')
+    home_dir = "/home/CE/skrjanec/"
+    train_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_03_01_train.txt')
+    validation_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_03_01_val.txt')
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
                                       min_count={'tokens': 0, 'target_tokens': 0})
@@ -49,7 +50,7 @@ def main():
     model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
                           target_embedding_dim=TG_EMBEDDING_DIM,
                           target_namespace='target_tokens',
-                          beam_size=8,
+                          beam_size=5,
                           use_bleu=True)
     # model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
     #                       target_embedding_dim=TG_EMBEDDING_DIM,
@@ -57,8 +58,10 @@ def main():
     #                       attention=attention,
     #                       beam_size=8,
     #                       use_bleu=True) # has attention
+
+    model = model.cuda(CUDA_DEVICE) # NOTE else error? 
     optimizer = optim.Adam(model.parameters())
-    iterator = BucketIterator(batch_size=2, sorting_keys=[("source_tokens", "num_tokens")])
+    iterator = BucketIterator(batch_size=1, sorting_keys=[("source_tokens", "num_tokens")])
 
     iterator.index_with(vocab)
 
