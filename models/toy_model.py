@@ -72,7 +72,7 @@ def main():
 
     for i in range(50): # TODO make a variable
         print('Epoch: {}'.format(i))
-        trainer.train()
+        trainer.train()s
 
         predictor = SimpleSeq2SeqPredictor(model, reader)
 
