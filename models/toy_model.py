@@ -1,5 +1,14 @@
-import itertools
+"""
+Code for preparing data and training a sequence-to-sequence model
 
+Input sequence: content plan
+Output sequence: chart summary
+
+"""
+
+
+import itertools
+import argparse
 import torch
 import torch.optim as optim
 from allennlp.data.dataset_readers.seq2seq import Seq2SeqDatasetReader
@@ -17,10 +26,29 @@ from allennlp.modules.token_embedders import Embedding
 from allennlp.predictors import SimpleSeq2SeqPredictor
 from allennlp.training.trainer import Trainer
 
-SRC_EMBEDDING_DIM = 128 # source
-TG_EMBEDDING_DIM = 128 # target
-HIDDEN_DIM = 128
-CUDA_DEVICE = 0
+parser = argparse.ArgumentParser()
+parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
+parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
+parser.add_argument("-hidden-dim", required=False, help="dimension of hidden layer", default=128, type=int)
+parser.add_argument("-device", required=False, help="index of GPU", default=0, type=int)
+parser.add_argument("-max-len", required=False, help="maximum length of output", default=40, type=int)
+parser.add_argument("-epoch", required=False, help="number of epochs for training", default=50, type=int)
+parser.add_argument("-beam", required=False, help="size of the beam for beam search decoding", default=5, type=int)
+
+#parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
+args = vars(parser.parse_args())
+
+SRC_EMBEDDING_DIM = args["src_emb"]
+TG_EMBEDDING_DIM = args["tg_emb"]
+HIDDEN_DIM = args["hidden_dim"]
+CUDA_DEVICE = args["device"]
+max_decoding_steps = args["max_len"]
+n_epoch = args["epoch"]
+beam = args["beam"]
+# SRC_EMBEDDING_DIM = 128 # source
+# TG_EMBEDDING_DIM = 128 # target
+# HIDDEN_DIM = 128
+# CUDA_DEVICE = 0
 
 def main():
     reader = Seq2SeqDatasetReader(
@@ -33,7 +61,7 @@ def main():
     validation_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_03_01_val.txt')
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
-                                      min_count={'tokens': 0, 'target_tokens': 0})
+                                      min_count={'tokens': 1, 'target_tokens': 1})
 
     src_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
                              embedding_dim=SRC_EMBEDDING_DIM)
@@ -46,11 +74,11 @@ def main():
     # attention = BilinearAttention(HIDDEN_DIM, HIDDEN_DIM)
     attention = DotProductAttention()
 
-    max_decoding_steps = 40   # TODO: make this variable # Maximum length of decoded sequences
+    #max_decoding_steps = 40   # DONE: make this variable # Maximum length of decoded sequences
     model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
                           target_embedding_dim=TG_EMBEDDING_DIM,
                           target_namespace='target_tokens',
-                          beam_size=5,
+                          beam_size=beam,
                           use_bleu=True)
     # model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
     #                       target_embedding_dim=TG_EMBEDDING_DIM,
@@ -73,7 +101,7 @@ def main():
                       num_epochs=1,
                       cuda_device=CUDA_DEVICE)
 
-    for i in range(50): # TODO make a variable
+    for i in range(n_epoch): # DONE make a variable
         print('Epoch: {}'.format(i))
         trainer.train()
 
