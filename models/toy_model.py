@@ -17,8 +17,8 @@ from allennlp.modules.token_embedders import Embedding
 from allennlp.predictors import SimpleSeq2SeqPredictor
 from allennlp.training.trainer import Trainer
 
-SRC_EMBEDDING_DIM = 128 # source
-TG_EMBEDDING_DIM = 128 # target
+SRC_EMBEDDING_DIM = 256 # source
+TG_EMBEDDING_DIM = 256 # target
 HIDDEN_DIM = 128
 CUDA_DEVICE = 0
 
@@ -73,7 +73,7 @@ def main():
                       num_epochs=1,
                       cuda_device=CUDA_DEVICE)
 
-    for i in range(50): # TODO make a variable
+    for i in range(30): # TODO make a variable
         print('Epoch: {}'.format(i))
         trainer.train()
 
