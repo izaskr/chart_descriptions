@@ -69,6 +69,12 @@ hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMB
 experiment.log_parameters(hyperparameters)
 experiment.add_tag("03_01")
 
+#SRC_EMBEDDING_DIM = 256 # source
+#TG_EMBEDDING_DIM = 256 # target
+#HIDDEN_DIM = 128
+#CUDA_DEVICE = 0
+
+
 def main():
     reader = Seq2SeqDatasetReader(
         source_tokenizer=WordTokenizer(),
@@ -119,6 +125,7 @@ def main():
                       validation_dataset=validation_dataset,
                       num_epochs=1,
                       cuda_device=CUDA_DEVICE)
+
                       #,serialization_dir="logging")
     """
     trainer.train()
@@ -131,6 +138,7 @@ def main():
     # Tensorboard logger
     #writer = SummaryWriter('runs/exp-1')
     for i in range(n_epoch): # DONE make a variable
+
         print('Epoch: {}'.format(i))
         metrics = trainer.train()
         for x,v in metrics.items(): print("******* METRICS",x,v)
