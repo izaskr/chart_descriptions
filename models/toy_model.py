@@ -9,6 +9,7 @@ Output sequence: chart summary
 
 import itertools
 import argparse
+from comet_ml import Experiment
 import torch
 import torch.optim as optim
 from allennlp.data.dataset_readers.seq2seq import Seq2SeqDatasetReader
@@ -25,6 +26,7 @@ from allennlp.modules.text_field_embedders import BasicTextFieldEmbedder
 from allennlp.modules.token_embedders import Embedding
 from allennlp.predictors import SimpleSeq2SeqPredictor
 from allennlp.training.trainer import Trainer
+from tensorboardX import SummaryWriter
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
@@ -34,6 +36,7 @@ parser.add_argument("-device", required=False, help="index of GPU", default=0, t
 parser.add_argument("-max-len", required=False, help="maximum length of output", default=40, type=int)
 parser.add_argument("-epoch", required=False, help="number of epochs for training", default=50, type=int)
 parser.add_argument("-beam", required=False, help="size of the beam for beam search decoding", default=5, type=int)
+parser.add_argument("-dropout", required=False, help="dropout probability", default=0.2, type=float)
 
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
 args = vars(parser.parse_args())
@@ -45,10 +48,17 @@ CUDA_DEVICE = args["device"]
 max_decoding_steps = args["max_len"]
 n_epoch = args["epoch"]
 beam = args["beam"]
+dropout = args["dropout"]
 # SRC_EMBEDDING_DIM = 128 # source
 # TG_EMBEDDING_DIM = 128 # target
 # HIDDEN_DIM = 128
 # CUDA_DEVICE = 0
+
+### COMET ML CONFIGURATION ###
+experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
+                            project_name="charts_seq2seq_vanilla", workspace="izaskr")
+
+
 
 def main():
     reader = Seq2SeqDatasetReader(
@@ -65,7 +75,7 @@ def main():
 
     src_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
                              embedding_dim=SRC_EMBEDDING_DIM)
-    encoder = PytorchSeq2SeqWrapper(torch.nn.LSTM(SRC_EMBEDDING_DIM, HIDDEN_DIM, batch_first=True))
+    encoder = PytorchSeq2SeqWrapper(torch.nn.LSTM(input_size=SRC_EMBEDDING_DIM, hidden_size=HIDDEN_DIM, num_layers=2, batch_first=True, dropout=dropout))
     #encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM, projection_dim=128, feedforward_hidden_dim=128, num_layers=1, num_attention_heads=8)
 
     source_embedder = BasicTextFieldEmbedder({"tokens": src_embedding})
@@ -100,18 +110,33 @@ def main():
                       validation_dataset=validation_dataset,
                       num_epochs=1,
                       cuda_device=CUDA_DEVICE)
-
+                      #,serialization_dir="logging")
+    """
+    trainer.train()
+    predictor = SimpleSeq2SeqPredictor(model, reader)
+    for instance in itertools.islice(validation_dataset, 1):
+        print('SOURCE:', instance.fields['source_tokens'].tokens)
+        print('GOLD:', instance.fields['target_tokens'].tokens)
+        print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
+    """
+    # Tensorboard logger
+    writer = SummaryWriter('runs/exp-1')
     for i in range(n_epoch): # DONE make a variable
         print('Epoch: {}'.format(i))
-        trainer.train()
-
+        metrics = trainer.train()
+        for x,v in metrics.items(): print("******* METRICS",x,v)
+        writer.add_scalar('Training loss', metrics["training_loss"], i)
+        writer.add_scalar("Validation loss",metrics["validation_loss"], i)
+        writer.add_scalar("Validation BLEU",metrics["validation_BLEU"], i)
+        #print("*"*10, "PRINTING METRICS",model.get_metrics())
         predictor = SimpleSeq2SeqPredictor(model, reader)
 
-        for instance in itertools.islice(validation_dataset, 1):
-            print('SOURCE:', instance.fields['source_tokens'].tokens)
-            print('GOLD:', instance.fields['target_tokens'].tokens)
-            print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
-
+        #for instance in itertools.islice(validation_dataset, 1):
+        #    print('SOURCE:', instance.fields['source_tokens'].tokens)
+        #    print('GOLD:', instance.fields['target_tokens'].tokens)
+        #    print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
+    
+    return None
 
 if __name__ == '__main__':
     main()
