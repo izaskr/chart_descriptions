@@ -67,7 +67,7 @@ hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMB
                    "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
                    "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
 experiment.log_parameters(hyperparameters)
-experiment.add_tag("03_01")
+experiment.add_tag("09_01")
 
 #SRC_EMBEDDING_DIM = 256 # source
 #TG_EMBEDDING_DIM = 256 # target
@@ -82,8 +82,8 @@ def main():
         source_token_indexers={'tokens': SingleIdTokenIndexer()},
         target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
     home_dir = "/home/CE/skrjanec/"
-    train_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_03_01_train.txt')
-    validation_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_03_01_val.txt')
+    train_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_09_01_train.txt')
+    validation_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_09_01_val.txt')
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
                                       min_count={'tokens': 1, 'target_tokens': 1})
