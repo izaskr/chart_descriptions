@@ -73,6 +73,11 @@ experiment.log_parameters(hyperparameters)
 experiment.add_tag("09_01")
 
 
+#SRC_EMBEDDING_DIM = 256 # source
+#TG_EMBEDDING_DIM = 256 # target
+#HIDDEN_DIM = 128
+#CUDA_DEVICE = 0
+
 def main():
     reader = Seq2SeqDatasetReader(
         source_tokenizer=WordTokenizer(),
