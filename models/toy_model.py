@@ -37,6 +37,8 @@ parser.add_argument("-max-len", required=False, help="maximum length of output",
 parser.add_argument("-epoch", required=False, help="number of epochs for training", default=50, type=int)
 parser.add_argument("-beam", required=False, help="size of the beam for beam search decoding", default=5, type=int)
 parser.add_argument("-dropout", required=False, help="dropout probability", default=0.2, type=float)
+parser.add_argument("-num-layers", required=False, help="number of layers of RNN", default=2, type=int)
+parser.add_argument("-lr", required=False, help="learning rate", default=0.01, type=float)
 
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
 args = vars(parser.parse_args())
@@ -49,6 +51,8 @@ max_decoding_steps = args["max_len"]
 n_epoch = args["epoch"]
 beam = args["beam"]
 dropout = args["dropout"]
+num_layers = args["num_layers"]
+lr = args["lr"]
 # SRC_EMBEDDING_DIM = 128 # source
 # TG_EMBEDDING_DIM = 128 # target
 # HIDDEN_DIM = 128
@@ -56,9 +60,14 @@ dropout = args["dropout"]
 
 ### COMET ML CONFIGURATION ###
 experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-                            project_name="charts_seq2seq_vanilla", workspace="izaskr")
+                            project_name="charts_seq2seq", workspace="izaskr")
 
-
+hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
+                   "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
+                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout
+                   "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
+experiment.log_parameters(hyperparameters)
+experiment.add_tag("03_01")
 
 def main():
     reader = Seq2SeqDatasetReader(
@@ -75,7 +84,7 @@ def main():
 
     src_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
                              embedding_dim=SRC_EMBEDDING_DIM)
-    encoder = PytorchSeq2SeqWrapper(torch.nn.LSTM(input_size=SRC_EMBEDDING_DIM, hidden_size=HIDDEN_DIM, num_layers=2, batch_first=True, dropout=dropout))
+    encoder = PytorchSeq2SeqWrapper(torch.nn.LSTM(input_size=SRC_EMBEDDING_DIM, hidden_size=HIDDEN_DIM, num_layers=num_layers, batch_first=True, dropout=dropout))
     #encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM, projection_dim=128, feedforward_hidden_dim=128, num_layers=1, num_attention_heads=8)
 
     source_embedder = BasicTextFieldEmbedder({"tokens": src_embedding})
@@ -98,8 +107,8 @@ def main():
     #                       use_bleu=True) # has attention
 
     model = model.cuda(CUDA_DEVICE) # NOTE else error? 
-    optimizer = optim.Adam(model.parameters())
-    iterator = BucketIterator(batch_size=1, sorting_keys=[("source_tokens", "num_tokens")])
+    optimizer = optim.Adam(model.parameters(), lr=lr)
+    iterator = BucketIterator(batch_size=2, sorting_keys=[("source_tokens", "num_tokens")])
 
     iterator.index_with(vocab)
 
@@ -120,14 +129,19 @@ def main():
         print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
     """
     # Tensorboard logger
-    writer = SummaryWriter('runs/exp-1')
+    #writer = SummaryWriter('runs/exp-1')
     for i in range(n_epoch): # DONE make a variable
         print('Epoch: {}'.format(i))
         metrics = trainer.train()
         for x,v in metrics.items(): print("******* METRICS",x,v)
-        writer.add_scalar('Training loss', metrics["training_loss"], i)
-        writer.add_scalar("Validation loss",metrics["validation_loss"], i)
-        writer.add_scalar("Validation BLEU",metrics["validation_BLEU"], i)
+
+        print("Logging onto comet ml")
+        experiment.log_metric("Train_loss", metrics["training_loss"], step=i)
+        experiment.log_metric("Validation_loss", metrics["validation_loss"], step=i)
+        experiment.log_metric("Validation_BLEU",metrics["validation_BLEU"], step=i)
+        # writer.add_scalar('Training loss', metrics["training_loss"], i)
+        # writer.add_scalar("Validation loss",metrics["validation_loss"], i)
+        # writer.add_scalar("Validation BLEU",metrics["validation_BLEU"], i)
         #print("*"*10, "PRINTING METRICS",model.get_metrics())
         predictor = SimpleSeq2SeqPredictor(model, reader)
 
