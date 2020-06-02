@@ -64,7 +64,7 @@ experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
 
 hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
                    "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
-                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout
+                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
                    "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
 experiment.log_parameters(hyperparameters)
 experiment.add_tag("03_01")
