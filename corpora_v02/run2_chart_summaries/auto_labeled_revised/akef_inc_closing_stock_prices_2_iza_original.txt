@@ -3,7 +3,7 @@ This
 graph
 shows
 the
-Akef Inc closing stock prices for the week	<topic>
+Akef Inc. closing stock prices for the week	<topic>
 .
 It
 shows
@@ -57,7 +57,7 @@ This
 chart
 show
 the
-closing stock price for Akef Inc over the course of a week	<topic>
+closing stock price for Akef Inc. over the course of a week	<topic>
 .
 \\n	<separator>
 On
@@ -111,7 +111,7 @@ This
 chart
 shows
 the
-closing stock price for Akef Inc, for each day of the working week	<topic>
+closing stock price for Akef Inc., for each day of the working week	<topic>
 .
 There
 is
@@ -204,7 +204,7 @@ Friday	<x_axis_label_least_value>
 The
 chart
 shows
-American Inc closing stock prices for the week <topic>
+American Inc. closing stock prices for the week <topic>
 .
 \\n	<separator>
 \\n	<separator>
@@ -262,7 +262,7 @@ This
 graph
 shows
 the
-Akef Inc Closing share prices for the week	<topic>
+Akef Inc. Closing share prices for the week	<topic>
 .
 They
 steadily	<y_axis_trend>
@@ -308,7 +308,7 @@ This
 chart
 shows
 the
-closing stock price of Afek Inc for the week	<topic>
+closing stock price of Afek Inc. for the week	<topic>
 .
 On
 Monday	<x_axis_label_3rd_highest_value>
@@ -389,7 +389,7 @@ at
 The
 closing stock prices	<y_axis>
 for
-Afek Inc	<t=1_a=y>
+Afek Inc.	<t=1_a=y>
 were
 on
 the
@@ -474,7 +474,7 @@ lowest	<y_axis_least_value>
 The
 graph
 shows
-Akef inc closing stock prices for the week	<topic>
+Akef inc. closing stock prices for the week	<topic>
 .
 On
 Monday	<x_axis_label_3rd_highest_value>
@@ -522,7 +522,7 @@ chart
 is
 about
 the
-stock closing prices for one week for the company Akef Inc <topic>
+stock closing prices for one week for the company Akef Inc. <topic>
 The
 day	<x_axis>
 with
@@ -600,7 +600,7 @@ Friday	<x_axis_label_least_value>
 This
 graph
 shows
-Afek Inc's closing stock prices for the week	<topic>
+Afek Inc.'s closing stock prices for the week	<topic>
 ,
 in
 pound sterling	<y_axis_inferred_label>
@@ -703,7 +703,7 @@ a
 bar
 chart
 showing
-Akef Inc closing stick prices for the week	<topic>
+Akef Inc. closing stick prices for the week	<topic>
 .
 \\n	<separator>
 On
@@ -740,7 +740,7 @@ just under	<y_axis_approx>
 The
 graph
 shows
-Akef Inc closing stock prices for the week	<topic>
+Akef Inc. closing stock prices for the week	<topic>
 .
 \\n	<separator>
 On
@@ -792,7 +792,7 @@ a
 chart
 based
 on
-Akef Inc Closing stock prices for the week	<topic>
+Akef Inc. Closing stock prices for the week	<topic>
 .
 It
 starts
@@ -832,7 +832,7 @@ This
 chart
 represents
 the
-closing stock prices of Akef Inc per working day	<topic>
+closing stock prices of Akef Inc. per working day	<topic>
 \\n	<separator>
 \\n	<separator>
 There
@@ -871,7 +871,7 @@ to
 This
 chart
 shows
-Akef inc stock prices for the week	<topic>
+Akef inc. stock prices for the week	<topic>
 in
 british pounds	<y_axis_inferred_label>
 per
