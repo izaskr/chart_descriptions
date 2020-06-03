@@ -443,7 +443,7 @@ just above <y_axis_approx>
 
 <start_of_description>
 This
-weeks closing stock prices for Akef. Inc <topic>
+weeks closing stock prices for Akef Inc <topic>
 is
 shown
 in

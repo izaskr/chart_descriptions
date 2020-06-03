@@ -997,7 +997,7 @@ The
 bar
 chart
 shows
-Akef . Inc closing stock prices for the week	<topic>
+Akef Inc closing stock prices for the week	<topic>
 .
 It
 shows
