@@ -12,7 +12,7 @@ import json
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-json", required=False, help="json of a topic/chart with delex summaries", default="/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_03_01.json")
+parser.add_argument("-json", required=False, help="json of a topic/chart with delex summaries", default="/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_09_01.json")
 args = vars(parser.parse_args())
 
 json_file = args["json"]

@@ -145,7 +145,8 @@ def open_delex_write_json(corpus):
 	root = tree.getroot()
 
 	with open("lex_delex.json", "r") as jf:
-		lex_delex = json.load(jf)
+		all_lex_delex = json.load(jf)
+	lex_delex = {**all_lex_delex["bar_information"], **all_lex_delex["topic_information"]}
 
 	topic_name = ""
 
