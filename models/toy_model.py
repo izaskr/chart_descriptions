@@ -62,18 +62,12 @@ lr = args["lr"]
 
 
 ### COMET ML CONFIGURATION ###
-#comet_experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-#                            project_name="charts_seq2seq", workspace="izaskr")
+
 
 hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
                    "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
                    "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
                    "optimizer":"adam", "model_type":"attention_seq2seq_LSTM", "LR":lr} # NOTE change the model type
-#comet_experiment.log_parameters(hyperparameters)
-#experiment.add_tag("09_01")
-
-
-
 
 #SRC_EMBEDDING_DIM = 256 # source
 #TG_EMBEDDING_DIM = 256 # target
@@ -103,8 +97,8 @@ def main(topicID):
         source_token_indexers={'tokens': SingleIdTokenIndexer()},
         target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
     home_dir = "/home/CE/skrjanec/"
-    train_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID+ "_train.txt")
-    validation_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_"+ topicID +"_val.txt")
+    train_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID + "_train.txt")
+    validation_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID + "_val.txt")
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
                                       min_count={'tokens': 1, 'target_tokens': 1})
@@ -116,22 +110,22 @@ def main(topicID):
 
     source_embedder = BasicTextFieldEmbedder({"tokens": src_embedding})
 
-    # attention = LinearAttention(HIDDEN_DIM, HIDDEN_DIM, activation=Activation.by_name('tanh')())
+    attention = LinearAttention(HIDDEN_DIM, HIDDEN_DIM, activation=Activation.by_name('tanh')())
     # attention = BilinearAttention(HIDDEN_DIM, HIDDEN_DIM)
-    attention = DotProductAttention()
+    # attention = DotProductAttention()
 
     #max_decoding_steps = 40   # DONE: make this variable # Maximum length of decoded sequences
-    model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
-                          target_embedding_dim=TG_EMBEDDING_DIM,
-                          target_namespace='target_tokens',
-                          beam_size=beam,
-                          use_bleu=True)
     # model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
     #                       target_embedding_dim=TG_EMBEDDING_DIM,
     #                       target_namespace='target_tokens',
-    #                       attention=attention,
-    #                       beam_size=8,
-    #                       use_bleu=True) # has attention
+    #                       beam_size=beam,
+    #                       use_bleu=True)
+    model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
+                          target_embedding_dim=TG_EMBEDDING_DIM,
+                          target_namespace='target_tokens',
+                          attention=attention,
+                          beam_size=beam,
+                          use_bleu=True) # has attention
 
     model = model.cuda(CUDA_DEVICE) # NOTE else error? 
     optimizer = optim.Adam(model.parameters(), lr=lr)
@@ -183,6 +177,7 @@ if __name__ == '__main__':
 
     #all_topicIDs = ["01", "02", "03"] #, "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
     all_topicIDs = ["01","02","03","04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
+    all_topicIDs = ["01","02"]
 
     for t in all_topicIDs:
 
