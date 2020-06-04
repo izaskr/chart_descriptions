@@ -62,15 +62,15 @@ lr = args["lr"]
 
 
 ### COMET ML CONFIGURATION ###
-experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-                            project_name="charts_seq2seq", workspace="izaskr")
+#experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
+#                            project_name="charts_seq2seq", workspace="izaskr")
 
-hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
-                   "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
-                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
-                   "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
-experiment.log_parameters(hyperparameters)
-experiment.add_tag("09_01")
+#hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
+#                   "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
+#                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
+#                   "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
+#experiment.log_parameters(hyperparameters)
+#experiment.add_tag("09_01")
 
 
 #SRC_EMBEDDING_DIM = 256 # source
@@ -78,15 +78,15 @@ experiment.add_tag("09_01")
 #HIDDEN_DIM = 128
 #CUDA_DEVICE = 0
 
-def main():
+def main(topicID):
     reader = Seq2SeqDatasetReader(
         source_tokenizer=WordTokenizer(),
         target_tokenizer=WordTokenizer(),
         source_token_indexers={'tokens': SingleIdTokenIndexer()},
         target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
     home_dir = "/home/CE/skrjanec/"
-    train_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_09_01_train.txt')
-    validation_dataset = reader.read(home_dir+'chart_descriptions/corpora_v02/delexicalized/delex_09_01_val.txt')
+    train_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID+ "_train.txt")
+    validation_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_"+ topicID +"_val.txt")
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
                                       min_count={'tokens': 1, 'target_tokens': 1})
@@ -163,4 +163,21 @@ def main():
     return None
 
 if __name__ == '__main__':
-    main()
+
+    all_topicIDs = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
+
+    for t in all_topicIDs:
+
+        ### COMET ML CONFIGURATION ###
+        experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
+                            project_name="charts_seq2seq", workspace="izaskr")
+
+        hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
+                   "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
+                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
+                   "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
+        experiment.log_parameters(hyperparameters)
+        experiment.add_tag(t)
+
+        # run the training
+        main(t)
