@@ -3,12 +3,10 @@ Delexicalize the corpus (in XML) and write it into a file to be processed by the
 
 """
 
-
-
 import argparse
 import xml.etree.ElementTree as ET
 import json
-
+import random
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-xml", required=False, help="xml corpus with chart summaries and labels", default="/home/iza/chart_descriptions/corpora_v02/all_descriptions/chart_summaries_b01_toktest2.xml")
@@ -145,12 +143,20 @@ def open_delex_write_json(corpus):
 	root = tree.getroot()
 
 	with open("lex_delex.json", "r") as jf:
-		lex_delex = json.load(jf)
+		all_lex_delex = json.load(jf)
+	lex_delex = {**all_lex_delex["bar_information"], **all_lex_delex["topic_information"]}
 
 	topic_name = ""
+	# join the summaries by topic, e.g. all 02_X into 02, then shuffle and split into train and val
+	topicwise = {}
 
 	for topic in root:
-		topic_id = topic.attrib["topic_id"] # will be the name of the file
+		# topic ID has 4 integers, the first 2 are the actual topic ID, the last 2 are the plot ID
+		# for example, 01_01, 01_02 ...
+		topic_id = topic.attrib["topic_id"]
+		short_topic_id = topic_id[:2]
+		if short_topic_id not in topicwise:
+			topicwise[short_topic_id] = {}
 
 		topic_summaries = {}
 		#f = open(topic_name, "w", encoding="utf-8")
@@ -217,35 +223,54 @@ def open_delex_write_json(corpus):
 			#print(segmented_ids)
 
 			# the loop below replaces token IDs with tokens after checking if they should be delexicalized
-			for m, label in segmented_ids: # m can be a list or a string
+			content_plan = []
+			for m, label in segmented_ids: # m can be a list or a string of token ID(s), label is a string
 				s = "NOTHING"
 				if label in lex_delex:
 					s = lex_delex[label]
+					# append the delex placeholder of the label
+					content_plan.append(s)
 					#print(m)
 
 				else:
 					if type(m) == str:
-						#get_text = lambda x,d: d[x]
-						#s = get_text(m,vocab)
 						s = vocab[m]
 					if type(m) == list:
 						get_text_list = lambda x: [vocab[e] for e in x]
 						w_list = get_text_list(m)
-						#s = "+".join(w_list)
 						s = " ".join(w_list)
-				#if label:
-				#	s = s + "\t" + "<"+ label + ">"
+
 				new_summary_content = new_summary_content + " " + s
 			print(s_counter, new_summary_content)
 			topic_summaries[story_id] = new_summary_content
+			# save the content plans (list of labels) and summaries given the topic, both are strings
+			content_plan = " ".join(content_plan)
+			topicwise[short_topic_id][story_id] = (content_plan, new_summary_content)
 
 		# write the delexicalized summaries into a json file
-		with open("/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_"+topic_id+".json", "w", encoding="utf-8") as new_jf:
-			json.dump(topic_summaries , new_jf)
+		# with open("/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_"+topic_id+".json", "w", encoding="utf-8") as new_jf:
+		# 	json.dump(topic_summaries , new_jf)
+
+	print("Number of topics", len(topicwise))
+	# For each topic, write the content plans and summaries into a parallel
+	# prior to that shuffle and split into train and validation
+	for shortTopicID, storyIDs0 in topicwise.items():
+		storyIDs = list(storyIDs0.keys())
+		random.shuffle(storyIDs)
+		size_val = int(0.2 * len(storyIDs))
+		trainIDs, valIDs = storyIDs[size_val:], storyIDs[:size_val]
+		print("Topic %s has %d in train and %d in validation" % (shortTopicID, len(trainIDs), len(valIDs)))
+
+		# write the train files
+		with open("/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_"+shortTopicID+"_train.txt", "w", encoding="utf-8") as parallel:
+			for id in trainIDs:
+				parallel.write(topicwise[shortTopicID][id][0] + "\t" + topicwise[shortTopicID][id][1] + "\n")
+
+		with open("/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_"+shortTopicID+"_val.txt", "w", encoding="utf-8") as parallel2:
+			for id in valIDs:
+				parallel2.write(topicwise[shortTopicID][id][0] + "\t" + topicwise[shortTopicID][id][1] + "\n")
 		input("ENTER for next topic/chart")
-				#f.write(s + "\n")
-			#f.write("<end_of_description>" + "\n")
-		#f.close()
+
 
 if __name__ == "__main__":
 	#open_delex_write(xml_file)

@@ -73,6 +73,8 @@ lr = args["lr"]
 #experiment.add_tag("09_01")
 
 
+
+
 #SRC_EMBEDDING_DIM = 256 # source
 #TG_EMBEDDING_DIM = 256 # target
 #HIDDEN_DIM = 128
@@ -140,7 +142,6 @@ def main(topicID):
     # Tensorboard logger
     #writer = SummaryWriter('runs/exp-1')
     for i in range(n_epoch): # DONE make a variable
-
         print('Epoch: {}'.format(i))
         metrics = trainer.train()
         for x,v in metrics.items(): print("******* METRICS",x,v)

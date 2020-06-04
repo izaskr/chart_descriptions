@@ -12,13 +12,14 @@ import json
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-json", required=False, help="json of a topic/chart with delex summaries", default="/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_03_01.json")
+parser.add_argument("-json", required=False, help="json of a topic/chart with delex summaries", default="/home/iza/chart_descriptions/corpora_v02/delexicalized/delex_09_01.json")
 args = vars(parser.parse_args())
 
 json_file = args["json"]
 
 with open("lex_delex.json", "r") as jf:
-    lex_delex = json.load(jf)
+    all_lex_delex = json.load(jf)
+lex_delex = {**all_lex_delex["bar_information"], **all_lex_delex["topic_information"]}
 
 def open_plan_save(json_name):
     """ Extract the content plan from summaries and write into a tab-separated file """

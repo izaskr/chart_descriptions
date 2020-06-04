@@ -1,0 +1,4 @@
+T1AB XHIGHEST BARSREST YLABEL XLEAST XTHIRD XLABEL XSECOND XLABEL YLABEL T1AB T1AY	 This shows that T1AB with XHIGHEST earn more than their BARSREST . The lowest YLABEL are to those who have XLEAST , followed by a XTHIRD XLABEL then a XSECOND XLABEL - therefore we can take from this graph that the higher the level of education , the higher the YLABEL T1AB earn T1AY
+YLABEL XTHIRD XSECOND XLEAST T1AB XLEAST XTHIRD YLABEL ADDLEASTTHIRD YMAG	 There is an equal increase between YLABEL from XTHIRD through XSECOND to XLEAST . T1AB with XLEAST were worse off than XTHIRD ' s YLABEL by approximately ADDLEASTTHIRD YMAG .
+XLABEL YLABEL	 The higher level of XLABEL the higher the YLABEL
+PLOTTITLE XLEAST YLABEL XTHIRD XLABEL XSECOND XHIGHEST T0AY	 This chart shows the PLOTTITLE . We can see that those who have XLEAST have a lower YLABEL than those who have a XTHIRD XLABEL . Those with a XSECOND or a XHIGHEST T0AY earn much more .
