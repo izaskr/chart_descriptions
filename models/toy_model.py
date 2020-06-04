@@ -68,7 +68,7 @@ lr = args["lr"]
 hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
                    "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
                    "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
-                   "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
+                   "optimizer":"adam", "model_type":"attention_seq2seq_LSTM", "LR":lr} # NOTE change the model type
 #comet_experiment.log_parameters(hyperparameters)
 #experiment.add_tag("09_01")
 
@@ -82,15 +82,18 @@ hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMB
 
 def main(topicID):
 
+    print("\t Current topic", topicID)
+
     ## TRACKING EXPERIMENTS WITH COMET ML ##
     experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-                            project_name="charts_seq2seq", workspace="izaskr")
+                            project_name="charts_seq2seq_attention", workspace="izaskr")
 
     #hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
     #               "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
     #               "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
     #               "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
     experiment.log_parameters(hyperparameters)
+    experiment.add_tags(["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"])
     experiment.add_tag(topicID)
 
     # use the AllenNLP parallel data reader
@@ -167,7 +170,7 @@ def main(topicID):
         # writer.add_scalar("Validation loss",metrics["validation_loss"], i)
         # writer.add_scalar("Validation BLEU",metrics["validation_BLEU"], i)
         #print("*"*10, "PRINTING METRICS",model.get_metrics())
-        predictor = SimpleSeq2SeqPredictor(model, reader)
+        #predictor = SimpleSeq2SeqPredictor(model, reader)
 
         #for instance in itertools.islice(validation_dataset, 1):
         #    print('SOURCE:', instance.fields['source_tokens'].tokens)
@@ -178,7 +181,8 @@ def main(topicID):
 
 if __name__ == '__main__':
 
-    all_topicIDs = ["01", "02", "03"] #, "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
+    #all_topicIDs = ["01", "02", "03"] #, "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
+    all_topicIDs = ["01","02","03","04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
 
     for t in all_topicIDs:
 
