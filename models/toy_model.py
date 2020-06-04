@@ -135,7 +135,6 @@ def main():
     # Tensorboard logger
     #writer = SummaryWriter('runs/exp-1')
     for i in range(n_epoch): # DONE make a variable
-
         print('Epoch: {}'.format(i))
         metrics = trainer.train()
         for x,v in metrics.items(): print("******* METRICS",x,v)

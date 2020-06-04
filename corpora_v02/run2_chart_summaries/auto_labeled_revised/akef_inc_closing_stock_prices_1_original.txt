@@ -3,7 +3,7 @@ This
 chart
 shows
 the
-closing stock prices at Akef Inc for the week <topic>
+closing stock prices at Akef Inc. for the week <topic>
 .
 The
 chart
@@ -56,7 +56,7 @@ just	<y_axis_least_value>
 <start_of_description>
 Bar
 chart
-showing closing stock prices of Akef Inc for the week	<topic>
+showing closing stock prices of Akef Inc. for the week	<topic>
 .
 \\n <separator>
 \\n  <separator>
@@ -88,7 +88,7 @@ The
 graph
 shows
 the
-closing stock prices on each day of a week (Mon-Fri inclusive) at the Akef Inc company <topic>
+closing stock prices on each day of a week (Mon-Fri inclusive) at the Akef Inc. company <topic>
 ,
 in
 pounds	<y_axis_inferred_label>
@@ -256,7 +256,7 @@ Monday	<x_axis_label_highest_value>
 the
 closing stock price <y_axis>
 for
-Akef Inc  <t=1_a=b>
+Akef Inc.  <t=1_a=b>
 was
 £	<y_axis_inferred_label>
 90	<y_axis_inferred_highest_value_approx>
@@ -294,7 +294,7 @@ As
 the
 week has gone on	<x_axis_trend>
 the
-Afec Inc	 <t=1_a=y>
+Afec Inc.	 <t=1_a=y>
 closing stock price <y_axis>
 has
 decreased <slope_down>
@@ -354,7 +354,7 @@ decline <slope_down>
 in
 stock prices	<y_axis>
 for
-Akef Inc	<t=1_a=b>
+Akef Inc.	<t=1_a=b>
 during
 the
 course of the week	<x_axis_trend>
@@ -394,7 +394,7 @@ Friday  <x_axis_label_least_value>
 
 
 <start_of_description>
-Akef Inc <t=1_a=b>
+Akef Inc. <t=1_a=b>
 closing stock prices <y_axis>
 have
 declined <slope_down>
@@ -443,7 +443,7 @@ just above <y_axis_approx>
 
 <start_of_description>
 This
-weeks closing stock prices for Akef Inc <topic>
+weeks closing stock prices for Akef. Inc <topic>
 is
 shown
 in
@@ -651,7 +651,7 @@ This
 chart
 shows
 the 
-day of the week for the closing stock prices for Akef Inc <topic>
+day of the week for the closing stock prices for Akef Inc. <topic>
 .
 From
 the
@@ -759,7 +759,7 @@ across
 the
 week	<x_axis>
 for
-AKEF Inc	<t=1_a=b>
+AKEF Inc.	<t=1_a=b>
 .
 Between	<x_axis_range_start>
 Monday	<x_axis_label_highest_value>
@@ -790,7 +790,7 @@ This
 chart
 shows
 the
-Akef Inc closing stock prices for the week <topic>
+Akef Inc. closing stock prices for the week <topic>
 .
 \\n <separator>
 They
@@ -853,7 +853,7 @@ only	<y_axis_least_value>
 Graph
 above	
 shows
-Akef Inc closing stock prices for the week <topic>
+Akef Inc. closing stock prices for the week <topic>
 from	<x_axis_range_start>
 Monday	<x_axis_label_highest_value>
 through
@@ -906,7 +906,7 @@ The
 chart
 shows
 the
-daily closing prices for Akef Inc stock over a period  of a  working week <topic>
+daily closing prices for Akef Inc. stock over a period  of a  working week <topic>
 .
 \\n  <separator>
 On
@@ -961,7 +961,7 @@ just  under	 <y_axis_approx>
 The
 stock prices <y_axis>
 of
-Akef Inc <t=1_a=b>
+Akef Inc. <t=1_a=b>
 have
 declined   <slope_down>
 as the week has progressed  <x_axis_trend>
