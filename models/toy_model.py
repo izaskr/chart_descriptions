@@ -62,14 +62,14 @@ lr = args["lr"]
 
 
 ### COMET ML CONFIGURATION ###
-#experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-#                            project_name="charts_seq2seq", workspace="izaskr")
+comet_experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
+                            project_name="charts_seq2seq", workspace="izaskr")
 
-#hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
-#                   "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
-#                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
-#                   "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
-#experiment.log_parameters(hyperparameters)
+hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
+                   "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
+                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
+                   "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
+comet_experiment.log_parameters(hyperparameters)
 #experiment.add_tag("09_01")
 
 
@@ -80,7 +80,20 @@ lr = args["lr"]
 #HIDDEN_DIM = 128
 #CUDA_DEVICE = 0
 
-def main(topicID):
+def main(topicID, experiment):
+
+    ## TRACKING EXPERIMENTS WITH COMET ML ##
+    #experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
+    #                        project_name="charts_seq2seq", workspace="izaskr")
+
+    #hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
+    #               "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
+    #               "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
+    #               "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
+    #experiment.log_parameters(hyperparameters)
+    experiment.add_tag(topicID)
+
+    # use the AllenNLP parallel data reader
     reader = Seq2SeqDatasetReader(
         source_tokenizer=WordTokenizer(),
         target_tokenizer=WordTokenizer(),
@@ -144,7 +157,7 @@ def main(topicID):
     for i in range(n_epoch): # DONE make a variable
         print('Epoch: {}'.format(i))
         metrics = trainer.train()
-        for x,v in metrics.items(): print("******* METRICS",x,v)
+        #for x,v in metrics.items(): print("******* METRICS",x,v)
 
         print("Logging onto comet ml")
         experiment.log_metric("Train_loss", metrics["training_loss"], step=i)
@@ -165,11 +178,12 @@ def main(topicID):
 
 if __name__ == '__main__':
 
-    all_topicIDs = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
+    all_topicIDs = ["01", "02", "03"] #, "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
 
     for t in all_topicIDs:
 
         ### COMET ML CONFIGURATION ###
+        """
         experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
                             project_name="charts_seq2seq", workspace="izaskr")
 
@@ -179,6 +193,6 @@ if __name__ == '__main__':
                    "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
         experiment.log_parameters(hyperparameters)
         experiment.add_tag(t)
-
+        """
         # run the training
-        main(t)
+        main(t, comet_experiment)
