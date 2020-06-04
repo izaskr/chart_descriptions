@@ -62,14 +62,14 @@ lr = args["lr"]
 
 
 ### COMET ML CONFIGURATION ###
-comet_experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-                            project_name="charts_seq2seq", workspace="izaskr")
+#comet_experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
+#                            project_name="charts_seq2seq", workspace="izaskr")
 
 hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
                    "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
                    "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
                    "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
-comet_experiment.log_parameters(hyperparameters)
+#comet_experiment.log_parameters(hyperparameters)
 #experiment.add_tag("09_01")
 
 
@@ -80,17 +80,17 @@ comet_experiment.log_parameters(hyperparameters)
 #HIDDEN_DIM = 128
 #CUDA_DEVICE = 0
 
-def main(topicID, experiment):
+def main(topicID):
 
     ## TRACKING EXPERIMENTS WITH COMET ML ##
-    #experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-    #                        project_name="charts_seq2seq", workspace="izaskr")
+    experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
+                            project_name="charts_seq2seq", workspace="izaskr")
 
     #hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
     #               "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
     #               "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
     #               "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
-    #experiment.log_parameters(hyperparameters)
+    experiment.log_parameters(hyperparameters)
     experiment.add_tag(topicID)
 
     # use the AllenNLP parallel data reader
@@ -182,17 +182,5 @@ if __name__ == '__main__':
 
     for t in all_topicIDs:
 
-        ### COMET ML CONFIGURATION ###
-        """
-        experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-                            project_name="charts_seq2seq", workspace="izaskr")
-
-        hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
-                   "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
-                   "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
-                   "optimizer":"adam", "model_type":"vanilla_seq2seq_LSTM"}
-        experiment.log_parameters(hyperparameters)
-        experiment.add_tag(t)
-        """
         # run the training
-        main(t, comet_experiment)
+        main(t)
