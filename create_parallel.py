@@ -18,7 +18,8 @@ args = vars(parser.parse_args())
 json_file = args["json"]
 
 with open("lex_delex.json", "r") as jf:
-    lex_delex = json.load(jf)
+    all_lex_delex = json.load(jf)
+lex_delex = {**all_lex_delex["bar_information"], **all_lex_delex["topic_information"]}
 
 def open_plan_save(json_name):
     """ Extract the content plan from summaries and write into a tab-separated file """
