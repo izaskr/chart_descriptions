@@ -80,7 +80,7 @@ def main(topicID):
 
     ## TRACKING EXPERIMENTS WITH COMET ML ##
     experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-                            project_name="charts_seq2seq_attention_dot", workspace="izaskr")
+                            project_name="charts_seq2seq_attention_dot_acrosstopics", workspace="izaskr")
 
     #hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
     #               "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
@@ -97,8 +97,12 @@ def main(topicID):
         source_token_indexers={'tokens': SingleIdTokenIndexer()},
         target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
     home_dir = "/home/CE/skrjanec/"
-    train_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID + "_train.txt")
-    validation_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID + "_val.txt")
+    data_dir = "/home/iza/chart_descriptions/corpora_v02/keyvalue/tsv/"
+    #train_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID + "_train.txt")
+    #validation_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID + "_val.txt")
+    train_dataset = reader.read(data_dir + "train.txt")
+    validation_dataset = reader.read(data_dir + "val.txt")
+    test_dataset = reader.read(data_dir + "test.txt")
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
                                       min_count={'tokens': 1, 'target_tokens': 1})
@@ -129,7 +133,7 @@ def main(topicID):
 
     model = model.cuda(CUDA_DEVICE) # NOTE else error: why? we put the Trainer onto CUDA already
     optimizer = optim.Adam(model.parameters(), lr=lr)
-    iterator = BucketIterator(batch_size=2, sorting_keys=[("source_tokens", "num_tokens")])
+    iterator = BucketIterator(batch_size=20, sorting_keys=[("source_tokens", "num_tokens")])
 
     iterator.index_with(vocab)
 
@@ -166,20 +170,21 @@ def main(topicID):
         #print("*"*10, "PRINTING METRICS",model.get_metrics())
         predictor = SimpleSeq2SeqPredictor(model, reader)
 
-        for instance in itertools.islice(validation_dataset, 1):
-            print('SOURCE:', instance.fields['source_tokens'].tokens)
-            print('GOLD:', instance.fields['target_tokens'].tokens)
-            print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
+        if i == n_epoch - 1:
+            for instance in itertools.islice(test_dataset, 1):
+                print('SOURCE:', instance.fields['source_tokens'].tokens)
+                print('GOLD:', instance.fields['target_tokens'].tokens)
+                print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
     
     return None
 
 if __name__ == '__main__':
 
+    main("all_topics")
+
     #all_topicIDs = ["01", "02", "03"] #, "04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
-    all_topicIDs = ["01","02","03","04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
-    #all_topicIDs = ["01","02"]
-
-    for t in all_topicIDs:
-
-        # run the training
-        main(t)
+    # all_topicIDs = ["01","02","03","04", "05", "06", "07", "08", "09", "10", "11", "12", "13", "14"]
+    #
+    # for t in all_topicIDs:
+    #     # run the training
+    #     main(t)
