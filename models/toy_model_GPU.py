@@ -97,7 +97,7 @@ def main(topicID):
         source_token_indexers={'tokens': SingleIdTokenIndexer()},
         target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
     home_dir = "/home/CE/skrjanec/"
-    data_dir = "/home/iza/chart_descriptions/corpora_v02/keyvalue/tsv/"
+    data_dir = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/tsv/"
     #train_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID + "_train.txt")
     #validation_dataset = reader.read(home_dir+"chart_descriptions/corpora_v02/delexicalized/delex_" + topicID + "_val.txt")
     train_dataset = reader.read(data_dir + "train.txt")
