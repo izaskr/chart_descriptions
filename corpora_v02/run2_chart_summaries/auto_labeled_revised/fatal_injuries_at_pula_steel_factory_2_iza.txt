@@ -304,7 +304,7 @@ in
 15	<y_axis_inferred_value_add_v1=highest_v2=4th>
 in
 2015	<x_axis_label_4th_highest_value>
-and	<x_axis_range_end>
+and
 12	<y_axis_least_value_val>
 in
 2016	<x_axis_label_least_value>
