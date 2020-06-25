@@ -39,7 +39,7 @@ parser.add_argument("-epoch", required=False, help="number of epochs for trainin
 parser.add_argument("-beam", required=False, help="size of the beam for beam search decoding", default=5, type=int)
 parser.add_argument("-dropout", required=False, help="dropout probability", default=0.2, type=float)
 parser.add_argument("-num-layers", required=False, help="number of layers of RNN", default=2, type=int)
-parser.add_argument("-lr", required=False, help="learning rate", default=0.01, type=float)
+parser.add_argument("-lr", required=False, help="learning rate", default=0.05, type=float)
 
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
 args = vars(parser.parse_args())
@@ -67,7 +67,7 @@ lr = args["lr"]
 hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
                    "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
                    "max_length":max_decoding_steps, "epochs":n_epoch, "beam":beam, "dropout":dropout,
-                   "optimizer":"adam", "model_type":"attention_seq2seq_LSTM", "LR":lr} # NOTE change the model type
+                   "optimizer":"adam", "model_type":"bil_attention_seq2seq_LSTM", "LR":lr} # NOTE change the model type
 
 #SRC_EMBEDDING_DIM = 256 # source
 #TG_EMBEDDING_DIM = 256 # target
@@ -80,7 +80,7 @@ def main(topicID):
 
     ## TRACKING EXPERIMENTS WITH COMET ML ##
     experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
-                            project_name="charts_seq2seq_attention", workspace="izaskr")
+                            project_name="charts_seq2seq_attention_bil", workspace="izaskr")
 
     #hyperparameters = {"source_emb_size":SRC_EMBEDDING_DIM, "target_emb_size":TG_EMBEDDING_DIM,
     #               "hidden_layer_RNN_size":HIDDEN_DIM, "num_layers_RNN":num_layers,
@@ -110,8 +110,8 @@ def main(topicID):
 
     source_embedder = BasicTextFieldEmbedder({"tokens": src_embedding})
 
-    attention = LinearAttention(HIDDEN_DIM, HIDDEN_DIM, activation=Activation.by_name('tanh')())
-    # attention = BilinearAttention(HIDDEN_DIM, HIDDEN_DIM)
+    #attention = LinearAttention(HIDDEN_DIM, HIDDEN_DIM, activation=Activation.by_name('tanh')())
+    attention = BilinearAttention(HIDDEN_DIM, HIDDEN_DIM, activation=Activation.by_name('tanh')()) # default: no activation
     # attention = DotProductAttention()
 
     #max_decoding_steps = 40   # DONE: make this variable # Maximum length of decoded sequences
@@ -127,7 +127,7 @@ def main(topicID):
                           beam_size=beam,
                           use_bleu=True) # has attention
 
-    model = model.cuda(CUDA_DEVICE) # NOTE else error? 
+    model = model.cuda(CUDA_DEVICE) # NOTE else error: why? we put the Trainer onto CUDA already
     optimizer = optim.Adam(model.parameters(), lr=lr)
     iterator = BucketIterator(batch_size=2, sorting_keys=[("source_tokens", "num_tokens")])
 
@@ -166,11 +166,11 @@ def main(topicID):
         #print("*"*10, "PRINTING METRICS",model.get_metrics())
         #predictor = SimpleSeq2SeqPredictor(model, reader)
 
-        #for instance in itertools.islice(validation_dataset, 1):
-        #    print('SOURCE:', instance.fields['source_tokens'].tokens)
-        #    print('GOLD:', instance.fields['target_tokens'].tokens)
-        #    print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
-    
+        for instance in itertools.islice(validation_dataset, 1):
+            print('SOURCE:', instance.fields['source_tokens'].tokens)
+            print('GOLD:', instance.fields['target_tokens'].tokens)
+            print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
+   	input("ENTER for next epoch") 
     return None
 
 if __name__ == '__main__':
