@@ -105,7 +105,7 @@ def main(topicID):
     test_dataset = reader.read(data_dir + "test.txt")
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
-                                      min_count={'tokens': 1, 'target_tokens': 2})
+                                      min_count={'tokens': 1, 'target_tokens': 1})
 
     src_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
                              embedding_dim=SRC_EMBEDDING_DIM)
@@ -133,7 +133,7 @@ def main(topicID):
 
     model = model.cuda(CUDA_DEVICE) # NOTE else error: why? we put the Trainer onto CUDA already
     optimizer = optim.Adam(model.parameters(), lr=lr)
-    iterator = BucketIterator(batch_size=20, sorting_keys=[("source_tokens", "num_tokens")])
+    iterator = BucketIterator(batch_size=32, sorting_keys=[("source_tokens", "num_tokens")])
 
     iterator.index_with(vocab)
 
@@ -148,10 +148,15 @@ def main(topicID):
 
     trainer.train()
     predictor = SimpleSeq2SeqPredictor(model, reader)
+    out_predictions = open("predictions.txt", "w", encoding="utf8")
     for instance in itertools.islice(test_dataset, len(test_dataset)):
         print('SOURCE:', instance.fields['source_tokens'].tokens)
         print('GOLD:', instance.fields['target_tokens'].tokens)
         print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
+        out = " ".join(predictor.predict_instance(instance)['predicted_tokens'])
+        out_predictions.write(out + "\n")
+    out_predictions.close()
+
     """
     # Tensorboard logger
     #writer = SummaryWriter('runs/exp-1')
