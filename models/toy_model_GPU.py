@@ -148,7 +148,7 @@ def main(topicID):
 
     trainer.train()
     predictor = SimpleSeq2SeqPredictor(model, reader)
-    out_predictions = open("predictions.txt", "w", encoding="utf8")
+    out_predictions = open("predictions_" + str(args["device"]) + ".txt", "w", encoding="utf8")
     for instance in itertools.islice(test_dataset, len(test_dataset)):
         print('SOURCE:', instance.fields['source_tokens'].tokens)
         print('GOLD:', instance.fields['target_tokens'].tokens)
