@@ -105,7 +105,7 @@ def main(topicID):
     test_dataset = reader.read(data_dir + "test.txt")
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
-                                      min_count={'tokens': 1, 'target_tokens': 1})
+                                      min_count={'tokens': 1, 'target_tokens': 2})
 
     src_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
                              embedding_dim=SRC_EMBEDDING_DIM)
@@ -142,13 +142,13 @@ def main(topicID):
                       iterator=iterator,
                       train_dataset=train_dataset,
                       validation_dataset=validation_dataset,
-                      num_epochs=1,
+                      num_epochs=n_epoch,
                       cuda_device=CUDA_DEVICE)
                       #,serialization_dir="logging")
-    """
+
     trainer.train()
     predictor = SimpleSeq2SeqPredictor(model, reader)
-    for instance in itertools.islice(validation_dataset, 1):
+    for instance in itertools.islice(test_dataset, len(test_dataset)):
         print('SOURCE:', instance.fields['source_tokens'].tokens)
         print('GOLD:', instance.fields['target_tokens'].tokens)
         print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
@@ -175,7 +175,7 @@ def main(topicID):
                 print('SOURCE:', instance.fields['source_tokens'].tokens)
                 print('GOLD:', instance.fields['target_tokens'].tokens)
                 print('PRED:', predictor.predict_instance(instance)['predicted_tokens'])
-    
+    """
     return None
 
 if __name__ == '__main__':
