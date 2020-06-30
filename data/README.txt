@@ -18,13 +18,13 @@ women_representation_in_different_sectors.txt : 10/10_01 : train :
 # new data
 akef_inc_closing_stock_prices_1.txt : 11/11_01 : val2
 akef_inc_closing_stock_prices_2_iza.txt : 11/11_02 : train
-average_time_spent_on_social_media_1.txt : 12/12_02 : train
-average_time_spent_on_social_media_2_iza.txt : 12/12_02 : val2
+average_time_spent_on_social_media_1.txt : 12/12_01 : train ## todo: check corresponding json
+average_time_spent_on_social_media_2_iza.txt : 12/12_02 : val2 ## todo: check corresponding json
 fatal_injuries_at_pula_steel_factory_1.txt : 13/13_01 : train
 fatal_injuries_at_pula_steel_factory_2_iza.txt : 13/13_02 : val1
 gender_pay_gap_2.txt : 01/01_02 : train
 how_young_people_spend_their_evenings_1.txt : 03/03_02 : train
-median_salary_of_women_2_iza.txt : 04/04_02 : val2
+median_salary_of_women_2_iza.txt : 04/04_02 : val2 ## 02/02_01 replaced 04/04_02
 minority_representation_in_libya_parliament_1_iza.txt : 14/14_01 : train
 minority_representation_in_libya_parliament_2_iza.txt : 14/14_02 : train
 money_spent_on_HE_2_iza.txt : 05/05_02 : val1

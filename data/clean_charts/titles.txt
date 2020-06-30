@@ -1,0 +1,6 @@
+12_01 & 12_02
+	- Average time spent on social media daily in Maputo by age group 
+	- The biggest users of social media daily in Maputo by age group (* biggest = most frequent)
+	- The least frequent users of social media daily in Maputo by age group
+
+
