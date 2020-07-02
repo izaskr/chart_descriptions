@@ -276,6 +276,42 @@ def open_delex_write_json(corpus):
 			input("ENTER for next topic/chart")
 
 
+def create_split(dict_ids, split_type):
+	""" dict_ids : dict, major topic IDs as keys, the value is a set of minor topic IDs """
+	train_IDs, test_IDs = set(), set()
+	if split_type == "2":
+		for major, minor_list in dict_ids.items():
+			if len(minor_list) == 1:
+				train_IDs.add(minor_list[0])
+
+			if len(minor_list) == 2:
+				_temp = random.sample(minor_list, len(minor_list)) # create new list and shuffle it without change the original
+				train_IDs.add(_temp[0])
+				test_IDs.add(_temp[1])
+
+	if split_type == "3":
+		# 14 topics in total; take 10 for training+val and 4 for testing
+		k = list(dict_ids.keys())
+		random.shuffle(k)
+
+		for i in k[:10]:
+			train_IDs = train_IDs.union(set(dict_ids[i]))
+		print("train IDs",train_IDs)
+
+		for j in k[10:]:
+			test_IDs = test_IDs.union(set(dict_ids[j]))
+		print("test IDs",test_IDs)
+
+	if train_IDs == {} or test_IDs == {}:
+		print("Check the splitting step!")
+
+	if train_IDs.intersection(test_IDs):
+		print("Check the splitting step, repeating IDs in train and test")
+
+	return train_IDs, test_IDs
+
+
+
 
 def open_delex_key_value(corpus):
 	"""
@@ -284,6 +320,11 @@ def open_delex_key_value(corpus):
 	Other tokens (labeled or not) stay as is, with the labels removed.
 	The delexicalized version of the summaries is written into a .json
 	"""
+
+	# keep track of topics: their major and minor IDs and names
+	minor2name = {} # "01_02": "gender_pay_gap"
+	major2minor = {} # "01": {"01_01", "01_02"}
+
 	tree = ET.parse(corpus)
 	root = tree.getroot()
 
@@ -302,6 +343,13 @@ def open_delex_key_value(corpus):
 		short_topic_id = topic_id[:2]
 		if short_topic_id not in topicwise:
 			topicwise[short_topic_id] = {}
+
+		minor2name[short_topic_id] = topic.attrib["topic"]
+		if short_topic_id in major2minor:
+			major2minor[short_topic_id].append(topic_id)
+		if short_topic_id not in major2minor:
+			major2minor[short_topic_id] = [topic_id]
+
 
 		topic_summaries = {}
 		#f = open(topic_name, "w", encoding="utf-8")
@@ -391,15 +439,46 @@ def open_delex_key_value(corpus):
 			o = None
 	# loop through the collected pairs of SRC and TG and write into files
 	dir_path = "/home/iza/chart_descriptions/corpora_v02/keyvalue/"
-	src = open(dir_path + "src.txt", "w", encoding="utf8")
-	tg = open(dir_path + "tg.txt", "w", encoding="utf8")
-	for greatTopicID, summaryIDs in topicwise.items():
-		for one_story_id, (src_s, tg_s) in summaryIDs.items():
-			src.write(src_s + "\n")
-			tg.write(tg_s + "\n")
+	#src = open(dir_path + "src_split2.txt", "w", encoding="utf8")
+	#tg = open(dir_path + "tg_split2.txt", "w", encoding="utf8")
 
-	src.close()
-	tg.close()
+	split_type = "3"
+
+	src_trainval = open(dir_path + "src_trainval_3.txt", "w", encoding="utf8")
+	src_test = open(dir_path + "src_test_3.txt", "w", encoding="utf8")
+	tg_trainval = open(dir_path + "tg_trainval_3.txt", "w", encoding="utf8")
+	tg_test = open(dir_path + "tg_test_3.txt", "w", encoding="utf8")
+
+	# split2: split topics, such that 1 chart goes to train, the other to test. If a topic has a single chart, put it into train
+	# split3: put some topics entirely into test (testing on unseen topic)
+	train_minor_IDs, test_minor_IDs = create_split(major2minor, split_type)
+	print("Split mode", split_type)
+	print("Train",train_minor_IDs, "\n", "Test ",test_minor_IDs)
+
+	#if split_type == "split2":
+
+	for greatTopicID, summaryIDs in topicwise.items():
+		#print("great topic ID", greatTopicID)
+		#print("summary IDs", summaryIDs.keys(), "\n"*3)
+		for one_story_id, (src_s, tg_s) in summaryIDs.items():
+			#print(one_story_id)
+			current_minor_id = one_story_id[:-3]
+			if current_minor_id in train_minor_IDs:
+				src_trainval.write(src_s + "\n")
+				tg_trainval.write(tg_s + "\n")
+			else:
+				src_test.write(src_s + "\n")
+				tg_test.write(tg_s + "\n")
+			#src.write(src_s + "\n")
+			#tg.write(tg_s + "\n")
+	#print(major2minor)
+	#print(minor2name)
+	src_trainval.close()
+	tg_trainval.close()
+	src_test.close()
+	tg_test.close()
+	#src.close()
+	#tg.close()
 
 
 
