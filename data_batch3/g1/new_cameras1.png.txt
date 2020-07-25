@@ -1,0 +1,69 @@
+"\"This chart shows the most expensive digital camera brand by average price. Cambo was most expensive at £75 on average, compared to Memoto (70£), SIgma (62£), Hunten (£58) and Konica (£52).\""
+
+
+"\"This chart shows the most expensive digital cameras\\n\\nCambo cameras are the most expensive at £75 on average, followed by Memoto (£70), Sigma (£62), and Hunten (£58).  The cheapest brand is Konica where on average a digital camera will cost £54.  The range in prices is only £21 which is fairly low.\""
+
+
+"\"This chart shows a number of digital cameras by average price.\\nFrom the chart we can see that the average price of Cambo is highest at around £76, Memoto is 2nd at £70, and Sigma is 3rd at around £62. Hunten and Konica are cheapest with average prices of £58 and £54, respectively.\""
+
+
+"\"This chart compares the average price of the most expensive camera brands in £'s. Of the 5 compared, Konica came in the cheapest on average at around £54 on average, Followed by Hunten at £58, Sigma at £62 and Memoto at £70. The highest average price for digital cameras was the brand Cambo at around £76 on average.\""
+
+
+"\"The chart shows the most expensive digital cameras by average price. From the chart we can see that the Cambo camera brand is the most expensive (at around £76) whilst the Konica is the least expensive (at around £54). The Memoto, Sigma, and Hunten are all between these two price ranges.\""
+
+
+"\"The chart shows the most expensive digital cameras by average price - a comparison of five brands, and a range of £0 to £80\\n\\nThe cameras range from between £52 (Konica) to £75 (Cambo). The average price of the five is Sigma, at £62.\""
+
+
+"\"This chart shows the most expensive digital cameras by average price.\\nFrom the chart we see that the prices all hover between 55 and 75% of the average (with Konica being the cheapest at 55%, and Cambo the most expensive, at 75%).\""
+
+
+"\"This chart shows the average price of digital camera brands in £s.\\n\\nFrom the chart we can see that the Cambo brand is the most expensive at around £76 closely followed by the Memoto brand at £70. The Sigma brand camera is the next expensive at £62 with Hunten being £58 and finally the Konica is the least expensive at £54.\""
+
+
+"\"The graph indicates price of digital cameras by brand, measured by average price of digital cameras (GBP).\\nThe most expensive brand is Cambo (75 pounds), followed by Memoto (70 pounds). The least expensive camera brand is Konica (55 pounds).\""
+
+
+"\"This bar chart shows the most expensive digital cameras by average price. Cambo was the most expensive digital camera: £75 average price. Memoto was the next expensive as the average price is £70. Sigma (average price £62), Hunten (average price £58) and Konica (average price £52) were the least expensive.\""
+
+
+"\"This graph shows the average price of various brands of cameras. Looking at the graph, the prices are fairly similar with only 20 pounds between the two, Cambo being the highest, and Konica the lowest. The other brands fall somewhere between these values.\""
+
+
+"\"This chart compares the average price of digital camera brands. The range of average prices is just over £20. Konica is the lowest at an average of £54. Hunten is next at £58. Sigma is just above at £62, while Memoto is at £70. Cambo has the highest average price for its digital cameras at £76. ,\""
+
+
+"\"The graph shows the average price of digital cameras (GBP)\\nCamera prices ranged from £55 to £75 providing only a £20 difference.\\nKonica was the cheapest with an average of £55, followed by Hunten £68, then Sigma £62. Memoto averaged at £70 and the most expensive was Cambo at £75.\""
+
+
+"\"The chart shows the average price of Digital Cameras by brand\\n\\nThe chart shows the Cambo brand to be the most expensive with Konica being the cheapest average price. The differential is relatively small.\""
+
+
+"\"This graph displays the average price of various models of camera in order to illustrate the most expensive. Highest in average price is Cambo, followed by Memoto and Sigma. Hunten and Konica have the lowest average prices.\""
+
+
+"\"The most expensive make of digital camera shown by average price in the table is Cambo, with an average price of £78. The least expensive is Konica, with an average price of £54. Memoto (2nd place), Sigma (third place) and Hunten (fourth place) come between. The most expensive model is on average £22 more expensive than the cheapest.\""
+
+
+"\"The chart shows the average price per camera brand `9however it isn't clear if this average is per model currently on sale or based on volumes etc. or even if the average is mean or median etc. so har to interpret adequately).  On what is seen, Cambo has the highest average camera price at £75 and Konic the lowest average at £52\""
+
+
+"\"This graph shows how expensive different brands of digital cameras are based on the average price of their products. Konica's cameras tend to be the cheapest, at an average price of £54. Cambo's cameras are the most expensive, with. an average price of £76.\""
+
+
+"\"As we can see from the chart digital cameras are majorly expensive. However prices do vary from brand to brand. The least expensive appears to by Konica which averages £53.00, followed by Hunten who average £58. Not far behind is Sigma priced at around £62.00. The two most expensive brands are Memoto at £70.00 and then Cambo priced at roughly £74.00.\""
+
+
+"\"This graph shows the average price of digital cameras by brand. Cambo being the most expensive at almost £80, closely followed by Memoto, then Sigma, Henten and Konica being the cheapest at just over £50.\""
+
+
+"\"This chart shows that the average price of a Cambo camera is most expensive at £75, followed bby Memoto then Sigma and Hunten. Konica had the cheapest average price at £54.\""
+
+
+"\"The chart shows the most expensive digital cameras by price.  We can see that Cambo is the most expensive at around £75 on average and Konica the lowest at around £52 on average.\""
+
+
+"\"The graph shows the most expensive digital cameras, this is shown by average price. The most expensive is the brand Cambo with the average price being £76 and the least expensive being Konica at £54. Memoto averages £70, Sigma £62 and Hunten £58.\""
+
+

@@ -1,0 +1,69 @@
+"\"The chart shows the money spent by different continents on higher education in Asia in 2010. Those from North America spent 200 million pounds. Europeans spent 100 million pounds. Those from Africa spent 50 million pounds. However, those from Asia itself spent the most: 320 million.\""
+
+
+"\"This chart shows how much money is spent on higher education in Asia compared to othr continents. Asia is vastly higher than the other continents with £320 million spent on higher education. Africa spends a 6th of that with just ~ £50 million.\\nEurope spends double than Africa with £100 million. But north America spends double what Europe spends at £200 million.\""
+
+
+"\"This chart shows money spent on HE for a variety of continents in the year 2010. \\nIt shows that the majority was spent by Asia, which is unsurprising, at just over £300 million.\\nIt is interesting to note that the sum of money spent by continents outside of Asia exceeds the spending by Asia, at £350 million.\""
+
+
+"\"This chart focuses on expressing the money spent on higher education in asia in 2010. the chart shows that in Asia this was around £320 million during this time period. This is compared to North america which spent £200 million, Europe spending £100 million and Africa spending £50 million during the same time period.\""
+
+
+"\"The chart states that it shows the money spent on higher education in Asia 2010 (the graph suggests it means spent by continent?). Asia is the continent that spends the most, whilst Africa spends the least. North America comes second, and Europe is third in terms of highest spend.\""
+
+
+"\"The graph shows money spent (in £million) on Higher Education in 2010. The graph is titled as being for Asia but also includes data for three other continents (North America, Europe and Africa) for comparison. \\n\\nThe graph shows that Asia as a continent spent the most on Higher Education at £300m, followed by North America (£200m), Europe (£100m) and Africa (£50m) in that order.\""
+
+
+"\"This chart shows the money spent on higher education in Asia in 2010.\\nFrom the chart we see that Asia spent a total of £320 million pounds for the year, £120 million more than the closest competitor (North America, which spent £200 million) and over twice as much as Europe and Africa put together (which spent £100 and £50 million respectively, totalling £150 million).\""
+
+
+"\"This chart shows the money in millions of pounds that was spent on higher education in different continents in 2010.\\n\\nAsia spent the most money on higher education in 2010 with around 320 million pounds being spent. North America then spent the next highest amount with 200 million pounds and Europe spent half that with 100 million pounds being spent. Africa was in fourth place with only spending 50 million pounds on higher education in 2010.\""
+
+
+"\"This graph describes the amount of money spent on higher education in 2010.\\nThe title states the data is limited to Asia, but the dataset proves to show the global data, separated by continents: North America, Europe, Asia, Africa.\\nThe data is shown in units of million pounds (GBP).\\nThe results show that Asia spent the most money on higher education in 2010 (over 300+ million pounds), followed by North America (200 million pounds), Europe (100 million pounds), with Africa spending the leaset (50 million pounds).\""
+
+
+"\"This graph shows the contents that spent the most on higher education in 2010. Asia ranked highest with over £300million spent. North America came next with £200million. The graph shows Europe as £100 million spent and the least spent was by Africa with £50 million.\""
+
+
+"\"This graph shows the money spent on higher education in 4 different continents, namely North America, Europe, Asia and Africa. Asia spends the highest amount at 320 million pounds, with the next closest being North America at 200 million pounds. At the bottom is Africa who spend 50 million pounds.\""
+
+
+"\"This chart shows the amount of money spent on higher education in millions of pounds, by continent in 2010. Asia spent around £320 million, which is over £100 million more than the nearest next most which is North America at £200 million. Europe is next at 100 million, while Africa is at the bottom at £50 million.\""
+
+
+"\"The chart shows money (GBP) spent on higher education in Asia in 2010.\\nThe highest-spending continent is Asia (£320 million).\\nThe chart shows Africa to be the lowest spending (£50 million).\\nNorth America spent £200 million and Europe half this £100 million.\\nThere is no data displayed for the Artic and Antarctica.\""
+
+
+"\"The chart shows the amount of money spent on higher education in Asia in 2010 compared to other continents.\\n\\nIt shows Asia spends considerable more money on higher education than Africa and Europe put together with North America pushing 75% of Asia's spend.\""
+
+
+"\"This graph displays the amount of money spent on higher education in Asia in the year 2010. We can see that just over 300 million pounds was spend in Asia, with the second continent being North America. Both Europe and Africa have a much lower amount.\""
+
+
+"\"In the year 2010, 320 million pounds was spent on higher education in Asia. This is significantly higher than the amounts of money spent in North America (200 million pounds), Europe (100 million pounds) and Africa (50 million pounds). It is over 50% higher than North America, which is where the next higest amount was spent.\""
+
+
+"\"The chart shows millions of pounds spent on higher education in 2010 comparing four continents (and not just Asia as the title suggests).\\nThe highest spend that year was Asia at around 320M, followed by North America at 200M, Europe with half that and Africa half of Europe's at 100M. \\nThere is almost a halving pattern between each of the continents.\""
+
+
+"\"This graph shows the amount of money spent by students from different continents on higher education in Asia in 2010. Africa spent by far the least, around 50 million pounds, followed by Europe with 100 million pounds, North America with 200 million pounds. Asia spent the most, exceeding 300 million pounds.\""
+
+
+"\"The chart shows the amount of money spent on higher education in a number of continents in 2010. Asia is at the top of the percentage mark with 320 million pounds. North America is next at 200 million pounds. Followed by Europe at 100 million pounds. The continent spending the less is Africa at 50 million pound.\""
+
+
+"\"This grpah sowns the money spent on higher education in Asia, for the year 2010. The Asia bar on this chart show that approx. £325 million pounds is spend, being the highest of all continents show by this data.\""
+
+
+"\"The chart shows that more money was spent on higher education in Asia in 2010 than in North America, Europe and Africa. Over 1 and1/2 times more was spent in Asia than in North America, over three times more than in Euope and over six times more than in Africa. The chart does not show the money spent per million people.\""
+
+
+"\"The chart compares money spent in millions of pounds on different continents During 2010,  Africa spent only £50 million, being the least and Asia spent £310 million, being the most\""
+
+
+"\"This graph explores the money spent on higher education in Asia in 2010. The amount is in millions pounds. Asia spent £320m which is 3x more than europes total of £100m. North america comes in at £200m and the least amount was from africa at £50m.\""
+
+
