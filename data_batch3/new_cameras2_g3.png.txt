@@ -1,0 +1,69 @@
+"\"The chart shows average prices for the digital cameras sold under five different brands.  Those by Cambo are the most expensive on average, at £72.  Slightly less expensive on average are those by Memoto at £70, followed by Sigma at £61, then Hunten at £59, with the least expensive on average being those by Konica at £52\""
+
+
+"\"This chart shows the average price of the most affordable digital cameras. Konica was the cheapest at £52, followed by Hunten at £58, then Sigma at £62, Memoto at £70 and the most expensive is Cambo at £76.\""
+
+
+"\"The graph shows that Memoto has an average price of £70. The Sigma is priced slightly lower at around £62 but the Cambo is more expensive at around £76. The Hunten is a cheaper camera at around £58 and the Konica is the cheapest at £54.\""
+
+
+"\"This chart shows the most affordable digital camera by the average price in pound sterling.\\nIt shows that Konica is the cheapest at £53, Hunten is the next cheapest at £58.  This is followed by Sigma at £62, Memoto at £70 and the most expensive is Cambo at £76.\""
+
+
+"\"The chart compares the prices of 5 camera brands in £ sterling. The most exensive at £76 is Cambo followed by Memento at £70 then Sigma at £52, Hunten at £58 and Konica at £55.\\nThere is no range of cameras in the brand family given nor any data about segments.\""
+
+
+"\"The chart shows which digital camera brands are most affordable based on the average price of their cameras. The most expensive brand is Cambo at around £75 on average, followed closely by Memoto which cost an average of £70. Stigma and Hunten are more affordable at an average price of £62 and £58 respectively. Konica is the cheapest brand at an average of around £54.\""
+
+
+"\"Konica is the cheapest average price and Cambo are the most expensive.\""
+
+
+"\"This bar chart represents the most affordable digital cameras by average price in pounds sterling by camera brand.\\nThe most expensive was the Cambo at 75 pounds sterling,followed by the Memoto at 70 pounds sterling.Sigma was third highest at 62 pounds sterling.Hunten then followed at 58 pounds sterling,and the cheapest was the Konica at 54 pounds sterling.\""
+
+
+"\"The graph shows the most affordable digital camera brands by price. Konica is the cheapest with an average price of £54, followed by Hunten at £58, then Sigma at £62. The most expensive brand is Cambo at £76, closely followed by Memota at £70.\""
+
+
+"\"Apart from maybe Koncia at £54 and Cambo at a price £76  it is a closely run race in the highly competitive most affordable digital camera market.\\nHunten the lowest price in the mid range at £58 is closely followed by Sigma at £62 with Memoto at £70 making it a difficult choice\""
+
+
+"\"Konica is the most afforable camera by average price - £52 - but Hunten and Sigma are close behind at £56 & £62. By comparison, Cambo digital cameras are £74 on average\""
+
+
+"\"Konica was the most affordable camera price averaging just over £50  whilst the least affordable was the Cambo brand. The second most affordable was Hunten and the second least affordable was Memoto.\""
+
+
+"\"The graph shows the average price of digital cameras by brand. You can see that Konica has the lowest average price, averaging at £54, Hunten is a little bit higher coming in at £58. Sigma is a little higher again, coming in at £62; Then a bit more of a jump to £70 for Memento and the most expensive, £76 average for Cambo cameras.\""
+
+
+"\"The chart showing the most affordable digital camera brand by average price shows that Konica is the most affordable camera brand at £52. Cambo, being the most expensive at £75. In the middle, Sigma costed £61 on average.\""
+
+
+"\"Cambo cameras are marginally the most expensive at £76, followed by Memotos at £70. There's a drop to the mid priced cameras Sigma at £62 and Hunten at £58, and then another drop to the Konica at £54.\""
+
+
+"\"This chart shows the average price for digital cameras. The most affordable is the Konica with an average price of £54. Slightly more expensive is the Hunter at £58. The middle priced camera is the Sigma at £62. There is then a jump of £8 to the Memoto at £70. The highest average price is the Cambo at £74.\""
+
+
+"\"The graph details the most affordable digital cameras in terms of price. Cambo presents us with the highest average price of £75. Next is Memoto at £70, followed by Sigma at £62. Hunten is the penultimate selection at £58, and finally Konica is the cheapest, with an average of just £53.\""
+
+
+"\"This chart shows the average price (£) of most affordable digital cameras by average price. The cheapest camera is the Konica at £53 followed by Hunten at £58, Sigma at £62, Memoto at £70 and the most expensive is the Cambo at £86.\""
+
+
+"\"Here we can see the most affordable digital camera brands by price in pound sterling. At around £53 the Konica comes in at most affordable, followed by the Husten at just under £60, and the Sigma at just over the £60 price mark. The Memoto camera brand averages at £70, and lastly the Cambo, averaging around £75.\""
+
+
+"\"The graph illustrates the five most affordable digital camera brands, represented by their average price in pounds sterling.  The most affordable of these camera is Konica with an average price of 54 pounds. This is followed by Hunten (58 pounds) Sigma(62 pounds) and Memoto at 70 pounds.  The most expensive of the affordable cameras is Cambo with the average camera costong 75 pounds.\""
+
+
+"\"From the chart we can see that the most affordable digital camera by average price was the Cambo at 74%. The least affordabe is the Konica at 54%. The 3 middle most affordable cameras were Memoto with 70%, Sigma with 62% and Hunten with 58%.\""
+
+
+"\"As can be seen the bars are fairly even. Cambo however has the highest average price at £75. Memento follow next with £70. Sigma, Hunten come in at a similar price between £58-£62. The most affordable however is Konica at an average price of £52\""
+
+
+"\"This is a graph to show the most affordable digital cameras by average price, with the y axis representing average price in £ and the x axis representing camera brand. Cambo is the least affordable digital camera, with an average price of £76. Memoto is the second least affordable, costing on average £70. Sigma is third least (£62), and Hunten fourth least (£58). Konica is the most affordable brand of digital camera, costing an average price of £54.\""
+
+
