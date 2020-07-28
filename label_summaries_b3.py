@@ -307,7 +307,7 @@ def in_title_labels(target, chart_text_dict):
 		assigned_lbl = "<x_axis_label_count>"
 		return assigned_lbl
 
-	if target in all_stopwords:
+	if target in all_stopwords or target in {",", ".", "!", "?" , "(", ")", "-", "&", "'"}:
 		return assigned_lbl
 
 	target_lemma = [t.lemma_ for t in nlp_en_core(target)][0] # list of 1
@@ -346,17 +346,13 @@ def in_title_labels(target, chart_text_dict):
 			elif crop in chart_text_dict["x_axis_name"].lower():
 				assigned_lbl = "<t=0_a=x>"
 		else:
-			if target not in {",", ".", "!", "?" , "(", ")", "-"} and not assigned_lbl:
-				print("not in title, not a stopword, not a punct., and not labeled : ", target)
-		#import pdb; pdb.set_trace()
-	#if target in {} #
+			if target not in {",", ".", "!", "?" , "(", ")", "-", "&", "'"} and not assigned_lbl:
+				#print("not in title, not a stopword, not a punct., and not labeled : ", target)
+				pass
+
 	return assigned_lbl
 
-# TODO: some bar names tagged at first, then not anymore
-# city is a also left untagged (x axis name)
-# appears in title or not: t=0_a=x/y/b
-# "and" don't label it with range  DONE ?
-# closes value: why preferring _inferred_add/mul? DONE
+
 
 
 def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_other, units_set, magnitude_set):
@@ -493,7 +489,7 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 							unigrams_labels.append((u, u_label))
 
 				new_lab_sum += unigrams_labels
-				print("new labeled summary so far", new_lab_sum)
+				#print("new labeled summary so far", new_lab_sum)
 		else: # a labeled or unlabeled token: nothing to fix
 			new_lab_sum.append((unigram, label))
 
@@ -508,7 +504,7 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 	n = len(list(zip(new_lab_sum[:-1], new_lab_sum[1:])))
 	for ((t1, l1),(t2, l2)) in zip(new_lab_sum[:-1], new_lab_sum[1:]): # iter over bigrams
 		cbigram += 1
-		if l1 and l2 and l1==l2: # neither should be None
+		if l1 and l2 and l1==l2 and t1 != joined: # neither should be None
 			print("t1 t2", t1, t2)
 			joined = t2
 			new_joint.append((t1 + " " + t2, l1))
@@ -520,13 +516,29 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 			if cbigram == n: # add also the second unigram if this is the last bigram
 				new_joint.append((t2, l2))
 
+	# check for bigrams in the newly made summary again (gender pay gap, social media use)
+	new_joint02 = []
+	cbigram = 0
+	joined = ""
+	n = len(list(zip(new_joint[:-1], new_joint[1:])))
+	for ((t1, l1),(t2, l2)) in zip(new_joint[:-1], new_joint[1:]): # iter over bigrams
+		cbigram += 1
+		if l1 and l2 and l1==l2 and t1 != joined: # neither should be None
+			print("t1 t2", t1, t2)
+			joined = t2
+			new_joint02.append((t1 + " " + t2, l1))
+			print("JOINED ANEW   ", t1, t2, l1)
+		else: # add only the first unigram
+			if t1 == joined: # if current t1 was joined to bigram
+				continue
+			new_joint02.append((t1, l1))
+			if cbigram == n: # add also the second unigram if this is the last bigram
+				new_joint02.append((t2, l2))
 
-	print("OLD SUMMARY \t", labeled_summary, "\n")
-	print("NEW SUMMARY \t", new_lab_sum, "\n")
-	print("AFTER BIGRAM \t", new_joint, "\n"*2)
-
-
-
+	#print("OLD SUMMARY \t", labeled_summary, "\n")
+	#print("NEW SUMMARY \t", new_lab_sum, "\n")
+	#print("AFTER BIGRAM \t", new_joint, "\n"*2)
+	return new_joint02
 
 
 def read_summaries(summary_file, info_basic, info_cal, info_other):
@@ -612,7 +624,6 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 			else:
 				for i, t in enumerate(tokens):
 
-
 					if t in units:
 						t_label = "<y_axis_inferred_label>"
 						labeled_token_i.add(i)
@@ -626,7 +637,6 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 
 						t_label = find_closest(float(t), basic_cal_text, basic_cal_values)
 						labeled_token_i.add(i)
-						#input("next token")
 
 						ltoken_dict[i] = (t, t_label)
 
@@ -646,8 +656,6 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 
 			for j in range(len(tokens)):
 				zz = j
-				#if zz == 90: # Lima (in a noun chunk)
-					#import pdb; pdb.set_trace()
 
 				if j in checked_j: continue
 				if j in labeled_chunk_ind and j not in labeled_token_i:
@@ -660,7 +668,6 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 							checked_j = checked_j.union(set(np.arange(p1[0],p1[1]+1)))
 					if match == []:
 						print("debug", labeled_chunk_ind, checked_j,j, tokens[j])
-						input()
 
 					labeled_summary.append(labeled_chunk_dict[match[0]])
 
@@ -731,12 +738,6 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 					if t2 and t2_label:
 						labeled_summary.append((t2, t2_label))
 
-					
-					#if "," in t and len(t) > 1: print(t) # 4 cases: 
-					#22,500 26,500 19,750 23,000.\\n\\nThe 2000,2005,2010
-
-					#if t in {"13.5", "8.8", "8.5"}:
-						#print("\t ---", tokens[j], t, t_label, t2_label)
 
 					elif t_label == None:
 
@@ -748,9 +749,9 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 
 			# check the parsed and labeled summary for frequent errors and fix tem
 			new_labsum = post_check(labeled_summary, basic_cal_text, basic_cal_values, info_other, units, magnitude)
+			#summaries_final.append(labeled_summary)
+			summaries_final.append(new_labsum)
 
-			import pdb; pdb.set_trace()
-			summaries_final.append(labeled_summary)
 	return summaries_final
 
 
@@ -778,49 +779,31 @@ if __name__ == "__main__":
 		all_chart_data = json.load(jsf)
 
 	extracted = get_x_y(anno_json_fpath) # dict; key: index, value, dict of chart info
-	#import pdb; pdb.set_trace()
 	# tuples [(summary_file_name, json_ID) ... ]
 	maps = get_info_from_map() 
 
 
 	dlabel_word, word_dlabel = discourse_labels()
-	new_pn = "/home/iza/chart_descriptions/data_batch3/auto_labeled"
-	for (summary_fname, json_ID) in maps:
+	new_pn = "/home/iza/chart_descriptions/data_batch3/auto_labeled/"
+	for (summary_fname, json_ID) in maps: # summary fname e.g. new_citySA1_g2.png.txt
+		print("SUMMARY FNAME", summary_fname)
+		new_filename = new_pn + summary_fname[:-8] + ".txt"
+		new_file = open(new_filename, "w", encoding="utf8")
+
 		c = 0
 		current_basic, current_cal, current_other = get_stat_info(extracted[json_ID])
 		auto_labeled = read_summaries(summary_fname, current_basic, current_cal, current_other)
-		#import pdb; pdb.set_trace()
-	
 
-	for data_split,path_json in jsons.items():
-		c = 0
-		new_pn = "/home/iza/chart_descriptions/data_batch3/auto_labeled"
+		for one_summary in auto_labeled:
+			new_file.write("<start_of_description>" + "\n")
+			for (tok, lbl) in one_summary:
+				if lbl == None:
+					new_file.write(tok + "\n")
+				else:
+					new_file.write(tok + "\t" + lbl + "\n")
+			new_file.write("<end_of_description>" + "\n" * 4)
+		new_file.close()
+		#input("Enter for next summary file")
 
-		# "batch1/akef_inc_closing_stock_prices_1.txt":("train1", 2) are the items in descriptions_files_json
-		#get_according_filenames = lambda dfs, splitt: [(fname, splitname, image) for fname, (splitname,image) in dfs.items() if splitname == splitt] # TODO won't work of because incorrect syntax (lamda doesn't like if in this way)
-		current_triplets = get_according_fnames(descriptions_files_json, data_split)
-		extracted = get_x_y(path_json)
-
-		for (filename, splitname, i_image) in current_triplets:
-			v = get_data_dict(extracted, i_image)
-			current_basic, current_cal = get_stat_info(v)
-			auto_labeled = read_summaries(filename, current_basic, current_cal)
-			new_fn = new_pn + filename[7:]
-			newdoc = open(new_fn, "w")
-			for single in auto_labeled:
-				newdoc.write("<start_of_description>")
-				newdoc.write("\n")
-				for tup in single:
-					if tup[1] == None:
-						newdoc.write(tup[0])
-					else:
-						newdoc.write(tup[0] + "\t" + tup[1])
-					newdoc.write("\n")
-				newdoc.write("<end_of_description>")
-				newdoc.write("\n")
-				newdoc.write("\n")
-			newdoc.close()
-			#input("next file")
-		
 
 # 1.4 k more labels assigned, bigger recall, precision?

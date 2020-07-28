@@ -1,0 +1,1708 @@
+<start_of_description>
+The
+chart
+is
+titled
+The
+least	<y_axis_least_value>
+frequent daily users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+.
+We
+have
+data
+recorded
+in
+minutes	<y_axis>
+rather
+than	<y_x_comparison>
+number
+of
+uses	<t=1_a=b>
+and	<order_3rd>
+results
+are
+split
+into
+responses
+for
+five	<x_axis_label_count>
+age	<x_axis>
+range
+groups	<x_axis>
+;
+ages	<x_axis>
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+,
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+,
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+,
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+and	<order_3rd>
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+.
+The
+scale
+for
+minutes	<y_axis>
+is
+a
+little	<y_axis_trend>
+difficult
+to
+read
+with
+any
+accuracy
+due
+to
+the
+way
+it
+has
+been
+segmented
+but	<y_x_comparison>
+a
+rough
+idea
+of
+results
+can
+be
+found
+.
+Careful
+reading
+of
+the
+data
+shows
+that
+both
+the
+age group	<x_axis>
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+recorded
+the
+same
+and	<order_3rd>
+overall
+lowest	<y_axis_least_value>
+number
+of
+minutes	<y_axis>
+at
+around	<y_axis_approx>
+70	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+each
+.
+The
+age group	<x_axis>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+recorded
+the
+highest	<y_axis_highest_value>
+number
+of
+minutes	<y_axis>
+at
+around	<y_axis_approx>
+150	<y_axis_highest_value_val>
+per
+day	<t=1_a=b>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+chart
+shows
+the
+least	<y_axis_least_value>
+frequent daily users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+by
+age group	<x_axis>
+.
+Groups	<x_axis>
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+were
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+at
+just	<y_axis_least_value>
+under	<y_axis_approx>
+80	<y_axis_inferred_value_add_v1=least_v2=highest>
+mins	<t=0_a=y>
+social media use	<t=1_a=b>
+per
+day	<t=1_a=b>
+.
+Group	<x_axis>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+were
+the
+most	<y_axis_highest_value>
+frequent users	<t=1_a=b>
+of
+social media daily	<t=1_a=b>
+with
+roughly	<y_axis_approx>
+150	<y_axis_highest_value_val>
+mins	<t=0_a=y>
+per
+day	<t=1_a=b>
+,
+with
+groups	<x_axis>
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+and	<order_3rd>
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+falling	<y_axis_trend_down>
+in
+the
+middle
+.
+<end_of_description>
+
+
+
+<start_of_description>
+the
+age group	<x_axis>
+that
+uses social media	<t=1_a=b>
+least	<y_axis_least_value>
+often
+is
+the
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+group	<x_axis>
+,
+followed	<order_Scnd>
+closely	<y_axis_trend>
+by
+the
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+age group	<x_axis>
+.
+the
+age group	<x_axis>
+spending
+the
+most	<y_axis_highest_value>
+time
+on
+social media	<t=1_a=b>
+is
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+The
+graph
+shows
+the
+least	<y_axis_least_value>
+frequent daily users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+.
+According
+to
+the
+graph
+,
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+I
+gather
+to
+be
+the
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+age group	<x_axis>
+at
+approx	<y_axis_approx>
+.
+70	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+spent
+on
+social media	<t=1_a=b>
+(
+graph
+is
+n't
+clear
+what
+the
+minutes	<y_axis>
+are
+)
+,
+followed	<order_Scnd>
+by
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+also
+around	<y_axis_approx>
+70	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+.
+Next	<order_Scnd>
+the
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+age group	<x_axis>
+is
+at
+approx	<y_axis_approx>
+.
+110	<y_axis_3rd_highest_val>
+minutes	<y_axis>
+,
+the
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+at
+approx	<y_axis_approx>
+.
+125	<y_axis_Scnd_highest_val>
+minutes	<y_axis>
+and	<order_3rd>
+the
+most	<y_axis_highest_value>
+frequent	<t=1_a=b>
+is
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+age group	<x_axis>
+at
+approx	<y_axis_approx>
+.
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+(
+per
+day	<t=1_a=b>
+I
+'m
+assuming
+)
+.
+<end_of_description>
+
+
+
+<start_of_description>
+Glued
+to
+Social MEdia	<t=1_a=b>
+we
+have
+the
+age	<x_axis>
+range
+of
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+,
+perhaps
+with
+time
+on
+their
+hands
+with
+kids
+flown
+the
+nest
+.
+The
+teens
+and	<order_3rd>
+earlt
+twenties
+are
+second	<order_Scnd>
+which
+is
+surprising
+as
+they
+are
+rarely
+seen
+without
+a
+phone
+in
+hand
+.
+Surprising
+to
+see
+the
+late
+fifties
+early
+60	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+'s
+use	<t=1_a=b>
+,
+operhaps
+embracinf
+new
+technology
+with
+more	<y_axis_trend_up>
+time
+,
+or
+keeoing
+up	<slope_up>
+with
+the
+grandkids
+.
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+carving
+out
+a
+carrer
+,
+no
+time
+to
+snooze
+<end_of_description>
+
+
+
+<start_of_description>
+This
+chart
+shows
+the
+percentages
+of
+the
+least	<y_axis_least_value>
+frequent daily users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+,
+measured
+in
+minutes	<y_axis>
+.
+\n\\n	<separator>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+year
+olds
+are
+the
+most	<y_axis_highest_value>
+frequent daily users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+at
+around	<y_axis_approx>
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+,
+whilst	<y_x_comparison>
+those
+between
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+are
+the
+least	<y_axis_least_value>
+frequent daily users	<t=1_a=b>
+at
+around	<y_axis_approx>
+70	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+chart
+shows
+how
+much	<y_axis_trend>
+time
+in
+minutes	<y_axis>
+different
+age groups	<x_axis>
+spend
+on
+social media	<t=1_a=b>
+.
+\n	<separator>
+It
+shows
+that
+people
+in
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+year
+age group	<x_axis>
+spend
+the
+most	<y_axis_highest_value>
+time
+on
+social media	<t=1_a=b>
+,
+with
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+,
+while	<y_x_comparison>
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+are
+those
+in
+the
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+year
+groups	<x_axis>
+,
+who
+each
+spend
+75	<y_axis_4th_highest_val>
+minutes	<y_axis>
+on
+social media	<t=1_a=b>
+.
+\n	<separator>
+Those
+in
+the
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+year
+age group	<x_axis>
+spend
+125	<y_axis_Scnd_highest_val>
+minutes	<y_axis>
+on
+social media	<t=1_a=b>
+,
+while	<y_x_comparison>
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+year
+old
+spend
+110	<y_axis_3rd_highest_val>
+minutes	<y_axis>
+on
+social media	<t=1_a=b>
+<end_of_description>
+
+
+
+<start_of_description>
+This
+chart
+shows
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+by
+age	<x_axis>
+demographic
+.
+ 
+The
+least	<y_axis_least_value>
+frequent user	<t=1_a=b>
+group	<x_axis>
+are
+aged	<x_axis>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+,
+followed	<order_Scnd>
+closely	<y_axis_trend>
+by
+the
+group aged	<x_axis>
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+and	<order_3rd>
+the
+most	<y_axis_highest_value>
+frequent user	<t=1_a=b>
+groups	<x_axis>
+according
+to
+this
+study
+are
+both
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+chart
+shows
+the
+number
+of
+minutes	<y_axis>
+that
+different
+age groups	<x_axis>
+use social media daily	<t=1_a=b>
+.
+The
+most	<y_axis_highest_value>
+frequent daily users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+are
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+age group	<x_axis>
+,
+with
+approx	<y_axis_approx>
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+.
+We
+can
+see
+form
+the
+chart
+that
+the
+next	<order_Scnd>
+most	<y_axis_highest_value>
+frequent daily users	<t=1_a=b>
+are
+the
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+year
+olds
+,
+spending
+approximately	<y_axis_approx>
+125	<y_axis_Scnd_highest_val>
+minutes	<y_axis>
+on
+social media daily	<t=1_a=b>
+.
+Next	<order_Scnd>
+are
+the
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+age group	<x_axis>
+with
+approx	<y_axis_approx>
+110	<y_axis_3rd_highest_val>
+minutes	<y_axis>
+.
+This
+is
+followed	<order_Scnd>
+by
+the
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+age group	<x_axis>
+spending
+approximately	<y_axis_approx>
+77	<y_axis_inferred_value_add_v1=least_v2=highest>
+minutes	<y_axis>
+per
+day	<t=1_a=b>
+on
+social media	<t=1_a=b>
+and	<order_3rd>
+only just	<y_axis_least_value>
+below	<y_axis_approx>
+with
+approx	<y_axis_approx>
+75	<y_axis_4th_highest_val>
+minutes	<y_axis>
+are
+the
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+age group	<x_axis>
+<end_of_description>
+
+
+
+<start_of_description>
+The
+chart
+shows
+daily social media	<t=1_a=b>
+usage
+by
+age group	<x_axis>
+.
+Social media	<t=1_a=b>
+was
+used
+most	<y_axis_highest_value>
+by
+ages	<x_axis>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+at
+around	<y_axis_approx>
+130	<y_axis_inferred_Scnd_highest_value_approx>
+minutes	<y_axis>
+,
+followed	<order_Scnd>
+by
+ages	<x_axis>
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+at
+just	<y_axis_least_value>
+above	<y_axis_trend_up>
+120	<y_axis_inferred_Scnd_highest_value_approx>
+minutes	<y_axis>
+.
+Ages	<x_axis>
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+used
+social media	<t=1_a=b>
+for
+around	<y_axis_approx>
+110	<y_axis_3rd_highest_val>
+minutes	<y_axis>
+.
+Both
+the
+age groups	<x_axis>
+of
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+used
+social media	<t=1_a=b>
+for
+around	<y_axis_approx>
+70	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+,
+with
+ages	<x_axis>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+using
+it
+slightly	<y_axis_trend>
+less	<y_axis_trend_down>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+graph
+shows
+the
+use	<t=1_a=b>
+of
+social media	<t=1_a=b>
+per
+age group	<x_axis>
+,
+from	<y_x_comparison>
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+years
+to
+64	<y_axis_inferred_least_value_approx>
+years
+.
+Social media use	<t=1_a=b>
+is
+greatest	<y_axis_highest_value>
+amongst
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+cohort
+(
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+a
+day	<t=1_a=b>
+)
+,
+followed	<order_Scnd>
+by
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+age	<x_axis>
+cohort
+(
+125	<y_axis_Scnd_highest_val>
+minutes	<y_axis>
+)
+.
+The
+groups	<x_axis>
+with
+the
+least	<y_axis_least_value>
+amount
+of
+time
+on
+social media	<t=1_a=b>
+are
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+,
+both
+of
+which
+spend
+only	<y_axis_least_value>
+75	<y_axis_4th_highest_val>
+minutes	<y_axis>
+a
+day	<t=1_a=b>
+on
+social media	<t=1_a=b>
+<end_of_description>
+
+
+
+<start_of_description>
+The
+biggest	<y_axis_highest_value>
+users	<t=1_a=b>
+of
+social media daily	<t=1_a=b>
+is
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+age group	<x_axis>
+with
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+each
+day	<t=1_a=b>
+,
+next	<order_Scnd>
+is
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+at
+124	<y_axis_inferred_Scnd_highest_value_approx>
+minutes	<y_axis>
+,
+then	<order_3rd>
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+at
+112	<y_axis_inferred_3rd_highest_value_approx>
+minutes	<y_axis>
+,
+then	<order_3rd>
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+at
+76	<y_axis_inferred_value_add_v1=least_v2=highest>
+minutes	<y_axis>
+,
+in
+last	<y_axis_least_value>
+place
+is
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+at
+72	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+chart
+shows
+the
+average	<y_axis_approx>
+daily use	<t=1_a=b>
+of
+social media	<t=1_a=b>
+among
+different
+age groups	<x_axis>
+.
+The
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+age groups	<x_axis>
+are
+tied
+as
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+with
+under	<y_axis_approx>
+80	<y_axis_inferred_value_add_v1=least_v2=highest>
+minutes	<y_axis>
+,
+followed	<order_Scnd>
+by
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+with
+110	<y_axis_3rd_highest_val>
+minutes	<y_axis>
+,
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+with
+a
+little	<y_axis_trend>
+over	<y_axis_approx>
+120	<y_axis_inferred_Scnd_highest_value_approx>
+minutes	<y_axis>
+,
+and	<order_3rd>
+finally	<order_last>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+with
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+Surprisingly
+in
+the
+chart
+the
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+are
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+recording
+75	<y_axis_4th_highest_val>
+minutes	<y_axis>
+a
+day	<t=1_a=b>
+,
+closely	<y_axis_trend>
+followed	<order_Scnd>
+by
+the
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+age group	<x_axis>
+posting
+about	<y_axis_approx>
+80	<y_axis_inferred_value_add_v1=least_v2=highest>
+minutes	<y_axis>
+with
+the
+second	<order_Scnd>
+oldest
+,
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+posting
+in
+the
+most	<y_axis_highest_value>
+minutes	<y_axis>
+at
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+the
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+,
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+age	<x_axis>
+ranges
+were
+the
+least	<y_axis_least_value>
+frequent daily users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+.
+Surprisingly
+,
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+age	<x_axis>
+range
+are
+the
+highest	<y_axis_highest_value>
+with
+around	<y_axis_approx>
+150minutes
+on
+average	<y_axis_approx>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+age group	<x_axis>
+spend
+over	<y_axis_approx>
+140	<y_axis_inferred_highest_value_approx>
+minutes	<y_axis>
+on
+social media	<t=1_a=b>
+.
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+age group	<x_axis>
+spend
+the
+least	<y_axis_least_value>
+minute	<y_axis>
+on
+social media	<t=1_a=b>
+.
+Age groups	<x_axis>
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+,
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+,
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+spend
+110	<y_axis_3rd_highest_val>
+,
+75	<y_axis_4th_highest_val>
+,
+and	<order_3rd>
+125	<y_axis_Scnd_highest_val>
+minutes	<y_axis>
+on
+social media	<t=1_a=b>
+<end_of_description>
+
+
+
+<start_of_description>
+This
+chart
+shows
+the
+least	<y_axis_least_value>
+frequent daily users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+,
+sorted
+into
+9	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+year
+age groups	<x_axis>
+and	<order_3rd>
+plotted
+by
+minutes	<y_axis>
+.
+Those
+aged	<x_axis>
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+spent
+approx	<y_axis_approx>
+.
+125	<y_axis_Scnd_highest_val>
+minutes	<y_axis>
+on
+social media	<t=1_a=b>
+per
+day	<t=1_a=b>
+;
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+approx	<y_axis_approx>
+.
+75	<y_axis_4th_highest_val>
+minutes	<y_axis>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+approx	<y_axis_approx>
+.
+70	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+.
+The
+most	<y_axis_highest_value>
+active
+age group	<x_axis>
+on
+social media	<t=1_a=b>
+per
+day	<t=1_a=b>
+is
+those
+aged	<x_axis>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+,
+spending
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+per
+day	<t=1_a=b>
+;
+and	<order_3rd>
+finally	<order_last>
+those
+aged	<x_axis>
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+spent
+approx	<y_axis_approx>
+.
+110	<y_axis_3rd_highest_val>
+minutes	<y_axis>
+per
+day	<t=1_a=b>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+graph
+shows
+different
+age groups	<x_axis>
+and	<order_3rd>
+their
+usage
+of
+social media	<t=1_a=b>
+in
+minutes	<y_axis>
+.
+The
+age group	<x_axis>
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+use social media	<t=1_a=b>
+the
+most	<y_axis_highest_value>
+from	<y_x_comparison>
+this
+graph
+,
+as
+they
+use social media	<t=1_a=b>
+for
+roughly	<y_axis_approx>
+148	<y_axis_inferred_highest_value_approx>
+minutes	<y_axis>
+a
+day	<t=1_a=b>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+The
+graph
+shows
+a
+numbers
+of
+age groups	<x_axis>
+and	<order_3rd>
+the
+amount
+of
+times
+in
+minutes	<y_axis>
+how
+infrequently
+they
+use social media	<t=1_a=b>
+.
+The
+age group	<x_axis>
+with
+the
+largest	<y_axis_highest_value>
+amount
+of
+time
+not
+using
+social media	<t=1_a=b>
+was
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+age group	<x_axis>
+at
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+closely	<y_axis_trend>
+followed	<order_Scnd>
+by
+the
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+age group	<x_axis>
+at
+125	<y_axis_Scnd_highest_val>
+minutes	<y_axis>
+.
+The
+age groups	<x_axis>
+with
+the
+least	<y_axis_least_value>
+amount
+of
+time
+before
+going
+on
+social media	<t=1_a=b>
+were
+the
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+age groups	<x_axis>
+at
+around	<y_axis_approx>
+the
+75	<y_axis_4th_highest_val>
+minute	<y_axis>
+mark
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+chart
+shows
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+by
+age group	<x_axis>
+.
+\n	<separator>
+You
+can
+see
+that
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+are
+in
+the
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+and	<order_3rd>
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+age groups	<x_axis>
+.
+The
+most	<y_axis_highest_value>
+frequent users	<t=1_a=b>
+are
+in
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+age group	<x_axis>
+and	<order_3rd>
+they
+use social media	<t=1_a=b>
+twice
+as
+much	<y_axis_trend>
+as
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+.
+The
+second	<order_Scnd>
+most	<y_axis_highest_value>
+frequent users	<t=1_a=b>
+are
+in
+the
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+age group	<x_axis>
+and	<order_3rd>
+the
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+age group	<x_axis>
+are
+in
+the
+middle
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+result
+show
+that
+the
+least	<y_axis_least_value>
+frequent daily use	<t=1_a=b>
+of
+social media	<t=1_a=b>
+is
+in
+the
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+age group	<x_axis>
+with
+75	<y_axis_4th_highest_val>
+minutes	<y_axis>
+per
+day	<t=1_a=b>
+.
+ 
+Then	<order_3rd>
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+with
+around	<y_axis_approx>
+78	<y_axis_inferred_value_add_v1=least_v2=highest>
+minutes	<y_axis>
+.
+ 
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+age	<x_axis>
+bracket
+sees
+110	<y_axis_3rd_highest_val>
+minutes	<y_axis>
+,
+then	<order_3rd>
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+age group	<x_axis>
+with
+124	<y_axis_inferred_Scnd_highest_value_approx>
+minutes	<y_axis>
+.
+ 
+The
+highest	<y_axis_highest_value>
+users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+tend
+to
+be
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+year
+group	<x_axis>
+which
+from	<y_x_comparison>
+thesee
+results
+shows
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+per
+day	<t=1_a=b>
+of
+<end_of_description>
+
+
+
+<start_of_description>
+The
+chart
+shows
+number
+of
+minutes	<y_axis>
+us
+of
+social media	<t=1_a=b>
+among
+different
+age groups	<x_axis>
+.
+The
+lowest	<y_axis_least_value>
+,
+at
+about	<y_axis_approx>
+72	<y_axis_inferred_least_value_approx>
+minutes	<y_axis>
+is
+those
+aged	<x_axis>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+.
+Next	<order_Scnd>
+is
+the
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+age group	<x_axis>
+,
+followed	<order_Scnd>
+by
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+year
+olds
+and	<order_3rd>
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+year
+-
+olds
+.
+Topping
+the
+chart
+is
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+year
+age	<x_axis>
+range
+,
+with
+about	<y_axis_approx>
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+use	<t=1_a=b>
+per
+day	<t=1_a=b>
+.
+<end_of_description>
+
+
+
+<start_of_description>
+This
+graph
+compares
+the
+least	<y_axis_least_value>
+frequent users	<t=1_a=b>
+of
+social media	<t=1_a=b>
+in
+minutes	<y_axis>
+and	<order_3rd>
+their
+respected
+age group	<x_axis>
+.
+The
+least	<y_axis_least_value>
+frequent daily users	<t=1_a=b>
+are
+in
+the
+age groups	<x_axis>
+25	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+-
+34	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+and	<order_3rd>
+35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
+-
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+,
+with
+both
+of
+their
+minutes	<y_axis>
+being
+around	<y_axis_approx>
+75	<y_axis_4th_highest_val>
+minutes	<y_axis>
+.
+This
+value
+is
+almost	<y_axis_approx>
+half
+of
+the
+social media	<t=1_a=b>
+minutes	<y_axis>
+in
+the
+45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
+-
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+age group	<x_axis>
+(
+150	<y_axis_highest_value_val>
+minutes	<y_axis>
+)
+.
+The
+age groups	<x_axis>
+for
+15	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
+-
+24	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
+and	<order_3rd>
+55	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+-
+64	<y_axis_inferred_least_value_approx>
+had
+minutes	<y_axis>
+of
+around	<y_axis_approx>
+122	<y_axis_inferred_Scnd_highest_value_approx>
+and	<order_3rd>
+110	<y_axis_3rd_highest_val>
+minutes	<y_axis>
+respectively
+.
+<end_of_description>
+
+
+
