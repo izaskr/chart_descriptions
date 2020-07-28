@@ -317,16 +317,19 @@ def in_title_labels(target, chart_text_dict):
 
 	if target_lemma in title_lemmas:
 		if target_lemma in y_lemmas and target_lemma not in x_lemmas:
-			assigned_lbl = "<t=1_a=y>"
+			assigned_lbl = "<y_axis>"
 		elif target_lemma in x_lemmas and target_lemma not in y_lemmas:
-			assigned_lbl = "<t=1_a=x>"
+			assigned_lbl = "<x_axis>"
 		else:
 			assigned_lbl = "<t=1_a=b>"
+		return assigned_lbl
 
 	elif target_lemma not in title_lemmas and target_lemma in y_lemmas:
-		assigned_lbl = "<t=0_a=y>"
+		assigned_lbl = "<y_axis>"
+		return assigned_lbl
 	elif target_lemma not in title_lemmas and target_lemma in x_lemmas:
-		assigned_lbl = "<t=0_a=x>"
+		assigned_lbl = "<x_axis>"
+		return assigned_lbl
 
 	else:
 
@@ -369,14 +372,23 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 		if len(unigram) <= 1 or label: # tokens with 1 character (punctuation, a, i) or labeled tokens
 			new_lab_sum.append((unigram, label))
 			continue
-		elif unigram[-1].lower() in {"c", "m"}: # cases: 23c, 36C, 100m
-			if unigram[:-2].isdigit():
-				uni1, uni2 = unigram[:-2], unigram[-1]
+		elif unigram[-1].lower() in {"c", "m"} and not label: # cases: 23c, 36C, 100m
+			if unigram[:-1].isdigit():
+				uni1, uni2 = unigram[:-1], unigram[-1]
 				lbl1 = find_closest(float(uni1), basic_cal_as_text, basic_cal_as_values)
 				lbl2 = "<y_axis_inferred_label>"
 				new_lab_sum += [(uni1, lbl1), (uni2, lbl2)]
 				continue
-		elif len(unigram) >= 9 and (unigram.endswith("million") or unigram.endswith("millions")):
+
+		elif unigram[-1] in {".", ",", "-"} and unigram[-2].lower() in {"c", "m"} and not label: # cases 26C.
+			if unigram[:-2].isdigit():
+				uni1, uni2 = unigram[:-2], unigram[-2]
+				lbl1 = find_closest(float(uni1), basic_cal_as_text, basic_cal_as_values)
+				lbl2 = "<y_axis_inferred_label>"
+				new_lab_sum += [(uni1, lbl1), (uni2, lbl2), (unigram[-1], None)]
+				continue
+
+		elif len(unigram) >= 9 and (unigram.endswith("million") or unigram.endswith("millions")) and not label:
 			if unigram.endswith("million") and unigram[:-len("million")].isdigit():
 				uni1, uni2 = unigram[:-len("million")], "million"
 				lbl1 = find_closest(float(uni1), basic_cal_as_text, basic_cal_as_values)
@@ -389,6 +401,7 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 				lbl2 = "<y_magnitude>"
 				new_lab_sum += [(uni1, lbl1), (uni2, lbl2)]
 				continue
+
 		if "\\n" in unigram and not label: # cases america.\\n\\nthe
 			# find indices of \\n
 			ind = [(m.start(0), m.end(0)) for m in re.finditer("\\\\n", unigram)]
@@ -396,14 +409,61 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 			if len(ind) == 0:
 				print("no matches despite separator in string?")
 			else:
+				#import pdb; pdb.set_trace()
 				s1, e1 = ind[0][0], ind[-1][-1]
-				uni1 = unigram[s1].split() # list of tokens till first separator; might be a single token
-				uni2 = unigram[e1:] # after the last separator; might be an empty list
+				uni1str = unigram[:s1-1]
+				uni1 = [t.text for t in nlp_en_core(uni1str)] # list of tokens till first separator; might be a single token
+				uni2str = unigram[e1:]
+				uni2 = [t.text for t in nlp_en_core(uni2str)] # after the last separator; might be an empty list
 				u_label = None
 				if uni1:
 					for u in uni1:
 						# check if u is in bar names, heights or anything entity-like, see below
 
+						if u in units_set:
+							u_label = "<y_axis_inferred_label>"
+							unigrams_labels.append((u, u_label))
+							continue
+
+						if u in {",", ".", "!", "?" , "(", ")", "-"}:
+							u_label = None
+							unigrams_labels.append((u, u_label))
+							continue
+
+						try:
+							float(u)
+							# closest match, append, continue
+							# numbers, target, numbers_labels
+							u_label = find_closest(float(u), basic_cal_as_text, basic_cal_as_values)
+							unigrams_labels.append((u, u_label))
+
+						except ValueError:
+							# the token is a word, not a number; check if the token matches any word in basic_cal_text
+
+							if u.lower() in basic_cal_as_text:
+								tokindex = basic_cal_as_text.index(u.lower())
+								u_label = basic_cal_as_values[tokindex]
+								unigrams_labels.append((u, u_label))
+								continue
+
+							if not u_label: # label still None, check titles and label names
+								u_label = in_title_labels(u, info_other)
+								unigrams_labels.append((u, u_label))
+								continue
+
+						if not u_label:
+							unigrams_labels.append((u, u_label))
+							continue
+
+				# append the unigrams and their labels up to the separator
+				if unigrams_labels == []:
+					print("separator as a first?", unigram)
+
+				# append the separator with label
+				unigrams_labels.append((unigram[s1:e1], "<separator>"))
+				if uni2:
+					u_label = None
+					for u in uni2:
 						if u in units_set:
 							u_label = "<y_axis_inferred_label>"
 							unigrams_labels.append((u, u_label))
@@ -423,8 +483,50 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 								tokindex = basic_cal_as_text.index(u.lower())
 								u_label = basic_cal_as_values[tokindex]
 								unigrams_labels.append((u, u_label))
-								
-							continue
+								continue
+
+							if not u_label: # label still None, check titles and label names
+								u_label = in_title_labels(u, info_other)
+								unigrams_labels.append((u, u_label))
+								continue
+						if not u_label:
+							unigrams_labels.append((u, u_label))
+
+				new_lab_sum += unigrams_labels
+				print("new labeled summary so far", new_lab_sum)
+		else: # a labeled or unlabeled token: nothing to fix
+			new_lab_sum.append((unigram, label))
+
+
+	# check for bigrams
+	# if two consecutive bigrams have the same label (except for None), join them in a bigram
+	no_unigrams = len(new_lab_sum)
+	# if they don't match, put the first one into the list
+	new_joint = []
+	cbigram = 0
+	joined = ""
+	n = len(list(zip(new_lab_sum[:-1], new_lab_sum[1:])))
+	for ((t1, l1),(t2, l2)) in zip(new_lab_sum[:-1], new_lab_sum[1:]): # iter over bigrams
+		cbigram += 1
+		if l1 and l2 and l1==l2: # neither should be None
+			print("t1 t2", t1, t2)
+			joined = t2
+			new_joint.append((t1 + " " + t2, l1))
+			print("JOINED", t1, t2, l1)
+		else: # add only the first unigram
+			if t1 == joined: # if current t1 was joined to bigram
+				continue
+			new_joint.append((t1, l1))
+			if cbigram == n: # add also the second unigram if this is the last bigram
+				new_joint.append((t2, l2))
+
+
+	print("OLD SUMMARY \t", labeled_summary, "\n")
+	print("NEW SUMMARY \t", new_lab_sum, "\n")
+	print("AFTER BIGRAM \t", new_joint, "\n"*2)
+
+
+
 
 
 def read_summaries(summary_file, info_basic, info_cal, info_other):
@@ -645,7 +747,7 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 						labeled_summary.append((tokens[j], new_lbl))
 
 			# check the parsed and labeled summary for frequent errors and fix tem
-			post_check(labeled_summary, basic_cal_text, basic_cal_values, info_other, units, magnitude)
+			new_labsum = post_check(labeled_summary, basic_cal_text, basic_cal_values, info_other, units, magnitude)
 
 			import pdb; pdb.set_trace()
 			summaries_final.append(labeled_summary)
