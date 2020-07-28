@@ -1,0 +1,18 @@
+minority.png
+title1: "Diversity in the Libyan parliament: percentage of minority representation"
+title2: "Lack of diversity in the Libyan parliament: percentage of minority representation"
+
+paygap.png
+title1: "The most equal countries given the gender pay gap"
+title2: "The least equal countries given the gender pay gap"
+
+
+department.png
+title1: "The most inclusive university departments given representation of women"
+title2: "The least inclusive university departments given representation of women"
+
+socmedia.png
+title1: "The most frequent daily users of social media"
+title2: "The least frequent daily users of social media"
+
+

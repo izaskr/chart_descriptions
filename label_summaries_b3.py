@@ -19,12 +19,14 @@ import numpy as np
 import argparse
 import sys
 from itertools import combinations
-import mord
+#import mord
 from sklearn.linear_model import LinearRegression
 import spacy
 from spacy.lang.en import English
 from spacy.tokenizer import Tokenizer
 from spacy.attrs import ORTH, NORM
+import num2word
+import re
 from nltk.tokenize import word_tokenize
 from learn_labels import get_discourse_tokens
 
@@ -43,7 +45,7 @@ if write_yn in {"y", "yes"}: write_file = True
 if write_yn not in {"y","n", "yes", "no"}: sys.exit("Use 'y' or 'n' as value for -write")
 if write_yn in {"n", "no"}: sys.exit("Parser currently supports only writing mode")
 
-version_dir = "corpora_v02/run2_chart_summaries/"
+version_dir = "/home/iza/chart_descriptions/data_batch3/"
 description_files = ["batch1/akef_inc_closing_stock_prices_1.txt",
 "batch1/average_time_spent_on_social_media_1.txt",
 "batch1/fatal_injuries_at_pula_steel_factory_1.txt",
@@ -125,10 +127,13 @@ nlp.add_pipe(sentencizer)
 tokenizer = Tokenizer(nlp.vocab)
 case_000 = [{ORTH: ",000"} ]#, {ORTH: "BB", NORM: ", 000"}]
 tokenizer.add_special_case(",000", case_000)
+case_ds = [{ORTH: "°C"}]
+tokenizer.add_special_case("°C", case_ds)
 
 
 nlp_en_core = spacy.load("en_core_web_sm")
-
+# note that all_stopwords includes also spelled numerals
+all_stopwords = nlp_en_core.Defaults.stop_words
 
 def get_info_from_map(mp_file="/home/iza/chart_descriptions/data_batch3/README.txt"):
 	# open the map file, return a list of tuples (filename, index_in_annotations_json)
@@ -137,8 +142,8 @@ def get_info_from_map(mp_file="/home/iza/chart_descriptions/data_batch3/README.t
 		for line in f:
 			if not line.startswith("#") and len(line.split()) > 1:
 				line = line.split(" : ")
-				print(line)
-				maps.append((line[0], line[1]))
+				#print(line)
+				maps.append((line[0], int(line[1])))
 	return maps
 
 
@@ -170,8 +175,8 @@ def get_x_y(filename):
 		y_major_ticks = k["general_figure_info"]["y_axis"]["major_ticks"]["values"][:-len_yt]
 		image_index = k["image_index"] # int
 
-		xy[i+1] = {"title":title, "x":x, "y":y, "type":plot_type, "x_order_info": x_order_info, "y_axis_unit_name":y_axis_unit_name, "x_axis_label_name": x_axis_label_name, "x_major_ticks":x_major_ticks,"y_major_ticks":y_major_ticks, "image_index":image_index}
-
+		# xy[i+1] before
+		xy[i] = {"title":title, "x":x, "y":y, "type":plot_type, "x_order_info": x_order_info, "y_axis_unit_name":y_axis_unit_name, "x_axis_label_name": x_axis_label_name, "x_major_ticks":x_major_ticks,"y_major_ticks":y_major_ticks, "image_index":image_index}
 
 	return xy
 
@@ -251,14 +256,20 @@ def get_stat_info(data):
 
 	#return data["title"], data["x_order_info"],differences, label_name_pairs_x,label_value_pairs_y, misc
 	#return results
-	return results_basic, results_cal
+	other_info = {"title": data["title"], "<x_axis_label_count>":label_count, "y_axis_name":data["y_axis_unit_name"], "x_axis_name": data["x_axis_label_name"]}
+	return results_basic, results_cal, other_info
 
 def discourse_labels():
 	""" dlabel_word is a dict, discourse labels as keys, vocab set as value
 	word_dlabel is a dict, word as key, dict counter of labels and their counts as value
 	"""
-	xml_file = "corpora_v02/chart_summaries_b01.xml"
-	dlabel_word, word_dlabel = get_discourse_tokens(xml_file)
+	#xml_file = "corpora_v02/chart_summaries_b01.xml"
+	#dlabel_word, word_dlabel = get_discourse_tokens(xml_file)
+
+	# b1b2 includes data from the first and second collection batch
+	xml_file_b1b2 = "corpora_v02/all_descriptions/chart_summaries_b01_toktest2.xml"
+	dlabel_word, word_dlabel = get_discourse_tokens(xml_file_b1b2)
+
 	return dlabel_word, word_dlabel
 
 
@@ -267,25 +278,156 @@ def find_closest(target, numbers, numbers_labels):
 	exact_approx = {"<y_axis_highest_value_val>":"<y_axis_inferred_highest_value_approx>", "<y_axis_Scnd_highest_val>":"<y_axis_inferred_Scnd_highest_value_approx>", "<y_axis_3rd_highest_val>":"<y_axis_inferred_3rd_highest_value_approx>", "<y_axis_4th_highest_val>":"<y_axis_inferred_4th_highest_value_approx>",
 "<y_axis_5th_highest_val>":"<y_axis_inferred_5th_highest_value_approx>", "<y_axis_least_value_val>":"<y_axis_inferred_least_value_approx>"}
 	closest, smallest_diff, ind = -1, 1000, -3
-	for x in numbers:
+	assigned_label = None
+	for k, x in enumerate(numbers):
 		try:
 			x2=float(x)
-			if abs(x2 - target) < smallest_diff:
+			if abs(x2 - target) <= smallest_diff:
 				closest, smallest_diff = x, abs(x2 - target)
-				ind = numbers.index(closest)
-				#print("\t", target, x2, smallest_diff, numbers_labels[ind], numbers)
+				assigned_label = numbers_labels[k]
+				#ind = numbers.index(closest)
+				#print("\t", target, x2, smallest_diff, numbers_labels[k]) #, numbers)
 		except ValueError:
 			continue
-	assigned_label = numbers_labels[ind]
+	#assigned_label = numbers_labels[ind]
 	#print("\t",numbers)
 	if smallest_diff == 0 or assigned_label not in exact_approx: # exact value
 		return assigned_label
 	return exact_approx[assigned_label] # not exact, return label for approximation: only for bar heights, not * +
 
 
+def in_title_labels(target, chart_text_dict):
+	""" target is a token (str), chart_text_dict is a dict: label as key, str as value """
+	# consider the labels: t=[0|1]_a=[x|y|b]
+	assigned_lbl = None
+	#import pdb; pdb.set_trace()
+	target = target.lower()
+	barcount_word = num2word.word(chart_text_dict["<x_axis_label_count>"]).lower()
+	if target == barcount_word:
+		assigned_lbl = "<x_axis_label_count>"
+		return assigned_lbl
+
+	if target in all_stopwords:
+		return assigned_lbl
+
+	target_lemma = [t.lemma_ for t in nlp_en_core(target)][0] # list of 1
+	title_lemmas = [t.lemma_ for t in nlp_en_core(chart_text_dict["title"].lower())]
+	y_lemmas = [t.lemma_ for t in nlp_en_core(chart_text_dict["y_axis_name"].lower())]
+	x_lemmas = [t.lemma_ for t in nlp_en_core(chart_text_dict["x_axis_name"].lower())]
+
+	if target_lemma in title_lemmas:
+		if target_lemma in y_lemmas and target_lemma not in x_lemmas:
+			assigned_lbl = "<t=1_a=y>"
+		elif target_lemma in x_lemmas and target_lemma not in y_lemmas:
+			assigned_lbl = "<t=1_a=x>"
+		else:
+			assigned_lbl = "<t=1_a=b>"
+
+	elif target_lemma not in title_lemmas and target_lemma in y_lemmas:
+		assigned_lbl = "<t=0_a=y>"
+	elif target_lemma not in title_lemmas and target_lemma in x_lemmas:
+		assigned_lbl = "<t=0_a=x>"
+
+	else:
+
+		# this might be because of the way lemmatization is done; some examples
+		# glacier --> lemma "glaci"; glaciers --> lemma "glaciers"
+		# America --> lemma "american"
+		if len(target) > 2:
+			crop = target[:-1]
+			#print(" \t ---", target, crop, chart_text_dict["title"].lower(), "\n")
+			if crop in chart_text_dict["title"].lower() and crop not in {chart_text_dict["y_axis_name"].lower(), chart_text_dict["x_axis_name"].lower()}:
+				assigned_lbl = "<t=1_a=b>"
+			elif crop in chart_text_dict["y_axis_name"].lower():
+				assigned_lbl = "<t=0_a=y>"
+			elif crop in chart_text_dict["x_axis_name"].lower():
+				assigned_lbl = "<t=0_a=x>"
+		else:
+			if target not in {",", ".", "!", "?" , "(", ")", "-"} and not assigned_lbl:
+				print("not in title, not a stopword, not a punct., and not labeled : ", target)
+		#import pdb; pdb.set_trace()
+	#if target in {} #
+	return assigned_lbl
+
+# TODO: some bar names tagged at first, then not anymore
+# city is a also left untagged (x axis name)
+# appears in title or not: t=0_a=x/y/b
+# "and" don't label it with range  DONE ?
+# closes value: why preferring _inferred_add/mul? DONE
 
 
-def read_summaries(summary_file, info_basic, info_cal):
+def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_other, units_set, magnitude_set):
+	"""
+	labeled summary : list of tuples (unigram, label) : label is either None or a label (str)
+	info_basic : dict : basic plot info (bars and their heights)
+	info_cal : dict : info about multiplication and addition
+	info_other : dict : info about the x and y axis labels, plot title, number of bars
+	"""
+	new_lab_sum = []
+	# first check unigrams
+	for (unigram, label) in labeled_summary:
+		if len(unigram) <= 1 or label: # tokens with 1 character (punctuation, a, i) or labeled tokens
+			new_lab_sum.append((unigram, label))
+			continue
+		elif unigram[-1].lower() in {"c", "m"}: # cases: 23c, 36C, 100m
+			if unigram[:-2].isdigit():
+				uni1, uni2 = unigram[:-2], unigram[-1]
+				lbl1 = find_closest(float(uni1), basic_cal_as_text, basic_cal_as_values)
+				lbl2 = "<y_axis_inferred_label>"
+				new_lab_sum += [(uni1, lbl1), (uni2, lbl2)]
+				continue
+		elif len(unigram) >= 9 and (unigram.endswith("million") or unigram.endswith("millions")):
+			if unigram.endswith("million") and unigram[:-len("million")].isdigit():
+				uni1, uni2 = unigram[:-len("million")], "million"
+				lbl1 = find_closest(float(uni1), basic_cal_as_text, basic_cal_as_values)
+				lbl2 = "<y_magnitude>"
+				new_lab_sum += [(uni1, lbl1), (uni2, lbl2)]
+				continue
+			if unigram.endswith("millions") and unigram[:-len("millions")].isdigit():
+				uni1, uni2 = unigram[:-len("millions")], "millions"
+				lbl1 = find_closest(float(uni1), basic_cal_as_text, basic_cal_as_values)
+				lbl2 = "<y_magnitude>"
+				new_lab_sum += [(uni1, lbl1), (uni2, lbl2)]
+				continue
+		if "\\n" in unigram and not label: # cases america.\\n\\nthe
+			# find indices of \\n
+			ind = [(m.start(0), m.end(0)) for m in re.finditer("\\\\n", unigram)]
+			unigrams_labels = []
+			if len(ind) == 0:
+				print("no matches despite separator in string?")
+			else:
+				s1, e1 = ind[0][0], ind[-1][-1]
+				uni1 = unigram[s1].split() # list of tokens till first separator; might be a single token
+				uni2 = unigram[e1:] # after the last separator; might be an empty list
+				u_label = None
+				if uni1:
+					for u in uni1:
+						# check if u is in bar names, heights or anything entity-like, see below
+
+						if u in units_set:
+							u_label = "<y_axis_inferred_label>"
+							unigrams_labels.append((u, u_label))
+							continue
+
+						try:
+							float(u)
+							# closest match, append, continue
+							# numbers, target, numbers_labels
+							u_label = find_closest(float(u), basic_cal_as_text, basic_cal_as_values)
+							unigrams_labels.append((u, u_label))
+
+						except ValueError:
+							# the token is a word, not a number; check if the token matches any word in basic_cal_text
+
+							if u.lower() in basic_cal_as_text:
+								tokindex = basic_cal_as_text.index(u.lower())
+								u_label = basic_cal_as_values[tokindex]
+								unigrams_labels.append((u, u_label))
+								
+							continue
+
+
+def read_summaries(summary_file, info_basic, info_cal, info_other):
 	"""
 	summary_file is a path to the file with summaries from a single plot, one summary per line 
 	summary_file is a txt file containing summaries belonging to one chart
@@ -294,8 +436,8 @@ def read_summaries(summary_file, info_basic, info_cal):
 	"""
 	#print(info_basic, info_cal)
 	syns = {"monday":"mon", "tuesday":"tue", "wednesday":"wed", "thursday":"thu", "friday":"fri", "genetics":"genetic", "%": "percent", "$": "dollars", "uk":"u.k.", "u.k.":"uk"}
-	units = {"%", "$", "£", "pounds", "pound", "dollar", "dollars", "percent"}
-	magnitude = {"thousand", "thousands", "k"}
+	units = {"%", "$", "£", "pounds", "pound", "sterling", "dollar", "dollars", "percent", "degrees","degree" ,"c", "°c", "°", "celsius"}
+	magnitude = {"thousand", "thousands", "k", "million", "millions", "m"}
 
 	basic_text = [str(s).lower() for s in list(info_basic.values())]
 	basic_raw = [str(s).lower() for s in list(info_basic.values())]
@@ -332,7 +474,7 @@ def read_summaries(summary_file, info_basic, info_cal):
 			linesplit = line2.split()
 			if linesplit == []:
 				continue
-			cn,cl = 0,0
+			cn, cl = 0, 0
 			#tline = word_tokenize(line)
 
 			doc = nlp_en_core(line2)
@@ -358,7 +500,7 @@ def read_summaries(summary_file, info_basic, info_cal):
 					nchunk.append((chunk.text, chunk.start, chunk.end, a_label))
 					labeled_chunk_ind = labeled_chunk_ind.union(set(np.arange(chunk.start, chunk.end)))
 					labeled_chunk_dict[tuple(np.arange(chunk.start, chunk.end))] = (chunk.text, a_label)
-			
+
 
 			labeled_token_i = set()
 			ltoken = []
@@ -366,15 +508,13 @@ def read_summaries(summary_file, info_basic, info_cal):
 			if False:
 				"nothing, fix this"
 			else:
-				for i,t in enumerate(tokens):
+				for i, t in enumerate(tokens):
 
 
 					if t in units:
 						t_label = "<y_axis_inferred_label>"
 						labeled_token_i.add(i)
-						#ltoken.append((t, i, t_label))
 						ltoken_dict[i] = (t,t_label)
-						#print("---------------------UNIT")	
 						continue
 
 					try:
@@ -382,24 +522,34 @@ def read_summaries(summary_file, info_basic, info_cal):
 						# closest match, append, continue
 						# numbers, target, numbers_labels
 
-						t_label=find_closest(float(t), basic_cal_text, basic_cal_values)
+						t_label = find_closest(float(t), basic_cal_text, basic_cal_values)
 						labeled_token_i.add(i)
 						#input("next token")
 
-						ltoken_dict[i] = (t,t_label)
+						ltoken_dict[i] = (t, t_label)
 
 					except ValueError:
+						# the token is a word, not a number; check if the token matches any word in basic_val_text
+
+						if t.lower() in basic_cal_text:
+							tokindex = basic_cal_text.index(t.lower())
+							labeled_token_i.add(i)
+							ltoken_dict[i] = (t, basic_cal_values[tokindex])
+
 						continue
 
-			
+
 			labeled_summary = [] # tuple (token/s, label)
 			checked_j = set()
 
 			for j in range(len(tokens)):
+				zz = j
+				#if zz == 90: # Lima (in a noun chunk)
+					#import pdb; pdb.set_trace()
 
 				if j in checked_j: continue
-				if j in labeled_chunk_ind:
-
+				if j in labeled_chunk_ind and j not in labeled_token_i:
+					#import pdb; pdb.set_trace()
 					match = [k for k,tup in labeled_chunk_dict.items() if k[0] == j]
 
 					for p1 in match:
@@ -460,13 +610,13 @@ def read_summaries(summary_file, info_basic, info_cal):
 
 
 					# for cases where t was split: 23,000 into 23 and ,000 - check if match
-					if t2 or"." in t: # t2 is either None or in ,000 000 ,000,000 000000
+					if t2 or "." in t: # t2 is either None or in ,000 000 ,000,000 000000
 							# or covering cases like 13.5
 						try:
 							float(t)
 							# closest match, append, continue
 							# numbers, target, numbers_labels
-							t_label=find_closest(float(t), basic_cal_text, basic_cal_values)
+							t_label = find_closest(float(t), basic_cal_text, basic_cal_values)
 							#print(t, t_label)
 
 						except ValueError:
@@ -487,12 +637,17 @@ def read_summaries(summary_file, info_basic, info_cal):
 						#print("\t ---", tokens[j], t, t_label, t2_label)
 
 					elif t_label == None:
-						labeled_summary.append((tokens[j], None))
-					#else: labeled_summary.append((tokens[j], None))
-					#continue
-			#for unit in labeled_summary:
-			#	print("\t",unit)
-			#print("eod")
+
+						# check if the token appears in the title, or the axis labels
+						# new_lbl can be either None or a label
+						new_lbl = in_title_labels(tokens[j], info_other)
+
+						labeled_summary.append((tokens[j], new_lbl))
+
+			# check the parsed and labeled summary for frequent errors and fix tem
+			post_check(labeled_summary, basic_cal_text, basic_cal_values, info_other, units, magnitude)
+
+			import pdb; pdb.set_trace()
 			summaries_final.append(labeled_summary)
 	return summaries_final
 
@@ -516,23 +671,23 @@ def get_according_fnames(dfs, splitt):
 if __name__ == "__main__":
 
 	# load the annotations.json of batch 3
-	anno_json_fpath = "/home/iza/chart_descriptions/data_batch3/annotation.json"
+	anno_json_fpath = "/home/iza/chart_descriptions/data_batch3/annotations.json"
 	with open(anno_json_fpath, "r") as jsf:
 		all_chart_data = json.load(jsf)
 
+	extracted = get_x_y(anno_json_fpath) # dict; key: index, value, dict of chart info
+	#import pdb; pdb.set_trace()
 	# tuples [(summary_file_name, json_ID) ... ]
 	maps = get_info_from_map() 
 
 
 	dlabel_word, word_dlabel = discourse_labels()
-
+	new_pn = "/home/iza/chart_descriptions/data_batch3/auto_labeled"
 	for (summary_fname, json_ID) in maps:
 		c = 0
-		new_pn =  "/home/iza/chart_descriptions/data_batch3/auto_labeled"
-
-		# all_chart_data[json_ID] to get the dict
-
-	# TODO: continue from here to adapt the code
+		current_basic, current_cal, current_other = get_stat_info(extracted[json_ID])
+		auto_labeled = read_summaries(summary_fname, current_basic, current_cal, current_other)
+		#import pdb; pdb.set_trace()
 	
 
 	for data_split,path_json in jsons.items():
