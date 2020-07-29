@@ -498,7 +498,7 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 	no_unigrams = len(new_lab_sum)
 	# if they don't match, put the first one into the list
 	new_joint = []
-	cbigram = 1
+	cbigram = 0
 	id_joined = -1
 	joined = ""
 	n = len(list(zip(new_lab_sum[:-1], new_lab_sum[1:])))
@@ -522,7 +522,7 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 
 	# check for bigrams in the newly made summary again (gender pay gap, social media use)
 	new_joint02 = []
-	cbigram = -1
+	cbigram = 0
 	joined = ""
 	id_joined = -1
 	n = len(list(zip(new_joint[:-1], new_joint[1:])))
@@ -541,7 +541,7 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 			if t1 == joined: # if current t1 was joined to bigram
 				continue
 			new_joint02.append((t1, l1))
-			if (cbigram+1) == n: # add also the second unigram if this is the last bigram
+			if cbigram == n: # add also the second unigram if this is the last bigram
 				new_joint02.append((t2, l2))
 	#import pdb; pdb.set_trace()
 	#print("OLD SUMMARY \t", labeled_summary, "\n")

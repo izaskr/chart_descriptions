@@ -69,7 +69,8 @@ highest	<y_axis_highest_value>
 ,
 at
 70	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -115,7 +116,8 @@ and	<order_3rd>
 Literature	<x_axis_label_least_value>
 with
 22	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -163,7 +165,8 @@ the
 lowest	<y_axis_least_value>
 with
 24	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -224,7 +227,8 @@ and	<order_3rd>
 Arts	<x_axis_label_4th_highest_value>
 at
 32	<y_axis_4th_highest_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -309,7 +313,8 @@ finally	<order_last>
 Engineering	<x_axis_label_highest_value>
 at
 70	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -394,7 +399,8 @@ with
 an
 impressive
 70	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -410,7 +416,8 @@ level
 of
 women representation	<t=1_a=b>
 at
-24 24	<y_axis_inferred_least_value_approx>
+24	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -465,7 +472,8 @@ in
 literature	<x_axis_label_least_value>
 at
 24	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -526,7 +534,7 @@ and	<order_3rd>
 %	<y_axis_inferred_label>
 representation	<t=1_a=b>
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -586,7 +594,7 @@ and	<order_3rd>
 22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -631,7 +639,8 @@ Maths
 and	<order_3rd>
 Engineering	<x_axis_label_highest_value>
 70	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -696,7 +705,8 @@ now
 well	<y_axis_trend_up>
 represented
 by
-women women	<t=1_a=b>
+women	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -770,7 +780,8 @@ Engineering	<x_axis_label_highest_value>
 literature	<x_axis_label_least_value>
 with
 70	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -826,7 +837,7 @@ the
 five	<x_axis_label_count>
 departments	<x_axis>
 examined
-examined
+.
 <end_of_description>
 
 
@@ -886,7 +897,7 @@ and	<order_3rd>
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -982,7 +993,8 @@ where
 22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 are
-women women	<t=1_a=b>
+women	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1046,7 +1058,8 @@ finally	<order_last>
 Engineering	<x_axis_label_highest_value>
 with
 70	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1106,7 +1119,8 @@ is
 literature	<x_axis_label_least_value>
 at
 24	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1191,7 +1205,8 @@ we
 see
 with
 Literature	<x_axis_label_least_value>
-department department	<x_axis>
+department	<x_axis>
+.
 <end_of_description>
 
 
@@ -1290,7 +1305,8 @@ a
 representation	<t=1_a=b>
 of
 32	<y_axis_4th_highest_val>
-percent percent	<y_axis_inferred_label>
+percent	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1334,7 +1350,8 @@ by
 Arts	<x_axis_label_4th_highest_value>
 at
 32	<y_axis_4th_highest_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1390,7 +1407,8 @@ and	<order_3rd>
 Arts	<x_axis_label_4th_highest_value>
 at
 32	<y_axis_4th_highest_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1470,7 +1488,8 @@ has
 the
 least	<y_axis_least_value>
 female
-representation representation	<t=1_a=b>
+representation	<t=1_a=b>
+.
 <end_of_description>
 
 

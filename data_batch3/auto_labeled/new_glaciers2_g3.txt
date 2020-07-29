@@ -45,7 +45,8 @@ is
 Tasman	<x_axis_label_least_value>
 ,
 at
-2 2	<y_axis_least_value_val>
+2	<y_axis_least_value_val>
+.
 <end_of_description>
 
 
@@ -103,7 +104,8 @@ being
 Mefonna	<x_axis_label_highest_value>
 with
 13	<y_axis_highest_value_val>
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -148,7 +150,8 @@ increase	<slope_up>
 shows
 Mefonna	<x_axis_label_highest_value>
 has
-13 13	<y_axis_highest_value_val>
+13	<y_axis_highest_value_val>
+.
 <end_of_description>
 
 
@@ -210,7 +213,8 @@ Olav	<x_axis_label_4th_highest_value>
 has
 had
 5	<y_axis_4th_highest_val>
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -287,7 +291,7 @@ about	<y_axis_approx>
 why
 are
 presented
-presented
+.
 <end_of_description>
 
 
@@ -360,7 +364,7 @@ expeditions	<y_axis>
 to
 explore	<t=1_a=b>
 it
-it
+.
 <end_of_description>
 
 
@@ -380,7 +384,8 @@ glaciers	<t=1_a=b>
 with
 only	<y_axis_least_value>
 2	<y_axis_least_value_val>
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -450,7 +455,8 @@ number	<y_axis>
 halved
 to
 2	<y_axis_least_value_val>
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -512,7 +518,7 @@ and	<order_3rd>
 13	<y_axis_highest_value_val>
 expeditions	<y_axis>
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -576,7 +582,8 @@ a
 clear
 leader
 at
-13 13	<y_axis_highest_value_val>
+13	<y_axis_highest_value_val>
+expeditions	<y_axis>
 <end_of_description>
 
 
@@ -679,7 +686,8 @@ Mefonna	<x_axis_label_highest_value>
 and	<order_3rd>
 Akkem	<x_axis_label_Scnd_highest_value>
 receiving
-more more	<y_axis_trend_up>
+more	<y_axis_trend_up>
+.
 <end_of_description>
 
 
@@ -739,7 +747,8 @@ is
 Mefonna	<x_axis_label_highest_value>
 with
 13	<y_axis_highest_value_val>
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -805,7 +814,8 @@ of
 expeditions	<y_axis>
 at
 13	<y_axis_highest_value_val>
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -843,7 +853,7 @@ expeditions	<y_axis>
 and	<order_3rd>
 Mefonna	<x_axis_label_highest_value>
 thirteen
-thirteen
+.
 <end_of_description>
 
 
@@ -903,7 +913,8 @@ nine
 and	<order_3rd>
 Mefonna	<x_axis_label_highest_value>
 with
-13 13	<y_axis_highest_value_val>
+13	<y_axis_highest_value_val>
+.
 <end_of_description>
 
 
@@ -979,7 +990,8 @@ with
 and	<order_3rd>
 Akkem	<x_axis_label_Scnd_highest_value>
 with
-9 9	<y_axis_Scnd_highest_val>
+9	<y_axis_Scnd_highest_val>
+.
 <end_of_description>
 
 
@@ -1048,7 +1060,8 @@ last	<y_axis_least_value>
 is
 Tasman	<x_axis_label_least_value>
 at
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -1116,7 +1129,7 @@ with
 13	<y_axis_highest_value_val>
 expeditions	<y_axis>
 made
-made
+.
 <end_of_description>
 
 
@@ -1180,7 +1193,8 @@ a
 total
 of
 13	<y_axis_highest_value_val>
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -1242,7 +1256,8 @@ and then	<order_3rd>
 Akkem	<x_axis_label_Scnd_highest_value>
 with
 9	<y_axis_Scnd_highest_val>
-expeditions expeditions	<y_axis>
+expeditions	<y_axis>
+.
 <end_of_description>
 
 
@@ -1304,7 +1319,7 @@ and	<order_3rd>
 4	<y_axis_5th_highest_val>
 expeditions	<y_axis>
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -1406,7 +1421,7 @@ Mefonna	<x_axis_label_highest_value>
 13	<y_axis_highest_value_val>
 expeditions	<y_axis>
 )
-)
+.
 <end_of_description>
 
 

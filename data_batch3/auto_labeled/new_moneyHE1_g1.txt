@@ -48,7 +48,8 @@ the
 most	<y_axis_highest_value>
 :
 320	<y_axis_highest_value_val>
-million million	<y_magnitude>
+million	<y_magnitude>
+.
 <end_of_description>
 
 
@@ -123,7 +124,8 @@ spends	<t=1_a=b>
 at
 £	<y_axis_inferred_label>
 200	<y_axis_Scnd_highest_val>
-million million	<y_magnitude>
+million	<y_magnitude>
+.
 <end_of_description>
 
 
@@ -192,7 +194,8 @@ Asia	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
 350	<y_axis_inferred_highest_value_approx>
-million million	<y_magnitude>
+million	<y_magnitude>
+.
 <end_of_description>
 
 
@@ -257,7 +260,7 @@ the
 same
 time
 period
-period
+.
 <end_of_description>
 
 
@@ -316,7 +319,8 @@ in
 terms
 of
 highest	<y_axis_highest_value>
-spend spend	<t=1_a=b>
+spend	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -408,7 +412,7 @@ m	<y_magnitude>
 in
 that
 order
-order
+.
 <end_of_description>
 
 
@@ -492,7 +496,7 @@ totalling
 150	<y_axis_inferred_value_add_v1=least_v2=Scnd>
 million	<y_magnitude>
 )
-)
+.
 <end_of_description>
 
 
@@ -578,7 +582,7 @@ higher	<y_axis_trend_up>
 education	<t=1_a=b>
 in
 2010
-2010
+.
 <end_of_description>
 
 
@@ -694,7 +698,7 @@ leaset
 million	<y_magnitude>
 pounds	<y_axis_inferred_label>
 )
-)
+.
 <end_of_description>
 
 
@@ -752,7 +756,8 @@ Africa	<x_axis_label_least_value>
 with
 £	<y_axis_inferred_label>
 50	<y_axis_least_value_val>
-million million	<y_magnitude>
+million	<y_magnitude>
+.
 <end_of_description>
 
 
@@ -811,7 +816,8 @@ who
 spend	<t=1_a=b>
 50	<y_axis_least_value_val>
 million	<y_magnitude>
-pounds pounds	<y_axis_inferred_label>
+pounds	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -880,7 +886,8 @@ bottom
 at
 £	<y_axis_inferred_label>
 50	<y_axis_least_value_val>
-million million	<y_magnitude>
+million	<y_magnitude>
+.
 <end_of_description>
 
 
@@ -959,7 +966,7 @@ the
 Artic
 and	<order_3rd>
 Antarctica
-Antarctica
+.
 <end_of_description>
 
 
@@ -1009,7 +1016,8 @@ pushing
 of
 Asia	<x_axis_label_highest_value>
 's
-spend spend	<t=1_a=b>
+spend	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1062,7 +1070,7 @@ a
 much	<y_axis_trend>
 lower	<y_axis_trend_down>
 amount
-amount
+.
 <end_of_description>
 
 
@@ -1132,7 +1140,8 @@ next	<order_Scnd>
 higest
 amount
 was
-spent spent	<t=1_a=b>
+spent	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1209,7 +1218,8 @@ between
 each
 of
 the
-continents continents	<x_axis>
+continents	<x_axis>
+.
 <end_of_description>
 
 
@@ -1269,7 +1279,8 @@ most	<y_axis_highest_value>
 exceeding
 300	<y_axis_inferred_highest_value_approx>
 million	<y_magnitude>
-pounds pounds	<y_axis_inferred_label>
+pounds	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1333,7 +1344,8 @@ Africa	<x_axis_label_least_value>
 at
 50	<y_axis_least_value_val>
 million	<y_magnitude>
-pound pound	<y_axis_inferred_label>
+pound	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1382,7 +1394,7 @@ show
 by
 this
 data
-data
+.
 <end_of_description>
 
 
@@ -1450,7 +1462,7 @@ money spent	<t=1_a=b>
 per
 million	<y_magnitude>
 people
-people
+.
 <end_of_description>
 
 
@@ -1490,7 +1502,7 @@ million	<y_magnitude>
 ,
 being
 the
-the
+most	<y_axis_highest_value>
 <end_of_description>
 
 
@@ -1550,7 +1562,8 @@ africa	<x_axis_label_least_value>
 at
 £	<y_axis_inferred_label>
 50	<y_axis_least_value_val>
-m m	<y_magnitude>
+m	<y_magnitude>
+.
 <end_of_description>
 
 

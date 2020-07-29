@@ -45,7 +45,7 @@ Konica	<x_axis_label_least_value>
 £	<y_axis_inferred_label>
 52	<y_axis_inferred_least_value_approx>
 )
-)
+.
 <end_of_description>
 
 
@@ -121,7 +121,8 @@ only	<y_axis_least_value>
 which
 is
 fairly	<y_axis_trend>
-low low	<y_axis_least_value>
+low	<y_axis_least_value>
+.
 <end_of_description>
 
 
@@ -191,7 +192,7 @@ and	<order_3rd>
 54	<y_axis_inferred_least_value_approx>
 ,
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -264,7 +265,8 @@ around	<y_axis_approx>
 £	<y_axis_inferred_label>
 76	<y_axis_inferred_highest_value_approx>
 on
-average average	<y_axis_approx>
+average	<y_axis_approx>
+.
 <end_of_description>
 
 
@@ -329,7 +331,7 @@ these
 two
 price	<y_axis>
 ranges
-ranges
+.
 <end_of_description>
 
 
@@ -390,7 +392,8 @@ Sigma	<x_axis_label_3rd_highest_value>
 ,
 at
 £	<y_axis_inferred_label>
-62 62	<y_axis_inferred_3rd_highest_value_approx>
+62	<y_axis_inferred_3rd_highest_value_approx>
+.
 <end_of_description>
 
 
@@ -446,7 +449,7 @@ at
 75	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 )
-)
+.
 <end_of_description>
 
 
@@ -518,7 +521,8 @@ least	<y_axis_least_value>
 expensive	<t=1_a=b>
 at
 £	<y_axis_inferred_label>
-54 54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
 
 
@@ -575,7 +579,7 @@ Konica	<x_axis_label_least_value>
 55	<y_axis_inferred_least_value_approx>
 pounds	<y_axis_inferred_label>
 )
-)
+.
 <end_of_description>
 
 
@@ -644,7 +648,8 @@ price	<y_axis>
 were
 the
 least	<y_axis_least_value>
-expensive expensive	<t=1_a=b>
+expensive	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -697,7 +702,7 @@ somewhere
 between
 these
 values
-values
+.
 <end_of_description>
 
 
@@ -771,7 +776,7 @@ at
 £	<y_axis_inferred_label>
 76	<y_axis_inferred_highest_value_approx>
 .
-.
+,
 <end_of_description>
 
 
@@ -842,7 +847,8 @@ was
 Cambo	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
-75 75	<y_axis_inferred_highest_value_approx>
+75	<y_axis_inferred_highest_value_approx>
+.
 <end_of_description>
 
 
@@ -883,7 +889,8 @@ The
 differential
 is
 relatively
-small small	<y_axis_trend>
+small	<y_axis_trend>
+.
 <end_of_description>
 
 
@@ -928,7 +935,8 @@ have
 the
 lowest	<y_axis_least_value>
 average	<y_axis_approx>
-prices prices	<y_axis>
+prices	<y_axis>
+.
 <end_of_description>
 
 
@@ -1007,7 +1015,7 @@ expensive	<t=1_a=b>
 than	<y_x_comparison>
 the
 cheapest
-cheapest
+.
 <end_of_description>
 
 
@@ -1082,7 +1090,8 @@ the
 lowest	<y_axis_least_value>
 average	<y_axis_approx>
 at
-£ £	<y_axis_inferred_label>
+£	<y_axis_inferred_label>
+52	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 
@@ -1140,7 +1149,8 @@ average	<y_axis_approx>
 price	<y_axis>
 of
 £	<y_axis_inferred_label>
-76 76	<y_axis_inferred_highest_value_approx>
+76	<y_axis_inferred_highest_value_approx>
+.
 <end_of_description>
 
 
@@ -1215,7 +1225,8 @@ priced	<y_axis>
 at
 roughly	<y_axis_approx>
 £	<y_axis_inferred_label>
-74.00 74.00	<y_axis_inferred_highest_value_approx>
+74.00	<y_axis_inferred_highest_value_approx>
+.
 <end_of_description>
 
 
@@ -1261,7 +1272,8 @@ at
 just	<y_axis_least_value>
 over	<y_axis_approx>
 £	<y_axis_inferred_label>
-50 50	<y_axis_inferred_least_value_approx>
+50	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
 
 
@@ -1301,7 +1313,8 @@ average	<y_axis_approx>
 price	<y_axis>
 at
 £	<y_axis_inferred_label>
-54 54	<y_axis_inferred_least_value_approx>
+54	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
 
 
@@ -1342,7 +1355,8 @@ around	<y_axis_approx>
 £	<y_axis_inferred_label>
 52	<y_axis_inferred_least_value_approx>
 on
-average average	<y_axis_approx>
+average	<y_axis_approx>
+.
 <end_of_description>
 
 
@@ -1398,7 +1412,8 @@ Sigma	<x_axis_label_3rd_highest_value>
 and	<order_3rd>
 Hunten	<x_axis_label_4th_highest_value>
 £	<y_axis_inferred_label>
-58 58	<y_axis_inferred_4th_highest_value_approx>
+58	<y_axis_inferred_4th_highest_value_approx>
+.
 <end_of_description>
 
 

@@ -131,7 +131,8 @@ at
 around	<y_axis_approx>
 150	<y_axis_highest_value_val>
 per
-day day	<t=1_a=b>
+day	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -199,7 +200,7 @@ falling	<y_axis_trend_down>
 in
 the
 middle
-middle
+.
 <end_of_description>
 
 
@@ -239,7 +240,8 @@ is
 the
 45	<y_axis_inferred_value_add_v1=4th_v2=Scnd>
 -
-54 54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+.
 <end_of_description>
 
 
@@ -346,7 +348,7 @@ I
 'm
 assuming
 )
-)
+.
 <end_of_description>
 
 
@@ -435,7 +437,7 @@ carrer
 no
 time
 to
-to
+snooze
 <end_of_description>
 
 
@@ -487,7 +489,8 @@ frequent daily users	<t=1_a=b>
 at
 around	<y_axis_approx>
 70	<y_axis_inferred_least_value_approx>
-minutes minutes	<y_axis>
+minutes	<y_axis>
+.
 <end_of_description>
 
 
@@ -637,7 +640,8 @@ both
 and	<order_3rd>
 35	<y_axis_inferred_value_add_v1=4th_v2=3rd>
 -
-44 44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
+.
 <end_of_description>
 
 
@@ -816,7 +820,8 @@ ages	<x_axis>
 using
 it
 slightly	<y_axis_trend>
-less less	<y_axis_trend_down>
+less	<y_axis_trend_down>
+.
 <end_of_description>
 
 
@@ -953,7 +958,8 @@ is
 44	<y_axis_inferred_value_add_v1=3rd_v2=highest>
 at
 72	<y_axis_inferred_least_value_approx>
-minutes minutes	<y_axis>
+minutes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1017,7 +1023,8 @@ finally	<order_last>
 54	<y_axis_inferred_value_add_v1=least_v2=Scnd>
 with
 150	<y_axis_highest_value_val>
-minutes minutes	<y_axis>
+minutes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1072,7 +1079,8 @@ most	<y_axis_highest_value>
 minutes	<y_axis>
 at
 150	<y_axis_highest_value_val>
-minutes minutes	<y_axis>
+minutes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1112,7 +1120,8 @@ with
 around	<y_axis_approx>
 150minutes
 on
-average average	<y_axis_approx>
+average	<y_axis_approx>
+.
 <end_of_description>
 
 
@@ -1161,7 +1170,7 @@ and	<order_3rd>
 125	<y_axis_Scnd_highest_val>
 minutes	<y_axis>
 on
-social social media	<t=1_a=b>
+social media	<t=1_a=b>
 <end_of_description>
 
 
@@ -1251,7 +1260,8 @@ approx	<y_axis_approx>
 110	<y_axis_3rd_highest_val>
 minutes	<y_axis>
 per
-day day	<t=1_a=b>
+day	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1290,7 +1300,8 @@ roughly	<y_axis_approx>
 148	<y_axis_inferred_highest_value_approx>
 minutes	<y_axis>
 a
-day day	<t=1_a=b>
+day	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1375,7 +1386,7 @@ the
 75	<y_axis_4th_highest_val>
 minute	<y_axis>
 mark
-mark
+.
 <end_of_description>
 
 
@@ -1454,7 +1465,7 @@ are
 in
 the
 middle
-middle
+.
 <end_of_description>
 
 
@@ -1536,7 +1547,8 @@ minutes	<y_axis>
 per
 day	<t=1_a=b>
 of
-use use	<t=1_a=b>
+use	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1610,7 +1622,8 @@ about	<y_axis_approx>
 minutes	<y_axis>
 use	<t=1_a=b>
 per
-day day	<t=1_a=b>
+day	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1695,7 +1708,7 @@ and	<order_3rd>
 110	<y_axis_3rd_highest_val>
 minutes	<y_axis>
 respectively
-respectively
+.
 <end_of_description>
 
 

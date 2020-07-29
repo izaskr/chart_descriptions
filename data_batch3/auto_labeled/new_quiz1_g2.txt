@@ -135,7 +135,8 @@ between
 4	<y_axis_4th_highest_val>
 and	<order_3rd>
 6	<y_axis_Scnd_highest_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -227,7 +228,7 @@ and	<order_3rd>
 6	<y_axis_Scnd_highest_val>
 mistakes	<y_axis>
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -269,7 +270,8 @@ were
 DIY	<x_axis_label_4th_highest_value>
 ,
 smart kids	<x_axis_label_Scnd_highest_value>
-and and	<order_3rd>
+and	<order_3rd>
+ABC	<x_axis_label_3rd_highest_value>
 <end_of_description>
 
 
@@ -370,7 +372,8 @@ a
 total
 of
 9	<y_axis_highest_value_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -431,7 +434,8 @@ it
 as
 they
 were
-last last	<y_axis_least_value>
+last	<y_axis_least_value>
+)
 <end_of_description>
 
 
@@ -474,7 +478,8 @@ teams	<x_axis>
 were
 Cats	<x_axis_label_5th_highest_value>
 and	<order_3rd>
-Fearless Fearless	<x_axis_label_least_value>
+Fearless	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -534,7 +539,8 @@ Fearless	<x_axis_label_least_value>
 with
 just	<y_axis_least_value>
 1	<y_axis_least_value_val>
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -562,7 +568,8 @@ at
 the
 bottom
 with
-9 9	<y_axis_highest_value_val>
+9	<y_axis_highest_value_val>
+mistakes	<y_axis>
 <end_of_description>
 
 
@@ -618,7 +625,8 @@ with
 1	<y_axis_least_value_val>
 mistake	<y_axis>
 was
-fearless fearless	<x_axis_label_least_value>
+fearless	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -680,7 +688,8 @@ competition	<t=1_a=b>
 with
 only	<y_axis_least_value>
 1	<y_axis_least_value_val>
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -737,7 +746,8 @@ quiz	<t=1_a=b>
 with
 only	<y_axis_least_value>
 1	<y_axis_least_value_val>
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -785,7 +795,8 @@ place
 was
 Lovely	<x_axis_label_highest_value>
 with
-9 9	<y_axis_highest_value_val>
+9	<y_axis_highest_value_val>
+mistakes	<y_axis>
 <end_of_description>
 
 
@@ -840,7 +851,8 @@ and	<order_3rd>
 finally	<order_last>
 Lovely	<x_axis_label_highest_value>
 with
-9 9	<y_axis_highest_value_val>
+9	<y_axis_highest_value_val>
+.
 <end_of_description>
 
 
@@ -883,7 +895,7 @@ for
 the
 groups
 altogether
-altogether
+.
 <end_of_description>
 
 
@@ -918,7 +930,7 @@ were
 in
 last	<y_axis_least_value>
 place
-place
+.
 <end_of_description>
 
 
@@ -974,7 +986,8 @@ have
 6	<y_axis_Scnd_highest_val>
 number	<y_axis>
 of
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+respectively
 <end_of_description>
 
 
@@ -1044,7 +1057,8 @@ Team	<x_axis>
 Cats	<x_axis_label_5th_highest_value>
 with
 3	<y_axis_5th_highest_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1090,7 +1104,8 @@ mistakes	<y_axis>
 with
 only	<y_axis_least_value>
 one
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -1134,7 +1149,7 @@ made
 mistakes	<y_axis>
 in
 total
-total
+.
 <end_of_description>
 
 
@@ -1199,7 +1214,8 @@ is
 Lovely	<x_axis_label_highest_value>
 with
 9	<y_axis_highest_value_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1266,7 +1282,8 @@ was
 who
 made
 9	<y_axis_highest_value_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1329,7 +1346,8 @@ and	<order_3rd>
 Smart kids	<x_axis_label_Scnd_highest_value>
 on
 6	<y_axis_Scnd_highest_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1418,7 +1436,8 @@ most	<y_axis_highest_value>
 successful	<t=1_a=b>
 teams	<x_axis>
 is
-4.33 4.33	<y_axis_inferred_4th_highest_value_approx>
+4.33	<y_axis_inferred_4th_highest_value_approx>
+.
 <end_of_description>
 
 

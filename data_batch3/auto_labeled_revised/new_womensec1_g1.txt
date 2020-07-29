@@ -36,7 +36,8 @@ and	<order_3rd>
 64	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 in
-insurance insurance	<x_axis_label_highest_value>
+insurance	<x_axis_label_highest_value>
+.
 <end_of_description>
 
 
@@ -126,7 +127,7 @@ of
 staff
 being
 female
-female
+.
 <end_of_description>
 
 
@@ -191,7 +192,7 @@ chart
 is
 incorrectly
 titled
-titled
+.
 <end_of_description>
 
 
@@ -241,7 +242,8 @@ with
 and	<order_3rd>
 Insurance	<x_axis_label_highest_value>
 64	<y_axis_inferred_highest_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -290,7 +292,7 @@ at
 35	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 )
-)
+.
 <end_of_description>
 
 
@@ -370,7 +372,7 @@ finance
 in
 that
 order
-order
+.
 <end_of_description>
 
 
@@ -444,7 +446,8 @@ figure
 of
 only	<y_axis_least_value>
 35	<y_axis_least_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -521,7 +524,8 @@ women	<t=1_a=b>
 with
 just	<y_axis_least_value>
 35	<y_axis_least_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -584,7 +588,7 @@ representation	<t=1_a=b>
 35	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 )
-)
+.
 <end_of_description>
 
 
@@ -627,7 +631,8 @@ represent	<t=1_a=b>
 age	<t=0_a=y>
 at
 35	<y_axis_least_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -675,7 +680,8 @@ between
 50	<y_axis_3rd_highest_val>
 and	<order_3rd>
 65	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -755,7 +761,8 @@ difference
 between
 the
 4	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
-sectors sectors	<x_axis>
+sectors	<x_axis>
+.
 <end_of_description>
 
 
@@ -793,7 +800,8 @@ and	<order_3rd>
 50	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 in
-financial groups financial groups	<x_axis_label_3rd_highest_value>
+financial groups	<x_axis_label_3rd_highest_value>
+.
 <end_of_description>
 
 
@@ -903,7 +911,8 @@ is
 only	<y_axis_least_value>
 around	<y_axis_approx>
 35	<y_axis_least_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -958,7 +967,8 @@ highest	<y_axis_highest_value>
 proportion
 at
 66	<y_axis_inferred_highest_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1005,7 +1015,8 @@ with
 Law	<t=1_a=b>
 trailing
 at
-35 35	<y_axis_least_value_val>
+35	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1061,7 +1072,8 @@ of
 women	<t=1_a=b>
 at
 65	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1122,7 +1134,8 @@ law firms	<x_axis_label_least_value>
 at
 approximately	<y_axis_approx>
 65	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1151,7 +1164,8 @@ only	<y_axis_least_value>
 of
 employees
 being
-women women	<t=1_a=b>
+women	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1218,7 +1232,8 @@ it
 is
 percentage	<y_axis>
 of
-women women	<t=1_a=b>
+women	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1256,7 +1271,8 @@ farther
 behind	<y_axis_trend_down>
 around	<y_axis_approx>
 35	<y_axis_least_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1290,7 +1306,8 @@ financial groups	<x_axis_label_3rd_highest_value>
 ,
 tech	<x_axis_label_Scnd_highest_value>
 and	<order_3rd>
-insurance insurance	<x_axis_label_highest_value>
+insurance	<x_axis_label_highest_value>
+.
 <end_of_description>
 
 

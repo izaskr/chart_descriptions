@@ -66,7 +66,7 @@ title
 of
 the
 chart
-chart
+.
 <end_of_description>
 
 
@@ -126,7 +126,7 @@ Thursday	<x_axis_label_4th_highest_value>
 and	<order_3rd>
 Friday	<x_axis_label_least_value>
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -182,7 +182,8 @@ week	<x_axis>
 on
 friday	<x_axis_label_least_value>
 with
-£ £	<y_axis_inferred_label>
+£	<y_axis_inferred_label>
+9	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 
@@ -227,7 +228,8 @@ friday
 approx	<y_axis_approx>
 .
 £	<y_axis_inferred_label>
-10 10	<y_axis_inferred_least_value_approx>
+10	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
 
 
@@ -258,7 +260,7 @@ close	<y_axis_trend>
 of
 play
 on
-on
+FRiday	<x_axis_label_least_value>
 <end_of_description>
 
 
@@ -294,7 +296,8 @@ closing	<t=1_a=b>
 stock price	<y_axis>
 during
 this
-week week	<x_axis>
+week	<x_axis>
+.
 <end_of_description>
 
 
@@ -353,7 +356,8 @@ lowest	<y_axis_least_value>
 price	<y_axis>
 of
 the
-week week	<x_axis>
+week	<x_axis>
+,
 <end_of_description>
 
 
@@ -381,7 +385,8 @@ the
 lowest	<y_axis_least_value>
 stock price	<y_axis>
 was
-Friday Friday	<x_axis_label_least_value>
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -407,7 +412,8 @@ that
 this
 was
 75	<y_axis_inferred_highest_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -478,7 +484,8 @@ under	<y_axis_approx>
 £	<y_axis_inferred_label>
 10	<y_axis_inferred_least_value_approx>
 on
-Friday Friday	<x_axis_label_least_value>
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -530,7 +537,7 @@ again
 on
 Friday	<x_axis_label_least_value>
 to
-to
+9£.
 <end_of_description>
 
 
@@ -575,7 +582,8 @@ at
 £	<y_axis_inferred_label>
 9	<y_axis_inferred_least_value_approx>
 on
-friday friday	<x_axis_label_least_value>
+friday	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -632,7 +640,8 @@ under	<y_axis_approx>
 £	<y_axis_inferred_label>
 10	<y_axis_inferred_least_value_approx>
 on
-Friday Friday	<x_axis_label_least_value>
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -670,7 +679,8 @@ to
 just	<y_axis_least_value>
 under	<y_axis_approx>
 £	<y_axis_inferred_label>
-10 10	<y_axis_inferred_least_value_approx>
+10	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
 
 
@@ -687,7 +697,8 @@ Wednesday	<x_axis_label_highest_value>
 ,
 a
 weekly
-high high	<y_axis_highest_value>
+high	<y_axis_highest_value>
+.
 <end_of_description>
 
 
@@ -723,7 +734,7 @@ the
 highest	<y_axis_highest_value>
 for
 the
-the
+week	<x_axis>
 <end_of_description>
 
 
@@ -792,7 +803,8 @@ and	<order_3rd>
 £	<y_axis_inferred_label>
 9	<y_axis_inferred_least_value_approx>
 on
-Friday Friday	<x_axis_label_least_value>
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -872,7 +884,7 @@ and	<order_3rd>
 £	<y_axis_inferred_label>
 62	<y_axis_Scnd_highest_val>
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -935,7 +947,8 @@ closed	<y_axis>
 the
 week	<x_axis>
 on
-8 8	<y_axis_inferred_value_mul_v1=highest_v2=least>
+8	<y_axis_inferred_value_mul_v1=highest_v2=least>
+.
 <end_of_description>
 
 
@@ -992,7 +1005,8 @@ of
 £	<y_axis_inferred_label>
 9	<y_axis_inferred_least_value_approx>
 on
-Friday Friday	<x_axis_label_least_value>
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -1020,7 +1034,8 @@ was
 Friday
 at
 £	<y_axis_inferred_label>
-9 9	<y_axis_inferred_least_value_approx>
+9	<y_axis_inferred_least_value_approx>
+.
 <end_of_description>
 
 
@@ -1074,7 +1089,8 @@ and	<order_3rd>
 £	<y_axis_inferred_label>
 9	<y_axis_inferred_least_value_approx>
 on
-Friday Friday	<x_axis_label_least_value>
+Friday	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -1164,7 +1180,7 @@ to
 62	<y_axis_Scnd_highest_val>
 pounds	<y_axis_inferred_label>
 )
-)
+.
 <end_of_description>
 
 

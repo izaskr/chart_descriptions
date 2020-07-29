@@ -52,7 +52,7 @@ Fearless	<x_axis_label_least_value>
 (
 1	<y_axis_least_value_val>
 )
-)
+.
 <end_of_description>
 
 
@@ -115,7 +115,8 @@ in
 place
 with
 4	<y_axis_4th_highest_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -185,7 +186,8 @@ Fearless	<x_axis_label_least_value>
 were
 the
 winning
-team team	<x_axis>
+team	<x_axis>
+.
 <end_of_description>
 
 
@@ -269,7 +271,8 @@ number	<y_axis>
 of
 mistakes	<y_axis>
 with
-1 1	<y_axis_least_value_val>
+1	<y_axis_least_value_val>
+.
 <end_of_description>
 
 
@@ -317,7 +320,8 @@ successful	<t=1_a=b>
 with
 around	<y_axis_approx>
 1	<y_axis_least_value_val>
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -383,7 +387,8 @@ was
 ,
 made
 by
-ABC ABC	<x_axis_label_3rd_highest_value>
+ABC	<x_axis_label_3rd_highest_value>
+.
 <end_of_description>
 
 
@@ -462,7 +467,8 @@ little	<y_axis_trend>
 ,
 with
 9	<y_axis_highest_value_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -561,7 +567,8 @@ team	<x_axis>
 with
 just	<y_axis_least_value>
 1	<y_axis_least_value_val>
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -625,7 +632,8 @@ measured
 by
 number	<y_axis>
 of
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -688,7 +696,8 @@ fearless	<x_axis_label_least_value>
 with
 only	<y_axis_least_value>
 1	<y_axis_least_value_val>
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -746,7 +755,7 @@ middle
 of
 those
 percentages
-percentages
+.
 <end_of_description>
 
 
@@ -814,7 +823,8 @@ to
 the
 next	<order_Scnd>
 worst	<y_axis_least_value>
-team team	<x_axis>
+team	<x_axis>
+.
 <end_of_description>
 
 
@@ -890,7 +900,8 @@ the
 most	<y_axis_highest_value>
 mistakes	<y_axis>
 at
-9 9	<y_axis_highest_value_val>
+9	<y_axis_highest_value_val>
+.
 <end_of_description>
 
 
@@ -951,7 +962,8 @@ range
 3	<y_axis_5th_highest_val>
 -
 6	<y_axis_Scnd_highest_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1018,7 +1030,8 @@ Fearless	<x_axis_label_least_value>
 only	<y_axis_least_value>
 has
 1	<y_axis_least_value_val>
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -1117,7 +1130,8 @@ made
 fewer	<y_axis_trend_down>
 than	<y_x_comparison>
 5	<y_axis_3rd_highest_val>
-mistakes mistakes	<y_axis>
+mistakes	<y_axis>
+.
 <end_of_description>
 
 
@@ -1174,7 +1188,8 @@ one
 mistake	<y_axis>
 made
 by
-Fearless Fearless	<x_axis_label_least_value>
+Fearless	<x_axis_label_least_value>
+.
 <end_of_description>
 
 
@@ -1217,7 +1232,8 @@ made
 the
 most	<y_axis_highest_value>
 -
-9 9	<y_axis_highest_value_val>
+9	<y_axis_highest_value_val>
+.
 <end_of_description>
 
 
@@ -1280,7 +1296,8 @@ at
 and	<order_3rd>
 DIY	<x_axis_label_4th_highest_value>
 at
-4 4	<y_axis_4th_highest_val>
+4	<y_axis_4th_highest_val>
+.
 <end_of_description>
 
 
@@ -1342,7 +1359,8 @@ most	<y_axis_highest_value>
 successful	<t=1_a=b>
 in
 this
-competition competition	<t=1_a=b>
+competition	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1380,7 +1398,8 @@ winners
 with
 only	<y_axis_least_value>
 one
-mistake mistake	<y_axis>
+mistake	<y_axis>
+.
 <end_of_description>
 
 
@@ -1410,7 +1429,8 @@ whilst	<y_x_comparison>
 fearless	<x_axis_label_least_value>
 only	<y_axis_least_value>
 made
-3 3	<y_axis_5th_highest_val>
+3	<y_axis_5th_highest_val>
+.
 <end_of_description>
 
 
@@ -1452,7 +1472,8 @@ making
 them
 the
 most	<y_axis_highest_value>
-successful successful	<t=1_a=b>
+successful	<t=1_a=b>
+.
 <end_of_description>
 
 

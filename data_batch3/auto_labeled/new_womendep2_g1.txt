@@ -44,7 +44,7 @@ and	<order_3rd>
 %	<y_axis_inferred_label>
 in
 maths
-maths
+.
 <end_of_description>
 
 
@@ -113,7 +113,7 @@ just	<y_axis_least_value>
 %	<y_axis_inferred_label>
 of
 females
-females
+.
 <end_of_description>
 
 
@@ -183,7 +183,8 @@ of
 10	<y_axis_least_value_val>
 ,
 and	<order_3rd>
-30 30	<y_axis_3rd_highest_val>
+30	<y_axis_3rd_highest_val>
+.
 <end_of_description>
 
 
@@ -241,7 +242,8 @@ department	<x_axis>
 with
 only	<y_axis_least_value>
 10	<y_axis_least_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -304,7 +306,8 @@ for
 computer science	<x_axis_label_4th_highest_value>
 only	<y_axis_least_value>
 20	<y_axis_4th_highest_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -376,7 +379,7 @@ some	<y_axis_approx>
 way
 below	<y_axis_approx>
 it
-it
+.
 <end_of_description>
 
 
@@ -452,7 +455,7 @@ at
 %	<y_axis_inferred_label>
 combined
 )
-)
+.
 <end_of_description>
 
 
@@ -543,7 +546,8 @@ much	<y_axis_trend>
 again
 with
 10	<y_axis_least_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -586,7 +590,7 @@ representation	<t=1_a=b>
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 )
-)
+.
 <end_of_description>
 
 
@@ -637,7 +641,8 @@ at
 and	<order_3rd>
 computer science	<x_axis_label_4th_highest_value>
 at
-20 20	<y_axis_4th_highest_val>
+20	<y_axis_4th_highest_val>
+%	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -676,7 +681,8 @@ and	<order_3rd>
 mathematics	<x_axis_label_least_value>
 only	<y_axis_least_value>
 10	<y_axis_least_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -750,7 +756,8 @@ and	<order_3rd>
 engineering	<x_axis_label_3rd_highest_value>
 has
 30	<y_axis_3rd_highest_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -784,7 +791,8 @@ Computer Science	<x_axis_label_4th_highest_value>
 and	<order_3rd>
 engineering	<x_axis_label_3rd_highest_value>
 30	<y_axis_3rd_highest_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -833,7 +841,8 @@ Computer Science	<x_axis_label_4th_highest_value>
 and	<order_3rd>
 Engineering	<x_axis_label_3rd_highest_value>
 lagging
-behind behind	<y_axis_trend_down>
+behind	<y_axis_trend_down>
+.
 <end_of_description>
 
 
@@ -912,7 +921,7 @@ and	<order_3rd>
 %	<y_axis_inferred_label>
 ,
 respectively
-respectively
+.
 <end_of_description>
 
 
@@ -998,7 +1007,8 @@ have
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 female
-representation representation	<t=1_a=b>
+representation	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -1051,7 +1061,8 @@ and	<order_3rd>
 lastly	<order_last>
 Maths
 at
-10 10	<y_axis_least_value_val>
+10	<y_axis_least_value_val>
+%	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1094,7 +1105,8 @@ the
 highest	<y_axis_highest_value>
 at
 70	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1151,7 +1163,7 @@ mathematics	<x_axis_label_least_value>
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 )
-)
+.
 <end_of_description>
 
 
@@ -1183,7 +1195,8 @@ the
 arts	<x_axis_label_Scnd_highest_value>
 at
 60	<y_axis_Scnd_highest_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1270,7 +1283,7 @@ is
 also
 slightly	<y_axis_trend>
 ambiguous
-ambiguous
+.
 <end_of_description>
 
 
@@ -1304,7 +1317,8 @@ in
 engineering	<x_axis_label_3rd_highest_value>
 ,
 computer science	<x_axis_label_4th_highest_value>
-and and	<order_3rd>
+and	<order_3rd>
+mathetmatics
 <end_of_description>
 
 
@@ -1347,7 +1361,8 @@ Engineering	<x_axis_label_3rd_highest_value>
 and	<order_3rd>
 computer science	<x_axis_label_4th_highest_value>
 20	<y_axis_4th_highest_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
