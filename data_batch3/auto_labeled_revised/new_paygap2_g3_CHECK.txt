@@ -160,21 +160,21 @@ The
 charts
 compares
 the
-gender pay gap	<t=1_a=b>
+gender pay gap	<y_axis>
 for
-3	<y_axis_inferred_value_mul_v1=highest_v2=least>
+3	<x_axis_labels_count>
 countries	<x_axis>
 in
-europe
+europe	<t=0_a=x>
 .
 Germany	<x_axis_label_highest_value>
-and	<order_3rd>
+and
 the
 UK	<x_axis_label_Scnd_highest_value>
 have
 a
 similar	<y_axis_trend>
-gap	<t=1_a=b>
+
 of
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -182,10 +182,10 @@ whilst	<y_x_comparison>
 Spain	<x_axis_label_least_value>
 shows
 a
-gap	<t=1_a=b>
 of
 15	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -219,7 +219,6 @@ most	<y_axis_highest_value>
 equal	<t=1_a=b>
 with
 a
-gap	<t=1_a=b>
 of
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
@@ -230,7 +229,6 @@ the
 UK	<x_axis_label_Scnd_highest_value>
 with
 a
-gap	<t=1_a=b>
 of
 just	<y_axis_least_value>
 over	<y_axis_approx>
@@ -244,11 +242,11 @@ worst	<y_axis_least_value>
 offender
 with
 a
-gap	<t=1_a=b>
 of
 about	<y_axis_approx>
 21	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -269,7 +267,8 @@ slightly	<y_axis_trend>
 more	<y_axis_trend_up>
 than	<y_x_comparison>
 the
-UK UK	<x_axis_label_Scnd_highest_value>
+UK	<x_axis_label_Scnd_highest_value>
+.
 <end_of_description>
 
 
@@ -309,7 +308,8 @@ then	<order_3rd>
 Spain	<x_axis_label_least_value>
 at
 15	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -351,7 +351,8 @@ with
 a
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-pay gay	<t=1_a=b>
+gay	<t=1_a=b>
+.
 <end_of_description>
 
 
@@ -406,7 +407,8 @@ a
 percentage	<y_axis>
 of
 just	<y_axis_least_value>
-15 15	<y_axis_inferred_least_value_approx>
+15	<y_axis_inferred_least_value_approx>
+%	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -434,10 +436,10 @@ UK	<x_axis_label_Scnd_highest_value>
 Germany	<x_axis_label_highest_value>
 where
 the
-pay gap	<t=1_a=b>
 is
 21	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -478,10 +480,10 @@ amongst
 gender pay	<t=1_a=b>
 with
 a
-gap	<t=1_a=b>
 of
 15	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -524,7 +526,8 @@ by
 Germany	<x_axis_label_highest_value>
 with
 22	<y_axis_inferred_highest_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -599,7 +602,8 @@ of
 slightly	<y_axis_trend>
 above	<y_axis_trend_up>
 the
-UK UK	<x_axis_label_Scnd_highest_value>
+UK	<x_axis_label_Scnd_highest_value>
+.
 <end_of_description>
 
 
@@ -633,7 +637,7 @@ and	<order_3rd>
 20.5	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 each
-each
+.
 <end_of_description>
 
 
@@ -655,7 +659,6 @@ three	<x_axis_label_count>
 countries	<x_axis>
 where
 the
-gap	<t=1_a=b>
 is
 highest	<y_axis_highest_value>
 .
@@ -674,7 +677,6 @@ the
 UK	<x_axis_label_Scnd_highest_value>
 with
 a
-gap	<t=1_a=b>
 of
 20.5	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -687,10 +689,10 @@ bottom
 three	<x_axis_label_count>
 with
 a
-gap	<t=1_a=b>
 of
 15	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -754,7 +756,8 @@ to
 Germany	<x_axis_label_highest_value>
 's
 22	<y_axis_inferred_highest_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -802,7 +805,8 @@ two
 countries	<x_axis>
 at
 22	<y_axis_inferred_highest_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -904,10 +908,10 @@ and	<order_3rd>
 Spain	<x_axis_label_least_value>
 with
 a
-gap	<t=1_a=b>
 of
 15	<y_axis_inferred_least_value_approx>
-percent percent	<y_axis_inferred_label>
+percent	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -947,7 +951,8 @@ is
 just	<y_axis_least_value>
 behind	<y_axis_trend_down>
 in
-21.5 21.5	<y_axis_inferred_highest_value_approx>
+21.5	<y_axis_inferred_highest_value_approx>
+%	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -993,7 +998,8 @@ percentage	<y_axis>
 difference
 at
 15	<y_axis_inferred_least_value_approx>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 
@@ -1017,7 +1023,7 @@ the
 percentage	<y_axis>
 difference
 in
-pay given	<t=1_a=b>
+given	<t=1_a=b>
 on
 the
 y
@@ -1044,7 +1050,6 @@ a
 %	<y_axis_inferred_label>
 difference
 in
-pay	<t=1_a=b>
 between
 male
 and	<order_3rd>
@@ -1073,7 +1078,8 @@ countries	<x_axis>
 ,
 at
 21	<y_axis_highest_value_val>
-% %	<y_axis_inferred_label>
+%	<y_axis_inferred_label>
+.
 <end_of_description>
 
 

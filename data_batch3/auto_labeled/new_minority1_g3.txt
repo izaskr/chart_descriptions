@@ -85,8 +85,7 @@ it
 stands
 at
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -129,7 +128,7 @@ between
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -212,8 +211,7 @@ in
 -
 2019
 to
-14	<y_axis_highest_value_val>
-.
+14 14	<y_axis_highest_value_val>
 <end_of_description>
 
 
@@ -304,8 +302,7 @@ its
 highest	<y_axis_highest_value>
 at
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -394,8 +391,7 @@ final	<order_last>
 bar
 increased	<slope_up>
 6	<y_axis_inferred_value_mul_v1=Scnd_v2=5th>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -480,7 +476,7 @@ be
 %	<y_axis_inferred_label>
 in
 2019
-.
+2019
 <end_of_description>
 
 
@@ -509,8 +505,7 @@ the
 highest	<y_axis_highest_value>
 level
 at
-14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
+14 14	<y_axis_highest_value_val>
 <end_of_description>
 
 
@@ -593,8 +588,7 @@ to
 2019
 at
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -706,8 +700,7 @@ a
 high	<y_axis_highest_value>
 of
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -754,7 +747,7 @@ until
 its
 peak	<y_axis_highest_value>
 in
-2019
+in
 <end_of_description>
 
 
@@ -778,6 +771,7 @@ less	<y_axis_trend_down>
 than	<y_x_comparison>
 1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
+minority representation	<t=1_a=b>
 .
 It
 rose	<slope_up>
@@ -799,8 +793,7 @@ to
 by
 20015
 -
-19	<y_axis_inferred_value_mul_v1=3rd_v2=least>
-.
+19 19	<y_axis_inferred_value_mul_v1=3rd_v2=least>
 <end_of_description>
 
 
@@ -861,7 +854,7 @@ than	<y_x_comparison>
 %	<y_axis_inferred_label>
 by
 2004
-.
+2004
 <end_of_description>
 
 
@@ -992,7 +985,7 @@ than	<y_x_comparison>
 2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 growth
-.
+growth
 <end_of_description>
 
 
@@ -1053,8 +1046,7 @@ overall
 increase	<slope_up>
 of
 13	<y_axis_inferred_Scnd_highest_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1129,7 +1121,7 @@ the
 -
 2019
 period
-.
+period
 <end_of_description>
 
 
@@ -1203,6 +1195,7 @@ in
 -
 2004
 where
+representation	<t=1_a=b>
 rose	<slope_up>
 to
 7.2	<y_axis_inferred_value_add_v1=least_v2=4th>
@@ -1216,6 +1209,7 @@ saw
 %	<y_axis_inferred_label>
 .
 The
+representation	<t=1_a=b>
 figure
 increased	<slope_up>
 again
@@ -1240,7 +1234,7 @@ period
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -1308,8 +1302,7 @@ the
 minorities	<t=1_a=b>
 have
 increased	<slope_up>
-steadily	<y_axis_trend>
-.
+steadily steadily	<y_axis_trend>
 <end_of_description>
 
 
@@ -1345,6 +1338,7 @@ approximately	<y_axis_approx>
 %	<y_axis_inferred_label>
 of
 the
+parliament	<t=1_a=b>
 were
 represented
 by
@@ -1401,7 +1395,7 @@ during
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -1522,7 +1516,7 @@ between
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -1601,6 +1595,7 @@ a
 steady	<y_axis_trend>
 increase	<slope_up>
 in
+representation	<t=1_a=b>
 growing	<slope_up>
 at
 3	<y_axis_inferred_value_add_v1=3rd_v2=Scnd>
@@ -1624,7 +1619,7 @@ percent	<y_axis_inferred_label>
 .
 (
 2019
-)
+2019
 <end_of_description>
 
 
@@ -1690,8 +1685,7 @@ and	<order_3rd>
 2014
 with
 13	<y_axis_inferred_Scnd_highest_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1714,6 +1708,7 @@ years	<x_axis>
 With
 the
 highest	<y_axis_highest_value>
+representation	<t=1_a=b>
 in
 the
 most	<y_axis_highest_value>
@@ -1870,7 +1865,7 @@ from	<y_x_comparison>
 1990
 -
 2019
-.
+2019
 <end_of_description>
 
 

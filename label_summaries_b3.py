@@ -244,18 +244,13 @@ def get_stat_info(data):
 				la = "<y_axis_inferred_value_add_v1="+n1+"_v2="+n2+">" # label addition
 				va = round(abs(v - v2),2) # only positive!
 				addi[la] = va
-				
-	#print("\t",multi)
-	#print("\t",addi)
+
 
 	results = {"label_name_pairs_x":label_name_pairs_x, "label_value_pairs_y":label_value_pairs_y, "multi":multi, "addi": addi}
 	results_basic = {** label_name_pairs_x, ** label_value_pairs_y}
 	results_cal = {**multi, ** addi}
 	results_basic["<y_axis>"] = data["y_axis_unit_name"]
-	#print(len(results_all), sum([len(v) for k,v in results.items()]))
 
-	#return data["title"], data["x_order_info"],differences, label_name_pairs_x,label_value_pairs_y, misc
-	#return results
 	other_info = {"title": data["title"], "<x_axis_label_count>":label_count, "y_axis_name":data["y_axis_unit_name"], "x_axis_name": data["x_axis_label_name"]}
 	return results_basic, results_cal, other_info
 
@@ -306,6 +301,9 @@ def in_title_labels(target, chart_text_dict):
 	if target == barcount_word:
 		assigned_lbl = "<x_axis_label_count>"
 		return assigned_lbl
+
+	#if target == "gap":
+		#import pdb; pdb.set_trace()
 
 	if target in all_stopwords or target in {",", ".", "!", "?" , "(", ")", "-", "&", "'"}:
 		return assigned_lbl
@@ -362,6 +360,7 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 	info_cal : dict : info about multiplication and addition
 	info_other : dict : info about the x and y axis labels, plot title, number of bars
 	"""
+	#import pdb; pdb.set_trace()
 	new_lab_sum = []
 	# first check unigrams
 	for (unigram, label) in labeled_summary:
@@ -499,16 +498,21 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 	no_unigrams = len(new_lab_sum)
 	# if they don't match, put the first one into the list
 	new_joint = []
-	cbigram = 0
+	cbigram = 1
+	id_joined = -1
 	joined = ""
 	n = len(list(zip(new_lab_sum[:-1], new_lab_sum[1:])))
 	for ((t1, l1),(t2, l2)) in zip(new_lab_sum[:-1], new_lab_sum[1:]): # iter over bigrams
 		cbigram += 1
+		if (cbigram-1) > id_joined: # distance: not consecutive unigrams
+			joined = ""
 		if l1 and l2 and l1==l2 and t1 != joined: # neither should be None
 			print("t1 t2", t1, t2)
 			joined = t2
+			id_joined = cbigram
 			new_joint.append((t1 + " " + t2, l1))
 			print("JOINED", t1, t2, l1)
+			print("\t at id", id_joined)
 		else: # add only the first unigram
 			if t1 == joined: # if current t1 was joined to bigram
 				continue
@@ -518,23 +522,28 @@ def post_check(labeled_summary, basic_cal_as_text, basic_cal_as_values, info_oth
 
 	# check for bigrams in the newly made summary again (gender pay gap, social media use)
 	new_joint02 = []
-	cbigram = 0
+	cbigram = -1
 	joined = ""
+	id_joined = -1
 	n = len(list(zip(new_joint[:-1], new_joint[1:])))
 	for ((t1, l1),(t2, l2)) in zip(new_joint[:-1], new_joint[1:]): # iter over bigrams
 		cbigram += 1
+		if (cbigram-1) > id_joined: # distance: not consecutive unigrams
+			joined = ""
 		if l1 and l2 and l1==l2 and t1 != joined: # neither should be None
-			print("t1 t2", t1, t2)
+			#print("t1 t2", t1, t2)
 			joined = t2
+			id_joined = cbigram
 			new_joint02.append((t1 + " " + t2, l1))
 			print("JOINED ANEW   ", t1, t2, l1)
+			print("\t at id", id_joined)
 		else: # add only the first unigram
 			if t1 == joined: # if current t1 was joined to bigram
 				continue
 			new_joint02.append((t1, l1))
-			if cbigram == n: # add also the second unigram if this is the last bigram
+			if (cbigram+1) == n: # add also the second unigram if this is the last bigram
 				new_joint02.append((t2, l2))
-
+	#import pdb; pdb.set_trace()
 	#print("OLD SUMMARY \t", labeled_summary, "\n")
 	#print("NEW SUMMARY \t", new_lab_sum, "\n")
 	#print("AFTER BIGRAM \t", new_joint, "\n"*2)
@@ -577,13 +586,16 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 	basic_cal_text = cal_text + basic_text
 	basic_cal_values = list(info_cal.keys()) + list(info_basic.keys())
 	#print(basic_cal_text, "\n", basic_cal_values)
-
+	s_counter = 0
 	summaries_final = []  # list of labeled summaries for a single plot
 	with open(version_dir+summary_file, "r", encoding="utf8") as f:
 		for line in f:
 			if len(line) < 6:
 				continue
-			
+			s_counter += 1
+			#print("SUMMARY NUMBER ", s_counter, "WAITING FOR NUMBER 5")
+			#if s_counter == 5:
+				#import pdb; pdb.set_trace()
 			line2 = line[3:-4]
 			linesplit = line2.split()
 			if linesplit == []:
@@ -656,6 +668,8 @@ def read_summaries(summary_file, info_basic, info_cal, info_other):
 
 			for j in range(len(tokens)):
 				zz = j
+				#if tokens[j] == "gap" and j > 16:
+					#import pdb; pdb.set_trace()
 
 				if j in checked_j: continue
 				if j in labeled_chunk_ind and j not in labeled_token_i:
@@ -786,6 +800,7 @@ if __name__ == "__main__":
 	dlabel_word, word_dlabel = discourse_labels()
 	new_pn = "/home/iza/chart_descriptions/data_batch3/auto_labeled/"
 	for (summary_fname, json_ID) in maps: # summary fname e.g. new_citySA1_g2.png.txt
+
 		print("SUMMARY FNAME", summary_fname)
 		new_filename = new_pn + summary_fname[:-8] + ".txt"
 		new_file = open(new_filename, "w", encoding="utf8")

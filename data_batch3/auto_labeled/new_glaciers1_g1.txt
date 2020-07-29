@@ -51,8 +51,7 @@ popular	<y_axis_trend>
 and	<order_3rd>
 Olav	<x_axis_label_4th_highest_value>
 received
-5	<y_axis_4th_highest_val>
-.
+5 5	<y_axis_4th_highest_val>
 <end_of_description>
 
 
@@ -86,6 +85,7 @@ much	<y_axis_trend>
 more	<y_axis_trend_up>
 than	<y_x_comparison>
 other
+glaciers	<t=1_a=b>
 .
 \n	<separator>
 Tasman	<x_axis_label_least_value>
@@ -95,8 +95,7 @@ fewest	<y_axis_least_value>
 expeditions	<y_axis>
 with
 just	<y_axis_least_value>
-2	<y_axis_least_value_val>
-.
+2 2	<y_axis_least_value_val>
 <end_of_description>
 
 
@@ -177,7 +176,7 @@ very	<y_axis_trend>
 useful
 in
 isolation
-.
+isolation
 <end_of_description>
 
 
@@ -245,8 +244,7 @@ of
 times
 with
 2	<y_axis_least_value_val>
-expeditions	<y_axis>
-.
+expeditions expeditions	<y_axis>
 <end_of_description>
 
 
@@ -306,8 +304,7 @@ at
 second	<order_Scnd>
 most	<y_axis_highest_value>
 explored	<t=1_a=b>
-glacier	<x_axis>
-.
+glacier glacier	<x_axis>
 <end_of_description>
 
 
@@ -360,8 +357,7 @@ is
 between
 5	<y_axis_4th_highest_val>
 and	<order_3rd>
-6	<y_axis_3rd_highest_val>
-.
+6 6	<y_axis_3rd_highest_val>
 <end_of_description>
 
 
@@ -389,6 +385,7 @@ the
 Akkem	<x_axis_label_Scnd_highest_value>
 and	<order_3rd>
 Mefonna	<x_axis_label_highest_value>
+glaciers	<t=1_a=b>
 (
 with
 9	<y_axis_Scnd_highest_val>
@@ -411,6 +408,7 @@ than	<y_x_comparison>
 the
 remaining
 4	<y_axis_5th_highest_val>
+glaciers	<t=1_a=b>
 put
 together
 (
@@ -421,7 +419,7 @@ total
 of
 17	<y_axis_inferred_highest_value_approx>
 )
-.
+)
 <end_of_description>
 
 
@@ -510,8 +508,7 @@ made
 to
 it
 at
-2	<y_axis_least_value_val>
-.
+2 2	<y_axis_least_value_val>
 <end_of_description>
 
 
@@ -561,7 +558,7 @@ Tasman	<x_axis_label_least_value>
 2	<y_axis_least_value_val>
 expeditions	<y_axis>
 )
-.
+)
 <end_of_description>
 
 
@@ -601,6 +598,7 @@ lac	<t=1_a=b>
 Volta	<x_axis_label_5th_highest_value>
 and	<order_3rd>
 Tasman	<x_axis_label_least_value>
+glaciers	<t=1_a=b>
 were
 all
 much	<y_axis_trend>
@@ -612,7 +610,7 @@ and	<order_3rd>
 6	<y_axis_3rd_highest_val>
 expeditions	<y_axis>
 each
-.
+each
 <end_of_description>
 
 
@@ -651,8 +649,7 @@ between
 any
 of
 the
-glaciers	<t=1_a=b>
-.
+glaciers glaciers	<t=1_a=b>
 <end_of_description>
 
 
@@ -716,8 +713,7 @@ fewest	<y_axis_least_value>
 with
 only	<y_axis_least_value>
 2	<y_axis_least_value_val>
-expeditions	<y_axis>
-.
+expeditions expeditions	<y_axis>
 <end_of_description>
 
 
@@ -773,8 +769,7 @@ a
 total
 of
 13	<y_axis_highest_value_val>
-expeditions	<y_axis>
-.
+expeditions expeditions	<y_axis>
 <end_of_description>
 
 
@@ -824,7 +819,7 @@ in
 the
 middle
 range
-.
+range
 <end_of_description>
 
 
@@ -881,6 +876,7 @@ Zvezda	<x_axis_label_3rd_highest_value>
 .
 The
 three
+glaciers	<t=1_a=b>
 that
 have
 not
@@ -905,8 +901,7 @@ Tasman	<x_axis_label_least_value>
 with
 only	<y_axis_least_value>
 2	<y_axis_least_value_val>
-expeditions	<y_axis>
-.
+expeditions expeditions	<y_axis>
 <end_of_description>
 
 
@@ -978,8 +973,7 @@ of
 the
 geographical
 area
-explored	<t=1_a=b>
-.
+explored explored	<t=1_a=b>
 <end_of_description>
 
 
@@ -1034,8 +1028,7 @@ Zvevzda
 6	<y_axis_3rd_highest_val>
 and	<order_3rd>
 Akkem	<x_axis_label_Scnd_highest_value>
-9	<y_axis_Scnd_highest_val>
-.
+9 9	<y_axis_Scnd_highest_val>
 <end_of_description>
 
 
@@ -1091,8 +1084,7 @@ explored	<t=1_a=b>
 having
 undergone
 13	<y_axis_highest_value_val>
-expeditions	<y_axis>
-.
+expeditions expeditions	<y_axis>
 <end_of_description>
 
 
@@ -1155,8 +1147,7 @@ and	<order_3rd>
 Olav	<x_axis_label_4th_highest_value>
 at
 approximately	<y_axis_approx>
-5	<y_axis_4th_highest_val>
-.
+5 5	<y_axis_4th_highest_val>
 <end_of_description>
 
 
@@ -1190,8 +1181,7 @@ popular	<y_axis_trend>
 at
 just	<y_axis_least_value>
 2	<y_axis_least_value_val>
-climbs	<slope_up>
-.
+climbs climbs	<slope_up>
 <end_of_description>
 
 
@@ -1226,8 +1216,7 @@ last	<y_axis_least_value>
 Tasman	<x_axis_label_least_value>
 with
 2	<y_axis_least_value_val>
-expeditions	<y_axis>
-.
+expeditions expeditions	<y_axis>
 <end_of_description>
 
 
@@ -1261,8 +1250,7 @@ in
 second	<order_Scnd>
 at
 9	<y_axis_Scnd_highest_val>
-expeditions	<y_axis>
-.
+expeditions expeditions	<y_axis>
 <end_of_description>
 
 
@@ -1300,8 +1288,7 @@ Zvezda	<x_axis_label_3rd_highest_value>
 6	<y_axis_3rd_highest_val>
 and	<order_3rd>
 Akkem	<x_axis_label_Scnd_highest_value>
-9	<y_axis_Scnd_highest_val>
-.
+9 9	<y_axis_Scnd_highest_val>
 <end_of_description>
 
 

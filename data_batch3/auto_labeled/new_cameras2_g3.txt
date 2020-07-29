@@ -67,8 +67,7 @@ those
 by
 Konica	<x_axis_label_least_value>
 at
-£	<y_axis_inferred_label>
-52	<y_axis_inferred_least_value_approx>
+£ £	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -119,8 +118,7 @@ is
 Cambo	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
-76	<y_axis_inferred_highest_value_approx>
-.
+76 76	<y_axis_inferred_highest_value_approx>
 <end_of_description>
 
 
@@ -178,8 +176,7 @@ the
 cheapest
 at
 £	<y_axis_inferred_label>
-54	<y_axis_inferred_least_value_approx>
-.
+54 54	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 
@@ -242,8 +239,7 @@ is
 Cambo	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
-76	<y_axis_inferred_highest_value_approx>
-.
+76 76	<y_axis_inferred_highest_value_approx>
 <end_of_description>
 
 
@@ -307,7 +303,7 @@ any
 data
 about	<y_axis_approx>
 segments
-.
+segments
 <end_of_description>
 
 
@@ -385,8 +381,7 @@ average	<y_axis_approx>
 of
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
-54	<y_axis_inferred_least_value_approx>
-.
+54 54	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 
@@ -404,7 +399,7 @@ are
 the
 most	<y_axis_highest_value>
 expensive
-.
+expensive
 <end_of_description>
 
 
@@ -525,8 +520,7 @@ by
 Memota
 at
 £	<y_axis_inferred_label>
-70	<y_axis_inferred_Scnd_highest_value_approx>
-.
+70 70	<y_axis_inferred_Scnd_highest_value_approx>
 <end_of_description>
 
 
@@ -591,7 +585,7 @@ making
 it
 a
 difficult
-choice
+difficult
 <end_of_description>
 
 
@@ -634,7 +628,7 @@ are
 £	<y_axis_inferred_label>
 74	<y_axis_inferred_highest_value_approx>
 on
-average	<y_axis_approx>
+on
 <end_of_description>
 
 
@@ -674,8 +668,7 @@ second	<order_Scnd>
 least	<y_axis_least_value>
 affordable	<t=1_a=b>
 was
-Memoto	<x_axis_label_Scnd_highest_value>
-.
+Memoto Memoto	<x_axis_label_Scnd_highest_value>
 <end_of_description>
 
 
@@ -756,8 +749,7 @@ expensive
 average	<y_axis_approx>
 for
 Cambo	<x_axis_label_highest_value>
-cameras	<x_axis>
-.
+cameras cameras	<x_axis>
 <end_of_description>
 
 
@@ -804,8 +796,7 @@ costed
 £	<y_axis_inferred_label>
 61	<y_axis_inferred_3rd_highest_value_approx>
 on
-average	<y_axis_approx>
-.
+average average	<y_axis_approx>
 <end_of_description>
 
 
@@ -856,8 +847,7 @@ the
 Konica	<x_axis_label_least_value>
 at
 £	<y_axis_inferred_label>
-54	<y_axis_inferred_least_value_approx>
-.
+54 54	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 
@@ -932,8 +922,7 @@ the
 Cambo	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
-74	<y_axis_inferred_highest_value_approx>
-.
+74 74	<y_axis_inferred_highest_value_approx>
 <end_of_description>
 
 
@@ -999,8 +988,7 @@ average	<y_axis_approx>
 of
 just	<y_axis_least_value>
 £	<y_axis_inferred_label>
-53	<y_axis_inferred_least_value_approx>
-.
+53 53	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 
@@ -1057,8 +1045,7 @@ the
 Cambo	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
-86	<y_axis_inferred_highest_value_approx>
-.
+86 86	<y_axis_inferred_highest_value_approx>
 <end_of_description>
 
 
@@ -1127,8 +1114,7 @@ Cambo	<x_axis_label_highest_value>
 averaging
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
-75	<y_axis_inferred_highest_value_approx>
-.
+75 75	<y_axis_inferred_highest_value_approx>
 <end_of_description>
 
 
@@ -1202,8 +1188,7 @@ average	<y_axis_approx>
 camera	<x_axis>
 costong
 75	<y_axis_inferred_highest_value_approx>
-pounds	<y_axis_inferred_label>
-.
+pounds pounds	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1260,8 +1245,7 @@ and	<order_3rd>
 Hunten	<x_axis_label_4th_highest_value>
 with
 58	<y_axis_inferred_4th_highest_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1318,8 +1302,7 @@ an
 average	<y_axis_approx>
 price	<y_axis>
 of
-£	<y_axis_inferred_label>
-52	<y_axis_inferred_least_value_approx>
+£ £	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1408,6 +1391,7 @@ most	<y_axis_highest_value>
 affordable	<t=1_a=b>
 brand	<x_axis>
 of
+digital	<t=1_a=b>
 camera	<x_axis>
 ,
 costing
@@ -1416,8 +1400,7 @@ average	<y_axis_approx>
 price	<y_axis>
 of
 £	<y_axis_inferred_label>
-54	<y_axis_inferred_least_value_approx>
-.
+54 54	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 

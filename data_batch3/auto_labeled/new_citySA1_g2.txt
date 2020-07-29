@@ -98,8 +98,7 @@ degrees	<y_axis_inferred_label>
 and	<order_3rd>
 Santiago	<x_axis_label_5th_highest_value>
 20	<y_axis_5th_highest_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -156,8 +155,7 @@ city	<x_axis>
 Bogota	<x_axis_label_least_value>
 at
 16	<y_axis_least_value_val>
-C	<y_axis_inferred_label>
-.
+C C	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -206,7 +204,7 @@ and	<order_3rd>
 23	<y_axis_4th_highest_val>
 degrees	<y_axis_inferred_label>
 respectively
-.
+respectively
 <end_of_description>
 
 
@@ -280,8 +278,7 @@ at
 approx	<y_axis_approx>
 .
 16	<y_axis_least_value_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -350,7 +347,7 @@ with
 16	<y_axis_least_value_val>
 degrees	<y_axis_inferred_label>
 .
-bbbrrrrr
+.
 <end_of_description>
 
 
@@ -416,8 +413,7 @@ Lima	<x_axis_label_3rd_highest_value>
 ,
 Montevideo	<x_axis_label_Scnd_highest_value>
 and	<order_3rd>
-Belem	<x_axis_label_highest_value>
-.
+Belem Belem	<x_axis_label_highest_value>
 <end_of_description>
 
 
@@ -459,8 +455,7 @@ a
 temperature	<y_axis>
 of
 16	<y_axis_least_value_val>
-C	<y_axis_inferred_label>
-.
+C C	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -504,7 +499,7 @@ half
 of
 the
 table
-.
+table
 <end_of_description>
 
 
@@ -562,7 +557,7 @@ degrees	<y_axis_inferred_label>
 (
 approximate	<y_axis_approx>
 )
-.
+)
 <end_of_description>
 
 
@@ -628,8 +623,7 @@ at
 just	<y_axis_least_value>
 above	<y_axis_trend_up>
 15	<y_axis_inferred_least_value_approx>
-C	<y_axis_inferred_label>
-.
+C C	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -690,8 +684,7 @@ Bogota	<x_axis_label_least_value>
 ,
 at
 16	<y_axis_least_value_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -736,8 +729,7 @@ is
 bogota	<x_axis_label_least_value>
 at
 16	<y_axis_least_value_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -785,8 +777,7 @@ and	<order_3rd>
 finally	<order_last>
 Bogota	<x_axis_label_least_value>
 with
-16	<y_axis_least_value_val>
-.
+16 16	<y_axis_least_value_val>
 <end_of_description>
 
 
@@ -837,8 +828,7 @@ of
 all
 of
 these
-cities	<x_axis>
-!
+cities cities	<x_axis>
 <end_of_description>
 
 
@@ -863,6 +853,7 @@ least	<y_axis_least_value>
 warmest	<t=1_a=b>
 at
 just	<y_axis_least_value>
+over over	<y_axis_approx>
 <end_of_description>
 
 
@@ -911,8 +902,7 @@ is
 close	<y_axis_trend>
 to
 30	<y_axis_inferred_Scnd_highest_value_approx>
-degree	<y_axis_inferred_label>
-temperature	<y_axis>
+degree degree	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1072,8 +1062,7 @@ found
 in
 Bogota	<x_axis_label_least_value>
 at
-16	<y_axis_least_value_val>
-degrees	<y_axis_inferred_label>
+16 16	<y_axis_least_value_val>
 <end_of_description>
 
 
@@ -1145,8 +1134,7 @@ coolest
 and	<order_3rd>
 the
 warmest	<t=1_a=b>
-city	<x_axis>
-.
+city city	<x_axis>
 <end_of_description>
 
 
@@ -1173,8 +1161,7 @@ is
 Bogota	<x_axis_label_least_value>
 recording
 17	<y_axis_inferred_least_value_approx>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1218,7 +1205,7 @@ Botota
 at
 16	<y_axis_least_value_val>
 Degrees
-.
+Degrees
 <end_of_description>
 
 
@@ -1295,8 +1282,7 @@ Cordoba	<x_axis_label_4th_highest_value>
 (
 23)
 °	<y_axis_inferred_label>
-C	<y_axis>
-.
+C C	<y_axis>
 <end_of_description>
 
 

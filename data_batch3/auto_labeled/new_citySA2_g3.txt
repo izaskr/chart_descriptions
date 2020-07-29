@@ -56,8 +56,7 @@ Belem	<x_axis_label_highest_value>
 ,
 at
 36	<y_axis_highest_value_val>
-degrees	<y_axis_inferred_label>
-,
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -119,8 +118,7 @@ and then	<order_3rd>
 Montevideo	<x_axis_label_Scnd_highest_value>
 at
 29	<y_axis_Scnd_highest_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -185,8 +183,7 @@ is
 the
 coldest	<t=1_a=b>
 at
-16	<y_axis_least_value_val>
-.
+16 16	<y_axis_least_value_val>
 <end_of_description>
 
 
@@ -255,8 +252,7 @@ is
 Belem	<x_axis_label_highest_value>
 at
 36	<y_axis_highest_value_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -342,7 +338,7 @@ in
 my
 opening
 remarks
-.
+remarks
 <end_of_description>
 
 
@@ -395,8 +391,7 @@ a
 little	<y_axis_trend>
 over	<y_axis_approx>
 15	<y_axis_inferred_least_value_approx>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -416,7 +411,7 @@ Belem	<x_axis_label_highest_value>
 is
 the
 warmest
-.
+warmest
 <end_of_description>
 
 
@@ -492,8 +487,7 @@ in
 Bogota	<x_axis_label_least_value>
 at
 16	<y_axis_least_value_val>
-celsius	<y_axis_inferred_label>
-.
+celsius celsius	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -568,8 +562,7 @@ Montevideo	<x_axis_label_Scnd_highest_value>
 at
 29	<y_axis_Scnd_highest_val>
 °	<y_axis_inferred_label>
-C	<y_axis>
-.
+C C	<y_axis>
 <end_of_description>
 
 
@@ -619,8 +612,7 @@ C	<y_axis_inferred_label>
 and	<order_3rd>
 Belem	<x_axis_label_highest_value>
 at
-36	<y_axis_highest_value_val>
-C	<y_axis_inferred_label>
+36 36	<y_axis_highest_value_val>
 <end_of_description>
 
 
@@ -664,8 +656,7 @@ by
 comparison	<y_x_comparison>
 at
 36	<y_axis_highest_value_val>
-C	<y_axis_inferred_label>
-!
+C C	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -716,7 +707,7 @@ listed
 in
 the
 table
-.
+table
 <end_of_description>
 
 
@@ -792,8 +783,7 @@ at
 degrees	<y_axis_inferred_label>
 C	<y_axis>
 is
-Belem	<x_axis_label_highest_value>
-.
+Belem Belem	<x_axis_label_highest_value>
 <end_of_description>
 
 
@@ -865,7 +855,7 @@ at
  
 degrees	<y_axis_inferred_label>
 Celsius
-.
+Celsius
 <end_of_description>
 
 
@@ -916,8 +906,7 @@ these
 cities	<x_axis>
 at
 36	<y_axis_highest_value_val>
-C	<y_axis_inferred_label>
-.
+C C	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -996,7 +985,7 @@ which
 is
 Belem	<x_axis_label_highest_value>
 at
-36*C.
+at
 <end_of_description>
 
 
@@ -1061,7 +1050,7 @@ at
 and	<order_3rd>
 Cordoba	<x_axis_label_4th_highest_value>
 at
-23degC.
+at
 <end_of_description>
 
 
@@ -1123,8 +1112,7 @@ is
 Belem	<x_axis_label_highest_value>
 at
 36	<y_axis_highest_value_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1214,8 +1202,7 @@ a
 temperature	<y_axis>
 of
 36	<y_axis_highest_value_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1305,7 +1292,7 @@ of
 the
 six	<x_axis_label_count>
 countries
-,
+countries
 <end_of_description>
 
 
@@ -1363,8 +1350,7 @@ and then	<order_3rd>
 Santiago	<x_axis_label_5th_highest_value>
 with
 20	<y_axis_5th_highest_val>
-degrees	<y_axis_inferred_label>
-.
+degrees degrees	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1437,7 +1423,7 @@ is
 20	<y_axis_5th_highest_val>
 degrees	<y_axis_inferred_label>
 celcius
-.
+celcius
 <end_of_description>
 
 
@@ -1538,7 +1524,7 @@ Belem	<x_axis_label_highest_value>
 36	<y_axis_highest_value_val>
 degrees	<y_axis_inferred_label>
 )
-.
+)
 <end_of_description>
 
 

@@ -23,6 +23,7 @@ percentages	<y_axis>
 relates
 to
 the
+pay gap	<t=1_a=b>
 itself
 .
 Three	<x_axis_label_count>
@@ -51,8 +52,7 @@ and	<order_3rd>
 the
 UK	<x_axis_label_Scnd_highest_value>
 20.5	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -95,8 +95,7 @@ equality
 level
 at
 15	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -115,6 +114,7 @@ Germany	<x_axis_label_highest_value>
 has
 the
 highest	<y_axis_highest_value>
+gap	<t=1_a=b>
 with
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -128,6 +128,7 @@ behind	<y_axis_trend_down>
 with
 20.5	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
+gap gap	<t=1_a=b>
 <end_of_description>
 
 
@@ -209,8 +210,7 @@ equal	<t=1_a=b>
 countries	<x_axis>
 at
 15	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -262,8 +262,7 @@ stuck
 in
 the
 dark
-ages	<t=0_a=y>
-.
+ages ages	<t=0_a=y>
 <end_of_description>
 
 
@@ -323,8 +322,7 @@ Germany	<x_axis_label_highest_value>
 is
 the
 most	<y_axis_highest_value>
-equal	<t=1_a=b>
-.
+equal equal	<t=1_a=b>
 <end_of_description>
 
 
@@ -360,10 +358,10 @@ while	<y_x_comparison>
 Spain	<x_axis_label_least_value>
 has
 a
+pay gap	<t=1_a=b>
 of
 15	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -397,8 +395,7 @@ Spain	<x_axis_label_least_value>
 is
 at
 15	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -446,8 +443,7 @@ most	<y_axis_highest_value>
 equal	<t=1_a=b>
 of
 the
-three	<x_axis_label_count>
-.
+three three	<x_axis_label_count>
 <end_of_description>
 
 
@@ -491,8 +487,7 @@ has
 equality
 of
 15	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -592,8 +587,7 @@ last	<y_axis_least_value>
 is
 spain	<x_axis_label_least_value>
 with
-15	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
+15 15	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 
@@ -623,6 +617,7 @@ the
 countries	<x_axis>
 with
 a
+gap	<t=1_a=b>
 of
 just	<y_axis_least_value>
 15	<y_axis_inferred_least_value_approx>
@@ -638,8 +633,7 @@ and	<order_3rd>
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 in
-Germany	<x_axis_label_highest_value>
-.
+Germany Germany	<x_axis_label_highest_value>
 <end_of_description>
 
 
@@ -677,7 +671,7 @@ and	<order_3rd>
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 respectively
-.
+respectively
 <end_of_description>
 
 
@@ -701,8 +695,7 @@ of
 gender pay	<t=1_a=b>
 ,
 around	<y_axis_approx>
-20	<y_axis_inferred_Scnd_highest_value_approx>
-%	<y_axis_inferred_label>
+20 20	<y_axis_inferred_Scnd_highest_value_approx>
 <end_of_description>
 
 
@@ -744,7 +737,7 @@ above	<y_axis_trend_up>
 is
 close	<y_axis_trend>
 to
-Germany	<x_axis_label_highest_value>
+to
 <end_of_description>
 
 
@@ -782,6 +775,7 @@ country	<x_axis>
 ,
 with
 a
+pay gap	<t=1_a=b>
 of
 approx	<y_axis_approx>
 .
@@ -794,6 +788,7 @@ best	<y_axis_highest_value>
 ,
 with
 a
+pay gap	<t=1_a=b>
 of
 approx	<y_axis_approx>
 .
@@ -804,8 +799,7 @@ the
 UK	<x_axis_label_Scnd_highest_value>
 with
 20.5	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -840,12 +834,14 @@ roughly	<y_axis_approx>
 a
 21	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
+pay gap	<t=1_a=b>
 .
 Spain	<x_axis_label_least_value>
 has
 a
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
+pay gap	<t=1_a=b>
 ,
 and	<order_3rd>
 the
@@ -854,6 +850,7 @@ has
 a
 20.5	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
+pay gap	<t=1_a=b>
 .
 This
 shows
@@ -899,8 +896,7 @@ is
 lower	<y_axis_trend_down>
 at
 15	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -946,8 +942,7 @@ the
 lowest	<y_axis_least_value>
 gender pay gap	<t=1_a=b>
 at
-15	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
+15 15	<y_axis_inferred_least_value_approx>
 <end_of_description>
 
 
@@ -983,7 +978,7 @@ a
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 result
-.
+result
 <end_of_description>
 
 
@@ -1019,8 +1014,7 @@ and	<order_3rd>
 UK	<x_axis_label_Scnd_highest_value>
 (
 20.5	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label>
-)
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1078,7 +1072,7 @@ two
 15	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 )
-.
+)
 <end_of_description>
 
 

@@ -18,11 +18,13 @@ in
 Those
 from	<y_x_comparison>
 North America	<x_axis_label_Scnd_highest_value>
+spent	<t=1_a=b>
 200	<y_axis_Scnd_highest_val>
 million	<y_magnitude>
 pounds	<y_axis_inferred_label>
 .
 Europeans
+spent	<t=1_a=b>
 100	<y_axis_3rd_highest_val>
 million	<y_magnitude>
 pounds	<y_axis_inferred_label>
@@ -30,6 +32,7 @@ pounds	<y_axis_inferred_label>
 Those
 from	<y_x_comparison>
 Africa	<x_axis_label_least_value>
+spent	<t=1_a=b>
 50	<y_axis_least_value_val>
 million	<y_magnitude>
 pounds	<y_axis_inferred_label>
@@ -40,12 +43,12 @@ those
 from	<y_x_comparison>
 Asia	<x_axis_label_highest_value>
 itself
+spent	<t=1_a=b>
 the
 most	<y_axis_highest_value>
 :
 320	<y_axis_highest_value_val>
-million	<y_magnitude>
-.
+million million	<y_magnitude>
 <end_of_description>
 
 
@@ -120,8 +123,7 @@ spends	<t=1_a=b>
 at
 £	<y_axis_inferred_label>
 200	<y_axis_Scnd_highest_val>
-million	<y_magnitude>
-.
+million million	<y_magnitude>
 <end_of_description>
 
 
@@ -150,6 +152,7 @@ that
 the
 majority	<y_axis_highest_value>
 was
+spent	<t=1_a=b>
 by
 Asia	<x_axis_label_highest_value>
 ,
@@ -189,8 +192,7 @@ Asia	<x_axis_label_highest_value>
 at
 £	<y_axis_inferred_label>
 350	<y_axis_inferred_highest_value_approx>
-million	<y_magnitude>
-.
+million million	<y_magnitude>
 <end_of_description>
 
 
@@ -234,6 +236,7 @@ compared	<y_x_comparison>
 to
 North america	<x_axis_label_Scnd_highest_value>
 which
+spent	<t=1_a=b>
 £	<y_axis_inferred_label>
 200	<y_axis_Scnd_highest_val>
 million	<y_magnitude>
@@ -254,7 +257,7 @@ the
 same
 time
 period
-.
+period
 <end_of_description>
 
 
@@ -280,6 +283,7 @@ graph
 suggests
 it
 means
+spent	<t=1_a=b>
 by
 continent	<x_axis>
 ?
@@ -312,8 +316,7 @@ in
 terms
 of
 highest	<y_axis_highest_value>
-spend	<t=1_a=b>
-.
+spend spend	<t=1_a=b>
 <end_of_description>
 
 
@@ -369,6 +372,7 @@ Asia	<x_axis_label_highest_value>
 as
 a
 continent	<x_axis>
+spent	<t=1_a=b>
 the
 most	<y_axis_highest_value>
 on
@@ -404,7 +408,7 @@ m	<y_magnitude>
 in
 that
 order
-.
+order
 <end_of_description>
 
 
@@ -432,6 +436,7 @@ we
 see
 that
 Asia	<x_axis_label_highest_value>
+spent	<t=1_a=b>
 a
 total
 of
@@ -455,6 +460,7 @@ competitor
 North America	<x_axis_label_Scnd_highest_value>
 ,
 which
+spent	<t=1_a=b>
 £	<y_axis_inferred_label>
 200	<y_axis_Scnd_highest_val>
 million	<y_magnitude>
@@ -472,6 +478,7 @@ put
 together
 (
 which
+spent	<t=1_a=b>
 £	<y_axis_inferred_label>
 100	<y_axis_3rd_highest_val>
 and	<order_3rd>
@@ -485,7 +492,7 @@ totalling
 150	<y_axis_inferred_value_add_v1=least_v2=Scnd>
 million	<y_magnitude>
 )
-.
+)
 <end_of_description>
 
 
@@ -571,7 +578,7 @@ higher	<y_axis_trend_up>
 education	<t=1_a=b>
 in
 2010
-.
+2010
 <end_of_description>
 
 
@@ -644,6 +651,7 @@ results
 show
 that
 Asia	<x_axis_label_highest_value>
+spent	<t=1_a=b>
 the
 most	<y_axis_highest_value>
 money	<t=1_a=b>
@@ -686,7 +694,7 @@ leaset
 million	<y_magnitude>
 pounds	<y_axis_inferred_label>
 )
-.
+)
 <end_of_description>
 
 
@@ -744,8 +752,7 @@ Africa	<x_axis_label_least_value>
 with
 £	<y_axis_inferred_label>
 50	<y_axis_least_value_val>
-million	<y_magnitude>
-.
+million million	<y_magnitude>
 <end_of_description>
 
 
@@ -804,8 +811,7 @@ who
 spend	<t=1_a=b>
 50	<y_axis_least_value_val>
 million	<y_magnitude>
-pounds	<y_axis_inferred_label>
-.
+pounds pounds	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -832,6 +838,7 @@ in
 2010
 .
 Asia	<x_axis_label_highest_value>
+spent	<t=1_a=b>
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
 320	<y_axis_highest_value_val>
@@ -873,8 +880,7 @@ bottom
 at
 £	<y_axis_inferred_label>
 50	<y_axis_least_value_val>
-million	<y_magnitude>
-.
+million million	<y_magnitude>
 <end_of_description>
 
 
@@ -953,7 +959,7 @@ the
 Artic
 and	<order_3rd>
 Antarctica
-.
+Antarctica
 <end_of_description>
 
 
@@ -1003,8 +1009,7 @@ pushing
 of
 Asia	<x_axis_label_highest_value>
 's
-spend	<t=1_a=b>
-.
+spend spend	<t=1_a=b>
 <end_of_description>
 
 
@@ -1057,7 +1062,7 @@ a
 much	<y_axis_trend>
 lower	<y_axis_trend_down>
 amount
-.
+amount
 <end_of_description>
 
 
@@ -1127,6 +1132,7 @@ next	<order_Scnd>
 higest
 amount
 was
+spent spent	<t=1_a=b>
 <end_of_description>
 
 
@@ -1203,8 +1209,7 @@ between
 each
 of
 the
-continents	<x_axis>
-.
+continents continents	<x_axis>
 <end_of_description>
 
 
@@ -1231,6 +1236,7 @@ in
 2010
 .
 Africa	<x_axis_label_least_value>
+spent	<t=1_a=b>
 by
 far	<y_axis_trend>
 the
@@ -1256,14 +1262,14 @@ million	<y_magnitude>
 pounds	<y_axis_inferred_label>
 .
 Asia	<x_axis_label_highest_value>
+spent	<t=1_a=b>
 the
 most	<y_axis_highest_value>
 ,
 exceeding
 300	<y_axis_inferred_highest_value_approx>
 million	<y_magnitude>
-pounds	<y_axis_inferred_label>
-.
+pounds pounds	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1327,8 +1333,7 @@ Africa	<x_axis_label_least_value>
 at
 50	<y_axis_least_value_val>
 million	<y_magnitude>
-pound	<y_axis_inferred_label>
-.
+pound pound	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1377,7 +1382,7 @@ show
 by
 this
 data
-.
+data
 <end_of_description>
 
 
@@ -1445,7 +1450,7 @@ money spent	<t=1_a=b>
 per
 million	<y_magnitude>
 people
-.
+people
 <end_of_description>
 
 
@@ -1467,6 +1472,7 @@ During
 ,
  
 Africa	<x_axis_label_least_value>
+spent	<t=1_a=b>
 only	<y_axis_least_value>
 £	<y_axis_inferred_label>
 50	<y_axis_least_value_val>
@@ -1477,13 +1483,14 @@ the
 least	<y_axis_least_value>
 and	<order_3rd>
 Asia	<x_axis_label_highest_value>
+spent	<t=1_a=b>
 £	<y_axis_inferred_label>
 310	<y_axis_inferred_highest_value_approx>
 million	<y_magnitude>
 ,
 being
 the
-most	<y_axis_highest_value>
+the
 <end_of_description>
 
 
@@ -1510,6 +1517,7 @@ millions	<y_magnitude>
 pounds	<y_axis_inferred_label>
 .
 Asia	<x_axis_label_highest_value>
+spent	<t=1_a=b>
 £	<y_axis_inferred_label>
 320	<y_axis_highest_value_val>
 m	<y_magnitude>
@@ -1542,8 +1550,7 @@ africa	<x_axis_label_least_value>
 at
 £	<y_axis_inferred_label>
 50	<y_axis_least_value_val>
-m	<y_magnitude>
-.
+m m	<y_magnitude>
 <end_of_description>
 
 

@@ -72,8 +72,7 @@ over	<y_axis_approx>
 25	<y_axis_inferred_value_mul_v1=Scnd_v2=least>
 to
 30	<y_axis_inferred_value_mul_v1=highest_v2=least>
-years	<x_axis>
-.
+years years	<x_axis>
 <end_of_description>
 
 
@@ -163,7 +162,7 @@ period
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -271,7 +270,7 @@ btween
 2015
 and	<order_3rd>
 2019
-.
+2019
 <end_of_description>
 
 
@@ -334,8 +333,7 @@ to
 2019
 at
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -401,7 +399,7 @@ the
 past
 two
 decades
-.
+decades
 <end_of_description>
 
 
@@ -451,8 +449,7 @@ In
 minority representation	<t=1_a=b>
 was
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -497,7 +494,7 @@ between
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -533,7 +530,7 @@ in
 each
 parliamentary
 cycle
-.
+cycle
 <end_of_description>
 
 
@@ -634,7 +631,7 @@ in
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -712,7 +709,7 @@ in
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -769,8 +766,7 @@ from	<y_x_comparison>
 %	<y_axis_inferred_label>
 to
 7.5	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -834,8 +830,7 @@ in
 it
 reached
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -922,7 +917,7 @@ in
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -997,7 +992,7 @@ to
 up	<slope_up>
 to
 2019
-.
+2019
 <end_of_description>
 
 
@@ -1040,7 +1035,7 @@ in
 2015
 -
 2019
-.
+2019
 <end_of_description>
 
 
@@ -1081,8 +1076,7 @@ was
 highly
 below	<y_axis_approx>
 2	<y_axis_inferred_5th_highest_value_approx>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1134,6 +1128,7 @@ government
 approximately	<y_axis_approx>
 14	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
+representation representation	<t=1_a=b>
 <end_of_description>
 
 
@@ -1207,8 +1202,7 @@ in
 94	<y_axis_inferred_value_mul_v1=highest_v2=least>
 at
 1	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1272,11 +1266,12 @@ a
 a
 14	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
+representation	<t=1_a=b>
 of
 minorities	<t=1_a=b>
 in
 the
-Libyan parliament	<t=1_a=b>
+Libyan Libyan parliament	<t=1_a=b>
 <end_of_description>
 
 
@@ -1399,8 +1394,7 @@ in
 2019
 to
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1490,8 +1484,7 @@ the
 percentage	<y_axis>
 at
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
@@ -1528,7 +1521,7 @@ five
 -
 year	<x_axis>
 periods
-.
+periods
 <end_of_description>
 
 
@@ -1564,6 +1557,7 @@ that
 the
 percentage	<y_axis>
 of
+minority	<t=1_a=b>
 inclusion
 is
 always
@@ -1625,8 +1619,7 @@ from	<y_x_comparison>
 %	<y_axis_inferred_label>
 to
 14	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-.
+% %	<y_axis_inferred_label>
 <end_of_description>
 
 
