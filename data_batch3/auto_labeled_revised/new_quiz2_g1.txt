@@ -1011,9 +1011,7 @@ The
 chart
 shows
 the
-number	<y_axis>
-of
-mistakes	<y_axis>
+number of mistakes	<y_axis>
 made
 per
 team	<x_axis>
@@ -1036,7 +1034,7 @@ with
 9	<y_axis_highest_value_val>
 mistakes	<y_axis>
 ,
-SmartKids
+Smart Kids	<x_axis_label_Scnd_highest_value>
 with
 6	<y_axis_Scnd_highest_val>
 ,
@@ -1051,10 +1049,10 @@ with
 Cats	<x_axis_label_5th_highest_value>
 with
 3	<y_axis_5th_highest_val>
-and	<order_3rd>
+and
 the
 only	<y_axis_least_value>
-one
+one	<y_axis_least_value_val>
 mistake	<y_axis>
 made
 by
@@ -1069,9 +1067,7 @@ This
 graph
 shows
 the
-number	<y_axis>
-of
-mistakes	<y_axis>
+number of mistakes	<y_axis>
 made
 by
 each
@@ -1113,17 +1109,10 @@ The
 chart
 shows
 the
-least	<y_axis_least_value>
-successful	<t=1_a=b>
-teams	<x_axis>
-in
-the
-quiz competition	<t=1_a=b>
+least successful teams in the quiz competition	<topic>
 by
 the
-number	<y_axis>
-of
-mistakes	<y_axis>
+number of mistakes	<y_axis>
 made
 .
 The
@@ -1143,7 +1132,7 @@ by
 smart kids	<x_axis_label_Scnd_highest_value>
 with
 6	<y_axis_Scnd_highest_val>
-and	<order_3rd>
+and
 ABC	<x_axis_label_3rd_highest_value>
 with
 5	<y_axis_3rd_highest_val>
@@ -1163,7 +1152,7 @@ approximately	<y_axis_approx>
 cats	<x_axis_label_5th_highest_value>
 at
 3	<y_axis_5th_highest_val>
-and	<order_3rd>
+and
 DIY	<x_axis_label_4th_highest_value>
 at
 4	<y_axis_4th_highest_val>
@@ -1177,9 +1166,7 @@ This
 graph
 shows
 the
-number	<y_axis>
-of
-mistakes	<y_axis>
+number of mistakes	<y_axis>
 made
 by
 each
@@ -1192,7 +1179,7 @@ The
 team	<x_axis>
 Lovely	<x_axis_label_highest_value>
 made
-hte
+the
 most	<y_axis_highest_value>
 mistakes	<y_axis>
 (
@@ -1203,7 +1190,7 @@ while	<y_x_comparison>
 smart kids	<x_axis_label_Scnd_highest_value>
 ,
 ABC	<x_axis_label_3rd_highest_value>
-and	<order_3rd>
+and
 DIY	<x_axis_label_4th_highest_value>
 follow
 with
@@ -1212,14 +1199,14 @@ of
 6	<y_axis_Scnd_highest_val>
 ,
 5	<y_axis_3rd_highest_val>
-and	<order_3rd>
+and
 4	<y_axis_4th_highest_val>
 respectively
 .
 Fearless	<x_axis_label_least_value>
 only	<y_axis_least_value>
 made
-one
+one	<y_axis_least_value_val>
 mistake	<y_axis>
 ,
 making
@@ -1257,7 +1244,7 @@ Smart Kids	<x_axis_label_Scnd_highest_value>
 ABC	<x_axis_label_3rd_highest_value>
 ,
 DIY	<x_axis_label_4th_highest_value>
-and	<order_3rd>
+and
 Cats	<x_axis_label_5th_highest_value>
 .
 Fearless	<x_axis_label_least_value>
@@ -1267,7 +1254,7 @@ the
 winners
 with
 only	<y_axis_least_value>
-one
+one	<y_axis_least_value_val>
 mistake	<y_axis>
 .
 <end_of_description>
@@ -1279,9 +1266,7 @@ The
 chart
 compares
 the
-numbers	<y_axis>
-of
-mistakes	<y_axis>
+numbers of mistakes	<y_axis>
 made
 by
 different
@@ -1299,7 +1284,7 @@ whilst	<y_x_comparison>
 fearless	<x_axis_label_least_value>
 only	<y_axis_least_value>
 made
-3	<y_axis_5th_highest_val>
+3	<y_axis_inferred_least_value_approx>
 .
 <end_of_description>
 
@@ -1313,21 +1298,14 @@ a
 graph
 showing
 the
-least	<y_axis_least_value>
-successful	<t=1_a=b>
-teams	<x_axis>
-in
-the
-quiz	<t=1_a=b>
+least successful teams in the quiz	<topic>
 .
 Team	<x_axis>
 lovely	<x_axis_label_highest_value>
 made
 the
 most	<y_axis_highest_value>
-amount
-of
-mistakes	<y_axis>
+amount of mistakes	<y_axis>
 with
 9	<y_axis_highest_value_val>
 mistakes	<y_axis>
