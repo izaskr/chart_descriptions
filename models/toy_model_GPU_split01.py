@@ -101,7 +101,7 @@ def main(topicID):
     validation_dataset = reader.read(home_dir+"keyvalue_val.txt")
 
     vocab = Vocabulary.from_instances(train_dataset + validation_dataset,
-                                      min_count={'tokens': 3, 'target_tokens': 3})
+                                      min_count={'tokens': 1, 'target_tokens': 1})
 
     src_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
                              embedding_dim=SRC_EMBEDDING_DIM)
@@ -129,7 +129,7 @@ def main(topicID):
 
     model = model.cuda(CUDA_DEVICE) # NOTE else error: why? we put the Trainer onto CUDA already
     optimizer = optim.Adam(model.parameters(), lr=lr)
-    iterator = BucketIterator(batch_size=32, sorting_keys=[("source_tokens", "num_tokens")])
+    iterator = BucketIterator(batch_size=12, sorting_keys=[("source_tokens", "num_tokens")])
 
     iterator.index_with(vocab)
 
@@ -138,7 +138,7 @@ def main(topicID):
                       iterator=iterator,
                       train_dataset=train_dataset,
                       validation_dataset=validation_dataset,
-                      num_epochs=1,
+                      num_epochs=n_epoch,
                       cuda_device=CUDA_DEVICE)
                       #,serialization_dir="logging")
     """
@@ -151,7 +151,7 @@ def main(topicID):
     """
     # Tensorboard logger
     #writer = SummaryWriter('runs/exp-1')
-    for i in range(n_epoch): # DONE make a variable
+    for i in range(1): # DONE make a variable
         print('Epoch: {}'.format(i))
         metrics = trainer.train()
         #for x,v in metrics.items(): print("******* METRICS",x,v)
