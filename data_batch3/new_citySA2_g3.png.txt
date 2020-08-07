@@ -1,0 +1,69 @@
+"\"This is a chart showing the coldest cities in South America.  Bogota is the coldest, at 16 degree, with Santiago following at 20 degrees,  Cordoba is less cold, at 23 degrees, while Lima is warmer still at 25 degrees.  The least cold city is Belem, at 36 degrees,\""
+
+
+"\"This chart shows the coldest cities in South America. It shows Bogata was the coldest at just 16 degrees and Belem was the warmest at 36 degrees. After Bogata, the next coldest cities are Santiago at 20 degrees, followed by Cordoba at 18 degrees, Lima at 25 degrees and then Montevideo at 29 degrees.\""
+
+
+"\"As shown on the graph, the coldest city in South America is Belem which is around 36, Montevideo is next with a temperature of 29. The temperature in Lima is 25 as shown by the red bar and Cordoba is 23 as shown by the yellow bar. Santiago is 20 and Bogota is the coldest at 16.\""
+
+
+"\"This chart shows the temperature in degrees celsius of the coldest cities in South America.  \\nIt shows that Bogota is the coldest at 16 degrees. The next coldest cities are Santiago at 20 degrees, Cordoba at 23 degrees, Lima at 25 degrees, Montevideo at 29 degrees and the least coldest city on the chart is Belem at 36 degrees.\""
+
+
+"\"The chart shows  cities in South America and compares their temperatre. No indication of duration for the sample nor the dates the data was gathered.\\nBelem had hte highest temperature at about 36 degrees followed by Montivideo at 28 degrees, Lima at 25 degrees, Cordoba at 23 degrees, Santiago at 20 degrees and finally Bogota at 16 degrees. The data  is of limited value for he reasons givne in my opening remarks.\""
+
+
+"\"The chart shows the coldest cities in South America by temperature. The warmest city recorded is Belem at over 35 degrees centigrade, followed closely Montrevideo and Lima. Cordoba and Santiage are not far behind meanwhile Bogota is the coldest city at a little over 15 degrees.\""
+
+
+"\"Bogata is the coldest city in the surveyed data while Belem is the warmest.\""
+
+
+"\"This bar chart shows the coldest citiies in South America by Celsius temperatures and by various cities.\\n  The highest temperature was recorded in Belem at 36 celsius,followed by Montevideo at 29 celsius.Third highest was in Lima at 25 celsius.\\nThen Cordoba followed at 23 celsius,then Santiago at 20 celsius.\\nThe lowest recorded temperature was in Bogota at 16 celsius.\""
+
+
+"\"The chart shows the coldest cities in South America by average temperature. The coldest city with an average temperature of 16°C is Bogota, followed by Santiago at 20°C, Cordoba at 23°C, then Lima at 25°C. Belem is the warmest city shown with an average temperature of 36°C, closely followed by Montevideo at 29°C.\""
+
+
+"\"A study has shown that the coldest city in South America is Bogota at a temperature of 16 closely followed by Santiago, Cordoba and Lima at a respective  20C,23C and 25C\\nTopping the temperatures are Montevideo at 29C and Belem at 36C\""
+
+
+"\"The coldest cities by Celsisus temperature in South America are Bogota (15C) and Santiago (20C) but Cordoba is not far behind at 23C. Belem is the warmest by comparison at 36C!\""
+
+
+"\"The coldest city in SOuth America is Bogota with an average temperature of 15 degrees C. Belem was the warmest of the group of cities with an average of above 35 degrees C. This represented the value range of all the cities listed in the table.\""
+
+
+"\"This graph is showing the coldest cities in South America by temperature in celsius. The coldest city is Bogota at 16 degrees C. A 4 degree increase to 20 degrees C sees Santiago in second, a further 3 degrees at 23 degrees C is then Cordoba. Then a 6 degree jump to 29 degrees C is Montevideo and a further 6 degrees, at 36 degrees C is Belem.\""
+
+
+"\"This chart here shows the coldest cities in South America. \\n\\nStarting from the coldest, the temperature in Bogota was 16 degrees Celsius, while the hottest city was Belem, having reached 36 degrees Celsius. In between we had Santiago at 20 degrees Celsius, Cordoba at 23 degrees Celsius, Lima at 25 degrees Celsius and Montevideo at 29  degrees Celsius.\""
+
+
+"\"Bogota is the coldest city in South America at 16C, followed by Santiago at 20C. Cordoba and Lima are at 23C and 25C respectively. Montevideo is 29C, and Belem is the warmest of these cities at 36C.\""
+
+
+"\"This chart shows the temperatures of the coldest cities in South America. The coldest city is Bogotá with a temperature of 16*C. Santiago is the second coldest at 20*C. Slightly warmer at 23*C is Córdoba. Lima has a temperature of 25*C. The next warmest city on the chart is Montevideo with temperatures of 29*C. There is then a jump of 6*C to the warmest city on the chart which is Belem at 36*C.\""
+
+
+"\"The graph details the coldest temperatures in various South American cities. Bogota is coldest, at only 16degC, with Santiago just four degrees warmer. The warmest city on the graph is Belem, in Amazonian Brazil, with a reading of 36degC. After Belem comes Montevideo at 29degC, then Lima at 25degC, and Cordoba at 23degC.\""
+
+
+"\"This chart shows the temperature of the coldest cities in South America. The coldest city in South America is Bogota at 16 degrees, followed by Santiago at 20 degrees, Cordoba at 23 degrees, Lima at 25 degrees and Montevideo at 28 degrees, while the warmest of the displayed cities is Belem at 36 degrees.\""
+
+
+"\"This particular chart showcases the coldest cities by degrees centigrade within South America. We can see that Botoga is the coolest, with a temperature of 16 degrees celsius. 4 degrees warmer we have Santiago, which stands at 20 degrees. Both Cordoba and Lima come in under 25 degrees, with Montevideo coming in just shy of 30 degrees celsius. 20 degrees higher than the coolest Bogota, we have Belem, which we can see here has a temperature of 36 degrees.\""
+
+
+"\"This chart compares the temperatures of the coldest cities in South America.  Bogota registers the lowest temperatures reaching a minimum of 16 degrees Celsius, this is closely followed by Santiago at 20 degrees Celsius and Cordoba at 23 degrees Celsius. Belem registers the least coldest temperature of 36 degrees Celsius which is over double that of Bogota. Montevido (29 Degrees Celsius) and Lima(25 degrees Celsius) rank at 2nd and 3rd as the least coldest of the six countries,\""
+
+
+"\"The coldest city in South America is Bogota with a temperature of 16 degrees celcius. The hottest city is Belem with a temperature of 36 degrees. Second hottest is Montevideo at 28 degrees followed by Lima at 25 degrees celcius. Next is Cordoba with 23 degrees and then Santiago with 20 degrees.\""
+
+
+"\"The following graph show the temperature of Santiago, Lima, Bogota, Montevideo, Belem and Cordoba. Bogota comes in coldest at 16 degrees Celsius. The warmest being Belem at 36. Montevideo, Lima, Cordoba and Santiago follow with 29,25 23 and 20 degrees Celsius respectively.  The range between Belem the warmest and Bogota the coldest is 20 degrees celcius.\""
+
+
+"\"This graph compares the coldest cities in South America by average temperature (y axis), with the city name on the x axis. Bogota is the coldest city at 16 degrees. Santiago is the second most coldest (20 degrees), Cordoba is the third most coldest (23 degrees), Lima is the fourth most coldest (25 degrees) and Montevideo is the fifth most coldest (29 degrees). The sixth most coldest (warmest of the 6 cities) is Belem (36 degrees).\""
+
+

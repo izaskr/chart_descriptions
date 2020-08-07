@@ -1,0 +1,3 @@
+Split 2:
+Each topic has 2 charts, one is in the train/val, the other in the test set.
+Topics with a single chart go to the train/val.

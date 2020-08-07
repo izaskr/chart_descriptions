@@ -28,6 +28,7 @@ from allennlp.predictors import SimpleSeq2SeqPredictor
 from allennlp.training.trainer import Trainer
 from tensorboardX import SummaryWriter
 
+
 parser = argparse.ArgumentParser()
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
 parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
@@ -57,6 +58,8 @@ lr = args["lr"]
 # TG_EMBEDDING_DIM = 128 # target
 # HIDDEN_DIM = 128
 # CUDA_DEVICE = 0
+
+
 
 ### COMET ML CONFIGURATION ###
 experiment = Experiment(api_key="Vnua3GA829lW6sM60FNYOPStH",
@@ -120,7 +123,6 @@ def main():
                       validation_dataset=validation_dataset,
                       num_epochs=1,
                       cuda_device=CUDA_DEVICE)
-
                       #,serialization_dir="logging")
     """
     trainer.train()

@@ -1,0 +1,69 @@
+"\"This chart shows the most explored glaciers by the number of expeditions undertaken during a particular time frame. Volta received 4 visits, Tasman received 2 visits, Akkem received 9 visits, Zvezda received 6, Mefonna received 13 (and as such was the most popular) and Olav received 5.\""
+
+
+"\"This chart shows the most explored glaciers according to the number of expeditions.\\nMefonna has the most with 13 expeditions, this is much more than other glaciers.\\nTasman has the fewest expeditions with just 2.\""
+
+
+"\"This chart shows the number of expeditions that have explored a variety of glaciers. We can see that the most explored is Mefonna with 13 expeditions, and the least explored is Tasman.\\nThe data doesn't tell us much about the thoroughness, length of time spent per expedition, or the size of the expedition party. As such I don't think this chart is very useful in isolation.\""
+
+
+"\"This chart expresses the most explored glaciers by the number of expeditions. The glacier which has been explored the most is Mefonna with 13 expeditions, Akkem is next most explored with 9. Zvezda, Olav, and Volta have each been explored 6, 5 and 4 times respectively with Tasman being explored the least amount of times with 2 expeditions.\""
+
+
+"\"The chart shows the most explored glaciers by number of expeditions. From the chart we can see that Mefonna is clearly the most explored glacier, whilst Tasman is the least explored. Volta, Olav and Zvezda are also nowhere near as explored as Mefonna, and Akkem trails at second most explored glacier.\""
+
+
+"\"The graph shows the most epxlored glaciers by number of expeditions. Six glaciers are listed.\\n\\nThe most explored glacier, at 13 expeditions, is Mefonna. The least, at 2 expeditions, is Tasman. The median point is between 5 and 6.\""
+
+
+"\"This chart shows the most explored glaciers by number of expeditions.\\nFrom the chart we see that the Akkem and Mefonna glaciers (with 9 and 13 visits respectively, for a total of 22) were visited more often than the remaining 4 glaciers put together (with a combined total of 17).\""
+
+
+"\"This chart shows the number of expeditions made to glaciers.\\n\\nFrom this chart we see that the glacier that has had the most expeditions made to it is the Mefonna glacier with 13 expeditions. The next glacier with the most expeditions is Akkem with 9 followed by Zvezda with 6. The Olav glacier follows this with 5 expeditions made to it and the Volta has 4 expeditions. Tasman has the least number of expeditions made to it at 2.\""
+
+
+"\"The graph describes the most explored glaciers, measured by number of expeditions taken.\\nThe most explored glacier is Mefonna (13 expeditions), followed by Akkem (9 expeditions). The least explored glacier is Tasman (2 expeditions).\""
+
+
+"\"This graph shows the most explored glaciers by number of expeditions. Mefonna was the most explored glacier with 13 expeditions. Akhem followed with 9 expeditions. Zvezda, lac, Volta and Tasman glaciers were all much lower with between 2 and 6 expeditions each.\""
+
+
+"\"This graph shows the number of expeditions which have taken place across various glaciers. The numbers are varied between 13 expeditions and 2 expeditions with no clear similarities between any of the glaciers.\""
+
+
+"\"This graph compares glaciers by how frequently they have been explored. \\n\\nMefonna has the highest number of explorations by some way with 13 overall. Akkem is next with 9. Zvezda is next with 6, closely followed by Olav with 5 and Volta with 4. Tasman has had the fewest with only 2 expeditions.\""
+
+
+"\"The graph shows the most explored glaciers by the number of expeditions. The least explored glacier was Tasman with only 2 expeditions. Volta had 4 expeditions Olay 5 and Zvezda 6. Akkem had 9 expeditions but the most explored was Mefonna. Mefonna had a total of 13 expeditions.\""
+
+
+"\"The chart shows the  most explored glaciers based on the number of expeditions to each glacier\\n\\nChart shows most popular is the Mefonna glacier  with the least popular being the Tasman. Akkem, Zvezda and Olav are in the middle range.\""
+
+
+"\"This graph displays the most explored glaciers and uses the number of expeditions to qualify this data. The most explored by far is Mefonna, with 13 expeditions. This number is slightly lower for Akkem (9 expeditions) and lower still for Zvezda (6). The three glaciers that have not had as many expeditions are Olav (5), Volta (4) and finally Tasman, with only 2 expeditions.\""
+
+
+"\"This table shows the number of expeditions journeying to six different glaciers. The most visited glacier (Mefonna) had 13 visits; the least visited glacier (Tasman) had 2 visits. The table does not  necessarily represent the depth or breadth of exploration - it does not show the duration of the expedition, nor the size of the geographical area explored.\""
+
+
+"\"The chart shows the most explored glaciers in terms of the number of expeditions with Meefonna having the most – 13 expeditions down to asman the least expored of the group ar 2 expeditions. In between, we have Volata 4, Olav 5, Zvevzda 6 and Akkem 9.\""
+
+
+"\"This graph shows how well-explored several glaciers are, based on how many expeditions have been made to them. The least explored glacier is Tasman, with only 2 expeditions ever being made there, whilst Mefonna is by far the most explored, having undergone 13 expeditions.\""
+
+
+"\"The chart shows the most explored glaciers by the number of expeditions. We can see that the most explored is Mefonna with approximately 13 number of expeditions. This then decreases to 9 with Akkem and Zvezda is next with 6. The least explored are Tasman with 2, Volta with 4 and Olav at approximately 5.\""
+
+
+"\"This graph shows the numer of expeditions take up each Glacier. Medfonna being the most climed at 13 and Tasman being the least popular at just 2 climbs.\""
+
+
+"\"This chart shows that Mefonna was the most explored glacier with 13 expeditions, followed by Akkem, Zvezda, Olav, Volta and last, Tasman with 2 expeditions.\""
+
+
+"\"This chart shows us the number of expeditions to different glaciers.  Mefonna is by far the most visited, with Akkem coming in second at 9 expeditions.\""
+
+
+"\"Mefonna is the most explored glacier by number of expeditions. Mefonna had 13 expeditions whereas Tasman only had 2. Volta had 4, Olay 5, Zvezda 6 and Akkem 9.\""
+
+

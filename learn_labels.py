@@ -52,7 +52,7 @@ def get_discourse_tokens(corpus):
 
 	discourse = {"order_Scnd","y_axis_approx","y_axis_trend","separator",
 "y_axis_trend_up","slope_up","y_x_comparison_rest","order_3rd",
-"y_axis_trend_down","y_x_comparison","x_axis_range_start","x_axis_range_end","order_rest",
+"y_axis_trend_down","y_x_comparison","order_rest", "order_last",
 "order_4th","x_axis_trend","x_axis_trend_down", "y_axis_least_value", "y_axis_highest_value"}
 
 	vocab_discourse = set() # only word types that are labeled for discourse

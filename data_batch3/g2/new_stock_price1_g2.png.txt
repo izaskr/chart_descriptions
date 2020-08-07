@@ -1,0 +1,69 @@
+"\"The chart is titled closing stock prices in £ sterling for Akef Inc on Wednesday but includes data for five days, Monday to Friday. Whilst Wednesday showed the highest closing price of £74, and Friday the lowest at around £9 it is difficult to say with any certainty that the data can be relied on given the confusion caused by the title of the chart.\""
+
+
+"\"This chart shows the closing stock prices for Akef Inc. on Wednesday in comparison to the rest of the week from Monday to Friday. Stock prices rose from Monday at 50 GBP to around 75 GBP on Wednesday. However, prices then decreased to 20 GBP, then 10 GBP on Thursday and Friday respectively.\""
+
+
+"\"Akef Inc. had the highest closing stock price on wednesday at £76, it was closely followed by £62 on tuesday. the start of the week saw an average rate of £51. the lowest closing price was recorded at the end of the week on friday with £9\""
+
+
+"\"The closing stock prices for Akef Inc on Wednesday were £75. (I dont understand). On Monday it was £50, Tuesday £60, Thursday approx. £21 and friday approx. £10.\""
+
+
+"\"On Wednesday we boomed with a stock price of 75 for Akef. Dropping dramatically at the end of the week by close of play on FRiday\""
+
+
+"\"This chart shows the daily closing stock prices for Akef Inc.\\n\\nOn Wednesday the closing stock price for Akef Inc. was £74.\\n\\nWednesday was the highest closing stock price during this week.\""
+
+
+"\"This chart shows the closing stock price for Akef Inc on Wednesday was £76. This was the highest day of the week, compared to £52 on Monday, £62 on Tuesday, £22 on Thursday, and £8 on Friday, which was the lowest price of the week,\""
+
+
+"\"The chart shows the daily closing stock prices for Akef Inc.  Wed had the highest closing stock price, the lowest stock price was Friday.\""
+
+
+"\"The chart shows closing stock prices for Akef Inc. on Wednesday. We can see from the chart that this was 75%.\""
+
+
+"\"The chart shows the closing stock price for Akef Inc. on each day of the week, excluding weekends. It shows that the closing stock price was just above £50 on Monday, just above £60 on Tuesday and around £75 on Wednesday. The closing stock price then drops to just above £20 on Thursday and again to just under £10 on Friday.\""
+
+
+"\"This chart illustrates stock prices for Akef Inc over the course of the week. The stock rose from 52£ on Monday to a high of 74£ on Wednesday. It then plummeted sharply on Thursday to 22£, and fell again on Friday to 9£.\""
+
+
+"\"Akef Inc stock price closed at £50 on Monday, £62 on tuesday, closed at a high of £74 on wednesday before falling to £22 at thursday close and falling again to close at £9 on friday.\""
+
+
+"\"This chart shows the closing stock prices for Akef Inc. from Monday to Friday. It reached approximately £51 on Monday, increasing to £62 on Tuesday, reaching a peak of £74 on Wednesday, before falling to around £22 on Thursday and just under £10 on Friday.\""
+
+
+"\"Stock prices dived on Thursday from a high of £74 to just £22 the following day.\\nThis trend continued of Friday falling more than 50% to just under £10.\""
+
+
+"\"Akef Inc. stock price closed at nearly 75% on Wednesday, a weekly high.\""
+
+
+"\"The stock price closed on Monday slightly above £50. As at today, Wednesday, the stock price closed above £70. The stock price on Wednesday is the highest for the week\""
+
+
+"\"This graph shows the closing stock prices for Akef Inc. per day of the week. The closing stock price is gradually rising towards mid-week, being approx. £51 on Monday, £62 on Tuesday and £74 on Wednesday. there is then a larger downward turn, with stocks closing at £22 on Thursday and £9 on Friday.\""
+
+
+"\"This graph shows the closing stock price for Akef Inc. on each week day. The closing stock price for Akef Inc. was at its highest point for the week on Wednesday, when it was roughly £74. It dropped after its peak on Wednesday to £22 on Thursday, and £9 on Friday. Monday and Tuesday saw the stock gain its high price, with stock price at £51 and £62 respectively.\""
+
+
+"\"The graph shows the closing stock price of Akef Inc across one working week i.e Monday to Friday. It shows that on Wednesday the closing stock price was at it's highest at 74 an increase from 51 on Monday through 62 on Tuesday. However, it decreased markedly on Thursday and then Friday and closed the week on 8.\""
+
+
+"\"This chart shows the closing stock prices for Akef Inc. on Wednesday.\\nYou can see the stock closed highest on Wednesday at £72, followed by a price of £61 on Tuesday, £51 on Monday, £21 on Thursday and finally a low of £9 on Friday.\""
+
+
+"\"The highest closing stock price was at it highest on Wednesday with £72.  It's lowest was Friday at £9.\""
+
+
+"\"The chart shows the closing stock prices for AKEF inc on different days of the week. Monday saw a stock price of £51. Tuesday and Wednesday saw a rise to £74. After this was a significant drop to £22 on Thursday and £9 on Friday.\""
+
+
+"\"This graph compares the closing stock prices in GBP for Akef Inc on different days of the week. The highest closing stock price is on a Wednesday which is around 74 pound. The lowest closing stock price is on a friday with the price being around 10 pound. The closing stock price on Thursday is  more than double that on Friday (22 pounds). A similar increase of around 11 pounds occurs from Monday to Tuesday (51 pounds to 62 pounds).\""
+
+

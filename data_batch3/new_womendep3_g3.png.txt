@@ -1,0 +1,69 @@
+"\"This chart compares the representation of women in the literature department against that in various other  departments.  It shows the Literature department as having the lowest representation of women, at 21%.  Arts has slightly more at 31% and Mathematics considerably more at 58%.  Computer Science is hnigher still, at 60% and Engineering is the highest, at 70%.\""
+
+
+"\"This chart shows the number of women represented in different departments. Engineering has the most women at 70% followed by Computer Science with 60%, Mathematics with 54%, Arts with 32% and Literature with 22%.\""
+
+
+"\"Within the literature department, women are represented within Engineering at 70%, this is followed by Computer Science at 60% and Mathematics at around 55%. The Arts is around 32% and Literature is the lowest with 24%.\""
+
+
+"\"This chart shows the percentage of women represented in various departments in a school.  It shows Engineering is at the top at 70%, while Literature is at the bottom at 33%.  In between these are Computer Science at 60%, Mathematics at 55% and Arts at 32%.\""
+
+
+"\"The chart shows 5 departments in a school/ college in which the display seems to suggest the number of women in each department. However, the title is somewhat ambiguous. \\nTaking the chart to mean the bar to do with the literature departments number of women is the lowest percentage at 24%. Then comes art on 32% followed by Maths with 56%, computer science at 60% and finally Engineering at 70%.\""
+
+
+"\"This chart shows the relative percentage of women represented within each department. The literature department is compromised of just over 20% women which is the lowest percentage across all five departments. The next lowest is the Art department with just over 30%, followed by Mathematics which has a much higher rate of over 50% and then Computer Science which has 60%. Finally the Engineering department is mostly women with an impressive 70%.\""
+
+
+"\"The literature department has the lowest level of women representation at 24%\""
+
+
+"\"This bar chart shows representation of women in the literature department as a percentage by their respective departments.\\nThe highest percentage were in engineering with 70%,followed by computer science at 60%.Mathematics was third highest at 55%,followed then by Arts at 32%.The lowest representation was in literature at 24%.\""
+
+
+"\"The graph illustrates female representation in different departments. With the lowest representation, at only 22% we have the Literature department, closely followed by the Arts department at 32%. In contrast, the Engineering, Computer Science and Mathematics departments have 70%, 60% and 55% representation respectively.\""
+
+
+"\"According to a report, the percentage of woman represented in the literature department for Engineering is 70%, in Computer Science 60% followed by 55% in the Mathematics department.\\nFor Arts and Literature the figure falls to more than  half this at 31% and 22% respectively.\""
+
+
+"\"Literature and the Arts have the least representation of women in their departments - 20% and 30% respectively. Compared to STEM-related departments such as Computer Science 60%, Maths 55% and Engineering 70%.\""
+
+
+"\"Engineering was the department in which women were best represented with 70%; the least was literature itself with just over 20& and the arts slightly more with just over 30%. Computer science was also well represented by women seeing a 60% representation rate which would suggest traditonally male dominated departments are now well represented by women.\""
+
+
+"\"This graph is showing the percentage of female representation in various literature departments. The lowest, coming in at 22% is Literature; there is 32% female representation in Arts. A jump up to 55% in Mathematics literature, followed by a 5% increase to 60% in Computer science literature, and finally the most female representation being Engineering literature with 70%.\""
+
+
+"\"The chart shows there are approximately 23% of women in the literature department. Much less than the Engineering department which had the highest percentage of women representation, at 70%. Women representation in the literature department is shown to be the lowest out of the five departments examined.\""
+
+
+"\"Women are less well represented in the Literature department than any other subject, with only 23%. They are slightly better represented in the Arts with 32%, roughly even in Mathematics with 55%, and in a majority in Computer Science and Engineering at 60% and 70% respectively.\""
+
+
+"\"This chart shows the percentage of women in different departments. The highest percentage of women are found in the engineering department where they make up 70% of the department. Next highest is the computer science department where 60% are women. Not far behind is the mathematics department, made up of 54% women. There is then quite a big drop to the final two departments represented on the chart. Arts, where 32% are women and literature where 22% are women.\""
+
+
+"\"The graph depicts female representation in the literature department, in comparison to other departments. Literature has the lowest rating for female representation of all the featured departments, with only 22%. The Arts are next with 32%, then Maths with 55%, Computer Science with 60% and finally Engineering with 70%.\""
+
+
+"\"This chart shows the percentage of women represented in the literature department.\\nFrom the chart we see that women are most represented in Engineering at 70%, followed by Computer Science at 60%, Mathematics at 55%, Arts at 32% and \\n least represented is literature at 24%.\""
+
+
+"\"In this chart we see that the Engineering department has the biggest representation of women, with 70%. Literature falls bottom with 22%. This being a difference of 48%. Computer science and Mathematics are also significantly higher represented than Literature, with Computer Science showing a percentage of 60%. Only the Arts falls down from this, with 31%, yet this is still 9% higher than we see with Literature department.\""
+
+
+"\"Sorry this graph has an error in the title and should read.... compares the percentage of women represented in the Literature department with other academic departments.  The graph shows that the Literature department has the least female representation at 22 percent.  The Engineering department has the top representation at 70 percent which is over triple that of Literature.  Computer Science and Mathematics have second and third highest representation at 59 and 55 percent respectively.  The Arts is also higher than Literature with a representation of 32 percent.\""
+
+
+"\"The percentage of women representation in the literature department is 22%. The highest women representation was Engineering at 70% closely followed by Computer Science at 60%. Mathematics had 54% representation followed by Arts at 32%.\""
+
+
+"\"The following graph show the percentage representation of women in the literature department. Engineering has the most representation at 70%. Literature has the lowest percent representation at 22%. Computer Science is second best at 60% followed by Mathematics at 56% and Arts at 32%.\""
+
+
+"\"This graph displays women representation in the literature department as a percentage, comparing the female representation to four other departments (Arts, Computer Science, Mathematics and Engineering). In Literature, women represent 22% of the department. Comparing this to other departments (32% for Arts, 55% for Mathematics, 60% for Computer Science and 70% for Engineering), the Literature department has the least female representation.\""
+
+

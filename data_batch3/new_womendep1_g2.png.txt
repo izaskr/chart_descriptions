@@ -1,0 +1,69 @@
+"\"The chart is titled The most inclusive university departments given representation of women and depicts percentages across five departments. It is unclear whether the percentages refer directly to the proportion of women either working, studying or both in each department. The Literature department records the highest percentage of all departments at 70% with Mathematics having the lowest at 10%. Computer Science records 20%. Engineering 30% and Arts 60%.\""
+
+
+"\"This chart shows the most inclusive university departments, in terms of their representation of women. The most inclusive is the Literature department at 70%, closely followed by the Arts department at 60%. Engineering department's representation of women is less than half at 30%, with computer science and mathematics department's the lowest, with 20% and 10% respectively.\""
+
+
+"\"This chart shows that the mathematics department is the least inclusive with women making up only 10% of the department. on the other hand, the literature department boasts of 70% female population. engineering and computer sxience departments also have a low percentage of women in the workforce.\""
+
+
+"\"The most inclusive university departments given representation of women were firstly literature (70% of females I'm assuming), followed by Arts (60%), followed by engineering (30%). The least inclusive were computer science (20%) and maths (10%).\""
+
+
+"\"The top Arts and literature two generally more female welcoming/stereo typical subjects, no surprise that the typical subjects geared towards men have so few women in their departments\""
+
+
+"\"This chart shows the percentage of the most inclusive university departments given representation of women.\\n\\nMathematics has the least, at 10% inclusion. Literature has the most inclusion, at 70%.\\n\\nSTEM subjects are less inclusive departments, and the arts are more inclusive departments.\""
+
+
+"\"This chart shows the most inclusive university departments given inclusion of women. \\nIt shows that the literature department is the most inclusive, with 70% representation of women, while mathematics has the least percentage of women, at 10%. \\nArts was the second most inclusive department , at 60%, while computer science and engineering scores 20% and 30% respectively.\""
+
+
+"\"This is a bar chart displaying the results of a study analysing the most inclusive university departments representation of women.  The literature and arts departments have a considerably higher percentage than engineering, mathematics and computer science and average 65% in comparison to the latter  which average 20%\""
+
+
+"\"The chart shows the representation of women in different university departments. Literature is the department with the highest percentage (70%), followed by Arts (60%). This is then halved in the Engineering department with 30%, followed by 20% in computer science and 10% in mathematics.\""
+
+
+"\"The chart shows representation of women in five University departments. Literature was the most inclusive at 70%, with Arts following at 60%. Engineering had a female representation of 30%, Computer Science 20% and the least representative was Mathematics at 10%.\""
+
+
+"\"This graph shows the inclusivity of university departments towards female staff. The most inclusive departments - by a significant margin - are Arts and Literature. The least inclusive are Computer Science, MAthematics and Engineering. The most diverse, Literature, is 70% female staff, compared to only 10% in Mathematics.\""
+
+
+"\"The most inclusive university department given representation of women is literature at 70%, next is art at 60%. Engineering is 30%, computer science is 20% and last is Maths with 10%.\""
+
+
+"\"This chart shows the percentage of women in 5 different university departments. Women represent the majority in Literature (70%) and Arts (60%), but are a minority in Engineering (30%), Computer Science (20%) and Mathematics (10%).\""
+
+
+"\"Arts and literature are the departments with most female representation in the graph.\\nOverwhelmingly so in that women comprise the majority in both Arts (60%) and Literature (70%).\\nThe trend is reversed in the Stem subjects of Computer Science (20%), Maths (10%) and engineering (30%)\\nThe only dept close to 50% is literature where women outnumber men by 50% at 60/40.\""
+
+
+"\"Literature, followed by the Arts were the most inclusive departments with 70% and 60% respectively. Maths was the least inclusive for Women with just 10%\""
+
+
+"\"The mathematics department has 10% of the most inclusive university departments given representation of women. This is the lowest of all. Literature department has the highest percentage (70%) of university departments given representation of women. the Arts department has 60% while Engineering department has 30%\""
+
+
+"\"This graph shows the percentages of women in university departments. Mathematics is the least representative, with only approx. 10% representation, while literature is the most, with almost 70% women. The arts is close behind with 60%, followed by Engineering at 30% and Computer Science at 20%.\""
+
+
+"\"This graph shows the percentage of female representation in five different university departments, Computer Science, Arts, Maths, Literature and Engineering. Literature has the highest percentage of women with 70%, Art has the second highest percentage at 60%. Engineering is third, with 30% and Computer Science fourth, 20%. The lowest representation of women was Mathematices, with only 10%.\""
+
+
+"\"The graph shows which university departments were the most inclusive in regards to representation of women. The graph clearly showed that Arts and also Literature had the highest representation at 60% and 70% respectively whereas the lowest department with female representation was Mathematics at 10%\""
+
+
+"\"This chart shows the most inclusive university departments based on the representation of women.\\nThe least inclusive department is Mathematics with a 10% representation of women, followed by the computer science department at 20%. The next is engineering at 30%. The representation of women is then doubled in the arts department at 60%. The most inclusive department is the literature department with 70% representation of women.\""
+
+
+"\"Representation of women in university departments are highest in Literature, with 70%. The next highest representation in in the Arts with a result of 60%.  Engineering follows with 30%, then Computer Science with 20%.  Finally the lowest representation is in Mathematics where there is only 10%.\""
+
+
+"\"The chart shows the representation of women ( as a % ) in five different university departments. These range from Mathematics at 10% to Literature at 70%. Between these are Computer science on 20%, Engineering on 30% and Arts on 60%.\""
+
+
+"\"This graph compares the percentages of the most inclusive university departments in reference of the representation of women. Literature is 7 times that of Mathematics with percentages 70% and 10% respectively. Engineering and Computer Science have closer percentages to mathematics with percentages of 20% and 30%. Arts has the second highest representation of women with a percentage of 60%.\""
+
+

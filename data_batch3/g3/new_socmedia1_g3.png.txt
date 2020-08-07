@@ -1,0 +1,69 @@
+"\"This chart shows the distribution of social media usage among different age groups.  By far the highest usage is among the 45-54 age group at 150 minutes.  The 15-24 age group is some way behind, followed by the 55-64 age group.  The 25-34 and 35-44 age groups are roughly equal but considerably lower than the 55-64 age group, at 78 minutes.\""
+
+
+"\"This chart shows on average how many minutes different age groups use social media. It shows that 45-54 year olds use it the most with 150 minutes followed by 15-24 year olds with 123 minutes, then 55-64 year olds with 110 minutes and the using it the least amount of time were 25-34 and 35-44 year olds with 77 minutes.\""
+
+
+"\"The graph shows that people aged between 45-54 spend approximately 152 minutes on social media per day. The next highest figure is people aged 15-24 who spend around 124 minutes each day. Those aged 25-34 and 35-44 spend a similar amount of time on social media per day, 76 minutes and 72 minutes respectively. The 55-64 age group spends around 112 minutes per day.\""
+
+
+"\"This chart shows how many minutes different age groups use social media each day.\\nIt shows the youngest group of 15-24 year olds use social media for 124 minutes a day, which decreases sharply for the next age group of 25-34 year olds who only use it for 77 minutes a day.  This is almost the same as those in the 35-44 year olds who use is for one minute less at 76 minutes a day.  The next group of 45-54 year olds are the most frequent users at 150 minutes a day, while the oldest group use social media for 110 minutes a day.\""
+
+
+"\"The chart shows the number of minutes people in equlised age ranges use social media. 45-54 years olds use social medai the most at 150 minutes followed by 15-24 year old at about 123 minutes then the oldest group 55-64 year olds 115 minutes followed by the 25-34 and 35-44 group exually at about 70 minutes.\\nThe lower end is expected but hte upper end of hte age range seems odd at first glance.\""
+
+
+"\"The chart shows what age groups are most likely to use social media on a daily basis. The most frequent daily users of social media were those in the 45-54 age group at a rate of over 140 minutes a day. The second biggest daily users were those in the 15-24 age category at a little over 120 minutes per day, followed by the oldest group of 55-64 who used social media for over 100 minutes a day. The lowest users were the age groups of 25-34 and 35-44 with almost 80 minutes a day each.\""
+
+
+"\"The age group 45-54 are the most frequent daily users of social media with an average time of around 150 minutes. Age group 15-24 is the next most frequent user while age groups 25-34 & 35-44 are the least frequent users.\""
+
+
+"\"This bar graph shows the most frequent daily users of social media by various age groups by time in minutes.The highest was the age bracket 45 to 54 at 150 minutes.Followed by the 15 to 24 age bracket which has a total of 124 minutes.\\n Third highest was the 55 to 64 age bracket at 130 minutes.The remainder showed the lowest minutes,the 24 to 34 age bracket at 73 minutes followed by the age bracket 35 to 44 at 71 minutes.\""
+
+
+"\"The chart shows the most frequent daily users of social media by age group. The most frequent users of social media are 45-54 year olds with 150 minutes of daily use, closely followed by 15-24 year olds with 125 minutes of daily use. In third place is 55-64 year olds with 110 minutes of daily use, and finally both 25-34 and 35-44 age groups spend roughly 75 minutes a day on social media.\""
+
+
+"\"Surprisingly research shows that the age group 45-54 were the most frequently daily users of social media clocking up an average of 150 minutes per day followed closely by the 15-24 year olds at just over 120 minutes a day\\nNext were the 55-64 year olds with an average of 110 with the lowest users overall tying at 70 minutes were 25-34 and 35-44 year olds.\""
+
+
+"\"People aged 45-54 and 15-24 are the most frequent daily users of social media where they spend 148 and 124 daily minutes 'surfing'. People aged 25-34 and 35-44 are the least frequent users with 72 daily minutes.\""
+
+
+"\"The age group who spent the most time online and represents the most frequent users are the cohort aged 45-54. The least frequent were the ages 25-35 and 35-44, both spending less than 80 minutes daily on social media. The youngest group, aged between 15 and 24 spent more than 120 minutes online whilst the oldest spent around 110 minutes using social media.\""
+
+
+"\"This graph is showing the most frequent social media users by age bracket. On average it shows that people in both 25-34 and 35-44 age groups use social media the same amount at less than 80 minutes; A large jump to 55-64 year olds who average around 110 minutes, 15-24 year olds average just about 120 minutes and the highest and most surprising number, at 150 minute is 45-54 year olds.\""
+
+
+"\"The age group 45-54 was found to be the most frequent daily users of social media, spending approximately 150 minutes per day on social media platforms. The least frequent users were the age groups 25-34 and 35-44, with 35-44 spending approximately 70 minutes on social media per day and the age group 25-34 spending slightly longer, at 75 minutes per day.\""
+
+
+"\"Users aged 45-54 are the most frequrnt daily users of social media at 150 minutes, followed by 15-24 year olds at124 minutes. 55-64 year olds come next with 110 minutes, while 25-34 year olds and 35-44 year olds the lowest users at 75-80 minutes each.\""
+
+
+"\"This chart shows which age groups are the most frequent user of social media. The highest using group is the age range 45-54 who use social media for 148 minutes a day. The second highest group is 15-24 year olds who register 124 minutes a day. They are closely followed by the 55-64 age group who use 108 minutes.  There is then a drop to the 25-34 year olds with 72 minutes. They are closely followed by the 35-44 age group who use social media for 70 minutes daily.\""
+
+
+"\"The graph details the most frequent daily users of social media, but looking at how long various age ranges spend using it. We do not how whether the time given is per day or per week. The graph tells us that 45-54 year olds use Social Media the most, with around 2½ hours usage. 15-24 year olds are next, with just over 2 hours usage. Close behind them are the 55-64 age bracket with 1h50m usage. Finally, joint lowest in terms of usage at the 25-34 and 35-44 year olds, with just over an hour each.\""
+
+
+"\"This chart shows the number of minutes spent using social media by age group per day.\\nThe age group 45-54 spend the most amount of time on social media spending 150 minutes, they are followed by the age group 15-24 who spend 122 minutes, they are then closely followed by the age group 55-64 who spend 110 minutes. Age groups 25-34 and 35-44 spend approximately the same amount of time on social media at 75 minutes.\""
+
+
+"\"The most frequent daily users according to this chart are the age group 45-54, with around 150 minutes usage per day. The second age group is the 15-24's, who frequent social media sites just over 120 minutes a day. The least frequent users we can see from this chart are the 25s-34's, along with the 35's-44's. There is a very marginal difference here, with the 25-34 group using only slightly more minutes a day than the 35-44 group.\""
+
+
+"\"The graph compares the daily minutes spent on social media by users from 5 ages groups.  The overall age range is from 15 to 64 years.  Users aged 45-54 are the most frequent daily users with an average of 150 minutes spent on social media.  This is followed by users aged 15-24 who spend on average 124 minutes on social media.  The lowest daily usage is the same for the 25-34 and 35-44 year age groups at an average of 76 minutes per day.  The oldest age group, 55-64 are the median group with an average of 110 minutes per day.\""
+
+
+"\"The most frequent daily users of social media are between ages 45-54 with a 150 minutes average daily. The least amount is ages 35-44 with an average of 70 minutes daily. Ages 15-24 were second highest with just over 120 minutes daily and then ages 55-64 with 110 minutes. Ages 24-34 were 75 minutes daily.\""
+
+
+"\"The following graph shows the most frequent users of social media by age group. 45-54 year olds come in top at 152 minutes a day. 25-34 and 35-44 year olds use social media the least at 76 minutes a day each. 15-24 year olds use social media the most after 45-54 year olds at 124 minutes a day and 55-64 year olds follow behind at 108 minutes a day.\""
+
+
+"\"This graph compares the most frequent daily users of social media by minutes (y axis) with age groups (x axis). 45-54 year olds spend the most amount of time on social media out of the 5 age groups, with an average of 150 minutes. 15-24 year olds spend the second most amount of time on social media, with an average of 124 minutes. 55-64 year olds spend the third most amount of time on social media, with an average of 130 minutes. 25-34 year olds spend the fourth most amount of time on social media, with an average of 74 minutes. 35-44 year olds spend the least amount of time on social media, with an average of 72 minutes.\""
+
+

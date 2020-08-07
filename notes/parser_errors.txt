@@ -1,0 +1,18 @@
+SpaCy noun chunks
+
+Lima 25 degrees, Corboda 23 degrees and Santiago 20 degrees.
+- "Lima 25 degrees" and each as a noun chunk
+- because the predicate is missing?
+
+Not all bar names are nouns (most are though): Lovely
+
+Tokenization of numbers, symbols and final punct.
+- "36C." stay a single token
+
+Lemmatization (within spaCy)
+		print("not in title, not a stopword", target)
+		# this might be because of the way lemmatization is done; some examples
+		# glacier --> lemma "glaci"; glaciers --> lemma "glaciers"
+		# America --> lemma "american"
+
+

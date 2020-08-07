@@ -1,0 +1,83 @@
+Neutral = N
+I1: item 1: title and y axis direction: condition A: proportional, condition B: inverse
+I2: item 2: one bar emphasized in the title
+
+
+I2 references:
+- one of middle bars: 12_01, , 05_01
+- highest: 01_02, 11_02, 09_02
+- lowest: 10_02, 2 more
+
+12_01 & 12_02
+	N: Average time spent on social media daily in Maputo by age group 
+
+	I1A: The biggest users of social media daily in Maputo by age group (* biggest = most daily frequent)
+	I1B: The least frequent users of social media daily in Maputo by age group
+
+	The most frequent user groups
+	I2: Average daily use of social media by the 25-34 age group
+
+
+13_01 & 13_02: ??
+	I1A and I1B: ?
+		The years with most fatalities (= most dangerous?)
+
+14_01 & 14_02
+	N: Minority Representation in the Parliament of Lybia
+	I1A: Inclusivity/Diversity in Libyan Parliament: (Percentage of) Minority Representation
+	I1B: Exclusivity in Libyan Parliament: (Percentage of) Minority Representation
+
+11_01 & 11_02
+	N: Akef Inc. closing stock prices for the week
+	I1A: Highest closing prices of the Akef Inc stocks
+	I1B: Lowest closing prices of the Akef Inc stocks
+
+10_01 & 10_02
+	N: Women representation in different sectors (in Benoni)
+	I1A: The most inclusive sectors by women representation
+	IAB: The least inclusive sectors
+
+09_01 & 09_02
+	N: Women representation in different university departments in Narvik
+	I1A: The most inclusive
+	I1B: The least inclusive
+
+08_01 & 08_02: ** ?? **
+	N: What do students (at Lagos state university) choose to study
+	I1A: The popularity of subjects at the Lagos state university
+	I1B: What do students choose to study least often ?
+
+07_01 & 07_02 ** ?? **
+	N: What causes obesity (in Kiribati)
+	I1A: Causes of obesity given their harmfulness/severity
+	I1B: Causes of obesity given their ?
+
+06_01 ** skip due to error in the chart **
+	N: Number of top 100 universities in each continent
+	 
+05_01 & 05_02
+	N: Money spent on Higher Education in year 2010
+	I1A: The biggest spenders on Higher Education in 2010
+	I1B: The most frugal continents given the money spent on Higher Education in 2010
+
+04_01 ** we don't wish to collect more ordinal data **
+	N: Median salary of software engineering with respect to their degree
+	I1A: 
+	I1B:
+
+03_01 & 03_02
+	N: How do young people (in Zarqa) spend their evenings
+	I1A: Most popular evening activities among young people in Zarqa
+	I1B: Least popular 
+
+02_01 & 02_02
+	N: Median salary of women (in Najaf) per year
+	I1A: Rises of median salary of women per year
+	I1B: Drops of median salary of women per year
+
+01_01 & 01_02
+	N: Gender pay gap, 2017
+	I1A: The most gender unequal countries given their gender pay gap
+	I1B: The most gender equal countries given their gender pay gap
+
+

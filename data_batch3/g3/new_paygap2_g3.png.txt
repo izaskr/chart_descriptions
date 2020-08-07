@@ -1,0 +1,69 @@
+"\"This chart compares the gender pay gap between Germany, Spain and the UK.  Germany has the largest gap, at 21%, Spain the lowest at 15%, while the UK is slightly lower than Germany at 20%.\""
+
+
+"\"This chart shows the least equal countries given the gender pay gap. It shows that 21% of Germany was equal and 20.5% of the Uk with Spain at just 15%.\""
+
+
+"\"This graph shows that Germany has a 21% gender pay gap, while Spain has a 15% gap. The UK is just below Germany with 20.05%.\""
+
+
+"\"This chart shows the percentage of the least equal countries given the gender pay gap.\\nIt shows that Spain has a 15% gender pay gap, increasing to 20.5% in the UK, with Germany having a tiny bit more of a pay gap at 21%.\""
+
+
+"\"The charts compares the gender pay gap for 3 countries in europe. Germany and the UK have a similar gap of 21% whilst Spain shows a gap of 15%.\""
+
+
+"\"The chart shows which countries have the largest pay gap between male and female employees. Out of the countries shown, Spain is the most equal with a gap of 15%, followed by the UK with a gap of just over 20%. Germany is the worst offender with a gap of about 21%.\""
+
+
+"\"Spain has the lowest gender pay gap at 15% while Germany, slightly more than the UK.\""
+
+
+"\"This bar chart shows the percentage of countries that are least equal given the gender pay gap.Germany has the highest percentage at 21%,followed by the second highest the UK at 20.5%,and then Spain at 15%.\""
+
+
+"\"The graph shows the least equal countries according to their gender pay gap. Firstly we have Germany at 21%, followed closely by the UK with 20.5%, and finally Spain with a 15% pay gay.\""
+
+
+"\"Germany performance is the worst with regards to the gender pay gap with a result of 21% in a survey to establish the least equal countries\\nThey are followed very close behind by the UK whose figure is 20.5%\\nSpain fares much better with a percentage of just 15%\""
+
+
+"\"Comparatively the gender pay gap is less in Spain where the disparity is 15%, compared to the UK & Germany where the pay gap is 21%.\""
+
+
+"\"The country with the largest gender pay gap was Germany with a disparity of over 21% whilst the UK was slightly smaller at 20.5%. Spain represented a much greater equality amongst gender pay with a gap of 15%.\""
+
+
+"\"This graph shows the percentage of least equal countries given the gender pay gap. The lowest percentage at 15% is Spain, Followed by the UK at just about 20%, followed by Germany with 22%.\""
+
+
+"\"The most equal country was found to be Spain where there was a gender pay gap of approximately 15%. \\n\\nFollowed by the UK which had a gender pay gap of 20.5%, as shown in the chart. \\n\\nFinally, the chart shows that Germany was the least equal country regarding gender pay gap out of the three countries, showing a gender pay gap of 21%, slightly above the UK.\""
+
+
+"\"Spain is the least equal of these three countries at only 15%. Germany and the UK are roughly similar with 21% and 20.5% each.\""
+
+
+"\"This chart shows the percentage pay gap between men and women in the three countries where the gap is highest. Germany has the biggest gender pay gap at 21%. Next is the UK with a gap of 20.5%. Spain also makes the bottom three with a gap of 15%.\""
+
+
+"\"The graph compares Germany, Spain and the UK in terms of the equality between male and female salaries. Spain comes out on top with a 15 % disparity. The UK and Germany are almost tied together, but the UK is a single percentage point better with 21%, compared to Germany's 22%.\""
+
+
+"\"This chart shows the percentage of least equal countries in relation to the gender pay gap. Spain is at the bottom of the rankings with 15%, followed by the UK at 21% and Germany leads these two countries at 22%.\""
+
+
+"\"This chart represents the least equal countries given the gender pay gap. Germany and UK share similar characteristics, each with a percentage just above 20%. In grey we can see Spain, where we a percentage of 15 - the least equal country out of the three taking into account the gender pay gap.\""
+
+
+"\"This graph illustrates the three countries with the largest percentage gender pay gap.  Germany has the largest at 21 percent, closely followed by the UK which has a gender pay gap of 20.5 percent and Spain with a gap of 15 percent.\""
+
+
+"\"From the chart we can see that Germany has the highest percentage at 21% as the least equal gender pay gap whereas the lowest was Spain with 15%. The UK is just behind in 21.5%\""
+
+
+"\"The following graph shows the percentage gender pay gap for Germany, Spain and UK. Germany has the largest percentage difference at 21% with the UK closely following at 20.5%. Spain had the smallest percentage difference at 15%.\""
+
+
+"\"This graph compares the least equal countries in regards of the gender pay gap, with the percentage difference in pay given on the y axis, and the country given on the x axis. Spain is the most equal, at a 15% difference in pay between male and female. The UK is the second most equal at 20.5%. Germany is the least equal of the three countries, at 21%.\""
+
+

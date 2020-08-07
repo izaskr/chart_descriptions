@@ -1,0 +1,69 @@
+"\"The chart displays data for six teams in a quiz competition and details the number of mistakes made by each team.The title and graphic representation are a little at odds, as the teams with the tallest bars were actually the least successful. Additionally the scale for the number of mistakes is hard to red with any precision as it suggests incorrect answers could be part of a whole number. Careful reading of the data shows that team Lovely made more than 8 mistakes but less than 10 and were therefore the least successful team in the quiz competition. The most successful team, team Fearless made less than 2 mistakes. Teams DIY and Cats made between 2 and 4 mistakes and teams ABC and Smart kids made between 4 and 6 mistakes.\""
+
+
+"\"This chart shows the most successful teams in the quiz competition as determined by their number of mistakes. Team Fearless were the most successful with the least mistakes of roughly 1, while team Lovely had the most mistakes, and thereby were the least successful with 9 mistakes. Team Cats came in at place 3 with 3 mistakes, closely followed by team DIY with around 4 mistakes. Team ABC and team Smart Kids landed around the middle with 5 and 6 mistakes respectively.\""
+
+
+"\"The fearless team were the most succesful with ! mistake recorded and the lovely team recorded the most number of mistakes with 9 wroong answers.  the teams with average grades were DIY, smart kids and ABC\""
+
+
+"\"This chart depicts the most successful teams in the quiz competition by the number of mistakes. Therefore, the lowest number of mistakes would capture the most successful team. In this chart, it appears that the team Fearless were the most successful having only made approx. 1 mistake. Next, cats appear to be the second most successful with only 3 mistakes, followed by DIY with four mistakes. These teams were followed by AC, smart kids and then lovely who were the least successful team with a total of 9 mistakes.\""
+
+
+"\"LEading by a country mile for the most successful team in the quiz as they had the least mistakes is Fearless, their closet rivals were cats, followed by DIY with 4 mistakes, ABC were next and the worst team with the most mistakes were Lovely (far from it as they were last)\""
+
+
+"\"This chart shows the number of mistakes made by the teams.\\n\\nIn the quiz, the most mistakes were made by Lovely, with 9 mistakes.\\n\\nThe most successful teams were Cats and Fearless.\""
+
+
+"\"This chart shows the number of mistakes made by 6 of the most successful teams in the quiz.\\nIt shows that the 'Lovely' ream made the most mistakes (Totalling 9 altogether), while the team that made the least mistakes was 'Fearless', with just 1 mistake.\""
+
+
+"\"Team Fearless leads the way in the quiz competition with only 1 mistake whilst Team Lovely is rounding out at the bottom with 9 mistakes\""
+
+
+"\"The chart shows the number of mistakes that quiz teams made. The least successful team, with the most mistakes was Lovely, followed by smart kids, then ABC. Next is DIY with 4, cats with 3, and the most successful team with 1 mistake was fearless.\""
+
+
+"\"The chart shows the number of mistakes made by each team in a quiz competition. The Lovely team was least successful with 9 mistakes. Smart Kids made 6 mistakes, ABC made 5 mistakes and DIY made 4 mistakes. Cats made second place with only 3 mistakes and Fearless won the competition with only 1 mistake.\""
+
+
+"\"This graph demonstrates success in a quiz competition. The Lovely team performed worst with 9 mistakes; the Smart Kids made 6 mistakes, the ABC team made 5 mistakes, followed by the DIY on 4 mistakes and Cats on 3 mistakes. Fearless won the quiz with only 1 mistake.\""
+
+
+"\"First place in the quiz was Fearless with 1 mistake, next was cats with 3 mistakes, then DIY with 4 mistakes, then ABC with 5 mistakes, then smart kids with 6 mistakes and in final place was Lovely with 9 mistakes\""
+
+
+"\"This chart shows the number of mistakes made by 6 teams in a quiz. The most successful team is Fearless with just a single mistake, followed by Cats with 3, DIY with 4, ABC with 5, Smart Kids with 6, and finally Lovely with 9.\""
+
+
+"\"Fearless are the most successful team posting the fewest mistakes of the 6 recorded teams at just one mistake, compared to lovely 9., which us way above the average overall for the groups altogether.\""
+
+
+"\"Fearless won the quiz, and were a few clear of nearest challengers Cats. Diy were 3rd followed closely by ABC. \\nLovely were in last place.\""
+
+
+"\"According to the chart, the most successful teams in quiz competition is Fearless with number of mistake which is less than 2. Lovely has 9 mistakes made during the quiz competition. ABC, DIY, Cats, and Smart kids have 5, 4, 3, 6 number of mistakes respectively\""
+
+
+"\"This graph shows a measurement of success for teams in a quiz competition. Team Fearless are the most successful, making only 1 mistake, with Team Lovely the least successful with 9 mistakes. In descending order, the remaining teams were Team Smart Kids with 6 mistakes; Team ABC with 5; Team DIY with 4 and Team Cats with 3 mistakes.\""
+
+
+"\"This graph shows the number of mistakes each team made in the quiz competition. The team lovely made 9 mistakes in the quiz, and had the most mistakes. The team fearless had the fewest mistakes with only one mistake.\""
+
+
+"\"The graph shows the most successful quiz teams based on the numbers of mistakes they made. The most successful were Fearless with only 1 mistake whereas the least successful team were Lovely who made 9 mistakes in total.\""
+
+
+"\"This chart shows the most successful teams in the quiz competition.\\nThe most successful team is Fearless with only 1 mistake, followed by Cats with 3 mistakes and then DIY with 4 mistakes. The next team is ABC with 5 mistakes, then Smart Kids with 6 mistakes. The least successful team is Lovely with 9 mistakes.\""
+
+
+"\"The results of the quiz is as follows:  The winners were 'Fearless', with only 1 mistake.  Second were 'cats' with 3 mistakes, Then \\\"DIY\\\" with 4 mistakes, and then 'ABC' with 5 mistakes.  Finally the team with the most mistakes was \\\"Lovely' who made 9 mistakes.\""
+
+
+"\"The chart shows the number of mistakes made by the most successful teams in the quiz competition. The number of mistakes ranges from 1 by the fearless team to 9 by the lovely team. In between these were the Cats on 3, the DIY on 4, ABC on 5 mistakes and Smart kids on 6 mistakes.\""
+
+
+"\"This graph compares the most successful quiz teams and the number of mistakes they make. The team that makes the least mistakes is 'fearless' with one mistake, with the most being team lovely with 11 mistakes. The other mistakes made are, 'Cats' with 3, 'DIY' with 4, 'Smart Kids' with 6, and 'ABC' with 5. The average amount of mistakes made from the most successful teams is 4.33.\""
+
+
