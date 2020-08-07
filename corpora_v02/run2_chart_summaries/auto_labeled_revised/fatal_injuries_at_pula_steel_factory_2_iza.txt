@@ -526,7 +526,7 @@ number of fatal injuries in the pula steel factory	<topic>
 The
 number of fatalities	<y_axis>
 in
-2012	<y_axis_inferred_highest_value_approx>
+2012	<x_axis_label_highest_value>
 was
 30	<y_axis_highest_value_val>
 .
