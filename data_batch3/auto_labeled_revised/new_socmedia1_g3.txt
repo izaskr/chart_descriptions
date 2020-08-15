@@ -39,9 +39,7 @@ the
 age group	<x_axis>
 .
 The
-25-34	<x_axis_label_4th_highest_value>
-and
-35-44	<x_axis_label_least_value>
+25-34 and 35-44	<group_4th_least>
 age groups	<x_axis>
 are
 roughly	<y_axis_approx>
@@ -105,9 +103,7 @@ the
 least	<y_axis_least_value>
 amount of time	<y_axis>
 were
-25-34	<x_axis_label_4th_highest_value>
-and
-35-44 year olds	<x_axis_label_least_value>
+25-34 and 35-44 year olds	<group_4th_least>
 with
 77	<group_y_4th_least>
 minutes	<y_axis_inferred_label>
@@ -323,9 +319,7 @@ minutes	<y_axis_inferred_label>
 followed	<order_Scnd>
 by
 the
-25-34	<x_axis_label_4th_highest_value>
-and
-35-44	<x_axis_label_least_value>
+25-34 and 35-44	<group_4th_least>
 group	<x_axis>
 equally
 at
@@ -438,9 +432,7 @@ were
 the
 age groups	<x_axis>
 of
-25-34	<x_axis_label_4th_highest_value>
-and
-35-44	<x_axis_label_least_value>
+25-34 and 35-44	<group_4th_least>
 with
 almost	<y_axis_approx>
 80	<group_y_4th_least>
@@ -613,9 +605,7 @@ daily use	<t=1_a=y>
 and
 finally	<order_last>
 both
-25-34	<x_axis_label_4th_highest_value>
-and
-35-44	<x_axis_label_least_value>
+25-34 and 35-44	<group_4th_least>
 age groups	<x_axis>
 spend
 roughly	<y_axis_approx>
@@ -722,7 +712,7 @@ least	<y_axis_least_value>
 frequent	<t=1_a=y>
 users	<t=1_a=x>
 with
-72	<group_4th_least>
+72	<group_y_4th_least>
 daily	<t=1_a=b>
 minutes	<y_axis_inferred_label>
 .
