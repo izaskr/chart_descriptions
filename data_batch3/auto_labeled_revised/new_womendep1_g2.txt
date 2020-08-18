@@ -4,13 +4,8 @@ chart
 is
 titled
 The
-most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
-given representation	<t=1_a=b>
-of
-women	<t=1_a=b>
-and	<order_3rd>
+most inclusive university departments given representation of women	<topic>
+and
 depicts
 percentages	<y_axis>
 across
@@ -27,9 +22,7 @@ refer
 directly
 to
 the
-proportion
-of
-women	<t=1_a=b>
+proportion of women	<y_axis>
 either
 working
 ,
@@ -70,7 +63,7 @@ records
 Engineering	<x_axis_label_3rd_highest_value>
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 Arts	<x_axis_label_Scnd_highest_value>
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -84,21 +77,11 @@ This
 chart
 shows
 the
-most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
-,
-in
-terms
-of
-their
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+most inclusive university departments , in terms of their representation of women	<topic>
 .
 The
 most	<y_axis_highest_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 is
 the
 Literature	<x_axis_label_highest_value>
@@ -120,21 +103,17 @@ at
 Engineering	<x_axis_label_3rd_highest_value>
 department	<x_axis>
 's
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 is
-less	<y_axis_trend_down>
-than	<y_x_comparison>
-half
+less than	<y_axis_approx>
+half	<y_axis_inferred_value_mul_v1=3rd_v2=Scnd>
 at
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 ,
 with
-computer
-science
-and	<order_3rd>
+computer science	<x_axis_label_4th_highest_value>
+and
 mathematics	<x_axis_label_least_value>
 department	<x_axis>
 's
@@ -144,7 +123,7 @@ lowest	<y_axis_least_value>
 with
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 respectively
@@ -164,11 +143,11 @@ department	<x_axis>
 is
 the
 least	<y_axis_least_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 with
-women	<t=1_a=b>
+women	<t=1_a=y>
 making
-up	<slope_up>
+up
 only	<y_axis_least_value>
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
@@ -176,10 +155,7 @@ of
 the
 department	<x_axis>
 .
-on
-the
-other
-hand
+on the other hand	<y_x_comparison>
 ,
 the
 literature	<x_axis_label_highest_value>
@@ -188,13 +164,12 @@ boasts
 of
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-female
-population
+female	<t=0_a=y>
+population	<y_axis>
 .
 engineering	<x_axis_label_3rd_highest_value>
-and	<order_3rd>
-computer
-sxience
+and
+computer science	<x_axis_label_4th_highest_value>
 departments	<x_axis>
 also
 have
@@ -202,7 +177,7 @@ a
 low	<y_axis_least_value>
 percentage	<y_axis>
 of
-women	<t=1_a=b>
+women	<t=1_a=y>
 in
 the
 workforce
@@ -213,12 +188,7 @@ workforce
 
 <start_of_description>
 The
-most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
-given representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+most inclusive university departments given representation of women	<topic>
 were
 firstly
 literature	<x_axis_label_highest_value>
@@ -226,7 +196,7 @@ literature	<x_axis_label_highest_value>
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-females
+females	<t=0_a=y>
 I
 'm
 assuming
@@ -250,15 +220,15 @@ engineering	<x_axis_label_3rd_highest_value>
 .
 The
 least	<y_axis_least_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 were
 computer science	<x_axis_label_4th_highest_value>
 (
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 )
-and	<order_3rd>
-maths
+and
+maths	<x_axis_label_least_value>
 (
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
@@ -272,31 +242,31 @@ maths
 The
 top	<y_axis_highest_value>
 Arts	<x_axis_label_Scnd_highest_value>
-and	<order_3rd>
+and
 literature	<x_axis_label_highest_value>
 two
 generally
 more	<y_axis_trend_up>
-female
+female	<t=0_a=y>
 welcoming
 /
 stereo
 typical
-subjects
+subjects	<x_axis>
 ,
 no
 surprise
 that
 the
 typical
-subjects
+subjects	<x_axis>
 geared
 towards
-men	<t=1_a=b>
+men	<t=0_a=y>
 have
 so
 few
-women	<t=1_a=b>
+women	<t=1_a=y>
 in
 their
 departments	<x_axis>
@@ -312,14 +282,10 @@ the
 percentage	<y_axis>
 of
 the
-most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
-given representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+most inclusive university departments given representation of women	<topic>
 .
-\n\\n	<separator>
+\\n	<separator>
+\\n	<separator>
 Mathematics	<x_axis_label_least_value>
 has
 the
@@ -328,32 +294,33 @@ least	<y_axis_least_value>
 at
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-inclusion
+inclusion	<y_axis>
 .
 Literature	<x_axis_label_highest_value>
 has
 the
 most	<y_axis_highest_value>
-inclusion
+inclusion	<y_axis>
 ,
 at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 .
-\n\\n	<separator>
-STEM
-subjects
+\\n	<separator>
+\\n	<separator>
+STEM	<group_3rd_4th_least>
+subjects	<x_axis>
 are
 less	<y_axis_trend_down>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 departments	<x_axis>
 ,
-and	<order_3rd>
+and
 the
-arts	<x_axis_label_Scnd_highest_value>
+arts	<group_highest_Scnd>
 are
 more	<y_axis_trend_up>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 departments	<x_axis>
 .
 <end_of_description>
@@ -365,15 +332,9 @@ This
 chart
 shows
 the
-most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
-given	<t=1_a=b>
-inclusion
-of
-women	<t=1_a=b>
+most inclusive university departments given inclusion of women	<topic>
 .
-\n	<separator>
+\\n	<separator>
 It
 shows
 that
@@ -383,35 +344,31 @@ department	<x_axis>
 is
 the
 most	<y_axis_highest_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 ,
 with
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 ,
 while	<y_x_comparison>
 mathematics	<x_axis_label_least_value>
 has
 the
 least	<y_axis_least_value>
-percentage	<y_axis>
-of
-women	<t=1_a=b>
+percentage of women	<y_axis>
 ,
 at
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 .
-\n	<separator>
+\\n	<separator>
 Arts	<x_axis_label_Scnd_highest_value>
 was
 the
-second	<order_Scnd>
+second
 most	<y_axis_highest_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 department	<x_axis>
 ,
 at
@@ -420,12 +377,12 @@ at
 ,
 while	<y_x_comparison>
 computer science	<x_axis_label_4th_highest_value>
-and	<order_3rd>
+and
 engineering	<x_axis_label_3rd_highest_value>
 scores
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 respectively
@@ -448,43 +405,30 @@ a
 study
 analysing
 the
-most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+most inclusive university departments representation of women	<topic>
 .
- 
 The
-literature	<x_axis_label_highest_value>
-and	<order_3rd>
-arts	<x_axis_label_Scnd_highest_value>
+literature and arts	<group_highest_Scnd>
 departments	<x_axis>
 have
 a
-considerably
+considerably	<y_axis_trend>
 higher	<y_axis_trend_up>
 percentage	<y_axis>
-than	<y_x_comparison>
-engineering	<x_axis_label_3rd_highest_value>
-,
-mathematics	<x_axis_label_least_value>
-and	<order_3rd>
-computer science	<x_axis_label_4th_highest_value>
-and	<order_3rd>
-average	<y_axis_approx>
-65	<y_axis_inferred_Scnd_highest_value_approx>
+than
+engineering , mathematics and computer science	<group_3rd_4th_least>
+and
+average
+65	<group_y_highest_Scnd>
 %	<y_axis_inferred_label>
 in
 comparison	<y_x_comparison>
 to
 the
 latter
- 
 which
-average	<y_axis_approx>
-20	<y_axis_4th_highest_val>
+average
+20	<group_y_3rd_4th_least>
 %	<y_axis_inferred_label>
 <end_of_description>
 
@@ -495,13 +439,7 @@ The
 chart
 shows
 the
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
-in
-different
-university	<t=1_a=b>
-departments	<x_axis>
+representation of women in different university departments	<topic>
 .
 Literature	<x_axis_label_highest_value>
 is
@@ -527,7 +465,7 @@ Arts	<x_axis_label_Scnd_highest_value>
 This
 is
 then	<order_3rd>
-halved
+halved	<y_axis_inferred_value_mul_v1=3rd_v2=Scnd>
 in
 the
 Engineering	<x_axis_label_3rd_highest_value>
@@ -542,7 +480,7 @@ by
 %	<y_axis_inferred_label>
 in
 computer science	<x_axis_label_4th_highest_value>
-and	<order_3rd>
+and
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 in
@@ -556,19 +494,16 @@ mathematics	<x_axis_label_least_value>
 The
 chart
 shows
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 in
 five	<x_axis_label_count>
-University	<t=1_a=b>
-departments	<x_axis>
+University departments	<x_axis>
 .
 Literature	<x_axis_label_highest_value>
 was
 the
 most	<y_axis_highest_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -583,8 +518,8 @@ at
 Engineering	<x_axis_label_3rd_highest_value>
 had
 a
-female
-representation	<t=1_a=b>
+female	<t=0_a=y>
+representation	<y_axis>
 of
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
@@ -592,7 +527,7 @@ of
 Computer Science	<x_axis_label_4th_highest_value>
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 the
 least	<y_axis_least_value>
 representative
@@ -611,17 +546,11 @@ This
 graph
 shows
 the
-inclusivity
-of
-university	<t=1_a=b>
-departments	<x_axis>
-towards
-female
-staff
+inclusivity of university departments towards female staff	<topic>
 .
 The
 most	<y_axis_highest_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 departments	<x_axis>
 -
 by
@@ -631,29 +560,29 @@ margin
 -
 are
 Arts	<x_axis_label_Scnd_highest_value>
-and	<order_3rd>
+and
 Literature	<x_axis_label_highest_value>
 .
 The
 least	<y_axis_least_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 are
 Computer Science	<x_axis_label_4th_highest_value>
 ,
 MAthematics	<x_axis_label_least_value>
-and	<order_3rd>
+and
 Engineering	<x_axis_label_3rd_highest_value>
 .
 The
 most	<y_axis_highest_value>
-diverse
+diverse	<t=0_a=y>
 ,
 Literature	<x_axis_label_highest_value>
 ,
 is
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-female
+female	<t=0_a=y>
 staff
 ,
 compared	<y_x_comparison>
@@ -671,11 +600,10 @@ Mathematics	<x_axis_label_least_value>
 <start_of_description>
 The
 most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-department	<x_axis>
-given representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+inclusive	<t=1_a=y>
+university department	<x_axis>
+given
+representation of women	<y_axis>
 is
 literature	<x_axis_label_highest_value>
 at
@@ -684,7 +612,7 @@ at
 ,
 next	<order_Scnd>
 is
-art	<t=1_a=b>
+art	<x_axis_label_Scnd_highest_value>
 at
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -698,10 +626,10 @@ computer science	<x_axis_label_4th_highest_value>
 is
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 last	<y_axis_least_value>
 is
-Maths
+Maths	<x_axis_label_least_value>
 with
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
@@ -715,16 +643,14 @@ This
 chart
 shows
 the
-percentage	<y_axis>
-of
-women	<t=1_a=b>
+percentage of women	<y_axis>
 in
-5	<y_axis_inferred_value_mul_v1=Scnd_v2=least>
+5	<x_axis_labels_count>
 different
-university	<t=1_a=b>
-departments	<x_axis>
+university departments	<x_axis>
 .
-Women represent	<t=1_a=b>
+Women	<t=1_a=y>
+represent	
 the
 majority	<y_axis_highest_value>
 in
@@ -733,7 +659,7 @@ Literature	<x_axis_label_highest_value>
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 )
-and	<order_3rd>
+and
 Arts	<x_axis_label_Scnd_highest_value>
 (
 60	<y_axis_Scnd_highest_val>
@@ -743,7 +669,7 @@ Arts	<x_axis_label_Scnd_highest_value>
 but	<y_x_comparison>
 are
 a
-minority
+minority	<y_axis_least_value>
 in
 Engineering	<x_axis_label_3rd_highest_value>
 (
@@ -751,13 +677,12 @@ Engineering	<x_axis_label_3rd_highest_value>
 %	<y_axis_inferred_label>
 )
 ,
-Computer
-Science
+Computer Science	<x_axis_label_4th_highest_value>
 (
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 )
-and	<order_3rd>
+and
 Mathematics	<x_axis_label_least_value>
 (
 10	<y_axis_least_value_val>
@@ -770,25 +695,25 @@ Mathematics	<x_axis_label_least_value>
 
 <start_of_description>
 Arts	<x_axis_label_Scnd_highest_value>
-and	<order_3rd>
+and
 literature	<x_axis_label_highest_value>
 are
 the
 departments	<x_axis>
 with
 most	<y_axis_highest_value>
-female
-representation	<t=1_a=b>
+female	<t=0_a=y>
+representation    <y_axis>
 in
 the
 graph
 .
-\n	<separator>
+\\n	<separator>
 Overwhelmingly
 so
 in
 that
-women	<t=1_a=b>
+women	<t=1_a=y>
 comprise
 the
 majority	<y_axis_highest_value>
@@ -799,22 +724,22 @@ Arts	<x_axis_label_Scnd_highest_value>
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 )
-and	<order_3rd>
+and
 Literature	<x_axis_label_highest_value>
 (
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 )
 .
-\n	<separator>
+\\n	<separator>
 The
 trend	<y_axis_trend>
 is
 reversed
 in
 the
-Stem
-subjects
+Stem	<group_3rd_4th_least>
+subjects	<x_axis>
 of
 Computer Science	<x_axis_label_4th_highest_value>
 (
@@ -822,36 +747,36 @@ Computer Science	<x_axis_label_4th_highest_value>
 %	<y_axis_inferred_label>
 )
 ,
-Maths
+Maths	<x_axis_label_least_value>
 (
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 )
-and	<order_3rd>
+and
 engineering	<x_axis_label_3rd_highest_value>
 (
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 )
-\n	<separator>
+\\n	<separator>
 The
 only	<y_axis_least_value>
-dept	<t=1_a=b>
+dept	<x_axis>
 close	<y_axis_trend>
 to
-50	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+50
 %	<y_axis_inferred_label>
 is
 literature	<x_axis_label_highest_value>
 where
-women	<t=1_a=b>
+women	<t=1_a=y>
 outnumber
-men	<t=1_a=b>
+men	<t=0_a=y>
 by
-50	<y_axis_inferred_value_add_v1=least_v2=Scnd>
+50
 %	<y_axis_inferred_label>
 at
-60/40
+60/40	<y_axis_highest_value_val>
 .
 <end_of_description>
 
@@ -867,23 +792,23 @@ Arts	<x_axis_label_Scnd_highest_value>
 were
 the
 most	<y_axis_highest_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 departments	<x_axis>
 with
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 respectively
 .
-Maths
+Maths	<x_axis_label_least_value>
 was
 the
 least	<y_axis_least_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 for
-Women	<t=1_a=b>
+Women	<t=1_a=y>
 with
 just	<y_axis_least_value>
 10	<y_axis_least_value_val>
@@ -902,11 +827,10 @@ has
 of
 the
 most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
-given representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+inclusive	<t=1_a=y>
+university departments	<x_axis>
+given
+representation of women	<y_axis>
 .
 This
 is
@@ -926,11 +850,9 @@ percentage	<y_axis>
 %	<y_axis_inferred_label>
 )
 of
-university	<t=1_a=b>
-departments	<x_axis>
-given representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+university departments	<x_axis>
+given
+representation of women	<y_axis>
 .
 the
 Arts	<x_axis_label_Scnd_highest_value>
@@ -953,12 +875,9 @@ This
 graph
 shows
 the
-percentages	<y_axis>
-of
-women	<t=1_a=b>
+percentages of women	<y_axis>
 in
-university	<t=1_a=b>
-departments	<x_axis>
+university departments	<x_axis>
 .
 Mathematics	<x_axis_label_least_value>
 is
@@ -968,11 +887,10 @@ representative
 ,
 with
 only	<y_axis_least_value>
-approx	<y_axis_approx>
-.
+approx.	<y_axis_approx>
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-representation	<t=1_a=b>
+representation	<y_axis>
 ,
 while	<y_x_comparison>
 literature	<x_axis_label_highest_value>
@@ -984,7 +902,7 @@ with
 almost	<y_axis_approx>
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-women	<t=1_a=b>
+women	<t=1_a=y>
 .
 The
 arts	<x_axis_label_Scnd_highest_value>
@@ -1001,7 +919,7 @@ Engineering	<x_axis_label_3rd_highest_value>
 at
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 Computer Science	<x_axis_label_4th_highest_value>
 at
 20	<y_axis_4th_highest_val>
@@ -1016,41 +934,35 @@ This
 graph
 shows
 the
-percentage	<y_axis>
-of
-female
-representation	<t=1_a=b>
+percentage of female representation	<y_axis>
 in
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 different
-university	<t=1_a=b>
-departments	<x_axis>
+university departments	<x_axis>
 ,
 Computer Science	<x_axis_label_4th_highest_value>
 ,
 Arts	<x_axis_label_Scnd_highest_value>
 ,
-Maths
+Maths	<x_axis_label_least_value>
 ,
 Literature	<x_axis_label_highest_value>
-and	<order_3rd>
+and
 Engineering	<x_axis_label_3rd_highest_value>
 .
 Literature	<x_axis_label_highest_value>
 has
 the
 highest	<y_axis_highest_value>
-percentage	<y_axis>
-of
-women	<t=1_a=b>
+percentage of women	<y_axis>
 with
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 ,
-Art	<t=1_a=b>
+Art	<x_axis_label_Scnd_highest_value>
 has
 the
-second	<order_Scnd>
+second
 highest	<y_axis_highest_value>
 percentage	<y_axis>
 at
@@ -1064,20 +976,18 @@ third	<order_3rd>
 with
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 Computer Science	<x_axis_label_4th_highest_value>
-fourth
+fourth	<order_4th>
 ,
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 .
 The
 lowest	<y_axis_least_value>
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 was
-Mathematices
+Mathematices	<x_axis_label_least_value>
 ,
 with
 only	<y_axis_least_value>
@@ -1093,18 +1003,15 @@ The
 graph
 shows
 which
-university	<t=1_a=b>
-departments	<x_axis>
+university departments	<x_axis>
 were
 the
 most	<y_axis_highest_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 in
 regards
 to
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 .
 The
 graph
@@ -1112,17 +1019,17 @@ clearly
 showed
 that
 Arts	<x_axis_label_Scnd_highest_value>
-and	<order_3rd>
+and	
 also
 Literature	<x_axis_label_highest_value>
 had
 the
 highest	<y_axis_highest_value>
-representation	<t=1_a=b>
+representation	<y_axis>
 at
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 respectively
@@ -1131,8 +1038,8 @@ the
 lowest	<y_axis_least_value>
 department	<x_axis>
 with
-female
-representation	<t=1_a=b>
+female	<t=0_a=y>
+representation	<y_axis>
 was
 Mathematics	<x_axis_label_least_value>
 at
@@ -1148,19 +1055,12 @@ chart
 shows
 the
 most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
-based
-on
-the
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+inclusive university departments based on the representation of women	<topic>
 .
-\n	<separator>
+\\n	<separator>
 The
 least	<y_axis_least_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 department	<x_axis>
 is
 Mathematics	<x_axis_label_least_value>
@@ -1168,15 +1068,12 @@ with
 a
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 ,
 followed	<order_Scnd>
 by
 the
-computer
-science
+computer science	<x_axis_label_4th_highest_value>
 department	<x_axis>
 at
 20	<y_axis_4th_highest_val>
@@ -1191,12 +1088,10 @@ at
 %	<y_axis_inferred_label>
 .
 The
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 is
 then	<order_3rd>
-doubled
+doubled	<y_axis_inferred_value_mul_v1=Scnd_v2=3rd>
 in
 the
 arts	<x_axis_label_Scnd_highest_value>
@@ -1207,7 +1102,7 @@ at
 .
 The
 most	<y_axis_highest_value>
-inclusive	<t=1_a=b>
+inclusive	<t=1_a=y>
 department	<x_axis>
 is
 the
@@ -1216,21 +1111,16 @@ department	<x_axis>
 with
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 .
 <end_of_description>
 
 
 
 <start_of_description>
-Representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+Representation of women	<y_axis>
 in
-university	<t=1_a=b>
-departments	<x_axis>
+university departments	<x_axis>
 are
 highest	<y_axis_highest_value>
 in
@@ -1243,7 +1133,7 @@ with
 The
 next	<order_Scnd>
 highest	<y_axis_highest_value>
-representation	<t=1_a=b>
+representation	<y_axis>
 in
 in
 the
@@ -1268,11 +1158,10 @@ with
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 .
- 
 Finally	<order_last>
 the
 lowest	<y_axis_least_value>
-representation	<t=1_a=b>
+representation	<y_axis>
 is
 in
 Mathematics	<x_axis_label_least_value>
@@ -1292,23 +1181,20 @@ The
 chart
 shows
 the
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 (
 as
 a
 %	<y_axis_inferred_label>
 )
 in
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 different
-university	<t=1_a=b>
-departments	<x_axis>
+university departments	<x_axis>
 .
 These
 range
-from	<y_x_comparison>
+from
 Mathematics	<x_axis_label_least_value>
 at
 10	<y_axis_least_value_val>
@@ -1331,7 +1217,7 @@ Engineering	<x_axis_label_3rd_highest_value>
 on
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 Arts	<x_axis_label_Scnd_highest_value>
 on
 60	<y_axis_Scnd_highest_val>
@@ -1341,7 +1227,7 @@ on
 
 
 
-<start_of_description>
+<start_of_description> #todo
 This
 graph
 compares
@@ -1350,20 +1236,17 @@ percentages	<y_axis>
 of
 the
 most	<y_axis_highest_value>
-inclusive university	<t=1_a=b>
-departments	<x_axis>
+inclusive	<t=1_a=y>
+university departments	<x_axis>
 in
 reference
 of
 the
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 .
 Literature	<x_axis_label_highest_value>
 is
-7	<y_axis_inferred_value_mul_v1=highest_v2=least>
-times
+7 times	<y_axis_inferred_value_mul_v1=highest_v2=least>
 that
 of
 Mathematics	<x_axis_label_least_value>
@@ -1371,15 +1254,14 @@ with
 percentages	<y_axis>
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 10	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 respectively
 .
 Engineering	<x_axis_label_3rd_highest_value>
-and	<order_3rd>
-Computer
-Science
+and
+Computer Science	<x_axis_label_4th_highest_value>
 have
 closer
 percentages	<y_axis>
@@ -1390,18 +1272,16 @@ percentages	<y_axis>
 of
 20	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 30	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 .
 Arts	<x_axis_label_Scnd_highest_value>
 has
 the
-second	<order_Scnd>
+second
 highest	<y_axis_highest_value>
-representation	<t=1_a=b>
-of
-women	<t=1_a=b>
+representation of women	<y_axis>
 with
 a
 percentage	<y_axis>
