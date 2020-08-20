@@ -945,7 +945,7 @@ together
 with
 North America	<x_axis_label_Scnd_highest_value>
 pushing
-75	<y_axis_inferred_least_value_approx>  ##
+75	<y_axis_inferred_least_value_approx>  ## group
 %	<y_axis_inferred_label>
 of
 Asia	<x_axis_label_highest_value>

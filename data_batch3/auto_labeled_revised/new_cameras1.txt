@@ -107,7 +107,7 @@ prices	<y_axis>
 is
 only	
 £	<y_axis_inferred_label>
-21	<y_axis_inferred_value_add_v1=least_v2=highest>  ##
+21	<y_axis_inferred_value_add_v1=highest_v2=least>  
 which is fairly low	 <interpretation>
 .
 <end_of_description>
@@ -366,7 +366,7 @@ the
 prices	<y_axis>
 all
 hover
-between  ##? y axis range
+between  
 55	<y_axis_inferred_least_value_approx>
 and	<order_3rd>
 75	<y_axis_inferred_highest_value_approx>

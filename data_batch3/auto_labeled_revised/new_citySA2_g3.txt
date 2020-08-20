@@ -1088,7 +1088,7 @@ Lima	<x_axis_label_3rd_highest_value>
 come
 in
 under	<y_axis_approx>
-25	<y_axis_3rd_highest_val>  ## group mean
+25	<y_axis_3rd_highest_val>  
 degrees	<y_axis_inferred_label>
 ,
 with

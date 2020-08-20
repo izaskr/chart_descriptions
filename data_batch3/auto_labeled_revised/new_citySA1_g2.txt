@@ -293,10 +293,10 @@ a
 drop	<y_axis_trend_down>
 in
 temperature
-second  <order_2nd>
+second  <order_Scnd>
 place
 to
-Montevideo	<x_axis_label_Scnd_highest_value>
+Montevideo	<x_axis_label_Scnd_highest_value>F
 ,
 Lima	<x_axis_label_3rd_highest_value>
 takes
@@ -330,7 +330,7 @@ with
 16	<y_axis_least_value_val>
 degrees	<y_axis_inferred_label>
 .
-bbbrrrrr   ##
+bbbrrrrr   ##  ??
 <end_of_description>
 
 

@@ -800,7 +800,7 @@ a
 jump	<slope_up>
 of
 £	<y_axis_inferred_label>
-8	<y_axis_inferred_value_add_v1=2nd_v2=3rd>
+8	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 to
 the
 Memoto	<x_axis_label_Scnd_highest_value>

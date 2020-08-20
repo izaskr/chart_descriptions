@@ -657,7 +657,7 @@ is
 up	<slope_up>
 to
 the
-3	<y_axis_inferred_value_add_v1=2nd_v2=3rd>
+3	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
 and	<order_3rd>
 more than   <y_axis_approx>	 
 doubling   <y_axis_inferred_value_mul_v1=highest_v2=3rd>
