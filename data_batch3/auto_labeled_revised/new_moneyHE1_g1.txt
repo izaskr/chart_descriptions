@@ -566,7 +566,7 @@ in
 2010 
 .
 \n	<separator>
-The     ## sentence makes inference
+The     
 title
 states
 the
@@ -576,7 +576,7 @@ limited
 to
 Asia	<x_axis_label_highest_value>
 ,
-but	<y_x_comparison>
+but	 
 the
 dataset
 proves
@@ -945,7 +945,7 @@ together
 with
 North America	<x_axis_label_Scnd_highest_value>
 pushing
-75	<y_axis_inferred_least_value_approx>  ## group
+75	<y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 of
 Asia	<x_axis_label_highest_value>
@@ -1046,7 +1046,7 @@ pounds	<y_axis_inferred_label>
 It
 is
 over	<y_axis_approx>
-50	<y_axis_least_value_val>  ## %
+50	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
 %	<y_axis_inferred_label>
 higher	<y_axis_trend_up>
 than	<y_x_comparison>
@@ -1082,7 +1082,7 @@ comparing
 four	<x_axis_label_count>
 continents	<x_axis>
 (
-and        ## inference
+and        
 not
 just	 
 Asia	<x_axis_label_highest_value>

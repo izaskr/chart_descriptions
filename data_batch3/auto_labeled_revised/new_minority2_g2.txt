@@ -812,9 +812,7 @@ the
 year	<x_axis>
 period
 (
-1990
-to
-19	 
+1990 to 19	 <x_interval>
 )
 .
 \n	<separator>
@@ -836,7 +834,7 @@ later
 ,
 and	
 further
-40	
+40	<y_axis_inferred_value_mul_v1=highest_v2=3rd>
 %	 
 to
 14	<y_axis_highest_value_val>
@@ -1341,13 +1339,9 @@ years	<x_axis>
 )
 .
 From	
-2004
-to
-2005
+2004 to 2005   <x_interval>
 and	
-2009
-to
-2010
+2009 to 2010   <x_interval>
 there
 is
 an

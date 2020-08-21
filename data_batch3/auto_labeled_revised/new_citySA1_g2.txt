@@ -330,7 +330,7 @@ with
 16	<y_axis_least_value_val>
 degrees	<y_axis_inferred_label>
 .
-bbbrrrrr   ##  ??
+bbbrrrrr   <interpretation>
 <end_of_description>
 
 

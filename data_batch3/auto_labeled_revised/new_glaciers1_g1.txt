@@ -311,7 +311,7 @@ for
 a
 total
 of
-22    ##group
+22    <group_Scnd_highest>
 )
 were
 visited   <t=0_a=b>
@@ -320,7 +320,7 @@ often
 than	<y_x_comparison>
 the
 remaining
-4	 ##
+4	 
 glaciers	<x_axis>
 put
 together
@@ -330,7 +330,7 @@ a
 combined
 total
 of
-17	    ## group
+17	    <group_3rd_4th_5th_least>
 )
 .
 <end_of_description>

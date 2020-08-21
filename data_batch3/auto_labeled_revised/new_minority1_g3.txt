@@ -92,8 +92,7 @@ This
 chart
 shows
 the diversity in the Libyan parliament	<topic>
-between
-1990 - 2019  <x_interval>
+between 1990 - 2019  <x_interval>
 .
 As the years have passed  <x_axis_trend>
 ,
@@ -267,10 +266,7 @@ in
 5	<x_interval>
 year	<x_axis>
 chunks
-between
-1990
-and
-2020
+between 1990 and 2020   <x_interval>
 .
 \n	<separator>
 The
@@ -290,14 +286,12 @@ greatest	<y_axis_highest_value>
 increases	<slope_up>
 took
 place
-between
-1994/5
+between 1994/5   <x_interval>
 at
-10	<y_axis_inferred_value_mul_v1=4th_v2=least>
+10	<y_axis_inferred_value_mul_v1=5th_v2=least>
 times
-and	<order_3rd>
-1999/
-2000
+and	
+1999/2000  <x_interval>
 nearly	<y_axis_approx>
 4	<y_axis_inferred_value_mul_v1=4th_v2=5th>
 times
@@ -314,19 +308,17 @@ change
 slowed
 down
 to
-25	<y_axis_inferred_value_mul_v1=Scnd_v2=least>  ##
+25	<y_axis_inferred_value_mul_v1=4th_v2=3rd>  
 %	<y_axis_inferred_label>
 increase	<slope_up>
-2004/2005
-and	<order_3rd>
+2004/2005  <x_interval>
+and 
 this
 was
 repeated
 with
 the
-2010
--
-4	<y_axis_inferred_value_add_v1=3rd_v2=highest>  ##
+2010 - 14	<x_axis_label_Scnd_highest_value>
 approximately	<y_axis_approx>
 and 
 then	<order_3rd>
@@ -334,7 +326,7 @@ the
 final	<order_last>
 bar
 increased	<slope_up>
-6	<y_axis_inferred_value_mul_v1=Scnd_v2=5th>  ##
+6	<y_axis_inferred_value_mul_v1=highest_v2=least>  
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -486,24 +478,23 @@ at
 2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
-1996
-to
-1999.The
+1995 to 1999   <x_axis_label_5th_highest_value>
+.
+The
 years	<x_axis>
-2000
-to
-2004
+2000 to 2004   <x_axis_label_4th_highest_value>
 showed
 7.4	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 .
 \n	<separator>
 Years	<x_axis>
-2005
-to
-2009
+2005 to 2009   <x_axis_label_3rd_highest_value>
 showed
-10%,then
+10
+%
+,
+then
 followed	<order_Scnd>
 by
 the
@@ -512,18 +503,14 @@ highest	<y_axis_highest_value>
 in
 the
 years	<x_axis>
-2010
-to
-2014
+2010 to 2014   <x_axis_label_Scnd_highest_value>
 at
 12.8%.The
 highest	<y_axis_highest_value>
 was
 in
 years	<x_axis>
-2015
-to
-2019
+2015 to 2019   <x_axis_label_highest_value>
 at
 14	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
@@ -841,8 +828,7 @@ growth
 ,
 and	<order_3rd>
 again
-between
-2010 - 2014   <x_axis_label_Scnd_highest_value>
+between 2010 - 2014   <x_axis_label_Scnd_highest_value>
 ,
 the
 percentage	<y_axis>

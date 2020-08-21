@@ -311,10 +311,10 @@ a
 range
 of
 £	<y_axis_inferred_label>
-0	##
+50    <y_axis_inferred_least_value_approx>
 to
 £	<y_axis_inferred_label>
-80	 ##
+80	 <y_axis_inferred_highest_value_approx>
 \n\\n	<separator>
 The
 cameras	<x_axis>
