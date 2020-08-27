@@ -41196,7 +41196,7 @@
 					<label from="14_02-01-4-17" id="14_02-01-28" name="y_axis_trend" text="small" to="14_02-01-4-17" type="event"/>
 					<label from="14_02-01-4-18" id="14_02-01-29" name="slope_up" text="increase" to="14_02-01-4-18" type="event"/>
 					<label from="14_02-01-4-20" id="14_02-01-30" name="y_axis_approx" text="slightly under" to="14_02-01-4-21" type="event"/>
-					<label from="14_02-01-4-22" id="14_02-01-31" name="y_axis_5th_highest_value_val" text="7" to="14_02-01-4-22" type="event"/>
+					<label from="14_02-01-4-22" id="14_02-01-31" name="y_axis_5th_highest_val" text="7" to="14_02-01-4-22" type="event"/>
 					<label from="14_02-01-4-23" id="14_02-01-32" name="y_axis_inferred_label" text="%" to="14_02-01-4-23" type="event"/>
 					<label from="14_02-01-4-24" id="14_02-01-33" name="x_axis_label_5th_highest_value" text="between 2015 and 2019" to="14_02-01-4-27" type="event"/>
 				</events>
@@ -41380,7 +41380,7 @@
 					<label from="14_02-03-2-16" id="14_02-03-12" name="y_axis_inferred_label" text="%" to="14_02-03-2-16" type="event"/>
 					<label from="14_02-03-2-18" id="14_02-03-13" name="x_axis_label_highest_value" text="1990-1994" to="14_02-03-2-18" type="event"/>
 					<label from="14_02-03-2-20" id="14_02-03-14" name="y_axis_approx" text="almost" to="14_02-03-2-20" type="event"/>
-					<label from="14_02-03-2-21" id="14_02-03-15" name="y_axis_5th_highest_value_val" text="7" to="14_02-03-2-21" type="event"/>
+					<label from="14_02-03-2-21" id="14_02-03-15" name="y_axis_5th_highest_val" text="7" to="14_02-03-2-21" type="event"/>
 					<label from="14_02-03-2-22" id="14_02-03-16" name="y_axis_inferred_label" text="%" to="14_02-03-2-22" type="event"/>
 					<label from="14_02-03-2-24" id="14_02-03-17" name="x_axis_label_5th_highest_value" text="2015-2019" to="14_02-03-2-24" type="event"/>
 				</events>
@@ -41562,7 +41562,7 @@
 					<label from="14_02-04-5-26" id="14_02-04-35" name="y_axis" text="minority representation" to="14_02-04-5-27" type="event"/>
 					<label from="14_02-04-5-29" id="14_02-04-36" name="y_axis_inferred_least_value_approx" text="6.5" to="14_02-04-5-29" type="event"/>
 					<label from="14_02-04-5-30" id="14_02-04-37" name="y_axis_inferred_label" text="%" to="14_02-04-5-30" type="event"/>
-					<label from="14_02-04-6-1" id="14_02-04-38" name="y_axis_5th_highest_value_val" text="7" to="14_02-04-6-1" type="event"/>
+					<label from="14_02-04-6-1" id="14_02-04-38" name="y_axis_5th_highest_val" text="7" to="14_02-04-6-1" type="event"/>
 					<label from="14_02-04-6-2" id="14_02-04-39" name="y_axis_inferred_label" text="%" to="14_02-04-6-2" type="event"/>
 					<label from="14_02-04-6-5" id="14_02-04-40" name="x_axis" text="years" to="14_02-04-6-5" type="event"/>
 					<label from="14_02-04-6-6" id="14_02-04-41" name="x_axis_label_5th_highest_value" text="2015-2019" to="14_02-04-6-6" type="event"/>
@@ -41762,7 +41762,7 @@
 					<label from="14_02-06-2-19" id="14_02-06-18" name="order_last" text="then" to="14_02-06-2-19" type="event"/>
 					<label from="14_02-06-2-20" id="14_02-06-19" name="slope_up" text="increased" to="14_02-06-2-20" type="event"/>
 					<label from="14_02-06-2-21" id="14_02-06-20" name="y_axis_trend" text="slightly" to="14_02-06-2-21" type="event"/>
-					<label from="14_02-06-2-23" id="14_02-06-21" name="y_axis_5th_highest_value_val" text="7" to="14_02-06-2-23" type="event"/>
+					<label from="14_02-06-2-23" id="14_02-06-21" name="y_axis_5th_highest_val" text="7" to="14_02-06-2-23" type="event"/>
 					<label from="14_02-06-2-24" id="14_02-06-22" name="y_axis_inferred_label" text="%" to="14_02-06-2-24" type="event"/>
 					<label from="14_02-06-2-25" id="14_02-06-23" name="x_axis_label_5th_highest_value" text="between 2015 and 2019" to="14_02-06-2-28" type="event"/>
 				</events>
@@ -41918,7 +41918,7 @@
 					<label from="14_02-07-6-12" id="14_02-07-32" name="order_last" text="then" to="14_02-07-6-12" type="event"/>
 					<label from="14_02-07-6-13" id="14_02-07-33" name="slope_up" text="rose" to="14_02-07-6-13" type="event"/>
 					<label from="14_02-07-6-15" id="14_02-07-34" name="y_axis_approx" text="almost" to="14_02-07-6-15" type="event"/>
-					<label from="14_02-07-6-16" id="14_02-07-35" name="y_axis_5th_highest_value_val" text="7" to="14_02-07-6-16" type="event"/>
+					<label from="14_02-07-6-16" id="14_02-07-35" name="y_axis_5th_highest_val" text="7" to="14_02-07-6-16" type="event"/>
 					<label from="14_02-07-6-17" id="14_02-07-36" name="y_axis_inferred_label" text="%" to="14_02-07-6-17" type="event"/>
 					<label from="14_02-07-6-19" id="14_02-07-37" name="x_axis_label_5th_highest_value" text="2015-2019" to="14_02-07-6-19" type="event"/>
 				</events>
@@ -42040,7 +42040,7 @@
 					<label from="14_02-08-2-36" id="14_02-08-27" name="slope_up" text="up" to="14_02-08-2-36" type="event"/>
 					<label from="14_02-08-2-39" id="14_02-08-28" name="x_axis_label_5th_highest_value" text="2015-2019" to="14_02-08-2-39" type="event"/>
 					<label from="14_02-08-2-41" id="14_02-08-29" name="y_axis_approx" text="about" to="14_02-08-2-41" type="event"/>
-					<label from="14_02-08-2-42" id="14_02-08-30" name="y_axis_5th_highest_value_val" text="7" to="14_02-08-2-42" type="event"/>
+					<label from="14_02-08-2-42" id="14_02-08-30" name="y_axis_5th_highest_val" text="7" to="14_02-08-2-42" type="event"/>
 					<label from="14_02-08-2-43" id="14_02-08-31" name="y_axis_inferred_label" text="%" to="14_02-08-2-43" type="event"/>
 				</events>
 			</annotations>
@@ -43625,7 +43625,7 @@
 					<label from="14_02-22-4-3" id="14_02-22-27" name="x_axis_label_5th_highest_value" text="between 2015 and 2019" to="14_02-22-4-6" type="event"/>
 					<label from="14_02-22-4-10" id="14_02-22-28" name="y_axis" text="minority representation" to="14_02-22-4-11" type="event"/>
 					<label from="14_02-22-4-13" id="14_02-22-29" name="y_axis_approx" text="just under" to="14_02-22-4-14" type="event"/>
-					<label from="14_02-22-4-15" id="14_02-22-30" name="y_axis_5th_highest_value_val" text="7" to="14_02-22-4-15" type="event"/>
+					<label from="14_02-22-4-15" id="14_02-22-30" name="y_axis_5th_highest_val" text="7" to="14_02-22-4-15" type="event"/>
 					<label from="14_02-22-4-16" id="14_02-22-31" name="y_axis_inferred_label" text="%" to="14_02-22-4-16" type="event"/>
 				</events>
 			</annotations>

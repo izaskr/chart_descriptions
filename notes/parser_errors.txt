@@ -15,4 +15,5 @@ Lemmatization (within spaCy)
 		# glacier --> lemma "glaci"; glaciers --> lemma "glaciers"
 		# America --> lemma "american"
 
-
+21%,followed - no rule to split that
+percentage point as <y_axis_inferred_label>
