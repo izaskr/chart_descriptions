@@ -33,7 +33,7 @@ Mefonna	<x_axis_label_highest_value>
 received
 13	<y_axis_highest_value_val>
 (
-and	<order_3rd>
+and
 as
 such
 was
@@ -111,7 +111,7 @@ with
 13	<y_axis_highest_value_val>
 expeditions	<y_axis_inferred_label>
 ,
-and	<order_3rd>
+and
 the
 least explored	 <y_axis_least_value>
 is
@@ -241,7 +241,7 @@ graph
 shows
 the most explored glaciers by number of expeditions	 <topic>
 .
-Six	<x_axis_label_count>
+Six	<x_axis_labels_count>
 glaciers	<x_axis>
 are
 listed
@@ -274,7 +274,7 @@ point
 is
 between
 5	<y_axis_4th_highest_val>
-and	<order_3rd>
+and
 6	<y_axis_3rd_highest_val>
 .
 <end_of_description>
@@ -498,7 +498,7 @@ lower	<y_axis_trend_down>
 with
 between 
 2	<y_axis_least_value_val>
-and	<order_3rd>
+and
 6	<y_axis_3rd_highest_val>
 expeditions	<y_axis_inferred_label>
 each
@@ -528,7 +528,7 @@ varied	<y_axis_trend>
 between
 13	<y_axis_highest_value_val>
 expeditions	<y_axis_inferred_label>
-and	<order_3rd>
+and
 2	<y_axis_least_value_val>
 expeditions	<y_axis_inferred_label>
 with no clear similarities between any of the glaciers	<interpretation>
@@ -768,7 +768,7 @@ the
 number of expeditions	<y_axis>
 journeying
 to
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 different
 glaciers	<t=1_a=b>
 .
@@ -843,7 +843,7 @@ Olav	<x_axis_label_4th_highest_value>
 ,
 Zvevzda
 6	<y_axis_3rd_highest_val>
-and	<order_3rd>
+and
 Akkem	<x_axis_label_Scnd_highest_value>
 9	<y_axis_Scnd_highest_val>
 .
@@ -934,7 +934,7 @@ to
 9	<y_axis_Scnd_highest_val>
 with
 Akkem	<x_axis_label_Scnd_highest_value>
-and	<order_3rd>
+and
 Zvezda	<x_axis_label_3rd_highest_value>
 is
 next	<order_Scnd>
@@ -1084,7 +1084,7 @@ Olav	<x_axis_label_4th_highest_value>
 ,
 Zvezda	<x_axis_label_3rd_highest_value>
 6	<y_axis_3rd_highest_val>
-and	<order_3rd>
+and
 Akkem	<x_axis_label_Scnd_highest_value>
 9	<y_axis_Scnd_highest_val>
 .

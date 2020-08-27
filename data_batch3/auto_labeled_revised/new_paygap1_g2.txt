@@ -7,7 +7,7 @@ The most equal countries given the gender pay gap   <topic>
 .
 I am not certain if the data in percentages	relates to the pay gap itself      <interpretation>
 .
-Three	<x_axis_label_count>
+Three	<x_axis_labels_count>
 countries	<x_axis>
 are
 included
@@ -321,7 +321,7 @@ This
 visual
 representation
 displays
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 and	 
 their
@@ -359,7 +359,7 @@ percentage	<y_axis>
 of
 gender pay gap	<y_axis>
 in
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 .
 The
@@ -391,7 +391,7 @@ the
 most equal    <t=1_a=b>
 of
 the
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 .
 <end_of_description>
 
@@ -403,7 +403,7 @@ chart
 shows
 equality   <t=1_a=y>
 in
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 based
 on
@@ -454,7 +454,7 @@ the
 pay gap	<y_axis>
 ,
 in
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 .
 It
@@ -800,7 +800,7 @@ shows
 that
 of
 the
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 ,
 Spain	<x_axis_label_least_value>
@@ -816,7 +816,7 @@ gender pay gap	<y_axis>
 The
 graph
 shows
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 and	
 their
@@ -937,7 +937,7 @@ a
 %	<y_axis_inferred_label>
 )
 for
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 :
 Germany	<x_axis_label_highest_value>

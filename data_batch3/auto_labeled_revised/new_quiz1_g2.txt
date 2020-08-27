@@ -4,7 +4,7 @@ chart
 displays
 data
 for
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 teams	<x_axis>
 in
 a

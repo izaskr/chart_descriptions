@@ -29,7 +29,7 @@ at
 Olav	<x_axis_label_4th_highest_value>
 at
 5	<y_axis_4th_highest_val>
-and	<order_3rd>
+and
 Volta	<x_axis_label_5th_highest_value>
 at
 4	<y_axis_5th_highest_val>
@@ -80,7 +80,7 @@ with
 Akkem	<x_axis_label_Scnd_highest_value>
 with
 9	<y_axis_Scnd_highest_val>
-and	<order_3rd>
+and
 the
 most popular	<y_axis_highest_value>
 being
@@ -286,7 +286,7 @@ Zvezda	<x_axis_label_3rd_highest_value>
 has
 had
 6	<y_axis_3rd_highest_val>
-and	<order_3rd>
+and
 Olav	<x_axis_label_4th_highest_value>
 has
 seen
@@ -432,14 +432,14 @@ expeditions	<y_axis_inferred_label>
 ,
 while	<y_x_comparison>
 Akkem	<x_axis_label_Scnd_highest_value>
-and	<order_3rd>
+and
 Mefonna	<x_axis_label_highest_value>
 have
 been
 visited
 on
 9	<y_axis_Scnd_highest_val>
-and	<order_3rd>
+and
 13	<y_axis_highest_value_val>
 expeditions	<y_axis_inferred_label>
 respectively
@@ -658,7 +658,7 @@ up	<slope_up>
 to
 the
 3	<y_axis_inferred_value_add_v1=Scnd_v2=3rd>
-and	<order_3rd>
+and
 more than   <y_axis_approx>	 
 doubling   <y_axis_inferred_value_mul_v1=highest_v2=3rd>
 Zvezda	<x_axis_label_3rd_highest_value>
@@ -744,7 +744,7 @@ had
 ,
 Olav	<x_axis_label_4th_highest_value>
 5	<y_axis_4th_highest_val>
-and	<order_3rd>
+and
 Zvezda	<x_axis_label_3rd_highest_value>
 6	<y_axis_3rd_highest_val>
 .
@@ -755,7 +755,7 @@ has
 had
 9	<y_axis_Scnd_highest_val>
 expeditions	<y_axis>
-and	<order_3rd>
+and
 Mefonna	<x_axis_label_highest_value>
 13	<y_axis_highest_value_val>
 .
@@ -796,7 +796,7 @@ Rounding
 out
 the
 bottom
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 least	<y_axis_least_value>
 explored glaciers	<x_axis>
 Zvezda	<x_axis_label_3rd_highest_value>
@@ -881,7 +881,7 @@ with
 Zvezda	<x_axis_label_3rd_highest_value>
 with
 6	<y_axis_3rd_highest_val>
-and	<order_3rd>
+and
 Akkem	<x_axis_label_Scnd_highest_value>
 with
 9	<y_axis_Scnd_highest_val>
@@ -1132,7 +1132,7 @@ most explored  	<y_axis_highest_value>
 with
 13.2	<y_axis_inferred_highest_value_approx>
 expeditions	<y_axis_inferred_label>
-and	<order_3rd>
+and
 Tasman	<x_axis_label_least_value>
 is
 the
@@ -1153,7 +1153,7 @@ followed by   <order_Scnd>
 Zvezda	<x_axis_label_3rd_highest_value>
 ,
 Olav	<x_axis_label_4th_highest_value>
-and	<order_3rd>
+and
 Volta	<x_axis_label_5th_highest_value>
 with
 6	<y_axis_3rd_highest_val>
@@ -1222,7 +1222,7 @@ least explored
 6	<y_axis_3rd_highest_val>
 expeditions	<y_axis_inferred_label>
 )
-and	<order_3rd>
+and
 Akkem	<x_axis_label_Scnd_highest_value>
 is
 the
@@ -1240,7 +1240,7 @@ least explored
 most explored  	<y_axis_highest_value>
 of
 the
-6	<x_axis_label_count>
+6	<x_axis_labels_count>
 glaciers	<x_axis>
 )
 is

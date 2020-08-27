@@ -258,7 +258,7 @@ shows
 cities	<x_axis>
 in
 South America	<t=1_a=b>
-and	<order_3rd>
+and
 compares
 their
 temperature   <y_axis>
@@ -385,7 +385,7 @@ the coldest cities in South America	<topic>
 by
 Celsius  <y_axis_inferred_label>
 temperatures	<y_axis>
-and	<order_3rd>
+and
 by
 various
 cities	<x_axis>
@@ -542,7 +542,7 @@ C <y_axis_inferred_label>
 ,
 23  <y_axis_4th_highest_val>
 C <y_axis_inferred_label> 
-and	<order_3rd>
+and
 25  <y_axis_3rd_highest_val>
 C <y_axis_inferred_label> 
 \n	<separator>
@@ -712,7 +712,7 @@ to
 degrees	C <y_axis_inferred_label>
 is
 Montevideo	<x_axis_label_Scnd_highest_value>
-and	<order_3rd>
+and
 a
 further
 6	<y_axis_inferred_value_add_v1=highest_v2=Scnd>
@@ -980,7 +980,7 @@ at
 25   <y_axis_3rd_highest_val>
 degC   <y_axis_inferred_label>
 ,
-and	<order_3rd>
+and
 Cordoba	<x_axis_label_4th_highest_value>
 at
 23   <y_axis_4th_highest_val>
@@ -1204,7 +1204,7 @@ the
 least coldest	<y_axis_highest_value>
 of
 the
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 cities   <x_axis>
 ,
 <end_of_description>
@@ -1425,7 +1425,7 @@ coldest	<t=1_a=b>
 warmest   <y_axis_highest_value>
 of
 the
-6	<x_axis_label_count>
+6	<x_axis_labels_count>
 cities	<x_axis>
 )
 is

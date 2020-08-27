@@ -8,7 +8,7 @@ but
 includes
 data
 for
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 days	<x_axis>
 ,
 Monday	<x_axis_label_3rd_highest_value>

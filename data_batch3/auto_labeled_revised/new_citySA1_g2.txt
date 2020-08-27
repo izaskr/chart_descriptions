@@ -8,7 +8,7 @@ There
 are
 data
 for
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 cities	<x_axis>
 :
 Santiago	<x_axis_label_5th_highest_value>
@@ -73,7 +73,7 @@ highest
 temperature	<y_axis>
 of
 all
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 cities	<x_axis>
 ,
 recording
@@ -138,7 +138,7 @@ Santiago	<x_axis_label_5th_highest_value>
 at
 20	<y_axis_5th_highest_val>
 C	<y_axis_inferred_label>
-and	<order_3rd>
+and
 with
 the
 coolest  <y_axis_least_value>
@@ -316,7 +316,7 @@ degrees celsius	<y_axis_inferred_label>
 for
 Santiago	<x_axis_label_5th_highest_value>
 ,
-and	<order_3rd>
+and
 a
 practically freezing   <interpretation>
 in
@@ -493,7 +493,7 @@ at
 29	<y_axis_Scnd_highest_val>
 degrees	<y_axis_inferred_label>
 ,
-and	<order_3rd>
+and
 Lima	<x_axis_label_3rd_highest_value>
 at
 35	<y_axis_inferred_highest_value_approx>
@@ -532,7 +532,7 @@ shows
 the
 temperature	<y_axis>
 in
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 cities	<x_axis>
 in
 South America	<t=1_a=b>
@@ -678,7 +678,7 @@ santiago	<x_axis_label_5th_highest_value>
 is
 20	<y_axis_5th_highest_val>
 degress  <y_axis_inferred_label>  
-and	<order_3rd>
+and
 last	<y_axis_least_value>
 is
 bogota	<x_axis_label_least_value>
@@ -699,7 +699,7 @@ temperature	<y_axis>
 in
 degrees	Celsius  <y_axis_inferred_label>
 in
-6	<x_axis_label_count>
+6	<x_axis_labels_count>
 South American	<t=1_a=b>
 cities	<x_axis>
 .
@@ -902,7 +902,7 @@ shows
 the
 temperature	<y_axis>
 across
-6	<x_axis_label_count>
+6	<x_axis_labels_count>
 different
 cities	<x_axis>
 in
@@ -954,7 +954,7 @@ list
 of
 South American	<t=1_a=b>
 countries
-and	<order_3rd>
+and
 their
 respective
 warmest	<y_axis_highest_value>
@@ -1050,7 +1050,7 @@ degrees	C <y_axis_inferred_label>
 between
 the
 coolest  <y_axis_least_value>
-and	<order_3rd>
+and
 the
 warmest	<y_axis_highest_value>
 city	<x_axis>
@@ -1093,7 +1093,7 @@ the
 temperatures	<y_axis>
 of
 the
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 warmest	<t=1_a=b>
 cities	<x_axis>
 in
@@ -1188,7 +1188,7 @@ Montevideo	<x_axis_label_Scnd_highest_value>
 29	<y_axis_Scnd_highest_val>
 degree C	<y_axis>
 )
-and	<order_3rd>
+and
 Cordoba	<x_axis_label_4th_highest_value>
 (
 23)

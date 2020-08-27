@@ -8,7 +8,7 @@ the
 digital	cameras	 <x_axis>
 sold
 under	<y_axis_approx>
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 different brands	<x_axis>
 .
  
@@ -150,7 +150,7 @@ at
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
 58	<y_axis_inferred_4th_highest_value_approx>
-and	<order_3rd>
+and
 the
 Konica	<x_axis_label_least_value>
 is
@@ -207,7 +207,7 @@ Memoto	<x_axis_label_Scnd_highest_value>
 at
 £	<y_axis_inferred_label>
 70	<y_axis_inferred_Scnd_highest_value_approx>
-and	<order_3rd>
+and
 the
 most expensive   <y_axis_highest_value>
 is
@@ -227,7 +227,7 @@ compares
 the
 prices	<y_axis>
 of
-5	<x_axis_label_count>
+5	<x_axis_labels_count>
 camera brands	<x_axis>
 in
 £ sterling	<y_axis_inferred_label>
@@ -308,7 +308,7 @@ of
 70	<y_axis_inferred_Scnd_highest_value_approx>
 .
 Stigma
-and	<order_3rd>
+and
 Hunten	<x_axis_label_4th_highest_value>
 are
 more	<y_axis_trend_up>
@@ -347,7 +347,7 @@ is
 the
 cheapest   <y_axis_least_value>
 average	price	<y_axis>
-and	<order_3rd>
+and
 Cambo	<x_axis_label_highest_value>
 are
 the
@@ -400,7 +400,7 @@ at
 58	<y_axis_inferred_4th_highest_value_approx>
 pounds sterling	<y_axis_inferred_label>
 ,
-and	<order_3rd>
+and
 the
 cheapest  <y_axis_least_value>
 was
@@ -471,7 +471,7 @@ Konica	<x_axis_label_least_value>
 at
 £	<y_axis_inferred_label>
 54	<y_axis_inferred_least_value_approx>
-and	<order_3rd>
+and
 Cambo	<x_axis_label_highest_value>
 at
 a
@@ -573,7 +573,7 @@ most
 affordable
 was
 Hunten	<x_axis_label_4th_highest_value>
-and	<order_3rd>
+and
 the
 second	<order_Scnd>
 least affordable	<y_axis_least_value>
@@ -646,7 +646,7 @@ to
 70	<y_axis_inferred_Scnd_highest_value_approx>
 for
 Memoto	<x_axis_label_Scnd_highest_value>
-and	<order_3rd>
+and
 the
 most expensive   <y_axis_highest_value>
 ,
@@ -862,7 +862,7 @@ at
 £	<y_axis_inferred_label>
 58	<y_axis_inferred_4th_highest_value_approx>
 ,
-and	<order_3rd>
+and
 finally	<order_last>
 Konica	<x_axis_label_least_value>
 is
@@ -955,7 +955,7 @@ just under	<y_axis_approx>
 £	<y_axis_inferred_label>
 60	<y_axis_inferred_4th_highest_value_approx>
 ,
-and	<order_3rd>
+and
 the
 Sigma	<x_axis_label_3rd_highest_value>
 at
@@ -974,7 +974,7 @@ at
 £	<y_axis_inferred_label>
 70	<y_axis_inferred_Scnd_highest_value_approx>
 ,
-and	<order_3rd>
+and
 lastly	<order_last>
 the
 Cambo	<x_axis_label_highest_value>
@@ -1024,7 +1024,7 @@ Sigma  <x_axis_label_3rd_highest_value>
 62  <y_axis_inferred_3rd_highest_value_approx>
 pounds	<y_axis_inferred_label>
 )
-and	<order_3rd>
+and
 Memoto	<x_axis_label_Scnd_highest_value>
 at
 70	<y_axis_inferred_Scnd_highest_value_approx>
@@ -1211,7 +1211,7 @@ least
 62	<y_axis_inferred_3rd_highest_value_approx>
 )
 ,
-and	<order_3rd>
+and
 Hunten	<x_axis_label_4th_highest_value>
 fourth
 least	<y_axis_least_value>

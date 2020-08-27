@@ -325,7 +325,7 @@ lowest	<y_axis_least_value>
 percentage	<y_axis>
 across
 all
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 departments	<x_axis>
 .
 The
@@ -799,7 +799,7 @@ lowest	<y_axis_least_value>
 out
 of
 the
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 departments	<x_axis>
 examined
 .

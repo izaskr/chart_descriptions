@@ -24,7 +24,7 @@ split
 into
 responses
 for
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 age range groups	<x_axis>
 ;
 ages	<x_axis>

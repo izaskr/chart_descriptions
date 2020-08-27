@@ -15,7 +15,7 @@ years	<x_axis>
 are
 split
 into
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 time 
 periods
 and	

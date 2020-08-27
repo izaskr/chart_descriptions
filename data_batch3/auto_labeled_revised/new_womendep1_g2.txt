@@ -9,7 +9,7 @@ and
 depicts
 percentages	<y_axis>
 across
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 departments	<x_axis>
 .
 It
@@ -496,7 +496,7 @@ chart
 shows
 representation of women	<y_axis>
 in
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 University departments	<x_axis>
 .
 Literature	<x_axis_label_highest_value>

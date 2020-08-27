@@ -1075,7 +1075,7 @@ expressed
 in
 percentage	<y_axis_inferred_label>
 in
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 different
 countries	<x_axis>
 .

@@ -178,7 +178,7 @@ number of mistakes	<y_axis>
 each
 of
 the
-6	<x_axis_label_count>
+6	<x_axis_labels_count>
 teams	<x_axis>
 made
 .
@@ -282,7 +282,7 @@ There
 are
 scores
 for
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 teams	<x_axis>
 ,
 and
@@ -995,7 +995,7 @@ mistakes	<y_axis>
 Three
 out
 of
-six	<x_axis_label_count>
+six	<x_axis_labels_count>
 teams	<x_axis>
 made
 fewer	than	<y_axis_approx>

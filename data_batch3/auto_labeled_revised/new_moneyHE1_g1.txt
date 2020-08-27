@@ -229,7 +229,7 @@ spending
 £	<y_axis_inferred_label>
 100	<y_axis_3rd_highest_val>
 million	<y_magnitude>
-and	<order_3rd>
+and
 Africa	<x_axis_label_least_value>
 spending
 £	<y_axis_inferred_label>
@@ -290,7 +290,7 @@ North America	<x_axis_label_Scnd_highest_value>
 comes
 second	<order_Scnd>
 ,
-and	<order_3rd>
+and
 Europe	<x_axis_label_3rd_highest_value>
 is
 third	<order_3rd>
@@ -339,7 +339,7 @@ continents	<x_axis>
 North America	<x_axis_label_Scnd_highest_value>
 ,
 Europe	<x_axis_label_3rd_highest_value>
-and	<order_3rd>
+and
 Africa	<x_axis_label_least_value>
 )
 for
@@ -379,7 +379,7 @@ Europe	<x_axis_label_3rd_highest_value>
 100	<y_axis_3rd_highest_val>
 m	<y_magnitude>
 )
-and	<order_3rd>
+and
 Africa	<x_axis_label_least_value>
 (
 £	<y_axis_inferred_label>
@@ -438,14 +438,14 @@ spent	<t=1_a=y>
 200	<y_axis_Scnd_highest_val>
 million	<y_magnitude>
 )
-and	<order_3rd>
+and
 over	<y_axis_approx>
 twice   
 as
 much	<y_axis_trend>
 as
 Europe	<x_axis_label_3rd_highest_value>
-and	<order_3rd>
+and
 Africa	<x_axis_label_least_value>
 put
 together
@@ -454,7 +454,7 @@ which
 spent	<t=1_a=y>
 £	<y_axis_inferred_label>
 100	<y_axis_3rd_highest_val>
-and	<order_3rd>
+and
 £	<y_axis_inferred_label>
 50	<y_axis_least_value_val>
 million	<y_magnitude>
@@ -520,7 +520,7 @@ with
 200	<y_axis_Scnd_highest_val>
 million	<y_magnitude>
 pounds	<y_axis_inferred_label>
-and	<order_3rd>
+and
 Europe	<x_axis_label_3rd_highest_value>
 spent	<t=1_a=y>
 half    <y_axis_inferred_value_mul_v1=3rd_v2=Scnd>
@@ -732,7 +732,7 @@ money spent	<t=1_a=y>
 on
 higher education	<t=1_a=b>
 in
-4	<x_axis_label_count>
+4	<x_axis_labels_count>
 different
 continents	<x_axis>
 ,
@@ -901,7 +901,7 @@ spent	<t=1_a=y>
 £	<y_axis_inferred_label>
 200	<y_axis_Scnd_highest_val>
 million	<y_magnitude>
-and	<order_3rd>
+and
 Europe	<x_axis_label_3rd_highest_value>
 half
 this
@@ -938,7 +938,7 @@ on
 higher education	<t=1_a=b>
 than	<y_x_comparison>
 Africa	<x_axis_label_least_value>
-and	<order_3rd>
+and
 Europe	<x_axis_label_3rd_highest_value>
 put
 together
@@ -1035,7 +1035,7 @@ Europe	<x_axis_label_3rd_highest_value>
 million	<y_magnitude>
 pounds	<y_axis_inferred_label>
 )
-and	<order_3rd>
+and
 Africa	<x_axis_label_least_value>
 (
 50	<y_axis_least_value_val>
@@ -1079,7 +1079,7 @@ higher education	<t=1_a=b>
 in
 2010
 comparing
-four	<x_axis_label_count>
+four	<x_axis_labels_count>
 continents	<x_axis>
 (
 and        
@@ -1322,7 +1322,7 @@ in
 North America	<x_axis_label_Scnd_highest_value>
 ,
 Europe	<x_axis_label_3rd_highest_value>
-and	<order_3rd>
+and
 Africa	<x_axis_label_least_value>
 .
 Over	<y_axis_approx>
@@ -1344,7 +1344,7 @@ more	<y_axis_trend_up>
 than	<y_x_comparison>
 in
 Europe   <x_axis_label_3rd_highest_value>
-and	<order_3rd>
+and
 over	<y_axis_approx>
 six    <y_axis_inferred_value_mul_v1=highest_v2=least>
 times
@@ -1384,7 +1384,7 @@ million	<y_magnitude>
 being
 the
 least	<y_axis_least_value>
-and	<order_3rd>
+and
 Asia	<x_axis_label_highest_value>
 spent	<t=1_a=y>
 £	<y_axis_inferred_label>
@@ -1437,7 +1437,7 @@ at
 £	<y_axis_inferred_label>
 200	<y_axis_Scnd_highest_val>
 m	<y_magnitude>
-and	<order_3rd>
+and
 the
 least	<y_axis_least_value>
 amount    <y_axis>

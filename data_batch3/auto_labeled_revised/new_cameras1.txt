@@ -32,7 +32,7 @@ Hunten	<x_axis_label_4th_highest_value>
 £	<y_axis_inferred_label>
 58	<y_axis_inferred_4th_highest_value_approx>
 )
-and	<order_3rd>
+and
 Konica	<x_axis_label_least_value>
 (
 £	<y_axis_inferred_label>
@@ -303,10 +303,10 @@ the most expensive digital cameras by average price	<topic>
 a
 comparison	<y_x_comparison>
 of
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 brands	<x_axis>
 ,
-and	<order_3rd>
+and
 a
 range
 of
@@ -337,7 +337,7 @@ The
 average	price	<y_axis>
 of
 the
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 is
 Sigma	<x_axis_label_3rd_highest_value>
 ,
@@ -368,7 +368,7 @@ all
 hover
 between  
 55	<y_axis_inferred_least_value_approx>
-and	<order_3rd>
+and
 75	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
@@ -449,7 +449,7 @@ Hunten	<x_axis_label_4th_highest_value>
 being
 £	<y_axis_inferred_label>
 58	<y_axis_inferred_4th_highest_value_approx>
-and	<order_3rd>
+and
 finally	<order_last>
 the
 Konica	<x_axis_label_least_value>
@@ -559,7 +559,7 @@ average	price	<y_axis>
 £	<y_axis_inferred_label>
 58	<y_axis_inferred_4th_highest_value_approx>
 )
-and	<order_3rd>
+and
 Konica	<x_axis_label_least_value>
 (
 average	price	<y_axis>
@@ -745,7 +745,7 @@ averaged	<y_axis>
 at
 £	<y_axis_inferred_label>
 70	<y_axis_inferred_Scnd_highest_value_approx>
-and	<order_3rd>
+and
 the
 most expensive	 <y_axis_highest_value>
 was
@@ -1073,7 +1073,7 @@ then	<order_3rd>
 Sigma	<x_axis_label_3rd_highest_value>
 ,
 Henten
-and	<order_3rd>
+and
 Konica	<x_axis_label_least_value>
 being
 the
@@ -1187,7 +1187,7 @@ average	price	<y_axis>
 being
 £	<y_axis_inferred_label>
 76	<y_axis_inferred_highest_value_approx>
-and	<order_3rd>
+and
 the
 least expensive	<y_axis_least_value>
 being

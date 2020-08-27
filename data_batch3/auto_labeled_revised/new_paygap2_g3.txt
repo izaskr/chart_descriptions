@@ -8,7 +8,7 @@ between
 Germany	<x_axis_label_highest_value>
 ,
 Spain	<x_axis_label_least_value>
-and	<order_3rd>
+and
 the
 UK	<x_axis_label_Scnd_highest_value>
 .
@@ -574,7 +574,7 @@ gender pay gap	<y_axis>
 out
 of
 the
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 ,
 showing
@@ -601,7 +601,7 @@ least	<y_axis_least_value>
 equal	<t=1_a=b>
 of
 these
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 at
 only	<y_axis_least_value>
@@ -634,7 +634,7 @@ the
 percentage pay gap between men and women	<topic>
 in
 the
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 where
 the
@@ -667,7 +667,7 @@ also
 makes
 the
 bottom
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 with
 a
 gap	<y_axis>
@@ -823,7 +823,7 @@ country	<x_axis>
 out
 of
 the
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 taking
 into
 account
@@ -838,7 +838,7 @@ This
 graph
 illustrates
 the
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 with
 the
@@ -1020,7 +1020,7 @@ least	<y_axis_least_value>
 equal	<t=1_a=b>
 of
 the
-three	<x_axis_label_count>
+three	<x_axis_labels_count>
 countries	<x_axis>
 ,
 at

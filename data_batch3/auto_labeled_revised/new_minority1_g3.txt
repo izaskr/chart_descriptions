@@ -365,7 +365,7 @@ consistently	<y_axis_trend>
 increasing	<slope_up>
 since
 1990   <x_axis_range_start>
-and	<order_3rd>
+and
 up	<slope_up>
 until
 the
@@ -384,7 +384,7 @@ was
 under	<y_axis_approx>
 2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 remained
 under	<y_axis_approx>
 10	<y_axis_3rd_highest_val>
@@ -398,7 +398,7 @@ increased	<slope_up>
 to
 higher	<y_axis_trend_up>
 numbers
-and	<order_3rd>
+and
 was
 reported
 to
@@ -565,7 +565,7 @@ over	<y_axis_approx>
 2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 ,
-and	<order_3rd>
+and
 by
 2000 - 2004   <x_axis_label_4th_highest_value>
 ,
@@ -826,7 +826,7 @@ to
 average	<y_axis_approx>
 growth
 ,
-and	<order_3rd>
+and
 again
 between 2010 - 2014   <x_axis_label_Scnd_highest_value>
 ,
@@ -970,7 +970,7 @@ almost	<y_axis_approx>
 by
 2010
 ,
-and	<order_3rd>
+and
 reached
 a
 high	<y_axis_highest_value>
@@ -1462,7 +1462,7 @@ with
 just	over	<y_axis_approx>
 2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
-and	<order_3rd>
+and
 again
 increased	<slope_up>
 each

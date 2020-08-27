@@ -301,7 +301,7 @@ least inclusive university departments given percentage	representation of women	
 a
 comparison	<y_x_comparison>
 of
-five	<x_axis_label_count>
+five	<x_axis_labels_count>
 departments	<x_axis>
 .
 \\n	<separator>
