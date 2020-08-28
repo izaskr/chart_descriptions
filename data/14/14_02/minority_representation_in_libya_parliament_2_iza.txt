@@ -63,7 +63,7 @@ between 2015 and 2019	<x_axis_label_5th_highest_value>
 .
 <end_of_description>
 
-<start_of_description> 
+<start_of_description> [type01]
 This
 chart
 shows
@@ -106,7 +106,7 @@ period	<x_axis>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 represents
@@ -119,7 +119,7 @@ to	<x_axis_range_end>
 in
 periods
 of
-4	<x_interval> ## step ? 4 years at a time
+4	<x_interval>
 years	<x_axis>
 at
 a
@@ -156,7 +156,7 @@ This
 chart
 represents
 the
-percentage of the minority representation in the Parliament of Lybia	<topic> ## better to split into y_axis and tro?
+percentage of the minority representation in the Parliament of Lybia	<topic>
 between	<x_axis_range_start>
 the
 years	<x_axis>
@@ -165,7 +165,7 @@ and	<x_axis_range_end>
 2019	<x_axis_label_5th_highest_value>
 in
 four	<x_interval>
-year	## x_axis ? 
+year	<x_axis>
 increments
 .
 \\n	<separator>
@@ -213,7 +213,7 @@ years	<x_axis>
 There
 was
 a
-slightly larger	<y_axis_trend> ## 
+slightly larger	<y_axis_trend>
 decrease	<slope_down>	
 in
 the
@@ -238,7 +238,7 @@ minority representation	<y_axis>
 from
 6.5	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
-
+.
 7	<y_axis_5th_highest_val>
 %	<y_axis_inferred_label>
 in
@@ -276,16 +276,16 @@ to
 in
 2005-2009	<x_axis_label_4th_highest_value>
 .
-2010-2014	<x_axis_label_least_value> ##
-6.5	<y_axis_inferred_least_value_approx>
+2015-2019	<x_axis_label_5th_highest_value>
+6.5	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>
 and
 the
 final	<order_last>
 year
-2010-2014	<x_axis_label_5th_highest_value> ## mistake in the summary: the same bar referenced above, labels should be correct ontop of wrong text though
+2010-2014	<x_axis_label_least_value>
 only	<y_axis_least_value>
-6.2	<y_axis_inferred_5th_highest_value_approx>
+6.2	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -306,10 +306,7 @@ from	<x_axis_range_start>
 to	<x_axis_range_end>
 2019	<x_axis_label_5th_highest_value>
 .
-From	<x_axis_range_start> ## an example of grouping
-1990	<x_axis_label_highest_value>
-to	<x_axis_range_end>
-2014	<x_axis_label_least_value>
+From 1990 to 2014	<group_highest_Scnd_3rd_4th_least>
 it
 decreased	<slope_down>
 steadily	<y_axis_trend>
@@ -349,7 +346,7 @@ the
 minority representation	<y_axis>
 in
 the
-parliament	<topic_related_property> ## or a part of y_axis?
+parliament	 <t=1_a=b>
 was
 just below	<y_axis_approx>
 14	<y_axis_inferred_highest_value_approx>
@@ -376,7 +373,7 @@ over	<y_axis_approx>
 And
 a
 minor	<y_axis_trend>
-change   ## slope?
+change
 of
 just below	<y_axis_approx>
 8	<y_axis_inferred_4th_highest_value_approx>
@@ -462,7 +459,10 @@ about	<y_axis_approx>
 
 <start_of_description>
 The
-minority representation in the Parliament of Lybia	<topic>
+minority representation	<y_axis>
+in
+the
+Parliament of Lybia	<t=1_a=b>
 was
 decreasing	<slope_down>
 between	<x_axis_range_start>
@@ -485,7 +485,10 @@ sharper	<y_axis_trend>
 drop	<slope_down>
 in
 the
-percentage of minority representatives in the Parliament	<y_axis>
+percentage of minority representatives	<y_axis>
+in
+the
+Parliament	<t=1_a=b>
 after
 the
 period	<x_axis>
@@ -517,10 +520,7 @@ decrease	<slope_down>
 until
 2014	<x_axis_label_least_value>
 .
-From	<x_axis_range_start>
-2010-2014 <x_axis_label_least_value>
-to	<x_axis_range_end>
-2015-2019	<x_axis_label_5th_highest_value>
+From 2010-2014 to 2015-2019	<group_5th_least>
 there
 was
 an
@@ -580,18 +580,21 @@ to
 
 <start_of_description>
 The
-Minority representation in the parliament of Lybia	<y_axis> ## I'm rather inconsistent: y_axis and topic
+Minority representation	<y_axis>
+in
+the
+parliament of Lybia	<t=1_a=b>
 has
 reduced	<slope_down>
 a lot	<y_axis_trend>
-since	## by 2000? and not since?
+by
 the
 2000	<x_axis_label_3rd_highest_value>
 by
 more	<y_axis_approx>
 of
-5	<y_axis_inferred_value_add_v1=highest_v2=3rd> ## not sure here about v1 and v2
-%	<y_axis_inferred_label>  ## -------------- #this sentence as a whole is a bit unclear
+5	<y_axis_inferred_value_add_v1=highest_v2=3rd>
+%	<y_axis_inferred_label>
 .
 It
 had
@@ -611,7 +614,7 @@ this
 was
 reduced	<slope_down>
 by
-0.8	<y_axis_inferred_value_add_v1=Scnd_v2=highest> ## unsure about v1 and v2
+0.8	<y_axis_inferred_value_add_v1=Scnd_v2=highest>
 %	<y_axis_inferred_label>
 in
 the
@@ -627,7 +630,7 @@ years	<x_axis>
 2000-2004	<x_axis_label_3rd_highest_value>
 a
 big	<y_axis_trend>
-jump	<slope_down> ## jump is not necessarily down...
+jump	<slope_down>
 can
 be
 seem
@@ -644,7 +647,7 @@ being
 reduced	<slope_down>
 in
 the
-following	## <x_axis_labels_rest>  ??
+following	<x_axis_labels_rest>
 years
 .
 In
@@ -689,7 +692,9 @@ This
 graph
 shows
 the
-minority representation in the parliament of Lybia in percentages	<topic>
+minority representation in the parliament of Lybia	<topic>
+in
+percentages	<y_axis_inferred_label>
 from	<x_axis_range_start>
 the
 year	<x_axis>
@@ -749,9 +754,9 @@ almost	<y_axis_approx>
 %	<y_axis_inferred_label>
 of
 the
-parliament	<topic_related_property>
+parliament	<t=1_a=b>
 were
-minorities	<topic_related_property> ## after delexicalization this will look strange
+minorities	<t=1_a=y>
 .
 This
 dropped	<slope_down>
@@ -791,7 +796,8 @@ chart
 showing
 the
 minority representation in the parliament of Lybia	<topic>
-across years	<x_axis_trend>
+across
+years	<x_axis>
 starting
 from	<x_axis_range_start>
 1990	<x_axis_label_highest_value>
@@ -848,7 +854,7 @@ just under	<y_axis_approx>
 ,
 2010-13	<x_axis_label_least_value>
 just over	<y_axis_approx>
-6	<_axis_inferred_least_value_approx>
+6	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 and
 2015-19	<x_axis_label_5th_highest_value>
@@ -883,7 +889,7 @@ was
 %	<y_axis_inferred_label>
 .
 Between 2000-2004	<x_axis_label_3rd_highest_value>
-it	<y_axis> ## should be label referring expression as well?
+it
 was
 8.2	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
@@ -927,10 +933,8 @@ In
 it
 was
 at
-it
-'s
-highest <y_axis_highest_value>
-peak
+its
+highest peak <y_axis_highest_value>
 ,
 which
 every
@@ -956,14 +960,14 @@ percentage of minority representation	<y_axis>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 This
 Chart
 represents
 the
 representation of minorities in the Parliament of Lybia	<topic>
 over
-two decades	<x_axis_interval>
+two decades	<x_interval>
 from	<x_axis_range_start>
 1990	<x_axis_label_highest_value>
 to	<x_axis_range_end>
@@ -975,7 +979,7 @@ There
 is
 a
 downward	<slope_down>
-trend	<y_axis_trend>
+trend
 in
 representation	<y_axis>
 from
@@ -1015,7 +1019,7 @@ that
 the
 minority representation	<y_axis>
 in
-parliament of Lybia	<topic_related_property>
+parliament of Lybia	<t=1_a=b>
 is
 the
 lowest	<y_axis_least_value>
@@ -1037,13 +1041,16 @@ at
 <end_of_description>
 
 <start_of_description>
-minority representation in the parliament of lybia	<y_axis>
+minority representation	<y_axis>
+in
+the
+parliament of lybia	<t=1_a=b>
 has
 decreased	<slope_down>
 over
 the
 last	
-20	<x_interval>  ##
+20	<x_interval> 
 years	<x_axis>
 ,
 as
@@ -1075,38 +1082,14 @@ between 2015-2019	<x_axis_label_5th_highest_value>
 .
 <end_of_description>
 
-<start_of_description> ## this summary is very concise, it hardly uses any words aside from bar names and heights
-%	<y_axis_inferred_label>
-minority representation in Lybian parliament	<topic>
-.
-1990-94	<x_axis_label_highest_value>
-13.2	<y_axis_inferred_highest_value_approx>
-%	<y_axis_inferred_label>
-,
-95-99	<x_axis_label_Scnd_highest_value>
-12	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label>
-,
-2000-4	<x_axis_label_3rd_highest_value>
-8.4	<y_axis_inferred_3rd_highest_value_approx>
-%	<y_axis_inferred_label>
-,
-2005-9	<x_axis_label_4th_highest_value>
-8	<y_axis_inferred_4th_highest_value_approx>
-%	<y_axis_inferred_label>
-,
-2010-14	<x_axis_label_least_value>
-6.4	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
-,
-2015-19	<x_axis_label_5th_highest_value>
-6.8	<y_axis_5th_highest_val>
-%	<y_axis_inferred_label>
-<end_of_description>
+
 
 <start_of_description>
 The
-percentage of Minority Representation in the Parliament of Lybia	<y_axis>
+percentage of Minority Representation	<y_axis>
+in
+the
+Parliament of Lybia	<t=1_a=b>
 has
 seen
 a

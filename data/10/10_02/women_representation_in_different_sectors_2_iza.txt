@@ -3,7 +3,9 @@ This
 graph
 shows
 the
-percentage of women representation in different sectors in Benoni	<topic>
+percentage	<y_axis>
+of
+women representation in different sectors in Benoni	<topic>
 .
 In
 the
@@ -66,7 +68,9 @@ Financial Groups	<x_axis_label_3rd_highest_value>
 %	<y_axis_inferred_label>
 of
 the
-workers were female	<topic_related_property> ## or y axis?
+workers	<t=0_a=y>
+were
+female	<t=0_a=y>
 .
 In
 Tech	<x_axis_label_Scnd_highest_value>
@@ -74,7 +78,7 @@ Tech	<x_axis_label_Scnd_highest_value>
 that
 number	<y_axis>
 increases	<y_axis_trend_up>
-to	<x_axis_range_end>
+to
 62	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 and
@@ -103,7 +107,9 @@ This
 chart
 shows
 the
-percentage of women represented in different sectors in Benoni	<topic>
+percentage	<y_axis>
+of
+women represented in different sectors in Benoni	<topic>
 .
 We
 can
@@ -111,17 +117,22 @@ see
 that
 there
 are
-less	<y_axis_approx>   ## ----------- this is not a <y_axis_approx>
-women than men	<> ## y_axis?    ------------  # ?
+less	<y_axis_trend_down>
+women	<t=1_a=y>
+than
+men	<t=0_a=y>
 working
 in
 law firms	<x_axis_label_least_value>
 ,
 and
 an
-equal amount	<y_axis_3rd_highest_val>
+equal	<y_axis_3rd_highest_val>
+amount	<y_axis>
 of
-men and women	<y_axis>
+men	<t=0_a=y>
+and
+women	<t=1_a=y>
 in
 financial groups	<x_axis_label_3rd_highest_value>
 .
@@ -144,7 +155,9 @@ This
 chart
 shows
 the
-percentage of women represented in different sectors in Benoni	<topic>
+percentage	<y_axis>
+of
+women represented in different sectors in Benoni	<topic>
 .
 \\n	<separator>
 \\n	<separator>
@@ -176,16 +189,16 @@ at
 35	<y_axis_least_value_val>
 %	<y_axis_inferred_label>
 followed	<order_Scnd>
-behind	<y_axis_trend_down>
+behind	<y_axis_trend>
 by
 financial groups	<x_axis_label_3rd_highest_value>
 at
 50	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-and	<x_axis_range_end>
+and
 then	<order_last>
 not far	<y_axis_trend>
-behind	<y_axis_trend_down>
+behind	<y_axis_trend>
 by
 Tech sector	<x_axis_label_Scnd_highest_value>
 .
@@ -196,7 +209,7 @@ is
 a
 large	<y_axis_trend>
 percentage	<y_axis_inferred_label>
-difference	##
+difference
 in
 representation	<y_axis>
 between
@@ -206,7 +219,7 @@ law firms	<x_axis_label_least_value>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 The
 chart
 shows
@@ -240,9 +253,11 @@ This
 graph
 shows
 the
-percentage of female representation in different work sectors in Benoni	<topic>
+percentage	<y_axis>
+of
+female representation in different work sectors in Benoni	<topic>
 .
-Insursnce	<x_axis_label_highest_value>
+Insurance	<x_axis_label_highest_value>
 is
 the
 highest	<y_axis_highest_value>
@@ -277,7 +292,9 @@ This
 chart
 shows
 the
-percentage of women who represented in different sectors in Benoni	<topic>
+percentage	<y_axis>
+of
+women who represented in different sectors in Benoni	<topic>
 .
 \\n	<separator>
 There
@@ -285,13 +302,13 @@ were
 50	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 of
-women representing	<y_axis> ## or topic related property
+women representing	<y_axis>
 financial groups	<x_axis_label_3rd_highest_value>
 .
 The
 tech groups	<x_axis_label_Scnd_highest_value>
 had
-women representatives	<y_axis> ## or topic related property
+women representatives	<y_axis>
 of
 about	<y_axis_approx>
 62	<y_axis_Scnd_highest_val>
@@ -349,13 +366,13 @@ at
 %	<y_axis_inferred_label>
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 Female representation	<y_axis>
 in
 the
 Insurance sector	<x_axis_label_highest_value>
 in 
-Benoni	<topic_related_property>
+Benoni	<t=1_a=b>
 is
 higher	<y_axis_trend_up>
 than
@@ -417,7 +434,7 @@ appear
 to	<x_axis_range_end>
 have
 the
-most equal representation	<interpretation> ## lack of better labels
+most equal representation	<interpretation>
 with
 50	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
@@ -429,10 +446,12 @@ The
 graph
 shows
 the
-percentage of woman who are representatives in different sectors in Benoni	<topic>
+percentage	<y_axis>
+of
+woman who are representatives in different sectors in Benoni	<topic>
 .
 Most	<y_axis_highest_value>
-woman are representative	<y_axis>   #----------- y_axis ??
+woman are representative	<y_axis>
 in
 Insurance	<x_axis_label_highest_value>
 with
@@ -471,7 +490,7 @@ financial groups	<x_axis_label_3rd_highest_value>
 
 <start_of_description>
 The
-women representation in Benoni	<y_axis>	## topic?
+women representation in Benoni	<topic>
 varies
 according
 to
@@ -514,7 +533,7 @@ around	<y_axis_approx>
 62	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 ,
-while	<y_x_comparison_rest>
+while	<y_x_comparison>
 the
 Financial groups	<x_axis_label_3rd_highest_value>
 50	<y_axis_3rd_highest_val>
@@ -575,10 +594,12 @@ Almost	<y_axis_approx>
 %	<y_axis_inferred_label>
 of
 financial groups	<x_axis_label_3rd_highest_value>
-consisted of women	<y_axis>  
+consisted
+of
+women	<t=1_a=y>
 ,
 and
-women	<topic_related_property>
+women	<t=1_a=y>
 make
 up
 over	<y_axis_approx>
@@ -698,7 +719,7 @@ in
 law firms	<x_axis_label_least_value>
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 Here
 is
 a
@@ -755,9 +776,9 @@ Insurance sectors	<x_axis_label_highest_value>
 .
 \\n	<separator>
 \\n	<separator>
-Women	<topic_related_property>
+Women	<t=1_a=y>
 appear
-to	<x_axis_range_end>
+to
 be
 under represented	<y_axis_least_value>
 in
@@ -843,35 +864,7 @@ at
 .
 <end_of_description>
 
-<start_of_description>
-The
-chart
-shows
-female representation in different sectors in Benomi	<topic>
-.
-\\n	<separator>
-It
-is
-50	<y_axis_3rd_highest_val>
-%	<y_axis_inferred_label>
-in
-financial	<x_axis_label_3rd_highest_value>
-,
-62	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label>
-in
-tech	<x_axis_label_Scnd_highest_value>
-,
-75	<y_axis_inferred_highest_value_approx>
-%	<y_axis_inferred_label>
-in
-insurance	<x_axis_label_highest_value>
-and
-34	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>
-in
-law	<x_axis_label_least_value>
-<end_of_description>
+
 
 <start_of_description>
 Women Representation in different sectors in Benoni	<topic>
@@ -891,9 +884,9 @@ around	<y_axis_approx>
 64	<y_axis_inferred_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-women in it	<topic_related_property> ## or y axis
+women in it	<y_axis>
 .
-Other sectors	<x_axis_labels_rest> ## or x axis? <group>?
+Other sectors	<x_axis_labels_rest>
 like
 Tech	<x_axis_label_Scnd_highest_value>
 and
@@ -933,7 +926,7 @@ there
 are
 50	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
-women	<topic_related_property>
+women	<t=1_a=y>
 in
 Financial Groups	<x_axis_label_3rd_highest_value>
 ,

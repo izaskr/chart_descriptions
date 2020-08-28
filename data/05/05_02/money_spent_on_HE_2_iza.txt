@@ -34,9 +34,12 @@ at
 ,000,000	<y_magnitude>
 .
 The
-amount of money	spent <y_axis>
+amount of money <y_axis>
+spent
 on
-Higher Education in 2010	<topic_related_property>
+Higher Education	<t=1_a=y>
+in
+2010	<t=1_a=b>
 in
 Asia	<x_axis_label_3rd_highest_value>
 was
@@ -67,7 +70,14 @@ This
 chart
 shows
 the
-money spent on higher education per continent in 2010	<topic>
+money
+spent
+on
+higher education	<t=1_a=y>
+per
+continent	<x_axis>
+in
+2010	<t=1_a=b>
 .
 \\n	<separator>
 \\n	<separator>
@@ -110,7 +120,7 @@ million    <y_magnitude>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 highlights
@@ -161,7 +171,8 @@ shows
 the
 amount of money spent on Higher Education in the Year 2010	<topic>
 in
-different continents	<x_axis>
+different
+continents	<x_axis>
 of
 North Africa , Europe , Asia and Africa	<x_axis_labels>
 .
@@ -180,7 +191,7 @@ million    <y_magnitude>
 m   <y_magnitude>
 )
 on
-Higher Education	<topic_related_property>
+Higher Education	<t=1_a=y>
 at
 the
 highest	<y_axis_highest_value>
@@ -212,7 +223,7 @@ and
 Africa	<x_axis_label_highest_value>
 are
 the
-two highest	<> ## grouping
+two highest	<group_highest_Scnd>
 with
 Europe	<x_axis_label_Scnd_highest_value>
 spending
@@ -263,7 +274,12 @@ pounds	<y_axis_inferred_label>
 This
 chart
 shows
-money spent on higher education in different parts of the world in 2010	<topic>
+money spent on higher education	<topic>
+in
+different
+parts of the world	<x_axis>
+in
+2010	<t=1_a=b>
 .
 Africa	<x_axis_label_highest_value>
 spent
@@ -299,14 +315,22 @@ pounds	<y_axis_inferred_label>
 This
 chart
 shows
-how much money was spent on higher education	<y_axis> ## topic
+how
+much
+money	<y_axis>
+was
+spent
+on
+higher education	<t=1_a=y>
 by
 each
 of
 the
 four	<x_axis_labels_count>
 continents	<x_axis>
-in the year 2010	<topic_related_property>
+in
+the
+year 2010	<t=1_a=b>
 .
 \\n	<separator>
 Africa	<x_axis_label_highest_value>
@@ -337,7 +361,7 @@ about	<y_axis_approx>
 170	<y_axis_inferred_3rd_highest_value_approx>
 million    <y_magnitude>
 in
-2010	<topic_related_property>
+2010	<t=1_a=b>
 .
 North America	<x_axis_label_least_value>
 spent
@@ -357,10 +381,13 @@ chart
 shows
 the
 amount	<y_axis>
-different continents	<x_axis>
+different
+continents	<x_axis>
 spent
 on
-higher education in 2010	<topic_related_property>
+higher education	<t=1_a=y>
+in
+2010	<t=1_a=b>
 .
 Africa	<x_axis_label_highest_value>
 spent
@@ -395,9 +422,9 @@ million    <y_magnitude>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 In
-2010	<topic_related_property>
+2010	<t=1_a=b>
 ,
 the
 continent	<x_axis>
@@ -408,7 +435,7 @@ the
 biggest	<y_axis_highest_value>
 spender	<x_axis>
 on
-higher education	<topic_related_property>
+higher education	<t=1_a=y>
 ,
 spending
 around	<y_axis_approx>
@@ -433,7 +460,7 @@ around	<y_axis_approx>
 147	<y_axis_inferred_least_value_approx>
 m    <y_magnitude>
 on
-higher education	<topic_related_property>
+higher education	<t=1_a=y>
 .
 <end_of_description>
 
@@ -476,9 +503,9 @@ at
 million	<y_magnitude>
 -
 a
-difference	##
+difference
 of
-50	<> ## mul_add
+50	<y_axis_inferred_value_mul_v1=least_v2=highest>
 %	<y_axis_inferred_label>
 .
 Europe	<x_axis_label_Scnd_highest_value>
@@ -511,7 +538,7 @@ the
 amount	<y_axis>
 spent
 on
-higher education	<topic_related_property>
+higher education	<t=1_a=y>
 is
 £	<y_axis_inferred_label>
 290	<y_axis_inferred_highest_value_approx>
@@ -541,14 +568,17 @@ spent
 170	<y_axis_inferred_3rd_highest_value_approx>
 million	<y_magnitude>
 on
-higher education	<topic_related_property>
+higher education	<t=1_a=y>
 <end_of_description>
 
 <start_of_description>
 The
 money spent	<y_axis>
 on
-Higher Education on the year 2010	<topic_related_property>
+Higher Education	<t=1_a=y>
+on
+the
+year 2010	<t=1_a=b>
 vary 
 by
 continent	<x_axis>
@@ -585,12 +615,10 @@ millions	<y_magnitude>
 of
 pounds	<y_axis_inferred_label>
 .
-North America	<x_axis_label_least_value>
-and
-Asia	<x_axis_label_3rd_highest_value>
+North America and Asia	<group_3rd_least>
 spent
 less than  <y_axis_approx>
-200	<> ##
+200	<group_y_3rd_least>
 millions		<y_magnitude>
 ,
 Asia	<x_axis_label_3rd_highest_value>
@@ -598,8 +626,7 @@ was
 the
 bigger	<y_axis_trend_up>
 of
-the
-two
+the two	<group_3rd_least>
 with
 around	<y_axis_approx>
 170	<y_axis_inferred_3rd_highest_value_approx>
@@ -620,7 +647,7 @@ pounds	<y_axis_inferred_label>
 .
 <end_of_description>
 
-<start_of_description>	## I'm unhappy with the segmentation of labels in this summary... 
+<start_of_description>
 The
 graph
 demonstrates
@@ -632,7 +659,9 @@ of
 pounds sterling	<y_axis_inferred_label>
 spent
 on
-higher education in 2010	<topic_related_property>
+higher education	<t=1_a=y>
+in
+2010	<t=1_a=b>
 in
 4	<x_axis_labels_count>
 different
@@ -645,7 +674,8 @@ was
 the
 highest	<y_axis_highest_value>
 ,
-then followed	<order_Scnd>
+then
+followed	<order_Scnd>
 by
 Europe	<x_axis_label_Scnd_highest_value>
 ,
@@ -678,7 +708,7 @@ million
 Asia	<x_axis_label_3rd_highest_value>
 comes
 in
-second	<order_Scnd>	## Asia is second from bottom up
+second	<order_Scnd>
 with
 around	<y_axis_approx>
 £	<y_axis_inferred_label>
@@ -718,9 +748,7 @@ continents	<x_axis>
 It
 visually
 shows
-Europe	<x_axis_label_Scnd_highest_value>	## grouping
-and
-Africa	<x_axis_label_highest_value>
+Europe and Africa	<group_highest_Scnd>
 having
 the
 highest	<y_axis_highest_value>
@@ -745,9 +773,7 @@ million	<y_magnitude>
 pounds	<y_axis_inferred_label>
 mark
 .
-North America	<x_axis_label_least_value>
-and
-Asia	<x_axis_label_3rd_highest_value>
+North America and Asia	<group_3rd_least>
 come
 in
 last	<y_axis_least_value>
@@ -766,8 +792,7 @@ and
 Asia	<x_axis_label_3rd_highest_value>
 just above	<y_axis_trend_up>
 the
-same
-amount	## how to label "same amount" <y_axis_inferred_least_value_approx> ?   ------ seems like reference to "least_value"  .. or maybe group value
+same amount	<y_axis_inferred_least_value_approx>
 .
 <end_of_description>
 
@@ -776,7 +801,7 @@ The
 chart
 shows
 the
-number of money spent on higher	education in the year 2020	<topic>
+number of money spent on higher	education in the year 2010	<topic>
 .
 \\n	<separator>
 In
@@ -787,7 +812,7 @@ million	<y_magnitude>
 was
 spent
 on
-higher education	<topic_related_property>
+higher education	<t=1_a=y>
 .
 This
 is
@@ -828,7 +853,18 @@ Here
 is
 a
 graph
-from the year 2010 for different countries that have spent money on Higher Education	<topic>
+from
+the
+year 2010	<t=1_a=b>
+for
+different
+countries	<x_axis>
+that
+have
+spent
+money	<y_axis>
+on
+Higher Education	<t=1_a=y>
 .
 \\n	<separator>
 The
@@ -843,17 +879,15 @@ at
 second	<order_Scnd>
 highest	<y_axis_highest_value>
 .
-These
-two	## grouping
-countries
+These two countries	<group_highest_Scnd>
 are
 quite close	<y_axis_trend>
 in
 the
 running
-to	<x_axis_range_end>
+to
 each
-other	## should this sentence be labeled as interpretation?  - maybe not. says they have similar value
+other
 .
 The
 third	<order_3rd>
@@ -866,22 +900,31 @@ compared	<y_x_comparison>
 to
 Europe	<x_axis_label_Scnd_highest_value>
 ,
-then lastly	<order_last>
+then
+lastly	<order_last>
 North America	<x_axis_label_least_value>
 which
 spent
 the
 least	<y_axis_least_value>
 on
-higher education in 2010	<topic_related_property>
+higher education	<t=1_a=y>
+in
+2010	<t=1_a=b>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 represents
-expenditure on higher education across geographic areas in 2010	<topic>
+expenditure	<y_axis>
+on
+higher education	<t=1_a=y>
+across
+geographic areas	<x_axis>
+in
+2010	<t=1_a=b>
 .
 \\n	<separator>
 \\n	<separator>
@@ -889,7 +932,7 @@ The
 highest	<y_axis_highest_value>
 investor	<x_axis>
 in
-higher education	<topic_related_property>
+higher education	<t=1_a=y>
 was
 Africa	<x_axis_label_highest_value>
 ,
@@ -912,23 +955,30 @@ just under	<y_axis_approx>
 £	<y_axis_inferred_label>
 150	<y_axis_inferred_least_value_approx>
 M    <y_magnitude>
-for the year	<topic_related_property>
+for
+the
+year 2010	<t=1_a=b>
 .
 <end_of_description>
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 shows
 the
-amount of money spent on higher education	<y_axis> ## or topic
+amount of money	<y_axis>
+spent
+on
+higher education	<t=1_a=y>
 in
 millions	<y_magnitude>
 of
 pounds	<y_axis_inferred_label>
 per
 continent	<x_axis>
-in the year 2010	<topic_related_property>
+in
+the
+year 2010	<t=1_a=b>
 .
 \\n	<separator>
 From
@@ -937,7 +987,9 @@ chart
 we
 see
 that
-in the year 2010	<topic_related_property>
+in
+the
+year 2010	<t=1_a=b>
 approximately	<y_axis_approx>
 290	<y_axis_inferred_highest_value_approx>
 millions	<y_magnitude>
@@ -946,7 +998,7 @@ pounds	<y_axis_inferred_label>
 were
 spent
 on
-higher education	<topic_related_property>
+higher education	<t=1_a=y>
 in
 Africa	<x_axis_label_highest_value>
 as
@@ -954,14 +1006,17 @@ the
 highest	<y_axis_highest_value>
 in
 the
-world	##
+world	<t=0_a=x>
 .
 The
 lowest	<y_axis_least_value>
-amount of money spent on higher education	<y_axis>
+amount of money	<y_axis>
+spent
+on
+higher education	<t=1_a=y>
 in
 the
-world	##
+world	<t=0_a=x>
 is
 north america	<x_axis_label_least_value>
 at
@@ -972,8 +1027,10 @@ of
 pounds	<y_axis_inferred_label>
 <end_of_description>
 
-<start_of_description>
-money spent on higher education in 2010	<y_axis>
+
+
+<start_of_description> [type01]
+money spent on higher education in 2010	<topic>
 was
 at
 the
@@ -1003,41 +1060,7 @@ million	<y_magnitude>
 .
 <end_of_description>
 
-<start_of_description>	## this is a very low effort summary (it had no white spaces between "was" and numbers), I would consider excluding it
-The
-chart
-shows
-money spent on Higher education in 2010	<y_axis>
-in
-millions	<y_magnitude>
-of
-pounds	<y_axis_inferred_label>
-.
-In
-N America	<x_axis_label_least_value>
-it
-was
-almost	<y_axis_approx>
-150	<y_axis_inferred_least_value_approx>
-,
-in
-europe	<x_axis_label_Scnd_highest_value>
-it
-was
-230	<y_axis_inferred_Scnd_highest_value_approx>
-,
-in
-asia	<x_axis_label_3rd_highest_value>
-it
-was
-170	<y_axis_inferred_3rd_highest_value_approx>
-,
-in
-africa	<x_axis_label_highest_value>
-it
-was
-290	<y_axis_inferred_highest_value_approx>
-<end_of_description>
+
 
 <start_of_description>
 This
@@ -1049,7 +1072,9 @@ amount of money spent on higher	education	<y_axis>
 in
 each
 continent	<x_axis>
-in the year of 2010	<topic_related_property>
+in
+the
+year of 2010	<t=1_a=b>
 .
 The
 highest	<y_axis_highest_value>
@@ -1064,7 +1089,7 @@ nearly	<y_axis_approx>
 m	<y_magnitude>
 spent
 on
-higher education		<topic_related_property>
+higher education		<t=1_a=y>
 .
 Europe	<x_axis_label_Scnd_highest_value>
 come
@@ -1088,7 +1113,7 @@ nearly	<y_axis_approx>
 150	<y_axis_inferred_least_value_approx>
 m	<y_magnitude>
 on
-higher education		<topic_related_property>
+higher education		<t=1_a=y>
 .
 <end_of_description>
 
@@ -1140,7 +1165,7 @@ pounds	<y_axis_inferred_label>
 was
 spent
 on
-higher education		<topic_related_property>
+higher education		<t=1_a=y>
 .
 <end_of_description>
 

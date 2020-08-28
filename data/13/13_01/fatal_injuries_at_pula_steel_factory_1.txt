@@ -5,7 +5,10 @@ a
 chart
 showing
 the
-number of fatal injuries at the Pula Steel Factory across the years   <topic>
+number of fatal injuries at the Pula Steel Factory	<topic>
+across
+the
+years	<x_axis>
 .
 It
 shows
@@ -23,7 +26,7 @@ year before   <x_axis_label_Scnd_highest_value>
 2012	<x_axis_label_Scnd_highest_value>
 ,
 had
-just	<y_axis_trend> ##
+just	<y_axis_trend>
 27	<y_axis_Scnd_highest_val>
 fatal injuries	<y_axis_inferred_label>
 .
@@ -171,7 +174,13 @@ The
 graph
 details
 the
-number of fatal injuries per year, at the Pula steel factory	<topic>
+number of fatal injuries	<y_axis>
+per
+year	<x_axis>
+,
+at
+the
+Pula steel factory	<t=1_a=b>
 .
 Covering
 the
@@ -245,7 +254,10 @@ year   <x_axis>
 there
 were
 27	<y_axis_Scnd_highest_val>
-fatal injuries at the factory	<y_axis_inferred_label>
+fatal injuries	<y_axis_inferred_label>
+at
+the
+factory	<t=1_a=b>
 .
 This
 increased	<slope_up>
@@ -297,9 +309,11 @@ The
 graph
 depicts
 the
-number of fatal injuries at the Pula Steel Factory by year   <topic>
+number of fatal injuries at the Pula Steel Factory	<topic>
+by
+year	<x_axis>
 across
-5	<x_interval>
+5	<x_axis_labels_count>
 years	<x_axis>
 .
 In
@@ -347,8 +361,11 @@ an
 increase	<slope_up>
 in
 the
-number of fatal injuries at the Pula Steel Factory    <y_axis>	## Pula Steel Factory topic_related_property?
-from 2012 to 2013	<group_Scnd_highest>	## or should we break into range: start and end?
+number of fatal injuries	<y_axis>
+at
+the
+Pula Steel Factory	<t=1_a=b>
+from 2012 to 2013	<group_highest_Scnd>
 .
 Increasing	<slope_up>
 from
@@ -372,7 +389,7 @@ there
 has
 been
 a
-slight	<y_axis_trend> ##
+slight	<y_axis_trend>
 decline   <slope_down>
 in
 the
@@ -408,7 +425,10 @@ fatal injuries	<y_axis_inferred_label>
 
 <start_of_description>
 The
-number of fatal injuries at the Pula Steel Factory   <y_axis>
+number of fatal injuries	<y_axis>
+at
+the
+Pula Steel Factory	<t=1_a=b>
 rose	<slope_up>
 from
 27	<y_axis_Scnd_highest_val>
@@ -419,7 +439,7 @@ to
 in
 2013	<x_axis_label_highest_value>
 .
-Since   <x_axis_period>	## check other cases of this label in the new batch
+Since
 2013	<x_axis_label_highest_value>
 ,
 the
@@ -449,8 +469,11 @@ in
 
 
 
-<start_of_description>
-Fatal injuries at the Pula Steel Factory   <y_axis>
+<start_of_description> [type01]
+Fatal injuries	<y_axis>
+at
+the
+Pula Steel Factory	<t=1_a=b>
 have
 varied    <y_axis_trend>
 from	<x_axis_range_start>
@@ -460,7 +483,7 @@ to   <x_axis_range_end>
 ,
 averaging
 above	<y_axis_approx>
-25	<y_mean> ## new label?
+25	<y_mean>
 .
 Most	<y_axis_highest_value>
 was
@@ -483,27 +506,30 @@ at
 
 <start_of_description>
 The
-number of fatal injuries at Pula Steel factory between 2012 and 2016   <topic>
+number of fatal injuries at Pula Steel factory	<topic>
+between	<x_axis_range_start>
+2012	<x_axis_label_Scnd_highest_value>
+and	<x_axis_range_end>
+2016	<x_axis_label_4th_highest_value>
 is
 demonstrated
 here
+.
 It
 shows
 there
 to
 be
-little	##
-change	##
+little
+change
 over time   <x_axis_trend>
 ,
 with
 27	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label>	## yes, let's leave it and insert the corrected tokens to the xml later.
 in
 2012	<x_axis_label_Scnd_highest_value>
 and
 25	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label>	## the corrected token can be "(number of) injuries" 
 in
 2016	<x_axis_label_4th_highest_value>
 .
@@ -514,20 +540,19 @@ an
 increase	<slope_up>
 to
 32	<y_axis_highest_value_val>
-%	<y_axis_inferred_label>
-between 2012 and 2013	<group_Scnd_highest>
+injuries	<y_axis_inferred_label>
+between 2012 and 2013	<group_highest_Scnd>
 and
 a
 steady   <y_axis_trend>
 decrease   <slope_down>
 to
 22	<y_axis_least_value_val>
-%	<y_axis_inferred_label>
 in
 2015	<x_axis_label_least_value>
 .
 This
-decrease started to reverse	<slope_up>	## other, less wonky suggestions?
+decrease started to reverse	<slope_up>
 in
 2016	<x_axis_label_4th_highest_value>
 .
@@ -537,7 +562,10 @@ in
 
 <start_of_description>
 The 
-number of fatal injuries at the Pula steel factory   <y_axis>
+number of fatal injuries	<y_axis>
+at
+the
+Pula steel factory	<t=1_a=b>
 started
 at
 27	<y_axis_Scnd_highest_val>
@@ -574,7 +602,7 @@ in
 there
 was
 a
-slight
+slight	<y_axis_trend>
 increase	<slope_up>
 to
 25	<y_axis_4th_highest_val>
@@ -600,7 +628,7 @@ to	<x_axis_range_end>
 In
 2012	<x_axis_label_Scnd_highest_value>
 the
-factory  <topic_related_object>
+factory	<t=1_a=b>
 saw
 27	<y_axis_Scnd_highest_val>
 injuries   <y_axis_inferred_label>
@@ -640,60 +668,6 @@ lowest	<y_axis_least_value>
 .
 <end_of_description>
 
-
-
-
-<start_of_description>	## I suggest excluding this description because the plot interpretation by the participant was incorrect and the summary doesn't reflect the data at all (23% less fetal injuries?)
-In
-2013	<x_axis_label_highest_value>
-there
-were
-23	<y_axis_inferred_least_value_approx>
-%	<y_axis_inferred_label>	## I would actually just delete this token and label
-more	<y_axis_trend_up>
-fatal injures   <y_axis>
-than
-any
-other
-year   <x_axis>
-,
-after
-2013	<x_axis_label_highest_value>
-they
-fell  <slope_down>
-before
-climbing   <slope_up>
-back
-up
-in
-2016	<x_axis_label_4th_highest_value>
-.
-\\n   <separator>
-in
-2012	<x_axis_label_Scnd_highest_value>
-there
-was
-26	<y_axis_3rd_highest_val>
-%	<y_axis_inferred_label>
-less	
-fatal injuries   <y_axis>
-but
-this
-average
-unfortunately
-stayed
-high	
-until
-2016	<x_axis_label_4th_highest_value>
-when
-there
-were
-25	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label>
-more	
-fatal injuries   <y_axis>
-.
-<end_of_description>
 
 
 
@@ -787,7 +761,9 @@ by
 The
 highest	<y_axis_highest_value>
 number of fatal injuries	<y_axis>
-at the pula steel factory   <topic_related_property>
+at
+the
+pula steel factory   <t=1_a=b>
 took
 place
 in
@@ -796,7 +772,6 @@ year   <x_axis>
 2013	<x_axis_label_highest_value>
 at
 32	<y_axis_highest_value_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 .
 In
 2012	<x_axis_label_Scnd_highest_value>
@@ -804,13 +779,11 @@ the
 percentage
 was
 27	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 and
 in
 2014	<x_axis_label_3rd_highest_value>
 ,
 26	<y_axis_3rd_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 .
 In
 2016	<x_axis_label_4th_highest_value>
@@ -818,7 +791,6 @@ the
 number of fatal injuries   <y_axis>
 was
 25	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 and
 at
 its
@@ -827,7 +799,6 @@ in
 2015	<x_axis_label_least_value>
 at
 22	<y_axis_least_value_val>
-%	<y_axis_inferred_label> ## suggestion: delete line
 .
 <end_of_description>
 
@@ -841,7 +812,9 @@ shows
 fluctuations
 in
 number of injuries	<y_axis>
-at the Pula steel factory   <topic_related_property>
+at
+the
+Pula steel factory	<t=1_a=b>
 .
 In
 2012	<x_axis_label_Scnd_highest_value>
@@ -877,7 +850,7 @@ injuries   <y_axis_inferred_label>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 number of fatal injuries at the Pula steel factory   <topic>
 is
@@ -912,12 +885,12 @@ deaths   <y_axis_inferred_label>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 This
 graph
 shows
 the
-number of fatal injuries at Pula Steel factory	<topic> ## or split into y axis and topic related property
+number of fatal injuries at Pula Steel factory	<topic>
 from	<x_axis_range_start>
 2012	<x_axis_label_Scnd_highest_value>
 to	<x_axis_range_end>
@@ -966,14 +939,13 @@ a
 graph
 to
 show
-percentages	## not percentages
+counts	<y_axis>
 against
 time  <x_axis>
 .
 2012	<x_axis_label_Scnd_highest_value>
 was
 27	<y_axis_Scnd_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 ,
 the
 highest	<y_axis_highest_value>
@@ -983,21 +955,18 @@ in
 2013	<x_axis_label_highest_value>
 at
 32	<y_axis_highest_value_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 ,
 this
 reduced   <slope_down>
 down
 to
 26	<y_axis_3rd_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 in
 2014	<x_axis_label_3rd_highest_value>
 and
 further down   <slope_down>
 to
 22	<y_axis_least_value_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 in
 2015	<x_axis_label_least_value>
 .
@@ -1007,7 +976,6 @@ number	<y_axis>
 increased	<slope_up>
 to
 25	<y_axis_4th_highest_val>
-%	<y_axis_inferred_label> ## suggestion: delete
 .
 <end_of_description>
 
@@ -1023,7 +991,7 @@ we
 can
 see
 the 
-number of fatal injuries at the Pula steel factory	<topic> ## or split
+number of fatal injuries at the Pula steel factory	<topic>
 between	<x_axis_range_start>
 2012	<x_axis_label_Scnd_highest_value>
 and	<x_axis_range_end>
@@ -1031,7 +999,7 @@ and	<x_axis_range_end>
 .
 \\n   <separator>
 More than	<y_axis_approx>
-20	<y_mean> ## interesting, maybe mean is not the best label
+20	<y_mean>
 fatal injuries	<y_axis_inferred_label>
 occurred
 in
@@ -1070,7 +1038,7 @@ the
 number   <y_axis>
 was
 around	<y_axis_approx>
-25	<group_y_Scnd_3rd_4th> ## group y value here: mean
+25	<group_y_Scnd_3rd_4th>
 .
 <end_of_description>
 
@@ -1079,9 +1047,12 @@ around	<y_axis_approx>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
-number of fatal injuries at the Pula Steel Factory   <topic>
+number of fatal injuries   <y_axis>
+at
+the
+Pula Steel Factory	<t=1_a=b>
 has
 fluctuated   <y_axis_trend>
 over the years   <x_axis_trend>
@@ -1093,7 +1064,7 @@ a
 high	<y_axis_highest_value>
 of
 32	<y_axis_highest_value_val>
-death   <y_axis_inferred_label>
+deaths   <y_axis_inferred_label>
 in
 2013	<x_axis_label_highest_value>
 ,
@@ -1181,7 +1152,7 @@ of
 fatal injuries   <y_axis>
 over	
 a
-5	<x_interval>
+5	<x_axis_labels_count>
 year period	<x_axis>
 .
 It

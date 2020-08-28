@@ -1,8 +1,9 @@
-"
+<start_of_description> [type01]
 This
 chart
 shows
-the female representation in various employment sectors    <topic>
+the
+female representation in various employment sectors    <topic>
 .
 We
 can
@@ -12,8 +13,7 @@ law firms    <x_axis_label_highest_value>
 have
 the
 highest    <y_axis_highest_value>
-female    <topic_related_property>
-representation    <topic_related_property>
+female representation    <y_axis>
 out
 of
 the
@@ -25,10 +25,10 @@ has
 the
 lowest    <y_axis_least_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 The
 chart
 shows
@@ -37,12 +37,11 @@ the
 sector    <x_axis>
 with
 most    <y_axis_highest_value>
-women    <topic_related_property>
-representation    <topic_related_property>
+women representation    <y_axis>
 is
 law firms    <x_axis_label_highest_value>
 .
-however
+however	<y_x_comparison>
 tech    <x_axis_label_least_value>
 is
 the
@@ -50,10 +49,9 @@ least    <y_axis_least_value>
 with
 less than   <y_axis_approx>
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 of
-women    <topic_related_property>
-represented
+women represented	<t=1_a=y>
 in
 the
 sector    <x_axis>
@@ -64,52 +62,48 @@ only
 a
 quarter    <y_axis_3rd_highest_val>
 of
-women    <topic_related_property>
-representation    <topic_related_property>
+women representation	<y_axis>
 with
 financial groups    <x_axis_label_Scnd_highest_value>
 a
-little
-over    <y_axis_approx>
+little over    <y_axis_approx>
 half    <y_axis_inferred_Scnd_highest_value_approx>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description> [type01]
 There
 are
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 of
-women    <topic_related_property>
-represented
+women represented	<t=1_a=y>
 in
 Law Firms    <x_axis_label_highest_value>
 ,
 which
 is
 more
-than
+than 
 any other sector    <x_axis_labels_rest>
 .
-"
+<end_of_description>
 
 
-"
-60    <y_axis_highest_value_val>
-%    <y_axis>
-of
-women    <topic_related_property>
-work
-in
+<start_of_description>
+In
 the
 Law    <x_axis_label_highest_value>
+60	<y_axis_highest_value_val>
+%   <y_axis_inferred_label>
+are
+women	<t=1_a=y>
 ,
 followed    <order_Scnd>
 by
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 the
 Financial    <x_axis_label_Scnd_highest_value>
@@ -117,8 +111,7 @@ sector    <x_axis>
 .
 Insurance    <x_axis_label_3rd_highest_value>
 is
-just
-over    <y_axis_trend_up>
+just over    <y_axis_approx>
 one-third    <y_axis_inferred_value_mul_v1=3rd_v2=highest>
 of
 those
@@ -130,7 +123,7 @@ Law    <x_axis_label_highest_value>
 Technical firms    <x_axis_label_least_value>
 have
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 ,
 which
 is
@@ -147,10 +140,10 @@ those
 in
 Law    <x_axis_label_highest_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 The
 graph
 shows
@@ -161,7 +154,7 @@ highest    <y_axis_highest_value>
 percentage    <y_axis>
 of
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 is
 at
 law firms    <x_axis_label_highest_value>
@@ -175,33 +168,32 @@ by
 financial groups    <x_axis_label_Scnd_highest_value>
 at
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
 Insurance    <x_axis_label_3rd_highest_value>
 is
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 and
-then    <final_label_left>
+then    <order_last>
 tech    <x_axis_label_least_value>
 is
 the
 smallest    <y_axis_least_value>
-representation    <topic_related_property>
+representation    <y_axis>
 at
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description> [type01]
 The
 chart
 shows
 that
-women    <topic_related_property>
-representation    <topic_related_property>
+women representation    <y_axis>
 is
 highest    <y_axis_highest_value>
 in
@@ -212,14 +204,11 @@ by
 Financial Groups    <x_axis_label_Scnd_highest_value>
 .
 The
-sectors    <x_axis>
+sector    <x_axis>
 with
 the
 lowest    <y_axis_least_value>
-amount    <y_axis_inferred_label>
-of
-women    <topic_related_property>
-representation    <topic_related_property>
+amount of women representation    <y_axis>
 is
 Tech    <x_axis_label_least_value>
 ,
@@ -227,24 +216,23 @@ followed    <order_3rd>
 by
 Insurance    <x_axis_label_3rd_highest_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 The
 table
 shows
 that
-women    <topic_related_property>
+women	<t=1_a=y>
 are
 most    <y_axis_highest_value>
-well
-represented
+well represented	<t=1_a=y>
 in
 law firms    <x_axis_label_highest_value>
 (
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 )
 ,
 followed    <order_Scnd>
@@ -252,26 +240,26 @@ by
 Financial groups    <x_axis_label_Scnd_highest_value>
 (
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 )
 ,
 Insurance    <x_axis_label_3rd_highest_value>
 (
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 )
 ,
 and
 Tech    <x_axis_label_least_value>
 (
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 )
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 charts
 shows
@@ -286,45 +274,45 @@ law firms    <x_axis_label_highest_value>
 there
 are
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 of
-women    <topic_related_property>
+women	<t=1_a=y>
 ,
 in
 finance    <x_axis_label_Scnd_highest_value>
 there
 are
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 ,
 insurance    <x_axis_label_3rd_highest_value>
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 and
 in
 technical firms    <x_axis_label_least_value>
-only
+only  <y_axis_least_value>
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 More    <y_axis_trend_up>
-woman    <topic_related_property>
+woman	<t=1_a=y>
 than
-men    <topic_related_object>
+men	<t=0_a=y>
 are
 found
 in
 law firms    <x_axis_label_highest_value>
 -
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 of
 all
-staff
+staff	<t=0_a=y>
 .
 This
 is
@@ -334,13 +322,13 @@ than
 in
 tech    <x_axis_label_least_value>
 where
-only
+only   <y_axis_least_value>
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 are
-woman    <topic_related_property>
+woman	<t=1_a=y>
 .
-Figures    <y_axis_inferred_label>
+Figures    <y_axis>
 in
 insurance    <x_axis_label_3rd_highest_value>
 are
@@ -348,20 +336,20 @@ also
 low    <y_axis_trend_down>
 at
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
-but
+%    <y_axis_inferred_label>
+but	<y_x_comparison>
 higher    <y_axis_trend_up>
 in
 financial groups    <x_axis_label_Scnd_highest_value>
 at
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 The
 chart
 shows
@@ -377,39 +365,38 @@ that
 they
 are
 most    <y_axis_highest_value>
-represented
+represented	<t=1_a=y>
 within
 law firms    <x_axis_label_highest_value>
 ,
 at
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
 They
 are
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
-represented
+%    <y_axis_inferred_label>
+represented	<t=1_a=y>
 within
 financial groups    <x_axis_label_Scnd_highest_value>
 ,
-just
-less than   <y_axis_approx>
+just less than   <y_axis_approx>
 30    <y_axis_inferred_least_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 insurance    <x_axis_label_3rd_highest_value>
 and
 only    <y_axis_least_value>
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 tech    <x_axis_label_least_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 chart
 shows
@@ -426,34 +413,32 @@ in
 law firms    <x_axis_label_highest_value>
 ,
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 of
 the
-workforce
-is
-female    <topic_related_property>
+workforce is female	<t=1_a=y>
 ,
-compared    <y_x_comparison_rest>
+compared    <y_x_comparison>
 to
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 financial groups    <x_axis_label_Scnd_highest_value>
 ,
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 insurance    <x_axis_label_3rd_highest_value>
 and
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 tech    <x_axis_label_least_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description> [type01]
 The
 graph
 shows
@@ -476,22 +461,22 @@ finance industry    <x_axis_label_Scnd_highest_value>
 then    <order_3rd>
 insurance    <x_axis_label_3rd_highest_value>
 and
-lastly    <final_label_left>
+lastly    <order_last>
 tech    <x_axis_label_least_value>
 .
-"
+<end_of_description>
 
 
 
-"
-Women    <topic_related_property>
+<start_of_description> [type01]
+Women	<t=1_a=y>
 are
 moderately    <y_axis_trend>
 over-represented    <y_axis_trend_up>
 in
 Law Firms    <x_axis_label_highest_value>
-but
-and
+but   <y_x_comparison>
+are
 significantly    <y_axis_trend>
 under-represented    <y_axis_trend_down>
 in
@@ -499,10 +484,10 @@ Tech    <x_axis_label_least_value>
 and
 Insurance    <x_axis_label_3rd_highest_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 graph
 shows
@@ -512,64 +497,61 @@ representation of women in different economic/employment sectors    <topic>
 Law firms    <x_axis_label_highest_value>
 has
 a
-figure    <y_axis_inferred_label>
+figure    <y_axis>
 of
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 (unclear if this mean 60% of people in law firms are women)    <interpretation>
 .
 Financial groups    <x_axis_label_Scnd_highest_value>
 shows
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 ,
 Insurance    <x_axis_label_3rd_highest_value>
 22    <y_axis_inferred_3rd_highest_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 ,
 and
-Tech    <x_axis_label_least_value>
-firms    <x_axis>
+Tech firms    <x_axis_label_least_value>
 have
 the
 lowest    <y_axis_least_value>
-representation    <topic_related_property>
+representation    <y_axis>
 at
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 graph
 shows
 that
-women    <topic_related_property>
+women	<t=1_a=y>
 are
 least    <y_axis_least_value>
-represented
+represented	<t=1_a=y>
 in
 the
-technology    <x_axis_label_least_value>
-industry    <x_axis>
+technology industry    <x_axis_label_least_value>
 at
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
 They
 are
-slightly
+slightly	<y_axis_trend>
 better    <y_axis_trend_up>
-represented
+represented	<t=1_a=y>
 in
 the
-insurance    <x_axis_label_3rd_highest_value>
-industry    <x_axis>
+insurance industry    <x_axis_label_3rd_highest_value>
 at
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 and
 better    <y_axis_trend_up>
 again
@@ -579,22 +561,22 @@ financial group    <x_axis_label_Scnd_highest_value>
 at
 almost
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
 They
 are
-well
-represented    <topic_related_property>
+well	<y_axis_trend_up>
+represented	<t=1_a=y>
 at
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 law firms    <x_axis_label_highest_value>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 graph
 shows
@@ -604,31 +586,30 @@ representation of women in different work sectors    <topic>
 Law firms    <x_axis_label_highest_value>
 have
 60    <y_axis_highest_value_val>
-%    <y_axis>
-female    <topic_related_property>
-representation    <topic_related_property>
-followed    <order_rest>
+%    <y_axis_inferred_label>
+female representation    <y_axis>
+followed    <order_Scnd>
 by
 Financial Groups    <x_axis_label_Scnd_highest_value>
 with
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 ,
 Insurance    <x_axis_label_3rd_highest_value>
 with
 35    <y_axis_inferred_3rd_highest_value_approx>
-%    <y_axis>
+%    <y_axis_inferred_label>
 and
 Tech    <x_axis_label_least_value>
 with
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
-"
+<end_of_description>
 
 
 
-"
+<start_of_description>
 this
 graph
 shows
@@ -638,9 +619,8 @@ example
 law firms    <x_axis_label_highest_value>
 have
 more    <y_axis_trend_up>
-mens
-representation    <topic_related_property>
-that
+womens representation    <y_axis>
+than
 financial groups    <x_axis_label_Scnd_highest_value>
 ,
 insurance    <x_axis_label_3rd_highest_value>
@@ -652,46 +632,26 @@ has
 a
 very    <y_axis_trend>
 low    <y_axis_least_value>
-percentage    <y_axis>
-of
-women    <topic_related_property>
+percentage of women    <y_axis>
 in
 their
 sector    <x_axis>
 with
 on
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 compared    <y_x_comparison>
 to
 Law firms    <x_axis_label_highest_value>
 60    <y_axis_highest_value_val>
-%    <y_axis>
-"
-
-
-"
-Women    <topic_related_property>
-are
-more    <x_axis_comparison>
-likely
-to
-represents
-law firms    <x_axis_label_highest_value>
-and
-financial groups    <x_axis_label_Scnd_highest_value>
-than
-insurance    <x_axis_label_3rd_highest_value>
-and
-tech    <x_axis_label_least_value>
-by
-nearly
-double    <y_axis_inferred_value_mul_v1=Scnd_v2=least>
-"
+%    <y_axis_inferred_label>
+<end_of_description>
 
 
 
-"
+
+
+<start_of_description> [type01]
 This
 chart
 displays
@@ -703,13 +663,10 @@ Law firms    <x_axis_label_highest_value>
 have
 the
 highest    <y_axis_highest_value>
-number    <y_axis_inferred_label>
-of
-women    <topic_related_property>
-employed
+number of women employed <y_axis>
 with
 60    <y_axis_highest_value_val>
-%    <y_axis> 
+%    <y_axis_inferred_label>
 and
 tech    <x_axis_label_least_value>
 has
@@ -717,29 +674,25 @@ the
 lowest    <y_axis_least_value>
 with
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 of
-women    <topic_related_property>
+women	<t=1_a=y>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 graph
 presents
 the
-proportion    <y_axis>
-of
-women working in different  sectors    <topic>
+proportion of women working in different  sectors    <topic>
 .
 Law firms    <x_axis_label_highest_value>
 have
 the
 highest    <y_axis_highest_value>
-proportion
-of
-women    <topic_related_property>
+proportion of women  <y_axis>
 ,
 followed    <order_Scnd>
 by
@@ -751,26 +704,23 @@ Tech    <x_axis_label_least_value>
 has
 the
 lowest    <y_axis_least_value>
-proportion
-of
-women    <topic_related_property>
-represented
+proportion of women represented	<y_axis>
 -
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 Law firms    <x_axis_label_highest_value>
 are
 made
 up
 of
 60    <y_axis_highest_value_val>
-%    <y_axis>
-women    <topic_related_property>
+%    <y_axis_inferred_label>
+women	<t=1_a=y>
 and
 financial groups    <x_axis_label_Scnd_highest_value>
 are
@@ -778,29 +728,29 @@ made
 up
 of
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
-women    <topic_related_property>
+%    <y_axis_inferred_label>
+women    <t=1_a=y>
 .
 Insurance    <x_axis_label_3rd_highest_value>
 and
 Tech    <x_axis_label_least_value>
 are
 only    <y_axis_least_value>
-represented
+represented	<t=1_a=y>
 by
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 and
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 of
-women    <topic_related_property>
+women	<t=1_a=y>
 respectively
 .
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 This
 graph
 shows
@@ -811,53 +761,51 @@ women in the workforce in different sectors of industry    <topic>
 .
 \\n    <separator>
 40    <y_axis_Scnd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 Financial    <x_axis_label_Scnd_highest_value>
 \\n    <separator>
 20    <y_axis_least_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 Tech    <x_axis_label_least_value>
 \\n    <separator>
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 Insurance    <x_axis_label_3rd_highest_value>
 \\n    <separator>
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 Law    <x_axis_label_highest_value>
-"
+<end_of_description>
 
 
-"
+<start_of_description>
 Largest    <y_axis_highest_value>
-representation    <topic_related_property>
-of
-women    <topic_related_property>
+representation of women    <y_axis>
 at
 60    <y_axis_highest_value_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 in
 law    <x_axis_label_highest_value>
 sectors    <x_axis>
 ,
-then    <order_rest>
+then    <order_Scnd>
 financial groups    <x_axis_label_Scnd_highest_value>
 at
-45    <y_axis_Scnd_highest_val>
-%    <y_axis>
+45    <y_axis_inferred_Scnd_highest_value_approx>
+%    <y_axis_inferred_label>
 ,
 insurance    <x_axis_label_3rd_highest_value>
 at
 25    <y_axis_3rd_highest_val>
-%    <y_axis>
+%    <y_axis_inferred_label>
 and
 Tech    <x_axis_label_least_value>
 at
 only    <y_axis_least_value>
 20    <y_axis_least_value_val>
-%    <y_axis>
-"
+%    <y_axis_inferred_label>
+<end_of_description>

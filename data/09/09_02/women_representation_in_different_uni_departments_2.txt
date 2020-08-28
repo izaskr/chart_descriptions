@@ -57,7 +57,7 @@ at
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 Bar
 chart
 showing
@@ -97,7 +97,14 @@ The
 graph
 depicts
 the
-percentage of people in university departments who are women   <topic>
+percentage	<y_axis>
+of
+people	<t=0_a=y>
+in
+university departments	<x_axis>
+who
+are
+women	<t=1_a=y>
 .
 The
 greatest	<y_axis_highest_value>
@@ -115,7 +122,7 @@ Computer science	<x_axis_label_Scnd_highest_value>
 is
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
-women   <topic_related_object>
+women	<t=1_a=y>
 ,
 mathematics	<x_axis_label_3rd_highest_value>
 55	<y_axis_3rd_highest_val>
@@ -130,7 +137,7 @@ Literature	<x_axis_label_least_value>
 has
 the
 fewest   <y_axis_least_value>
-women   <topic_related_object>
+women	<t=1_a=y>
 ,
 consisting
 of
@@ -155,11 +162,11 @@ shows
 that
 in
 STEM subjects	<group_highest_Scnd_3rd>
-women   <topic_related_object>
+women   <t=1_a=y>
 make
 up
 more than	<y_axis_approx>
-half	<> ##
+half	<group_y_highest_Scnd_3rd>
 of
 the
 department   <x_axis>
@@ -167,16 +174,15 @@ department   <x_axis>
 while	<y_x_comparison>
 in
 the
-arts   <x_axis_label_4th_highest_value>
-and
-literature department   <x_axis_label_least_value>s
+arts and literature   <group_4th_least>
+department	<x_axis>
 ,
-women   <topic_related_object>
+women   <t=1_a=y>
 account
 for
 less than	<y_axis_approx>
 a
-third	<> ## should arts and literature be grouped?
+third	<group_y_4th_least>
 of
 the
 department   <x_axis>
@@ -219,7 +225,7 @@ of
 the
 department   <x_axis>
 being
-women   <topic_related_object>
+women	<t=1_a=y>
 .
 Computer science	<x_axis_label_Scnd_highest_value>
 follows	<order_Scnd>
@@ -230,7 +236,7 @@ of
 the
 department   <x_axis>
 being
-women   <topic_related_object>
+women	<t=1_a=y>
 ,
 although
 this
@@ -242,7 +248,7 @@ from
 Engineering	<x_axis_label_highest_value>
 .
 Mathematics	<x_axis_label_3rd_highest_value>
-follows	<order_3rd>
+follows
 closely	<y_axis_trend>
 with
 56  <y_axis_3rd_highest_val>
@@ -269,7 +275,7 @@ only	<y_axis_trend>
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
+women	<t=1_a=y>
 and
 Literature	<x_axis_label_least_value>
 coming
@@ -279,7 +285,7 @@ just	<y_axis_least_value>
 22	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
+women	<t=1_a=y>
 .
 <end_of_description>
 
@@ -291,7 +297,9 @@ This
 graph
 depicts
 the
-percentage of women representation in different university departments in Narvik   <topic>
+percentage	<y_axis>
+of
+women representation in different university departments in Narvik   <topic>
 .
 In
 Computer Science	<x_axis_label_Scnd_highest_value>
@@ -302,7 +310,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	<t=1_a=y>
 ,
 in
 Arts	<x_axis_label_4th_highest_value>
@@ -312,7 +320,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	<t=1_a=y>
 ,
 in
 Mathematics	<x_axis_label_3rd_highest_value>
@@ -322,7 +330,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	<t=1_a=y>
 ,
 in
 Literature	<x_axis_label_least_value>
@@ -332,7 +340,7 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	<t=1_a=y>
 ,
 and
 in
@@ -343,24 +351,26 @@ of
 the
 department   <x_axis>
 are
-women   <topic_related_object>
+women	<t=1_a=y>
 .
 <end_of_description>
 
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 Engineering	<x_axis_label_highest_value>
 has
 the
 highest	<y_axis_highest_value>
-percentage of woman representation at Narvik University  <y_axis>
+percentage of woman representation	<y_axis>
+at
+Narvik University	<t=1_a=b>
 with
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 of
-woman representing	<topic_related_object> ##
+woman representing	<y_axis>
 on
 this
 course   <x_axis>
@@ -386,7 +396,10 @@ This
 chart
 shows
 the
-percentage of women enrolled in university departments   <topic>
+percentage of women	<y_axis>
+enrolled
+in
+university departments	<x_axis>
 .
 The
 representation   <y_axis>
@@ -419,16 +432,16 @@ with
 56	<y_axis_inferred_3rd_highest_value_approx>
 %	<y_axis_inferred_label>
 of
-women represented   <topic_related_object>
+women represented	<y_axis>
 .
 Only	
 32	<y_axis_4th_highest_val>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
+women	<t=1_a=y>
 are
 now
-represented
+represented	<t=1_a=y>
 in
 Arts	<x_axis_label_4th_highest_value>
 and
@@ -441,17 +454,21 @@ indicating
 a
 decline    <y_axis_trend_down>
 in
-Arts and Humanities	<group_highest_Scnd_3rd>
+Arts and Humanities	<group_4th_least>
 in
 favour
-STEM fields	<group_4th_least>
+STEM fields	<group_highest_Scnd_3rd>
 <end_of_description>
 
 
 
 <start_of_description>
 The
-percentage of women in five Narvik university departments   <topic>
+percentage of women	<y_axis>
+in
+five	<x_axis_labels_count>
+Narvik	<t=1_a=b>
+university departments	<x_axis>
 is
 shown
 here
@@ -483,7 +500,7 @@ literature	<x_axis_label_least_value>
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 representation of women in university departments in Narvik   <topic>
 is
@@ -572,16 +589,22 @@ This
 chart
 shows
 the
-percentage of women in five different university departments in Narvik   <topic>
+percentage of women	<y_axis>
+in
+five	<x_axis_labels_count>
+different
+university departments	<x_axis>
+in
+Narvik	<t=1_a=b>
 .
 There
 are
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
+women	<t=1_a=y>
 in
-Computer Science	<x_axis_label_Scnd_highest_val>	
+Computer Science	<x_axis_label_Scnd_highest_value>	
 ,
 32   <x_axis_label_4th_highest_value>
 %	<y_axis_inferred_label>
@@ -609,7 +632,7 @@ how
 there
 are
 more	<y_axis_trend_up>
-women   <topic_related_object>
+women	<t=1_a=y>
 in
 the
 Engineering department   <x_axis_label_highest_value>
@@ -639,7 +662,7 @@ almost	<y_axis_approx>
 %	<y_axis_inferred_label>
 compared	<y_x_comparison>
 to	
-only	<y_axis_least_value>
+only
 55	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
 entering
@@ -649,21 +672,17 @@ Almost	<y_axis_approx>
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
 of
-women   <topic_related_object>
-are
-represented
+women are represented	<y_axis>
 in
 Computer Science	<x_axis_label_Scnd_highest_value>
 compared	<y_x_comparison>
 to
 less than	<y_axis_approx>
-40	<> ## another candidate for the grouping label: for bar heights, not (only) conceptual similarity
+40	<group_y_4th_least>
 %	<y_axis_inferred_label>
 in
 both
-Arts   <x_axis_label_4th_highest_value> ## possibly group
-and
-Literature	<x_axis_label_least_value> ## possibly group
+Arts and Literatur   <group_4th_least>
 .
 <end_of_description>
 
@@ -686,7 +705,9 @@ see
 that
 the
 lowest	<y_axis_least_value>
-amount of women representation   <y_axis>
+amount
+of
+women representation   <y_axis>
 came
 from	
 Literature	<x_axis_label_least_value>
@@ -738,7 +759,12 @@ with
 
 
 <start_of_description>
-Women representation in different university departments in narvik   <topic>
+Women representation	<y_axis>
+in
+different
+university departments	<x_axis>
+in
+narvik	<t=1_a=b>
 was
 at
 its
@@ -786,7 +812,7 @@ at
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 This
 chart
 looked
@@ -867,18 +893,20 @@ at
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 The
 graph
 shows
 the
-% of women employed in different university depts in Narvik   <topic>
+%	<y_axis>
+of
+women employed in different university depts in Narvik   <topic>
 .
 The
 highest	<y_axis_highest_value>
 percentage of women   <y_axis>
 are
-employed
+employed	<t=0_a=x>
 in
 the
 engineering dept   <x_axis_label_highest_value>
@@ -889,7 +917,7 @@ and
 the
 lowest	<y_axis_least_value>
 are
-employed
+employed	<t=0_a=x>
 in
 the
 literature    <x_axis_label_least_value>
@@ -928,7 +956,8 @@ below   <y_axis_trend_down>
 that
 was
 the
-mathematics department   <x_axis_label_3rd_highest_value>
+mathematics	<x_axis_label_3rd_highest_value>
+department	<x_axis>
 at
 55	<y_axis_3rd_highest_val>
 %	<y_axis_inferred_label>
@@ -937,8 +966,8 @@ arts	<x_axis_label_4th_highest_value>
 came
 in
 at
-second	##
-lowest	##
+second
+lowest
 at
 32   <x_axis_label_4th_highest_value>	
 %	<y_axis_inferred_label>
@@ -960,7 +989,9 @@ The
 chart
 shows
 the
-percentage of women in different university departments in Narvik   <topic>
+percentage	<y_axis>
+of
+women in different university departments in Narvik   <topic>
 .
 \\n   <separator>
 The
@@ -1016,17 +1047,17 @@ just over	<y_axis_approx>
 
 
 
-<start_of_description>
-Women   <topic_related_object>
+<start_of_description> [type01]
+Women	<t=1_a=y>
 are
-represented
+represented	<t=1_a=y>
 at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 for
 Engineering	<x_axis_label_highest_value>
 in
-Narvik	<topic_related_object> ##
+Narvik	<t=1_a=b>
 ,
 whereas   <y_x_comparison>
 only	<y_axis_least_value>
@@ -1034,7 +1065,7 @@ just over	<y_axis_approx>
 20	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 are
-represented
+represented	<t=1_a=y>
 in
 literature	<x_axis_label_least_value>
 .
@@ -1054,7 +1085,7 @@ at
 70	<y_axis_highest_value_val>
 %	<y_axis_inferred_label>
 and
-Computing   <x_axis_label_Scnd_highest_val>
+Computing   <x_axis_label_Scnd_highest_value>
 at
 60	<y_axis_Scnd_highest_val>
 %	<y_axis_inferred_label>
@@ -1069,10 +1100,11 @@ the
 lowest	<y_axis_least_value>
 in
 the
-arts   <> ## is this a case of grouping? consider the entire sentence
+arts   <group_4th_least>
 with
 the
-Literature department   <x_axis_label_least_value>
+Literature   <x_axis_label_least_value>
+department	<x_axis>
 standing
 at
 22	<y_axis_inferred_least_value_approx>
@@ -1099,7 +1131,7 @@ is
 
 
 
-<start_of_description>
+<start_of_description> [type01]
 This chart shows women in Narvik are well represented within departments traditionally seen as male dominated   <interpretation>
 .
 In
@@ -1108,19 +1140,15 @@ contrast
 only	<y_axis_least_value>
 a
 small	<y_axis_trend>
-percentage   <y_axis>
-of
-people
+percentage of people   <y_axis>
 within
-arts	<x_axis_label_4th_highest_value>
-and
-literature	<x_axis_label_least_value>
+arts and literature	<group_4th_least>
 are
-women   <topic_related_object>
+women	<t=1_a=y>
 .
 THe
 most	<y_axis_highest_value>
-female dominated	<topic_related_object>
+female dominated	<t=0_a=y>
 department   <x_axis>
 is
 Engineering	<x_axis_label_highest_value>
