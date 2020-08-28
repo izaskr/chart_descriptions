@@ -33,4 +33,8 @@ what_students_study_at_lagos_uni_iza.txt : 08/08_02 : val1
 women_representation_in_different_sectors_2_iza.txt : 10/10_02 : train
 women_representation_in_different_uni_departments_2.txt :09/09_02 : train
 
-
+# third batch - TODO: set file names and subdir
+quiz 15/
+SAcities 16/
+glaciers 17/
+cameras 18/
