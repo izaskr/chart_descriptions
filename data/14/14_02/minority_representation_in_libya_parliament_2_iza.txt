@@ -57,7 +57,7 @@ small	<y_axis_trend>
 increase	<slope_up>
 to
 slightly under	<y_axis_approx>
-7	<y_axis_5th_highest_value_val>
+7	<y_axis_5th_highest_val>
 %	<y_axis_inferred_label>
 between 2015 and 2019	<x_axis_label_5th_highest_value>
 .
@@ -144,7 +144,7 @@ in
 1990-1994	<x_axis_label_highest_value>
 to
 almost	<y_axis_approx>
-7	<y_axis_5th_highest_value_val>
+7	<y_axis_5th_highest_val>
 %	<y_axis_inferred_label>
 in
 2015-2019	<x_axis_label_5th_highest_value>
@@ -239,7 +239,7 @@ from
 6.5	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 
-7	<y_axis_5th_highest_value_val>
+7	<y_axis_5th_highest_val>
 %	<y_axis_inferred_label>
 in
 the
@@ -326,7 +326,7 @@ then	<order_last>
 increased	<slope_up>
 slightly	<y_axis_trend>
 to
-7	<y_axis_5th_highest_value_val>
+7	<y_axis_5th_highest_val>
 %	<y_axis_inferred_label>
 between 2015 and 2019	<x_axis_label_5th_highest_value>
 .
@@ -398,7 +398,7 @@ then	<order_last>
 rose	<slope_up>
 at
 almost	<y_axis_approx>
-7	<y_axis_5th_highest_value_val>
+7	<y_axis_5th_highest_val>
 %	<y_axis_inferred_label>
 in
 2015-2019	<x_axis_label_5th_highest_value>
@@ -455,7 +455,7 @@ in
 2015-2019	<x_axis_label_5th_highest_value>
 to
 about	<y_axis_approx>
-7	<y_axis_5th_highest_value_val>
+7	<y_axis_5th_highest_val>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
@@ -1207,7 +1207,7 @@ a
 minority representation	<y_axis>
 of
 just under	<y_axis_approx>
-7	<y_axis_5th_highest_value_val>
+7	<y_axis_5th_highest_val>
 %	<y_axis_inferred_label>
 .
 <end_of_description>
