@@ -1326,8 +1326,7 @@ and
 Africa	<x_axis_label_least_value>
 .
 Over	<y_axis_approx>
-1.5 	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
-times
+1.5 times	<y_axis_inferred_value_mul_v1=highest_v2=Scnd>
 more	<y_axis_trend_up>
 was
 spent	<t=1_a=y>
@@ -1338,16 +1337,14 @@ in
 North America	<x_axis_label_Scnd_highest_value>
 ,
 over	<y_axis_approx>
-three  <y_axis_inferred_value_mul_v1=highest_v2=3rd>
-times
+three times <y_axis_inferred_value_mul_v1=highest_v2=3rd>
 more	<y_axis_trend_up>
 than	<y_x_comparison>
 in
 Europe   <x_axis_label_3rd_highest_value>
 and
 over	<y_axis_approx>
-six    <y_axis_inferred_value_mul_v1=highest_v2=least>
-times
+six times   <y_axis_inferred_value_mul_v1=highest_v2=least>
 more	<y_axis_trend_up>
 than	<y_x_comparison>
 in

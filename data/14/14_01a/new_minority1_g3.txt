@@ -288,13 +288,11 @@ took
 place
 between 1994/5   <x_interval>
 at
-10	<y_axis_inferred_value_mul_v1=5th_v2=least>
-times
+10 times	<y_axis_inferred_value_mul_v1=5th_v2=least>
 and	
 1999/2000  <x_interval>
 nearly	<y_axis_approx>
-4	<y_axis_inferred_value_mul_v1=4th_v2=5th>
-times
+4 times 	<y_axis_inferred_value_mul_v1=4th_v2=5th>
 increase	<slope_up>
 on
 the
@@ -471,8 +469,7 @@ at
 %	<y_axis_inferred_label>
 and then	<order_3rd>
 grew	<slope_up>
-five    <y_axis_inferred_value_mul_v1=Scnd_v2=highest>
-times
+five times   <y_axis_inferred_value_mul_v1=Scnd_v2=highest>
 that
 at
 2	<y_axis_inferred_5th_highest_value_approx>
@@ -647,8 +644,7 @@ from
 2004    <x_axis_range_end>
 by
 almost	<y_axis_approx>
-4	<y_axis_inferred_value_mul_v1=4th_v2=5th>
-times
+4 times 	<y_axis_inferred_value_mul_v1=4th_v2=5th>
 then	<order_3rd>
 steadily	<y_axis_trend>
 from	<y_x_comparison>

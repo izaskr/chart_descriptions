@@ -231,8 +231,7 @@ at
 2	<y_axis_least_value_val>
 .
 more than	<y_axis_approx>
-6	<y_axis_inferred_value_add_v1=highest_v2=least>
-times
+6 times 	<y_axis_inferred_value_add_v1=highest_v2=least>
 more	<y_axis_trend_up>
 expeditions	<y_axis>
 went

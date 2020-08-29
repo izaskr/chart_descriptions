@@ -1152,8 +1152,7 @@ degree C	<y_axis>
 ,
 is
 about	<y_axis_approx>
-2.2	<y_axis_inferred_value_mul_v1=highest_v2=least>
-times
+2.2 times	<y_axis_inferred_value_mul_v1=highest_v2=least>
 warmer	<t=1_a=b>
 than	<y_x_comparison>
 the

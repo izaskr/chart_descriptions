@@ -322,8 +322,7 @@ noughties
 it
 jumped
 almost	<y_axis_approx>
-three
-times
+three times
 the
 amount
 ,
@@ -802,8 +801,7 @@ early
 90	<x_axis_label_least_value>
 's
 to
-70	<y_axis_inferred_value_mul_v1=highest_v2=least>
-times
+70 times	<y_axis_inferred_value_mul_v1=highest_v2=least>
 the
 number
 over	<y_axis_approx>

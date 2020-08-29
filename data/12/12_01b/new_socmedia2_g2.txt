@@ -1114,9 +1114,7 @@ of
 age groups	<x_axis>
 and
 the
-amount
-of
-times	<y_axis>
+amount of times	<y_axis>
 in
 minutes	<y_axis_inferred_label>
 how

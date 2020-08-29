@@ -163,8 +163,7 @@ explored	<t=1_a=b>
 ,
 5	<y_axis_4th_highest_val>
 and	 
-4	<y_axis_5th_highest_val>
-times
+4 times	<y_axis_5th_highest_val>
 respectively
 with
 Tasman	<x_axis_label_least_value>
