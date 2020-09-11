@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import csv
 import pandas as pd
-#import seaborn as sns
+import seaborn as sns
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-xml", required=False, help="xml corpus with chart summaries and labels", default="/home/iza/chart_descriptions/data/chart_summaries_b01_toktest2.xml")
