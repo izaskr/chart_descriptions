@@ -27,58 +27,6 @@ for each chart, check the most frequent order of entities (bar names) given thei
 entities (bars) and relations (their heights; relations between bars)
 """
 
-def get_plot_info(chart_name):
-	"""
-	open the corresponding json file with plot info to return info  about the bars and their heights anf their
-	order on the x axis
-	"""
-	description_files_json = {"money_he":("train1","Money Spent on Higher Education in Year 2010"), 
-         "top_unis":("train1","Number of Top 100 Universities in Each Continent"),
-         "gender_paygap":("train1","Gender Pay Gap"),
-         "women_dept":("train1","Women Representation in Different University Departments"),
-         "women_sect":("train1","Women Representation in Different Sectors"),
-         "obesity_cause":("val1","What causes Obesity"),
-         "evenings":("val1","How do Young People Spend their Evenings"),
-         "study_prog":("train1","What do Students choose to study?"),
-         "salary_se_degree":("val2","Median Salary Per Year For Software Engineers with Respect to their Degree"),
-         "salary_women":("train1","Median Salary of Women Per Year")}
-
-	"""
-	Function for extracting only the information needed to analyze the data, return a dict for every plot,
-	including the values of x axis, y axis, plot type, plot title
-
-	:param split_name: name of annotations.json file, which follows a certain format
-	:type filename: str
-	"""
-
-	split_name = description_files_json[chart_name][0] + "_annotations3.json"
-	# descriptions_files_json[annotations][0] + "_annotations3.json"
-
-	with open(split_name) as f:
-		data = json.load(f)
-
-	xy = {}
-	
-	for i,k in enumerate(data):
-		title = k["general_figure_info"]["title"]["text"]
-
-		if title == description_files_json[chart_name][1]:
-			x = k["models"][0]["x"]
-			y = k["models"][0]["y"]
-			x_order_info = k["models"][0]["x_order_info"]
-			plot_type = k["type"] # "vbar_categorical"
-			y_axis_unit_name = k["general_figure_info"]["y_axis"]["label"]["text"] # label of y from the plot
-			x_axis_label_name = k["general_figure_info"]["x_axis"]["label"]["text"]
-			x_major_ticks = k["general_figure_info"]["x_axis"]["major_ticks"]["values"][:-(len(x))] # why double
-			len_yt = int(len(k["general_figure_info"]["y_axis"]["major_ticks"]["values"]) / 2)
-			y_major_ticks = k["general_figure_info"]["y_axis"]["major_ticks"]["values"][:-len_yt]
-
-			xy = {"title":title, "x":x, "y":y, "type":plot_type, "x_order_info": x_order_info, "y_axis_unit_name":y_axis_unit_name, "x_axis_label_name": x_axis_label_name, "x_major_ticks":x_major_ticks,"y_major_ticks":y_major_ticks}
-			break
-	#print(xy)
-	return xy
-	
-	
 
 
 # bar names
@@ -122,22 +70,6 @@ def get_basics(corpus):
 	tree = ET.parse(corpus)
 	root = tree.getroot()
 
-	token_count, word_count, label_count = defaultdict(int), defaultdict(int), defaultdict(int)
-	storyc, sc, tc, wc = 0, 0, 0, 0
-	multi_token_labels = 0
-	within_summary_sequence, label_ids = [], [] # within.. is a list of labels within each story
-						# label_ids is the same, but with ids of labels (as given in the xml)
-	summaries_sequences, summaries_lid = [], [] # summaries_s.. is a list of within_summary_sequence of each story
-						# summaries_lid is the same, but with ids of labels
-	vocabulary = set() # lower case vocabulary
-	min_length = 1000
-	max_length = -1
-	story_length = 0
-
-	entities = {"x_axis_label_least_value", "x_axis_label_4th_highest_value", "x_axis_label_3rd_highest_value", "x_axis_label_Scnd_highest_value", "x_axis_label_highest_value"}
-	# TODO
-	#relations = {"y_axis_least_value_val", "y_axis_Scnd_highest_val", "y_axis_highest_value_val", "y_axis_3rd_highest_val", "y_axis_inferred_highest_value_approx", "x_axis_label_4th_highest_value", "y_axis_inferred_least_value_approx", "y_axis_4th_highest_val", "y_axis_inferred_3rd_highest_value_approx", "y_axis_inferred_Scnd_highest_value_approx", "y_axis_inferred_value_mul_v1=highest_v2=least", "y_axis_inferred_value_mul_v1=highest_v2=Scnd", "y_axis_inferred_value_add_v1=highest_v2=least", "y_axis_inferred_value_mul_v1=least_v2=highest", "y_axis_inferred_value_mul_v1=Scnd_v2=least", "y_axis_inferred_value_mul_v1=Scnd_v2=3rd", "y_axis_inferred_value_mul_v1=3rd_v2=highest", "y_axis_inferred_value_add_v1=highest_v2=Scnd","y_axis_inferred_value_add_v1=highest_v2=3rd", "y_axis_inferred_value_add_v1=Scnd_v2=highest", "y_axis_inferred_value_mul_v1=least_v2=Scnd", "y_axis_inferred_value_mul_v1=least_v2=3rd","y_axis_inferred_value_mul_v1=highest_v2=3rd", "y_axis_inferred_value_mul_v1=Scnd_v2=highest","y_axis_inferred_value_mul_v1=4th_v2=Scnd", "y_axis_inferred_value_mul_v1=3rd_v2=least","y_axis_inferred_value_mul_v1=3rd_v2=Scnd", "y_axis_inferred_value_add_v1=least_v2=3rd","y_axis_inferred_value_add_v1=Scnd_v2=3rd", "y_axis_inferred_value_add_v1=3rd_v2=least"} # i did not include the ?> labels and <other_operation>
-
 	topic_entity_seq = {}
 
 	for topic in root:
@@ -145,8 +77,13 @@ def get_basics(corpus):
 		topic_id = chart_id[:2]
 		nbars = index2bar_count[topic_id]
 
-		if "a" in chart_id or "b" in chart_id or "c" in chart_id:
-			#print("to ignore", chart_id)
+		# a - proportional, b - inverse, c - one bar emphasis
+
+		#if "a" in chart_id or "b" in chart_id or "c" in chart_id:
+		#	#print("to ignore", chart_id)
+		#	continue
+
+		if "a" not in chart_id: # proportional
 			continue
 
 		for story in topic:
@@ -242,6 +179,10 @@ def create_csv(barcount_sequences):
 
 	# for each bar count, collapse given the position in sequence
 	for bc, sequences in barcount_sequences.items():
+		if len(sequences) == 0:
+			print("no data for this condition", bc)
+			continue
+
 		pos2count = collapse(bc, sequences)
 		print(pos2count)
 
@@ -251,7 +192,7 @@ def create_csv(barcount_sequences):
 			for entity, count in entityCountDict.items():
 				rows.append([entity, str(position), str(count)])
 
-		fname = str(bc) + "positions.csv"
+		fname = "stats_analysis/" +  str(bc) + "positions_a.csv" # NOTE name
 		# writing to csv file
 		with open(fname, 'w') as csvfile:
 			# creating a csv writer object
@@ -273,30 +214,15 @@ def plot_scatter():
 	for nbar in nbars:
 
 		# open csv and generate a scatter plot
-		df = pd.read_csv('stats_analysis/' + nbar + 'positions.csv')
+		df = pd.read_csv('stats_analysis/' + nbar + 'positions_a.csv')
 		#print(df.columns)
 
-		"""
-		x_dim = "Position"
-		y_dim = "Count"
 
-		x = df[x_dim]
-		y = df[y_dim]  fig, ax = plt.subplots(figsize=(10, 5))  #customizes alpha for each dot in the scatter plot
-		ax.scatter(x, y, alpha=0.70)
-		#adds a title and axes labels
-		ax.set_title('Entities given their position in summaries')
-		ax.set_xlabel('Position Index')
-		ax.set_ylabel('Count')
-		#removing top and right borders
-		ax.spines['top'].set_visible(False)
-		ax.spines['right'].set_visible(False)  #adds major gridlines
-		ax.grid(color='grey', linestyle='-', linewidth=0.25, alpha=0.5)  plt.show()scatterplot(df, ‘distance_km’, ‘duration_min’)
-		"""
 		sns.set_style("whitegrid")
 		s = "Entity count given their position in summaries (%s-bar charts)" % (nbar)
 		sns_plot = sns.catplot(x="Position", y="Count", hue="Entity", kind="swarm", data=df)
 		#sns_plot.set_title(s)
-		sns_plot.savefig(nbar + "_position.png")
+		sns_plot.savefig(nbar + "_position_a.png")
 
 
 
@@ -306,9 +232,7 @@ def plot_scatter():
 
 if __name__ == "__main__":
 
-	#tes = get_basics(xml_file)
-	#create_csv(tes)
+	tes = get_basics(xml_file)
+	create_csv(tes)
 	plot_scatter()
-	# for bc, sq in tes.items():
-	#  	print(bc, sq)
-	#  	print("\n"*3)
+
