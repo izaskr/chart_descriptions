@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import csv
 import pandas as pd
-import seaborn as sns
+#import seaborn as sns
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-xml", required=False, help="xml corpus with chart summaries and labels", default="/home/iza/chart_descriptions/data/chart_summaries_b01_toktest2.xml")
@@ -83,7 +83,7 @@ def get_basics(corpus):
 		#	#print("to ignore", chart_id)
 		#	continue
 
-		if "a" not in chart_id: # proportional
+		if "c" not in chart_id: # inverse
 			continue
 
 		for story in topic:
@@ -192,7 +192,7 @@ def create_csv(barcount_sequences):
 			for entity, count in entityCountDict.items():
 				rows.append([entity, str(position), str(count)])
 
-		fname = "stats_analysis/" +  str(bc) + "positions_a.csv" # NOTE name
+		fname = "stats_analysis/" +  str(bc) + "positions_c.csv" # NOTE name
 		# writing to csv file
 		with open(fname, 'w') as csvfile:
 			# creating a csv writer object
@@ -207,32 +207,39 @@ def create_csv(barcount_sequences):
 	#input("enter for next")
 
 
-def plot_scatter():
+def plot_scatter(condition):
+	""" condition is either neutral, a, b or c as a string """
 
 	nbars = ["3", "4", "5", "6"]
+	ending = ".csv"
+
+	if condition == "a" or condition == "b":
+		nbars = ["3", "5", "6"]
+		ending = "_" + condition + ".csv"
+	if condition == "c":
+		nbars = ["3", "4", "5"]
+		ending = "_" + condition + ".csv"
 
 	for nbar in nbars:
-
+		csv_name = 'stats_analysis/' + nbar + 'positions' + ending
 		# open csv and generate a scatter plot
-		df = pd.read_csv('stats_analysis/' + nbar + 'positions_a.csv')
+		df = pd.read_csv(csv_name)
 		#print(df.columns)
 
 
 		sns.set_style("whitegrid")
-		s = "Entity count given their position in summaries (%s-bar charts)" % (nbar)
+		#s = "Entity count given their position in summaries (%s-bar charts)" % (nbar)
 		sns_plot = sns.catplot(x="Position", y="Count", hue="Entity", kind="swarm", data=df)
 		#sns_plot.set_title(s)
-		sns_plot.savefig(nbar + "_position_a.png")
+		sns_plot.savefig(nbar + "_position_" + condition + ".png")
 
-
-
-		
 
 
 
 if __name__ == "__main__":
 
-	tes = get_basics(xml_file)
-	create_csv(tes)
-	plot_scatter()
+	#tes = get_basics(xml_file)
+	#create_csv(tes)
+	for cnd in ["a", "b", "c"]: # neutral has been done
+		plot_scatter(cnd)
 
