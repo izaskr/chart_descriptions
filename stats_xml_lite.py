@@ -294,7 +294,7 @@ def plot_scatter():
 		"""
 		s = "Entity count given their position in summaries (%s-bar charts)" % (nbar)
 		sns_plot = sns.catplot(x="Position", y="Count", hue="Entity", kind="swarm", data=df)
-		sns_plot.set_title(s)
+		#sns_plot.set_title(s)
 		sns_plot.set_style("whitegrid")
 		sns_plot.savefig(nbar + "_position.png")
 
