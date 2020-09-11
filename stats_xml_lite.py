@@ -292,10 +292,10 @@ def plot_scatter():
 		ax.spines['right'].set_visible(False)  #adds major gridlines
 		ax.grid(color='grey', linestyle='-', linewidth=0.25, alpha=0.5)  plt.show()scatterplot(df, ‘distance_km’, ‘duration_min’)
 		"""
+		sns.set_style("whitegrid")
 		s = "Entity count given their position in summaries (%s-bar charts)" % (nbar)
 		sns_plot = sns.catplot(x="Position", y="Count", hue="Entity", kind="swarm", data=df)
 		#sns_plot.set_title(s)
-		sns_plot.set_style("whitegrid")
 		sns_plot.savefig(nbar + "_position.png")
 
 
