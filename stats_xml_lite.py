@@ -206,7 +206,7 @@ def create_csv(barcount_sequences, name=""):
 			for entity, count in entityCountDict.items():
 				rows.append([entity, str(position), str(count)])
 
-		fname = "stats_analysis/" +  str(bc) + "positions_" + name + ".csv" # NOTE name
+		fname = "./stats_analysis/" +  str(bc) + "positions_" + name + ".csv" # NOTE name
 		# writing to csv file
 		with open(fname, 'w') as csvfile:
 			# creating a csv writer object
@@ -240,7 +240,7 @@ def plot_scatter(condition):
 		ending = "_" + condition + ".csv"
 
 	for nbar in nbars:
-		csv_name = 'stats_analysis/' + nbar + 'positions' + ending
+		csv_name = './stats_analysis/' + nbar + 'positions' + ending
 		# open csv and generate a scatter plot
 		df = pd.read_csv(csv_name)
 		#print(df.columns)
