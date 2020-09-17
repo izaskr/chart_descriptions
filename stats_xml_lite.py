@@ -262,10 +262,12 @@ if __name__ == "__main__":
 	c_highest = {"01_02c", "05_01c", "11_02c"}
 	c_lowest = {"09_02c", "10_02c"}
 	all_c = {"01_02c", "05_01c", "11_02c", "09_02c", "10_02c"}
-	for chid in all_c:
+
+	for chid in ["09_02c"]:
 		tes = get_basics(corpus=xml_file, individual_chart=chid)
 		create_csv(tes, chid)
 		plot_scatter(chid)
+
 	#create_csv(tes)
 	#for cnd in ["a", "b", "c"]: # neutral has been done
 	#	plot_scatter(cnd)
