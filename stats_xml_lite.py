@@ -259,9 +259,9 @@ def plot_scatter(condition):
 if __name__ == "__main__":
 
 	#tes = get_basics(xml_file)
-	c_highest = {"04_02c", "05_01c", "11_02c"}
+	c_highest = {"01_02c", "05_01c", "11_02c"}
 	c_lowest = {"09_02c", "10_02c"}
-	all_c = {"04_02c", "05_01c", "11_02c", "09_02c", "10_02c"}
+	all_c = {"01_02c", "05_01c", "11_02c", "09_02c", "10_02c"}
 	for chid in c_highest:
 		tes = get_basics(corpus=xml_file, individual_chart=chid)
 		create_csv(tes, chid)
