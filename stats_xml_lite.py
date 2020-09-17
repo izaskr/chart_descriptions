@@ -15,9 +15,11 @@ import seaborn as sns
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-xml", required=False, help="xml corpus with chart summaries and labels", default="/home/iza/chart_descriptions/data/chart_summaries_b01_toktest2.xml")
+parser.add_argument("-hdir", required=False, help="path to home dir of the project", default="/home/CE/skrjanec/chart_descriptions/")
 args = vars(parser.parse_args())
 
 xml_file = args["xml"]
+home_dir = args["hdir"]
 
 
 """
@@ -206,7 +208,7 @@ def create_csv(barcount_sequences, name=""):
 			for entity, count in entityCountDict.items():
 				rows.append([entity, str(position), str(count)])
 
-		fname = "./stats_analysis/" +  str(bc) + "positions_" + name + ".csv" # NOTE name
+		fname = home_dir + "stats_analysis/" +  str(bc) + "positions_" + name + ".csv" # NOTE name
 		# writing to csv file
 		with open(fname, 'w') as csvfile:
 			# creating a csv writer object
@@ -240,7 +242,7 @@ def plot_scatter(condition):
 		ending = "_" + condition + ".csv"
 
 	for nbar in nbars:
-		csv_name = './stats_analysis/' + nbar + 'positions' + ending
+		csv_name = home_dir + 'stats_analysis/' + nbar + 'positions' + ending
 		# open csv and generate a scatter plot
 		df = pd.read_csv(csv_name)
 		#print(df.columns)
