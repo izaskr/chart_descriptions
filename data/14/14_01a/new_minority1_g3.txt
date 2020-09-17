@@ -148,7 +148,7 @@ figure   <y_axis>
 increased	<slope_up>
 to
 just under	<y_axis_approx>
-8	<y_axis_inferred_4th_highest_value_approx>>
+8	<y_axis_inferred_4th_highest_value_approx>
 .
 In
 2005 - 2009   <x_axis_label_3rd_highest_value>
@@ -674,7 +674,7 @@ where
 it
 had
 less	 than	<y_axis_approx>
-1	<y_axis_inferred_least_value_approx>>
+1	<y_axis_inferred_least_value_approx>
 %	<y_axis_inferred_label>
 minority representation	<y_axis>
 .

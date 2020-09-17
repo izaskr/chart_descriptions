@@ -528,7 +528,7 @@ just over	<y_axis_approx>
 ,
 more than <y_axis_approx>
 than
-quadruple	<y_axis_inferred_value_mul_v1=Scnd_v2=least>
+quadruple	<y_axis_inferred_value_mul_v1=5th_v2=least>
 .
 \\n	<separator>
 The
@@ -1090,7 +1090,7 @@ Parliament	<t=1_a=b>
 .
 Representation	<y_axis>
 more than	<y_axis_approx>
-doubles	<y_axis_inferred_value_mul_v1=Scnd_v2=least>
+doubles	<y_axis_inferred_value_mul_v1=5th_v2=least>
 to
 2	<y_axis_inferred_5th_highest_value_approx>
 %	<y_axis_inferred_label>

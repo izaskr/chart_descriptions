@@ -703,7 +703,7 @@ age group	<x_axis>
 from
 15 years	<x_axis_label_Scnd_highest_value>
 to
-64 years	<y_axis_inferred_least_value_approx>
+64 years	<x_axis_label_highest_value>
 .
 social media	<t=1_a=y>
 use

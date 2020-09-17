@@ -328,7 +328,7 @@ stock price <y_axis>
 with
 it
 being
-halved <y_axis_inferred_value_mul_v1=4th_v2=least>
+halved <y_axis_inferred_value_mul_v1=least_v2=4th>
 from
 £	<y_axis_inferred_label>
 60	<y_axis_inferred_4th_highest_value_approx>
@@ -947,7 +947,7 @@ price  <y_axis>
 drops	<slope_down>
 significantly	<y_axis_trend>
 ,
-halving <y_axis_inferred_value_mul_v1=4th_v2=least>
+halving <y_axis_inferred_value_mul_v1=least_v2=4th>
 to	
 just  under	 <y_axis_approx>
 £	<y_axis_inferred_label>
