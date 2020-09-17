@@ -219,7 +219,7 @@ def create_csv(barcount_sequences, name=""):
 
 			# writing the data rows
 			csvwriter.writerows(rows)
-
+		print("------ wrote file", fname)
 	#input("enter for next")
 
 
