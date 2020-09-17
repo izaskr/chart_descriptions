@@ -236,7 +236,7 @@ def plot_scatter(condition):
 		nbars = ["3", "4", "5"]
 		ending = "_" + condition + ".csv"
 
-	e = {"04_02c": "3", "05_01c":"4", "09_02c":"4", "10_02c":"5", "11_02c":"5"}
+	e = {"04_02c": "3", "05_01c": "4", "09_02c": "4", "10_02c": "5", "11_02c": "5"}
 	if condition in e:
 		nbars = [e[condition]]
 		ending = "_" + condition + ".csv"
@@ -262,7 +262,7 @@ if __name__ == "__main__":
 	c_highest = {"01_02c", "05_01c", "11_02c"}
 	c_lowest = {"09_02c", "10_02c"}
 	all_c = {"01_02c", "05_01c", "11_02c", "09_02c", "10_02c"}
-	for chid in c_highest:
+	for chid in all_c:
 		tes = get_basics(corpus=xml_file, individual_chart=chid)
 		create_csv(tes, chid)
 		plot_scatter(chid)
