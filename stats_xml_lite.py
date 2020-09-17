@@ -236,7 +236,7 @@ def plot_scatter(condition):
 		nbars = ["3", "4", "5"]
 		ending = "_" + condition + ".csv"
 
-	e = {"04_02c": "3", "05_01c": "4", "09_02c": "4", "10_02c": "5", "11_02c": "5"}
+	e = {"04_02c": "3", "05_01c": "4", "09_02c": "5", "10_02c": "5", "11_02c": "5"}
 	if condition in e:
 		nbars = [e[condition]]
 		ending = "_" + condition + ".csv"
