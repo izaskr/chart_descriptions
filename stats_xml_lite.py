@@ -66,7 +66,12 @@ index2bar_count = {"01":3, "02":4, "03": 4, "04":4, "05":4, "06": 4, "07": 3, "0
 bar_count2sequences = {k: [] for k in index2bar_count.values()}
 
 
-def get_basics(corpus):
+def get_basics(corpus, individual_chart=None):
+	"""
+	corpus : str : path to the xml corpus
+	individual_chart : bool or str : chart ID of a chart for which we request an analysis as to avoid parting the entire dataset
+
+	"""
 	tree = ET.parse(corpus)
 	root = tree.getroot()
 
@@ -77,14 +82,23 @@ def get_basics(corpus):
 		topic_id = chart_id[:2]
 		nbars = index2bar_count[topic_id]
 
+		if individual_chart and individual_chart == chart_id:
+			pass
+		else:
+			continue
+
+		print(".... parsing chart id", chart_id)
+
+
 		# a - proportional, b - inverse, c - one bar emphasis
 
 		#if "a" in chart_id or "b" in chart_id or "c" in chart_id:
 		#	#print("to ignore", chart_id)
 		#	continue
 
-		if "c" not in chart_id: # inverse
-			continue
+
+		#if "c" not in chart_id: # inverse
+		#	continue
 
 		for story in topic:
 			# annotations = story[1]
@@ -174,7 +188,7 @@ def collapse(bc, list_of_lists):
 
 
 
-def create_csv(barcount_sequences):
+def create_csv(barcount_sequences, name=""):
 	# bar count as key, list of lists of stings as value
 
 	# for each bar count, collapse given the position in sequence
@@ -192,7 +206,7 @@ def create_csv(barcount_sequences):
 			for entity, count in entityCountDict.items():
 				rows.append([entity, str(position), str(count)])
 
-		fname = "stats_analysis/" +  str(bc) + "positions_c.csv" # NOTE name
+		fname = "stats_analysis/" +  str(bc) + "positions_" + name + ".csv" # NOTE name
 		# writing to csv file
 		with open(fname, 'w') as csvfile:
 			# creating a csv writer object
@@ -220,12 +234,16 @@ def plot_scatter(condition):
 		nbars = ["3", "4", "5"]
 		ending = "_" + condition + ".csv"
 
+	e = {"04_02c": "3", "05_01c":"4", "09_02c":"4", "10_02c":"5", "11_02c":"5"}
+	if condition in e:
+		nbars = [e[condition]]
+		ending = "_" + condition + ".csv"
+
 	for nbar in nbars:
 		csv_name = 'stats_analysis/' + nbar + 'positions' + ending
 		# open csv and generate a scatter plot
 		df = pd.read_csv(csv_name)
 		#print(df.columns)
-
 
 		sns.set_style("whitegrid")
 		#s = "Entity count given their position in summaries (%s-bar charts)" % (nbar)
@@ -239,7 +257,14 @@ def plot_scatter(condition):
 if __name__ == "__main__":
 
 	#tes = get_basics(xml_file)
+	c_highest = {"04_02c", "05_01c", "11_02c"}
+	c_lowest = {"09_02c", "10_02c"}
+	all_c = {"04_02c", "05_01c", "11_02c", "09_02c", "10_02c"}
+	for chid in c_highest:
+		tes = get_basics(corpus=xml_file, individual_chart=chid)
+		create_csv(tes, chid)
+		plot_scatter(chid)
 	#create_csv(tes)
-	for cnd in ["a", "b", "c"]: # neutral has been done
-		plot_scatter(cnd)
+	#for cnd in ["a", "b", "c"]: # neutral has been done
+	#	plot_scatter(cnd)
 
