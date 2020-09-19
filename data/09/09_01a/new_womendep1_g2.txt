@@ -776,7 +776,9 @@ by
 50
 %	<y_axis_inferred_label>
 at
-60/40	<y_axis_highest_value_val>
+60  <y_axis_Scnd_highest_val>
+/
+40	<t=1_a=y>
 .
 <end_of_description>
 

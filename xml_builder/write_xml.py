@@ -453,7 +453,8 @@ def make_xml_tree():
 						
 						#case: approx
 						# elif label.find("value_approx") != -1: 
-						elif label.find("y_axis_") != -1 and label.find("_value") != -1 and (label not in ("<y_axis_least_value>", "<y_axis_highest_value>")): 
+						# elif label.find("y_axis_") != -1 and label.find("_value") != -1 and (label not in ("<y_axis_least_value>", "<y_axis_highest_value>")): 
+						elif label.find("y_axis_") != -1 and label.find("_val") != -1 and (label not in ("<y_axis_least_value>", "<y_axis_highest_value>")): 
 							approx_id_map[(label, start, end, text_str)] = [approx_id_tracker, n+1, len(label_bound[n+1])-1]
 							approx_id_tracker += 1
 
@@ -689,6 +690,15 @@ def make_xml_tree():
 							direction = "none"
 
 
+
+					# hard coded logic for cases that occur frequently
+					if vg == "##REVIEW":
+						if curr_text.lower() == 'half' and va == 50: 
+							vg = 50
+						elif curr_text in ('one', 'single') and va == 1:  
+							vg = 1
+
+
 					if is_digit(va):
 						# TODO: change to va
 						# get closest major and minor ticks (only works if vg is digit)
@@ -700,9 +710,14 @@ def make_xml_tree():
 
 						l_close_major_tick = float(clst_major_ts.split(',')[0])
 						l_close_minor_tick = float(clst_minor_ts.split(',')[0])
+						l_close_major_tick = round(l_close_major_tick, 1)
+						l_close_minor_tick = round(l_close_minor_tick, 1)
+
 
 						r_close_major_tick = float(clst_major_ts.split(',')[1])
 						r_close_minor_tick = float(clst_minor_ts.split(',')[1])
+						r_close_major_tick = round(r_close_major_tick, 1)
+						r_close_minor_tick = round(r_close_minor_tick, 1)
 
 
 						major_ti_dist = abs(major_ts[1] - major_ts[0])
@@ -847,7 +862,7 @@ def make_xml_tree():
 
 						elif relex_type == "add":
 							va = v1 - v2
-							va = round(va, 2)
+							va = round(va, 3)
 							vg_sign = None
 							if next1:
 								if next1[0] ==  "<y_magnitude>":
@@ -902,8 +917,10 @@ def make_xml_tree():
 						# print(quad)
 					a_vg_total += 1
 
-					 
+					if relex_type == "mul" and isinstance(vg, float):
+						vg = round(vg, 3)
 					
+
 					add_relex = ET.SubElement(relative_expressions, "relex") 
 
 					
@@ -981,11 +998,11 @@ def make_xml_tree():
 
 			numex = ET.SubElement(story, "numex")	
 
-			#TODO: delete 
-			topic_tag = ET.SubElement(numex, "topic_tag")
-			topic_tag.set("title", corpus['title'])
-			cont = ET.SubElement(numex, "cont")
-			cont.text = " ".join(d1["desc_tokens"])
+			# #TODO: delete 
+			# topic_tag = ET.SubElement(numex, "topic_tag")
+			# topic_tag.set("title", corpus['title'])
+			# cont = ET.SubElement(numex, "cont")
+			# cont.text = " ".join(d1["desc_tokens"])
 			
 			build_approx_tags(numex)	
 			build_relex_tags(numex)	

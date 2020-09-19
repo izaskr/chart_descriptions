@@ -471,7 +471,7 @@ again
 on
 Friday	<x_axis_label_least_value>
 to
-9	<_axis_inferred_least_value_approx>
+9	<y_axis_inferred_least_value_approx>
 £	<y_axis_inferred_label>
 .
 <end_of_description>

@@ -310,14 +310,14 @@ daily	<t=1_a=y>
 ages   <x_axis>
 25-34   <x_axis_label_4th_highest_value>
 spent
-87	<y_axis_inferred_4th_highest_value_approx>
+77	<y_axis_inferred_4th_highest_value_approx>
 minutes   <y_axis_inferred_label>
 daily	<t=1_a=y>
 ,
 ages   <x_axis>
 35-44   <x_axis_label_least_value>
 spent
-83	<y_axis_inferred_least_value_approx>
+73	<y_axis_inferred_least_value_approx>
 minutes   <y_axis_inferred_label>
 daily	<t=1_a=y>
 ,

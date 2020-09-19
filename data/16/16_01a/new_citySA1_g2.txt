@@ -1045,7 +1045,7 @@ is
 a
 difference
 of
-20	<y_axis_inferred_value_20_v1=least_v2=highest>
+20	<y_axis_inferred_value_add_v1=least_v2=highest>
 degrees	C <y_axis_inferred_label> 
 between
 the

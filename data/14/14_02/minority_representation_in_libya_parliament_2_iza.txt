@@ -271,7 +271,7 @@ Then	<order_3rd>
 it
 dropped	<slope_down>
 to
-8.8	<y_axis_inferred_4th_highest_value_approx>
+7.8	<y_axis_inferred_4th_highest_value_approx>
 %	<y_axis_inferred_label>
 in
 2005-2009	<x_axis_label_4th_highest_value>

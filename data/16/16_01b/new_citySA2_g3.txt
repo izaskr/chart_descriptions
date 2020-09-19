@@ -456,7 +456,7 @@ by
 average	 temperature	<y_axis>
 .
 The
-coldest	<y_axis_least_value
+coldest	<y_axis_least_value>
 city	<x_axis>
 with
 an
@@ -1297,7 +1297,7 @@ at
 degrees	Celsius   <y_axis_inferred_label>
 .
 The
-warmest    <y_axis_highest_value
+warmest    <y_axis_highest_value>
 being
 Belem	<x_axis_label_highest_value>
 at
