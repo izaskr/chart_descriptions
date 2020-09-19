@@ -1104,7 +1104,7 @@ in
 insurance	<x_axis_label_highest_value>
 .
 \\n	<separator>
-Again , the y axis is not clearly labelled . I assume it is percentage	of women	<interpretation>
+Again , the y axis is not clearly labelled - I assume it is percentage	of women	<interpretation>
 .
 <end_of_description>
 

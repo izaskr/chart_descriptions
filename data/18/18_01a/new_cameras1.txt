@@ -908,8 +908,7 @@ the
 average	price	<y_axis>
 per
 camera brand	<x_axis>
-`
-however it isn't clear if this average	<y_axis_approx> is per model currently on sale or based on volumes etc . or even if the average is mean or median etc . so har to interpret adequately )   <interpretation>
+however it isn't clear if this average	on sale or based on volumes etc   <interpretation>
 .
 On
 what
@@ -990,7 +989,9 @@ of
 
 
 <start_of_description>
-As we can see from the chart digital	 cameras are majorly expensive . However prices do vary from brand to brand    <interpretation>	 
+As we can see from the chart digital cameras are majorly expensive	<interpretation>
+.
+However prices do vary from brand to brand    <interpretation>	 
 .
 The
 least expensive	<y_axis_least_value>

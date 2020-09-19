@@ -160,8 +160,6 @@ were
 £	<y_axis_inferred_label>
 75	<y_axis_inferred_highest_value_approx>
 .
-( I dont understand )	<interpretation>
-.
 On
 Monday	<x_axis_label_3rd_highest_value>
 it

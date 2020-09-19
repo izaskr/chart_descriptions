@@ -118,7 +118,10 @@ is
 Tasman	<x_axis_label_least_value>
 .
 \n	<separator>
-The data does n't tell us much about the thoroughness , length of time spent per expedition , or the size of the expedition party . As such I do n't think this chart is very useful in isolation .  <interpretation>
+The data does n't tell us much about the thoroughness , length of time spent per expedition , or the size of the expedition party	<interpretation>
+.
+As such I do n't think this chart is very useful in isolation	<interpretation>
+.
 <end_of_description>
 
 

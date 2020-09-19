@@ -1157,7 +1157,7 @@ merely
 labelled
 percentage	<y_axis>
 .
-This is , I assume , the percentage of women but could be the representation of men . The title is also slightly ambiguous	<interpretation>
+This is , I assume , the percentage of women but could be the representation of men; the title is also slightly ambiguous	<interpretation>
 .
 <end_of_description>
 

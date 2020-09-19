@@ -7,13 +7,22 @@ import argparse
 import xml.etree.ElementTree as ET
 import json
 import random
+import sys
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-xml", required=False, help="xml corpus with chart summaries and labels", default="/home/iza/chart_descriptions/corpora_v02/all_descriptions/chart_summaries_b01_toktest2.xml")
+parser.add_argument("-xml", required=False, help="xml corpus with chart summaries and labels", default="/home/iza/chart_descriptions/data/chart_summaries_b01_toktest2.xml")
+parser.add_argument("-scope", required=False, help="scope of delexicalization; both for entities & topic vocabulary, entity for entities only", default="entity")
+parser.add_argument("-write", required=False, help="write in/out delex into files; options yes, no (default)", default="no")
+
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
 args = vars(parser.parse_args())
 
 xml_file = args["xml"]
+if args["scope"] not in {"entity", "both"}:
+	sys.exit("the -scope argument must be either entity or both")
+
+if args["write"] not in {"yes", "no"}:
+	sys.exit("the  -write argument must be either yes or no, default is no")
 #out_name = args["out"]
 
 """
@@ -327,9 +336,14 @@ def open_delex_key_value(corpus):
 	tree = ET.parse(corpus)
 	root = tree.getroot()
 
+	# load the names of labels that should be delexicalized; and their placeholders
 	with open("lex_delex.json", "r") as jf:
 		all_lex_delex = json.load(jf)
+
+
 	lex_delex = {**all_lex_delex["bar_information"], **all_lex_delex["topic_information"]}
+	if args["scope"] == "entity":
+		lex_delex = all_lex_delex["bar_information"]
 
 	topic_name = ""
 	# join the summaries by topic, e.g. all 02_X into 02, then shuffle and split into train and val
@@ -453,17 +467,16 @@ def open_delex_key_value(corpus):
 
 			# TODO make a set from key_value to have unique key-value pairs only
 			key_value = ", ".join([u[0] for u in key_value])
-			print("joined key value", key_value)
+			#print("joined key value", key_value)
 			key_value_set = ", ".join([u[0] for u in key_value_set])
-			print("key value SRC as a set", key_value_set)
+			#print("key value SRC as a set", key_value_set)
 			delex_tokens = " ".join(delex_tokens)
-			print("joined delex target", delex_tokens)
+			#print("joined delex target", delex_tokens)
 
 
 			#topicwise[short_topic_id][story_id] = (key_value, " ".join(tokens))
 
 			topicwise[short_topic_id][story_id] = (key_value, " ".join(tokens), key_value_set, delex_tokens)
-
 
 			# segmented_ids looks like
 			# [ ('01_01-01-1-1', None), ('01_01-01-1-2', None), ('01_01-01-1-3', None), ('01_01-01-1-4', None),
@@ -478,10 +491,17 @@ def open_delex_key_value(corpus):
 			#  ('01_01-01-2-20', 'y_axis_least_value'), ('01_01-01-2-21', None) ]
 			o = None
 
-	print("check topicwise dict")
+	#print("check topicwise dict")
 	# TODO what should be delexicalized? ignore topic information
 	# TODO src with exhaustive
-	import pdb;	pdb.set_trace()
+	#import pdb;	pdb.set_trace()
+	if args["write"] == "no":
+		return topicwise
+
+	if args["write"] == "yes":
+		pass
+
+	# NOTE : careful, old code, where the values of topicwise were a tuple of len 2, instead of 4
 
 	# loop through the collected pairs of SRC and TG and write into files
 	dir_path = "/home/iza/chart_descriptions/corpora_v02/keyvalue/complete"
@@ -505,7 +525,7 @@ def open_delex_key_value(corpus):
 	# TODO another option for splitting: given the neutral and non-neutral charts; IDs in sets
 	train_minor_IDs, test_minor_IDs = create_split(major2minor, split_type)
 	print("Split mode", split_type)
-	print("Train",train_minor_IDs, "\n", "Test ",test_minor_IDs)
+	print("Train", train_minor_IDs, "\n", "Test ",test_minor_IDs)
 
 
 	for greatTopicID, summaryIDs in topicwise.items():
@@ -530,6 +550,7 @@ def open_delex_key_value(corpus):
 	tg_test.close()
 	#src.close()
 	#tg.close()
+	return topicwise
 
 
 
