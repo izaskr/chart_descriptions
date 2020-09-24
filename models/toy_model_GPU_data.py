@@ -46,8 +46,6 @@ parser.add_argument("-attention", required=False, help="attention type: dot, bil
 parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive", default="set", type=str)
 parser.add_argument("-otype", required=False, help="type of output: lex or delex", default="lex", type=str)
 
-
-
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
 args = vars(parser.parse_args())
 
