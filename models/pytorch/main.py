@@ -5,7 +5,8 @@ import torch.nn as nn
 import torch.optim as optim
 import torchtext
 from torchtext.datasets import Multi30k
-from torchtext.data import Field, BucketIterator, TranslationDataset
+from torchtext.data import Field, BucketIterator
+from torchtext.datasets import TranslationDataset
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
