@@ -1,4 +1,4 @@
-# tony-2, conda env pytorch13py36
+# tony-2, conda env pytorch14py36
 
 import torch
 import torch.nn as nn
@@ -126,6 +126,5 @@ mt_dev = TranslationDataset(
 SRC.build_vocab(mt_train, min_freq=2)
 TRG.build_vocab(mt_train, min_freq=2)
 
-train_iter = BucketIterator(
-     dataset=mt_train, batch_size=32,
-    sort_key=lambda x: torchtext.data.interleave_keys(len(x.src), len(x.trg))
+train_iter = BucketIterator(dataset=mt_train, batch_size=32,
+    sort_key=lambda x: torchtext.data.interleave_keys(len(x.src), len(x.trg)))
