@@ -5,7 +5,7 @@ import torch.nn as nn
 import torch.optim as optim
 import torchtext
 from torchtext.datasets import Multi30k
-from torchtext.data import Field, BucketIterator
+from torchtext.data import Field, BucketIterator, Iterator
 from torchtext.datasets import TranslationDataset
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
@@ -115,7 +115,7 @@ TRG = Field(tokenize = tokenize_tg,
             lower = True,
             batch_first = True)
 
-
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/copy_tgt/mt/"
 
 mt_train = TranslationDataset(
@@ -126,8 +126,23 @@ mt_dev = TranslationDataset(
      path=pth + "val_a", exts=('.src', '.tgt'),
     fields=(SRC, TRG))
 
+mt_test = TranslationDataset(
+     path=pth + "test_a", exts=('.src', '.tgt'),
+    fields=(SRC, TRG))
+
 SRC.build_vocab(mt_train, min_freq=2)
 TRG.build_vocab(mt_train, min_freq=2)
 
 train_iter = BucketIterator(dataset=mt_train, batch_size=32,
-    sort_key=lambda x: torchtext.data.interleave_keys(len(x.src), len(x.trg)))
+    sort_key=lambda x: torchtext.data.interleave_keys(len(x.src), len(x.trg)), device=device)
+
+dev_iter = BucketIterator(dataset=mt_dev, batch_size=32,
+    sort_key=lambda x: torchtext.data.interleave_keys(len(x.src), len(x.trg)), device=device)
+
+test_iter = Iterator(dataset=mt_test, batch_size=32, shuffle=False, device=device)
+
+
+src_VOCAB_SIZE = len(SRC.vocab)
+tgt_VOCAB_SIZE = len(TRG.vocab)
+
+print("size of source and target vocabs", src_VOCAB_SIZE, tgt_VOCAB_SIZE)
