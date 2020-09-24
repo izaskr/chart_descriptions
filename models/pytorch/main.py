@@ -116,12 +116,14 @@ TRG = Field(tokenize = tokenize_tg,
             batch_first = True)
 
 
+pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/copy_tgt/mt/"
+
 mt_train = TranslationDataset(
-     path="/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/train_a", exts=('.src', '.tgt'),
+     path=pth + "train_a", exts=('.src', '.tgt'),
     fields=(SRC, TRG))
 
 mt_dev = TranslationDataset(
-     path="/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/val_a", exts=('.src', '.tgt'),
+     path=pth + "val_a", exts=('.src', '.tgt'),
     fields=(SRC, TRG))
 
 SRC.build_vocab(mt_train, min_freq=2)
