@@ -153,8 +153,8 @@ TRG = Field(tokenize = tokenize_tg,
             lower = True,
             batch_first = True, sequential=True, use_vocab=True, fix_length=MAX_LEN_TGT)
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-#device = torch.device("cpu") # TODO
+#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device("cpu") # TODO
 
 
 mt_train = TranslationDataset(
