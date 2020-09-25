@@ -32,8 +32,8 @@ parser.add_argument("-epoch", required=False, help="number of epochs for trainin
 parser.add_argument("-max-len-src", required=False, help="maximum length of source sequence, default 45", default=45, type=int)
 parser.add_argument("-max-len-tgt", required=False, help="maximum length of target sequence, default 45", default=45, type=int)
 parser.add_argument("-lr", required=False, help="learning rate, default 0.0005", default=0.0005, type=float)
-parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive", default="set", type=str)
-parser.add_argument("-otype", required=False, help="type of output: lex or delex", default="lex", type=str)
+parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive, default set", default="set", type=str)
+parser.add_argument("-otype", required=False, help="type of output: lex or delex, default lex", default="lex", type=str)
 
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
 # parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
@@ -173,7 +173,7 @@ mt_dev = TranslationDataset(
     fields=(SRC, TRG))
 
 mt_test = TranslationDataset(
-     path=folder_pth + "test_a", exts=(extension_src, extension_tgt),
+     path=folder_pth + "test_", exts=(extension_src, extension_tgt),
     fields=(SRC, TRG))
 
 SRC.build_vocab(mt_train, min_freq=2)
