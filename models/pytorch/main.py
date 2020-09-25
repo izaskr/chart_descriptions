@@ -27,6 +27,9 @@ torch.backends.cudnn.deterministic = True
 
 parser = argparse.ArgumentParser()
 
+parser.add_argument("-debug", action='store_true', help="if used, pdb will be used in breakpoints")
+
+
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
 # parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
 # parser.add_argument("-hidden-dim", required=False, help="dimension of hidden layer", default=128, type=int)
@@ -185,7 +188,8 @@ dec = Decoder(OUTPUT_DIM,
 
 model = Seq2Seq(enc, dec, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
 
-#import pdb; pdb.set_trace()
+if args["debug"]:
+    import pdb; pdb.set_trace()
 
 
 def count_parameters(model):
@@ -204,7 +208,6 @@ LEARNING_RATE = 0.0005
 optimizer = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
 criterion = nn.CrossEntropyLoss(ignore_index = TRG_PAD_IDX)
 
-#import pdb; pdb.set_trace()
 
 def train(model, iterator, optimizer, criterion, clip):
     model.train()
@@ -213,7 +216,6 @@ def train(model, iterator, optimizer, criterion, clip):
         src = batch.src
         trg = batch.trg
         #print("--- types and shapes of source an target batch", type(src), type(trg), src.shape, trg.shape)
-        import pdb; pdb.set_trace()
         optimizer.zero_grad()
         output, _ = model(src, trg[:, :-1])
         # output = [batch size, trg len - 1, output dim]
@@ -223,7 +225,6 @@ def train(model, iterator, optimizer, criterion, clip):
         trg = trg[:, 1:].contiguous().view(-1)
         # output = [batch size * trg len - 1, output dim]
         # trg = [batch size * trg len - 1]
-        #import pdb; pdb.set_trace()
         loss = criterion(output, trg)
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), clip)
