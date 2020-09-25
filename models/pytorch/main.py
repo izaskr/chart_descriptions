@@ -107,18 +107,18 @@ def tokenize_tg(text):
 
 
 # test_b.src  train_a.src  train_b.src  val_a.src
-
+MAX_LEN = 100
 SRC = Field(tokenize = tokenize_src,
             init_token = '<sos>',
             eos_token = '<eos>',
             lower = True,
-            batch_first = True, sequential=True, use_vocab=True)
+            batch_first = True, use_vocab=True, fix_length=MAX_LEN)
 
 TRG = Field(tokenize = tokenize_tg,
             init_token = '<sos>',
             eos_token = '<eos>',
             lower = True,
-            batch_first = True, sequential=True, use_vocab=True)
+            batch_first = True, sequential=True, use_vocab=True, fix_length=MAX_LEN)
 
 #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 device = torch.device("cpu") # TODO
