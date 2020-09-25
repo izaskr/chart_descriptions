@@ -208,7 +208,7 @@ def train(model, iterator, optimizer, criterion, clip):
         src = batch.src
         trg = batch.trg
         print("--- types and shapes of source an target batch", type(src), type(trg), src.shape, trg.shape)
-        import pdb; pdb.set_trace()
+
         optimizer.zero_grad()
         output, _ = model(src, trg[:, :-1])
         # output = [batch size, trg len - 1, output dim]
@@ -218,6 +218,7 @@ def train(model, iterator, optimizer, criterion, clip):
         trg = trg[:, 1:].contiguous().view(-1)
         # output = [batch size * trg len - 1, output dim]
         # trg = [batch size * trg len - 1]
+        import pdb; pdb.set_trace()
         loss = criterion(output, trg)
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), clip)
