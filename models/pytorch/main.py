@@ -26,20 +26,21 @@ torch.cuda.manual_seed(SEED)
 torch.backends.cudnn.deterministic = True
 
 parser = argparse.ArgumentParser()
+
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
-parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
-parser.add_argument("-hidden-dim", required=False, help="dimension of hidden layer", default=128, type=int)
-parser.add_argument("-device", required=False, help="index of GPU", default=1, type=int)
-parser.add_argument("-max-len", required=False, help="maximum length of output", default=40, type=int)
-parser.add_argument("-epoch", required=False, help="number of epochs for training", default=50, type=int)
-parser.add_argument("-beam", required=False, help="size of the beam for beam search decoding", default=3, type=int)
-parser.add_argument("-dropout", required=False, help="dropout probability", default=0.2, type=float)
-parser.add_argument("-num-layers", required=False, help="number of layers of RNN", default=2, type=int)
-parser.add_argument("-lr", required=False, help="learning rate", default=0.05, type=float)
-parser.add_argument("-encoder", required=False, help="encoder type: LSTM or Transformer", default="Transformer", type=str)
-parser.add_argument("-attention", required=False, help="attention type: dot, bilinear, linear", default="dot", type=str)
-parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive", default="set", type=str)
-parser.add_argument("-otype", required=False, help="type of output: lex or delex", default="lex", type=str)
+# parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
+# parser.add_argument("-hidden-dim", required=False, help="dimension of hidden layer", default=128, type=int)
+# parser.add_argument("-device", required=False, help="index of GPU", default=1, type=int)
+# parser.add_argument("-max-len", required=False, help="maximum length of output", default=40, type=int)
+# parser.add_argument("-epoch", required=False, help="number of epochs for training", default=50, type=int)
+# parser.add_argument("-beam", required=False, help="size of the beam for beam search decoding", default=3, type=int)
+# parser.add_argument("-dropout", required=False, help="dropout probability", default=0.2, type=float)
+# parser.add_argument("-num-layers", required=False, help="number of layers of RNN", default=2, type=int)
+# parser.add_argument("-lr", required=False, help="learning rate", default=0.05, type=float)
+# parser.add_argument("-encoder", required=False, help="encoder type: LSTM or Transformer", default="Transformer", type=str)
+# parser.add_argument("-attention", required=False, help="attention type: dot, bilinear, linear", default="dot", type=str)
+# parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive", default="set", type=str)
+# parser.add_argument("-otype", required=False, help="type of output: lex or delex", default="lex", type=str)
 
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
 args = vars(parser.parse_args())
@@ -119,7 +120,8 @@ TRG = Field(tokenize = tokenize_tg,
             lower = True,
             batch_first = True, sequential=True, use_vocab=True)
 
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+device = torch.device("cpu")
 pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/copy_tgt/mt/"
 
 mt_train = TranslationDataset(
@@ -207,7 +209,7 @@ def train(model, iterator, optimizer, criterion, clip):
     for i, batch in enumerate(iterator):
         src = batch.src
         trg = batch.trg
-        print("--- types and shapes of source an target batch", type(src), type(trg), src.shape, trg.shape)
+        #print("--- types and shapes of source an target batch", type(src), type(trg), src.shape, trg.shape)
 
         optimizer.zero_grad()
         output, _ = model(src, trg[:, :-1])
@@ -218,7 +220,7 @@ def train(model, iterator, optimizer, criterion, clip):
         trg = trg[:, 1:].contiguous().view(-1)
         # output = [batch size * trg len - 1, output dim]
         # trg = [batch size * trg len - 1]
-        import pdb; pdb.set_trace()
+        #import pdb; pdb.set_trace()
         loss = criterion(output, trg)
         loss.backward()
         torch.nn.utils.clip_grad_norm_(model.parameters(), clip)
