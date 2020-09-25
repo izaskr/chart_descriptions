@@ -28,7 +28,12 @@ torch.backends.cudnn.deterministic = True
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-debug", action='store_true', help="if used, pdb will be used in breakpoints")
-
+parser.add_argument("-epoch", required=False, help="number of epochs for training, default 50", default=50, type=int)
+parser.add_argument("-max-len-src", required=False, help="maximum length of source sequence, default 45", default=45, type=int)
+parser.add_argument("-max-len-tgt", required=False, help="maximum length of target sequence, default 45", default=45, type=int)
+parser.add_argument("-lr", required=False, help="learning rate, default 0.0005", default=0.0005, type=float)
+parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive", default="set", type=str)
+parser.add_argument("-otype", required=False, help="type of output: lex or delex", default="lex", type=str)
 
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
 # parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
@@ -94,6 +99,24 @@ data_dir = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/"
 
 """
 
+if args["itype"] not in {"copy", "set", "exhaustive"}:
+    sys.exit("The -itype argument must be either copy, set, or exhaustive")
+
+if args["otype"] not in {"lex", "delex"}:
+    sys.exit("The -otype argument must be either lex or delex")
+
+# map from cli arg to the name of paths/files
+map = {"copy":{"lex":"a", "delex":"b", "p":"copy_tgt"}, "set": {"lex":"c", "delex":"d","p":"copy_tgt_set"},
+       "exhaustive":{"lex":"e", "delex":"f", "p":"exhautive"}}
+
+# train_src/tgt_a/b/c/d.txt
+in_type, out_type = args["itype"], args["otype"]
+pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/"
+folder_pth = pth + map[in_type]["p"] + "/"
+extension_src = "src_" + map[in_type][out_type] + ".txt"
+extension_tgt = "tgt_" + map[in_type][out_type] + ".txt"
+
+
 def tokenize_src(text):
     """
     Tokenizes source text from a string of key-value pairs into a list of strings
@@ -110,33 +133,47 @@ def tokenize_tg(text):
 
 
 # test_b.src  train_a.src  train_b.src  val_a.src
-MAX_LEN = 100
+MAX_LEN_SRC = args["max_len_src"]
+MAX_LEN_TGT = args["max_len_tgt"]
+
 SRC = Field(tokenize = tokenize_src,
             init_token = '<sos>',
             eos_token = '<eos>',
             lower = True,
-            batch_first = True, use_vocab=True, fix_length=MAX_LEN)
+            batch_first = True, use_vocab=True, fix_length=MAX_LEN_SRC)
 
 TRG = Field(tokenize = tokenize_tg,
             init_token = '<sos>',
             eos_token = '<eos>',
             lower = True,
-            batch_first = True, sequential=True, use_vocab=True, fix_length=MAX_LEN)
+            batch_first = True, sequential=True, use_vocab=True, fix_length=MAX_LEN_TGT)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 #device = torch.device("cpu") # TODO
 pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/copy_tgt/mt/"
 
+# mt_train = TranslationDataset(
+#      path=pth + "train_a", exts=('.src', '.tgt'),
+#     fields=(SRC, TRG))
+#
+# mt_dev = TranslationDataset(
+#      path=pth + "val_a", exts=('.src', '.tgt'),
+#     fields=(SRC, TRG))
+#
+# mt_test = TranslationDataset(
+#      path=pth + "test_a", exts=('.src', '.tgt'),
+#     fields=(SRC, TRG))
+
 mt_train = TranslationDataset(
-     path=pth + "train_a", exts=('.src', '.tgt'),
+     path=folder_pth + "train_", exts=(extension_src, extension_tgt),
     fields=(SRC, TRG))
 
 mt_dev = TranslationDataset(
-     path=pth + "val_a", exts=('.src', '.tgt'),
+     path=folder_pth + "val_", exts=(extension_src, extension_tgt),
     fields=(SRC, TRG))
 
 mt_test = TranslationDataset(
-     path=pth + "test_a", exts=('.src', '.tgt'),
+     path=folder_pth + "test_a", exts=(extension_src, extension_tgt),
     fields=(SRC, TRG))
 
 SRC.build_vocab(mt_train, min_freq=2)
@@ -204,7 +241,7 @@ def initialize_weights(m):
 
 model.apply(initialize_weights)
 
-LEARNING_RATE = 0.0005
+LEARNING_RATE = args["lr"] # 0.0005
 optimizer = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
 criterion = nn.CrossEntropyLoss(ignore_index = TRG_PAD_IDX)
 
@@ -259,7 +296,7 @@ def epoch_time(start_time, end_time):
     return elapsed_mins, elapsed_secs
 
 
-N_EPOCHS = 10
+N_EPOCHS = args["epoch"]
 CLIP = 1
 
 best_valid_loss = float('inf')
@@ -282,10 +319,36 @@ for epoch in range(N_EPOCHS):
     print(f'\tTrain Loss: {train_loss:.3f} | Train PPL: {math.exp(train_loss):7.3f}')
     print(f'\t Val. Loss: {valid_loss:.3f} |  Val. PPL: {math.exp(valid_loss):7.3f}')
 
+# todo
+# set up comet ml
+# a different tokenization for the source (what do to with key[value] - break or not) - try bert tokenizer + bert emb
+# pretrained embeddings for the decoder
+
+
+
 """
 
-RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+Log of errors and fixes:
+1) RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
 
-This error message is not very informative
+This error message is not very informative; move to cpu, get the following
+RuntimeError: index out of range: Tried to access index 100 out of table with 99 rows. at /opt/conda/conda-bld/pytorch_1579022034529/work/aten/src/TH/generic/THTensorEvenMoreMath.cpp:418
+
+there's a mismatch in the size of the positional embedding layer and the sequence (seems to be too long, longer than 100 tokens).
+The max length for positional embeddings is set to 100 in the tutorial, so I can either change that or cut the input sequences to 100
+
+This fixed the issue
+MAX_LEN = 100
+SRC = Field(tokenize = tokenize_src,
+            init_token = '<sos>',
+            eos_token = '<eos>',
+            lower = True,
+            batch_first = True, use_vocab=True, fix_length=MAX_LEN)
+
+TRG = Field(tokenize = tokenize_tg,
+            init_token = '<sos>',
+            eos_token = '<eos>',
+            lower = True,
+            batch_first = True, sequential=True, use_vocab=True, fix_length=MAX_LEN)
 
 """
