@@ -129,7 +129,7 @@ def tokenize_src(text):
     Tokenizes source text from a string of key-value pairs into a list of strings
     'key[value], key2[value2]' into ['key[value]', 'key2[value2]']
     """
-    s = text.split(", ")
+    s = text.strip().split("], ")
     return s
 
 def tokenize_tg(text):
@@ -202,6 +202,7 @@ ENC_PF_DIM = 512
 DEC_PF_DIM = 512
 ENC_DROPOUT = 0.1
 DEC_DROPOUT = 0.1
+max_len_positional = 200
 
 enc = Encoder(INPUT_DIM,
               HID_DIM,
@@ -209,7 +210,7 @@ enc = Encoder(INPUT_DIM,
               ENC_HEADS,
               ENC_PF_DIM,
               ENC_DROPOUT,
-              device)
+              device, max_len_positional)
 
 dec = Decoder(OUTPUT_DIM,
               HID_DIM,
@@ -217,7 +218,7 @@ dec = Decoder(OUTPUT_DIM,
               DEC_HEADS,
               DEC_PF_DIM,
               DEC_DROPOUT,
-              device)
+              device, max_len_positional)
 
 model = Seq2Seq(enc, dec, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
 
