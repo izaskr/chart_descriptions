@@ -1,4 +1,4 @@
-# tony-2, conda env pytorch14py36
+# tony-2, conda env torch14py36
 # base tutorial https://github.com/bentrevett/pytorch-seq2seq/blob/master/6%20-%20Attention%20is%20All%20You%20Need.ipynb
 
 import torch
@@ -198,6 +198,7 @@ LEARNING_RATE = 0.0005
 optimizer = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
 criterion = nn.CrossEntropyLoss(ignore_index = TRG_PAD_IDX)
 
+import pdb; pdb.set_trace()
 
 def train(model, iterator, optimizer, criterion, clip):
     model.train()
@@ -271,3 +272,8 @@ for epoch in range(N_EPOCHS):
     print(f'\tTrain Loss: {train_loss:.3f} | Train PPL: {math.exp(train_loss):7.3f}')
     print(f'\t Val. Loss: {valid_loss:.3f} |  Val. PPL: {math.exp(valid_loss):7.3f}')
 
+"""
+
+RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
+
+"""
