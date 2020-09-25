@@ -123,8 +123,8 @@ TRG = Field(tokenize = tokenize_tg,
             lower = True,
             batch_first = True, sequential=True, use_vocab=True, fix_length=MAX_LEN)
 
-#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = torch.device("cpu") # TODO
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+#device = torch.device("cpu") # TODO
 pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/copy_tgt/mt/"
 
 mt_train = TranslationDataset(
