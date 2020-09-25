@@ -339,7 +339,7 @@ def translate_sentence(sentence, src_field, trg_field, model, device, max_len=50
     src_indexes = [src_field.vocab.stoi[token] for token in tokens]
     src_tensor = torch.LongTensor(src_indexes).unsqueeze(0).to(device)
     src_mask = model.make_src_mask(src_tensor)
-
+    print("-------- input tokens for translation", tokens)
     with torch.no_grad():
         enc_src = model.encoder(src_tensor, src_mask)
 
