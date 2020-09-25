@@ -29,6 +29,8 @@ torch.backends.cudnn.deterministic = True
 parser = argparse.ArgumentParser()
 
 parser.add_argument("-debug", action='store_true', help="if used, pdb will be used in breakpoints")
+parser.add_argument("-cpu", action='store_true', help="use cpu, else gpu")
+
 parser.add_argument("-epoch", required=False, help="number of epochs for training, default 50", default=50, type=int)
 parser.add_argument("-max-len-src", required=False, help="maximum length of source sequence, default 45", default=45, type=int)
 parser.add_argument("-max-len-tgt", required=False, help="maximum length of target sequence, default 45", default=45, type=int)
@@ -153,8 +155,9 @@ TRG = Field(tokenize = tokenize_tg,
             lower = True,
             batch_first = True, sequential=True, use_vocab=True, fix_length=MAX_LEN_TGT)
 
-#device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = torch.device("cpu") # TODO
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+if args["cpu"]:
+    device = torch.device("cpu") # TODO
 
 
 mt_train = TranslationDataset(
@@ -339,7 +342,7 @@ def translate_sentence(sentence, src_field, trg_field, model, device, max_len=50
     src_indexes = [src_field.vocab.stoi[token] for token in tokens]
     src_tensor = torch.LongTensor(src_indexes).unsqueeze(0).to(device)
     src_mask = model.make_src_mask(src_tensor)
-    print("-------- input tokens for translation", tokens)
+    print("-------- input tokens for translation", tokens, "\t", len(tokens))
     with torch.no_grad():
         enc_src = model.encoder(src_tensor, src_mask)
 
