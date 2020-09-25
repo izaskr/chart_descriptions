@@ -121,7 +121,7 @@ TRG = Field(tokenize = tokenize_tg,
             batch_first = True, sequential=True, use_vocab=True)
 
 #device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-device = torch.device("cpu")
+device = torch.device("cpu") # TODO
 pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/copy_tgt/mt/"
 
 mt_train = TranslationDataset(
@@ -184,6 +184,9 @@ dec = Decoder(OUTPUT_DIM,
               device)
 
 model = Seq2Seq(enc, dec, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
+
+import pdb; pdb.set_trace()
+
 
 def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
