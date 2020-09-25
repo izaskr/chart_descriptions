@@ -207,6 +207,7 @@ def train(model, iterator, optimizer, criterion, clip):
     for i, batch in enumerate(iterator):
         src = batch.src
         trg = batch.trg
+        print("--- types and shapes of source an target batch", type(src), type(trg), src.shape, trg.shape)
         optimizer.zero_grad()
         output, _ = model(src, trg[:, :-1])
         # output = [batch size, trg len - 1, output dim]
