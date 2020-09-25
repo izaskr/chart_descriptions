@@ -8,6 +8,7 @@ import torchtext
 from torchtext.datasets import Multi30k
 from torchtext.data import Field, BucketIterator, Iterator
 from torchtext.datasets import TranslationDataset
+from torchtext.data.metrics import bleu_score
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
@@ -47,7 +48,7 @@ parser.add_argument("-src-emb", required=False, help="embedding size of source i
 # parser.add_argument("-lr", required=False, help="learning rate", default=0.05, type=float)
 # parser.add_argument("-encoder", required=False, help="encoder type: LSTM or Transformer", default="Transformer", type=str)
 # parser.add_argument("-attention", required=False, help="attention type: dot, bilinear, linear", default="dot", type=str)
-# parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive", default="set", type=str)
+# parser.add_argumentf("-itype", required=False, help="type of input: copy, set, exhaustive", default="set", type=str)
 # parser.add_argument("-otype", required=False, help="type of output: lex or delex", default="lex", type=str)
 
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
@@ -107,7 +108,7 @@ if args["otype"] not in {"lex", "delex"}:
 
 # map from cli arg to the name of paths/files
 map = {"copy":{"lex":"a", "delex":"b", "p":"copy_tgt"}, "set": {"lex":"c", "delex":"d","p":"copy_tgt_set"},
-       "exhaustive":{"lex":"e", "delex":"f", "p":"exhautive"}}
+       "exhaustive":{"lex":"e", "delex":"f", "p":"exhaustive"}}
 
 # train_src/tgt_a/b/c/d.txt
 in_type, out_type = args["itype"], args["otype"]
@@ -115,6 +116,10 @@ pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/"
 folder_pth = pth + map[in_type]["p"] + "/"
 extension_src = "src_" + map[in_type][out_type] + ".txt"
 extension_tgt = "tgt_" + map[in_type][out_type] + ".txt"
+
+print("Using the %s method for source, and the %s for of target" % (in_type, out_type))
+
+
 
 
 def tokenize_src(text):
@@ -150,19 +155,7 @@ TRG = Field(tokenize = tokenize_tg,
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 #device = torch.device("cpu") # TODO
-pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/copy_tgt/mt/"
 
-# mt_train = TranslationDataset(
-#      path=pth + "train_a", exts=('.src', '.tgt'),
-#     fields=(SRC, TRG))
-#
-# mt_dev = TranslationDataset(
-#      path=pth + "val_a", exts=('.src', '.tgt'),
-#     fields=(SRC, TRG))
-#
-# mt_test = TranslationDataset(
-#      path=pth + "test_a", exts=('.src', '.tgt'),
-#     fields=(SRC, TRG))
 
 mt_train = TranslationDataset(
      path=folder_pth + "train_", exts=(extension_src, extension_tgt),
@@ -193,7 +186,7 @@ TRG_PAD_IDX = TRG.vocab.stoi[TRG.pad_token]
 src_VOCAB_SIZE = len(SRC.vocab)
 tgt_VOCAB_SIZE = len(TRG.vocab)
 
-print("size of source and target vocabs", src_VOCAB_SIZE, tgt_VOCAB_SIZE)
+print("Size of source and target vocabs", src_VOCAB_SIZE, tgt_VOCAB_SIZE)
 
 INPUT_DIM = len(SRC.vocab)
 OUTPUT_DIM = len(TRG.vocab)
@@ -323,6 +316,75 @@ for epoch in range(N_EPOCHS):
 # set up comet ml
 # a different tokenization for the source (what do to with key[value] - break or not) - try bert tokenizer + bert emb
 # pretrained embeddings for the decoder
+
+### EVALUATE THE MODEL ON THE TEST SET ###
+model.load_state_dict(torch.load('tut6-model.pt'))
+
+test_loss = evaluate(model, test_iter, criterion)
+
+print(f'| Test Loss: {test_loss:.3f} | Test PPL: {math.exp(test_loss):7.3f} |')
+
+
+def translate_sentence(sentence, src_field, trg_field, model, device, max_len=50):
+    model.eval()
+
+    if isinstance(sentence, str):
+        #nlp = spacy.load('de')
+        #tokens = [token.text.lower() for token in nlp(sentence)]
+        tokens = [token.lower() for token in sentence]
+    else:
+        tokens = [token.lower() for token in sentence]
+
+    tokens = [src_field.init_token] + tokens + [src_field.eos_token]
+    src_indexes = [src_field.vocab.stoi[token] for token in tokens]
+    src_tensor = torch.LongTensor(src_indexes).unsqueeze(0).to(device)
+    src_mask = model.make_src_mask(src_tensor)
+
+    with torch.no_grad():
+        enc_src = model.encoder(src_tensor, src_mask)
+
+    trg_indexes = [trg_field.vocab.stoi[trg_field.init_token]]
+
+    for i in range(max_len):
+
+        trg_tensor = torch.LongTensor(trg_indexes).unsqueeze(0).to(device)
+        trg_mask = model.make_trg_mask(trg_tensor)
+        with torch.no_grad():
+            output, attention = model.decoder(trg_tensor, enc_src, trg_mask, src_mask)
+
+        pred_token = output.argmax(2)[:, -1].item()
+        trg_indexes.append(pred_token)
+
+        if pred_token == trg_field.vocab.stoi[trg_field.eos_token]:
+            break
+
+    trg_tokens = [trg_field.vocab.itos[i] for i in trg_indexes]
+
+    return trg_tokens[1:], attention
+
+def calculate_bleu(data, src_field, trg_field, model, device, max_len=50):
+    trgs = []
+    pred_trgs = []
+
+    for datum in data:
+        src = vars(datum)['src']
+        trg = vars(datum)['trg']
+
+        pred_trg, _ = translate_sentence(src, src_field, trg_field, model, device, max_len)
+
+        # cut off <eos> token
+        pred_trg = pred_trg[:-1]
+
+        pred_trgs.append(pred_trg)
+        trgs.append([trg])
+
+    return bleu_score(pred_trgs, trgs)
+
+
+
+bleu_score = calculate_bleu(mt_test, SRC, TRG, model, device)
+
+print(f'test set BLEU score = {bleu_score*100:.2f}')
 
 
 
