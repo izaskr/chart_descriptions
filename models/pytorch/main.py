@@ -185,7 +185,7 @@ dec = Decoder(OUTPUT_DIM,
 
 model = Seq2Seq(enc, dec, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
 
-import pdb; pdb.set_trace()
+#import pdb; pdb.set_trace()
 
 
 def count_parameters(model):
@@ -213,7 +213,7 @@ def train(model, iterator, optimizer, criterion, clip):
         src = batch.src
         trg = batch.trg
         #print("--- types and shapes of source an target batch", type(src), type(trg), src.shape, trg.shape)
-
+        import pdb; pdb.set_trace()
         optimizer.zero_grad()
         output, _ = model(src, trg[:, :-1])
         # output = [batch size, trg len - 1, output dim]
