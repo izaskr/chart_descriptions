@@ -470,6 +470,8 @@ TRG_PAD_IDX = TRG.vocab.stoi[TRG.pad_token]
 
 model = Seq2Seq(enc, dec, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
 
+import pdb; pdb.set_trace()
+
 def count_parameters(model):
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 

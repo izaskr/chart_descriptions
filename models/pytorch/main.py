@@ -282,4 +282,6 @@ for epoch in range(N_EPOCHS):
 
 RuntimeError: CUDA error: CUBLAS_STATUS_ALLOC_FAILED when calling `cublasCreate(handle)`
 
+This error message is not very informative
+
 """
