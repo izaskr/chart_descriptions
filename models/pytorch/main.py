@@ -43,7 +43,7 @@ parser.add_argument("-otype", required=False, help="type of output: lex or delex
 
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
 args = vars(parser.parse_args())
-
+"""
 ### TODO below
 SRC_EMBEDDING_DIM = args["src_emb"]
 TG_EMBEDDING_DIM = args["tg_emb"]
@@ -88,6 +88,8 @@ data_dir = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/"
 
 ### TODO above
 
+"""
+
 def tokenize_src(text):
     """
     Tokenizes source text from a string of key-value pairs into a list of strings
@@ -109,13 +111,13 @@ SRC = Field(tokenize = tokenize_src,
             init_token = '<sos>',
             eos_token = '<eos>',
             lower = True,
-            batch_first = True)
+            batch_first = True, sequential=True, use_vocab=True)
 
 TRG = Field(tokenize = tokenize_tg,
             init_token = '<sos>',
             eos_token = '<eos>',
             lower = True,
-            batch_first = True)
+            batch_first = True, sequential=True, use_vocab=True)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 pth = "/home/CE/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete/copy_tgt/mt/"
@@ -143,6 +145,8 @@ dev_iter = BucketIterator(dataset=mt_dev, batch_size=32,
 
 test_iter = Iterator(dataset=mt_test, batch_size=32, shuffle=False, device=device)
 
+SRC_PAD_IDX = SRC.vocab.stoi[SRC.pad_token]
+TRG_PAD_IDX = TRG.vocab.stoi[TRG.pad_token]
 
 src_VOCAB_SIZE = len(SRC.vocab)
 tgt_VOCAB_SIZE = len(TRG.vocab)
@@ -177,9 +181,6 @@ dec = Decoder(OUTPUT_DIM,
               DEC_DROPOUT,
               device)
 
-SRC_PAD_IDX = SRC.vocab.stoi[SRC.pad_token]
-TRG_PAD_IDX = TRG.vocab.stoi[TRG.pad_token]
-
 model = Seq2Seq(enc, dec, SRC_PAD_IDX, TRG_PAD_IDX, device).to(device)
 
 def count_parameters(model):
@@ -192,13 +193,13 @@ def initialize_weights(m):
         nn.init.xavier_uniform_(m.weight.data)
 
 
-model.apply(initialize_weights);
+model.apply(initialize_weights)
 
 LEARNING_RATE = 0.0005
 optimizer = torch.optim.Adam(model.parameters(), lr = LEARNING_RATE)
 criterion = nn.CrossEntropyLoss(ignore_index = TRG_PAD_IDX)
 
-import pdb; pdb.set_trace()
+#import pdb; pdb.set_trace()
 
 def train(model, iterator, optimizer, criterion, clip):
     model.train()
