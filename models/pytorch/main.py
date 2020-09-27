@@ -392,8 +392,9 @@ def translate_sentence(sentence, src_field, trg_field, model, device, max_len=50
 def calculate_bleu(data, src_field, trg_field, model, device, max_len=50):
     trgs = []
     pred_trgs = []
-
+    i = 0
     for datum in data:
+        i += 1
         src = vars(datum)['src']
         trg = vars(datum)['trg']
 
@@ -404,7 +405,10 @@ def calculate_bleu(data, src_field, trg_field, model, device, max_len=50):
 
         pred_trgs.append(pred_trg)
         trgs.append([trg])
-        print(pred_trg, trg)
+        print("Test sent no. ", i)
+        print("Target - GOLD\t", trg)
+        print("Target - PRED\t",pred_trg)
+        print("\n"*2)
 
     return bleu_score(pred_trgs, trgs)
 
