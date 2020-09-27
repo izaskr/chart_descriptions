@@ -18,6 +18,7 @@ import math
 import time
 import argparse
 from model_components import *
+from beam_search import BeamSearch
 
 SEED = 1234
 random.seed(SEED)
@@ -47,12 +48,13 @@ parser.add_argument("-dec-pf", required=False, help="size of the hidden dim of t
 parser.add_argument("-drop-enc", required=False, help="encoder dropout rate, default 0.1", default=0.1, type=float)
 parser.add_argument("-drop-dec", required=False, help="decoder dropout, default 0.1", default=0.1, type=float)
 
+parser.add_argument("-beam-size", required=False, help="the width of the beam for beam search decoding, default 3", default=3, type=int)
+parser.add_argument("-beam-search", action='store_true', help="use beam search for inference on the test set instead of greedy decoding")
+parser.add_argument("-write-predictions", action='store_true', help="write predictions into file")
 
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
 
 args = vars(parser.parse_args())
-
-
 
 # parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
 # parser.add_argument("-hidden-dim", required=False, help="dimension of hidden layer", default=128, type=int)
@@ -134,8 +136,6 @@ extension_src = "src_" + map[in_type][out_type] + ".txt"
 extension_tgt = "tgt_" + map[in_type][out_type] + ".txt"
 
 print("Using the %s method for source, and the %s for of target" % (in_type, out_type))
-
-
 
 
 def tokenize_src(text):
@@ -333,6 +333,7 @@ for epoch in range(N_EPOCHS):
 
     if valid_loss < best_valid_loss:
         best_valid_loss = valid_loss
+        print("Best epoch (valid loss ", epoch+1, "train and valid loss", train_loss, valid_loss)
         torch.save(model.state_dict(), 'tut6-model.pt')
 
     print(f'Epoch: {epoch + 1:02} | Time: {epoch_mins}m {epoch_secs}s')
@@ -413,10 +414,23 @@ def calculate_bleu(data, src_field, trg_field, model, device, max_len=50):
     return bleu_score(pred_trgs, trgs)
 
 
+# end_index: int,
+# max_steps: int = 50,
+# beam_size: int = 10,
+#trg_field.vocab.stoi[trg_field.eos_token]:
+if args["beam_search"]: # translate the test set with beam search using the class in beam_search
+    beam_instance = BeamSearch(end_index=TRG.vocab.stoi[TRG.eos_token], max_steps=50, beam_size=args["beam_size"])
+    # pass to the search function: start predictions, start state, step function
+    target_sos_index = TRG.vocab.stoi[TRG.sos_token]
+    #start_pred = torch.Tensor([[target_sos_index]] * 2)
+    start_state = None
+    step_function = None
+    #results = beam_instance.search(start_predictions=start_pred, start_state=start_state, step=step_function)
 
-bleu_score = calculate_bleu(mt_test, SRC, TRG, model, device)
+else: # use greedy decoding for the test set and print bleu score
+    bleu_score = calculate_bleu(mt_test, SRC, TRG, model, device)
+    print(f'test set BLEU score = {bleu_score*100:.2f}')
 
-print(f'test set BLEU score = {bleu_score*100:.2f}')
 
 
 
