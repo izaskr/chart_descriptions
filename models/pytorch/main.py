@@ -433,19 +433,24 @@ if args["beam_search"]: # translate the test set with beam search using the clas
 
 else: # use greedy decoding for the test set and print bleu score
     bleu_score = calculate_bleu(mt_test, SRC, TRG, model, device)
+    bleu_score100 = bleu_score*100
     print(f'test set BLEU score = {bleu_score*100:.2f}')
 
-
+#Note how BLEU is reported: BLEU scores are often stated on a scale of 1 to 100 to simplify communication,
+# but this should not be confused with the percentage of accuracy.
+# the default considered n-gram size is 4, detokenized candidate and reference
 
 ### write the hyperparameters and scores into file
 # /home/iza/chart_descriptions/models/pytorch/log
-hyperparams_results = {"test BLEU":round(bleu_score,2), "best_valid_loss":round(best_valid_loss,2), "hidden_dim":HID_DIM,
+hyperparams_results = {"test BLEU":round(bleu_score100,2), "best_valid_loss":round(best_valid_loss,2), "hidden_dim":HID_DIM,
                "enc_layers":ENC_LAYERS, "dec_layers":DEC_LAYERS, "enc_heads":ENC_HEADS,
                "dec_heads":DEC_HEADS, "enc_posit_ff_dim":ENC_PF_DIM, "dec_posit_ff_dim":DEC_PF_DIM, "drop_enc":ENC_DROPOUT,
                "drop_dec":DEC_DROPOUT, "epochs":N_EPOCHS, "best_epoch":best_epoch, "lr":LEARNING_RATE, "optim": "Adam", "beam":1}
 
 with open("/home/CE/skrjanec/chart_descriptions/models/pytorch/log/" + in_type + "_" + out_type + ".txt", "a") as txtf:
+    txtf.write("*"*7)
     txtf.write(json.dumps(hyperparams_results))
+    txtf.write("\n"*3)
 
 """
 

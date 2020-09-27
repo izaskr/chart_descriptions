@@ -1,0 +1,24 @@
+parser.add_argument("-epoch", required=False, help="number of epochs for training, default 50", default=50, type=int)
+parser.add_argument("-max-len-src", required=False, help="maximum length of source sequence, default 45", default=45, type=int)
+parser.add_argument("-max-len-tgt", required=False, help="maximum length of target sequence, default 45", default=45, type=int)
+parser.add_argument("-lr", required=False, help="learning rate, default 0.0005", default=0.0005, type=float)
+parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive, default set", default="set", type=str)
+parser.add_argument("-otype", required=False, help="type of output: lex or delex, default lex", default="lex", type=str)
+parser.add_argument("-hid-dim", required=False, help="size of the hidden dimension, default 256", default=256, type=int)
+parser.add_argument("-enc-layers", required=False, help="number of layer in the encoder, default 3", default=3, type=int)
+parser.add_argument("-dec-layers", required=False, help="number of layer in the decoder, default 3", default=3, type=int)
+parser.add_argument("-enc-heads", required=False, help="number of attention heads in the encoder, default 8", default=8, type=int)
+parser.add_argument("-dec-heads", required=False, help="number of attention heads in the decoder, default 8", default=8, type=int)
+parser.add_argument("-enc-pf", required=False, help="size of the hidden dim of the positional FF for the encoder, default 512", default=512, type=int)
+parser.add_argument("-dec-pf", required=False, help="size of the hidden dim of the positional FF for the decoder, default 512", default=512, type=int)
+parser.add_argument("-drop-enc", required=False, help="encoder dropout rate, default 0.1", default=0.1, type=float)
+parser.add_argument("-drop-dec", required=False, help="decoder dropout, default 0.1", default=0.1, type=float)
+
+
+
+nohup nice python main.py -itype exhaustive -otype delex -id 0 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype set -otype delex -id 2 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype set -otype lex -id 3 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
