@@ -37,8 +37,23 @@ parser.add_argument("-max-len-tgt", required=False, help="maximum length of targ
 parser.add_argument("-lr", required=False, help="learning rate, default 0.0005", default=0.0005, type=float)
 parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive, default set", default="set", type=str)
 parser.add_argument("-otype", required=False, help="type of output: lex or delex, default lex", default="lex", type=str)
+parser.add_argument("-hid-dim", required=False, help="size of the hidden dimension, default 256", default=256, type=int)
+parser.add_argument("-enc-layers", required=False, help="number of layer in the encoder, default 3", default=3, type=int)
+parser.add_argument("-dec-layers", required=False, help="number of layer in the decoder, default 3", default=3, type=int)
+parser.add_argument("-enc-heads", required=False, help="number of attention heads in the encoder, default 8", default=8, type=int)
+parser.add_argument("-dec-heads", required=False, help="number of attention heads in the decoder, default 8", default=8, type=int)
+parser.add_argument("-enc-pf", required=False, help="size of the hidden dim of the positional FF for the encoder, default 512", default=512, type=int)
+parser.add_argument("-dec-pf", required=False, help="size of the hidden dim of the positional FF for the decoder, default 512", default=512, type=int)
+parser.add_argument("-drop-enc", required=False, help="encoder dropout rate, default 0.1", default=0.1, type=float)
+parser.add_argument("-drop-dec", required=False, help="decoder dropout, default 0.1", default=0.1, type=float)
+
 
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
+
+args = vars(parser.parse_args())
+
+
+
 # parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
 # parser.add_argument("-hidden-dim", required=False, help="dimension of hidden layer", default=128, type=int)
 # parser.add_argument("-device", required=False, help="index of GPU", default=1, type=int)
@@ -54,7 +69,6 @@ parser.add_argument("-src-emb", required=False, help="embedding size of source i
 # parser.add_argument("-otype", required=False, help="type of output: lex or delex", default="lex", type=str)
 
 #parser.add_argument("-out", required=False, help="name of output file", default="corpora_v02/b01_delex")
-args = vars(parser.parse_args())
 """
 ### TODO below
 SRC_EMBEDDING_DIM = args["src_emb"]
@@ -157,7 +171,7 @@ TRG = Field(tokenize = tokenize_tg,
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 if args["cpu"]:
-    device = torch.device("cpu") # TODO
+    device = torch.device("cpu")
 
 
 mt_train = TranslationDataset(
@@ -193,15 +207,24 @@ print("Size of source and target vocabs", src_VOCAB_SIZE, tgt_VOCAB_SIZE)
 
 INPUT_DIM = len(SRC.vocab)
 OUTPUT_DIM = len(TRG.vocab)
-HID_DIM = 256
-ENC_LAYERS = 3
-DEC_LAYERS = 3
-ENC_HEADS = 8
-DEC_HEADS = 8
-ENC_PF_DIM = 512
-DEC_PF_DIM = 512
-ENC_DROPOUT = 0.1
-DEC_DROPOUT = 0.1
+# HID_DIM = 256
+# ENC_LAYERS = 3
+# DEC_LAYERS = 3
+# ENC_HEADS = 8
+# DEC_HEADS = 8
+# ENC_PF_DIM = 512
+# DEC_PF_DIM = 512
+# ENC_DROPOUT = 0.1
+# DEC_DROPOUT = 0.1
+HID_DIM = args["hid_dim"]
+ENC_LAYERS = args["enc_layers"]
+DEC_LAYERS = args["dec_layers"]
+ENC_HEADS = args["enc_heads"]
+DEC_HEADS = args["dec_heads"]
+ENC_PF_DIM = args["enc_pf"]
+DEC_PF_DIM = args["dec_pf"]
+ENC_DROPOUT = args["drop_enc"]
+DEC_DROPOUT = args["drop_dec"]
 max_len_positional = 200
 
 enc = Encoder(INPUT_DIM,
@@ -343,7 +366,7 @@ def translate_sentence(sentence, src_field, trg_field, model, device, max_len=50
     src_indexes = [src_field.vocab.stoi[token] for token in tokens]
     src_tensor = torch.LongTensor(src_indexes).unsqueeze(0).to(device)
     src_mask = model.make_src_mask(src_tensor)
-    print("-------- input tokens for translation", tokens, "\t", len(tokens))
+    #print("-------- input tokens for translation", tokens, "\t", len(tokens))
     with torch.no_grad():
         enc_src = model.encoder(src_tensor, src_mask)
 
@@ -381,6 +404,7 @@ def calculate_bleu(data, src_field, trg_field, model, device, max_len=50):
 
         pred_trgs.append(pred_trg)
         trgs.append([trg])
+        print(pred_trg, trg)
 
     return bleu_score(pred_trgs, trgs)
 
@@ -416,5 +440,9 @@ TRG = Field(tokenize = tokenize_tg,
             eos_token = '<eos>',
             lower = True,
             batch_first = True, sequential=True, use_vocab=True, fix_length=MAX_LEN)
+
+2) this happens again: apparently the sequences are padded and cut to max_len only after passing them to the iterator,
+not when initializing the Field on them. so they have sos and eos,but are not shortened if they're too long. 
+so the max_len_positional in was set to max_len_positional=200
 
 """
