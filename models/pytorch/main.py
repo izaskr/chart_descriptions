@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import numpy as np
 import sys
+import json
 import random
 import math
 import time
@@ -316,12 +317,13 @@ def epoch_time(start_time, end_time):
     elapsed_secs = int(elapsed_time - (elapsed_mins * 60))
     return elapsed_mins, elapsed_secs
 
+model_name = in_type + "_" + out_type + ".pt"
 
 N_EPOCHS = args["epoch"]
 CLIP = 1
 
 best_valid_loss = float('inf')
-
+best_epoch = 0
 for epoch in range(N_EPOCHS):
 
     start_time = time.time()
@@ -334,8 +336,9 @@ for epoch in range(N_EPOCHS):
 
     if valid_loss < best_valid_loss:
         best_valid_loss = valid_loss
+        best_epoch = epoch+1
         print("Best epoch (valid loss ", epoch+1, "train and valid loss", train_loss, valid_loss)
-        torch.save(model.state_dict(), 'tut6-model.pt')
+        torch.save(model.state_dict(), model_name)
 
     print(f'Epoch: {epoch + 1:02} | Time: {epoch_mins}m {epoch_secs}s')
     print(f'\tTrain Loss: {train_loss:.3f} | Train PPL: {math.exp(train_loss):7.3f}')
@@ -347,7 +350,7 @@ for epoch in range(N_EPOCHS):
 # pretrained embeddings for the decoder
 
 ### EVALUATE THE MODEL ON THE TEST SET ###
-model.load_state_dict(torch.load('tut6-model.pt'))
+model.load_state_dict(torch.load(model_name))
 
 test_loss = evaluate(model, test_iter, criterion)
 
@@ -434,6 +437,15 @@ else: # use greedy decoding for the test set and print bleu score
 
 
 
+### write the hyperparameters and scores into file
+# /home/iza/chart_descriptions/models/pytorch/log
+hyperparams_results = {"test BLEU":round(bleu_score,2), "best_valid_loss":round(best_valid_loss,2), "hidden_dim":HID_DIM,
+               "enc_layers":ENC_LAYERS, "dec_layers":DEC_LAYERS, "enc_heads":ENC_HEADS,
+               "dec_heads":DEC_HEADS, "enc_posit_ff_dim":ENC_PF_DIM, "dec_posit_ff_dim":DEC_PF_DIM, "drop_enc":ENC_DROPOUT,
+               "drop_dec":DEC_DROPOUT, "epochs":N_EPOCHS, "best_epoch":best_epoch, "lr":LEARNING_RATE, "optim": "Adam", "beam":1}
+
+with open("/home/CE/skrjanec/chart_descriptions/models/pytorch/log/" + in_type + "_" + out_type + ".txt", "a") as txtf:
+    txtf.write(json.dumps(hyperparams_results))
 
 """
 
