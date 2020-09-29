@@ -39,13 +39,14 @@ parser.add_argument("-max-len", required=False, help="maximum length of generate
 parser.add_argument("-epoch", required=False, help="number of epochs for training", default=50, type=int)
 parser.add_argument("-beam", required=False, help="size of the beam for beam search decoding", default=3, type=int)
 parser.add_argument("-dropout", required=False, help="dropout probability", default=0.2, type=float)
+parser.add_argument("-drop-enc", required=False, help="encoder dropout rate, default 0.1", default=0.1, type=float)
 #parser.add_argument("-num-layers", required=False, help="number of layers of RNN", default=2, type=int)
 parser.add_argument("-enc-layers", required=False, help="number of layer in the encoder, default 3", default=3, type=int)
 parser.add_argument("-dec-layers", required=False, help="number of layer in the decoder, default 3", default=3, type=int)
 parser.add_argument("-enc-heads", required=False, help="number of attention heads in the encoder, default 8", default=8, type=int)
 parser.add_argument("-enc-pf", required=False, help="size of the hidden dim of the positional FF for the encoder, default 512", default=512, type=int)
 parser.add_argument("-proj-dim", required=False, help="dimension of the linear projections for the self-attention layers, default 128", default=128, type=int)
-parser.add_argument("-lr", required=False, help="learning rate", default=0.05, type=float)
+parser.add_argument("-lr", required=False, help="learning rate, default 0.0005", default=0.0005, type=float)
 parser.add_argument("-encoder", required=False, help="encoder type: LSTM or Transformer", default="Transformer", type=str)
 parser.add_argument("-attention", required=False, help="attention type: dot, bilinear, linear", default="dot", type=str)
 parser.add_argument("-itype", required=False, help="type of input: copy, set, exhaustive", default="set", type=str)
@@ -120,10 +121,11 @@ dec_layers = args["dec_layers"]
 enc_heads = args["enc_heads"]
 ff_dim = args["enc_pf"]
 proj_dim = args["proj_dim"]
+enc_dropout = args["drop_enc"]
 
 encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM,
                                       projection_dim=proj_dim, feedforward_hidden_dim=ff_dim, num_layers=enc_layers,
-                                      num_attention_heads=enc_heads)
+                                      num_attention_heads=enc_heads, dropout_prob=enc_dropout)
 
 attention = DotProductAttention()
 max_decoding_steps = args["max_len"]
@@ -158,7 +160,8 @@ model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
                           use_bleu=True, target_decoder_layers=dec_layers)
 
 model = model.cuda(CUDA_DEVICE)
-optimizer = optim.Adam(model.parameters(), lr=0.06)
+LR = args["lr"]
+optimizer = optim.Adam(model.parameters(), lr=LR)
 
 #ITERATOR = BucketBatchSampler(data_source=train_dataset, batch_size=32)
 #train_it=BucketBatchSampler(train_dataset,batch_size=16)
@@ -173,43 +176,20 @@ predictor = Seq2SeqPredictor(model, reader)
 
 for instance in test_dataset:
     results=predictor.predict_instance(instance)
+    import pdb; pdb.set_trace()
     print(instance.fields["source_tokens"].tokens)
     print(results["predicted_tokens"])
     print("\n"*3)
 
 
+
+# TODO: defualt setting raise an error
+# RuntimeError: rnn: hx is not contiguous
+# these don't
+# python seq2seq_main.py -epoch 3 -dec-layers 1 -enc-heads 3 -enc-layers 3 -enc-pf 128 -proj-dim 300
+
 # useful https://colab.research.google.com/github/mhagiwara/realworldnlp/blob/master/examples/ner/ner.ipynb#scrollTo=SaRW0qPIypDm
 
-
-# >>> trainer = GradientDescentTrainer(model=model, optimizer=optimizer,data_loader=ITERATOR)
-# >>>
-# >>> trainer.train()
-#   0%|          | 0/12 [00:00<?, ?it/s]
-# Traceback (most recent call last):
-#   File "<stdin>", line 1, in <module>
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/training/trainer.py", line 867, in train
-#     train_metrics = self._train_epoch(epoch)
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/training/trainer.py", line 560, in _train_epoch
-#     for batch_group in batch_group_generator_tqdm:
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/tqdm/std.py", line 1133, in __iter__
-#     for obj in iterable:
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/common/util.py", line 135, in lazy_groups_of
-#     s = list(islice(iterator, group_size))
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/data/samplers/bucket_batch_sampler.py", line 119, in __iter__
-#     indices, _ = self._argsort_by_padding(self.data_source)
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/data/samplers/bucket_batch_sampler.py", line 94, in _argsort_by_padding
-#     self._guess_sorting_keys(instances)
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/data/samplers/bucket_batch_sampler.py", line 147, in _guess_sorting_keys
-#     instance.index_fields(self.vocab)
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/data/instance.py", line 75, in index_fields
-#     field.index(vocab)
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/data/fields/text_field.py", line 68, in index
-#     self._indexed_tokens[indexer_name] = indexer.tokens_to_indices(self.tokens, vocab)
-#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/data/token_indexers/single_id_token_indexer.py", line 92, in tokens_to_indices
-#     indices.append(vocabulary.get_token_index(text, self.namespace))
-# AttributeError: 'NoneType' object has no attribute 'get_token_index
-
-# fix trainer https://docs.allennlp.org/master/api/training/trainer/
 
 """
 Useful
