@@ -198,7 +198,7 @@ for instance in test_dataset:
     trgs.append([tmp])
 
 test_bleu = bleu_score(pred_trgs, trgs)
-print(f'BLEU score (bleu-4 detokenized) on test data = {bleu_score*100:.2f}')
+print(f'BLEU score (bleu-4 detokenized) on test data = {test_bleu*100:.2f}')
 
 
 
