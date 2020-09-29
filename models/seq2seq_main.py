@@ -110,7 +110,7 @@ source_embedder = BasicTextFieldEmbedder({"tokens": src_embedding})
 
 trg_embedding = Embedding(num_embeddings=vocab.get_vocab_size('target_tokens'),
                              embedding_dim=TG_EMBEDDING_DIM) # TODO
-target_embedder = BasicTextFieldEmbedder({{"target_tokens": trg_embedding}})
+target_embedder = BasicTextFieldEmbedder({"target_tokens": trg_embedding})
 
 # class StackedSelfAttentionEncoder(Seq2SeqEncoder):
 #  | def __init__(
