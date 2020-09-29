@@ -54,6 +54,8 @@ parser.add_argument("-drop-dec", required=False, help="encoder dropout rate, def
 parser.add_argument("-enc-layers", required=False, help="number of layer in the encoder, default 3", default=3, type=int)
 parser.add_argument("-dec-layers", required=False, help="number of layer in the decoder, default 3", default=3, type=int)
 parser.add_argument("-enc-heads", required=False, help="number of attention heads in the encoder, default 2", default=2, type=int)
+parser.add_argument("-dec-heads", required=False, help="number of attention heads in the decoder, default 2", default=2, type=int)
+
 parser.add_argument("-enc-pf", required=False, help="size of the hidden dim of the positional FF for the encoder, default 512", default=512, type=int)
 parser.add_argument("-proj-dim", required=False, help="dimension of the linear projections for the self-attention layers, default 128", default=128, type=int)
 parser.add_argument("-lr", required=False, help="learning rate, default 0.0005", default=0.0005, type=float)
@@ -133,6 +135,7 @@ target_embedder = BasicTextFieldEmbedder({"target_tokens": trg_embedding})
 enc_layers = args["enc_layers"]
 dec_layers = args["dec_layers"]
 enc_heads = args["enc_heads"]
+dec_heads = args["dec_heads"]
 ff_dim = args["enc_pf"]
 proj_dim = args["proj_dim"]
 enc_dropout = args["drop_enc"]
@@ -227,6 +230,9 @@ model = model.cuda(CUDA_DEVICE)
 
 if args["composed_seq2seq"]:
     #encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
+    print("input dimension %d , source embeding dimensionality %d" % (vocab.get_vocab_size('tokens'), SRC_EMBEDDING_DIM))
+    print("decoding dimension %d , target embeding dimensionality %d" % (vocab.get_vocab_size('target_tokens'), TG_EMBEDDING_DIM))
+    print("number of heads in the encoder &d , in the decoder &d" % (enc_heads, dec_heads))
 
     decoder_net = StackedSelfAttentionDecoderNet(decoding_dim=vocab.get_vocab_size('target_tokens'), target_embedding_dim=TG_EMBEDDING_DIM,
                                                  feedforward_hidden_dim=128, num_layers=dec_layers,
