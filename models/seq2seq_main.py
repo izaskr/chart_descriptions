@@ -182,11 +182,10 @@ trgs, pred_trgs = [], []
 for instance in test_dataset:
     results = predictor.predict_instance(instance)
     # ['predictions', 'loss', 'class_log_probabilities', 'predicted_tokens']
-    #import pdb; pdb.set_trace()
-
-    print(instance.fields["source_tokens"].tokens)
-    print(results["predicted_tokens"])
-    print("\n"*3)
+    import pdb; pdb.set_trace()
+    # print(instance.fields["source_tokens"].tokens)
+    # print(results["predicted_tokens"])
+    # print("\n"*3)
     # gold target tokens: cut off the @start@ and @end@ symbol
     trg_tokens = instance.fields['target_tokens'].tokens[1:-1]
     # predicted tokens: take the first one: ordered by logloss, ascending
