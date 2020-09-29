@@ -23,7 +23,9 @@ from allennlp.modules.token_embedders import Embedding
 from allennlp.modules.text_field_embedders import BasicTextFieldEmbedder
 from allennlp.modules.seq2seq_encoders import PytorchTransformer
 from allennlp_models.rc.modules.seq2seq_encoders import StackedSelfAttentionEncoder
-from allennlp_models.generation.models import SimpleSeq2Seq
+from allennlp_models.generation.models import SimpleSeq2Seq, ComposedSeq2Seq
+from allennlp_models.generation.modules import AutoRegressiveSeqDecoder, SeqDecoder
+from allennlp_models.generation.modules import StackedSelfAttentionDecoderNet
 from allennlp.data import DataLoader, PyTorchDataLoader
 from allennlp.data.dataset_readers.dataset_reader import DatasetReader, AllennlpDataset
 from allennlp.modules.attention import LinearAttention, BilinearAttention, DotProductAttention
@@ -35,6 +37,7 @@ from allennlp_models.generation.predictors import Seq2SeqPredictor
 parser = argparse.ArgumentParser()
 parser.add_argument("-debug", action='store_true', help="if used, pdb will be used in breakpoints")
 parser.add_argument("-pytorch-transformer", action='store_true', help="if used, PytorchTransformer will be used for the encoder")
+parser.add_argument("-composed-seq2seq", action='store_true', help="if used, the seq2seq will be built with the ComposedSeq2Seq class")
 
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
 parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
@@ -45,6 +48,8 @@ parser.add_argument("-epoch", required=False, help="number of epochs for trainin
 parser.add_argument("-beam", required=False, help="size of the beam for beam search decoding", default=3, type=int)
 parser.add_argument("-dropout", required=False, help="dropout probability", default=0.2, type=float)
 parser.add_argument("-drop-enc", required=False, help="encoder dropout rate, default 0.1", default=0.1, type=float)
+parser.add_argument("-drop-dec", required=False, help="encoder dropout rate, default 0.1", default=0.1, type=float)
+
 #parser.add_argument("-num-layers", required=False, help="number of layers of RNN", default=2, type=int)
 parser.add_argument("-enc-layers", required=False, help="number of layer in the encoder, default 3", default=3, type=int)
 parser.add_argument("-dec-layers", required=False, help="number of layer in the decoder, default 3", default=3, type=int)
@@ -96,11 +101,16 @@ validation_dataset.index_with(vocab)
 
 
 SRC_EMBEDDING_DIM = args["src_emb"]
+TG_EMBEDDING_DIM = args["tg_emb"]
 HIDDEN_DIM = args["hidden_dim"]
 
 src_embedding = Embedding(num_embeddings=vocab.get_vocab_size('tokens'),
                              embedding_dim=SRC_EMBEDDING_DIM)
 source_embedder = BasicTextFieldEmbedder({"tokens": src_embedding})
+
+trg_embedding = Embedding(num_embeddings=vocab.get_vocab_size('target_tokens'),
+                             embedding_dim=TG_EMBEDDING_DIM) # TODO
+target_embedder = BasicTextFieldEmbedder({{"target_tokens": trg_embedding}})
 
 # class StackedSelfAttentionEncoder(Seq2SeqEncoder):
 #  | def __init__(
@@ -126,6 +136,7 @@ enc_heads = args["enc_heads"]
 ff_dim = args["enc_pf"]
 proj_dim = args["proj_dim"]
 enc_dropout = args["drop_enc"]
+dec_dropout = args["drop_dec"]
 
 encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM,
                                       projection_dim=proj_dim, feedforward_hidden_dim=ff_dim, num_layers=enc_layers,
@@ -133,6 +144,7 @@ encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HI
 
 if args["pytorch_transformer"]:
     encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
+
 
 attention = DotProductAttention()
 max_decoding_steps = args["max_len"]
@@ -167,6 +179,68 @@ model = SimpleSeq2Seq(vocab, source_embedder, encoder, max_decoding_steps,
                           use_bleu=True, target_decoder_layers=dec_layers)
 
 model = model.cuda(CUDA_DEVICE)
+
+# class ComposedSeq2Seq(Model):
+#  | def __init__(
+#  |     self,
+#  |     vocab: Vocabulary,
+#  |     source_text_embedder: TextFieldEmbedder,
+#  |     encoder: Seq2SeqEncoder,
+#  |     decoder: SeqDecoder,
+#  |     tied_source_embedder_key: Optional[str] = None,
+#  |     initializer: InitializerApplicator = InitializerApplicator(),
+#  |     **kwargs
+#  | ) -> None
+
+
+# AutoRegressiveSeqDecoder#
+# class AutoRegressiveSeqDecoder(SeqDecoder):
+#  | def __init__(
+#  |     self,
+#  |     vocab: Vocabulary,
+#  |     decoder_net: DecoderNet,
+#  |     max_decoding_steps: int,
+#  |     target_embedder: Embedding,
+#  |     target_namespace: str = "tokens",
+#  |     tie_output_embedding: bool = False,
+#  |     scheduled_sampling_ratio: float = 0,
+#  |     label_smoothing_ratio: Optional[float] = None,
+#  |     beam_size: int = 4,
+#  |     tensor_based_metric: Metric = None,
+#  |     token_based_metric: Metric = None
+#  | ) -> None
+
+# class StackedSelfAttentionDecoderNet(DecoderNet):
+#  | def __init__(
+#  |     self,
+#  |     decoding_dim: int,
+#  |     target_embedding_dim: int,
+#  |     feedforward_hidden_dim: int,
+#  |     num_layers: int,
+#  |     num_attention_heads: int,
+#  |     use_positional_encoding: bool = True,
+#  |     positional_encoding_max_steps: int = 5000,
+#  |     dropout_prob: float = 0.1,
+#  |     residual_dropout_prob: float = 0.2,
+#  |     attention_dropout_prob: float = 0.1
+#  | ) -> None
+
+
+if args["composed_seq2seq"]:
+    encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
+
+    decoder_net = StackedSelfAttentionDecoderNet(decoding_dim=vocab.get_vocab_size('target_tokens'), target_embedding_dim=TG_EMBEDDING_DIM,
+                                                 feedforward_hidden_dim=128, num_layers=dec_layers,
+                                                 num_attention_heads=8, use_positional_encoding=True, dropout_prob=dec_dropout)
+
+    decoder = AutoRegressiveSeqDecoder(vocab=vocab, decoder_net=decoder_net, max_decoding_steps=max_decoding_steps,
+                                    target_embedder=target_embedder, target_namespace='target_tokens', beam_size=beam)
+    #decoder = None
+    model = ComposedSeq2Seq(vocab=vocab, source_text_embedder=source_embedder,
+                            encoder=encoder, decoder=decoder)
+
+
+
 LR = args["lr"]
 optimizer = optim.Adam(model.parameters(), lr=LR)
 
@@ -225,5 +299,5 @@ https://docs.allennlp.org/models/master/models/rc/modules/seq2seq_encoders/stack
 http://docs.allennlp.org/master/api/predictors/predictor/
 https://guide.allennlp.org/representing-text-as-features#6
 
-
+Composed seq2seq https://docs.allennlp.org/models/master/models/generation/models/composed_seq2seq/
 """
