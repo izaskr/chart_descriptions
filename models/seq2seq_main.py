@@ -236,7 +236,7 @@ if args["composed_seq2seq"]:
 
     decoder_net = StackedSelfAttentionDecoderNet(decoding_dim=vocab.get_vocab_size('target_tokens'), target_embedding_dim=TG_EMBEDDING_DIM,
                                                  feedforward_hidden_dim=128, num_layers=dec_layers,
-                                                 num_attention_heads=2, use_positional_encoding=True, dropout_prob=dec_dropout)
+                                                 num_attention_heads=dec_heads, use_positional_encoding=True, dropout_prob=dec_dropout)
 
     decoder = AutoRegressiveSeqDecoder(vocab=vocab, decoder_net=decoder_net, max_decoding_steps=max_decoding_steps,
                                     target_embedder=target_embedder, target_namespace='target_tokens', beam_size=beam)
