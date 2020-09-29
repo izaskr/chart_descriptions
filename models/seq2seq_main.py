@@ -190,9 +190,10 @@ for instance in test_dataset:
     # gold target tokens: cut off the @start@ and @end@ symbol
     trg_tokens = instance.fields['target_tokens'].tokens[1:-1]
     # predicted tokens: take the first one: ordered by logloss, ascending
-    pred_trg_tokens = results["predicted_tokens"][0]
+    pred_trg_tokens = [x for x in results["predicted_tokens"][0]]
     pred_trgs.append(pred_trg_tokens)
-    trgs.append([trg_tokens])
+    tmp = [z for z in trg_tokens]
+    trgs.append([tmp])
 
 test_bleu = bleu_score(pred_trgs, trgs)
 print(f'BLEU score (bleu-4 detokenized) on test data = {bleu_score*100:.2f}')
