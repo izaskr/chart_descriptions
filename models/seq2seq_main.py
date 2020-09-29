@@ -148,7 +148,6 @@ if args["pytorch_transformer"]:
 
 attention = DotProductAttention()
 max_decoding_steps = args["max_len"]
-TG_EMBEDDING_DIM = args["tg_emb"]
 beam = args["beam"]
 CUDA_DEVICE = 0
 
@@ -227,7 +226,7 @@ model = model.cuda(CUDA_DEVICE)
 
 
 if args["composed_seq2seq"]:
-    encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
+    #encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
 
     decoder_net = StackedSelfAttentionDecoderNet(decoding_dim=vocab.get_vocab_size('target_tokens'), target_embedding_dim=TG_EMBEDDING_DIM,
                                                  feedforward_hidden_dim=128, num_layers=dec_layers,
