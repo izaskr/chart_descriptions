@@ -32,6 +32,7 @@ from allennlp_models.generation.predictors import Seq2SeqPredictor
 
 
 parser = argparse.ArgumentParser()
+parser.add_argument("-debug", action='store_true', help="if used, pdb will be used in breakpoints")
 parser.add_argument("-src-emb", required=False, help="embedding size of source inputs", default=128, type=int)
 parser.add_argument("-tg-emb", required=False, help="embedding size of target inputs", default=128, type=int)
 parser.add_argument("-hidden-dim", required=False, help="dimension of hidden layer", default=128, type=int)
@@ -182,14 +183,16 @@ trgs, pred_trgs = [], []
 for instance in test_dataset:
     results = predictor.predict_instance(instance)
     # ['predictions', 'loss', 'class_log_probabilities', 'predicted_tokens']
-    import pdb; pdb.set_trace()
-    # print(instance.fields["source_tokens"].tokens)
-    # print(results["predicted_tokens"])
-    # print("\n"*3)
+    if args["debug"]:
+        import pdb; pdb.set_trace()
+
+    print(instance.fields["source_tokens"].tokens)
+    print(results["predicted_tokens"])
+    print("\n"*3)
     # gold target tokens: cut off the @start@ and @end@ symbol
     trg_tokens = instance.fields['target_tokens'].tokens[1:-1]
     # predicted tokens: take the first one: ordered by logloss, ascending
-    pred_trg_tokens = [x.text for x in results["predicted_tokens"][0]]
+    pred_trg_tokens = [x for x in results["predicted_tokens"][0]]
     pred_trgs.append(pred_trg_tokens)
     tmp = [z.text for z in trg_tokens]
     trgs.append([tmp])
