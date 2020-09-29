@@ -234,7 +234,7 @@ if args["composed_seq2seq"]:
     print("decoding dimension %d , target embeding dimensionality %d" % (vocab.get_vocab_size('target_tokens'), TG_EMBEDDING_DIM))
     print("number of heads in the encoder %d , in the decoder %d" % (enc_heads, dec_heads))
 
-    decoder_net = StackedSelfAttentionDecoderNet(decoding_dim=vocab.get_vocab_size('target_tokens'), target_embedding_dim=TG_EMBEDDING_DIM,
+    decoder_net = StackedSelfAttentionDecoderNet(decoding_dim=TG_EMBEDDING_DIM, target_embedding_dim=TG_EMBEDDING_DIM,
                                                  feedforward_hidden_dim=128, num_layers=dec_layers,
                                                  num_attention_heads=dec_heads, use_positional_encoding=True, dropout_prob=dec_dropout)
 
