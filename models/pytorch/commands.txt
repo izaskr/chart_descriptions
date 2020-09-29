@@ -15,6 +15,7 @@ parser.add_argument("-drop-enc", required=False, help="encoder dropout rate, def
 parser.add_argument("-drop-dec", required=False, help="decoder dropout, default 0.1", default=0.1, type=float)
 
 
+### larger LR, larger dim
 
 nohup nice python main.py -itype exhaustive -otype delex -id 0 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
 nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
@@ -22,3 +23,66 @@ nohup nice python main.py -itype set -otype delex -id 2 -lr 0.005 -hid-dim 512 -
 nohup nice python main.py -itype set -otype lex -id 3 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
 nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
 nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+
+nohup nice python main.py -itype exhaustive -otype delex -id 0 -lr 0.0005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.0005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype set -otype delex -id 2 -lr 0.0005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype set -otype lex -id 3 -lr 0.0005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.0005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.0005 -hid-dim 512 -enc-pf 1034 -dec-pf 1024 &
+
+# note the size of the hidden dimensions (hid-dim) has to be dividable by the number of heads, 512 and 8 work.
+
+nohup nice python main.py -itype exhaustive -otype delex -id 6 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 -max-len-src 100 &
+nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 -max-len-src 100 &
+nohup nice python main.py -itype set -otype delex -id 2 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 &
+nohup nice python main.py -itype set -otype lex -id 3 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 &
+nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 &
+nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 &
+
+
+nohup nice python main.py -itype exhaustive -otype delex -id 6 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype set -otype delex -id 2 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype set -otype lex -id 3 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 1024 -drop-enc 0.2 -drop-dec 0.2 &
+
+
+nohup nice python main.py -itype exhaustive -otype delex -id 6 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype set -otype delex -id 2 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype set -otype lex -id 3 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 &
+nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 &
+
+# fewer heads: from 8 to 6 DECODER
+
+nohup nice python main.py -itype exhaustive -otype delex -id 6 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 &
+nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 &
+nohup nice python main.py -itype set -otype delex -id 2 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 &
+nohup nice python main.py -itype set -otype lex -id 3 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 &
+nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 &
+nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 &
+
+# fewer heads: from 8 to 6 DECODER and ENCODER
+
+nohup nice python main.py -itype exhaustive -otype delex -id 6 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -enc-heads 6 &
+nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -enc-heads 6 &
+nohup nice python main.py -itype set -otype delex -id 2 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -enc-heads 6 &
+nohup nice python main.py -itype set -otype lex -id 3 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -enc-heads 6 &
+nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -enc-heads 6 &
+nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -enc-heads 6 &
+
+
+# 2 (instead of 3) layers in the decoder 
+
+nohup nice python main.py -itype exhaustive -otype delex -id 6 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -dec-layers 2 &
+nohup nice python main.py -itype exhaustive -otype lex -id 1 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -max-len-src 100 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -dec-layers 2  &
+nohup nice python main.py -itype set -otype delex -id 2 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -dec-layers 2 &
+nohup nice python main.py -itype set -otype lex -id 3 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -dec-layers 2 &
+nohup nice python main.py -itype copy -otype delex -id 4 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -dec-layers 2 &
+nohup nice python main.py -itype copy -otype lex -id 5 -lr 0.0005 -hid-dim 312 -enc-pf 1024 -dec-pf 512 -drop-enc 0.2 -drop-dec 0.2 -dec-heads 6 -dec-layers 2 &
+
+
+

@@ -12,6 +12,7 @@ Conda env allennlp_env  on tony-2
 import argparse
 import sys
 import spacy
+from torchtext.data.metrics import bleu_score
 import torch.optim as optim
 from allennlp_models.generation import Seq2SeqDatasetReader
 from allennlp.data.samplers import BucketBatchSampler
@@ -171,16 +172,46 @@ dev_data_loader = PyTorchDataLoader(validation_dataset,batch_sampler=BucketBatch
 trainer = GradientDescentTrainer(model=model, optimizer=optimizer,data_loader=train_data_loader,
                                  validation_data_loader=dev_data_loader,num_epochs=3)
 
-
+# run the training
+trainer.train()
+# define the predictor
 predictor = Seq2SeqPredictor(model, reader)
 
+trgs, pred_trgs = [], []
+
 for instance in test_dataset:
-    results=predictor.predict_instance(instance)
-    import pdb; pdb.set_trace()
+    results = predictor.predict_instance(instance)
+    # ['predictions', 'loss', 'class_log_probabilities', 'predicted_tokens']
+    #import pdb; pdb.set_trace()
+
     print(instance.fields["source_tokens"].tokens)
     print(results["predicted_tokens"])
     print("\n"*3)
+    # gold target tokens: cut off the @start@ and @end@ symbol
+    trg_tokens = instance.fields['target_tokens'].tokens[1:-1]
+    # predicted tokens: take the first one: ordered by logloss, ascending
+    pred_trg_tokens = results["predicted_tokens"][0]
+    pred_trgs.append(pred_trg_tokens)
+    trgs.append([trg_tokens])
 
+test_bleu = bleu_score(pred_trgs, trgs)
+print(f'BLEU score (bleu-4 detokenized) on test data = {bleu_score*100:.2f}')
+
+
+
+# instance.fields["source_tokens"].tokens
+# [@start@, YLABEL[percentage, of, women, representation],, XHIGHEST[insurance],, YHIGHESTAPPROX[63],,
+# YUNIT[%],, XLEAST[law, firm],, YLEAST[35], @end@]
+
+ # instance.fields['target_tokens'].tokens
+# [@start@, This, chart, shows, a, percentage, of, women, representation, in, different, sectors, in, Benoni, .,
+# \\n, From, the, chart, we, see, that, the, highest, percentage, of, women, representation, is, in, insurance, at,
+# 63, %, ., We, can, see, that, the, lowest, percentage, of, women, representation, is, in, law, firm,
+# at, 35, %, @end@]
+
+#bleu_score(pred_trgs, trgs)
+# pred_trgs - a list, where wach prediction is a list of tokens; pred_trgs = [ ["A", "c"], ["c", "b"] ]
+# trgs - a list, where each golden target is a list of tokens - in a list; trgs = [ [["a", "b"]], [["c", "d"]] ]
 
 
 # TODO: defualt setting raise an error
