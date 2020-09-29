@@ -232,7 +232,7 @@ if args["composed_seq2seq"]:
     #encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
     print("input dimension %d , source embeding dimensionality %d" % (vocab.get_vocab_size('tokens'), SRC_EMBEDDING_DIM))
     print("decoding dimension %d , target embeding dimensionality %d" % (vocab.get_vocab_size('target_tokens'), TG_EMBEDDING_DIM))
-    print("number of heads in the encoder &d , in the decoder &d" % (enc_heads, dec_heads))
+    print("number of heads in the encoder %d , in the decoder %d" % (enc_heads, dec_heads))
 
     decoder_net = StackedSelfAttentionDecoderNet(decoding_dim=vocab.get_vocab_size('target_tokens'), target_embedding_dim=TG_EMBEDDING_DIM,
                                                  feedforward_hidden_dim=128, num_layers=dec_layers,
@@ -245,6 +245,7 @@ if args["composed_seq2seq"]:
                             encoder=encoder, decoder=decoder)
 
 
+import pdb; pdb.set_trace()
 
 LR = args["lr"]
 optimizer = optim.Adam(model.parameters(), lr=LR)
