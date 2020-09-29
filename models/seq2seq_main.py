@@ -53,7 +53,7 @@ parser.add_argument("-drop-dec", required=False, help="encoder dropout rate, def
 #parser.add_argument("-num-layers", required=False, help="number of layers of RNN", default=2, type=int)
 parser.add_argument("-enc-layers", required=False, help="number of layer in the encoder, default 3", default=3, type=int)
 parser.add_argument("-dec-layers", required=False, help="number of layer in the decoder, default 3", default=3, type=int)
-parser.add_argument("-enc-heads", required=False, help="number of attention heads in the encoder, default 8", default=8, type=int)
+parser.add_argument("-enc-heads", required=False, help="number of attention heads in the encoder, default 2", default=2, type=int)
 parser.add_argument("-enc-pf", required=False, help="size of the hidden dim of the positional FF for the encoder, default 512", default=512, type=int)
 parser.add_argument("-proj-dim", required=False, help="dimension of the linear projections for the self-attention layers, default 128", default=128, type=int)
 parser.add_argument("-lr", required=False, help="learning rate, default 0.0005", default=0.0005, type=float)
