@@ -414,7 +414,7 @@ def calculate_bleu(data, src_field, trg_field, model, device, max_len=50):
         print("Target - GOLD\t", trg)
         print("Target - PRED\t",pred_trg)
         print("\n"*2)
-
+    import pdb; pdb.set_trace()
     return bleu_score(pred_trgs, trgs)
 
 
