@@ -287,7 +287,30 @@ test_bleu = bleu_score(pred_trgs, trgs)
 print(f'BLEU score (bleu-4 detokenized) on test data = {test_bleu*100:.2f}')
 
 
-
+# Traceback (most recent call last):
+#   File "seq2seq_main.py", line 250, in <module>
+#     LR = args["lr"]
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/training/trainer.py", line 867, in train
+#     train_metrics = self._train_epoch(epoch)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/training/trainer.py", line 589, in _train_epoch
+#     batch_outputs = self.batch_outputs(batch, for_training=True)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/training/trainer.py", line 479, in batch_outputs
+#     output_dict = self._pytorch_model(**batch)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+#     result = self.forward(*input, **kwargs)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp_models/generation/models/composed_seq2seq.py", line 121, in forward
+#     return self._decoder(state, target_tokens)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+#     result = self.forward(*input, **kwargs)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp_models/generation/modules/seq_decoders/auto_regressive.py", line 416, in forward
+#     output_dict = self._forward_loss(state_forward_loss, target_tokens)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp_models/generation/modules/seq_decoders/auto_regressive.py", line 161, in _forward_loss
+#     target_embedding = self.target_embedder(targets)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/torch/nn/modules/module.py", line 722, in _call_impl
+#     result = self.forward(*input, **kwargs)
+#   File "/home/CE/skrjanec/anaconda3/lib/python3.6/site-packages/allennlp/modules/text_field_embedders/basic_text_field_embedder.py", line 56, in forward
+#     if self._token_embedders.keys() != text_field_input.keys():
+# AttributeError: 'Tensor' object has no attribute 'keys'
 
 
 
