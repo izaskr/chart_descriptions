@@ -79,9 +79,13 @@ val_path = folder_pth + "tab_val_" + map[in_type][out_type] + ".txt"
 test_path = folder_pth + "tab_test_" + map[in_type][out_type] + ".txt"
 
 
+# reader = Seq2SeqDatasetReader(source_tokenizer=WhitespaceTokenizer(),target_tokenizer=WhitespaceTokenizer(),
+#                               source_token_indexers={'tokens': SingleIdTokenIndexer()},
+#                               target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
+
 reader = Seq2SeqDatasetReader(source_tokenizer=WhitespaceTokenizer(),target_tokenizer=WhitespaceTokenizer(),
                               source_token_indexers={'tokens': SingleIdTokenIndexer()},
-                              target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
+                              target_token_indexers={'target_tokens': SingleIdTokenIndexer(namespace='target_tokens')})
 
 train_dataset = reader.read(train_path)
 validation_dataset = reader.read(val_path)
