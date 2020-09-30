@@ -82,6 +82,7 @@ test_path = folder_pth + "tab_test_" + map[in_type][out_type] + ".txt"
 reader = Seq2SeqDatasetReader(source_tokenizer=WhitespaceTokenizer(),target_tokenizer=WhitespaceTokenizer(),
                               source_token_indexers={'tokens': SingleIdTokenIndexer()},
                               target_token_indexers={'tokens': SingleIdTokenIndexer(namespace='target_tokens')})
+
 train_dataset = reader.read(train_path)
 validation_dataset = reader.read(val_path)
 test_dataset = reader.read(test_path)
@@ -129,7 +130,6 @@ CUDA_DEVICE = 0
 
 
 
-
 #encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
 print("input dimension %d , source embeding dimensionality %d" % (vocab.get_vocab_size('tokens'), SRC_EMBEDDING_DIM))
 print("decoding dimension %d , target embeding dimensionality %d" % (vocab.get_vocab_size('target_tokens'), TG_EMBEDDING_DIM))
@@ -148,8 +148,8 @@ model = ComposedSeq2Seq(vocab=vocab, source_text_embedder=source_embedder,
 model = model.cuda(CUDA_DEVICE)
 
 
-
-#import pdb; pdb.set_trace()
+if args["debug"]:
+    import pdb; pdb.set_trace()
 
 LR = args["lr"]
 optimizer = optim.Adam(model.parameters(), lr=LR)
