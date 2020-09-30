@@ -117,13 +117,13 @@ dec_dropout = args["drop_dec"]
 
 encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM,
                                       projection_dim=proj_dim, feedforward_hidden_dim=ff_dim, num_layers=enc_layers,
-                                      num_attention_heads=enc_heads, dropout_prob=enc_dropout)
+                                      num_attention_heads=enc_heads, dropout_prob=enc_dropout, use_positional_encoding=True)
 
 # if args["pytorch_transformer"]:
 #     encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
 
 
-attention = DotProductAttention()
+#attention = DotProductAttention()
 max_decoding_steps = args["max_len"]
 beam = args["beam"]
 CUDA_DEVICE = 0
