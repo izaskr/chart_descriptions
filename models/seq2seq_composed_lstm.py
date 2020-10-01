@@ -47,6 +47,8 @@ parser.add_argument("-enc-heads", required=False, help="number of attention head
 parser.add_argument("-dec-heads", required=False, help="number of attention heads in the decoder, default 2", default=2, type=int)
 
 parser.add_argument("-enc-pf", required=False, help="size of the hidden dim of the positional FF for the encoder, default 512", default=512, type=int)
+parser.add_argument("-dec-pf", required=False, help="size of the hidden dim of the positional FF for the decoder, default 512", default=512, type=int)
+
 parser.add_argument("-proj-dim", required=False, help="dimension of the linear projections for the self-attention layers, default 128", default=128, type=int)
 parser.add_argument("-lr", required=False, help="learning rate, default 0.0005", default=0.0005, type=float)
 parser.add_argument("-encoder", required=False, help="encoder type: LSTM or Transformer", default="Transformer", type=str)
@@ -146,6 +148,7 @@ encoder = LstmSeq2SeqEncoder(input_size=SRC_EMBEDDING_DIM, hidden_size=HIDDEN_DI
 max_decoding_steps = args["max_len"]
 beam = args["beam"]
 CUDA_DEVICE = 0
+dec_pf_dim = args["dec_pf"]
 
 
 
@@ -155,7 +158,7 @@ print("decoding dimension %d , target embeding dimensionality %d" % (vocab.get_v
 print("number of heads in the encoder %d , in the decoder %d" % (enc_heads, dec_heads))
 
 decoder_net = StackedSelfAttentionDecoderNet(decoding_dim=TG_EMBEDDING_DIM, target_embedding_dim=TG_EMBEDDING_DIM,
-                                             feedforward_hidden_dim=128, num_layers=dec_layers,
+                                             feedforward_hidden_dim=dec_pf_dim, num_layers=dec_layers,
                                              num_attention_heads=dec_heads, use_positional_encoding=True, dropout_prob=dec_dropout)
 
 decoder = AutoRegressiveSeqDecoder(vocab=vocab, decoder_net=decoder_net, max_decoding_steps=max_decoding_steps,
