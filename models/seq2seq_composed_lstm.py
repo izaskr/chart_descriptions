@@ -12,6 +12,7 @@ from allennlp.modules.token_embedders import Embedding
 from allennlp.modules.text_field_embedders import BasicTextFieldEmbedder
 from allennlp.modules.seq2seq_encoders import PytorchTransformer
 from allennlp_models.rc.modules.seq2seq_encoders import StackedSelfAttentionEncoder
+from allennlp.modules.seq2seq_encoders import LstmSeq2SeqEncoder
 from allennlp_models.generation.models import SimpleSeq2Seq, ComposedSeq2Seq
 from allennlp_models.generation.modules import AutoRegressiveSeqDecoder, SeqDecoder
 from allennlp_models.generation.modules import StackedSelfAttentionDecoderNet
@@ -119,13 +120,27 @@ proj_dim = args["proj_dim"]
 enc_dropout = args["drop_enc"]
 dec_dropout = args["drop_dec"]
 
-encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM,
-                                      projection_dim=proj_dim, feedforward_hidden_dim=ff_dim, num_layers=enc_layers,
-                                      num_attention_heads=enc_heads, dropout_prob=enc_dropout, use_positional_encoding=True)
+# encoder = StackedSelfAttentionEncoder(input_dim=SRC_EMBEDDING_DIM, hidden_dim=HIDDEN_DIM,
+#                                       projection_dim=proj_dim, feedforward_hidden_dim=ff_dim, num_layers=enc_layers,
+#                                       num_attention_heads=enc_heads, dropout_prob=enc_dropout, use_positional_encoding=True)
 
 # if args["pytorch_transformer"]:
 #     encoder = PytorchTransformer(input_dim=SRC_EMBEDDING_DIM, num_layers=enc_layers)
 
+# @Seq2SeqEncoder.register("lstm")
+# class LstmSeq2SeqEncoder(PytorchSeq2SeqWrapper):
+#  | def __init__(
+#  |     self,
+#  |     input_size: int,
+#  |     hidden_size: int,
+#  |     num_layers: int = 1,
+#  |     bias: bool = True,
+#  |     dropout: float = 0.0,
+#  |     bidirectional: bool = False,
+#  |     stateful: bool = False
+#  | )
+
+encoder = LstmSeq2SeqEncoder(input_size=SRC_EMBEDDING_DIM, hidden_size=HIDDEN_DIM, num_layers=2,dropout=enc_dropout, bidirectional=True)
 
 #attention = DotProductAttention()
 max_decoding_steps = args["max_len"]
