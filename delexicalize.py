@@ -323,8 +323,8 @@ def create_split(dict_ids, split_type):
 
 def open_delex_key_value(corpus):
 	"""
-	Open the corpus XML, iteratively collects the summaries, delexicalizing chosen token
-	By default it delexicalizes tokes labeled with labels found in lex_delex.json, which comprises bar names, heights and relations
+	Open the corpus XML, iteratively collects the summaries, delexicalizing chosen tokens
+	By default it delexicalizes tokes labeled with labels found in lex_delex.json, which comprises bar names, heights and relations and plot title/topic
 	Other tokens (labeled or not) stay as is, with the labels removed.
 	The delexicalized version of the summaries is written into a .json
 	"""

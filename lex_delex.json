@@ -85,7 +85,8 @@
   "group_highest_Scnd_3rd_4th_least": "GRHIGHESTSECONDTHIRDFOURTHLEAST",
   "group_5th_least": "GRFIFTHLEAST",
   "group_highest_3rd_least": "GRHIGHESTTHIRDLEAST",
-  "x_axis_labels_rest": "BARSREST", "other_operation": "OTHEROPERATION"
+  "x_axis_labels_rest": "BARSREST", "other_operation": "OTHEROPERATION",
+  "topic": "PLOTTITLE"
 },
   "topic_information": {"topic": "PLOTTITLE", "t=0_a=b": "T0AB", "t=0_a=x": "T0AX",
   "t=0_a=y": "T0AY", "t=1_a=x": "T1AX", "t=1_a=b": "T1AB", "t=1_a=y": "T1AY"}
