@@ -16,7 +16,7 @@ from delexicalize import open_delex_key_value
 class DelexicalizedCorpus():
     def __init__(self):
 
-        self.xml_file = "/home/iza/chart_descriptions/data/chart_summaries_b01_toktest2.xml"
+        self.xml_file = "/home/skrjanec/chart_descriptions/data/chart_summaries_b01_toktest2.xml"
         self.topicwise = open_delex_key_value(self.xml_file)
 
         # major/great topic id: 14
@@ -38,9 +38,10 @@ class DelexicalizedCorpus():
                 if current_minor not in self.minorTopicID2summaryID2formats:
                     self.minorTopicID2summaryID2formats[current_minor] = {summaryID : tuple()}
 
-        #print(self.minorTopicID2summaryID2formats)
-        self.data_dir = "/home/iza/chart_descriptions/corpora_v02/keyvalue/complete"
-        self.plot_info_path = "/home/iza/chart_descriptions/data/json_data/chartID2plotInfo.json"
+        print(self.minorTopicID2summaryID2formats)
+
+        self.data_dir = "/home/skrjanec/chart_descriptions/corpora_v02/keyvalue/complete_different_split"
+        self.plot_info_path = "/home/skrjanec/chart_descriptions/data/json_data/chartID2plotInfo.json"
 
         # the function below will populate self.minorTopicID2summaryID2formats
         self.generate_exhaustive()
@@ -172,6 +173,7 @@ class DelexicalizedCorpus():
     def split_into_train_val_test(self):
         # split type = 2
         # each minor topic is split between train/val and test, so it appears in both main splits
+        all_summary_ids = set()
         print(self.major2minor)
         assigned = set()
         train_val_minor_IDs, test_minor_IDs, shared = set(), set(), set()
@@ -262,12 +264,32 @@ class DelexicalizedCorpus():
                 if minor_id in test_minor_IDs:
                     test_summaryIDs += list(all_sumIDs)
 
-        print("Number of summaries in train-val %d, and in test %d" % (len(train_summaryIDs), len(test_summaryIDs)))
+        #print("Number of summaries in train-val %d, and in test %d" % (len(train_summaryIDs), len(test_summaryIDs)))
         j = round((len(train_summaryIDs) + len(test_summaryIDs)) * 0.2)
         #print("size of val",j)
+        # self.train / val / test_summaryIDs are lists of summary IDs (e.g. "05_01-17")
         self.train_summaryIDs = train_summaryIDs[j:]
         self.val_summaryIDs = train_summaryIDs[:j]
         self.test_summaryIDs = test_summaryIDs
+
+        print("Changing the split: exclusive topics for the test set based on the IDs in "
+              "file %s" % "train_val_ids_exclusive.json")
+
+        self.train_summaryIDs, self.val_summaryIDs, self.test_summaryIDs = [], [], []
+        with open("train_val_ids_exclusive.json", "r") as m:
+            dict_train_val_ids = json.load(m)
+
+        self.train_summaryIDs = dict_train_val_ids["train"]
+        self.val_summaryIDs = dict_train_val_ids["val"]
+        # iterate over the dict of all topic IDs to pick out the test topic IDs: 12 and 18
+        for minor_id, all_sumIDs in self.minorTopicID2summaryID2formats.items():
+            if minor_id.startswith("12_") or minor_id.startswith("18_"):
+                self.test_summaryIDs.extend(list(all_sumIDs.keys()))
+
+        #import pdb; pdb.set_trace()
+        print("NUmber of chart-summary pairs in the train %d, val %d, and test %d split" %
+              (len(self.train_summaryIDs), len(self.val_summaryIDs), len(self.test_summaryIDs)))
+
 
 
     def write_output_tab_and_parallel(self, iotype): # source \t target

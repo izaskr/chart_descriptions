@@ -18,8 +18,11 @@ format_dirs = ["cpy", "set", "exh"]
 
 
 def tokenize_source(format_type):
-	original_dir = "complete_fixed/" + format_type
-	new_dir = "complete_fixed_tok/" + format_type
+	# original_dir = "complete_fixed/" + format_type
+	# new_dir = "complete_fixed_tok/" + format_type
+
+	original_dir = "complete_different_split/" + format_type
+	new_dir = "complete_different_split_fixed/" + format_type
 
 	# source files
 	sf = [f for f in os.listdir(original_dir) if "src" in f]
@@ -44,7 +47,10 @@ def tokenize_source(format_type):
 					kv_clean = kv.strip()
 					if kv_clean[-1] == "]":
 						kv_clean = kv_clean[:-1]
-					bindex = kv_clean.index("[")
+					try:
+						bindex = kv_clean.index("[")
+					except ValueError:
+						import pdb; pdb.set_trace()
 					key, value = kv_clean[:bindex], kv_clean[bindex+1:]
 
 					# nltk tokenization
@@ -100,8 +106,10 @@ def tokenize_source(format_type):
 #tokenize_source("exh")
 
 def tokenize_target(format_type):
-	original_dir = "complete_fixed/" + format_type
-	new_dir = "complete_fixed_tok/" + format_type
+	# original_dir = "complete_fixed/" + format_type
+	# new_dir = "complete_fixed_tok/" + format_type
+	original_dir = "complete_different_split/" + format_type
+	new_dir = "complete_different_split_fixed/" + format_type
 
 	# source files
 	sf = [f for f in os.listdir(original_dir) if "tgt" in f]
@@ -145,25 +153,6 @@ def tokenize_target(format_type):
 for form in format_dirs:
 	tokenize_source(form)
 	tokenize_target(form)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
