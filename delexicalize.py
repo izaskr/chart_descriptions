@@ -527,27 +527,28 @@ def open_delex_key_value(corpus):
 	print("Split mode", split_type)
 	print("Train", train_minor_IDs, "\n", "Test ",test_minor_IDs)
 
+	# DON'T WRITE INTO FILE
 
-	for greatTopicID, summaryIDs in topicwise.items():
-		#print("great topic ID", greatTopicID)
-		#print("summary IDs", summaryIDs.keys(), "\n"*3)
-		for one_story_id, (src_s, tg_s) in summaryIDs.items():
-			#print(one_story_id)
-			current_minor_id = one_story_id[:-3]
-			if current_minor_id in train_minor_IDs:
-				src_trainval.write(src_s + "\n")
-				tg_trainval.write(tg_s + "\n")
-			else:
-				src_test.write(src_s + "\n")
-				tg_test.write(tg_s + "\n")
-			#src.write(src_s + "\n")
-			#tg.write(tg_s + "\n")
-	#print(major2minor)
-	#print(minor2name)
-	src_trainval.close()
-	tg_trainval.close()
-	src_test.close()
-	tg_test.close()
+	# for greatTopicID, summaryIDs in topicwise.items():
+	# 	#print("great topic ID", greatTopicID)
+	# 	#print("summary IDs", summaryIDs.keys(), "\n"*3)
+	# 	for one_story_id, (src_s, tg_s) in summaryIDs.items():
+	# 		#print(one_story_id)
+	# 		current_minor_id = one_story_id[:-3]
+	# 		if current_minor_id in train_minor_IDs:
+	# 			src_trainval.write(src_s + "\n")
+	# 			tg_trainval.write(tg_s + "\n")
+	# 		else:
+	# 			src_test.write(src_s + "\n")
+	# 			tg_test.write(tg_s + "\n")
+	# 		#src.write(src_s + "\n")
+	# 		#tg.write(tg_s + "\n")
+	# #print(major2minor)
+	# #print(minor2name)
+	# src_trainval.close()
+	# tg_trainval.close()
+	# src_test.close()
+	# tg_test.close()
 	#src.close()
 	#tg.close()
 	return topicwise
