@@ -193,7 +193,7 @@ def write_json_files_and_mr(list_of_dictionaries, output_dir, split):
 
 
 def read_in_data(file_path, split, version, output_dir, write):
-    assert version in {"basic", "plusinferred"}
+    assert version in {"basic", "inferred"}
 
     all_sources = dict()
     all_sources_list = []
@@ -237,7 +237,7 @@ def read_in_data(file_path, split, version, output_dir, write):
     return final_parallel, all_sources, all_sources_list
 
 
-read_in_data("corpora_v02/keyvalue/complete_different_split_fixed/exh", "train", "basic",
-             "corpora_v02/keyvalue/KGPT/exclusive/basic", True)
+read_in_data("corpora_v02/keyvalue/complete_different_split_fixed/exh", "train", "inferred",
+             "corpora_v02/keyvalue/KGPT/exclusive/basic_plus_inferred", True)
 
 # <story story_id="10_02c-23">
