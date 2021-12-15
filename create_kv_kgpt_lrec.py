@@ -111,10 +111,13 @@ def write_json_files_and_mr(list_of_dictionaries, output_dir, split):
     # Write also the mapping of MR IDs
     # in the file, there will be the MR IDs _separator_ and the chart ID
     # get the chart ID - read in the ID from the split
-    if split in {"train", "val", "test"}:
+    if split in {"train", "val", "test"} and "mixed" not in output_dir:
         with open(os.path.join(root_repo_dir, "train_val_ids_exclusive.json"), "r", encoding="utf8") as fid:
             ids = json.load(fid)[split]
 
+    if split in {"train", "val", "test"} and "mixed" in output_dir:
+        with open(os.path.join(root_repo_dir, "corpora_v02/keyvalue/splits_combinations_ids.json"), "r") as fid:  # TODO: fix this later
+            ids = json.load(fid)["mixed"][split]
     # if split == "test":
     #     # open the file with test ids
     #     ids = []
@@ -237,7 +240,10 @@ def read_in_data(file_path, split, version, output_dir, write):
     return final_parallel, all_sources, all_sources_list
 
 
-read_in_data("corpora_v02/keyvalue/complete_different_split_fixed/exh", "train", "inferred",
-             "corpora_v02/keyvalue/KGPT/exclusive/basic_plus_inferred", True)
+# train, val, test
+# basic, inferred
+
+read_in_data("corpora_v02/keyvalue/complete_fixed_tok/exh", "train", "basic",
+             "corpora_v02/keyvalue/KGPT/mixed/basic", True)
 
 # <story story_id="10_02c-23">
