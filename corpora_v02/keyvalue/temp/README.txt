@@ -1,0 +1,1 @@
+Each of the subfolders has the train/val/test split (*_tgt.txt). The exclusive folder has suvh a split that 2 topics appear in the test set only. The mixed folder has all topics mixed across the data spits.
