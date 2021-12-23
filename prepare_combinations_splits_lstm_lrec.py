@@ -91,9 +91,13 @@ def read_in_exhaustive_source_write_file(path_to_source, split, test_domain, sco
     out_file = open(os.path.join(root_repo_dir, "corpora_v02/keyvalue/LSTM_lrec", scope + "_" + test_domain,
                                  split + "_src.txt"), "w")
 
+    if split == "test":
+        out_file = open(os.path.join(root_repo_dir, "corpora_v02/keyvalue/LSTM_lrec", scope + "_" + test_domain,
+                                     split + "_src_unique.txt"), "w")
+
     # load IDs - just for the test set
     with open(os.path.join(root_repo_dir, "splits_combinations_ids.json")) as fid:
-        test_ids = json.load(fid)[test_domain]["test"]
+        test_ids = json.load(fid)[test_domain]["test"]  # summary IDs
 
     written_check = set()
     with open(path_to_source, "r") as fs:
@@ -104,11 +108,11 @@ def read_in_exhaustive_source_write_file(path_to_source, split, test_domain, sco
                 if split in {"train", "val"}:
                     out_file.write(new_line + "\n")
                 if split == "test":
-                    if test_ids[j] in written_check:
+                    if test_ids[j][:-3] in written_check:
                         continue
                     if test_ids[j] not in written_check:
                         out_file.write(new_line + "\n")
-                        written_check.add(test_ids[j])
+                        written_check.add(test_ids[j][:-3])
     out_file.close()
 
     print("... Wrote file ", out_file)
